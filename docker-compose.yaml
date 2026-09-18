@@ -1,0 +1,41 @@
+version: '3.8'
+services:
+  db:
+    image: postgres:15
+    container_name: wf-postgres
+    environment:
+      POSTGRES_USER: weather
+      POSTGRES_PASSWORD: secret
+      POSTGRES_DB: weather
+    ports:
+      - "5432:5432"
+    volumes:
+      - db-data:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U $${POSTGRES_USER}"]
+      interval: 5s
+      timeout: 5s
+      retries: 10
+      start_period: 5s
+
+  app:
+    build: .
+    image: weatherflow:local
+    depends_on:
+      db:
+        condition: service_healthy
+    env_file:
+      - .env
+    environment:
+      POSTGRES_HOST: db
+      POSTGRES_USER: weather
+      POSTGRES_PASSWORD: secret
+      POSTGRES_DB: weather
+    volumes:
+      - ./data:/app/data
+      - ./logs:/app/logs
+    command: ["python","-u","-m","pipeline.main"]
+
+volumes:
+  db-data:
+ 
