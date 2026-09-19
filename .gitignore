@@ -11,3 +11,7 @@ wheels/
 .venv/
 __pycache__/
 *.pyc
+
+# Generated pipeline output
+data/
+logs/
