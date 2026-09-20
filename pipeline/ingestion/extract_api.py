@@ -2,6 +2,7 @@ import json
 import os
 
 import requests
+
 from dotenv import load_dotenv
 
 from common.logging import get_logger

@@ -1,7 +1,12 @@
-from pipeline.ingestion.extract_api import extract_openweather_data, extract_weatherapi_data
+from pipeline.ingestion.extract_api import (
+    extract_openweather_data,
+    extract_weatherapi_data,
+)
 from pipeline.ingestion.save_json import save_json
+
 from pipeline.validation.weather_validator import WeatherValidator
 from pipeline.transformation.weather_transform import WeatherTransform
+
 from pipeline.loaded.load_postresql import (
     ensure_database_ready,
     get_database_target,
