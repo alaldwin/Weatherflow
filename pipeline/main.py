@@ -1,8 +1,17 @@
-from pipeline.ingestion.extract_api import extract_openweather_data, extract_weatherapi_data
+from pipeline.ingestion.extract_api import (
+    extract_openweather_data,
+    extract_weatherapi_data,
+)
 from pipeline.ingestion.save_json import save_json
+
 from pipeline.validation.weather_validator import WeatherValidator
 from pipeline.transformation.weather_transform import WeatherTransform
-from pipeline.loaded.load_postresql import load_postgresql
+
+from pipeline.loaded.load_postresql import (
+    ensure_database_ready,
+    get_database_target,
+    load_postgresql,
+)
 from pipeline.loaded.save_parquet import save_parquet
 
 from common.logging import get_logger
@@ -15,61 +24,75 @@ def slugify(value: str) -> str:
     return value.strip().lower().replace(" ", "_")
 
 
-def main():
-    try:
-        
-        """Extract, validate, transform, and optionally store weather data for each city."""
+def main() -> int:
+    """Extract, validate, transform, and load weather data for each city."""
 
-        for city, coordinates in CITIES.items():
+    failed_loads: list[str] = []
 
-            latitude = coordinates["latitude"]
-            longitude = coordinates["longitude"]
+    if ensure_database_ready():
+        logger.info(f"PostgreSQL connection OK ({get_database_target()}).")
+    else:
+        logger.error(
+            "Continuing without loading into PostgreSQL because the database is "
+            "unreachable. Transformed data is still saved as JSON and Parquet."
+        )
 
-            openweather_data = extract_openweather_data(latitude, longitude, city)
-            weatherapi_data = extract_weatherapi_data(latitude, longitude, city)
+    for city, coordinates in CITIES.items():
 
-            if openweather_data:
+        latitude = coordinates["latitude"]
+        longitude = coordinates["longitude"]
 
+        openweather_data = extract_openweather_data(latitude, longitude, city)
+        weatherapi_data = extract_weatherapi_data(latitude, longitude, city)
+
+        if openweather_data:
+
+            try:
+                WeatherValidator.validate_openweather(openweather_data)
+                save_json(openweather_data, city, "openweather")
+
+                transformed = WeatherTransform(openweather_data, "openweather").transform()
+                save_parquet(transformed, slugify(city), "openweather")
+
+                table_name = f"openweather_{slugify(city)}"
                 try:
-                    WeatherValidator.validate_openweather(openweather_data)
-                    save_json(openweather_data, city, "openweather")
+                    load_postgresql(transformed, table_name)
+                except Exception as exc:
+                    failed_loads.append(table_name)
+                    logger.warning(f"Skipping PostgreSQL load for {city}: {exc}")
 
-                    transformed = WeatherTransform(openweather_data, "openweather").transform()
-                    save_parquet(transformed, slugify(city), "openweather")
+            except ValueError as exc:
+                logger.warning(f"OpenWeather data invalid for {city}: {exc}")
 
-                    try:
-                        load_postgresql(transformed, f"openweather_{slugify(city)}")
+        if weatherapi_data:
 
-                    except Exception as exc:
-                        logger.warning(f"Skipping PostgreSQL load for {city}: {exc}")
+            try:
+                WeatherValidator.validate_weatherapi(weatherapi_data)
+                save_json(weatherapi_data, city, "weatherapi")
 
-                except ValueError as exc:
-                    logger.warning(f"OpenWeather data invalid for {city}: {exc}")
+                transformed = WeatherTransform(weatherapi_data, "weatherapi").transform()
+                save_parquet(transformed, slugify(city), "weatherapi")
 
-            if weatherapi_data:
-
+                table_name = f"weatherapi_{slugify(city)}"
                 try:
-                    WeatherValidator.validate_weatherapi(weatherapi_data)
-                    save_json(weatherapi_data, city, "weatherapi")
+                    load_postgresql(transformed, table_name)
+                except Exception as exc:
+                    failed_loads.append(table_name)
+                    logger.warning(f"Skipping PostgreSQL load for {city}: {exc}")
 
-                    transformed = WeatherTransform(weatherapi_data, "weatherapi").transform()
-                    save_parquet(transformed, slugify(city), "weatherapi")
+            except ValueError as exc:
+                logger.warning(f"WeatherAPI data invalid for {city}: {exc}")
 
-                    try:
+    if failed_loads:
+        logger.error(
+            f"Weather pipeline finished with {len(failed_loads)} failed table load(s): "
+            f"{', '.join(failed_loads)}"
+        )
+        return 1
 
-                        load_postgresql(transformed, f"weatherapi_{slugify(city)}")
-
-                    except Exception as exc:
-                        logger.warning(f"Skipping PostgreSQL load for {city}: {exc}")
-
-                except ValueError as exc:
-                    logger.warning(f"WeatherAPI data invalid for {city}: {exc}")
-
-        logger.info("Weather extraction pipeline completed successfully.")
-
-    except Exception as e:
-        logger.error(f"Unexpected error in main function: {e}")
+    logger.info("Weather pipeline completed successfully.")
+    return 0
 
 
 if __name__ == "__main__":
-    main()
+    raise SystemExit(main())
