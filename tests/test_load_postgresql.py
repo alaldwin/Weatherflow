@@ -3,6 +3,7 @@ import pytest
 from sqlalchemy import create_engine, inspect, text
 from sqlalchemy.pool import StaticPool
 
+import pipeline.main as pipeline_main
 from pipeline.loaded.load_postresql import (
     REQUIRED_ENV_VARS,
     build_database_url,
@@ -10,9 +11,11 @@ from pipeline.loaded.load_postresql import (
     ensure_database_ready,
     get_database_name,
     get_maintenance_database,
+    load_all_parquet_to_postgresql,
     load_data_to_postgresql,
     load_postgresql,
 )
+from pipeline.loaded.save_parquet import save_parquet
 from pipeline.transformation.weather_transform import WeatherTransform
 
 
@@ -96,6 +99,75 @@ def test_transformed_data_loads_into_a_table(sqlite_engine):
     assert row.humidity == 69
 
 
+def test_save_parquet_from_raw_weather_payload(tmp_path):
+    payload = {
+        "name": "Manila",
+        "coord": {"lon": 120.9842, "lat": 14.5995},
+        "main": {"temp": 32.21, "pressure": 1011, "humidity": 69},
+        "wind": {"speed": 3.09, "deg": 150},
+        "weather": [{"id": 500, "main": "Rain", "description": "light rain"}],
+        "dt": 1700000000,
+    }
+
+    original_dir = save_parquet.__globals__["parquet_dir"]
+    save_parquet.__globals__["parquet_dir"] = tmp_path
+
+    try:
+        output_file = save_parquet(payload, "Manila", "openweather")
+    finally:
+        save_parquet.__globals__["parquet_dir"] = original_dir
+
+    assert output_file is not None
+    assert output_file.exists()
+    df = pl.read_parquet(output_file)
+    assert df["city"].to_list() == ["Manila"]
+    assert df["temperature"].to_list() == [32.21]
+
+
+def test_pipeline_main_saves_parquet_and_loads_to_postgresql(monkeypatch, tmp_path):
+    pipeline_main.CITIES = {"Manila": {"latitude": 14.5995, "longitude": 120.9842}}
+    payload = {
+        "coord": {"lon": 120.9842, "lat": 14.5995},
+        "weather": [{"id": 500, "main": "Rain", "description": "light rain"}],
+        "main": {"temp": 32.21, "pressure": 1011, "humidity": 69},
+        "wind": {"speed": 3.09, "deg": 150},
+        "name": "Manila",
+        "dt": 1700000000,
+    }
+    calls = []
+
+    monkeypatch.setattr(pipeline_main, "extract_openweather_data", lambda *args, **kwargs: payload)
+    monkeypatch.setattr(pipeline_main, "extract_geocoding_data", lambda *args, **kwargs: {"name": "Manila", "lat": 14.5995, "lon": 120.9842})
+    monkeypatch.setattr(pipeline_main, "is_new_data", lambda **kwargs: True)
+    monkeypatch.setattr(pipeline_main, "save_json", lambda **kwargs: tmp_path / "manila.json")
+    monkeypatch.setattr(pipeline_main, "update_state", lambda **kwargs: calls.append("state"))
+    monkeypatch.setattr(pipeline_main, "save_parquet", lambda df, city, source: calls.append((df, city, source)) or (tmp_path / f"{source}_{city}.parquet"))
+    monkeypatch.setattr(pipeline_main, "load_postgresql", lambda df, table_name, **kwargs: calls.append((df, table_name)) or 1)
+
+    result = pipeline_main.main()
+
+    assert result == 0
+    assert any(call == "state" for call in calls)
+    assert any(isinstance(call, tuple) and call[1] == "Manila" and call[2] == "openweather" for call in calls)
+    assert any(isinstance(call, tuple) and call[1] == "openweather_manila" for call in calls)
+
+
+def test_load_all_parquet_files_into_single_table(sqlite_engine, tmp_path):
+    city_a = pl.DataFrame({"city": ["Manila"], "temperature": [32.21], "source": ["openweather"]})
+    city_b = pl.DataFrame({"city": ["Cebu"], "temperature": [29.4], "source": ["openweather"]})
+    city_a.write_parquet(tmp_path / "manila.parquet")
+    city_b.write_parquet(tmp_path / "cebu.parquet")
+
+    rows = load_all_parquet_to_postgresql(tmp_path, "openweather_all", engine=sqlite_engine)
+
+    assert rows == 2
+    assert _count_rows(sqlite_engine, "openweather_all") == 2
+    with sqlite_engine.connect() as connection:
+        cities = connection.execute(text('SELECT city FROM "openweather_all" ORDER BY city')).scalars().all()
+
+    assert cities == ["Cebu", "Manila"]
+
+
 def test_default_load_replaces_previous_rows(sqlite_engine):
     df = pl.DataFrame({"city": ["Manila"], "temperature": [32.21]})
 
@@ -158,6 +230,20 @@ def test_empty_dataframe_is_skipped(sqlite_engine):
     empty = pl.DataFrame({"city": [], "temperature": []})
 
     assert load_postgresql(empty, "openweather_manila", engine=sqlite_engine) == 0
+
+
+def test_load_from_parquet_file_path(sqlite_engine, tmp_path):
+    parquet_path = tmp_path / "manila.parquet"
+    df = pl.DataFrame({"city": ["Manila"], "temperature": [32.21]})
+    df.write_parquet(parquet_path)
+
+    assert load_postgresql(parquet_path, "openweather_manila", engine=sqlite_engine) == 1
+
+    with sqlite_engine.connect() as connection:
+        row = connection.execute(text('SELECT city, temperature FROM "openweather_manila"')).one()
+
+    assert row.city == "Manila"
+    assert row.temperature == pytest.approx(32.21)
 
 
 def test_non_dataframe_input_is_rejected(sqlite_engine):

@@ -1,9 +1,9 @@
 # Weatherflow
 
 A small ETL pipeline that extracts current weather for Philippine cities from
-[OpenWeather](https://openweathermap.org/) and [WeatherAPI](https://www.weatherapi.com/),
-validates it, transforms it into Polars DataFrames and loads it into JSON files,
-Parquet files and a PostgreSQL database.
+[OpenWeather](https://openweathermap.org/), validates it, transforms it into
+Polars DataFrames and loads it into JSON files, Parquet files and a PostgreSQL
+database.
 
 ## Pipeline flow
 
@@ -64,11 +64,6 @@ docker compose --profile localdb run --rm -e POSTGRES_HOST=db app
 ```sql
 SELECT city, temperature, humidity, weather_description
 FROM   openweather_manila;
-
--- compare both sources side by side
-SELECT o.city, o.temperature AS openweather_temp, w.temperature AS weatherapi_temp
-FROM   openweather_manila o
-JOIN   weatherapi_manila  w USING (city);
 ```
 
 Connection settings for any client (pgAdmin, DBeaver, VS Code, DataGrip):
@@ -100,7 +95,6 @@ docker compose run --rm --no-deps app python -m scripts.inspect_data \
 | Variable | Description |
 | --- | --- |
 | `OPENWEATHER_API_KEY` | OpenWeather API key |
-| `WEATHERAPI_API_KEY` | WeatherAPI API key |
 | `POSTGRES_HOST` | Database host as seen from the host machine (default `localhost`) |
 | `POSTGRES_PORT` | Database port (default `5432`; bundled container uses `5433`) |
 | `POSTGRES_DB` | Database name, created automatically when missing |
@@ -114,9 +108,9 @@ docker compose run --rm --no-deps app python -m scripts.inspect_data \
 
 | Step | Location |
 | --- | --- |
-| Raw JSON | `data/openweather/<city>_<YYYY-MM-DD>.json`, `data/weatherapi/<city>_<YYYY-MM-DD>.json` |
+| Raw JSON | `data/openweather/<city>_<YYYY-MM-DD>.json` |
 | Transformed Parquet | `data/parquet/<source>/<city>.parquet` |
-| PostgreSQL | `openweather_<city>` and `weatherapi_<city>` tables (one per city and source) |
+| PostgreSQL | `openweather_<city>` tables (one per city) |
 | Logs | `logs/*.log` |
 
 The load step uses SQLAlchemy with `psycopg2`. The database is created when

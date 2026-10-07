@@ -79,10 +79,8 @@ def save_json(
 
     observation_time = _get_observation_time(data)
 
-    # --------------------------------------------------
-    # FIRST LOAD
-    # --------------------------------------------------
 
+    # FIRST LOAD
     if not output_file.exists():
 
         records = [data]

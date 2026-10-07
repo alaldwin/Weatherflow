@@ -1,6 +1,7 @@
 import json
 import math
 import os
+from pathlib import Path
 from typing import Any
 from urllib.parse import quote_plus
 
@@ -26,7 +27,7 @@ from sqlalchemy.engine import Connection, Engine
 
 from common.logging import get_logger
 
-logger = get_logger(__name__, "load_postresql.log")
+logger = get_logger(__name__, "load_postgresql.log")
 
 load_dotenv()
 
@@ -39,7 +40,7 @@ REQUIRED_ENV_VARS = (
 )
 
 VALID_IF_EXISTS = ("replace", "append", "fail")
-DEFAULT_IF_EXISTS = "replace"
+DEFAULT_IF_EXISTS = "replace"  # Default behavior when POSTGRES_IF_EXISTS is not set
 
 
 def build_database_url() -> str:
@@ -268,17 +269,37 @@ def _ensure_columns(connection: Connection, table_name: str, df: pl.DataFrame, s
         )
 
 
+def _coerce_data_frame(
+    data: pl.DataFrame | pl.LazyFrame | str | os.PathLike[str],
+) -> pl.DataFrame:
+    """Normalize DataFrame inputs, including a parquet file path."""
+
+    if isinstance(data, (str, os.PathLike)):
+        parquet_path = Path(data)
+        if not parquet_path.exists():
+            raise FileNotFoundError(f"Parquet file does not exist: {parquet_path}")
+        return pl.read_parquet(parquet_path)
+
+    if isinstance(data, pl.LazyFrame):
+        return data.collect()
+
+    if isinstance(data, pl.DataFrame):
+        return data
+
+    raise TypeError(f"load_postgresql expects a Polars DataFrame or parquet path, got {type(data)!r}")
+
+
 def load_postgresql(
-    df: pl.DataFrame,
+    df: pl.DataFrame | pl.LazyFrame | str | os.PathLike[str],
     table_name: str,
     if_exists: str | None = None,
     engine: Engine | None = None,
     schema: str | None = None,
 ) -> int:
-    """Load a transformed Polars DataFrame into PostgreSQL and return the row count.
+    """Load a transformed Polars DataFrame or parquet file into PostgreSQL.
 
     Args:
-        df: Transformed weather data (output of ``WeatherTransform.transform``).
+        df: Transformed weather data or a parquet file path.
         table_name: Destination table, e.g. ``openweather_manila``.
         if_exists: ``replace`` (default) refreshes the table, ``append`` keeps
             existing rows, ``fail`` raises when the table already exists. When
@@ -287,11 +308,7 @@ def load_postgresql(
         schema: Optional PostgreSQL schema (defaults to the connection default).
     """
 
-    if isinstance(df, pl.LazyFrame):
-        df = df.collect()
-
-    if not isinstance(df, pl.DataFrame):
-        raise TypeError(f"load_postgresql expects a Polars DataFrame, got {type(df)!r}")
+    df = _coerce_data_frame(df)
 
     if df.height == 0:
         logger.warning(f"No rows to load into PostgreSQL table {table_name}; skipping.")
@@ -332,9 +349,41 @@ def load_postgresql(
         raise
 
 
-def load_data_to_postgresql(df: pl.DataFrame, table_name: str, **kwargs: Any) -> int:
+def load_data_to_postgresql(df: pl.DataFrame | pl.LazyFrame | str | os.PathLike[str], table_name: str, **kwargs: Any) -> int:
     """Backward-compatible alias used by older imports."""
 
     return load_postgresql(df, table_name, **kwargs)
-    return load_postgresql(df, table_name)
+
+
+def load_parquet_to_postgresql(
+    parquet_path: str | os.PathLike[str],
+    table_name: str,
+    **kwargs: Any,
+) -> int:
+    """Load a local parquet file into PostgreSQL."""
+
+    return load_postgresql(parquet_path, table_name, **kwargs)
+
+
+def load_all_parquet_to_postgresql(
+    parquet_dir: str | os.PathLike[str],
+    table_name: str = "openweather_all",
+    if_exists: str | None = None,
+    engine: Engine | None = None,
+    schema: str | None = None,
+) -> int:
+    """Load every parquet file in a directory into one PostgreSQL table."""
+
+    directory = Path(parquet_dir)
+    if not directory.exists():
+        raise FileNotFoundError(f"Parquet directory does not exist: {directory}")
+
+    files = sorted(directory.glob("*.parquet"))
+    if not files:
+        logger.warning(f"No parquet files found in {directory}; nothing to load.")
+        return 0
+
+    frames = [pl.read_parquet(file) for file in files]
+    combined = pl.concat(frames, how="vertical_relaxed") if frames else pl.DataFrame()
+    return load_postgresql(combined, table_name, if_exists=if_exists, engine=engine, schema=schema)
 

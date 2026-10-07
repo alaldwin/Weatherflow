@@ -1,1 +1,0 @@
-"""Helper scripts for setting up and inspecting the weather pipeline."""

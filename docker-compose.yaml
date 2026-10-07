@@ -1,51 +1,71 @@
 # Weatherflow pipeline.
 #
-# Default target: the PostgreSQL server already installed on your machine
-# (the one pgAdmin is registered to), reached from inside the container via
-# host.docker.internal.
-#
-#   docker compose run --rm app                     # load into local PostgreSQL
-#   docker compose --profile localdb up -d db       # optional bundled database
-#
+
 services:
+
   app:
-    build: .
+    build:
+      context: .
+      dockerfile: pipeline/Dockerfile
     image: weatherflow:local
+
     env_file:
       - .env
-    environment:
-      # A container never sees the host as "localhost"; host.docker.internal is
-      # the machine that runs Docker (and therefore your PostgreSQL service).
-      POSTGRES_HOST: ${APP_POSTGRES_HOST:-host.docker.internal}
-      POSTGRES_PORT: ${APP_POSTGRES_PORT:-5432}
+
+    environment: 
+      POSTGRES_HOST: db
+      POSTGRES_PORT: 5432
+      POSTGRES_DB: ${POSTGRES_DB:-db_weatherflow}
+      POSTGRES_USER: ${POSTGRES_USER:-weatherflow}
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD:-weatherflow}
+
+    depends_on:
+      db:
+        condition: service_healthy
+
     extra_hosts:
       - "host.docker.internal:host-gateway"
+
     volumes:
       - ./data:/app/data
       - ./logs:/app/logs
+
+    networks:
+      - weatherflow_net
+
     command: ["python", "-m", "pipeline.main"]
 
-  # Optional self-contained database, started only with --profile localdb.
-  # Published on 5433 so it never clashes with a PostgreSQL service on 5432.
-  # Pair it with: docker compose --profile localdb run --rm -e POSTGRES_HOST=db app
+
   db:
-    profiles: ["localdb"]
+
     image: postgres:15
     container_name: wf-postgres
+
     environment:
       POSTGRES_USER: ${POSTGRES_USER:-weatherflow}
       POSTGRES_PASSWORD: ${POSTGRES_PASSWORD:-weatherflow}
-      POSTGRES_DB: ${POSTGRES_DB:-weatherflow}
+      POSTGRES_DB: ${POSTGRES_DB:-db_weatherflow}
+
     ports:
       - "${POSTGRES_CONTAINER_PORT:-5433}:5432"
+
     volumes:
       - db-data:/var/lib/postgresql/data
+
+    networks:
+      - weatherflow_net
+
     healthcheck:
       test: ["CMD-SHELL", "pg_isready -U $${POSTGRES_USER} -d $${POSTGRES_DB}"]
       interval: 5s
       timeout: 5s
       retries: 10
       start_period: 5s
+
+networks:
+  weatherflow_net:
+    name: weatherflow_net
+    driver: bridge
 
 volumes:
   db-data:
