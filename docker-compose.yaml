@@ -1,41 +1,71 @@
-version: '3.8'
+# Weatherflow pipeline.
+#
+
 services:
+
+  app:
+    build:
+      context: .
+      dockerfile: pipeline/Dockerfile
+    image: weatherflow:local
+
+    env_file:
+      - .env
+
+    environment: 
+      POSTGRES_HOST: db
+      POSTGRES_PORT: 5432
+      POSTGRES_DB: ${POSTGRES_DB:-db_weatherflow}
+      POSTGRES_USER: ${POSTGRES_USER:-weatherflow}
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD:-weatherflow}
+
+    depends_on:
+      db:
+        condition: service_healthy
+
+    extra_hosts:
+      - "host.docker.internal:host-gateway"
+
+    volumes:
+      - ./data:/app/data
+      - ./logs:/app/logs
+
+    networks:
+      - weatherflow_net
+
+    command: ["python", "-m", "pipeline.main"]
+
+
   db:
+
     image: postgres:15
     container_name: wf-postgres
+
     environment:
-      POSTGRES_USER: weather
-      POSTGRES_PASSWORD: secret
-      POSTGRES_DB: weather
+      POSTGRES_USER: ${POSTGRES_USER:-weatherflow}
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD:-weatherflow}
+      POSTGRES_DB: ${POSTGRES_DB:-db_weatherflow}
+
     ports:
-      - "5432:5432"
+      - "${POSTGRES_CONTAINER_PORT:-5433}:5432"
+
     volumes:
       - db-data:/var/lib/postgresql/data
+
+    networks:
+      - weatherflow_net
+
     healthcheck:
-      test: ["CMD-SHELL", "pg_isready -U $${POSTGRES_USER}"]
+      test: ["CMD-SHELL", "pg_isready -U $${POSTGRES_USER} -d $${POSTGRES_DB}"]
       interval: 5s
       timeout: 5s
       retries: 10
       start_period: 5s
 
-  app:
-    build: .
-    image: weatherflow:local
-    depends_on:
-      db:
-        condition: service_healthy
-    env_file:
-      - .env
-    environment:
-      POSTGRES_HOST: db
-      POSTGRES_USER: weather
-      POSTGRES_PASSWORD: secret
-      POSTGRES_DB: weather
-    volumes:
-      - ./data:/app/data
-      - ./logs:/app/logs
-    command: ["python","-u","-m","pipeline.main"]
+networks:
+  weatherflow_net:
+    name: weatherflow_net
+    driver: bridge
 
 volumes:
   db-data:
- 
