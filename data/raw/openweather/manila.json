@@ -1,0 +1,959 @@
+[
+    {
+        "city": "Manila",
+        "latitude": 14.5995,
+        "longitude": 120.9842,
+        "temperature": 30.52,
+        "feels_like": 36.34,
+        "temp_min": 28.36,
+        "temp_max": 31,
+        "pressure": 1010,
+        "humidity": 70,
+        "visibility": 10000,
+        "wind_speed": 1.54,
+        "wind_direction": 210,
+        "cloudiness": 100,
+        "weather_id": 500,
+        "weather_main": "Rain",
+        "weather_description": "light rain",
+        "observation_time": "2026-10-06T10:15:21+00:00",
+        "source": "openweather",
+        "ingested_time": "2026-10-06T10:15:21.371995+00:00"
+    },
+    {
+        "coord": {
+            "lon": 120.9842,
+            "lat": 14.5995
+        },
+        "weather": [
+            {
+                "id": 501,
+                "main": "Rain",
+                "description": "moderate rain",
+                "icon": "10n"
+            }
+        ],
+        "base": "stations",
+        "main": {
+            "temp": 29.84,
+            "feels_like": 36.84,
+            "temp_min": 28.36,
+            "temp_max": 30,
+            "pressure": 1011,
+            "humidity": 79,
+            "sea_level": 1011,
+            "grnd_level": 1014
+        },
+        "visibility": 10000,
+        "wind": {
+            "speed": 1.03,
+            "deg": 0
+        },
+        "rain": {
+            "1h": 1.18
+        },
+        "clouds": {
+            "all": 100
+        },
+        "dt": 1791284879,
+        "sys": {
+            "type": 1,
+            "id": 8160,
+            "country": "PH",
+            "sunrise": 1791236757,
+            "sunset": 1791279749
+        },
+        "timezone": 28800,
+        "id": 1692184,
+        "name": "Quiapo District",
+        "cod": 200
+    },
+    {
+        "coord": {
+            "lon": 120.9842,
+            "lat": 14.5995
+        },
+        "weather": [
+            {
+                "id": 500,
+                "main": "Rain",
+                "description": "light rain",
+                "icon": "10n"
+            }
+        ],
+        "base": "stations",
+        "main": {
+            "temp": 29.66,
+            "feels_like": 36.64,
+            "temp_min": 28.36,
+            "temp_max": 30,
+            "pressure": 1012,
+            "humidity": 80,
+            "sea_level": 1012,
+            "grnd_level": 1015
+        },
+        "visibility": 10000,
+        "wind": {
+            "speed": 1.03,
+            "deg": 0
+        },
+        "rain": {
+            "1h": 0.93
+        },
+        "clouds": {
+            "all": 85
+        },
+        "dt": 1791287901,
+        "sys": {
+            "type": 1,
+            "id": 8160,
+            "country": "PH",
+            "sunrise": 1791236757,
+            "sunset": 1791279749
+        },
+        "timezone": 28800,
+        "id": 1692184,
+        "name": "Quiapo District",
+        "cod": 200
+    },
+    {
+        "coord": {
+            "lon": 120.9842,
+            "lat": 14.5995
+        },
+        "weather": [
+            {
+                "id": 500,
+                "main": "Rain",
+                "description": "light rain",
+                "icon": "10n"
+            }
+        ],
+        "base": "stations",
+        "main": {
+            "temp": 29.66,
+            "feels_like": 35.87,
+            "temp_min": 27.81,
+            "temp_max": 30,
+            "pressure": 1012,
+            "humidity": 77,
+            "sea_level": 1012,
+            "grnd_level": 1015
+        },
+        "visibility": 10000,
+        "wind": {
+            "speed": 1.54,
+            "deg": 240
+        },
+        "rain": {
+            "1h": 0.93
+        },
+        "clouds": {
+            "all": 85
+        },
+        "dt": 1791288599,
+        "sys": {
+            "type": 1,
+            "id": 8160,
+            "country": "PH",
+            "sunrise": 1791236757,
+            "sunset": 1791279749
+        },
+        "timezone": 28800,
+        "id": 1688216,
+        "name": "Santa Cruz",
+        "cod": 200
+    },
+    {
+        "coord": {
+            "lon": 120.9842,
+            "lat": 14.5995
+        },
+        "weather": [
+            {
+                "id": 500,
+                "main": "Rain",
+                "description": "light rain",
+                "icon": "10n"
+            }
+        ],
+        "base": "stations",
+        "main": {
+            "temp": 30,
+            "feels_like": 36.04,
+            "temp_min": 28.95,
+            "temp_max": 30,
+            "pressure": 1013,
+            "humidity": 74,
+            "sea_level": 1013,
+            "grnd_level": 1016
+        },
+        "visibility": 10000,
+        "wind": {
+            "speed": 1.54,
+            "deg": 240
+        },
+        "rain": {
+            "1h": 0.74
+        },
+        "clouds": {
+            "all": 100
+        },
+        "dt": 1791291248,
+        "sys": {
+            "type": 1,
+            "id": 8160,
+            "country": "PH",
+            "sunrise": 1791236757,
+            "sunset": 1791279749
+        },
+        "timezone": 28800,
+        "id": 1692184,
+        "name": "Quiapo District",
+        "cod": 200
+    },
+    {
+        "coord": {
+            "lon": 120.9842,
+            "lat": 14.5995
+        },
+        "weather": [
+            {
+                "id": 500,
+                "main": "Rain",
+                "description": "light rain",
+                "icon": "10d"
+            }
+        ],
+        "base": "stations",
+        "main": {
+            "temp": 33.39,
+            "feels_like": 40.39,
+            "temp_min": 32.81,
+            "temp_max": 33.39,
+            "pressure": 1010,
+            "humidity": 64,
+            "sea_level": 1010,
+            "grnd_level": 1013
+        },
+        "visibility": 10000,
+        "wind": {
+            "speed": 2.51,
+            "deg": 161,
+            "gust": 4.08
+        },
+        "rain": {
+            "1h": 0.13
+        },
+        "clouds": {
+            "all": 78
+        },
+        "dt": 1791358860,
+        "sys": {
+            "type": 2,
+            "id": 2005706,
+            "country": "PH",
+            "sunrise": 1791323163,
+            "sunset": 1791366107
+        },
+        "timezone": 28800,
+        "id": 1688216,
+        "name": "Santa Cruz",
+        "cod": 200
+    },
+    {
+        "coord": {
+            "lon": 120.98,
+            "lat": 14.6
+        },
+        "weather": [
+            {
+                "id": 500,
+                "main": "Rain",
+                "description": "light rain",
+                "icon": "10d"
+            }
+        ],
+        "base": "stations",
+        "main": {
+            "temp": 33.36,
+            "feels_like": 40.36,
+            "temp_min": 32.77,
+            "temp_max": 33.36,
+            "pressure": 1011,
+            "humidity": 64,
+            "sea_level": 1011,
+            "grnd_level": 1013
+        },
+        "visibility": 10000,
+        "wind": {
+            "speed": 2.51,
+            "deg": 161,
+            "gust": 4.08
+        },
+        "rain": {
+            "1h": 0.13
+        },
+        "clouds": {
+            "all": 78
+        },
+        "dt": 1791360720,
+        "sys": {
+            "type": 2,
+            "id": 2005706,
+            "country": "PH",
+            "sunrise": 1791323164,
+            "sunset": 1791366108
+        },
+        "timezone": 28800,
+        "id": 1688216,
+        "name": "Santa Cruz",
+        "cod": 200
+    },
+    {
+        "coord": {
+            "lon": 120.9842,
+            "lat": 14.5995
+        },
+        "weather": [
+            {
+                "id": 500,
+                "main": "Rain",
+                "description": "light rain",
+                "icon": "10d"
+            }
+        ],
+        "base": "stations",
+        "main": {
+            "temp": 31.99,
+            "feels_like": 37.36,
+            "temp_min": 31.99,
+            "temp_max": 31.99,
+            "pressure": 1010,
+            "humidity": 61,
+            "sea_level": 1010,
+            "grnd_level": 1013
+        },
+        "visibility": 10000,
+        "wind": {
+            "speed": 2.51,
+            "deg": 161,
+            "gust": 4.08
+        },
+        "rain": {
+            "1h": 0.13
+        },
+        "clouds": {
+            "all": 78
+        },
+        "dt": 1791361142,
+        "sys": {
+            "country": "PH",
+            "sunrise": 1791323163,
+            "sunset": 1791366107
+        },
+        "timezone": 28800,
+        "id": 1688216,
+        "name": "Santa Cruz",
+        "cod": 200
+    },
+    {
+        "coord": {
+            "lon": 120.9822,
+            "lat": 14.6042
+        },
+        "weather": [
+            {
+                "id": 500,
+                "main": "Rain",
+                "description": "light rain",
+                "icon": "10d"
+            }
+        ],
+        "base": "stations",
+        "main": {
+            "temp": 31.25,
+            "feels_like": 36.47,
+            "temp_min": 31.25,
+            "temp_max": 31.25,
+            "pressure": 1011,
+            "humidity": 64,
+            "sea_level": 1011,
+            "grnd_level": 1014
+        },
+        "visibility": 10000,
+        "wind": {
+            "speed": 2.59,
+            "deg": 131,
+            "gust": 4.71
+        },
+        "rain": {
+            "1h": 0.27
+        },
+        "clouds": {
+            "all": 71
+        },
+        "dt": 1791362411,
+        "sys": {
+            "country": "PH",
+            "sunrise": 1791323163,
+            "sunset": 1791366107
+        },
+        "timezone": 28800,
+        "id": 1688216,
+        "name": "Santa Cruz",
+        "cod": 200
+    },
+    {
+        "coord": {
+            "lon": 120.9842,
+            "lat": 14.5995
+        },
+        "weather": [
+            {
+                "id": 803,
+                "main": "Clouds",
+                "description": "broken clouds",
+                "icon": "04d"
+            }
+        ],
+        "base": "stations",
+        "main": {
+            "temp": 30.66,
+            "feels_like": 35.62,
+            "temp_min": 30.66,
+            "temp_max": 30.66,
+            "pressure": 1011,
+            "humidity": 66,
+            "sea_level": 1011,
+            "grnd_level": 1014
+        },
+        "visibility": 10000,
+        "wind": {
+            "speed": 3.15,
+            "deg": 109,
+            "gust": 4.65
+        },
+        "clouds": {
+            "all": 54
+        },
+        "dt": 1791366002,
+        "sys": {
+            "country": "PH",
+            "sunrise": 1791323163,
+            "sunset": 1791366107
+        },
+        "timezone": 28800,
+        "id": 1688216,
+        "name": "Santa Cruz",
+        "cod": 200
+    },
+    {
+        "coord": {
+            "lon": 120.9798,
+            "lat": 14.5971
+        },
+        "weather": [
+            {
+                "id": 500,
+                "main": "Rain",
+                "description": "light rain",
+                "icon": "10n"
+            }
+        ],
+        "base": "stations",
+        "main": {
+            "temp": 29.64,
+            "feels_like": 34.4,
+            "temp_min": 29.64,
+            "temp_max": 29.64,
+            "pressure": 1011,
+            "humidity": 71,
+            "sea_level": 1011,
+            "grnd_level": 1014
+        },
+        "visibility": 10000,
+        "wind": {
+            "speed": 4.06,
+            "deg": 112,
+            "gust": 5.55
+        },
+        "rain": {
+            "1h": 0.12
+        },
+        "clouds": {
+            "all": 55
+        },
+        "dt": 1791367730,
+        "sys": {
+            "country": "PH",
+            "sunrise": 1791323164,
+            "sunset": 1791366108
+        },
+        "timezone": 28800,
+        "id": 1688216,
+        "name": "Santa Cruz",
+        "cod": 200
+    },
+    {
+        "coord": {
+            "lon": 120.9842,
+            "lat": 14.5995
+        },
+        "weather": [
+            {
+                "id": 500,
+                "main": "Rain",
+                "description": "light rain",
+                "icon": "10n"
+            }
+        ],
+        "base": "stations",
+        "main": {
+            "temp": 30.32,
+            "feels_like": 36.63,
+            "temp_min": 30.32,
+            "temp_max": 30.32,
+            "pressure": 1012,
+            "humidity": 73,
+            "sea_level": 1012,
+            "grnd_level": 1014
+        },
+        "visibility": 10000,
+        "wind": {
+            "speed": 3.15,
+            "deg": 109,
+            "gust": 4.65
+        },
+        "rain": {
+            "1h": 0.1
+        },
+        "clouds": {
+            "all": 54
+        },
+        "dt": 1791368830,
+        "sys": {
+            "country": "PH",
+            "sunrise": 1791323163,
+            "sunset": 1791366107
+        },
+        "timezone": 28800,
+        "id": 1688216,
+        "name": "Santa Cruz",
+        "cod": 200
+    },
+    {
+        "coord": {
+            "lon": 120.9842,
+            "lat": 14.5995
+        },
+        "weather": [
+            {
+                "id": 500,
+                "main": "Rain",
+                "description": "light rain",
+                "icon": "10n"
+            }
+        ],
+        "base": "stations",
+        "main": {
+            "temp": 29.17,
+            "feels_like": 33.7,
+            "temp_min": 29.17,
+            "temp_max": 29.17,
+            "pressure": 1013,
+            "humidity": 73,
+            "sea_level": 1013,
+            "grnd_level": 1016
+        },
+        "visibility": 10000,
+        "wind": {
+            "speed": 3.74,
+            "deg": 102,
+            "gust": 4.8
+        },
+        "rain": {
+            "1h": 0.13
+        },
+        "clouds": {
+            "all": 38
+        },
+        "dt": 1791374359,
+        "sys": {
+            "country": "PH",
+            "sunrise": 1791323163,
+            "sunset": 1791366107
+        },
+        "timezone": 28800,
+        "id": 1688216,
+        "name": "Santa Cruz",
+        "cod": 200
+    },
+    {
+        "coord": {
+            "lon": 120.9842,
+            "lat": 14.5995
+        },
+        "weather": [
+            {
+                "id": 803,
+                "main": "Clouds",
+                "description": "broken clouds",
+                "icon": "04d"
+            }
+        ],
+        "base": "stations",
+        "main": {
+            "temp": 30.63,
+            "feels_like": 36.9,
+            "temp_min": 30.63,
+            "temp_max": 30.63,
+            "pressure": 1012,
+            "humidity": 71,
+            "sea_level": 1012,
+            "grnd_level": 1014
+        },
+        "visibility": 10000,
+        "wind": {
+            "speed": 1.57,
+            "deg": 256,
+            "gust": 1.7
+        },
+        "clouds": {
+            "all": 71
+        },
+        "dt": 1791515138,
+        "sys": {
+            "country": "PH",
+            "sunrise": 1791495976,
+            "sunset": 1791538824
+        },
+        "timezone": 28800,
+        "id": 1692184,
+        "name": "Quiapo District",
+        "cod": 200
+    },
+    {
+        "coord": {
+            "lon": 120.9842,
+            "lat": 14.5995
+        },
+        "weather": [
+            {
+                "id": 803,
+                "main": "Clouds",
+                "description": "broken clouds",
+                "icon": "04d"
+            }
+        ],
+        "base": "stations",
+        "main": {
+            "temp": 31,
+            "feels_like": 35.88,
+            "temp_min": 31,
+            "temp_max": 31,
+            "pressure": 1008,
+            "humidity": 64,
+            "sea_level": 1008,
+            "grnd_level": 1011
+        },
+        "visibility": 10000,
+        "wind": {
+            "speed": 2.79,
+            "deg": 184,
+            "gust": 2.64
+        },
+        "clouds": {
+            "all": 71
+        },
+        "dt": 1791535166,
+        "sys": {
+            "country": "PH",
+            "sunrise": 1791495976,
+            "sunset": 1791538824
+        },
+        "timezone": 28800,
+        "id": 1692184,
+        "name": "Quiapo District",
+        "cod": 200
+    },
+    {
+        "coord": {
+            "lon": 120.9842,
+            "lat": 14.5995
+        },
+        "weather": [
+            {
+                "id": 803,
+                "main": "Clouds",
+                "description": "broken clouds",
+                "icon": "04d"
+            }
+        ],
+        "base": "stations",
+        "main": {
+            "temp": 30.96,
+            "feels_like": 35.53,
+            "temp_min": 30.96,
+            "temp_max": 30.96,
+            "pressure": 1008,
+            "humidity": 63,
+            "sea_level": 1008,
+            "grnd_level": 1011
+        },
+        "visibility": 10000,
+        "wind": {
+            "speed": 2.79,
+            "deg": 184,
+            "gust": 2.64
+        },
+        "clouds": {
+            "all": 71
+        },
+        "dt": 1791537406,
+        "sys": {
+            "country": "PH",
+            "sunrise": 1791495976,
+            "sunset": 1791538824
+        },
+        "timezone": 28800,
+        "id": 1692184,
+        "name": "Quiapo District",
+        "cod": 200
+    },
+    {
+        "coord": {
+            "lon": 120.9842,
+            "lat": 14.5995
+        },
+        "weather": [
+            {
+                "id": 803,
+                "main": "Clouds",
+                "description": "broken clouds",
+                "icon": "04d"
+            }
+        ],
+        "base": "stations",
+        "main": {
+            "temp": 29.93,
+            "feels_like": 33.95,
+            "temp_min": 29.93,
+            "temp_max": 29.93,
+            "pressure": 1009,
+            "humidity": 66,
+            "sea_level": 1009,
+            "grnd_level": 1012
+        },
+        "visibility": 10000,
+        "wind": {
+            "speed": 3.56,
+            "deg": 165,
+            "gust": 4.19
+        },
+        "clouds": {
+            "all": 71
+        },
+        "dt": 1791538759,
+        "sys": {
+            "country": "PH",
+            "sunrise": 1791495976,
+            "sunset": 1791538824
+        },
+        "timezone": 28800,
+        "id": 1688216,
+        "name": "Santa Cruz",
+        "cod": 200,
+        "city": "Manila",
+        "source": "openweather",
+        "observation_time": "2026-10-09T09:39:19+00:00"
+    },
+    {
+        "coord": {
+            "lon": 120.9842,
+            "lat": 14.5995
+        },
+        "weather": [
+            {
+                "id": 803,
+                "main": "Clouds",
+                "description": "broken clouds",
+                "icon": "04n"
+            }
+        ],
+        "base": "stations",
+        "main": {
+            "temp": 29.9,
+            "feels_like": 33.88,
+            "temp_min": 29.9,
+            "temp_max": 29.9,
+            "pressure": 1009,
+            "humidity": 66,
+            "sea_level": 1009,
+            "grnd_level": 1012
+        },
+        "visibility": 10000,
+        "wind": {
+            "speed": 3.56,
+            "deg": 165,
+            "gust": 4.19
+        },
+        "clouds": {
+            "all": 71
+        },
+        "dt": 1791539692,
+        "sys": {
+            "country": "PH",
+            "sunrise": 1791495976,
+            "sunset": 1791538824
+        },
+        "timezone": 28800,
+        "id": 1688216,
+        "name": "Santa Cruz",
+        "cod": 200,
+        "city": "Manila",
+        "source": "openweather",
+        "observation_time": "2026-10-09T09:54:52+00:00"
+    },
+    {
+        "coord": {
+            "lon": 120.9842,
+            "lat": 14.5995
+        },
+        "weather": [
+            {
+                "id": 803,
+                "main": "Clouds",
+                "description": "broken clouds",
+                "icon": "04n"
+            }
+        ],
+        "base": "stations",
+        "main": {
+            "temp": 30.05,
+            "feels_like": 34.22,
+            "temp_min": 30.05,
+            "temp_max": 30.05,
+            "pressure": 1009,
+            "humidity": 66,
+            "sea_level": 1009,
+            "grnd_level": 1012
+        },
+        "visibility": 10000,
+        "wind": {
+            "speed": 3.56,
+            "deg": 165,
+            "gust": 4.19
+        },
+        "clouds": {
+            "all": 71
+        },
+        "dt": 1791540418,
+        "sys": {
+            "country": "PH",
+            "sunrise": 1791495976,
+            "sunset": 1791538824
+        },
+        "timezone": 28800,
+        "id": 1692184,
+        "name": "Quiapo District",
+        "cod": 200,
+        "city": "Manila",
+        "source": "openweather",
+        "observation_time": "2026-10-09T10:06:58+00:00"
+    },
+    {
+        "coord": {
+            "lon": 120.9842,
+            "lat": 14.5995
+        },
+        "weather": [
+            {
+                "id": 803,
+                "main": "Clouds",
+                "description": "broken clouds",
+                "icon": "04n"
+            }
+        ],
+        "base": "stations",
+        "main": {
+            "temp": 29.9,
+            "feels_like": 33.45,
+            "temp_min": 29.9,
+            "temp_max": 29.9,
+            "pressure": 1009,
+            "humidity": 64,
+            "sea_level": 1009,
+            "grnd_level": 1012
+        },
+        "visibility": 10000,
+        "wind": {
+            "speed": 3.56,
+            "deg": 165,
+            "gust": 4.19
+        },
+        "clouds": {
+            "all": 71
+        },
+        "dt": 1791541058,
+        "sys": {
+            "country": "PH",
+            "sunrise": 1791495976,
+            "sunset": 1791538824
+        },
+        "timezone": 28800,
+        "id": 1692184,
+        "name": "Quiapo District",
+        "cod": 200,
+        "city": "Manila",
+        "source": "openweather",
+        "observation_time": "2026-10-09T10:17:38+00:00"
+    },
+    {
+        "coord": {
+            "lon": 120.9842,
+            "lat": 14.5995
+        },
+        "weather": [
+            {
+                "id": 803,
+                "main": "Clouds",
+                "description": "broken clouds",
+                "icon": "04n"
+            }
+        ],
+        "base": "stations",
+        "main": {
+            "temp": 29.57,
+            "feels_like": 33.38,
+            "temp_min": 29.57,
+            "temp_max": 29.57,
+            "pressure": 1009,
+            "humidity": 67,
+            "sea_level": 1009,
+            "grnd_level": 1012
+        },
+        "visibility": 10000,
+        "wind": {
+            "speed": 3.65,
+            "deg": 140,
+            "gust": 4.15
+        },
+        "clouds": {
+            "all": 77
+        },
+        "dt": 1791541817,
+        "sys": {
+            "country": "PH",
+            "sunrise": 1791495976,
+            "sunset": 1791538824
+        },
+        "timezone": 28800,
+        "id": 1692184,
+        "name": "Quiapo District",
+        "cod": 200,
+        "city": "Manila",
+        "source": "openweather",
+        "observation_time": "2026-10-09T10:30:17+00:00"
+    }
+]

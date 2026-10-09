@@ -15,7 +15,7 @@ services:
     environment: 
       POSTGRES_HOST: db
       POSTGRES_PORT: 5432
-      POSTGRES_DB: ${POSTGRES_DB:-db_weatherflow}
+      POSTGRES_DB: ${POSTGRES_DB:-weatherflow}
       POSTGRES_USER: ${POSTGRES_USER:-weatherflow}
       POSTGRES_PASSWORD: ${POSTGRES_PASSWORD:-weatherflow}
 
@@ -44,10 +44,10 @@ services:
     environment:
       POSTGRES_USER: ${POSTGRES_USER:-weatherflow}
       POSTGRES_PASSWORD: ${POSTGRES_PASSWORD:-weatherflow}
-      POSTGRES_DB: ${POSTGRES_DB:-db_weatherflow}
+      POSTGRES_DB: ${POSTGRES_DB:-weatherflow}
 
     ports:
-      - "${POSTGRES_CONTAINER_PORT:-5433}:5432"
+      - "5433:5432"
 
     volumes:
       - db-data:/var/lib/postgresql/data
@@ -61,6 +61,7 @@ services:
       timeout: 5s
       retries: 10
       start_period: 5s
+       
 
 networks:
   weatherflow_net:

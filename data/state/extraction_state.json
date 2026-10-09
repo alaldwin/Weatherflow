@@ -1,0 +1,32 @@
+{
+  "openweather": {
+    "last_observation_time": null,
+    "Manila": {
+      "last_observation_time": "2026-10-09T10:30:17+00:00"
+    },
+    "Quezon City": {
+      "last_observation_time": "2026-10-09T10:34:30+00:00"
+    },
+    "Cebu City": {
+      "last_observation_time": "2026-10-09T10:28:44+00:00"
+    },
+    "Davao City": {
+      "last_observation_time": "2026-10-09T10:30:03+00:00"
+    },
+    "Baguio": {
+      "last_observation_time": "2026-10-09T10:27:11+00:00"
+    },
+    "Iloilo City": {
+      "last_observation_time": "2026-10-09T10:27:12+00:00"
+    },
+    "Cagayan de Oro": {
+      "last_observation_time": "2026-10-09T10:34:34+00:00"
+    },
+    "Zamboanga City": {
+      "last_observation_time": "2026-10-09T10:30:46+00:00"
+    }
+  },
+  "geocoding": {
+    "last_observation_time": null
+  }
+}

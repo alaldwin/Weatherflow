@@ -1,3 +1,5 @@
+from datetime import datetime, timezone
+
 import polars as pl
 import pytest
 from sqlalchemy import create_engine, inspect, text
@@ -5,7 +7,9 @@ from sqlalchemy.pool import StaticPool
 
 import pipeline.main as pipeline_main
 from pipeline.loaded.load_postresql import (
+    LOCATIONS_TABLE,
     REQUIRED_ENV_VARS,
+    WEATHER_TABLE,
     build_database_url,
     check_database_connection,
     ensure_database_ready,
@@ -84,7 +88,7 @@ def test_transformed_data_loads_into_a_table(sqlite_engine):
             text('SELECT city, temperature, humidity FROM "openweather_manila"')
         ).one()
 
-    assert columns == {
+    assert {
         "city",
         "latitude",
         "longitude",
@@ -93,7 +97,7 @@ def test_transformed_data_loads_into_a_table(sqlite_engine):
         "pressure",
         "weather_description",
         "wind_speed",
-    }
+    } <= columns
     assert row.city == "Manila"
     assert row.temperature == pytest.approx(32.21)
     assert row.humidity == 69
@@ -148,8 +152,58 @@ def test_pipeline_main_saves_parquet_and_loads_to_postgresql(monkeypatch, tmp_pa
 
     assert result == 0
     assert any(call == "state" for call in calls)
-    assert any(isinstance(call, tuple) and call[1] == "Manila" and call[2] == "openweather" for call in calls)
-    assert any(isinstance(call, tuple) and call[1] == "openweather_manila" for call in calls)
+    assert any(isinstance(call, tuple) and len(call) == 3 and call[1] == "Manila" and call[2] == "openweather" for call in calls)
+    assert any(isinstance(call, tuple) and len(call) == 2 and call[1] == WEATHER_TABLE for call in calls)
+
+
+def test_pipeline_main_uses_canonical_tables(monkeypatch, tmp_path):
+    pipeline_main.CITIES = {"Manila": {"latitude": 14.5995, "longitude": 120.9842}}
+    payload = {
+        "coord": {"lon": 120.9842, "lat": 14.5995},
+        "weather": [{"id": 500, "main": "Rain", "description": "light rain"}],
+        "main": {"temp": 32.21, "pressure": 1011, "humidity": 69},
+        "wind": {"speed": 3.09, "deg": 150},
+        "name": "Manila",
+        "dt": 1700000000,
+    }
+    calls = []
+
+    monkeypatch.setattr(pipeline_main, "extract_openweather_data", lambda *args, **kwargs: payload)
+    monkeypatch.setattr(pipeline_main, "extract_geocoding_data", lambda *args, **kwargs: {"name": "Manila", "lat": 14.5995, "lon": 120.9842})
+    monkeypatch.setattr(pipeline_main, "is_new_data", lambda **kwargs: True)
+    monkeypatch.setattr(pipeline_main, "save_json", lambda **kwargs: tmp_path / "manila.json")
+    monkeypatch.setattr(pipeline_main, "update_state", lambda **kwargs: calls.append("state"))
+    monkeypatch.setattr(pipeline_main, "save_parquet", lambda df, city, source: calls.append((df, city, source)) or (tmp_path / f"{source}_{city}.parquet"))
+
+    def fake_load(df, table_name, **kwargs):
+        calls.append(("load", table_name))
+        return 1
+
+    monkeypatch.setattr(pipeline_main, "load_postgresql", fake_load)
+
+    result = pipeline_main.main()
+
+    load_calls = [call for call in calls if isinstance(call, tuple) and len(call) == 2 and call[0] == "load"]
+
+    assert result == 0
+    assert any(call == ("load", LOCATIONS_TABLE) for call in load_calls)
+    assert any(call == ("load", WEATHER_TABLE) for call in load_calls)
+    assert all(call[1] != "openweather_manila" for call in load_calls)
+    assert all(call[1] != "geocoding_manila" for call in load_calls)
+
+
+def test_pipeline_main_returns_nonzero_when_city_fails(monkeypatch):
+    pipeline_main.CITIES = {"Manila": {"latitude": 14.5995, "longitude": 120.9842}}
+
+    monkeypatch.setattr(
+        pipeline_main,
+        "extract_openweather_data",
+        lambda *args, **kwargs: (_ for _ in ()).throw(RuntimeError("API failure")),
+    )
+
+    result = pipeline_main.main()
+
+    assert result == 1
 
 
 def test_load_all_parquet_files_into_single_table(sqlite_engine, tmp_path):
@@ -208,6 +262,38 @@ def test_append_mode_adds_missing_columns(sqlite_engine):
 
     assert "humidity" in columns
     assert humidity == 70
+
+
+def test_weather_table_append_adds_new_schema_columns(sqlite_engine):
+    first = pl.DataFrame(
+        {
+            "city": ["Manila"],
+            "observation_time": [datetime.now(timezone.utc)],
+            "source": ["openweather"],
+            "temperature": [32.21],
+        }
+    )
+    second = pl.DataFrame(
+        {
+            "city": ["Manila"],
+            "observation_time": [datetime.now(timezone.utc)],
+            "source": ["openweather"],
+            "temperature": [30.5],
+            "new_metric": [7.5],
+        }
+    )
+
+    load_postgresql(first, WEATHER_TABLE, engine=sqlite_engine, if_exists="append")
+    load_postgresql(second, WEATHER_TABLE, engine=sqlite_engine, if_exists="append")
+
+    with sqlite_engine.connect() as connection:
+        columns = {column["name"] for column in inspect(connection).get_columns(WEATHER_TABLE)}
+        new_metric = connection.execute(
+            text(f'SELECT "new_metric" FROM "{WEATHER_TABLE}" WHERE "new_metric" IS NOT NULL')
+        ).scalar_one()
+
+    assert "new_metric" in columns
+    assert new_metric == 7.5
 
 
 def test_fail_mode_raises_when_table_exists(sqlite_engine):

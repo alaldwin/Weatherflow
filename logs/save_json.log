@@ -1,0 +1,778 @@
+2026-09-18 13:40:53,894 | INFO | pipeline.ingestion.save_json | Saved data from openweather to /app/data/openweather/manila_2026-09-18.json
+2026-09-18 13:40:54,033 | INFO | pipeline.ingestion.save_json | Saved data from weatherapi to /app/data/weatherapi/manila_2026-09-18.json
+2026-09-18 13:40:54,544 | INFO | pipeline.ingestion.save_json | Saved data from openweather to /app/data/openweather/quezon_city_2026-09-18.json
+2026-09-18 13:40:54,603 | INFO | pipeline.ingestion.save_json | Saved data from weatherapi to /app/data/weatherapi/quezon_city_2026-09-18.json
+2026-09-18 13:40:55,117 | INFO | pipeline.ingestion.save_json | Saved data from openweather to /app/data/openweather/cebu_city_2026-09-18.json
+2026-09-18 13:40:55,182 | INFO | pipeline.ingestion.save_json | Saved data from weatherapi to /app/data/weatherapi/cebu_city_2026-09-18.json
+2026-09-18 13:40:55,711 | INFO | pipeline.ingestion.save_json | Saved data from openweather to /app/data/openweather/davao_city_2026-09-18.json
+2026-09-18 13:40:55,788 | INFO | pipeline.ingestion.save_json | Saved data from weatherapi to /app/data/weatherapi/davao_city_2026-09-18.json
+2026-09-18 13:40:56,388 | INFO | pipeline.ingestion.save_json | Saved data from openweather to /app/data/openweather/baguio_2026-09-18.json
+2026-09-18 13:40:56,464 | INFO | pipeline.ingestion.save_json | Saved data from weatherapi to /app/data/weatherapi/baguio_2026-09-18.json
+2026-09-18 13:40:57,019 | INFO | pipeline.ingestion.save_json | Saved data from openweather to /app/data/openweather/iloilo_city_2026-09-18.json
+2026-09-18 13:40:57,123 | INFO | pipeline.ingestion.save_json | Saved data from weatherapi to /app/data/weatherapi/iloilo_city_2026-09-18.json
+2026-09-18 13:40:57,740 | INFO | pipeline.ingestion.save_json | Saved data from openweather to /app/data/openweather/cagayan_de_oro_2026-09-18.json
+2026-09-18 13:40:57,906 | INFO | pipeline.ingestion.save_json | Saved data from weatherapi to /app/data/weatherapi/cagayan_de_oro_2026-09-18.json
+2026-09-18 13:40:58,546 | INFO | pipeline.ingestion.save_json | Saved data from openweather to /app/data/openweather/zamboanga_city_2026-09-18.json
+2026-09-18 13:40:58,628 | INFO | pipeline.ingestion.save_json | Saved data from weatherapi to /app/data/weatherapi/zamboanga_city_2026-09-18.json
+2026-09-18 13:42:05,921 | INFO | pipeline.ingestion.save_json | Saved data from openweather to /app/data/openweather/manila_2026-09-18.json
+2026-09-18 13:42:06,091 | INFO | pipeline.ingestion.save_json | Saved data from weatherapi to /app/data/weatherapi/manila_2026-09-18.json
+2026-09-18 13:42:06,503 | INFO | pipeline.ingestion.save_json | Saved data from openweather to /app/data/openweather/quezon_city_2026-09-18.json
+2026-09-18 13:42:06,633 | INFO | pipeline.ingestion.save_json | Saved data from weatherapi to /app/data/weatherapi/quezon_city_2026-09-18.json
+2026-09-18 13:42:06,983 | INFO | pipeline.ingestion.save_json | Saved data from openweather to /app/data/openweather/cebu_city_2026-09-18.json
+2026-09-18 13:42:07,067 | INFO | pipeline.ingestion.save_json | Saved data from weatherapi to /app/data/weatherapi/cebu_city_2026-09-18.json
+2026-09-18 13:42:07,563 | INFO | pipeline.ingestion.save_json | Saved data from openweather to /app/data/openweather/davao_city_2026-09-18.json
+2026-09-18 13:42:07,651 | INFO | pipeline.ingestion.save_json | Saved data from weatherapi to /app/data/weatherapi/davao_city_2026-09-18.json
+2026-09-18 13:42:08,150 | INFO | pipeline.ingestion.save_json | Saved data from openweather to /app/data/openweather/baguio_2026-09-18.json
+2026-09-18 13:42:08,263 | INFO | pipeline.ingestion.save_json | Saved data from weatherapi to /app/data/weatherapi/baguio_2026-09-18.json
+2026-09-18 13:42:08,637 | INFO | pipeline.ingestion.save_json | Saved data from openweather to /app/data/openweather/iloilo_city_2026-09-18.json
+2026-09-18 13:42:08,718 | INFO | pipeline.ingestion.save_json | Saved data from weatherapi to /app/data/weatherapi/iloilo_city_2026-09-18.json
+2026-09-18 13:42:09,093 | INFO | pipeline.ingestion.save_json | Saved data from openweather to /app/data/openweather/cagayan_de_oro_2026-09-18.json
+2026-09-18 13:42:09,198 | INFO | pipeline.ingestion.save_json | Saved data from weatherapi to /app/data/weatherapi/cagayan_de_oro_2026-09-18.json
+2026-09-18 13:42:09,552 | INFO | pipeline.ingestion.save_json | Saved data from openweather to /app/data/openweather/zamboanga_city_2026-09-18.json
+2026-09-18 13:42:09,619 | INFO | pipeline.ingestion.save_json | Saved data from weatherapi to /app/data/weatherapi/zamboanga_city_2026-09-18.json
+2026-09-18 13:44:48,370 | INFO | pipeline.ingestion.save_json | Saved data from openweather to /app/data/openweather/manila_2026-09-18.json
+2026-09-18 13:44:48,556 | INFO | pipeline.ingestion.save_json | Saved data from weatherapi to /app/data/weatherapi/manila_2026-09-18.json
+2026-09-18 13:44:49,084 | INFO | pipeline.ingestion.save_json | Saved data from openweather to /app/data/openweather/quezon_city_2026-09-18.json
+2026-09-18 13:44:49,146 | INFO | pipeline.ingestion.save_json | Saved data from weatherapi to /app/data/weatherapi/quezon_city_2026-09-18.json
+2026-09-18 13:44:49,663 | INFO | pipeline.ingestion.save_json | Saved data from openweather to /app/data/openweather/cebu_city_2026-09-18.json
+2026-09-18 13:44:49,752 | INFO | pipeline.ingestion.save_json | Saved data from weatherapi to /app/data/weatherapi/cebu_city_2026-09-18.json
+2026-09-18 13:44:50,308 | INFO | pipeline.ingestion.save_json | Saved data from openweather to /app/data/openweather/davao_city_2026-09-18.json
+2026-09-18 13:44:50,390 | INFO | pipeline.ingestion.save_json | Saved data from weatherapi to /app/data/weatherapi/davao_city_2026-09-18.json
+2026-09-18 13:44:50,958 | INFO | pipeline.ingestion.save_json | Saved data from openweather to /app/data/openweather/baguio_2026-09-18.json
+2026-09-18 13:44:51,055 | INFO | pipeline.ingestion.save_json | Saved data from weatherapi to /app/data/weatherapi/baguio_2026-09-18.json
+2026-09-18 13:44:51,605 | INFO | pipeline.ingestion.save_json | Saved data from openweather to /app/data/openweather/iloilo_city_2026-09-18.json
+2026-09-18 13:44:51,695 | INFO | pipeline.ingestion.save_json | Saved data from weatherapi to /app/data/weatherapi/iloilo_city_2026-09-18.json
+2026-09-18 13:44:52,194 | INFO | pipeline.ingestion.save_json | Saved data from openweather to /app/data/openweather/cagayan_de_oro_2026-09-18.json
+2026-09-18 13:44:52,254 | INFO | pipeline.ingestion.save_json | Saved data from weatherapi to /app/data/weatherapi/cagayan_de_oro_2026-09-18.json
+2026-09-18 13:44:52,805 | INFO | pipeline.ingestion.save_json | Saved data from openweather to /app/data/openweather/zamboanga_city_2026-09-18.json
+2026-09-18 13:44:52,923 | INFO | pipeline.ingestion.save_json | Saved data from weatherapi to /app/data/weatherapi/zamboanga_city_2026-09-18.json
+2026-09-18 13:45:39,173 | INFO | pipeline.ingestion.save_json | Saved data from openweather to /app/data/openweather/manila_2026-09-18.json
+2026-09-18 13:45:39,314 | INFO | pipeline.ingestion.save_json | Saved data from weatherapi to /app/data/weatherapi/manila_2026-09-18.json
+2026-09-18 13:45:39,716 | INFO | pipeline.ingestion.save_json | Saved data from openweather to /app/data/openweather/quezon_city_2026-09-18.json
+2026-09-18 13:45:39,844 | INFO | pipeline.ingestion.save_json | Saved data from weatherapi to /app/data/weatherapi/quezon_city_2026-09-18.json
+2026-09-18 13:45:40,326 | INFO | pipeline.ingestion.save_json | Saved data from openweather to /app/data/openweather/cebu_city_2026-09-18.json
+2026-09-18 13:45:40,441 | INFO | pipeline.ingestion.save_json | Saved data from weatherapi to /app/data/weatherapi/cebu_city_2026-09-18.json
+2026-09-18 13:45:40,795 | INFO | pipeline.ingestion.save_json | Saved data from openweather to /app/data/openweather/davao_city_2026-09-18.json
+2026-09-18 13:45:40,887 | INFO | pipeline.ingestion.save_json | Saved data from weatherapi to /app/data/weatherapi/davao_city_2026-09-18.json
+2026-09-18 13:45:41,383 | INFO | pipeline.ingestion.save_json | Saved data from openweather to /app/data/openweather/baguio_2026-09-18.json
+2026-09-18 13:45:41,456 | INFO | pipeline.ingestion.save_json | Saved data from weatherapi to /app/data/weatherapi/baguio_2026-09-18.json
+2026-09-18 13:45:41,845 | INFO | pipeline.ingestion.save_json | Saved data from openweather to /app/data/openweather/iloilo_city_2026-09-18.json
+2026-09-18 13:45:41,940 | INFO | pipeline.ingestion.save_json | Saved data from weatherapi to /app/data/weatherapi/iloilo_city_2026-09-18.json
+2026-09-18 13:45:42,445 | INFO | pipeline.ingestion.save_json | Saved data from openweather to /app/data/openweather/cagayan_de_oro_2026-09-18.json
+2026-09-18 13:45:42,519 | INFO | pipeline.ingestion.save_json | Saved data from weatherapi to /app/data/weatherapi/cagayan_de_oro_2026-09-18.json
+2026-09-18 13:45:42,915 | INFO | pipeline.ingestion.save_json | Saved data from openweather to /app/data/openweather/zamboanga_city_2026-09-18.json
+2026-09-18 13:45:43,052 | INFO | pipeline.ingestion.save_json | Saved data from weatherapi to /app/data/weatherapi/zamboanga_city_2026-09-18.json
+2026-09-18 13:47:04,790 | INFO | pipeline.ingestion.save_json | Saved data from openweather to /app/data/openweather/manila_2026-09-18.json
+2026-09-18 13:47:04,948 | INFO | pipeline.ingestion.save_json | Saved data from weatherapi to /app/data/weatherapi/manila_2026-09-18.json
+2026-09-18 13:47:05,391 | INFO | pipeline.ingestion.save_json | Saved data from openweather to /app/data/openweather/quezon_city_2026-09-18.json
+2026-09-18 13:47:05,503 | INFO | pipeline.ingestion.save_json | Saved data from weatherapi to /app/data/weatherapi/quezon_city_2026-09-18.json
+2026-09-18 13:47:05,876 | INFO | pipeline.ingestion.save_json | Saved data from openweather to /app/data/openweather/cebu_city_2026-09-18.json
+2026-09-18 13:47:05,935 | INFO | pipeline.ingestion.save_json | Saved data from weatherapi to /app/data/weatherapi/cebu_city_2026-09-18.json
+2026-09-18 13:47:06,246 | INFO | pipeline.ingestion.save_json | Saved data from openweather to /app/data/openweather/davao_city_2026-09-18.json
+2026-09-18 13:47:06,350 | INFO | pipeline.ingestion.save_json | Saved data from weatherapi to /app/data/weatherapi/davao_city_2026-09-18.json
+2026-09-18 13:47:06,757 | INFO | pipeline.ingestion.save_json | Saved data from openweather to /app/data/openweather/baguio_2026-09-18.json
+2026-09-18 13:47:06,860 | INFO | pipeline.ingestion.save_json | Saved data from weatherapi to /app/data/weatherapi/baguio_2026-09-18.json
+2026-09-18 13:47:07,213 | INFO | pipeline.ingestion.save_json | Saved data from openweather to /app/data/openweather/iloilo_city_2026-09-18.json
+2026-09-18 13:47:07,321 | INFO | pipeline.ingestion.save_json | Saved data from weatherapi to /app/data/weatherapi/iloilo_city_2026-09-18.json
+2026-09-18 13:47:07,725 | INFO | pipeline.ingestion.save_json | Saved data from openweather to /app/data/openweather/cagayan_de_oro_2026-09-18.json
+2026-09-18 13:47:07,826 | INFO | pipeline.ingestion.save_json | Saved data from weatherapi to /app/data/weatherapi/cagayan_de_oro_2026-09-18.json
+2026-09-18 13:47:08,298 | INFO | pipeline.ingestion.save_json | Saved data from openweather to /app/data/openweather/zamboanga_city_2026-09-18.json
+2026-09-18 13:47:08,360 | INFO | pipeline.ingestion.save_json | Saved data from weatherapi to /app/data/weatherapi/zamboanga_city_2026-09-18.json
+2026-09-18 14:08:41,256 | INFO | pipeline.ingestion.save_json | Saved data from openweather to /app/data/openweather/manila_2026-09-18.json
+2026-09-18 14:08:41,541 | INFO | pipeline.ingestion.save_json | Saved data from weatherapi to /app/data/weatherapi/manila_2026-09-18.json
+2026-09-18 14:08:42,176 | INFO | pipeline.ingestion.save_json | Saved data from openweather to /app/data/openweather/quezon_city_2026-09-18.json
+2026-09-18 14:08:42,275 | INFO | pipeline.ingestion.save_json | Saved data from weatherapi to /app/data/weatherapi/quezon_city_2026-09-18.json
+2026-09-18 14:08:42,894 | INFO | pipeline.ingestion.save_json | Saved data from openweather to /app/data/openweather/cebu_city_2026-09-18.json
+2026-09-18 14:08:43,074 | INFO | pipeline.ingestion.save_json | Saved data from weatherapi to /app/data/weatherapi/cebu_city_2026-09-18.json
+2026-09-18 14:08:43,686 | INFO | pipeline.ingestion.save_json | Saved data from openweather to /app/data/openweather/davao_city_2026-09-18.json
+2026-09-18 14:08:43,883 | INFO | pipeline.ingestion.save_json | Saved data from weatherapi to /app/data/weatherapi/davao_city_2026-09-18.json
+2026-09-18 14:08:44,679 | INFO | pipeline.ingestion.save_json | Saved data from openweather to /app/data/openweather/baguio_2026-09-18.json
+2026-09-18 14:08:44,777 | INFO | pipeline.ingestion.save_json | Saved data from weatherapi to /app/data/weatherapi/baguio_2026-09-18.json
+2026-09-18 14:08:45,356 | INFO | pipeline.ingestion.save_json | Saved data from openweather to /app/data/openweather/iloilo_city_2026-09-18.json
+2026-09-18 14:08:45,495 | INFO | pipeline.ingestion.save_json | Saved data from weatherapi to /app/data/weatherapi/iloilo_city_2026-09-18.json
+2026-09-18 14:08:46,112 | INFO | pipeline.ingestion.save_json | Saved data from openweather to /app/data/openweather/cagayan_de_oro_2026-09-18.json
+2026-09-18 14:08:46,220 | INFO | pipeline.ingestion.save_json | Saved data from weatherapi to /app/data/weatherapi/cagayan_de_oro_2026-09-18.json
+2026-09-18 14:08:46,782 | INFO | pipeline.ingestion.save_json | Saved data from openweather to /app/data/openweather/zamboanga_city_2026-09-18.json
+2026-09-18 14:08:46,905 | INFO | pipeline.ingestion.save_json | Saved data from weatherapi to /app/data/weatherapi/zamboanga_city_2026-09-18.json
+2026-09-19 04:17:36,864 | INFO | pipeline.ingestion.save_json | Saved data from openweather to /app/data/openweather/manila_2026-09-19.json
+2026-09-19 04:17:38,066 | INFO | pipeline.ingestion.save_json | Saved data from weatherapi to /app/data/weatherapi/manila_2026-09-19.json
+2026-09-19 04:17:39,119 | INFO | pipeline.ingestion.save_json | Saved data from openweather to /app/data/openweather/quezon_city_2026-09-19.json
+2026-09-19 04:17:39,590 | INFO | pipeline.ingestion.save_json | Saved data from weatherapi to /app/data/weatherapi/quezon_city_2026-09-19.json
+2026-09-19 04:17:40,784 | INFO | pipeline.ingestion.save_json | Saved data from openweather to /app/data/openweather/cebu_city_2026-09-19.json
+2026-09-19 04:17:41,136 | INFO | pipeline.ingestion.save_json | Saved data from weatherapi to /app/data/weatherapi/cebu_city_2026-09-19.json
+2026-09-19 04:17:42,067 | INFO | pipeline.ingestion.save_json | Saved data from openweather to /app/data/openweather/davao_city_2026-09-19.json
+2026-09-19 04:17:42,372 | INFO | pipeline.ingestion.save_json | Saved data from weatherapi to /app/data/weatherapi/davao_city_2026-09-19.json
+2026-09-19 04:17:43,231 | INFO | pipeline.ingestion.save_json | Saved data from openweather to /app/data/openweather/baguio_2026-09-19.json
+2026-09-19 04:17:43,748 | INFO | pipeline.ingestion.save_json | Saved data from weatherapi to /app/data/weatherapi/baguio_2026-09-19.json
+2026-09-19 04:17:45,082 | INFO | pipeline.ingestion.save_json | Saved data from openweather to /app/data/openweather/iloilo_city_2026-09-19.json
+2026-09-19 04:17:45,594 | INFO | pipeline.ingestion.save_json | Saved data from weatherapi to /app/data/weatherapi/iloilo_city_2026-09-19.json
+2026-09-19 04:17:46,747 | INFO | pipeline.ingestion.save_json | Saved data from openweather to /app/data/openweather/cagayan_de_oro_2026-09-19.json
+2026-09-19 04:17:47,078 | INFO | pipeline.ingestion.save_json | Saved data from weatherapi to /app/data/weatherapi/cagayan_de_oro_2026-09-19.json
+2026-09-19 04:17:47,885 | INFO | pipeline.ingestion.save_json | Saved data from openweather to /app/data/openweather/zamboanga_city_2026-09-19.json
+2026-09-19 04:17:48,184 | INFO | pipeline.ingestion.save_json | Saved data from weatherapi to /app/data/weatherapi/zamboanga_city_2026-09-19.json
+2026-09-19 04:35:34,086 | INFO | pipeline.ingestion.save_json | Saved data from openweather to /app/data/openweather/manila_2026-09-19.json
+2026-09-19 04:35:34,683 | INFO | pipeline.ingestion.save_json | Saved data from weatherapi to /app/data/weatherapi/manila_2026-09-19.json
+2026-09-19 04:35:35,530 | INFO | pipeline.ingestion.save_json | Saved data from openweather to /app/data/openweather/quezon_city_2026-09-19.json
+2026-09-19 04:35:35,809 | INFO | pipeline.ingestion.save_json | Saved data from weatherapi to /app/data/weatherapi/quezon_city_2026-09-19.json
+2026-09-19 04:35:36,814 | INFO | pipeline.ingestion.save_json | Saved data from openweather to /app/data/openweather/cebu_city_2026-09-19.json
+2026-09-19 04:35:37,082 | INFO | pipeline.ingestion.save_json | Saved data from weatherapi to /app/data/weatherapi/cebu_city_2026-09-19.json
+2026-09-19 04:35:37,840 | INFO | pipeline.ingestion.save_json | Saved data from openweather to /app/data/openweather/davao_city_2026-09-19.json
+2026-09-19 04:35:38,207 | INFO | pipeline.ingestion.save_json | Saved data from weatherapi to /app/data/weatherapi/davao_city_2026-09-19.json
+2026-09-19 04:35:39,073 | INFO | pipeline.ingestion.save_json | Saved data from openweather to /app/data/openweather/baguio_2026-09-19.json
+2026-09-19 04:35:39,310 | INFO | pipeline.ingestion.save_json | Saved data from weatherapi to /app/data/weatherapi/baguio_2026-09-19.json
+2026-09-19 04:35:40,069 | INFO | pipeline.ingestion.save_json | Saved data from openweather to /app/data/openweather/iloilo_city_2026-09-19.json
+2026-09-19 04:35:40,265 | INFO | pipeline.ingestion.save_json | Saved data from weatherapi to /app/data/weatherapi/iloilo_city_2026-09-19.json
+2026-09-19 04:35:41,133 | INFO | pipeline.ingestion.save_json | Saved data from openweather to /app/data/openweather/cagayan_de_oro_2026-09-19.json
+2026-09-19 04:35:41,281 | INFO | pipeline.ingestion.save_json | Saved data from weatherapi to /app/data/weatherapi/cagayan_de_oro_2026-09-19.json
+2026-09-19 04:35:41,931 | INFO | pipeline.ingestion.save_json | Saved data from openweather to /app/data/openweather/zamboanga_city_2026-09-19.json
+2026-09-19 04:35:42,149 | INFO | pipeline.ingestion.save_json | Saved data from weatherapi to /app/data/weatherapi/zamboanga_city_2026-09-19.json
+2026-09-19 04:40:10,653 | INFO | pipeline.ingestion.save_json | Saved data from openweather to /app/data/openweather/manila_2026-09-19.json
+2026-09-19 04:40:11,094 | INFO | pipeline.ingestion.save_json | Saved data from weatherapi to /app/data/weatherapi/manila_2026-09-19.json
+2026-09-19 04:40:12,103 | INFO | pipeline.ingestion.save_json | Saved data from openweather to /app/data/openweather/quezon_city_2026-09-19.json
+2026-09-19 04:40:12,468 | INFO | pipeline.ingestion.save_json | Saved data from weatherapi to /app/data/weatherapi/quezon_city_2026-09-19.json
+2026-09-19 04:40:13,134 | INFO | pipeline.ingestion.save_json | Saved data from openweather to /app/data/openweather/cebu_city_2026-09-19.json
+2026-09-19 04:40:13,533 | INFO | pipeline.ingestion.save_json | Saved data from weatherapi to /app/data/weatherapi/cebu_city_2026-09-19.json
+2026-09-19 04:40:14,584 | INFO | pipeline.ingestion.save_json | Saved data from openweather to /app/data/openweather/davao_city_2026-09-19.json
+2026-09-19 04:40:14,759 | INFO | pipeline.ingestion.save_json | Saved data from weatherapi to /app/data/weatherapi/davao_city_2026-09-19.json
+2026-09-19 04:40:15,602 | INFO | pipeline.ingestion.save_json | Saved data from openweather to /app/data/openweather/baguio_2026-09-19.json
+2026-09-19 04:40:15,900 | INFO | pipeline.ingestion.save_json | Saved data from weatherapi to /app/data/weatherapi/baguio_2026-09-19.json
+2026-09-19 04:40:16,845 | INFO | pipeline.ingestion.save_json | Saved data from openweather to /app/data/openweather/iloilo_city_2026-09-19.json
+2026-09-19 04:40:17,032 | INFO | pipeline.ingestion.save_json | Saved data from weatherapi to /app/data/weatherapi/iloilo_city_2026-09-19.json
+2026-09-19 04:40:17,811 | INFO | pipeline.ingestion.save_json | Saved data from openweather to /app/data/openweather/cagayan_de_oro_2026-09-19.json
+2026-09-19 04:40:17,987 | INFO | pipeline.ingestion.save_json | Saved data from weatherapi to /app/data/weatherapi/cagayan_de_oro_2026-09-19.json
+2026-09-19 04:40:18,709 | INFO | pipeline.ingestion.save_json | Saved data from openweather to /app/data/openweather/zamboanga_city_2026-09-19.json
+2026-09-19 04:40:18,925 | INFO | pipeline.ingestion.save_json | Saved data from weatherapi to /app/data/weatherapi/zamboanga_city_2026-09-19.json
+2026-09-19 13:07:06,497 | INFO | pipeline.ingestion.save_json | Saved data from openweather_test to /mnt/c/Users/aldwin/project/Weatherflow/data/openweather_test/city_one_2026-09-19.json
+2026-09-19 13:07:06,539 | INFO | pipeline.ingestion.save_json | Saved data from openweather_test to /mnt/c/Users/aldwin/project/Weatherflow/data/openweather_test/city_two_2026-09-19.json
+2026-09-19 13:08:20,420 | INFO | pipeline.ingestion.save_json | Saved data from openweather to /mnt/c/Users/aldwin/project/Weatherflow/data/openweather/manila_2026-09-19.json
+2026-09-19 13:08:21,467 | INFO | pipeline.ingestion.save_json | Saved data from weatherapi to /mnt/c/Users/aldwin/project/Weatherflow/data/weatherapi/manila_2026-09-19.json
+2026-09-19 13:08:23,456 | INFO | pipeline.ingestion.save_json | Saved data from openweather to /mnt/c/Users/aldwin/project/Weatherflow/data/openweather/quezon_city_2026-09-19.json
+2026-09-19 13:08:23,678 | INFO | pipeline.ingestion.save_json | Saved data from weatherapi to /mnt/c/Users/aldwin/project/Weatherflow/data/weatherapi/quezon_city_2026-09-19.json
+2026-09-19 13:08:25,612 | INFO | pipeline.ingestion.save_json | Saved data from openweather to /mnt/c/Users/aldwin/project/Weatherflow/data/openweather/cebu_city_2026-09-19.json
+2026-09-19 13:08:25,967 | INFO | pipeline.ingestion.save_json | Saved data from weatherapi to /mnt/c/Users/aldwin/project/Weatherflow/data/weatherapi/cebu_city_2026-09-19.json
+2026-09-19 13:08:27,966 | INFO | pipeline.ingestion.save_json | Saved data from openweather to /mnt/c/Users/aldwin/project/Weatherflow/data/openweather/davao_city_2026-09-19.json
+2026-09-19 13:08:28,255 | INFO | pipeline.ingestion.save_json | Saved data from weatherapi to /mnt/c/Users/aldwin/project/Weatherflow/data/weatherapi/davao_city_2026-09-19.json
+2026-09-19 13:08:30,108 | INFO | pipeline.ingestion.save_json | Saved data from openweather to /mnt/c/Users/aldwin/project/Weatherflow/data/openweather/baguio_2026-09-19.json
+2026-09-19 13:08:30,465 | INFO | pipeline.ingestion.save_json | Saved data from weatherapi to /mnt/c/Users/aldwin/project/Weatherflow/data/weatherapi/baguio_2026-09-19.json
+2026-09-19 13:08:33,040 | INFO | pipeline.ingestion.save_json | Saved data from openweather to /mnt/c/Users/aldwin/project/Weatherflow/data/openweather/iloilo_city_2026-09-19.json
+2026-09-19 13:08:33,377 | INFO | pipeline.ingestion.save_json | Saved data from weatherapi to /mnt/c/Users/aldwin/project/Weatherflow/data/weatherapi/iloilo_city_2026-09-19.json
+2026-09-19 13:08:34,860 | INFO | pipeline.ingestion.save_json | Saved data from openweather to /mnt/c/Users/aldwin/project/Weatherflow/data/openweather/cagayan_de_oro_2026-09-19.json
+2026-09-19 13:08:35,166 | INFO | pipeline.ingestion.save_json | Saved data from weatherapi to /mnt/c/Users/aldwin/project/Weatherflow/data/weatherapi/cagayan_de_oro_2026-09-19.json
+2026-09-19 13:08:36,645 | INFO | pipeline.ingestion.save_json | Saved data from openweather to /mnt/c/Users/aldwin/project/Weatherflow/data/openweather/zamboanga_city_2026-09-19.json
+2026-09-19 13:08:36,902 | INFO | pipeline.ingestion.save_json | Saved data from weatherapi to /mnt/c/Users/aldwin/project/Weatherflow/data/weatherapi/zamboanga_city_2026-09-19.json
+2026-09-19 05:10:29,759 | INFO | pipeline.ingestion.save_json | Saved data from openweather to /app/data/openweather/manila_2026-09-19.json
+2026-09-19 05:10:30,382 | INFO | pipeline.ingestion.save_json | Saved data from weatherapi to /app/data/weatherapi/manila_2026-09-19.json
+2026-09-19 05:10:31,010 | INFO | pipeline.ingestion.save_json | Saved data from openweather to /app/data/openweather/quezon_city_2026-09-19.json
+2026-09-19 05:10:31,371 | INFO | pipeline.ingestion.save_json | Saved data from weatherapi to /app/data/weatherapi/quezon_city_2026-09-19.json
+2026-09-19 05:10:32,061 | INFO | pipeline.ingestion.save_json | Saved data from openweather to /app/data/openweather/cebu_city_2026-09-19.json
+2026-09-19 05:10:32,392 | INFO | pipeline.ingestion.save_json | Saved data from weatherapi to /app/data/weatherapi/cebu_city_2026-09-19.json
+2026-09-19 05:10:33,094 | INFO | pipeline.ingestion.save_json | Saved data from openweather to /app/data/openweather/davao_city_2026-09-19.json
+2026-09-19 05:10:33,434 | INFO | pipeline.ingestion.save_json | Saved data from weatherapi to /app/data/weatherapi/davao_city_2026-09-19.json
+2026-09-19 05:10:34,127 | INFO | pipeline.ingestion.save_json | Saved data from openweather to /app/data/openweather/baguio_2026-09-19.json
+2026-09-19 05:10:34,345 | INFO | pipeline.ingestion.save_json | Saved data from weatherapi to /app/data/weatherapi/baguio_2026-09-19.json
+2026-09-19 05:10:34,869 | INFO | pipeline.ingestion.save_json | Saved data from openweather to /app/data/openweather/iloilo_city_2026-09-19.json
+2026-09-19 05:10:35,105 | INFO | pipeline.ingestion.save_json | Saved data from weatherapi to /app/data/weatherapi/iloilo_city_2026-09-19.json
+2026-09-19 05:10:35,696 | INFO | pipeline.ingestion.save_json | Saved data from openweather to /app/data/openweather/cagayan_de_oro_2026-09-19.json
+2026-09-19 05:10:35,957 | INFO | pipeline.ingestion.save_json | Saved data from weatherapi to /app/data/weatherapi/cagayan_de_oro_2026-09-19.json
+2026-09-19 05:10:36,632 | INFO | pipeline.ingestion.save_json | Saved data from openweather to /app/data/openweather/zamboanga_city_2026-09-19.json
+2026-09-19 05:10:36,883 | INFO | pipeline.ingestion.save_json | Saved data from weatherapi to /app/data/weatherapi/zamboanga_city_2026-09-19.json
+2026-09-19 13:11:46,640 | INFO | pipeline.ingestion.save_json | Saved data from openweather to /mnt/c/Users/aldwin/project/Weatherflow/data/openweather/manila_2026-09-19.json
+2026-09-19 13:11:47,094 | INFO | pipeline.ingestion.save_json | Saved data from weatherapi to /mnt/c/Users/aldwin/project/Weatherflow/data/weatherapi/manila_2026-09-19.json
+2026-09-19 13:11:47,998 | INFO | pipeline.ingestion.save_json | Saved data from openweather to /mnt/c/Users/aldwin/project/Weatherflow/data/openweather/quezon_city_2026-09-19.json
+2026-09-19 13:11:48,151 | INFO | pipeline.ingestion.save_json | Saved data from weatherapi to /mnt/c/Users/aldwin/project/Weatherflow/data/weatherapi/quezon_city_2026-09-19.json
+2026-09-19 13:11:48,381 | INFO | pipeline.ingestion.save_json | Saved data from openweather_test to /mnt/c/Users/aldwin/project/Weatherflow/data/openweather_test/city_one_2026-09-19.json
+2026-09-19 13:11:48,400 | INFO | pipeline.ingestion.save_json | Saved data from openweather_test to /mnt/c/Users/aldwin/project/Weatherflow/data/openweather_test/city_two_2026-09-19.json
+2026-09-19 13:11:49,646 | INFO | pipeline.ingestion.save_json | Saved data from openweather to /mnt/c/Users/aldwin/project/Weatherflow/data/openweather/cebu_city_2026-09-19.json
+2026-09-19 13:11:49,839 | INFO | pipeline.ingestion.save_json | Saved data from weatherapi to /mnt/c/Users/aldwin/project/Weatherflow/data/weatherapi/cebu_city_2026-09-19.json
+2026-09-19 13:11:51,028 | INFO | pipeline.ingestion.save_json | Saved data from openweather to /mnt/c/Users/aldwin/project/Weatherflow/data/openweather/davao_city_2026-09-19.json
+2026-09-19 13:11:51,251 | INFO | pipeline.ingestion.save_json | Saved data from weatherapi to /mnt/c/Users/aldwin/project/Weatherflow/data/weatherapi/davao_city_2026-09-19.json
+2026-09-19 13:11:52,378 | INFO | pipeline.ingestion.save_json | Saved data from openweather to /mnt/c/Users/aldwin/project/Weatherflow/data/openweather/baguio_2026-09-19.json
+2026-09-19 13:11:52,656 | INFO | pipeline.ingestion.save_json | Saved data from weatherapi to /mnt/c/Users/aldwin/project/Weatherflow/data/weatherapi/baguio_2026-09-19.json
+2026-09-19 13:11:54,196 | INFO | pipeline.ingestion.save_json | Saved data from openweather to /mnt/c/Users/aldwin/project/Weatherflow/data/openweather/iloilo_city_2026-09-19.json
+2026-09-19 13:11:54,401 | INFO | pipeline.ingestion.save_json | Saved data from weatherapi to /mnt/c/Users/aldwin/project/Weatherflow/data/weatherapi/iloilo_city_2026-09-19.json
+2026-09-19 13:11:56,284 | INFO | pipeline.ingestion.save_json | Saved data from openweather to /mnt/c/Users/aldwin/project/Weatherflow/data/openweather/cagayan_de_oro_2026-09-19.json
+2026-09-19 13:11:56,497 | INFO | pipeline.ingestion.save_json | Saved data from weatherapi to /mnt/c/Users/aldwin/project/Weatherflow/data/weatherapi/cagayan_de_oro_2026-09-19.json
+2026-09-19 13:11:57,518 | INFO | pipeline.ingestion.save_json | Saved data from openweather to /mnt/c/Users/aldwin/project/Weatherflow/data/openweather/zamboanga_city_2026-09-19.json
+2026-09-19 13:11:57,804 | INFO | pipeline.ingestion.save_json | Saved data from weatherapi to /mnt/c/Users/aldwin/project/Weatherflow/data/weatherapi/zamboanga_city_2026-09-19.json
+2026-09-19 13:13:27,249 | INFO | pipeline.ingestion.save_json | Saved data from openweather_test to /mnt/c/Users/aldwin/project/Weatherflow/data/openweather_test/city_one_2026-09-19.json
+2026-09-19 13:13:27,268 | INFO | pipeline.ingestion.save_json | Saved data from openweather_test to /mnt/c/Users/aldwin/project/Weatherflow/data/openweather_test/city_two_2026-09-19.json
+2026-09-19 05:21:04,427 | INFO | pipeline.ingestion.save_json | Saved data from openweather to /app/data/openweather/manila_2026-09-19.json
+2026-09-19 05:21:04,668 | INFO | pipeline.ingestion.save_json | Saved data from weatherapi to /app/data/weatherapi/manila_2026-09-19.json
+2026-09-19 05:21:05,374 | INFO | pipeline.ingestion.save_json | Saved data from openweather to /app/data/openweather/quezon_city_2026-09-19.json
+2026-09-19 05:21:05,633 | INFO | pipeline.ingestion.save_json | Saved data from weatherapi to /app/data/weatherapi/quezon_city_2026-09-19.json
+2026-09-19 05:21:06,332 | INFO | pipeline.ingestion.save_json | Saved data from openweather to /app/data/openweather/cebu_city_2026-09-19.json
+2026-09-19 05:21:06,490 | INFO | pipeline.ingestion.save_json | Saved data from weatherapi to /app/data/weatherapi/cebu_city_2026-09-19.json
+2026-09-19 05:21:07,226 | INFO | pipeline.ingestion.save_json | Saved data from openweather to /app/data/openweather/davao_city_2026-09-19.json
+2026-09-19 05:21:07,389 | INFO | pipeline.ingestion.save_json | Saved data from weatherapi to /app/data/weatherapi/davao_city_2026-09-19.json
+2026-09-19 05:21:08,152 | INFO | pipeline.ingestion.save_json | Saved data from openweather to /app/data/openweather/baguio_2026-09-19.json
+2026-09-19 05:21:08,448 | INFO | pipeline.ingestion.save_json | Saved data from weatherapi to /app/data/weatherapi/baguio_2026-09-19.json
+2026-09-19 05:21:09,250 | INFO | pipeline.ingestion.save_json | Saved data from openweather to /app/data/openweather/iloilo_city_2026-09-19.json
+2026-09-19 05:21:09,443 | INFO | pipeline.ingestion.save_json | Saved data from weatherapi to /app/data/weatherapi/iloilo_city_2026-09-19.json
+2026-09-19 05:21:10,169 | INFO | pipeline.ingestion.save_json | Saved data from openweather to /app/data/openweather/cagayan_de_oro_2026-09-19.json
+2026-09-19 05:21:10,354 | INFO | pipeline.ingestion.save_json | Saved data from weatherapi to /app/data/weatherapi/cagayan_de_oro_2026-09-19.json
+2026-09-19 05:21:11,212 | INFO | pipeline.ingestion.save_json | Saved data from openweather to /app/data/openweather/zamboanga_city_2026-09-19.json
+2026-09-19 05:21:11,386 | INFO | pipeline.ingestion.save_json | Saved data from weatherapi to /app/data/weatherapi/zamboanga_city_2026-09-19.json
+2026-09-19 13:26:27,832 | INFO | pipeline.ingestion.save_json | Saved data from openweather to /mnt/c/Users/aldwin/project/Weatherflow/data/openweather/manila_2026-09-19.json
+2026-09-19 13:26:28,539 | INFO | pipeline.ingestion.save_json | Saved data from weatherapi to /mnt/c/Users/aldwin/project/Weatherflow/data/weatherapi/manila_2026-09-19.json
+2026-09-19 13:26:30,131 | INFO | pipeline.ingestion.save_json | Saved data from openweather to /mnt/c/Users/aldwin/project/Weatherflow/data/openweather/quezon_city_2026-09-19.json
+2026-09-19 13:26:30,342 | INFO | pipeline.ingestion.save_json | Saved data from weatherapi to /mnt/c/Users/aldwin/project/Weatherflow/data/weatherapi/quezon_city_2026-09-19.json
+2026-09-19 13:26:32,106 | INFO | pipeline.ingestion.save_json | Saved data from openweather to /mnt/c/Users/aldwin/project/Weatherflow/data/openweather/cebu_city_2026-09-19.json
+2026-09-19 13:26:32,372 | INFO | pipeline.ingestion.save_json | Saved data from weatherapi to /mnt/c/Users/aldwin/project/Weatherflow/data/weatherapi/cebu_city_2026-09-19.json
+2026-09-19 13:26:34,113 | INFO | pipeline.ingestion.save_json | Saved data from openweather to /mnt/c/Users/aldwin/project/Weatherflow/data/openweather/davao_city_2026-09-19.json
+2026-09-19 13:26:34,281 | INFO | pipeline.ingestion.save_json | Saved data from weatherapi to /mnt/c/Users/aldwin/project/Weatherflow/data/weatherapi/davao_city_2026-09-19.json
+2026-09-19 13:26:35,693 | INFO | pipeline.ingestion.save_json | Saved data from openweather to /mnt/c/Users/aldwin/project/Weatherflow/data/openweather/baguio_2026-09-19.json
+2026-09-19 13:26:35,937 | INFO | pipeline.ingestion.save_json | Saved data from weatherapi to /mnt/c/Users/aldwin/project/Weatherflow/data/weatherapi/baguio_2026-09-19.json
+2026-09-19 13:26:37,481 | INFO | pipeline.ingestion.save_json | Saved data from openweather to /mnt/c/Users/aldwin/project/Weatherflow/data/openweather/iloilo_city_2026-09-19.json
+2026-09-19 13:26:37,690 | INFO | pipeline.ingestion.save_json | Saved data from weatherapi to /mnt/c/Users/aldwin/project/Weatherflow/data/weatherapi/iloilo_city_2026-09-19.json
+2026-09-19 13:26:38,977 | INFO | pipeline.ingestion.save_json | Saved data from openweather to /mnt/c/Users/aldwin/project/Weatherflow/data/openweather/cagayan_de_oro_2026-09-19.json
+2026-09-19 13:26:39,183 | INFO | pipeline.ingestion.save_json | Saved data from weatherapi to /mnt/c/Users/aldwin/project/Weatherflow/data/weatherapi/cagayan_de_oro_2026-09-19.json
+2026-09-19 13:26:40,405 | INFO | pipeline.ingestion.save_json | Saved data from openweather to /mnt/c/Users/aldwin/project/Weatherflow/data/openweather/zamboanga_city_2026-09-19.json
+2026-09-19 13:26:40,636 | INFO | pipeline.ingestion.save_json | Saved data from weatherapi to /mnt/c/Users/aldwin/project/Weatherflow/data/weatherapi/zamboanga_city_2026-09-19.json
+2026-09-19 13:28:36,172 | INFO | pipeline.ingestion.save_json | Saved data from openweather_test to /mnt/c/Users/aldwin/project/Weatherflow/data/openweather_test/city_one_2026-09-19.json
+2026-09-19 13:28:36,201 | INFO | pipeline.ingestion.save_json | Saved data from openweather_test to /mnt/c/Users/aldwin/project/Weatherflow/data/openweather_test/city_two_2026-09-19.json
+2026-09-19 13:42:08,065 | INFO | pipeline.ingestion.save_json | Saved data from openweather_test to /mnt/c/Users/aldwin/project/Weatherflow/data/openweather_test/city_one_2026-09-19.json
+2026-09-19 13:42:08,093 | INFO | pipeline.ingestion.save_json | Saved data from openweather_test to /mnt/c/Users/aldwin/project/Weatherflow/data/openweather_test/city_two_2026-09-19.json
+2026-09-19 05:42:13,666 | INFO | pipeline.ingestion.save_json | Saved data from openweather to /app/data/openweather/manila_2026-09-19.json
+2026-09-19 05:42:14,123 | INFO | pipeline.ingestion.save_json | Saved data from weatherapi to /app/data/weatherapi/manila_2026-09-19.json
+2026-09-19 05:42:15,020 | INFO | pipeline.ingestion.save_json | Saved data from openweather to /app/data/openweather/quezon_city_2026-09-19.json
+2026-09-19 05:42:15,406 | INFO | pipeline.ingestion.save_json | Saved data from weatherapi to /app/data/weatherapi/quezon_city_2026-09-19.json
+2026-09-19 05:42:16,395 | INFO | pipeline.ingestion.save_json | Saved data from openweather to /app/data/openweather/cebu_city_2026-09-19.json
+2026-09-19 05:42:16,875 | INFO | pipeline.ingestion.save_json | Saved data from weatherapi to /app/data/weatherapi/cebu_city_2026-09-19.json
+2026-09-19 05:42:18,068 | INFO | pipeline.ingestion.save_json | Saved data from openweather to /app/data/openweather/davao_city_2026-09-19.json
+2026-09-19 05:42:18,574 | INFO | pipeline.ingestion.save_json | Saved data from weatherapi to /app/data/weatherapi/davao_city_2026-09-19.json
+2026-09-19 05:42:19,703 | INFO | pipeline.ingestion.save_json | Saved data from openweather to /app/data/openweather/baguio_2026-09-19.json
+2026-09-19 05:42:20,084 | INFO | pipeline.ingestion.save_json | Saved data from weatherapi to /app/data/weatherapi/baguio_2026-09-19.json
+2026-09-19 05:42:20,872 | INFO | pipeline.ingestion.save_json | Saved data from openweather to /app/data/openweather/iloilo_city_2026-09-19.json
+2026-09-19 05:42:21,162 | INFO | pipeline.ingestion.save_json | Saved data from weatherapi to /app/data/weatherapi/iloilo_city_2026-09-19.json
+2026-09-19 05:42:22,073 | INFO | pipeline.ingestion.save_json | Saved data from openweather to /app/data/openweather/cagayan_de_oro_2026-09-19.json
+2026-09-19 05:42:22,493 | INFO | pipeline.ingestion.save_json | Saved data from weatherapi to /app/data/weatherapi/cagayan_de_oro_2026-09-19.json
+2026-09-19 05:42:23,485 | INFO | pipeline.ingestion.save_json | Saved data from openweather to /app/data/openweather/zamboanga_city_2026-09-19.json
+2026-09-19 05:42:23,879 | INFO | pipeline.ingestion.save_json | Saved data from weatherapi to /app/data/weatherapi/zamboanga_city_2026-09-19.json
+2026-09-19 13:45:55,516 | INFO | pipeline.ingestion.save_json | Saved data from openweather_test to /mnt/c/Users/aldwin/project/Weatherflow/data/openweather_test/city_one_2026-09-19.json
+2026-09-19 13:45:55,562 | INFO | pipeline.ingestion.save_json | Saved data from openweather_test to /mnt/c/Users/aldwin/project/Weatherflow/data/openweather_test/city_two_2026-09-19.json
+2026-09-19 07:35:55,541 | INFO | pipeline.ingestion.save_json | Saved data from openweather to /app/data/openweather/manila_2026-09-19.json
+2026-09-19 07:35:56,228 | INFO | pipeline.ingestion.save_json | Saved data from weatherapi to /app/data/weatherapi/manila_2026-09-19.json
+2026-09-19 07:35:57,010 | INFO | pipeline.ingestion.save_json | Saved data from openweather to /app/data/openweather/quezon_city_2026-09-19.json
+2026-09-19 07:35:57,358 | INFO | pipeline.ingestion.save_json | Saved data from weatherapi to /app/data/weatherapi/quezon_city_2026-09-19.json
+2026-09-19 07:35:58,182 | INFO | pipeline.ingestion.save_json | Saved data from openweather to /app/data/openweather/cebu_city_2026-09-19.json
+2026-09-19 07:35:58,552 | INFO | pipeline.ingestion.save_json | Saved data from weatherapi to /app/data/weatherapi/cebu_city_2026-09-19.json
+2026-09-19 07:35:59,342 | INFO | pipeline.ingestion.save_json | Saved data from openweather to /app/data/openweather/davao_city_2026-09-19.json
+2026-09-19 07:35:59,708 | INFO | pipeline.ingestion.save_json | Saved data from weatherapi to /app/data/weatherapi/davao_city_2026-09-19.json
+2026-09-19 07:36:00,539 | INFO | pipeline.ingestion.save_json | Saved data from openweather to /app/data/openweather/baguio_2026-09-19.json
+2026-09-19 07:36:00,902 | INFO | pipeline.ingestion.save_json | Saved data from weatherapi to /app/data/weatherapi/baguio_2026-09-19.json
+2026-09-19 07:36:01,779 | INFO | pipeline.ingestion.save_json | Saved data from openweather to /app/data/openweather/iloilo_city_2026-09-19.json
+2026-09-19 07:36:02,274 | INFO | pipeline.ingestion.save_json | Saved data from weatherapi to /app/data/weatherapi/iloilo_city_2026-09-19.json
+2026-09-19 07:36:03,124 | INFO | pipeline.ingestion.save_json | Saved data from openweather to /app/data/openweather/cagayan_de_oro_2026-09-19.json
+2026-09-19 07:36:03,467 | INFO | pipeline.ingestion.save_json | Saved data from weatherapi to /app/data/weatherapi/cagayan_de_oro_2026-09-19.json
+2026-09-19 07:36:04,356 | INFO | pipeline.ingestion.save_json | Saved data from openweather to /app/data/openweather/zamboanga_city_2026-09-19.json
+2026-09-19 07:36:04,755 | INFO | pipeline.ingestion.save_json | Saved data from weatherapi to /app/data/weatherapi/zamboanga_city_2026-09-19.json
+2026-09-19 15:55:54,871 | INFO | pipeline.ingestion.save_json | Saved data from UnitTestSource to /mnt/c/Users/aldwin/project/Weatherflow/data/raw/unittestsource/unit_test_city_2026-09-19.json
+2026-09-19 16:00:05,740 | INFO | pipeline.ingestion.save_json | Saved data from OpenWeather to /mnt/c/Users/aldwin/project/Weatherflow/data/raw/openweather/new_city__20260919T080005Z.json
+2026-09-19 16:23:28,708 | INFO | pipeline.ingestion.save_json | Saved data from openweather_test to /mnt/c/Users/aldwin/project/Weatherflow/data/raw/openweather_test/city_one_20260919T082328Z.json
+2026-09-19 16:23:28,804 | INFO | pipeline.ingestion.save_json | Saved data from openweather_test to /mnt/c/Users/aldwin/project/Weatherflow/data/raw/openweather_test/city_two_20260919T082328Z.json
+2026-09-19 16:37:56,399 | INFO | pipeline.ingestion.save_json | Initial load: openweather - Manila
+2026-09-19 16:37:57,059 | INFO | pipeline.ingestion.save_json | Initial load: weatherapi - Manila
+2026-09-19 16:37:59,456 | INFO | pipeline.ingestion.save_json | Initial load: openweather - Quezon City
+2026-09-19 16:37:59,621 | INFO | pipeline.ingestion.save_json | Initial load: weatherapi - Quezon City
+2026-09-19 16:38:01,253 | INFO | pipeline.ingestion.save_json | Initial load: openweather - Cebu City
+2026-09-19 16:38:01,417 | INFO | pipeline.ingestion.save_json | Initial load: weatherapi - Cebu City
+2026-09-19 16:38:03,124 | INFO | pipeline.ingestion.save_json | Initial load: openweather - Davao City
+2026-09-19 16:38:03,203 | INFO | pipeline.ingestion.save_json | Initial load: weatherapi - Davao City
+2026-09-19 16:38:04,783 | INFO | pipeline.ingestion.save_json | Initial load: openweather - Baguio
+2026-09-19 16:38:04,992 | INFO | pipeline.ingestion.save_json | Initial load: weatherapi - Baguio
+2026-09-19 16:38:06,844 | INFO | pipeline.ingestion.save_json | Initial load: openweather - Iloilo City
+2026-09-19 16:38:07,022 | INFO | pipeline.ingestion.save_json | Initial load: weatherapi - Iloilo City
+2026-09-19 16:38:09,841 | INFO | pipeline.ingestion.save_json | Initial load: openweather - Cagayan de Oro
+2026-09-19 16:38:09,966 | INFO | pipeline.ingestion.save_json | Initial load: weatherapi - Cagayan de Oro
+2026-09-19 16:38:11,591 | INFO | pipeline.ingestion.save_json | Initial load: openweather - Zamboanga City
+2026-09-19 16:38:11,841 | INFO | pipeline.ingestion.save_json | Initial load: weatherapi - Zamboanga City
+2026-09-19 16:52:06,226 | INFO | pipeline.ingestion.save_json | Incremental load: openweather - Manila - 2026-09-19T08:47:55+00:00
+2026-09-19 16:52:07,539 | INFO | pipeline.ingestion.save_json | Incremental load: openweather - Quezon City - 2026-09-19T08:48:31+00:00
+2026-09-19 16:52:07,633 | INFO | pipeline.ingestion.save_json | Incremental load: weatherapi - Quezon City - 2026-09-19 16:45
+2026-09-19 16:52:08,699 | INFO | pipeline.ingestion.save_json | Incremental load: openweather - Cebu City - 2026-09-19T08:52:08+00:00
+2026-09-19 16:52:08,778 | INFO | pipeline.ingestion.save_json | Incremental load: weatherapi - Cebu City - 2026-09-19 16:45
+2026-09-19 16:52:09,603 | INFO | pipeline.ingestion.save_json | Incremental load: openweather - Davao City - 2026-09-19T08:52:08+00:00
+2026-09-19 16:52:09,672 | INFO | pipeline.ingestion.save_json | Duplicate skipped: weatherapi - Davao City - 2026-09-19 16:30
+2026-09-19 16:52:11,459 | INFO | pipeline.ingestion.save_json | Incremental load: openweather - Baguio - 2026-09-19T08:49:27+00:00
+2026-09-19 16:52:11,627 | INFO | pipeline.ingestion.save_json | Incremental load: weatherapi - Baguio - 2026-09-19 16:45
+2026-09-19 16:52:15,404 | INFO | pipeline.ingestion.save_json | Incremental load: openweather - Iloilo City - 2026-09-19T08:52:12+00:00
+2026-09-19 16:52:15,596 | INFO | pipeline.ingestion.save_json | Incremental load: weatherapi - Iloilo City - 2026-09-19 16:45
+2026-09-19 16:52:17,598 | INFO | pipeline.ingestion.save_json | Incremental load: openweather - Cagayan de Oro - 2026-09-19T08:52:16+00:00
+2026-09-19 16:52:17,814 | INFO | pipeline.ingestion.save_json | Incremental load: weatherapi - Cagayan de Oro - 2026-09-19 16:45
+2026-09-19 16:52:20,122 | INFO | pipeline.ingestion.save_json | Incremental load: openweather - Zamboanga City - 2026-09-19T08:52:18+00:00
+2026-09-19 16:52:20,316 | INFO | pipeline.ingestion.save_json | Incremental load: weatherapi - Zamboanga City - 2026-09-19 16:45
+2026-09-19 08:56:35,632 | INFO | pipeline.ingestion.save_json | Incremental load: openweather - Manila - 2026-09-19T08:53:43+00:00
+2026-09-19 08:56:36,836 | INFO | pipeline.ingestion.save_json | Incremental load: weatherapi - Manila - 2026-09-19 16:45
+2026-09-19 08:56:38,087 | INFO | pipeline.ingestion.save_json | Incremental load: openweather - Quezon City - 2026-09-19T08:55:50+00:00
+2026-09-19 08:56:38,572 | INFO | pipeline.ingestion.save_json | Duplicate skipped: weatherapi - Quezon City - 2026-09-19 16:45
+2026-09-19 08:56:41,743 | INFO | pipeline.ingestion.save_json | Duplicate skipped: openweather - Cebu City - 2026-09-19T08:52:08+00:00
+2026-09-19 08:56:42,427 | INFO | pipeline.ingestion.save_json | Duplicate skipped: weatherapi - Cebu City - 2026-09-19 16:45
+2026-09-19 08:56:44,163 | INFO | pipeline.ingestion.save_json | Incremental load: openweather - Davao City - 2026-09-19T08:56:27+00:00
+2026-09-19 08:56:45,129 | INFO | pipeline.ingestion.save_json | Incremental load: weatherapi - Davao City - 2026-09-19 16:45
+2026-09-19 08:56:47,048 | INFO | pipeline.ingestion.save_json | Incremental load: openweather - Baguio - 2026-09-19T08:56:46+00:00
+2026-09-19 08:56:47,852 | INFO | pipeline.ingestion.save_json | Duplicate skipped: weatherapi - Baguio - 2026-09-19 16:45
+2026-09-19 08:56:49,189 | INFO | pipeline.ingestion.save_json | Duplicate skipped: openweather - Iloilo City - 2026-09-19T08:52:12+00:00
+2026-09-19 08:56:49,683 | INFO | pipeline.ingestion.save_json | Duplicate skipped: weatherapi - Iloilo City - 2026-09-19 16:45
+2026-09-19 08:56:51,368 | INFO | pipeline.ingestion.save_json | Incremental load: openweather - Cagayan de Oro - 2026-09-19T08:56:00+00:00
+2026-09-19 08:56:52,171 | INFO | pipeline.ingestion.save_json | Duplicate skipped: weatherapi - Cagayan de Oro - 2026-09-19 16:45
+2026-09-19 08:56:53,897 | INFO | pipeline.ingestion.save_json | Duplicate skipped: openweather - Zamboanga City - 2026-09-19T08:52:18+00:00
+2026-09-19 08:56:54,586 | INFO | pipeline.ingestion.save_json | Duplicate skipped: weatherapi - Zamboanga City - 2026-09-19 16:45
+2026-09-19 09:04:01,624 | INFO | pipeline.ingestion.save_json | Duplicate skipped: openweather - Manila - 2026-09-19T08:53:43+00:00
+2026-09-19 09:04:03,626 | INFO | pipeline.ingestion.save_json | Duplicate skipped: weatherapi - Manila - 2026-09-19 16:45
+2026-09-19 09:04:06,235 | INFO | pipeline.ingestion.save_json | Duplicate skipped: openweather - Quezon City - 2026-09-19T08:55:50+00:00
+2026-09-19 09:04:06,684 | INFO | pipeline.ingestion.save_json | Duplicate skipped: weatherapi - Quezon City - 2026-09-19 16:45
+2026-09-19 09:04:08,247 | INFO | pipeline.ingestion.save_json | Incremental load: openweather - Cebu City - 2026-09-19T09:02:28+00:00
+2026-09-19 09:04:09,081 | INFO | pipeline.ingestion.save_json | Incremental load: weatherapi - Cebu City - 2026-09-19 17:00
+2026-09-19 09:04:10,337 | INFO | pipeline.ingestion.save_json | Duplicate skipped: openweather - Davao City - 2026-09-19T08:56:27+00:00
+2026-09-19 09:04:10,984 | INFO | pipeline.ingestion.save_json | Incremental load: weatherapi - Davao City - 2026-09-19 17:00
+2026-09-19 09:04:12,582 | INFO | pipeline.ingestion.save_json | Duplicate skipped: openweather - Baguio - 2026-09-19T08:56:46+00:00
+2026-09-19 09:04:13,648 | INFO | pipeline.ingestion.save_json | Incremental load: weatherapi - Baguio - 2026-09-19 17:00
+2026-09-19 09:04:14,986 | INFO | pipeline.ingestion.save_json | Duplicate skipped: openweather - Iloilo City - 2026-09-19T08:52:12+00:00
+2026-09-19 09:04:15,632 | INFO | pipeline.ingestion.save_json | Incremental load: weatherapi - Iloilo City - 2026-09-19 17:00
+2026-09-19 09:04:17,112 | INFO | pipeline.ingestion.save_json | Duplicate skipped: openweather - Cagayan de Oro - 2026-09-19T08:56:00+00:00
+2026-09-19 09:04:17,523 | INFO | pipeline.ingestion.save_json | Incremental load: weatherapi - Cagayan de Oro - 2026-09-19 17:00
+2026-09-19 09:04:19,101 | INFO | pipeline.ingestion.save_json | Duplicate skipped: openweather - Zamboanga City - 2026-09-19T08:52:18+00:00
+2026-09-19 09:04:19,867 | INFO | pipeline.ingestion.save_json | Incremental load: weatherapi - Zamboanga City - 2026-09-19 17:00
+2026-09-19 10:28:25,703 | INFO | pipeline.ingestion.save_json | Incremental load: openweather - Manila - 2026-09-19T10:23:39+00:00
+2026-09-19 10:28:28,123 | INFO | pipeline.ingestion.save_json | Incremental load: weatherapi - Manila - 2026-09-19 18:15
+2026-09-19 10:28:32,628 | INFO | pipeline.ingestion.save_json | Incremental load: openweather - Quezon City - 2026-09-19T10:26:20+00:00
+2026-09-19 10:28:36,096 | INFO | pipeline.ingestion.save_json | Incremental load: weatherapi - Quezon City - 2026-09-19 18:15
+2026-09-19 10:28:40,410 | INFO | pipeline.ingestion.save_json | Incremental load: openweather - Cebu City - 2026-09-19T10:28:22+00:00
+2026-09-19 10:28:42,172 | INFO | pipeline.ingestion.save_json | Incremental load: weatherapi - Cebu City - 2026-09-19 18:15
+2026-09-19 10:28:43,263 | INFO | pipeline.ingestion.save_json | Incremental load: openweather - Davao City - 2026-09-19T10:25:02+00:00
+2026-09-19 10:28:43,727 | INFO | pipeline.ingestion.save_json | Incremental load: weatherapi - Davao City - 2026-09-19 18:15
+2026-09-19 10:28:44,664 | INFO | pipeline.ingestion.save_json | Incremental load: openweather - Baguio - 2026-09-19T10:25:54+00:00
+2026-09-19 10:28:45,098 | INFO | pipeline.ingestion.save_json | Incremental load: weatherapi - Baguio - 2026-09-19 18:15
+2026-09-19 10:28:46,351 | INFO | pipeline.ingestion.save_json | Incremental load: openweather - Iloilo City - 2026-09-19T10:28:46+00:00
+2026-09-19 10:28:46,955 | INFO | pipeline.ingestion.save_json | Incremental load: weatherapi - Iloilo City - 2026-09-19 18:15
+2026-09-19 10:28:48,427 | INFO | pipeline.ingestion.save_json | Incremental load: openweather - Cagayan de Oro - 2026-09-19T10:28:02+00:00
+2026-09-19 10:28:49,337 | INFO | pipeline.ingestion.save_json | Incremental load: weatherapi - Cagayan de Oro - 2026-09-19 18:15
+2026-09-19 10:28:50,188 | INFO | pipeline.ingestion.save_json | Incremental load: openweather - Zamboanga City - 2026-09-19T10:26:23+00:00
+2026-09-19 10:28:50,836 | INFO | pipeline.ingestion.save_json | Incremental load: weatherapi - Zamboanga City - 2026-09-19 18:15
+2026-09-19 10:41:16,682 | INFO | pipeline.ingestion.save_json | Incremental load: openweather - Manila - 2026-09-19T10:40:51+00:00
+2026-09-19 10:41:17,282 | INFO | pipeline.ingestion.save_json | Incremental load: weatherapi - Manila - 2026-09-19 18:30
+2026-09-19 10:41:18,304 | INFO | pipeline.ingestion.save_json | Incremental load: openweather - Quezon City - 2026-09-19T10:38:36+00:00
+2026-09-19 10:41:18,885 | INFO | pipeline.ingestion.save_json | Incremental load: weatherapi - Quezon City - 2026-09-19 18:30
+2026-09-19 10:41:19,935 | INFO | pipeline.ingestion.save_json | Incremental load: openweather - Cebu City - 2026-09-19T10:39:37+00:00
+2026-09-19 10:41:20,481 | INFO | pipeline.ingestion.save_json | Incremental load: weatherapi - Cebu City - 2026-09-19 18:30
+2026-09-19 10:41:21,466 | INFO | pipeline.ingestion.save_json | Incremental load: openweather - Davao City - 2026-09-19T10:40:27+00:00
+2026-09-19 10:41:21,955 | INFO | pipeline.ingestion.save_json | Incremental load: weatherapi - Davao City - 2026-09-19 18:30
+2026-09-19 10:41:23,055 | INFO | pipeline.ingestion.save_json | Incremental load: openweather - Baguio - 2026-09-19T10:41:05+00:00
+2026-09-19 10:41:23,635 | INFO | pipeline.ingestion.save_json | Incremental load: weatherapi - Baguio - 2026-09-19 18:30
+2026-09-19 10:41:24,884 | INFO | pipeline.ingestion.save_json | Incremental load: openweather - Iloilo City - 2026-09-19T10:40:09+00:00
+2026-09-19 10:41:25,225 | INFO | pipeline.ingestion.save_json | Incremental load: weatherapi - Iloilo City - 2026-09-19 18:30
+2026-09-19 10:41:26,327 | INFO | pipeline.ingestion.save_json | Incremental load: openweather - Cagayan de Oro - 2026-09-19T10:41:26+00:00
+2026-09-19 10:41:26,728 | INFO | pipeline.ingestion.save_json | Incremental load: weatherapi - Cagayan de Oro - 2026-09-19 18:30
+2026-09-19 10:41:27,984 | INFO | pipeline.ingestion.save_json | Incremental load: openweather - Zamboanga City - 2026-09-19T10:38:50+00:00
+2026-09-19 10:41:28,357 | INFO | pipeline.ingestion.save_json | Incremental load: weatherapi - Zamboanga City - 2026-09-19 18:30
+2026-09-19 18:45:28,728 | INFO | pipeline.ingestion.save_json | Duplicate skipped: openweather - Manila - 2026-09-19T10:40:51+00:00
+2026-09-19 18:46:35,863 | INFO | pipeline.ingestion.save_json | Duplicate skipped: openweather - Manila - 2026-09-19T10:40:51+00:00
+2026-09-19 18:58:22,985 | INFO | pipeline.ingestion.save_json | Initial load: openweather_test - City One
+2026-09-19 18:58:23,020 | INFO | pipeline.ingestion.save_json | Initial load: openweather_test - City Two
+2026-09-19 19:00:25,915 | INFO | pipeline.ingestion.save_json | Initial load: openweather_test - City One
+2026-09-19 19:00:25,969 | INFO | pipeline.ingestion.save_json | Initial load: openweather_test - City Two
+2026-09-19 19:01:59,572 | INFO | pipeline.ingestion.save_json | Incremental load: openweather - Manila - 2026-09-19T11:01:12+00:00
+2026-09-19 19:02:00,395 | INFO | pipeline.ingestion.save_json | Incremental load: weatherapi - Manila - 2026-09-19 18:45
+2026-09-19 19:02:01,705 | INFO | pipeline.ingestion.save_json | Incremental load: openweather - Quezon City - 2026-09-19T11:00:58+00:00
+2026-09-19 19:02:01,877 | INFO | pipeline.ingestion.save_json | Incremental load: weatherapi - Quezon City - 2026-09-19 19:00
+2026-09-19 19:02:03,288 | INFO | pipeline.ingestion.save_json | Incremental load: openweather - Cebu City - 2026-09-19T10:57:51+00:00
+2026-09-19 19:02:03,572 | INFO | pipeline.ingestion.save_json | Incremental load: weatherapi - Cebu City - 2026-09-19 19:00
+2026-09-19 19:02:04,823 | INFO | pipeline.ingestion.save_json | Incremental load: openweather - Davao City - 2026-09-19T11:00:02+00:00
+2026-09-19 19:02:05,126 | INFO | pipeline.ingestion.save_json | Incremental load: weatherapi - Davao City - 2026-09-19 18:45
+2026-09-19 19:02:06,789 | INFO | pipeline.ingestion.save_json | Incremental load: openweather - Baguio - 2026-09-19T11:00:10+00:00
+2026-09-19 19:02:07,025 | INFO | pipeline.ingestion.save_json | Incremental load: weatherapi - Baguio - 2026-09-19 19:00
+2026-09-19 19:02:08,630 | INFO | pipeline.ingestion.save_json | Incremental load: openweather - Iloilo City - 2026-09-19T10:58:59+00:00
+2026-09-19 19:02:08,901 | INFO | pipeline.ingestion.save_json | Incremental load: weatherapi - Iloilo City - 2026-09-19 19:00
+2026-09-19 19:02:10,347 | INFO | pipeline.ingestion.save_json | Incremental load: openweather - Cagayan de Oro - 2026-09-19T10:58:12+00:00
+2026-09-19 19:02:10,521 | INFO | pipeline.ingestion.save_json | Incremental load: weatherapi - Cagayan de Oro - 2026-09-19 19:00
+2026-09-19 19:02:11,719 | INFO | pipeline.ingestion.save_json | Incremental load: openweather - Zamboanga City - 2026-09-19T10:57:39+00:00
+2026-09-19 19:02:12,056 | INFO | pipeline.ingestion.save_json | Incremental load: weatherapi - Zamboanga City - 2026-09-19 19:00
+2026-09-20 12:25:24,623 | INFO | pipeline.ingestion.save_json | Incremental load: openweather - Manila - 2026-09-20T12:21:00+00:00
+2026-09-20 12:25:25,095 | INFO | pipeline.ingestion.save_json | Incremental load: weatherapi - Manila - 2026-09-20 20:15
+2026-09-20 12:25:26,183 | INFO | pipeline.ingestion.save_json | Incremental load: openweather - Quezon City - 2026-09-20T12:23:24+00:00
+2026-09-20 12:25:26,534 | INFO | pipeline.ingestion.save_json | Incremental load: weatherapi - Quezon City - 2026-09-20 20:15
+2026-09-20 12:25:27,809 | INFO | pipeline.ingestion.save_json | Incremental load: openweather - Cebu City - 2026-09-20T12:25:27+00:00
+2026-09-20 12:25:28,142 | INFO | pipeline.ingestion.save_json | Incremental load: weatherapi - Cebu City - 2026-09-20 20:15
+2026-09-20 12:25:29,334 | INFO | pipeline.ingestion.save_json | Incremental load: openweather - Davao City - 2026-09-20T12:23:14+00:00
+2026-09-20 12:25:29,754 | INFO | pipeline.ingestion.save_json | Incremental load: weatherapi - Davao City - 2026-09-20 20:15
+2026-09-20 12:25:30,579 | INFO | pipeline.ingestion.save_json | Incremental load: openweather - Baguio - 2026-09-20T12:23:42+00:00
+2026-09-20 12:25:30,985 | INFO | pipeline.ingestion.save_json | Incremental load: weatherapi - Baguio - 2026-09-20 20:15
+2026-09-20 12:25:31,765 | INFO | pipeline.ingestion.save_json | Incremental load: openweather - Iloilo City - 2026-09-20T12:21:50+00:00
+2026-09-20 12:25:32,160 | INFO | pipeline.ingestion.save_json | Incremental load: weatherapi - Iloilo City - 2026-09-20 20:15
+2026-09-20 12:25:32,915 | INFO | pipeline.ingestion.save_json | Incremental load: openweather - Cagayan de Oro - 2026-09-20T12:22:24+00:00
+2026-09-20 12:25:33,222 | INFO | pipeline.ingestion.save_json | Incremental load: weatherapi - Cagayan de Oro - 2026-09-20 20:15
+2026-09-20 12:25:34,097 | INFO | pipeline.ingestion.save_json | Incremental load: openweather - Zamboanga City - 2026-09-20T12:25:34+00:00
+2026-09-20 12:25:34,450 | INFO | pipeline.ingestion.save_json | Incremental load: weatherapi - Zamboanga City - 2026-09-20 20:15
+2026-10-05 16:20:58,734 | INFO | pipeline.ingestion.save_json | Initial load: openweather_test - City One
+2026-10-05 16:20:58,805 | INFO | pipeline.ingestion.save_json | Initial load: openweather_test - City Two
+2026-10-05 16:22:49,985 | INFO | pipeline.ingestion.save_json | Initial load: openweather_test - City One
+2026-10-05 16:22:50,067 | INFO | pipeline.ingestion.save_json | Initial load: openweather_test - City Two
+2026-10-05 16:28:47,184 | INFO | pipeline.ingestion.save_json | Initial load: openweather_test - City One
+2026-10-05 16:28:47,225 | INFO | pipeline.ingestion.save_json | Initial load: openweather_test - City Two
+2026-10-05 16:30:26,099 | INFO | pipeline.ingestion.save_json | Initial load: openweather_test - City One
+2026-10-05 16:30:26,148 | INFO | pipeline.ingestion.save_json | Initial load: openweather_test - City Two
+2026-10-05 16:32:48,499 | INFO | pipeline.ingestion.save_json | Initial load: openweather_test - City One
+2026-10-05 16:32:48,553 | INFO | pipeline.ingestion.save_json | Initial load: openweather_test - City Two
+2026-10-05 17:22:57,118 | INFO | pipeline.ingestion.save_json | Initial load: %s - %s - %sopenweather_test - City One2023-11-14T22:13:20+00:00
+2026-10-05 17:22:57,169 | INFO | pipeline.ingestion.save_json | Initial load: %s - %s - %sopenweather_test - City Two2023-11-14T23:13:20+00:00
+2026-10-05 17:29:10,356 | INFO | pipeline.ingestion.save_json | Initial load: %s - %s - %sopenweather_test - City One2023-11-14T22:13:20+00:00
+2026-10-05 17:29:10,414 | INFO | pipeline.ingestion.save_json | Initial load: %s - %s - %sopenweather_test - City Two2023-11-14T23:13:20+00:00
+2026-10-05 17:30:15,228 | INFO | pipeline.ingestion.save_json | Initial load: %s - %s - %sopenweather - Manila2026-10-05T09:20:28+00:00
+2026-10-05 17:32:10,050 | INFO | pipeline.ingestion.save_json | Initial load: %s - %s - %sopenweather_test - City One2023-11-14T22:13:20+00:00
+2026-10-05 17:32:10,116 | INFO | pipeline.ingestion.save_json | Initial load: %s - %s - %sopenweather_test - City Two2023-11-14T23:13:20+00:00
+2026-10-05 17:33:03,317 | INFO | pipeline.ingestion.save_json | Incremental load: openweather - Manila - 2026-10-05T09:30:47+00:00
+2026-10-05 17:33:03,935 | INFO | pipeline.ingestion.save_json | Initial load: %s - %s - %sweatherapi - Manila2026-10-05 17:15
+2026-10-05 17:33:04,962 | INFO | pipeline.ingestion.save_json | Initial load: %s - %s - %sopenweather - Quezon City2026-10-05T09:32:51+00:00
+2026-10-05 17:33:05,097 | INFO | pipeline.ingestion.save_json | Initial load: %s - %s - %sweatherapi - Quezon City2026-10-05 17:15
+2026-10-05 17:33:06,512 | INFO | pipeline.ingestion.save_json | Initial load: %s - %s - %sopenweather - Cebu City2026-10-05T09:31:52+00:00
+2026-10-05 17:33:06,721 | INFO | pipeline.ingestion.save_json | Initial load: %s - %s - %sweatherapi - Cebu City2026-10-05 17:15
+2026-10-05 17:33:08,065 | INFO | pipeline.ingestion.save_json | Initial load: %s - %s - %sopenweather - Davao City2026-10-05T09:31:38+00:00
+2026-10-05 17:33:08,205 | INFO | pipeline.ingestion.save_json | Initial load: %s - %s - %sweatherapi - Davao City2026-10-05 17:30
+2026-10-05 17:33:09,135 | INFO | pipeline.ingestion.save_json | Initial load: %s - %s - %sopenweather - Baguio2026-10-05T09:33:09+00:00
+2026-10-05 17:33:09,222 | INFO | pipeline.ingestion.save_json | Initial load: %s - %s - %sweatherapi - Baguio2026-10-05 17:15
+2026-10-05 17:33:10,344 | INFO | pipeline.ingestion.save_json | Initial load: %s - %s - %sopenweather - Iloilo City2026-10-05T09:29:39+00:00
+2026-10-05 17:33:10,442 | INFO | pipeline.ingestion.save_json | Initial load: %s - %s - %sweatherapi - Iloilo City2026-10-05 17:15
+2026-10-05 17:33:11,759 | INFO | pipeline.ingestion.save_json | Initial load: %s - %s - %sopenweather - Cagayan de Oro2026-10-05T09:30:00+00:00
+2026-10-05 17:33:11,868 | INFO | pipeline.ingestion.save_json | Initial load: %s - %s - %sweatherapi - Cagayan de Oro2026-10-05 17:30
+2026-10-05 17:33:13,121 | INFO | pipeline.ingestion.save_json | Initial load: %s - %s - %sopenweather - Zamboanga City2026-10-05T09:31:39+00:00
+2026-10-05 17:33:13,248 | INFO | pipeline.ingestion.save_json | Initial load: %s - %s - %sweatherapi - Zamboanga City2026-10-05 17:15
+2026-10-05 17:34:58,395 | INFO | pipeline.ingestion.save_json | Incremental load: openweather - Manila - 2026-10-05T09:30:59+00:00
+2026-10-05 17:34:59,171 | INFO | pipeline.ingestion.save_json | Duplicate skipped: %s - %s - %sweatherapi - Manila - 2026-10-05 17:15
+2026-10-05 17:35:00,894 | INFO | pipeline.ingestion.save_json | Duplicate skipped: %s - %s - %sopenweather - Quezon City - 2026-10-05T09:32:51+00:00
+2026-10-05 17:35:01,105 | INFO | pipeline.ingestion.save_json | Duplicate skipped: %s - %s - %sweatherapi - Quezon City - 2026-10-05 17:15
+2026-10-05 17:35:02,314 | INFO | pipeline.ingestion.save_json | Duplicate skipped: %s - %s - %sopenweather - Cebu City - 2026-10-05T09:31:52+00:00
+2026-10-05 17:35:02,562 | INFO | pipeline.ingestion.save_json | Duplicate skipped: %s - %s - %sweatherapi - Cebu City - 2026-10-05 17:15
+2026-10-05 17:35:04,360 | INFO | pipeline.ingestion.save_json | Incremental load: openweather - Davao City - 2026-10-05T09:35:00+00:00
+2026-10-05 17:35:04,633 | INFO | pipeline.ingestion.save_json | Duplicate skipped: %s - %s - %sweatherapi - Davao City - 2026-10-05 17:30
+2026-10-05 17:35:06,097 | INFO | pipeline.ingestion.save_json | Duplicate skipped: %s - %s - %sopenweather - Baguio - 2026-10-05T09:33:09+00:00
+2026-10-05 17:35:06,271 | INFO | pipeline.ingestion.save_json | Duplicate skipped: %s - %s - %sweatherapi - Baguio - 2026-10-05 17:15
+2026-10-05 17:35:07,609 | INFO | pipeline.ingestion.save_json | Incremental load: openweather - Iloilo City - 2026-10-05T09:35:07+00:00
+2026-10-05 17:35:07,851 | INFO | pipeline.ingestion.save_json | Duplicate skipped: %s - %s - %sweatherapi - Iloilo City - 2026-10-05 17:15
+2026-10-05 17:35:09,689 | INFO | pipeline.ingestion.save_json | Incremental load: openweather - Cagayan de Oro - 2026-10-05T09:35:09+00:00
+2026-10-05 17:35:09,930 | INFO | pipeline.ingestion.save_json | Duplicate skipped: %s - %s - %sweatherapi - Cagayan de Oro - 2026-10-05 17:30
+2026-10-05 17:35:11,444 | INFO | pipeline.ingestion.save_json | Duplicate skipped: %s - %s - %sopenweather - Zamboanga City - 2026-10-05T09:31:39+00:00
+2026-10-05 17:35:11,730 | INFO | pipeline.ingestion.save_json | Duplicate skipped: %s - %s - %sweatherapi - Zamboanga City - 2026-10-05 17:15
+2026-10-05 18:46:53,226 | INFO | pipeline.ingestion.save_json | Initial load: %s - %s - %sopenweather_test - City One2023-11-14T22:13:20+00:00
+2026-10-05 18:46:53,284 | INFO | pipeline.ingestion.save_json | Initial load: %s - %s - %sopenweather_test - City Two2023-11-14T23:13:20+00:00
+2026-10-05 18:50:50,237 | INFO | pipeline.ingestion.save_json | Initial load: %s - %s - %sopenweather_test - City One2023-11-14T22:13:20+00:00
+2026-10-05 18:50:50,282 | INFO | pipeline.ingestion.save_json | Initial load: %s - %s - %sopenweather_test - City Two2023-11-14T23:13:20+00:00
+2026-10-05 18:54:43,417 | INFO | pipeline.ingestion.save_json | Initial load: %s - %s - %sopenweather_test - City One2023-11-14T22:13:20+00:00
+2026-10-05 18:54:43,485 | INFO | pipeline.ingestion.save_json | Initial load: %s - %s - %sopenweather_test - City Two2023-11-14T23:13:20+00:00
+2026-10-05 19:04:07,602 | INFO | pipeline.ingestion.save_json | Initial load: %s - %s - %sopenweather_test - City One2023-11-14T22:13:20+00:00
+2026-10-05 19:04:07,650 | INFO | pipeline.ingestion.save_json | Initial load: %s - %s - %sopenweather_test - City Two2023-11-14T23:13:20+00:00
+2026-10-06 15:43:09,032 | INFO | pipeline.ingestion.save_json | Initial load: %s - %s - %sopenweather_test - City One2023-11-14T22:13:20+00:00
+2026-10-06 15:43:09,108 | INFO | pipeline.ingestion.save_json | Initial load: %s - %s - %sopenweather_test - City Two2023-11-14T23:13:20+00:00
+2026-10-06 15:46:24,944 | INFO | pipeline.ingestion.save_json | Initial load: %s - %s - %sopenweather_test - City One2023-11-14T22:13:20+00:00
+2026-10-06 15:46:25,009 | INFO | pipeline.ingestion.save_json | Initial load: %s - %s - %sopenweather_test - City Two2023-11-14T23:13:20+00:00
+2026-10-06 15:48:10,033 | INFO | pipeline.ingestion.save_json | Initial load: %s - %s - %sopenweather - Manila2026-10-06T07:38:52+00:00
+2026-10-06 15:48:10,567 | WARNING | pipeline.ingestion.save_json | No observation time found in data; falling back to current UTC time.
+2026-10-06 15:48:10,600 | INFO | pipeline.ingestion.save_json | Initial load: %s - %s - %sgeocoding - Manila2026-10-06T07:48:10.571629+00:00
+2026-10-06 15:48:11,320 | INFO | pipeline.ingestion.save_json | Initial load: %s - %s - %sopenweather - Quezon City2026-10-06T07:42:59+00:00
+2026-10-06 15:48:11,482 | WARNING | pipeline.ingestion.save_json | No observation time found in data; falling back to current UTC time.
+2026-10-06 15:48:11,496 | INFO | pipeline.ingestion.save_json | Initial load: %s - %s - %sgeocoding - Quezon City2026-10-06T07:48:11.484366+00:00
+2026-10-06 15:48:12,139 | INFO | pipeline.ingestion.save_json | Initial load: %s - %s - %sopenweather - Cebu City2026-10-06T07:40:06+00:00
+2026-10-06 15:48:12,343 | WARNING | pipeline.ingestion.save_json | No observation time found in data; falling back to current UTC time.
+2026-10-06 15:48:12,367 | INFO | pipeline.ingestion.save_json | Initial load: %s - %s - %sgeocoding - Cebu City2026-10-06T07:48:12.345423+00:00
+2026-10-06 15:48:13,091 | INFO | pipeline.ingestion.save_json | Initial load: %s - %s - %sopenweather - Davao City2026-10-06T07:48:13+00:00
+2026-10-06 15:48:13,251 | WARNING | pipeline.ingestion.save_json | No observation time found in data; falling back to current UTC time.
+2026-10-06 15:48:13,265 | INFO | pipeline.ingestion.save_json | Initial load: %s - %s - %sgeocoding - Davao City2026-10-06T07:48:13.253502+00:00
+2026-10-06 15:48:13,978 | INFO | pipeline.ingestion.save_json | Initial load: %s - %s - %sopenweather - Baguio2026-10-06T07:48:14+00:00
+2026-10-06 15:48:14,178 | WARNING | pipeline.ingestion.save_json | No observation time found in data; falling back to current UTC time.
+2026-10-06 15:48:14,200 | INFO | pipeline.ingestion.save_json | Initial load: %s - %s - %sgeocoding - Baguio2026-10-06T07:48:14.180655+00:00
+2026-10-06 15:48:14,850 | INFO | pipeline.ingestion.save_json | Initial load: %s - %s - %sopenweather - Iloilo City2026-10-06T07:48:10+00:00
+2026-10-06 15:48:15,045 | WARNING | pipeline.ingestion.save_json | No observation time found in data; falling back to current UTC time.
+2026-10-06 15:48:15,065 | INFO | pipeline.ingestion.save_json | Initial load: %s - %s - %sgeocoding - Iloilo City2026-10-06T07:48:15.047508+00:00
+2026-10-06 15:48:15,662 | INFO | pipeline.ingestion.save_json | Initial load: %s - %s - %sopenweather - Cagayan de Oro2026-10-06T07:48:16+00:00
+2026-10-06 15:48:15,818 | WARNING | pipeline.ingestion.save_json | No observation time found in data; falling back to current UTC time.
+2026-10-06 15:48:15,834 | INFO | pipeline.ingestion.save_json | Initial load: %s - %s - %sgeocoding - Cagayan de Oro2026-10-06T07:48:15.820087+00:00
+2026-10-06 15:48:16,488 | INFO | pipeline.ingestion.save_json | Initial load: %s - %s - %sopenweather - Zamboanga City2026-10-06T07:48:16+00:00
+2026-10-06 15:48:16,699 | WARNING | pipeline.ingestion.save_json | No observation time found in data; falling back to current UTC time.
+2026-10-06 15:48:16,715 | INFO | pipeline.ingestion.save_json | Initial load: %s - %s - %sgeocoding - Zamboanga City2026-10-06T07:48:16.701059+00:00
+2026-10-06 18:12:48,673 | INFO | pipeline.ingestion.save_json | Initial load: openweather_test - City One - 2023-11-14T22:13:20+00:00
+2026-10-06 18:12:48,729 | INFO | pipeline.ingestion.save_json | Initial load: openweather_test - City Two - 2023-11-14T23:13:20+00:00
+2026-10-06 18:14:45,276 | INFO | pipeline.ingestion.save_json | Initial load: openweather_test - City One - 2023-11-14T22:13:20+00:00
+2026-10-06 18:14:45,334 | INFO | pipeline.ingestion.save_json | Initial load: openweather_test - City Two - 2023-11-14T23:13:20+00:00
+2026-10-06 18:15:21,398 | INFO | pipeline.ingestion.save_json | Initial load: openweather - Manila - 2026-10-06T10:15:21+00:00
+2026-10-06 18:15:21,936 | INFO | pipeline.ingestion.save_json | Initial load: openweather - Quezon City - 2026-10-06T10:05:24+00:00
+2026-10-06 18:15:22,579 | INFO | pipeline.ingestion.save_json | Initial load: openweather - Cebu City - 2026-10-06T10:10:04+00:00
+2026-10-06 18:15:23,209 | INFO | pipeline.ingestion.save_json | Initial load: openweather - Davao City - 2026-10-06T10:10:05+00:00
+2026-10-06 18:15:23,804 | INFO | pipeline.ingestion.save_json | Initial load: openweather - Baguio - 2026-10-06T10:10:20+00:00
+2026-10-06 18:15:24,448 | INFO | pipeline.ingestion.save_json | Initial load: openweather - Iloilo City - 2026-10-06T10:10:03+00:00
+2026-10-06 18:15:25,083 | INFO | pipeline.ingestion.save_json | Initial load: openweather - Cagayan de Oro - 2026-10-06T10:10:05+00:00
+2026-10-06 18:15:25,670 | INFO | pipeline.ingestion.save_json | Initial load: openweather - Zamboanga City - 2026-10-06T10:10:05+00:00
+2026-10-06 18:17:19,656 | INFO | pipeline.ingestion.save_json | Appended record: openweather - Quezon City - 2026-10-06T10:17:19+00:00
+2026-10-06 18:17:20,592 | INFO | pipeline.ingestion.save_json | Appended record: openweather - Cebu City - 2026-10-06T10:13:11+00:00
+2026-10-06 18:17:22,768 | INFO | pipeline.ingestion.save_json | Appended record: openweather - Iloilo City - 2026-10-06T10:14:18+00:00
+2026-10-06 18:17:23,372 | INFO | pipeline.ingestion.save_json | Appended record: openweather - Cagayan de Oro - 2026-10-06T10:17:23+00:00
+2026-10-06 18:17:24,329 | INFO | pipeline.ingestion.save_json | Appended record: openweather - Zamboanga City - 2026-10-06T10:17:24+00:00
+2026-10-06 18:26:48,495 | INFO | pipeline.ingestion.save_json | Initial load: openweather - Manila - 2026-10-06T10:40:00+00:00
+2026-10-06 18:26:48,502 | INFO | pipeline.ingestion.save_json | Initial load: openweather - Manila - 2026-10-06T10:40:00+00:00
+2026-10-06 18:26:48,503 | INFO | pipeline.ingestion.save_json | Duplicate skipped: openweather - Manila - 2026-10-06T10:40:00+00:00
+2026-10-06 18:26:52,682 | INFO | pipeline.ingestion.save_json | Initial load: openweather - Manila - 2026-10-06T10:40:00+00:00
+2026-10-06 18:26:52,688 | INFO | pipeline.ingestion.save_json | Initial load: openweather - Quezon City - 2026-10-06T10:40:00+00:00
+2026-10-06 18:26:52,694 | INFO | pipeline.ingestion.save_json | Initial load: openweather - Cebu City - 2026-10-06T10:40:00+00:00
+2026-10-06 18:26:52,698 | INFO | pipeline.ingestion.save_json | Initial load: openweather - Davao City - 2026-10-06T10:40:00+00:00
+2026-10-06 18:26:52,702 | INFO | pipeline.ingestion.save_json | Initial load: openweather - Baguio - 2026-10-06T10:40:00+00:00
+2026-10-06 18:26:52,706 | INFO | pipeline.ingestion.save_json | Initial load: openweather - Iloilo City - 2026-10-06T10:40:00+00:00
+2026-10-06 18:26:52,709 | INFO | pipeline.ingestion.save_json | Initial load: openweather - Cagayan de Oro - 2026-10-06T10:40:00+00:00
+2026-10-06 18:26:52,712 | INFO | pipeline.ingestion.save_json | Initial load: openweather - Zamboanga City - 2026-10-06T10:40:00+00:00
+2026-10-06 18:28:18,481 | INFO | pipeline.ingestion.save_json | Initial load: openweather - Manila - 2026-10-06T10:40:00+00:00
+2026-10-06 18:28:18,489 | INFO | pipeline.ingestion.save_json | Initial load: openweather - Manila - 2026-10-06T10:40:00+00:00
+2026-10-06 18:28:18,490 | INFO | pipeline.ingestion.save_json | Duplicate skipped: openweather - Manila - 2026-10-06T10:40:00+00:00
+2026-10-06 18:28:18,607 | INFO | pipeline.ingestion.save_json | Initial load: openweather - Manila - 2026-10-06T10:40:00+00:00
+2026-10-06 18:28:18,618 | INFO | pipeline.ingestion.save_json | Initial load: openweather - Quezon City - 2026-10-06T10:40:00+00:00
+2026-10-06 18:28:18,627 | INFO | pipeline.ingestion.save_json | Initial load: openweather - Cebu City - 2026-10-06T10:40:00+00:00
+2026-10-06 18:28:18,636 | INFO | pipeline.ingestion.save_json | Initial load: openweather - Davao City - 2026-10-06T10:40:00+00:00
+2026-10-06 18:28:18,644 | INFO | pipeline.ingestion.save_json | Initial load: openweather - Baguio - 2026-10-06T10:40:00+00:00
+2026-10-06 18:28:18,650 | INFO | pipeline.ingestion.save_json | Initial load: openweather - Iloilo City - 2026-10-06T10:40:00+00:00
+2026-10-06 18:28:18,656 | INFO | pipeline.ingestion.save_json | Initial load: openweather - Cagayan de Oro - 2026-10-06T10:40:00+00:00
+2026-10-06 18:28:18,662 | INFO | pipeline.ingestion.save_json | Initial load: openweather - Zamboanga City - 2026-10-06T10:40:00+00:00
+2026-10-06 18:34:16,370 | INFO | pipeline.ingestion.save_json | Initial load: openweather - Manila - 2026-10-06T10:40:00+00:00
+2026-10-06 18:34:16,376 | INFO | pipeline.ingestion.save_json | Initial load: openweather - Manila - 2026-10-06T10:40:00+00:00
+2026-10-06 18:34:16,378 | INFO | pipeline.ingestion.save_json | Duplicate skipped: openweather - Manila - 2026-10-06T10:40:00+00:00
+2026-10-06 18:34:16,504 | INFO | pipeline.ingestion.save_json | Initial load: openweather - Manila - 2026-10-06T10:40:00+00:00
+2026-10-06 18:34:16,510 | INFO | pipeline.ingestion.save_json | Initial load: openweather - Quezon City - 2026-10-06T10:40:00+00:00
+2026-10-06 18:34:16,516 | INFO | pipeline.ingestion.save_json | Initial load: openweather - Cebu City - 2026-10-06T10:40:00+00:00
+2026-10-06 18:34:16,525 | INFO | pipeline.ingestion.save_json | Initial load: openweather - Davao City - 2026-10-06T10:40:00+00:00
+2026-10-06 18:34:16,536 | INFO | pipeline.ingestion.save_json | Initial load: openweather - Baguio - 2026-10-06T10:40:00+00:00
+2026-10-06 18:34:16,542 | INFO | pipeline.ingestion.save_json | Initial load: openweather - Iloilo City - 2026-10-06T10:40:00+00:00
+2026-10-06 18:34:16,549 | INFO | pipeline.ingestion.save_json | Initial load: openweather - Cagayan de Oro - 2026-10-06T10:40:00+00:00
+2026-10-06 18:34:16,555 | INFO | pipeline.ingestion.save_json | Initial load: openweather - Zamboanga City - 2026-10-06T10:40:00+00:00
+2026-10-06 18:36:02,518 | INFO | pipeline.ingestion.save_json | Initial load: openweather - Manila - 2026-10-06T10:40:00+00:00
+2026-10-06 18:36:02,527 | INFO | pipeline.ingestion.save_json | Initial load: openweather - Manila - 2026-10-06T10:40:00+00:00
+2026-10-06 18:36:02,530 | INFO | pipeline.ingestion.save_json | Duplicate skipped: openweather - Manila - 2026-10-06T10:40:00+00:00
+2026-10-06 18:36:02,750 | INFO | pipeline.ingestion.save_json | Initial load: openweather - Manila - 2026-10-06T10:40:00+00:00
+2026-10-06 18:36:02,758 | INFO | pipeline.ingestion.save_json | Initial load: openweather - Quezon City - 2026-10-06T10:40:00+00:00
+2026-10-06 18:36:02,765 | INFO | pipeline.ingestion.save_json | Initial load: openweather - Cebu City - 2026-10-06T10:40:00+00:00
+2026-10-06 18:36:02,779 | INFO | pipeline.ingestion.save_json | Initial load: openweather - Davao City - 2026-10-06T10:40:00+00:00
+2026-10-06 18:36:02,795 | INFO | pipeline.ingestion.save_json | Initial load: openweather - Baguio - 2026-10-06T10:40:00+00:00
+2026-10-06 18:36:02,804 | INFO | pipeline.ingestion.save_json | Initial load: openweather - Iloilo City - 2026-10-06T10:40:00+00:00
+2026-10-06 18:36:02,818 | INFO | pipeline.ingestion.save_json | Initial load: openweather - Cagayan de Oro - 2026-10-06T10:40:00+00:00
+2026-10-06 18:36:02,827 | INFO | pipeline.ingestion.save_json | Initial load: openweather - Zamboanga City - 2026-10-06T10:40:00+00:00
+2026-10-06 18:39:17,791 | INFO | pipeline.ingestion.save_json | Initial load: openweather - Manila - 2026-10-06T10:40:00+00:00
+2026-10-06 18:39:17,797 | INFO | pipeline.ingestion.save_json | Initial load: openweather - Manila - 2026-10-06T10:40:00+00:00
+2026-10-06 18:39:17,799 | INFO | pipeline.ingestion.save_json | Duplicate skipped: openweather - Manila - 2026-10-06T10:40:00+00:00
+2026-10-06 18:39:17,998 | INFO | pipeline.ingestion.save_json | Initial load: openweather - Manila - 2026-10-06T10:40:00+00:00
+2026-10-06 18:39:18,004 | INFO | pipeline.ingestion.save_json | Initial load: openweather - Quezon City - 2026-10-06T10:40:00+00:00
+2026-10-06 18:39:18,011 | INFO | pipeline.ingestion.save_json | Initial load: openweather - Cebu City - 2026-10-06T10:40:00+00:00
+2026-10-06 18:39:18,019 | INFO | pipeline.ingestion.save_json | Initial load: openweather - Davao City - 2026-10-06T10:40:00+00:00
+2026-10-06 18:39:18,027 | INFO | pipeline.ingestion.save_json | Initial load: openweather - Baguio - 2026-10-06T10:40:00+00:00
+2026-10-06 18:39:18,035 | INFO | pipeline.ingestion.save_json | Initial load: openweather - Iloilo City - 2026-10-06T10:40:00+00:00
+2026-10-06 18:39:18,042 | INFO | pipeline.ingestion.save_json | Initial load: openweather - Cagayan de Oro - 2026-10-06T10:40:00+00:00
+2026-10-06 18:39:18,048 | INFO | pipeline.ingestion.save_json | Initial load: openweather - Zamboanga City - 2026-10-06T10:40:00+00:00
+2026-10-06 19:17:22,219 | INFO | pipeline.ingestion.save_json | Incremental load: openweather - Manila - 2026-10-06T11:07:59+00:00
+2026-10-06 19:17:24,555 | INFO | pipeline.ingestion.save_json | Incremental load: openweather - Quezon City - 2026-10-06T11:05:54+00:00
+2026-10-06 19:17:25,118 | INFO | pipeline.ingestion.save_json | Incremental load: openweather - Cebu City - 2026-10-06T11:17:24+00:00
+2026-10-06 19:17:25,907 | INFO | pipeline.ingestion.save_json | Incremental load: openweather - Davao City - 2026-10-06T11:17:25+00:00
+2026-10-06 19:17:26,796 | INFO | pipeline.ingestion.save_json | Incremental load: openweather - Baguio - 2026-10-06T11:10:13+00:00
+2026-10-06 19:17:27,398 | INFO | pipeline.ingestion.save_json | Incremental load: openweather - Iloilo City - 2026-10-06T11:17:27+00:00
+2026-10-06 19:17:28,245 | INFO | pipeline.ingestion.save_json | Incremental load: openweather - Cagayan de Oro - 2026-10-06T11:17:28+00:00
+2026-10-06 19:17:29,202 | INFO | pipeline.ingestion.save_json | Incremental load: openweather - Zamboanga City - 2026-10-06T11:17:29+00:00
+2026-10-06 20:05:40,911 | INFO | pipeline.ingestion.save_json | Incremental load: openweather - Manila - 2026-10-06T11:58:21+00:00
+2026-10-06 20:05:42,616 | INFO | pipeline.ingestion.save_json | Incremental load: openweather - Quezon City - 2026-10-06T12:00:19+00:00
+2026-10-06 20:05:43,592 | INFO | pipeline.ingestion.save_json | Incremental load: openweather - Cebu City - 2026-10-06T12:05:43+00:00
+2026-10-06 20:05:44,484 | INFO | pipeline.ingestion.save_json | Incremental load: openweather - Davao City - 2026-10-06T12:00:22+00:00
+2026-10-06 20:05:45,362 | INFO | pipeline.ingestion.save_json | Incremental load: openweather - Baguio - 2026-10-06T11:59:06+00:00
+2026-10-06 20:05:46,314 | INFO | pipeline.ingestion.save_json | Incremental load: openweather - Iloilo City - 2026-10-06T12:02:10+00:00
+2026-10-06 20:05:47,237 | INFO | pipeline.ingestion.save_json | Incremental load: openweather - Cagayan de Oro - 2026-10-06T12:05:46+00:00
+2026-10-06 20:05:48,027 | INFO | pipeline.ingestion.save_json | Incremental load: openweather - Zamboanga City - 2026-10-06T12:00:21+00:00
+2026-10-06 20:07:48,055 | INFO | pipeline.ingestion.save_json | Incremental load: openweather - Davao City - 2026-10-06T12:07:47+00:00
+2026-10-06 20:07:50,726 | INFO | pipeline.ingestion.save_json | Duplicate skipped: openweather - Cagayan de Oro - 2026-10-06T12:05:46+00:00
+2026-10-06 20:07:51,594 | INFO | pipeline.ingestion.save_json | Incremental load: openweather - Zamboanga City - 2026-10-06T12:07:51+00:00
+2026-10-06 20:12:08,609 | INFO | pipeline.ingestion.save_json | Incremental load: openweather - Manila - 2026-10-06T12:09:59+00:00
+2026-10-06 20:12:10,194 | INFO | pipeline.ingestion.save_json | Incremental load: openweather - Quezon City - 2026-10-06T12:12:09+00:00
+2026-10-06 20:12:11,622 | INFO | pipeline.ingestion.save_json | Incremental load: openweather - Cebu City - 2026-10-06T12:12:11+00:00
+2026-10-06 20:12:13,427 | INFO | pipeline.ingestion.save_json | Incremental load: openweather - Baguio - 2026-10-06T12:12:13+00:00
+2026-10-06 20:12:14,464 | INFO | pipeline.ingestion.save_json | Incremental load: openweather - Iloilo City - 2026-10-06T12:12:14+00:00
+2026-10-06 20:12:15,591 | INFO | pipeline.ingestion.save_json | Incremental load: openweather - Cagayan de Oro - 2026-10-06T12:12:15+00:00
+2026-10-06 20:12:16,642 | INFO | pipeline.ingestion.save_json | Incremental load: openweather - Zamboanga City - 2026-10-06T12:10:11+00:00
+2026-10-06 20:14:53,851 | INFO | pipeline.ingestion.save_json | Incremental load: openweather - Davao City - 2026-10-06T12:14:53+00:00
+2026-10-06 20:14:57,185 | INFO | pipeline.ingestion.save_json | Incremental load: openweather - Zamboanga City - 2026-10-06T12:14:03+00:00
+2026-10-06 12:55:22,616 | INFO | pipeline.ingestion.save_json | Incremental load: openweather - Manila - 2026-10-06T12:54:08+00:00
+2026-10-06 12:55:23,537 | INFO | pipeline.ingestion.save_json | Incremental load: openweather - Quezon City - 2026-10-06T12:50:18+00:00
+2026-10-06 12:55:24,222 | INFO | pipeline.ingestion.save_json | Incremental load: openweather - Cebu City - 2026-10-06T12:54:09+00:00
+2026-10-06 12:55:24,901 | INFO | pipeline.ingestion.save_json | Incremental load: openweather - Davao City - 2026-10-06T12:54:09+00:00
+2026-10-06 12:55:25,603 | INFO | pipeline.ingestion.save_json | Incremental load: openweather - Baguio - 2026-10-06T12:52:45+00:00
+2026-10-06 12:55:26,288 | INFO | pipeline.ingestion.save_json | Incremental load: openweather - Iloilo City - 2026-10-06T12:50:20+00:00
+2026-10-06 12:55:26,943 | INFO | pipeline.ingestion.save_json | Incremental load: openweather - Cagayan de Oro - 2026-10-06T12:50:06+00:00
+2026-10-06 12:55:27,605 | INFO | pipeline.ingestion.save_json | Incremental load: openweather - Zamboanga City - 2026-10-06T12:53:06+00:00
+2026-10-07 07:50:43,305 | INFO | pipeline.ingestion.save_json | Incremental load: openweather - Manila - 2026-10-07T07:41:00+00:00
+2026-10-07 07:50:44,180 | INFO | pipeline.ingestion.save_json | Incremental load: openweather - Quezon City - 2026-10-07T07:48:32+00:00
+2026-10-07 07:50:44,829 | INFO | pipeline.ingestion.save_json | Incremental load: openweather - Cebu City - 2026-10-07T07:43:09+00:00
+2026-10-07 07:50:45,598 | INFO | pipeline.ingestion.save_json | Incremental load: openweather - Davao City - 2026-10-07T07:48:39+00:00
+2026-10-07 07:50:46,420 | INFO | pipeline.ingestion.save_json | Incremental load: openweather - Baguio - 2026-10-07T07:50:45+00:00
+2026-10-07 07:50:47,233 | INFO | pipeline.ingestion.save_json | Incremental load: openweather - Iloilo City - 2026-10-07T07:48:22+00:00
+2026-10-07 07:50:48,035 | INFO | pipeline.ingestion.save_json | Incremental load: openweather - Cagayan de Oro - 2026-10-07T07:50:06+00:00
+2026-10-07 07:50:48,829 | INFO | pipeline.ingestion.save_json | Incremental load: openweather - Zamboanga City - 2026-10-07T07:49:52+00:00
+2026-10-07 08:18:37,221 | INFO | pipeline.ingestion.save_json | Incremental load: openweather - Manila - 2026-10-07T08:12:00+00:00
+2026-10-07 08:18:38,176 | INFO | pipeline.ingestion.save_json | Incremental load: openweather - Quezon City - 2026-10-07T08:18:38+00:00
+2026-10-07 08:18:39,157 | INFO | pipeline.ingestion.save_json | Incremental load: openweather - Cebu City - 2026-10-07T08:18:38+00:00
+2026-10-07 08:18:40,032 | INFO | pipeline.ingestion.save_json | Incremental load: openweather - Davao City - 2026-10-07T08:18:39+00:00
+2026-10-07 08:18:41,214 | INFO | pipeline.ingestion.save_json | Incremental load: openweather - Baguio - 2026-10-07T08:14:46+00:00
+2026-10-07 08:18:42,003 | INFO | pipeline.ingestion.save_json | Incremental load: openweather - Iloilo City - 2026-10-07T08:13:52+00:00
+2026-10-07 08:18:42,866 | INFO | pipeline.ingestion.save_json | Incremental load: openweather - Cagayan de Oro - 2026-10-07T08:18:42+00:00
+2026-10-07 08:18:43,646 | INFO | pipeline.ingestion.save_json | Incremental load: openweather - Zamboanga City - 2026-10-07T08:13:37+00:00
+2026-10-07 08:27:27,204 | INFO | pipeline.ingestion.save_json | Incremental load: openweather - Manila - 2026-10-07T08:19:02+00:00
+2026-10-07 08:27:30,819 | INFO | pipeline.ingestion.save_json | Incremental load: openweather - Zamboanga City - 2026-10-07T08:25:35+00:00
+2026-10-07 08:28:40,676 | INFO | pipeline.ingestion.save_json | Incremental load: openweather - Quezon City - 2026-10-07T08:24:39+00:00
+2026-10-07 08:28:41,410 | INFO | pipeline.ingestion.save_json | Incremental load: openweather - Cebu City - 2026-10-07T08:28:28+00:00
+2026-10-07 08:28:42,301 | INFO | pipeline.ingestion.save_json | Incremental load: openweather - Davao City - 2026-10-07T08:28:42+00:00
+2026-10-07 08:28:43,196 | INFO | pipeline.ingestion.save_json | Incremental load: openweather - Baguio - 2026-10-07T08:28:43+00:00
+2026-10-07 08:28:44,161 | INFO | pipeline.ingestion.save_json | Incremental load: openweather - Iloilo City - 2026-10-07T08:28:43+00:00
+2026-10-07 08:28:45,263 | INFO | pipeline.ingestion.save_json | Incremental load: openweather - Cagayan de Oro - 2026-10-07T08:28:45+00:00
+2026-10-07 08:50:00,926 | INFO | pipeline.ingestion.save_json | Incremental load: openweather - Manila - 2026-10-07T08:40:11+00:00
+2026-10-07 08:50:01,893 | INFO | pipeline.ingestion.save_json | Incremental load: openweather - Quezon City - 2026-10-07T08:44:00+00:00
+2026-10-07 08:50:02,747 | INFO | pipeline.ingestion.save_json | Incremental load: openweather - Cebu City - 2026-10-07T08:43:47+00:00
+2026-10-07 08:50:03,778 | INFO | pipeline.ingestion.save_json | Incremental load: openweather - Davao City - 2026-10-07T08:45:05+00:00
+2026-10-07 08:50:04,740 | INFO | pipeline.ingestion.save_json | Incremental load: openweather - Baguio - 2026-10-07T08:44:44+00:00
+2026-10-07 08:50:05,622 | INFO | pipeline.ingestion.save_json | Incremental load: openweather - Iloilo City - 2026-10-07T08:49:50+00:00
+2026-10-07 08:50:06,600 | INFO | pipeline.ingestion.save_json | Incremental load: openweather - Cagayan de Oro - 2026-10-07T08:50:06+00:00
+2026-10-07 08:50:07,524 | INFO | pipeline.ingestion.save_json | Incremental load: openweather - Zamboanga City - 2026-10-07T08:49:36+00:00
+2026-10-07 09:44:13,094 | INFO | pipeline.ingestion.save_json | Incremental load: openweather - Manila - 2026-10-07T09:40:02+00:00
+2026-10-07 09:44:13,928 | INFO | pipeline.ingestion.save_json | Incremental load: openweather - Quezon City - 2026-10-07T09:35:55+00:00
+2026-10-07 09:44:14,891 | INFO | pipeline.ingestion.save_json | Incremental load: openweather - Cebu City - 2026-10-07T09:40:02+00:00
+2026-10-07 09:44:15,688 | INFO | pipeline.ingestion.save_json | Incremental load: openweather - Davao City - 2026-10-07T09:44:15+00:00
+2026-10-07 09:44:16,529 | INFO | pipeline.ingestion.save_json | Incremental load: openweather - Baguio - 2026-10-07T09:44:16+00:00
+2026-10-07 09:44:17,355 | INFO | pipeline.ingestion.save_json | Incremental load: openweather - Iloilo City - 2026-10-07T09:43:50+00:00
+2026-10-07 09:44:18,247 | INFO | pipeline.ingestion.save_json | Incremental load: openweather - Cagayan de Oro - 2026-10-07T09:44:17+00:00
+2026-10-07 09:44:19,203 | INFO | pipeline.ingestion.save_json | Incremental load: openweather - Zamboanga City - 2026-10-07T09:40:56+00:00
+2026-10-07 10:09:18,903 | INFO | pipeline.ingestion.save_json | Incremental load: openweather - Manila - 2026-10-07T10:08:50+00:00
+2026-10-07 10:09:19,830 | INFO | pipeline.ingestion.save_json | Incremental load: openweather - Quezon City - 2026-10-07T10:05:55+00:00
+2026-10-07 10:09:20,776 | INFO | pipeline.ingestion.save_json | Incremental load: openweather - Cebu City - 2026-10-07T10:09:20+00:00
+2026-10-07 10:09:21,626 | INFO | pipeline.ingestion.save_json | Incremental load: openweather - Davao City - 2026-10-07T10:09:21+00:00
+2026-10-07 10:09:22,442 | INFO | pipeline.ingestion.save_json | Incremental load: openweather - Baguio - 2026-10-07T10:09:22+00:00
+2026-10-07 10:09:23,425 | INFO | pipeline.ingestion.save_json | Incremental load: openweather - Iloilo City - 2026-10-07T10:01:41+00:00
+2026-10-07 10:09:24,617 | INFO | pipeline.ingestion.save_json | Incremental load: openweather - Cagayan de Oro - 2026-10-07T10:09:24+00:00
+2026-10-07 10:09:25,490 | INFO | pipeline.ingestion.save_json | Incremental load: openweather - Zamboanga City - 2026-10-07T10:07:35+00:00
+2026-10-07 10:30:36,426 | INFO | pipeline.ingestion.save_json | Incremental load: openweather - Manila - 2026-10-07T10:27:10+00:00
+2026-10-07 10:30:37,328 | INFO | pipeline.ingestion.save_json | Incremental load: openweather - Quezon City - 2026-10-07T10:24:14+00:00
+2026-10-07 10:30:38,052 | INFO | pipeline.ingestion.save_json | Incremental load: openweather - Cebu City - 2026-10-07T10:23:12+00:00
+2026-10-07 10:30:38,846 | INFO | pipeline.ingestion.save_json | Incremental load: openweather - Davao City - 2026-10-07T10:21:05+00:00
+2026-10-07 10:30:39,751 | INFO | pipeline.ingestion.save_json | Incremental load: openweather - Baguio - 2026-10-07T10:24:15+00:00
+2026-10-07 10:30:40,616 | INFO | pipeline.ingestion.save_json | Incremental load: openweather - Iloilo City - 2026-10-07T10:24:15+00:00
+2026-10-07 10:30:41,443 | INFO | pipeline.ingestion.save_json | Incremental load: openweather - Cagayan de Oro - 2026-10-07T10:24:15+00:00
+2026-10-07 10:30:42,146 | INFO | pipeline.ingestion.save_json | Incremental load: openweather - Zamboanga City - 2026-10-07T10:30:41+00:00
+2026-10-07 18:43:54,916 | INFO | pipeline.ingestion.save_json | Initial load: openweather - Manila
+2026-10-07 18:43:54,928 | INFO | pipeline.ingestion.save_json | Initial load: openweather - Manila
+2026-10-07 18:43:54,931 | INFO | pipeline.ingestion.save_json | Duplicate skipped: openweather - Manila - 2026-10-06T10:40:00+00:00
+2026-10-07 18:47:08,130 | INFO | pipeline.ingestion.save_json | Initial load: openweather - Manila
+2026-10-07 18:47:08,143 | INFO | pipeline.ingestion.save_json | Initial load: openweather - Manila
+2026-10-07 18:47:08,146 | INFO | pipeline.ingestion.save_json | Duplicate skipped: openweather - Manila - 2026-10-06T10:40:00+00:00
+2026-10-07 10:50:22,301 | INFO | pipeline.ingestion.save_json | Incremental load: openweather - Quezon City - 2026-10-07T10:50:00+00:00
+2026-10-07 10:50:23,156 | INFO | pipeline.ingestion.save_json | Incremental load: openweather - Cebu City - 2026-10-07T10:42:25+00:00
+2026-10-07 10:50:23,990 | INFO | pipeline.ingestion.save_json | Incremental load: openweather - Davao City - 2026-10-07T10:50:23+00:00
+2026-10-07 10:50:24,893 | INFO | pipeline.ingestion.save_json | Incremental load: openweather - Baguio - 2026-10-07T10:50:02+00:00
+2026-10-07 10:50:25,774 | INFO | pipeline.ingestion.save_json | Incremental load: openweather - Iloilo City - 2026-10-07T10:45:21+00:00
+2026-10-07 10:50:26,576 | INFO | pipeline.ingestion.save_json | Incremental load: openweather - Cagayan de Oro - 2026-10-07T10:50:06+00:00
+2026-10-07 10:50:27,537 | INFO | pipeline.ingestion.save_json | Incremental load: openweather - Zamboanga City - 2026-10-07T10:49:36+00:00
+2026-10-07 19:42:22,723 | INFO | pipeline.ingestion.save_json | Initial load: openweather - Manila
+2026-10-07 19:42:22,730 | INFO | pipeline.ingestion.save_json | Initial load: openweather - Manila
+2026-10-07 19:42:22,731 | INFO | pipeline.ingestion.save_json | Duplicate skipped: openweather - Manila - 2026-10-06T10:40:00+00:00
+2026-10-07 19:43:47,032 | INFO | pipeline.ingestion.save_json | Initial load: openweather - Manila
+2026-10-07 19:43:47,041 | INFO | pipeline.ingestion.save_json | Initial load: openweather - Manila
+2026-10-07 19:43:47,043 | INFO | pipeline.ingestion.save_json | Duplicate skipped: openweather - Manila - 2026-10-06T10:40:00+00:00
+2026-10-07 19:53:28,991 | INFO | pipeline.ingestion.save_json | Initial load: openweather - Manila
+2026-10-07 19:53:28,999 | INFO | pipeline.ingestion.save_json | Initial load: openweather - Manila
+2026-10-07 19:53:29,000 | INFO | pipeline.ingestion.save_json | Duplicate skipped: openweather - Manila - 2026-10-06T10:40:00+00:00
+2026-10-07 19:55:01,727 | INFO | pipeline.ingestion.save_json | Initial load: openweather - Manila
+2026-10-07 19:55:01,736 | INFO | pipeline.ingestion.save_json | Initial load: openweather - Manila
+2026-10-07 19:55:01,738 | INFO | pipeline.ingestion.save_json | Duplicate skipped: openweather - Manila - 2026-10-06T10:40:00+00:00
+2026-10-07 11:55:42,438 | INFO | pipeline.ingestion.save_json | Incremental load: openweather - Quezon City - 2026-10-07T11:55:42+00:00
+2026-10-07 11:55:43,440 | INFO | pipeline.ingestion.save_json | Incremental load: openweather - Cebu City - 2026-10-07T11:55:43+00:00
+2026-10-07 11:55:44,207 | INFO | pipeline.ingestion.save_json | Incremental load: openweather - Davao City - 2026-10-07T11:55:44+00:00
+2026-10-07 11:55:44,954 | INFO | pipeline.ingestion.save_json | Incremental load: openweather - Baguio - 2026-10-07T11:55:45+00:00
+2026-10-07 11:55:45,669 | INFO | pipeline.ingestion.save_json | Incremental load: openweather - Iloilo City - 2026-10-07T11:47:54+00:00
+2026-10-07 11:55:46,390 | INFO | pipeline.ingestion.save_json | Incremental load: openweather - Cagayan de Oro - 2026-10-07T11:47:54+00:00
+2026-10-07 11:55:47,069 | INFO | pipeline.ingestion.save_json | Incremental load: openweather - Zamboanga City - 2026-10-07T11:55:37+00:00
+2026-10-07 12:02:56,704 | INFO | pipeline.ingestion.save_json | Incremental load: openweather - Manila - 2026-10-07T11:59:19+00:00
+2026-10-07 12:02:57,495 | INFO | pipeline.ingestion.save_json | Incremental load: openweather - Quezon City - 2026-10-07T12:00:48+00:00
+2026-10-07 12:02:58,219 | INFO | pipeline.ingestion.save_json | Incremental load: openweather - Cebu City - 2026-10-07T12:00:22+00:00
+2026-10-07 12:02:58,996 | INFO | pipeline.ingestion.save_json | Incremental load: openweather - Davao City - 2026-10-07T12:00:44+00:00
+2026-10-07 12:03:00,054 | INFO | pipeline.ingestion.save_json | Incremental load: openweather - Iloilo City - 2026-10-07T12:00:34+00:00
+2026-10-07 12:03:00,696 | INFO | pipeline.ingestion.save_json | Incremental load: openweather - Cagayan de Oro - 2026-10-07T12:00:23+00:00
+2026-10-07 12:03:01,381 | INFO | pipeline.ingestion.save_json | Incremental load: openweather - Zamboanga City - 2026-10-07T12:00:44+00:00
+2026-10-09 03:12:10,113 | INFO | pipeline.ingestion.save_json | Incremental load: openweather - Manila - 2026-10-09T03:05:38+00:00
+2026-10-09 03:12:10,933 | INFO | pipeline.ingestion.save_json | Incremental load: openweather - Quezon City - 2026-10-09T03:03:56+00:00
+2026-10-09 03:12:11,825 | INFO | pipeline.ingestion.save_json | Incremental load: openweather - Cebu City - 2026-10-09T03:03:19+00:00
+2026-10-09 03:12:12,782 | INFO | pipeline.ingestion.save_json | Incremental load: openweather - Davao City - 2026-10-09T03:05:40+00:00
+2026-10-09 03:12:13,829 | INFO | pipeline.ingestion.save_json | Incremental load: openweather - Baguio - 2026-10-09T03:11:55+00:00
+2026-10-09 03:12:14,674 | INFO | pipeline.ingestion.save_json | Incremental load: openweather - Iloilo City - 2026-10-09T03:11:12+00:00
+2026-10-09 03:12:15,618 | INFO | pipeline.ingestion.save_json | Incremental load: openweather - Cagayan de Oro - 2026-10-09T03:05:41+00:00
+2026-10-09 03:12:16,519 | INFO | pipeline.ingestion.save_json | Incremental load: openweather - Zamboanga City - 2026-10-09T03:10:16+00:00
+2026-10-09 03:15:12,918 | INFO | pipeline.ingestion.save_json | Incremental load: openweather - Cebu City - 2026-10-09T03:10:15+00:00
+2026-10-09 08:43:03,123 | INFO | pipeline.ingestion.save_json | Incremental load: openweather - Manila - 2026-10-09T08:39:26+00:00
+2026-10-09 08:43:03,860 | INFO | pipeline.ingestion.save_json | Incremental load: openweather - Quezon City - 2026-10-09T08:30:48+00:00
+2026-10-09 08:43:04,595 | INFO | pipeline.ingestion.save_json | Incremental load: openweather - Cebu City - 2026-10-09T08:40:02+00:00
+2026-10-09 08:43:05,320 | INFO | pipeline.ingestion.save_json | Incremental load: openweather - Davao City - 2026-10-09T08:36:32+00:00
+2026-10-09 08:43:06,001 | INFO | pipeline.ingestion.save_json | Incremental load: openweather - Baguio - 2026-10-09T08:43:05+00:00
+2026-10-09 08:43:06,598 | INFO | pipeline.ingestion.save_json | Incremental load: openweather - Iloilo City - 2026-10-09T08:39:35+00:00
+2026-10-09 08:43:07,470 | INFO | pipeline.ingestion.save_json | Incremental load: openweather - Cagayan de Oro - 2026-10-09T08:43:06+00:00
+2026-10-09 08:43:08,119 | INFO | pipeline.ingestion.save_json | Incremental load: openweather - Zamboanga City - 2026-10-09T08:43:07+00:00
+2026-10-09 09:19:45,279 | INFO | pipeline.ingestion.save_json | Incremental load: openweather - Manila - 2026-10-09T09:16:46+00:00
+2026-10-09 09:19:45,945 | INFO | pipeline.ingestion.save_json | Incremental load: openweather - Quezon City - 2026-10-09T09:19:45+00:00
+2026-10-09 09:19:46,751 | INFO | pipeline.ingestion.save_json | Incremental load: openweather - Cebu City - 2026-10-09T09:15:09+00:00
+2026-10-09 09:19:47,468 | INFO | pipeline.ingestion.save_json | Incremental load: openweather - Davao City - 2026-10-09T09:17:15+00:00
+2026-10-09 09:19:48,274 | INFO | pipeline.ingestion.save_json | Incremental load: openweather - Baguio - 2026-10-09T09:18:02+00:00
+2026-10-09 09:19:48,975 | INFO | pipeline.ingestion.save_json | Incremental load: openweather - Iloilo City - 2026-10-09T09:19:48+00:00
+2026-10-09 09:19:49,736 | INFO | pipeline.ingestion.save_json | Incremental load: openweather - Cagayan de Oro - 2026-10-09T09:19:49+00:00
+2026-10-09 09:19:51,010 | INFO | pipeline.ingestion.save_json | Incremental load: openweather - Zamboanga City - 2026-10-09T09:19:50+00:00
+2026-10-09 17:33:20,842 | INFO | pipeline.ingestion.save_json | Initial load: openweather - Manila - 2026-10-06T10:40:00+00:00
+2026-10-09 17:33:20,850 | INFO | pipeline.ingestion.save_json | Initial load: openweather - Manila - 2026-10-06T10:40:00+00:00
+2026-10-09 17:33:20,851 | INFO | pipeline.ingestion.save_json | Duplicate skipped: openweather - Manila - 2026-10-06T10:40:00+00:00
+2026-10-09 17:36:17,949 | INFO | pipeline.ingestion.save_json | Initial load: openweather - Manila - 2026-10-06T10:40:00+00:00
+2026-10-09 17:36:17,966 | INFO | pipeline.ingestion.save_json | Initial load: openweather - Manila - 2026-10-06T10:40:00+00:00
+2026-10-09 17:36:17,968 | INFO | pipeline.ingestion.save_json | Duplicate skipped: openweather - Manila - 2026-10-06T10:40:00+00:00
+2026-10-09 09:37:46,558 | INFO | pipeline.ingestion.save_json | Appended record: openweather - Quezon City - 2026-10-09T09:28:30+00:00
+2026-10-09 09:37:47,305 | INFO | pipeline.ingestion.save_json | Appended record: openweather - Cebu City - 2026-10-09T09:27:29+00:00
+2026-10-09 09:37:47,984 | INFO | pipeline.ingestion.save_json | Appended record: openweather - Davao City - 2026-10-09T09:30:03+00:00
+2026-10-09 09:37:48,727 | INFO | pipeline.ingestion.save_json | Appended record: openweather - Baguio - 2026-10-09T09:28:38+00:00
+2026-10-09 09:37:49,515 | INFO | pipeline.ingestion.save_json | Appended record: openweather - Iloilo City - 2026-10-09T09:30:09+00:00
+2026-10-09 09:37:50,305 | INFO | pipeline.ingestion.save_json | Appended record: openweather - Cagayan de Oro - 2026-10-09T09:30:21+00:00
+2026-10-09 09:37:51,013 | INFO | pipeline.ingestion.save_json | Appended record: openweather - Zamboanga City - 2026-10-09T09:30:05+00:00
+2026-10-09 09:39:20,364 | INFO | pipeline.ingestion.save_json | Appended record: openweather - Manila - 2026-10-09T09:39:19+00:00
+2026-10-09 09:39:21,430 | INFO | pipeline.ingestion.save_json | Appended record: openweather - Cebu City - 2026-10-09T09:39:20+00:00
+2026-10-09 09:39:22,781 | INFO | pipeline.ingestion.save_json | Appended record: openweather - Baguio - 2026-10-09T09:39:22+00:00
+2026-10-09 09:58:33,409 | INFO | pipeline.ingestion.save_json | Appended record: openweather - Manila - 2026-10-09T09:54:52+00:00
+2026-10-09 09:58:34,243 | INFO | pipeline.ingestion.save_json | Appended record: openweather - Quezon City - 2026-10-09T09:53:21+00:00
+2026-10-09 09:58:35,011 | INFO | pipeline.ingestion.save_json | Appended record: openweather - Cebu City - 2026-10-09T09:58:34+00:00
+2026-10-09 09:58:35,718 | INFO | pipeline.ingestion.save_json | Appended record: openweather - Davao City - 2026-10-09T09:54:32+00:00
+2026-10-09 09:58:36,380 | INFO | pipeline.ingestion.save_json | Appended record: openweather - Baguio - 2026-10-09T09:50:01+00:00
+2026-10-09 09:58:37,269 | INFO | pipeline.ingestion.save_json | Appended record: openweather - Iloilo City - 2026-10-09T09:50:04+00:00
+2026-10-09 09:58:38,059 | INFO | pipeline.ingestion.save_json | Appended record: openweather - Cagayan de Oro - 2026-10-09T09:58:37+00:00
+2026-10-09 09:58:38,746 | INFO | pipeline.ingestion.save_json | Appended record: openweather - Zamboanga City - 2026-10-09T09:57:10+00:00
+2026-10-09 10:05:05,324 | INFO | pipeline.ingestion.save_json | Appended record: openweather - Quezon City - 2026-10-09T10:03:50+00:00
+2026-10-09 10:05:06,345 | INFO | pipeline.ingestion.save_json | Appended record: openweather - Davao City - 2026-10-09T10:05:05+00:00
+2026-10-09 10:05:07,060 | INFO | pipeline.ingestion.save_json | Appended record: openweather - Baguio - 2026-10-09T10:05:06+00:00
+2026-10-09 10:05:07,787 | INFO | pipeline.ingestion.save_json | Appended record: openweather - Iloilo City - 2026-10-09T10:00:09+00:00
+2026-10-09 10:07:45,812 | INFO | pipeline.ingestion.save_json | Appended record: openweather - Zamboanga City - 2026-10-09T10:07:45+00:00
+2026-10-09 10:08:42,692 | INFO | pipeline.ingestion.save_json | Appended record: openweather - Manila - 2026-10-09T10:06:58+00:00
+2026-10-09 10:08:43,869 | INFO | pipeline.ingestion.save_json | Appended record: openweather - Cebu City - 2026-10-09T10:08:43+00:00
+2026-10-09 10:08:45,880 | INFO | pipeline.ingestion.save_json | Appended record: openweather - Cagayan de Oro - 2026-10-09T10:08:45+00:00
+2026-10-09 18:15:52,377 | INFO | pipeline.ingestion.save_json | Initial load: openweather - Manila - 2026-10-06T10:40:00+00:00
+2026-10-09 18:15:52,388 | INFO | pipeline.ingestion.save_json | Initial load: openweather - Manila - 2026-10-06T10:40:00+00:00
+2026-10-09 18:15:52,390 | INFO | pipeline.ingestion.save_json | Duplicate skipped: openweather - Manila - 2026-10-06T10:40:00+00:00
+2026-10-09 18:17:28,743 | INFO | pipeline.ingestion.save_json | Initial load: openweather - Manila - 2026-10-06T10:40:00+00:00
+2026-10-09 18:17:28,751 | INFO | pipeline.ingestion.save_json | Initial load: openweather - Manila - 2026-10-06T10:40:00+00:00
+2026-10-09 18:17:28,753 | INFO | pipeline.ingestion.save_json | Duplicate skipped: openweather - Manila - 2026-10-06T10:40:00+00:00
+2026-10-09 10:20:04,569 | INFO | pipeline.ingestion.save_json | Appended record: openweather - Manila - 2026-10-09T10:17:38+00:00
+2026-10-09 10:20:05,175 | INFO | pipeline.ingestion.save_json | Appended record: openweather - Quezon City - 2026-10-09T10:16:13+00:00
+2026-10-09 10:20:05,748 | INFO | pipeline.ingestion.save_json | Appended record: openweather - Cebu City - 2026-10-09T10:13:19+00:00
+2026-10-09 10:20:06,386 | INFO | pipeline.ingestion.save_json | Appended record: openweather - Davao City - 2026-10-09T10:18:32+00:00
+2026-10-09 10:20:07,019 | INFO | pipeline.ingestion.save_json | Appended record: openweather - Baguio - 2026-10-09T10:12:23+00:00
+2026-10-09 10:20:07,698 | INFO | pipeline.ingestion.save_json | Appended record: openweather - Iloilo City - 2026-10-09T10:17:11+00:00
+2026-10-09 10:20:08,290 | INFO | pipeline.ingestion.save_json | Appended record: openweather - Cagayan de Oro - 2026-10-09T10:20:07+00:00
+2026-10-09 10:20:09,085 | INFO | pipeline.ingestion.save_json | Appended record: openweather - Zamboanga City - 2026-10-09T10:20:05+00:00
+2026-10-09 18:21:24,116 | INFO | pipeline.ingestion.save_json | Initial load: openweather - Manila - 2026-10-06T10:40:00+00:00
+2026-10-09 18:21:24,123 | INFO | pipeline.ingestion.save_json | Initial load: openweather - Manila - 2026-10-06T10:40:00+00:00
+2026-10-09 18:21:24,125 | INFO | pipeline.ingestion.save_json | Duplicate skipped: openweather - Manila - 2026-10-06T10:40:00+00:00
+2026-10-09 10:26:48,035 | INFO | pipeline.ingestion.save_json | Appended record: openweather - Cebu City - 2026-10-09T10:23:24+00:00
+2026-10-09 10:27:11,900 | INFO | pipeline.ingestion.save_json | Appended record: openweather - Baguio - 2026-10-09T10:27:11+00:00
+2026-10-09 10:27:12,734 | INFO | pipeline.ingestion.save_json | Appended record: openweather - Iloilo City - 2026-10-09T10:27:12+00:00
+2026-10-09 10:34:30,565 | INFO | pipeline.ingestion.save_json | Appended record: openweather - Manila - 2026-10-09T10:30:17+00:00
+2026-10-09 10:34:31,623 | INFO | pipeline.ingestion.save_json | Appended record: openweather - Quezon City - 2026-10-09T10:34:30+00:00
+2026-10-09 10:34:32,380 | INFO | pipeline.ingestion.save_json | Appended record: openweather - Cebu City - 2026-10-09T10:28:44+00:00
+2026-10-09 10:34:33,009 | INFO | pipeline.ingestion.save_json | Appended record: openweather - Davao City - 2026-10-09T10:30:03+00:00
+2026-10-09 10:34:33,703 | INFO | pipeline.ingestion.save_json | Duplicate skipped: openweather - Baguio - 2026-10-09T10:27:11+00:00
+2026-10-09 10:34:34,469 | INFO | pipeline.ingestion.save_json | Duplicate skipped: openweather - Iloilo City - 2026-10-09T10:27:12+00:00
+2026-10-09 10:34:35,421 | INFO | pipeline.ingestion.save_json | Appended record: openweather - Cagayan de Oro - 2026-10-09T10:34:34+00:00
+2026-10-09 10:34:36,081 | INFO | pipeline.ingestion.save_json | Appended record: openweather - Zamboanga City - 2026-10-09T10:30:46+00:00

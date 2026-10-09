@@ -1,24 +1,25 @@
 FROM python:3.14-slim
 
-# Working directory for the application
 WORKDIR /app
 
-# environment variables
 ENV PYTHONPATH=/app \
     PYTHONUNBUFFERED=1 \
-	PYTHONDONTWRITEBYTECODE=1
+    PYTHONDONTWRITEBYTECODE=1
 
-# System Dependencies
+# Install system dependencies first
+RUN apt-get update \
+    && apt-get install -y --no-install-recommends \
+        libpq5 \
+    && rm -rf /var/lib/apt/lists/*
+
+# Install Python dependencies
 COPY requirements.txt /app/requirements.txt
 
-# 
-RUN apt-get update \
-	&& apt-get install -y --no-install-recommends \ 
-		libpq5 \
-	&& pip install --no-cache-dir -r /app/requirements.txt \ 
-	&& rm -rf /var/lib/apt/lists/*
+RUN pip install --no-cache-dir --upgrade pip \
+    && pip install --no-cache-dir -r /app/requirements.txt
 
-COPY . .
+# Copy project
+COPY . /app
 
-# Run as a module so the pipeline/common/config packages resolve correctly.
+# Run WeatherFlow pipeline
 CMD ["python", "-m", "pipeline.main"]

@@ -1,0 +1,1273 @@
+2026-10-06 18:59:02,499 | INFO | pipeline.loaded.load_postresql | Successfully loaded 1 row(s) into PostgreSQL table: openweather_manila
+2026-10-06 18:59:11,308 | INFO | pipeline.loaded.load_postresql | Successfully loaded 1 row(s) into PostgreSQL table: openweather_manila
+2026-10-06 18:59:11,316 | INFO | pipeline.loaded.load_postresql | Successfully loaded 1 row(s) into PostgreSQL table: openweather_manila
+2026-10-06 18:59:11,328 | INFO | pipeline.loaded.load_postresql | Successfully loaded 1 row(s) into PostgreSQL table: openweather_manila
+2026-10-06 18:59:11,332 | INFO | pipeline.loaded.load_postresql | Successfully loaded 1 row(s) into PostgreSQL table: openweather_manila
+2026-10-06 18:59:11,343 | INFO | pipeline.loaded.load_postresql | Successfully loaded 1 row(s) into PostgreSQL table: openweather_manila
+2026-10-06 18:59:11,346 | INFO | pipeline.loaded.load_postresql | Adding missing column 'humidity' to PostgreSQL table openweather_manila
+2026-10-06 18:59:11,349 | INFO | pipeline.loaded.load_postresql | Successfully loaded 1 row(s) into PostgreSQL table: openweather_manila
+2026-10-06 18:59:11,361 | INFO | pipeline.loaded.load_postresql | Successfully loaded 1 row(s) into PostgreSQL table: openweather_manila
+2026-10-06 18:59:11,363 | ERROR | pipeline.loaded.load_postresql | Error loading data into PostgreSQL table openweather_manila: Table 'openweather_manila' already exists and if_exists='fail'
+2026-10-06 18:59:11,374 | WARNING | pipeline.loaded.load_postresql | No rows to load into PostgreSQL table openweather_manila; skipping.
+2026-10-06 18:59:11,549 | INFO | pipeline.loaded.load_postresql | Successfully loaded 1 row(s) into PostgreSQL table: openweather_manila
+2026-10-06 18:59:11,562 | INFO | pipeline.loaded.load_postresql | Successfully loaded 1 row(s) into PostgreSQL table: city_alias_table
+2026-10-06 18:59:12,238 | ERROR | pipeline.loaded.load_postresql | PostgreSQL is not reachable at weatherflow@localhost:5433/weatherflow: (psycopg2.OperationalError) connection to server at "127.0.0.1", port 1 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections?
+
+(Background on this error at: https://sqlalche.me/e/20/e3q8). Check that the server is running and that the POSTGRES_* values in your .env file are correct, then run the pipeline again.
+2026-10-06 18:59:12,249 | ERROR | pipeline.loaded.load_postresql | PostgreSQL is not reachable at weatherflow@localhost:5433/weatherflow: (psycopg2.OperationalError) connection to server at "127.0.0.1", port 1 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections?
+
+(Background on this error at: https://sqlalche.me/e/20/e3q8). Check that the server is running and that the POSTGRES_* values in your .env file are correct, then run the pipeline again.
+2026-10-06 19:01:46,823 | INFO | pipeline.loaded.load_postresql | Successfully loaded 1 row(s) into PostgreSQL table: openweather_manila
+2026-10-06 19:01:47,231 | INFO | pipeline.loaded.load_postresql | Successfully loaded 1 row(s) into PostgreSQL table: openweather_manila
+2026-10-06 19:01:47,246 | INFO | pipeline.loaded.load_postresql | Successfully loaded 1 row(s) into PostgreSQL table: openweather_manila
+2026-10-06 19:01:47,263 | INFO | pipeline.loaded.load_postresql | Successfully loaded 1 row(s) into PostgreSQL table: openweather_manila
+2026-10-06 19:01:47,267 | INFO | pipeline.loaded.load_postresql | Successfully loaded 1 row(s) into PostgreSQL table: openweather_manila
+2026-10-06 19:01:47,276 | INFO | pipeline.loaded.load_postresql | Successfully loaded 1 row(s) into PostgreSQL table: openweather_manila
+2026-10-06 19:01:47,279 | INFO | pipeline.loaded.load_postresql | Adding missing column 'humidity' to PostgreSQL table openweather_manila
+2026-10-06 19:01:47,282 | INFO | pipeline.loaded.load_postresql | Successfully loaded 1 row(s) into PostgreSQL table: openweather_manila
+2026-10-06 19:01:47,292 | INFO | pipeline.loaded.load_postresql | Successfully loaded 1 row(s) into PostgreSQL table: openweather_manila
+2026-10-06 19:01:47,294 | ERROR | pipeline.loaded.load_postresql | Error loading data into PostgreSQL table openweather_manila: Table 'openweather_manila' already exists and if_exists='fail'
+2026-10-06 19:01:47,306 | WARNING | pipeline.loaded.load_postresql | No rows to load into PostgreSQL table openweather_manila; skipping.
+2026-10-06 19:01:47,320 | INFO | pipeline.loaded.load_postresql | Successfully loaded 1 row(s) into PostgreSQL table: openweather_manila
+2026-10-06 19:01:47,336 | INFO | pipeline.loaded.load_postresql | Successfully loaded 1 row(s) into PostgreSQL table: city_alias_table
+2026-10-06 19:01:48,230 | ERROR | pipeline.loaded.load_postresql | PostgreSQL is not reachable at weatherflow@localhost:5433/weatherflow: (psycopg2.OperationalError) connection to server at "127.0.0.1", port 1 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections?
+
+(Background on this error at: https://sqlalche.me/e/20/e3q8). Check that the server is running and that the POSTGRES_* values in your .env file are correct, then run the pipeline again.
+2026-10-06 19:01:48,243 | ERROR | pipeline.loaded.load_postresql | PostgreSQL is not reachable at weatherflow@localhost:5433/weatherflow: (psycopg2.OperationalError) connection to server at "127.0.0.1", port 1 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections?
+
+(Background on this error at: https://sqlalche.me/e/20/e3q8). Check that the server is running and that the POSTGRES_* values in your .env file are correct, then run the pipeline again.
+2026-10-06 19:12:38,578 | INFO | pipeline.loaded.load_postresql | Successfully loaded 1 row(s) into PostgreSQL table: openweather_manila
+2026-10-06 19:12:53,143 | INFO | pipeline.loaded.load_postresql | Successfully loaded 1 row(s) into PostgreSQL table: openweather_manila
+2026-10-06 19:12:53,148 | INFO | pipeline.loaded.load_postresql | Successfully loaded 1 row(s) into PostgreSQL table: openweather_manila
+2026-10-06 19:12:53,161 | INFO | pipeline.loaded.load_postresql | Successfully loaded 1 row(s) into PostgreSQL table: openweather_manila
+2026-10-06 19:12:53,165 | INFO | pipeline.loaded.load_postresql | Successfully loaded 1 row(s) into PostgreSQL table: openweather_manila
+2026-10-06 19:12:53,181 | INFO | pipeline.loaded.load_postresql | Successfully loaded 1 row(s) into PostgreSQL table: openweather_manila
+2026-10-06 19:12:53,184 | INFO | pipeline.loaded.load_postresql | Adding missing column 'humidity' to PostgreSQL table openweather_manila
+2026-10-06 19:12:53,187 | INFO | pipeline.loaded.load_postresql | Successfully loaded 1 row(s) into PostgreSQL table: openweather_manila
+2026-10-06 19:12:53,198 | INFO | pipeline.loaded.load_postresql | Successfully loaded 1 row(s) into PostgreSQL table: openweather_manila
+2026-10-06 19:12:53,200 | ERROR | pipeline.loaded.load_postresql | Error loading data into PostgreSQL table openweather_manila: Table 'openweather_manila' already exists and if_exists='fail'
+2026-10-06 19:12:53,216 | WARNING | pipeline.loaded.load_postresql | No rows to load into PostgreSQL table openweather_manila; skipping.
+2026-10-06 19:12:53,249 | INFO | pipeline.loaded.load_postresql | Successfully loaded 1 row(s) into PostgreSQL table: openweather_manila
+2026-10-06 19:12:53,290 | INFO | pipeline.loaded.load_postresql | Successfully loaded 1 row(s) into PostgreSQL table: city_alias_table
+2026-10-06 19:12:53,829 | ERROR | pipeline.loaded.load_postresql | PostgreSQL is not reachable at weatherflow@localhost:5433/weatherflow: (psycopg2.OperationalError) connection to server at "127.0.0.1", port 1 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections?
+
+(Background on this error at: https://sqlalche.me/e/20/e3q8). Check that the server is running and that the POSTGRES_* values in your .env file are correct, then run the pipeline again.
+2026-10-06 19:12:53,839 | ERROR | pipeline.loaded.load_postresql | PostgreSQL is not reachable at weatherflow@localhost:5433/weatherflow: (psycopg2.OperationalError) connection to server at "127.0.0.1", port 1 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections?
+
+(Background on this error at: https://sqlalche.me/e/20/e3q8). Check that the server is running and that the POSTGRES_* values in your .env file are correct, then run the pipeline again.
+2026-10-06 19:14:27,063 | INFO | pipeline.loaded.load_postresql | Successfully loaded 1 row(s) into PostgreSQL table: openweather_manila
+2026-10-06 19:14:27,428 | INFO | pipeline.loaded.load_postresql | Successfully loaded 1 row(s) into PostgreSQL table: openweather_manila
+2026-10-06 19:14:27,434 | INFO | pipeline.loaded.load_postresql | Successfully loaded 1 row(s) into PostgreSQL table: openweather_manila
+2026-10-06 19:14:27,448 | INFO | pipeline.loaded.load_postresql | Successfully loaded 1 row(s) into PostgreSQL table: openweather_manila
+2026-10-06 19:14:27,454 | INFO | pipeline.loaded.load_postresql | Successfully loaded 1 row(s) into PostgreSQL table: openweather_manila
+2026-10-06 19:14:27,468 | INFO | pipeline.loaded.load_postresql | Successfully loaded 1 row(s) into PostgreSQL table: openweather_manila
+2026-10-06 19:14:27,472 | INFO | pipeline.loaded.load_postresql | Adding missing column 'humidity' to PostgreSQL table openweather_manila
+2026-10-06 19:14:27,475 | INFO | pipeline.loaded.load_postresql | Successfully loaded 1 row(s) into PostgreSQL table: openweather_manila
+2026-10-06 19:14:27,487 | INFO | pipeline.loaded.load_postresql | Successfully loaded 1 row(s) into PostgreSQL table: openweather_manila
+2026-10-06 19:14:27,489 | ERROR | pipeline.loaded.load_postresql | Error loading data into PostgreSQL table openweather_manila: Table 'openweather_manila' already exists and if_exists='fail'
+2026-10-06 19:14:27,506 | WARNING | pipeline.loaded.load_postresql | No rows to load into PostgreSQL table openweather_manila; skipping.
+2026-10-06 19:14:27,525 | INFO | pipeline.loaded.load_postresql | Successfully loaded 1 row(s) into PostgreSQL table: openweather_manila
+2026-10-06 19:14:27,551 | INFO | pipeline.loaded.load_postresql | Successfully loaded 1 row(s) into PostgreSQL table: city_alias_table
+2026-10-06 19:14:28,434 | ERROR | pipeline.loaded.load_postresql | PostgreSQL is not reachable at weatherflow@localhost:5433/weatherflow: (psycopg2.OperationalError) connection to server at "127.0.0.1", port 1 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections?
+
+(Background on this error at: https://sqlalche.me/e/20/e3q8). Check that the server is running and that the POSTGRES_* values in your .env file are correct, then run the pipeline again.
+2026-10-06 19:14:28,448 | ERROR | pipeline.loaded.load_postresql | PostgreSQL is not reachable at weatherflow@localhost:5433/weatherflow: (psycopg2.OperationalError) connection to server at "127.0.0.1", port 1 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections?
+
+(Background on this error at: https://sqlalche.me/e/20/e3q8). Check that the server is running and that the POSTGRES_* values in your .env file are correct, then run the pipeline again.
+2026-10-06 19:17:23,689 | ERROR | pipeline.loaded.load_postresql | Error loading data into PostgreSQL table openweather_manila: (psycopg2.OperationalError) connection to server at "localhost" (127.0.0.1), port 5433 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections?
+
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2026-10-06 19:17:24,613 | ERROR | pipeline.loaded.load_postresql | Error loading data into PostgreSQL table openweather_quezon_city: (psycopg2.OperationalError) connection to server at "localhost" (127.0.0.1), port 5433 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections?
+
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2026-10-06 19:17:25,203 | ERROR | pipeline.loaded.load_postresql | Error loading data into PostgreSQL table openweather_cebu_city: (psycopg2.OperationalError) connection to server at "localhost" (127.0.0.1), port 5433 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections?
+
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2026-10-06 19:17:26,028 | ERROR | pipeline.loaded.load_postresql | Error loading data into PostgreSQL table openweather_davao_city: (psycopg2.OperationalError) connection to server at "localhost" (127.0.0.1), port 5433 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections?
+
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2026-10-06 19:17:26,892 | ERROR | pipeline.loaded.load_postresql | Error loading data into PostgreSQL table openweather_baguio: (psycopg2.OperationalError) connection to server at "localhost" (127.0.0.1), port 5433 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections?
+
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2026-10-06 19:17:27,470 | ERROR | pipeline.loaded.load_postresql | Error loading data into PostgreSQL table openweather_iloilo_city: (psycopg2.OperationalError) connection to server at "localhost" (127.0.0.1), port 5433 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections?
+
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2026-10-06 19:17:28,368 | ERROR | pipeline.loaded.load_postresql | Error loading data into PostgreSQL table openweather_cagayan_de_oro: (psycopg2.OperationalError) connection to server at "localhost" (127.0.0.1), port 5433 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections?
+
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2026-10-06 19:17:29,310 | ERROR | pipeline.loaded.load_postresql | Error loading data into PostgreSQL table openweather_zamboanga_city: (psycopg2.OperationalError) connection to server at "localhost" (127.0.0.1), port 5433 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections?
+
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2026-10-06 19:19:37,137 | ERROR | pipeline.loaded.load_postresql | Error loading data into PostgreSQL table openweather_baguio: (psycopg2.OperationalError) connection to server at "localhost" (127.0.0.1), port 5433 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections?
+
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2026-10-06 19:22:23,408 | INFO | pipeline.loaded.load_postresql | Successfully loaded 1 row(s) into PostgreSQL table: openweather_baguio
+2026-10-06 19:22:23,592 | INFO | pipeline.loaded.load_postresql | Successfully loaded 1 row(s) into PostgreSQL table: openweather_cagayan_de_oro
+2026-10-06 19:22:23,755 | INFO | pipeline.loaded.load_postresql | Successfully loaded 1 row(s) into PostgreSQL table: openweather_cebu_city
+2026-10-06 19:22:24,203 | INFO | pipeline.loaded.load_postresql | Successfully loaded 1 row(s) into PostgreSQL table: openweather_davao_city
+2026-10-06 19:22:24,355 | INFO | pipeline.loaded.load_postresql | Successfully loaded 1 row(s) into PostgreSQL table: openweather_iloilo_city
+2026-10-06 19:22:24,509 | INFO | pipeline.loaded.load_postresql | Successfully loaded 1 row(s) into PostgreSQL table: openweather_manila
+2026-10-06 19:22:24,692 | INFO | pipeline.loaded.load_postresql | Successfully loaded 1 row(s) into PostgreSQL table: openweather_quezon_city
+2026-10-06 19:22:24,899 | INFO | pipeline.loaded.load_postresql | Successfully loaded 1 row(s) into PostgreSQL table: openweather_zamboanga_city
+2026-10-06 19:25:31,676 | INFO | pipeline.loaded.load_postresql | Successfully loaded 1 row(s) into PostgreSQL table: openweather_manila
+2026-10-06 19:25:32,173 | INFO | pipeline.loaded.load_postresql | Successfully loaded 2 row(s) into PostgreSQL table: openweather_all
+2026-10-06 19:25:32,184 | INFO | pipeline.loaded.load_postresql | Successfully loaded 1 row(s) into PostgreSQL table: openweather_manila
+2026-10-06 19:25:32,188 | INFO | pipeline.loaded.load_postresql | Successfully loaded 1 row(s) into PostgreSQL table: openweather_manila
+2026-10-06 19:25:32,198 | INFO | pipeline.loaded.load_postresql | Successfully loaded 1 row(s) into PostgreSQL table: openweather_manila
+2026-10-06 19:25:32,202 | INFO | pipeline.loaded.load_postresql | Successfully loaded 1 row(s) into PostgreSQL table: openweather_manila
+2026-10-06 19:25:32,212 | INFO | pipeline.loaded.load_postresql | Successfully loaded 1 row(s) into PostgreSQL table: openweather_manila
+2026-10-06 19:25:32,215 | INFO | pipeline.loaded.load_postresql | Adding missing column 'humidity' to PostgreSQL table openweather_manila
+2026-10-06 19:25:32,218 | INFO | pipeline.loaded.load_postresql | Successfully loaded 1 row(s) into PostgreSQL table: openweather_manila
+2026-10-06 19:25:32,231 | INFO | pipeline.loaded.load_postresql | Successfully loaded 1 row(s) into PostgreSQL table: openweather_manila
+2026-10-06 19:25:32,233 | ERROR | pipeline.loaded.load_postresql | Error loading data into PostgreSQL table openweather_manila: Table 'openweather_manila' already exists and if_exists='fail'
+2026-10-06 19:25:32,244 | WARNING | pipeline.loaded.load_postresql | No rows to load into PostgreSQL table openweather_manila; skipping.
+2026-10-06 19:25:32,258 | INFO | pipeline.loaded.load_postresql | Successfully loaded 1 row(s) into PostgreSQL table: openweather_manila
+2026-10-06 19:25:32,271 | INFO | pipeline.loaded.load_postresql | Successfully loaded 1 row(s) into PostgreSQL table: city_alias_table
+2026-10-06 19:25:32,981 | ERROR | pipeline.loaded.load_postresql | PostgreSQL is not reachable at weatherflow@localhost:5433/weatherflow: (psycopg2.OperationalError) connection to server at "127.0.0.1", port 1 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections?
+
+(Background on this error at: https://sqlalche.me/e/20/e3q8). Check that the server is running and that the POSTGRES_* values in your .env file are correct, then run the pipeline again.
+2026-10-06 19:25:33,013 | ERROR | pipeline.loaded.load_postresql | PostgreSQL is not reachable at weatherflow@localhost:5433/weatherflow: (psycopg2.OperationalError) connection to server at "127.0.0.1", port 1 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections?
+
+(Background on this error at: https://sqlalche.me/e/20/e3q8). Check that the server is running and that the POSTGRES_* values in your .env file are correct, then run the pipeline again.
+2026-10-06 20:05:40,851 | INFO | pipeline.loaded.load_postresql | Successfully loaded 1 row(s) into PostgreSQL table: geocoding_manila
+2026-10-06 20:05:41,641 | INFO | pipeline.loaded.load_postresql | Successfully loaded 2 row(s) into PostgreSQL table: openweather_manila
+2026-10-06 20:05:42,578 | INFO | pipeline.loaded.load_postresql | Successfully loaded 1 row(s) into PostgreSQL table: geocoding_quezon_city
+2026-10-06 20:05:42,843 | INFO | pipeline.loaded.load_postresql | Successfully loaded 2 row(s) into PostgreSQL table: openweather_quezon_city
+2026-10-06 20:05:43,527 | INFO | pipeline.loaded.load_postresql | Successfully loaded 1 row(s) into PostgreSQL table: geocoding_cebu_city
+2026-10-06 20:05:43,858 | INFO | pipeline.loaded.load_postresql | Successfully loaded 2 row(s) into PostgreSQL table: openweather_cebu_city
+2026-10-06 20:05:44,432 | INFO | pipeline.loaded.load_postresql | Successfully loaded 1 row(s) into PostgreSQL table: geocoding_davao_city
+2026-10-06 20:05:44,688 | INFO | pipeline.loaded.load_postresql | Successfully loaded 2 row(s) into PostgreSQL table: openweather_davao_city
+2026-10-06 20:05:45,317 | INFO | pipeline.loaded.load_postresql | Successfully loaded 1 row(s) into PostgreSQL table: geocoding_baguio
+2026-10-06 20:05:45,614 | INFO | pipeline.loaded.load_postresql | Successfully loaded 2 row(s) into PostgreSQL table: openweather_baguio
+2026-10-06 20:05:46,251 | INFO | pipeline.loaded.load_postresql | Successfully loaded 1 row(s) into PostgreSQL table: geocoding_iloilo_city
+2026-10-06 20:05:46,553 | INFO | pipeline.loaded.load_postresql | Successfully loaded 2 row(s) into PostgreSQL table: openweather_iloilo_city
+2026-10-06 20:05:47,189 | INFO | pipeline.loaded.load_postresql | Successfully loaded 1 row(s) into PostgreSQL table: geocoding_cagayan_de_oro
+2026-10-06 20:05:47,958 | INFO | pipeline.loaded.load_postresql | Successfully loaded 1 row(s) into PostgreSQL table: geocoding_zamboanga_city
+2026-10-06 20:05:48,316 | INFO | pipeline.loaded.load_postresql | Successfully loaded 2 row(s) into PostgreSQL table: openweather_zamboanga_city
+2026-10-06 20:07:46,110 | INFO | pipeline.loaded.load_postresql | Successfully loaded 1 row(s) into PostgreSQL table: geocoding_manila
+2026-10-06 20:07:46,750 | INFO | pipeline.loaded.load_postresql | Successfully loaded 1 row(s) into PostgreSQL table: geocoding_quezon_city
+2026-10-06 20:07:47,389 | INFO | pipeline.loaded.load_postresql | Successfully loaded 1 row(s) into PostgreSQL table: geocoding_cebu_city
+2026-10-06 20:07:47,992 | INFO | pipeline.loaded.load_postresql | Successfully loaded 1 row(s) into PostgreSQL table: geocoding_davao_city
+2026-10-06 20:07:48,624 | INFO | pipeline.loaded.load_postresql | Successfully loaded 3 row(s) into PostgreSQL table: openweather_davao_city
+2026-10-06 20:07:49,427 | INFO | pipeline.loaded.load_postresql | Successfully loaded 1 row(s) into PostgreSQL table: geocoding_baguio
+2026-10-06 20:07:50,074 | INFO | pipeline.loaded.load_postresql | Successfully loaded 1 row(s) into PostgreSQL table: geocoding_iloilo_city
+2026-10-06 20:07:50,668 | INFO | pipeline.loaded.load_postresql | Successfully loaded 1 row(s) into PostgreSQL table: geocoding_cagayan_de_oro
+2026-10-06 20:07:51,539 | INFO | pipeline.loaded.load_postresql | Successfully loaded 1 row(s) into PostgreSQL table: geocoding_zamboanga_city
+2026-10-06 20:07:51,834 | INFO | pipeline.loaded.load_postresql | Successfully loaded 3 row(s) into PostgreSQL table: openweather_zamboanga_city
+2026-10-06 20:12:08,553 | INFO | pipeline.loaded.load_postresql | Successfully loaded 1 row(s) into PostgreSQL table: geocoding_manila
+2026-10-06 20:12:09,352 | INFO | pipeline.loaded.load_postresql | Successfully loaded 3 row(s) into PostgreSQL table: openweather_manila
+2026-10-06 20:12:10,130 | INFO | pipeline.loaded.load_postresql | Successfully loaded 1 row(s) into PostgreSQL table: geocoding_quezon_city
+2026-10-06 20:12:10,544 | INFO | pipeline.loaded.load_postresql | Successfully loaded 3 row(s) into PostgreSQL table: openweather_quezon_city
+2026-10-06 20:12:11,570 | INFO | pipeline.loaded.load_postresql | Successfully loaded 1 row(s) into PostgreSQL table: geocoding_cebu_city
+2026-10-06 20:12:11,892 | INFO | pipeline.loaded.load_postresql | Successfully loaded 3 row(s) into PostgreSQL table: openweather_cebu_city
+2026-10-06 20:12:12,567 | INFO | pipeline.loaded.load_postresql | Successfully loaded 1 row(s) into PostgreSQL table: geocoding_davao_city
+2026-10-06 20:12:13,315 | INFO | pipeline.loaded.load_postresql | Successfully loaded 1 row(s) into PostgreSQL table: geocoding_baguio
+2026-10-06 20:12:13,696 | INFO | pipeline.loaded.load_postresql | Successfully loaded 3 row(s) into PostgreSQL table: openweather_baguio
+2026-10-06 20:12:14,407 | INFO | pipeline.loaded.load_postresql | Successfully loaded 1 row(s) into PostgreSQL table: geocoding_iloilo_city
+2026-10-06 20:12:14,792 | INFO | pipeline.loaded.load_postresql | Successfully loaded 3 row(s) into PostgreSQL table: openweather_iloilo_city
+2026-10-06 20:12:15,507 | INFO | pipeline.loaded.load_postresql | Successfully loaded 1 row(s) into PostgreSQL table: geocoding_cagayan_de_oro
+2026-10-06 20:12:15,900 | INFO | pipeline.loaded.load_postresql | Successfully loaded 2 row(s) into PostgreSQL table: openweather_cagayan_de_oro
+2026-10-06 20:12:16,565 | INFO | pipeline.loaded.load_postresql | Successfully loaded 1 row(s) into PostgreSQL table: geocoding_zamboanga_city
+2026-10-06 20:12:16,915 | INFO | pipeline.loaded.load_postresql | Successfully loaded 4 row(s) into PostgreSQL table: openweather_zamboanga_city
+2026-10-06 20:14:52,040 | INFO | pipeline.loaded.load_postresql | Successfully loaded 1 row(s) into PostgreSQL table: geocoding_manila
+2026-10-06 20:14:52,692 | INFO | pipeline.loaded.load_postresql | Successfully loaded 1 row(s) into PostgreSQL table: geocoding_quezon_city
+2026-10-06 20:14:53,209 | INFO | pipeline.loaded.load_postresql | Successfully loaded 1 row(s) into PostgreSQL table: geocoding_cebu_city
+2026-10-06 20:14:53,792 | INFO | pipeline.loaded.load_postresql | Successfully loaded 1 row(s) into PostgreSQL table: geocoding_davao_city
+2026-10-06 20:14:54,446 | INFO | pipeline.loaded.load_postresql | Successfully loaded 4 row(s) into PostgreSQL table: openweather_davao_city
+2026-10-06 20:14:55,070 | INFO | pipeline.loaded.load_postresql | Successfully loaded 1 row(s) into PostgreSQL table: geocoding_baguio
+2026-10-06 20:14:55,665 | INFO | pipeline.loaded.load_postresql | Successfully loaded 1 row(s) into PostgreSQL table: geocoding_iloilo_city
+2026-10-06 20:14:56,364 | INFO | pipeline.loaded.load_postresql | Successfully loaded 1 row(s) into PostgreSQL table: geocoding_cagayan_de_oro
+2026-10-06 20:14:57,079 | INFO | pipeline.loaded.load_postresql | Successfully loaded 1 row(s) into PostgreSQL table: geocoding_zamboanga_city
+2026-10-06 20:14:57,449 | INFO | pipeline.loaded.load_postresql | Successfully loaded 5 row(s) into PostgreSQL table: openweather_zamboanga_city
+2026-10-06 12:42:41,199 | ERROR | pipeline.loaded.load_postresql | Error loading data into PostgreSQL table geocoding_manila: (psycopg2.OperationalError) connection to server at "host.docker.internal" (192.168.65.254), port 5432 failed: FATAL:  password authentication failed for user "weatherflow"
+
+(Background on this error at: https://sqlalche.me/e/21/e3q8)
+2026-10-06 12:42:41,497 | ERROR | pipeline.loaded.load_postresql | Error loading data into PostgreSQL table geocoding_quezon_city: (psycopg2.OperationalError) connection to server at "host.docker.internal" (192.168.65.254), port 5432 failed: FATAL:  password authentication failed for user "weatherflow"
+
+(Background on this error at: https://sqlalche.me/e/21/e3q8)
+2026-10-06 12:42:41,863 | ERROR | pipeline.loaded.load_postresql | Error loading data into PostgreSQL table geocoding_cebu_city: (psycopg2.OperationalError) connection to server at "host.docker.internal" (192.168.65.254), port 5432 failed: FATAL:  password authentication failed for user "weatherflow"
+
+(Background on this error at: https://sqlalche.me/e/21/e3q8)
+2026-10-06 12:42:42,156 | ERROR | pipeline.loaded.load_postresql | Error loading data into PostgreSQL table geocoding_davao_city: (psycopg2.OperationalError) connection to server at "host.docker.internal" (192.168.65.254), port 5432 failed: FATAL:  password authentication failed for user "weatherflow"
+
+(Background on this error at: https://sqlalche.me/e/21/e3q8)
+2026-10-06 12:42:42,540 | ERROR | pipeline.loaded.load_postresql | Error loading data into PostgreSQL table geocoding_baguio: (psycopg2.OperationalError) connection to server at "host.docker.internal" (192.168.65.254), port 5432 failed: FATAL:  password authentication failed for user "weatherflow"
+
+(Background on this error at: https://sqlalche.me/e/21/e3q8)
+2026-10-06 12:42:42,867 | ERROR | pipeline.loaded.load_postresql | Error loading data into PostgreSQL table geocoding_iloilo_city: (psycopg2.OperationalError) connection to server at "host.docker.internal" (192.168.65.254), port 5432 failed: FATAL:  password authentication failed for user "weatherflow"
+
+(Background on this error at: https://sqlalche.me/e/21/e3q8)
+2026-10-06 12:42:43,222 | ERROR | pipeline.loaded.load_postresql | Error loading data into PostgreSQL table geocoding_cagayan_de_oro: (psycopg2.OperationalError) connection to server at "host.docker.internal" (192.168.65.254), port 5432 failed: FATAL:  password authentication failed for user "weatherflow"
+
+(Background on this error at: https://sqlalche.me/e/21/e3q8)
+2026-10-06 12:42:43,529 | ERROR | pipeline.loaded.load_postresql | Error loading data into PostgreSQL table geocoding_zamboanga_city: (psycopg2.OperationalError) connection to server at "host.docker.internal" (192.168.65.254), port 5432 failed: FATAL:  password authentication failed for user "weatherflow"
+
+(Background on this error at: https://sqlalche.me/e/21/e3q8)
+2026-10-06 12:52:32,651 | ERROR | pipeline.loaded.load_postresql | Error loading data into PostgreSQL table geocoding_manila: (psycopg2.OperationalError) could not translate host name "db" to address: Temporary failure in name resolution
+
+(Background on this error at: https://sqlalche.me/e/21/e3q8)
+2026-10-06 12:52:36,991 | ERROR | pipeline.loaded.load_postresql | Error loading data into PostgreSQL table geocoding_quezon_city: (psycopg2.OperationalError) could not translate host name "db" to address: Name or service not known
+
+(Background on this error at: https://sqlalche.me/e/21/e3q8)
+2026-10-06 12:52:41,230 | ERROR | pipeline.loaded.load_postresql | Error loading data into PostgreSQL table geocoding_cebu_city: (psycopg2.OperationalError) could not translate host name "db" to address: Name or service not known
+
+(Background on this error at: https://sqlalche.me/e/21/e3q8)
+2026-10-06 12:52:45,436 | ERROR | pipeline.loaded.load_postresql | Error loading data into PostgreSQL table geocoding_davao_city: (psycopg2.OperationalError) could not translate host name "db" to address: Name or service not known
+
+(Background on this error at: https://sqlalche.me/e/21/e3q8)
+2026-10-06 12:52:53,821 | ERROR | pipeline.loaded.load_postresql | Error loading data into PostgreSQL table geocoding_baguio: (psycopg2.OperationalError) could not translate host name "db" to address: Temporary failure in name resolution
+
+(Background on this error at: https://sqlalche.me/e/21/e3q8)
+2026-10-06 12:53:01,973 | ERROR | pipeline.loaded.load_postresql | Error loading data into PostgreSQL table geocoding_iloilo_city: (psycopg2.OperationalError) could not translate host name "db" to address: Name or service not known
+
+(Background on this error at: https://sqlalche.me/e/21/e3q8)
+2026-10-06 12:53:06,160 | ERROR | pipeline.loaded.load_postresql | Error loading data into PostgreSQL table geocoding_cagayan_de_oro: (psycopg2.OperationalError) could not translate host name "db" to address: Name or service not known
+
+(Background on this error at: https://sqlalche.me/e/21/e3q8)
+2026-10-06 12:53:14,531 | ERROR | pipeline.loaded.load_postresql | Error loading data into PostgreSQL table geocoding_zamboanga_city: (psycopg2.OperationalError) could not translate host name "db" to address: Temporary failure in name resolution
+
+(Background on this error at: https://sqlalche.me/e/21/e3q8)
+2026-10-06 12:54:08,962 | ERROR | pipeline.loaded.load_postresql | Error loading data into PostgreSQL table geocoding_manila: (psycopg2.OperationalError) connection to server at "host.docker.internal" (192.168.65.254), port 5432 failed: FATAL:  password authentication failed for user "weatherflow"
+
+(Background on this error at: https://sqlalche.me/e/21/e3q8)
+2026-10-06 12:54:09,279 | ERROR | pipeline.loaded.load_postresql | Error loading data into PostgreSQL table geocoding_quezon_city: (psycopg2.OperationalError) connection to server at "host.docker.internal" (192.168.65.254), port 5432 failed: FATAL:  password authentication failed for user "weatherflow"
+
+(Background on this error at: https://sqlalche.me/e/21/e3q8)
+2026-10-06 12:54:09,568 | ERROR | pipeline.loaded.load_postresql | Error loading data into PostgreSQL table geocoding_cebu_city: (psycopg2.OperationalError) connection to server at "host.docker.internal" (192.168.65.254), port 5432 failed: FATAL:  password authentication failed for user "weatherflow"
+
+(Background on this error at: https://sqlalche.me/e/21/e3q8)
+2026-10-06 12:54:09,928 | ERROR | pipeline.loaded.load_postresql | Error loading data into PostgreSQL table geocoding_davao_city: (psycopg2.OperationalError) connection to server at "host.docker.internal" (192.168.65.254), port 5432 failed: FATAL:  password authentication failed for user "weatherflow"
+
+(Background on this error at: https://sqlalche.me/e/21/e3q8)
+2026-10-06 12:54:10,267 | ERROR | pipeline.loaded.load_postresql | Error loading data into PostgreSQL table geocoding_baguio: (psycopg2.OperationalError) connection to server at "host.docker.internal" (192.168.65.254), port 5432 failed: FATAL:  password authentication failed for user "weatherflow"
+
+(Background on this error at: https://sqlalche.me/e/21/e3q8)
+2026-10-06 12:54:10,628 | ERROR | pipeline.loaded.load_postresql | Error loading data into PostgreSQL table geocoding_iloilo_city: (psycopg2.OperationalError) connection to server at "host.docker.internal" (192.168.65.254), port 5432 failed: FATAL:  password authentication failed for user "weatherflow"
+
+(Background on this error at: https://sqlalche.me/e/21/e3q8)
+2026-10-06 12:54:11,034 | ERROR | pipeline.loaded.load_postresql | Error loading data into PostgreSQL table geocoding_cagayan_de_oro: (psycopg2.OperationalError) connection to server at "host.docker.internal" (192.168.65.254), port 5432 failed: FATAL:  password authentication failed for user "weatherflow"
+
+(Background on this error at: https://sqlalche.me/e/21/e3q8)
+2026-10-06 12:54:11,400 | ERROR | pipeline.loaded.load_postresql | Error loading data into PostgreSQL table geocoding_zamboanga_city: (psycopg2.OperationalError) connection to server at "host.docker.internal" (192.168.65.254), port 5432 failed: FATAL:  password authentication failed for user "weatherflow"
+
+(Background on this error at: https://sqlalche.me/e/21/e3q8)
+2026-10-06 12:55:22,543 | INFO | pipeline.loaded.load_postresql | Successfully loaded 1 row(s) into PostgreSQL table: geocoding_manila
+2026-10-06 12:55:23,021 | INFO | pipeline.loaded.load_postresql | Successfully loaded 4 row(s) into PostgreSQL table: openweather_manila
+2026-10-06 12:55:23,476 | INFO | pipeline.loaded.load_postresql | Successfully loaded 1 row(s) into PostgreSQL table: geocoding_quezon_city
+2026-10-06 12:55:23,786 | INFO | pipeline.loaded.load_postresql | Successfully loaded 4 row(s) into PostgreSQL table: openweather_quezon_city
+2026-10-06 12:55:24,175 | INFO | pipeline.loaded.load_postresql | Successfully loaded 1 row(s) into PostgreSQL table: geocoding_cebu_city
+2026-10-06 12:55:24,460 | INFO | pipeline.loaded.load_postresql | Successfully loaded 4 row(s) into PostgreSQL table: openweather_cebu_city
+2026-10-06 12:55:24,843 | INFO | pipeline.loaded.load_postresql | Successfully loaded 1 row(s) into PostgreSQL table: geocoding_davao_city
+2026-10-06 12:55:25,176 | INFO | pipeline.loaded.load_postresql | Successfully loaded 5 row(s) into PostgreSQL table: openweather_davao_city
+2026-10-06 12:55:25,555 | INFO | pipeline.loaded.load_postresql | Successfully loaded 1 row(s) into PostgreSQL table: geocoding_baguio
+2026-10-06 12:55:25,857 | INFO | pipeline.loaded.load_postresql | Successfully loaded 4 row(s) into PostgreSQL table: openweather_baguio
+2026-10-06 12:55:26,250 | INFO | pipeline.loaded.load_postresql | Successfully loaded 1 row(s) into PostgreSQL table: geocoding_iloilo_city
+2026-10-06 12:55:26,484 | INFO | pipeline.loaded.load_postresql | Successfully loaded 4 row(s) into PostgreSQL table: openweather_iloilo_city
+2026-10-06 12:55:26,901 | INFO | pipeline.loaded.load_postresql | Successfully loaded 1 row(s) into PostgreSQL table: geocoding_cagayan_de_oro
+2026-10-06 12:55:27,162 | INFO | pipeline.loaded.load_postresql | Successfully loaded 3 row(s) into PostgreSQL table: openweather_cagayan_de_oro
+2026-10-06 12:55:27,565 | INFO | pipeline.loaded.load_postresql | Successfully loaded 1 row(s) into PostgreSQL table: geocoding_zamboanga_city
+2026-10-06 12:55:27,812 | INFO | pipeline.loaded.load_postresql | Successfully loaded 6 row(s) into PostgreSQL table: openweather_zamboanga_city
+2026-10-07 07:50:43,156 | INFO | pipeline.loaded.load_postresql | Successfully loaded 1 row(s) into PostgreSQL table: geocoding_manila
+2026-10-07 07:50:43,614 | INFO | pipeline.loaded.load_postresql | Successfully loaded 5 row(s) into PostgreSQL table: openweather_manila
+2026-10-07 07:50:44,098 | INFO | pipeline.loaded.load_postresql | Successfully loaded 1 row(s) into PostgreSQL table: geocoding_quezon_city
+2026-10-07 07:50:44,428 | INFO | pipeline.loaded.load_postresql | Successfully loaded 5 row(s) into PostgreSQL table: openweather_quezon_city
+2026-10-07 07:50:44,772 | INFO | pipeline.loaded.load_postresql | Successfully loaded 1 row(s) into PostgreSQL table: geocoding_cebu_city
+2026-10-07 07:50:45,072 | INFO | pipeline.loaded.load_postresql | Successfully loaded 5 row(s) into PostgreSQL table: openweather_cebu_city
+2026-10-07 07:50:45,482 | INFO | pipeline.loaded.load_postresql | Successfully loaded 1 row(s) into PostgreSQL table: geocoding_davao_city
+2026-10-07 07:50:45,831 | INFO | pipeline.loaded.load_postresql | Successfully loaded 6 row(s) into PostgreSQL table: openweather_davao_city
+2026-10-07 07:50:46,362 | INFO | pipeline.loaded.load_postresql | Successfully loaded 1 row(s) into PostgreSQL table: geocoding_baguio
+2026-10-07 07:50:46,721 | INFO | pipeline.loaded.load_postresql | Successfully loaded 5 row(s) into PostgreSQL table: openweather_baguio
+2026-10-07 07:50:47,154 | INFO | pipeline.loaded.load_postresql | Successfully loaded 1 row(s) into PostgreSQL table: geocoding_iloilo_city
+2026-10-07 07:50:47,534 | INFO | pipeline.loaded.load_postresql | Successfully loaded 5 row(s) into PostgreSQL table: openweather_iloilo_city
+2026-10-07 07:50:47,963 | INFO | pipeline.loaded.load_postresql | Successfully loaded 1 row(s) into PostgreSQL table: geocoding_cagayan_de_oro
+2026-10-07 07:50:48,266 | INFO | pipeline.loaded.load_postresql | Successfully loaded 4 row(s) into PostgreSQL table: openweather_cagayan_de_oro
+2026-10-07 07:50:48,699 | INFO | pipeline.loaded.load_postresql | Successfully loaded 1 row(s) into PostgreSQL table: geocoding_zamboanga_city
+2026-10-07 07:50:49,135 | INFO | pipeline.loaded.load_postresql | Successfully loaded 7 row(s) into PostgreSQL table: openweather_zamboanga_city
+2026-10-07 08:18:37,078 | INFO | pipeline.loaded.load_postresql | Successfully loaded 1 row(s) into PostgreSQL table: geocoding_manila
+2026-10-07 08:18:37,608 | INFO | pipeline.loaded.load_postresql | Successfully loaded 6 row(s) into PostgreSQL table: openweather_manila
+2026-10-07 08:18:38,071 | INFO | pipeline.loaded.load_postresql | Successfully loaded 1 row(s) into PostgreSQL table: geocoding_quezon_city
+2026-10-07 08:18:38,542 | INFO | pipeline.loaded.load_postresql | Successfully loaded 6 row(s) into PostgreSQL table: openweather_quezon_city
+2026-10-07 08:18:39,027 | INFO | pipeline.loaded.load_postresql | Successfully loaded 1 row(s) into PostgreSQL table: geocoding_cebu_city
+2026-10-07 08:18:39,493 | INFO | pipeline.loaded.load_postresql | Successfully loaded 6 row(s) into PostgreSQL table: openweather_cebu_city
+2026-10-07 08:18:39,971 | INFO | pipeline.loaded.load_postresql | Successfully loaded 1 row(s) into PostgreSQL table: geocoding_davao_city
+2026-10-07 08:18:40,659 | INFO | pipeline.loaded.load_postresql | Successfully loaded 7 row(s) into PostgreSQL table: openweather_davao_city
+2026-10-07 08:18:41,156 | INFO | pipeline.loaded.load_postresql | Successfully loaded 1 row(s) into PostgreSQL table: geocoding_baguio
+2026-10-07 08:18:41,498 | INFO | pipeline.loaded.load_postresql | Successfully loaded 6 row(s) into PostgreSQL table: openweather_baguio
+2026-10-07 08:18:41,939 | INFO | pipeline.loaded.load_postresql | Successfully loaded 1 row(s) into PostgreSQL table: geocoding_iloilo_city
+2026-10-07 08:18:42,271 | INFO | pipeline.loaded.load_postresql | Successfully loaded 6 row(s) into PostgreSQL table: openweather_iloilo_city
+2026-10-07 08:18:42,805 | INFO | pipeline.loaded.load_postresql | Successfully loaded 1 row(s) into PostgreSQL table: geocoding_cagayan_de_oro
+2026-10-07 08:18:43,161 | INFO | pipeline.loaded.load_postresql | Successfully loaded 5 row(s) into PostgreSQL table: openweather_cagayan_de_oro
+2026-10-07 08:18:43,584 | INFO | pipeline.loaded.load_postresql | Successfully loaded 1 row(s) into PostgreSQL table: geocoding_zamboanga_city
+2026-10-07 08:18:44,002 | INFO | pipeline.loaded.load_postresql | Successfully loaded 8 row(s) into PostgreSQL table: openweather_zamboanga_city
+2026-10-07 08:27:27,079 | INFO | pipeline.loaded.load_postresql | Successfully loaded 1 row(s) into PostgreSQL table: geocoding_manila
+2026-10-07 08:27:27,521 | INFO | pipeline.loaded.load_postresql | Successfully loaded 7 row(s) into PostgreSQL table: openweather_manila
+2026-10-07 08:27:27,995 | INFO | pipeline.loaded.load_postresql | Successfully loaded 1 row(s) into PostgreSQL table: geocoding_quezon_city
+2026-10-07 08:27:28,420 | INFO | pipeline.loaded.load_postresql | Successfully loaded 1 row(s) into PostgreSQL table: geocoding_cebu_city
+2026-10-07 08:27:28,841 | INFO | pipeline.loaded.load_postresql | Successfully loaded 1 row(s) into PostgreSQL table: geocoding_davao_city
+2026-10-07 08:27:29,279 | INFO | pipeline.loaded.load_postresql | Successfully loaded 1 row(s) into PostgreSQL table: geocoding_baguio
+2026-10-07 08:27:29,710 | INFO | pipeline.loaded.load_postresql | Successfully loaded 1 row(s) into PostgreSQL table: geocoding_iloilo_city
+2026-10-07 08:27:30,061 | INFO | pipeline.loaded.load_postresql | Successfully loaded 1 row(s) into PostgreSQL table: geocoding_cagayan_de_oro
+2026-10-07 08:27:30,686 | INFO | pipeline.loaded.load_postresql | Successfully loaded 1 row(s) into PostgreSQL table: geocoding_zamboanga_city
+2026-10-07 08:27:31,148 | INFO | pipeline.loaded.load_postresql | Successfully loaded 9 row(s) into PostgreSQL table: openweather_zamboanga_city
+2026-10-07 08:28:40,172 | INFO | pipeline.loaded.load_postresql | Successfully loaded 1 row(s) into PostgreSQL table: geocoding_manila
+2026-10-07 08:28:40,598 | INFO | pipeline.loaded.load_postresql | Successfully loaded 1 row(s) into PostgreSQL table: geocoding_quezon_city
+2026-10-07 08:28:40,954 | INFO | pipeline.loaded.load_postresql | Successfully loaded 7 row(s) into PostgreSQL table: openweather_quezon_city
+2026-10-07 08:28:41,340 | INFO | pipeline.loaded.load_postresql | Successfully loaded 1 row(s) into PostgreSQL table: geocoding_cebu_city
+2026-10-07 08:28:41,740 | INFO | pipeline.loaded.load_postresql | Successfully loaded 7 row(s) into PostgreSQL table: openweather_cebu_city
+2026-10-07 08:28:42,218 | INFO | pipeline.loaded.load_postresql | Successfully loaded 1 row(s) into PostgreSQL table: geocoding_davao_city
+2026-10-07 08:28:42,729 | INFO | pipeline.loaded.load_postresql | Successfully loaded 8 row(s) into PostgreSQL table: openweather_davao_city
+2026-10-07 08:28:43,133 | INFO | pipeline.loaded.load_postresql | Successfully loaded 1 row(s) into PostgreSQL table: geocoding_baguio
+2026-10-07 08:28:43,499 | INFO | pipeline.loaded.load_postresql | Successfully loaded 7 row(s) into PostgreSQL table: openweather_baguio
+2026-10-07 08:28:44,101 | INFO | pipeline.loaded.load_postresql | Successfully loaded 1 row(s) into PostgreSQL table: geocoding_iloilo_city
+2026-10-07 08:28:44,581 | INFO | pipeline.loaded.load_postresql | Successfully loaded 7 row(s) into PostgreSQL table: openweather_iloilo_city
+2026-10-07 08:28:45,145 | INFO | pipeline.loaded.load_postresql | Successfully loaded 1 row(s) into PostgreSQL table: geocoding_cagayan_de_oro
+2026-10-07 08:28:45,542 | INFO | pipeline.loaded.load_postresql | Successfully loaded 6 row(s) into PostgreSQL table: openweather_cagayan_de_oro
+2026-10-07 08:28:45,935 | INFO | pipeline.loaded.load_postresql | Successfully loaded 1 row(s) into PostgreSQL table: geocoding_zamboanga_city
+2026-10-07 08:50:00,797 | INFO | pipeline.loaded.load_postresql | Successfully loaded 1 row(s) into PostgreSQL table: geocoding_manila
+2026-10-07 08:50:01,257 | INFO | pipeline.loaded.load_postresql | Successfully loaded 8 row(s) into PostgreSQL table: openweather_manila
+2026-10-07 08:50:01,828 | INFO | pipeline.loaded.load_postresql | Successfully loaded 1 row(s) into PostgreSQL table: geocoding_quezon_city
+2026-10-07 08:50:02,159 | INFO | pipeline.loaded.load_postresql | Successfully loaded 8 row(s) into PostgreSQL table: openweather_quezon_city
+2026-10-07 08:50:02,679 | INFO | pipeline.loaded.load_postresql | Successfully loaded 1 row(s) into PostgreSQL table: geocoding_cebu_city
+2026-10-07 08:50:03,282 | INFO | pipeline.loaded.load_postresql | Successfully loaded 8 row(s) into PostgreSQL table: openweather_cebu_city
+2026-10-07 08:50:03,730 | INFO | pipeline.loaded.load_postresql | Successfully loaded 1 row(s) into PostgreSQL table: geocoding_davao_city
+2026-10-07 08:50:04,022 | INFO | pipeline.loaded.load_postresql | Successfully loaded 9 row(s) into PostgreSQL table: openweather_davao_city
+2026-10-07 08:50:04,645 | INFO | pipeline.loaded.load_postresql | Successfully loaded 1 row(s) into PostgreSQL table: geocoding_baguio
+2026-10-07 08:50:05,067 | INFO | pipeline.loaded.load_postresql | Successfully loaded 8 row(s) into PostgreSQL table: openweather_baguio
+2026-10-07 08:50:05,577 | INFO | pipeline.loaded.load_postresql | Successfully loaded 1 row(s) into PostgreSQL table: geocoding_iloilo_city
+2026-10-07 08:50:05,950 | INFO | pipeline.loaded.load_postresql | Successfully loaded 8 row(s) into PostgreSQL table: openweather_iloilo_city
+2026-10-07 08:50:06,499 | INFO | pipeline.loaded.load_postresql | Successfully loaded 1 row(s) into PostgreSQL table: geocoding_cagayan_de_oro
+2026-10-07 08:50:07,023 | INFO | pipeline.loaded.load_postresql | Successfully loaded 7 row(s) into PostgreSQL table: openweather_cagayan_de_oro
+2026-10-07 08:50:07,443 | INFO | pipeline.loaded.load_postresql | Successfully loaded 1 row(s) into PostgreSQL table: geocoding_zamboanga_city
+2026-10-07 08:50:07,872 | INFO | pipeline.loaded.load_postresql | Successfully loaded 10 row(s) into PostgreSQL table: openweather_zamboanga_city
+2026-10-07 09:44:13,040 | INFO | pipeline.loaded.load_postresql | Successfully loaded 1 row(s) into PostgreSQL table: geocoding_manila
+2026-10-07 09:44:13,386 | INFO | pipeline.loaded.load_postresql | Successfully loaded 9 row(s) into PostgreSQL table: openweather_manila
+2026-10-07 09:44:13,848 | INFO | pipeline.loaded.load_postresql | Successfully loaded 1 row(s) into PostgreSQL table: geocoding_quezon_city
+2026-10-07 09:44:14,320 | INFO | pipeline.loaded.load_postresql | Successfully loaded 9 row(s) into PostgreSQL table: openweather_quezon_city
+2026-10-07 09:44:14,842 | INFO | pipeline.loaded.load_postresql | Successfully loaded 1 row(s) into PostgreSQL table: geocoding_cebu_city
+2026-10-07 09:44:15,141 | INFO | pipeline.loaded.load_postresql | Successfully loaded 9 row(s) into PostgreSQL table: openweather_cebu_city
+2026-10-07 09:44:15,608 | INFO | pipeline.loaded.load_postresql | Successfully loaded 1 row(s) into PostgreSQL table: geocoding_davao_city
+2026-10-07 09:44:16,028 | INFO | pipeline.loaded.load_postresql | Successfully loaded 10 row(s) into PostgreSQL table: openweather_davao_city
+2026-10-07 09:44:16,436 | INFO | pipeline.loaded.load_postresql | Successfully loaded 1 row(s) into PostgreSQL table: geocoding_baguio
+2026-10-07 09:44:16,803 | INFO | pipeline.loaded.load_postresql | Successfully loaded 9 row(s) into PostgreSQL table: openweather_baguio
+2026-10-07 09:44:17,287 | INFO | pipeline.loaded.load_postresql | Successfully loaded 1 row(s) into PostgreSQL table: geocoding_iloilo_city
+2026-10-07 09:44:17,628 | INFO | pipeline.loaded.load_postresql | Successfully loaded 9 row(s) into PostgreSQL table: openweather_iloilo_city
+2026-10-07 09:44:18,146 | INFO | pipeline.loaded.load_postresql | Successfully loaded 1 row(s) into PostgreSQL table: geocoding_cagayan_de_oro
+2026-10-07 09:44:18,600 | INFO | pipeline.loaded.load_postresql | Successfully loaded 8 row(s) into PostgreSQL table: openweather_cagayan_de_oro
+2026-10-07 09:44:19,117 | INFO | pipeline.loaded.load_postresql | Successfully loaded 1 row(s) into PostgreSQL table: geocoding_zamboanga_city
+2026-10-07 09:44:19,501 | INFO | pipeline.loaded.load_postresql | Successfully loaded 11 row(s) into PostgreSQL table: openweather_zamboanga_city
+2026-10-07 09:48:49,933 | INFO | pipeline.loaded.load_postresql | Successfully loaded 1 row(s) into PostgreSQL table: geocoding_manila
+2026-10-07 09:48:50,527 | INFO | pipeline.loaded.load_postresql | Successfully loaded 1 row(s) into PostgreSQL table: geocoding_quezon_city
+2026-10-07 09:48:51,056 | INFO | pipeline.loaded.load_postresql | Successfully loaded 1 row(s) into PostgreSQL table: geocoding_cebu_city
+2026-10-07 09:48:51,574 | INFO | pipeline.loaded.load_postresql | Successfully loaded 1 row(s) into PostgreSQL table: geocoding_davao_city
+2026-10-07 09:48:52,069 | INFO | pipeline.loaded.load_postresql | Successfully loaded 1 row(s) into PostgreSQL table: geocoding_baguio
+2026-10-07 09:48:52,535 | INFO | pipeline.loaded.load_postresql | Successfully loaded 1 row(s) into PostgreSQL table: geocoding_iloilo_city
+2026-10-07 09:48:53,053 | INFO | pipeline.loaded.load_postresql | Successfully loaded 1 row(s) into PostgreSQL table: geocoding_cagayan_de_oro
+2026-10-07 09:48:53,549 | INFO | pipeline.loaded.load_postresql | Successfully loaded 1 row(s) into PostgreSQL table: geocoding_zamboanga_city
+2026-10-07 10:09:18,624 | INFO | pipeline.loaded.load_postresql | Successfully loaded 1 row(s) into PostgreSQL table: geocoding_manila
+2026-10-07 10:09:19,317 | INFO | pipeline.loaded.load_postresql | Successfully loaded 10 row(s) into PostgreSQL table: openweather_manila
+2026-10-07 10:09:19,766 | INFO | pipeline.loaded.load_postresql | Successfully loaded 1 row(s) into PostgreSQL table: geocoding_quezon_city
+2026-10-07 10:09:20,178 | INFO | pipeline.loaded.load_postresql | Successfully loaded 10 row(s) into PostgreSQL table: openweather_quezon_city
+2026-10-07 10:09:20,681 | INFO | pipeline.loaded.load_postresql | Successfully loaded 1 row(s) into PostgreSQL table: geocoding_cebu_city
+2026-10-07 10:09:21,097 | INFO | pipeline.loaded.load_postresql | Successfully loaded 10 row(s) into PostgreSQL table: openweather_cebu_city
+2026-10-07 10:09:21,557 | INFO | pipeline.loaded.load_postresql | Successfully loaded 1 row(s) into PostgreSQL table: geocoding_davao_city
+2026-10-07 10:09:21,948 | INFO | pipeline.loaded.load_postresql | Successfully loaded 11 row(s) into PostgreSQL table: openweather_davao_city
+2026-10-07 10:09:22,370 | INFO | pipeline.loaded.load_postresql | Successfully loaded 1 row(s) into PostgreSQL table: geocoding_baguio
+2026-10-07 10:09:22,766 | INFO | pipeline.loaded.load_postresql | Successfully loaded 10 row(s) into PostgreSQL table: openweather_baguio
+2026-10-07 10:09:23,290 | INFO | pipeline.loaded.load_postresql | Successfully loaded 1 row(s) into PostgreSQL table: geocoding_iloilo_city
+2026-10-07 10:09:23,849 | INFO | pipeline.loaded.load_postresql | Successfully loaded 10 row(s) into PostgreSQL table: openweather_iloilo_city
+2026-10-07 10:09:24,471 | INFO | pipeline.loaded.load_postresql | Successfully loaded 1 row(s) into PostgreSQL table: geocoding_cagayan_de_oro
+2026-10-07 10:09:24,910 | INFO | pipeline.loaded.load_postresql | Successfully loaded 9 row(s) into PostgreSQL table: openweather_cagayan_de_oro
+2026-10-07 10:09:25,398 | INFO | pipeline.loaded.load_postresql | Successfully loaded 1 row(s) into PostgreSQL table: geocoding_zamboanga_city
+2026-10-07 10:09:25,818 | INFO | pipeline.loaded.load_postresql | Successfully loaded 12 row(s) into PostgreSQL table: openweather_zamboanga_city
+2026-10-07 10:24:14,337 | ERROR | pipeline.loaded.load_postresql | Error loading data into PostgreSQL table geocoding_manila: (psycopg2.OperationalError) connection to server at "db" (172.18.0.2), port 5432 failed: FATAL:  password authentication failed for user "weatherflow"
+
+(Background on this error at: https://sqlalche.me/e/21/e3q8)
+2026-10-07 10:24:14,747 | ERROR | pipeline.loaded.load_postresql | Error loading data into PostgreSQL table geocoding_quezon_city: (psycopg2.OperationalError) connection to server at "db" (172.18.0.2), port 5432 failed: FATAL:  password authentication failed for user "weatherflow"
+
+(Background on this error at: https://sqlalche.me/e/21/e3q8)
+2026-10-07 10:24:14,990 | ERROR | pipeline.loaded.load_postresql | Error loading data into PostgreSQL table geocoding_cebu_city: (psycopg2.OperationalError) connection to server at "db" (172.18.0.2), port 5432 failed: FATAL:  password authentication failed for user "weatherflow"
+
+(Background on this error at: https://sqlalche.me/e/21/e3q8)
+2026-10-07 10:24:15,351 | ERROR | pipeline.loaded.load_postresql | Error loading data into PostgreSQL table geocoding_davao_city: (psycopg2.OperationalError) connection to server at "db" (172.18.0.2), port 5432 failed: FATAL:  password authentication failed for user "weatherflow"
+
+(Background on this error at: https://sqlalche.me/e/21/e3q8)
+2026-10-07 10:24:15,646 | ERROR | pipeline.loaded.load_postresql | Error loading data into PostgreSQL table geocoding_baguio: (psycopg2.OperationalError) connection to server at "db" (172.18.0.2), port 5432 failed: FATAL:  password authentication failed for user "weatherflow"
+
+(Background on this error at: https://sqlalche.me/e/21/e3q8)
+2026-10-07 10:24:15,920 | ERROR | pipeline.loaded.load_postresql | Error loading data into PostgreSQL table geocoding_iloilo_city: (psycopg2.OperationalError) connection to server at "db" (172.18.0.2), port 5432 failed: FATAL:  password authentication failed for user "weatherflow"
+
+(Background on this error at: https://sqlalche.me/e/21/e3q8)
+2026-10-07 10:24:16,251 | ERROR | pipeline.loaded.load_postresql | Error loading data into PostgreSQL table geocoding_cagayan_de_oro: (psycopg2.OperationalError) connection to server at "db" (172.18.0.2), port 5432 failed: FATAL:  password authentication failed for user "weatherflow"
+
+(Background on this error at: https://sqlalche.me/e/21/e3q8)
+2026-10-07 10:24:16,526 | ERROR | pipeline.loaded.load_postresql | Error loading data into PostgreSQL table geocoding_zamboanga_city: (psycopg2.OperationalError) connection to server at "db" (172.18.0.2), port 5432 failed: FATAL:  password authentication failed for user "weatherflow"
+
+(Background on this error at: https://sqlalche.me/e/21/e3q8)
+2026-10-07 10:27:13,366 | ERROR | pipeline.loaded.load_postresql | Error loading data into PostgreSQL table geocoding_manila: (psycopg2.OperationalError) connection to server at "db" (172.18.0.2), port 5432 failed: FATAL:  password authentication failed for user "weatherflow"
+
+(Background on this error at: https://sqlalche.me/e/21/e3q8)
+2026-10-07 10:27:13,598 | ERROR | pipeline.loaded.load_postresql | Error loading data into PostgreSQL table geocoding_quezon_city: (psycopg2.OperationalError) connection to server at "db" (172.18.0.2), port 5432 failed: FATAL:  password authentication failed for user "weatherflow"
+
+(Background on this error at: https://sqlalche.me/e/21/e3q8)
+2026-10-07 10:27:13,905 | ERROR | pipeline.loaded.load_postresql | Error loading data into PostgreSQL table geocoding_cebu_city: (psycopg2.OperationalError) connection to server at "db" (172.18.0.2), port 5432 failed: FATAL:  password authentication failed for user "weatherflow"
+
+(Background on this error at: https://sqlalche.me/e/21/e3q8)
+2026-10-07 10:27:14,293 | ERROR | pipeline.loaded.load_postresql | Error loading data into PostgreSQL table geocoding_davao_city: (psycopg2.OperationalError) connection to server at "db" (172.18.0.2), port 5432 failed: FATAL:  password authentication failed for user "weatherflow"
+
+(Background on this error at: https://sqlalche.me/e/21/e3q8)
+2026-10-07 10:27:14,575 | ERROR | pipeline.loaded.load_postresql | Error loading data into PostgreSQL table geocoding_baguio: (psycopg2.OperationalError) connection to server at "db" (172.18.0.2), port 5432 failed: FATAL:  password authentication failed for user "weatherflow"
+
+(Background on this error at: https://sqlalche.me/e/21/e3q8)
+2026-10-07 10:27:14,971 | ERROR | pipeline.loaded.load_postresql | Error loading data into PostgreSQL table geocoding_iloilo_city: (psycopg2.OperationalError) connection to server at "db" (172.18.0.2), port 5432 failed: FATAL:  password authentication failed for user "weatherflow"
+
+(Background on this error at: https://sqlalche.me/e/21/e3q8)
+2026-10-07 10:27:15,260 | ERROR | pipeline.loaded.load_postresql | Error loading data into PostgreSQL table geocoding_cagayan_de_oro: (psycopg2.OperationalError) connection to server at "db" (172.18.0.2), port 5432 failed: FATAL:  password authentication failed for user "weatherflow"
+
+(Background on this error at: https://sqlalche.me/e/21/e3q8)
+2026-10-07 10:27:15,526 | ERROR | pipeline.loaded.load_postresql | Error loading data into PostgreSQL table geocoding_zamboanga_city: (psycopg2.OperationalError) connection to server at "db" (172.18.0.2), port 5432 failed: FATAL:  password authentication failed for user "weatherflow"
+
+(Background on this error at: https://sqlalche.me/e/21/e3q8)
+2026-10-07 10:30:36,327 | INFO | pipeline.loaded.load_postresql | Successfully loaded 1 row(s) into PostgreSQL table: geocoding_manila
+2026-10-07 10:30:36,785 | INFO | pipeline.loaded.load_postresql | Successfully loaded 11 row(s) into PostgreSQL table: openweather_manila
+2026-10-07 10:30:37,270 | INFO | pipeline.loaded.load_postresql | Successfully loaded 1 row(s) into PostgreSQL table: geocoding_quezon_city
+2026-10-07 10:30:37,573 | INFO | pipeline.loaded.load_postresql | Successfully loaded 11 row(s) into PostgreSQL table: openweather_quezon_city
+2026-10-07 10:30:37,993 | INFO | pipeline.loaded.load_postresql | Successfully loaded 1 row(s) into PostgreSQL table: geocoding_cebu_city
+2026-10-07 10:30:38,326 | INFO | pipeline.loaded.load_postresql | Successfully loaded 11 row(s) into PostgreSQL table: openweather_cebu_city
+2026-10-07 10:30:38,780 | INFO | pipeline.loaded.load_postresql | Successfully loaded 1 row(s) into PostgreSQL table: geocoding_davao_city
+2026-10-07 10:30:39,255 | INFO | pipeline.loaded.load_postresql | Successfully loaded 12 row(s) into PostgreSQL table: openweather_davao_city
+2026-10-07 10:30:39,699 | INFO | pipeline.loaded.load_postresql | Successfully loaded 1 row(s) into PostgreSQL table: geocoding_baguio
+2026-10-07 10:30:40,100 | INFO | pipeline.loaded.load_postresql | Successfully loaded 11 row(s) into PostgreSQL table: openweather_baguio
+2026-10-07 10:30:40,555 | INFO | pipeline.loaded.load_postresql | Successfully loaded 1 row(s) into PostgreSQL table: geocoding_iloilo_city
+2026-10-07 10:30:40,890 | INFO | pipeline.loaded.load_postresql | Successfully loaded 11 row(s) into PostgreSQL table: openweather_iloilo_city
+2026-10-07 10:30:41,388 | INFO | pipeline.loaded.load_postresql | Successfully loaded 1 row(s) into PostgreSQL table: geocoding_cagayan_de_oro
+2026-10-07 10:30:41,688 | INFO | pipeline.loaded.load_postresql | Successfully loaded 10 row(s) into PostgreSQL table: openweather_cagayan_de_oro
+2026-10-07 10:30:42,089 | INFO | pipeline.loaded.load_postresql | Successfully loaded 1 row(s) into PostgreSQL table: geocoding_zamboanga_city
+2026-10-07 10:30:42,411 | INFO | pipeline.loaded.load_postresql | Successfully loaded 13 row(s) into PostgreSQL table: openweather_zamboanga_city
+2026-10-07 18:32:45,517 | WARNING | pipeline.loaded.load_postresql | Converting legacy table name 'openweather_manila' to 'weather_observations'.
+2026-10-07 18:33:02,538 | WARNING | pipeline.loaded.load_postresql | Converting legacy table name 'openweather_all' to 'weather_observations'.
+2026-10-07 18:33:02,827 | WARNING | pipeline.loaded.load_postresql | Converting legacy table name 'openweather_manila' to 'weather_observations'.
+2026-10-07 18:33:03,061 | WARNING | pipeline.loaded.load_postresql | Converting legacy table name 'openweather_manila' to 'weather_observations'.
+2026-10-07 18:33:03,287 | WARNING | pipeline.loaded.load_postresql | Converting legacy table name 'openweather_manila' to 'weather_observations'.
+2026-10-07 18:33:03,517 | WARNING | pipeline.loaded.load_postresql | Converting legacy table name 'openweather_manila' to 'weather_observations'.
+2026-10-07 18:33:03,745 | WARNING | pipeline.loaded.load_postresql | Converting legacy table name 'openweather_manila' to 'weather_observations'.
+2026-10-07 18:33:03,754 | WARNING | pipeline.loaded.load_postresql | Converting legacy table name 'openweather_manila' to 'weather_observations'.
+2026-10-07 18:33:03,756 | WARNING | pipeline.loaded.load_postresql | No weather observations to load.
+2026-10-07 18:33:03,765 | WARNING | pipeline.loaded.load_postresql | Converting legacy table name 'openweather_manila' to 'weather_observations'.
+2026-10-07 18:33:03,985 | WARNING | pipeline.loaded.load_postresql | Converting legacy table name 'openweather_manila' to 'weather_observations'.
+2026-10-07 18:33:04,324 | ERROR | pipeline.loaded.load_postresql | PostgreSQL is not reachable at weatherflow@localhost:5432/weatherflow: (psycopg2.OperationalError) connection to server at "127.0.0.1", port 1 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections?
+
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2026-10-07 18:33:04,344 | ERROR | pipeline.loaded.load_postresql | PostgreSQL is not reachable at weatherflow@localhost:5432/weatherflow: (psycopg2.OperationalError) connection to server at "127.0.0.1", port 1 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections?
+
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2026-10-07 18:38:01,462 | INFO | pipeline.loaded.load_postresql | Loaded 1 row(s) into legacy table 'openweather_manila'.
+2026-10-07 18:38:17,253 | INFO | pipeline.loaded.load_postresql | Loaded 2 row(s) into legacy table 'openweather_all'.
+2026-10-07 18:38:17,272 | INFO | pipeline.loaded.load_postresql | Loaded 1 row(s) into legacy table 'openweather_manila'.
+2026-10-07 18:38:17,282 | INFO | pipeline.loaded.load_postresql | Loaded 1 row(s) into legacy table 'openweather_manila'.
+2026-10-07 18:38:17,300 | INFO | pipeline.loaded.load_postresql | Loaded 1 row(s) into legacy table 'openweather_manila'.
+2026-10-07 18:38:17,307 | INFO | pipeline.loaded.load_postresql | Loaded 1 row(s) into legacy table 'openweather_manila'.
+2026-10-07 18:38:17,325 | INFO | pipeline.loaded.load_postresql | Loaded 1 row(s) into legacy table 'openweather_manila'.
+2026-10-07 18:38:17,338 | INFO | pipeline.loaded.load_postresql | Loaded 1 row(s) into legacy table 'openweather_manila'.
+2026-10-07 18:38:17,356 | INFO | pipeline.loaded.load_postresql | Loaded 1 row(s) into legacy table 'openweather_manila'.
+2026-10-07 18:38:17,379 | WARNING | pipeline.loaded.load_postresql | No data to load into legacy table 'openweather_manila'.
+2026-10-07 18:38:17,399 | INFO | pipeline.loaded.load_postresql | Loaded 1 row(s) into legacy table 'openweather_manila'.
+2026-10-07 18:38:17,828 | ERROR | pipeline.loaded.load_postresql | PostgreSQL is not reachable at weatherflow@localhost:5432/weatherflow: (psycopg2.OperationalError) connection to server at "127.0.0.1", port 1 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections?
+
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2026-10-07 18:38:17,849 | ERROR | pipeline.loaded.load_postresql | PostgreSQL is not reachable at weatherflow@localhost:5432/weatherflow: (psycopg2.OperationalError) connection to server at "127.0.0.1", port 1 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections?
+
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2026-10-07 18:39:48,210 | INFO | pipeline.loaded.load_postresql | Loaded 1 row(s) into legacy table 'openweather_manila'.
+2026-10-07 18:39:48,753 | INFO | pipeline.loaded.load_postresql | Loaded 2 row(s) into legacy table 'openweather_all'.
+2026-10-07 18:39:48,766 | INFO | pipeline.loaded.load_postresql | Loaded 1 row(s) into legacy table 'openweather_manila'.
+2026-10-07 18:39:48,770 | INFO | pipeline.loaded.load_postresql | Loaded 1 row(s) into legacy table 'openweather_manila'.
+2026-10-07 18:40:09,707 | INFO | pipeline.loaded.load_postresql | Loaded 1 row(s) into legacy table 'openweather_manila'.
+2026-10-07 18:40:09,710 | INFO | pipeline.loaded.load_postresql | Loaded 1 row(s) into legacy table 'openweather_manila'.
+2026-10-07 18:40:09,725 | INFO | pipeline.loaded.load_postresql | Loaded 1 row(s) into legacy table 'openweather_manila'.
+2026-10-07 18:40:09,732 | INFO | pipeline.loaded.load_postresql | Loaded 1 row(s) into legacy table 'openweather_manila'.
+2026-10-07 18:40:09,744 | INFO | pipeline.loaded.load_postresql | Loaded 1 row(s) into legacy table 'openweather_manila'.
+2026-10-07 18:40:09,760 | WARNING | pipeline.loaded.load_postresql | No data to load into legacy table 'openweather_manila'.
+2026-10-07 18:40:09,775 | INFO | pipeline.loaded.load_postresql | Loaded 1 row(s) into legacy table 'openweather_manila'.
+2026-10-07 18:40:09,794 | INFO | pipeline.loaded.load_postresql | Loaded 1 row(s) into legacy table 'city_alias_table'.
+2026-10-07 18:40:09,872 | ERROR | pipeline.loaded.load_postresql | PostgreSQL is not reachable at weatherflow@localhost:5432/weatherflow: (psycopg2.OperationalError) connection to server at "127.0.0.1", port 1 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections?
+
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2026-10-07 18:40:09,892 | ERROR | pipeline.loaded.load_postresql | PostgreSQL is not reachable at weatherflow@localhost:5432/weatherflow: (psycopg2.OperationalError) connection to server at "127.0.0.1", port 1 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections?
+
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2026-10-07 18:41:24,889 | INFO | pipeline.loaded.load_postresql | Loaded 1 row(s) into legacy table 'openweather_manila'.
+2026-10-07 18:41:24,899 | INFO | pipeline.loaded.load_postresql | Loaded 1 row(s) into legacy table 'openweather_manila'.
+2026-10-07 18:43:33,518 | INFO | pipeline.loaded.load_postresql | Loaded 1 row(s) into legacy table 'openweather_manila'.
+2026-10-07 18:43:33,962 | INFO | pipeline.loaded.load_postresql | Loaded 2 row(s) into legacy table 'openweather_all'.
+2026-10-07 18:43:33,974 | INFO | pipeline.loaded.load_postresql | Loaded 1 row(s) into legacy table 'openweather_manila'.
+2026-10-07 18:43:33,979 | INFO | pipeline.loaded.load_postresql | Loaded 1 row(s) into legacy table 'openweather_manila'.
+2026-10-07 18:43:54,700 | INFO | pipeline.loaded.load_postresql | Loaded 1 row(s) into legacy table 'openweather_manila'.
+2026-10-07 18:43:54,708 | INFO | pipeline.loaded.load_postresql | Loaded 1 row(s) into legacy table 'openweather_manila'.
+2026-10-07 18:43:54,725 | INFO | pipeline.loaded.load_postresql | Loaded 1 row(s) into legacy table 'openweather_manila'.
+2026-10-07 18:43:54,735 | INFO | pipeline.loaded.load_postresql | Loaded 1 row(s) into legacy table 'openweather_manila'.
+2026-10-07 18:43:54,747 | INFO | pipeline.loaded.load_postresql | Loaded 1 row(s) into legacy table 'openweather_manila'.
+2026-10-07 18:43:54,765 | WARNING | pipeline.loaded.load_postresql | No data to load into legacy table 'openweather_manila'.
+2026-10-07 18:43:54,791 | INFO | pipeline.loaded.load_postresql | Loaded 1 row(s) into legacy table 'openweather_manila'.
+2026-10-07 18:43:54,812 | INFO | pipeline.loaded.load_postresql | Loaded 1 row(s) into legacy table 'city_alias_table'.
+2026-10-07 18:43:54,872 | ERROR | pipeline.loaded.load_postresql | PostgreSQL is not reachable at weatherflow@localhost:5432/weatherflow: (psycopg2.OperationalError) connection to server at "127.0.0.1", port 1 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections?
+
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2026-10-07 18:43:54,887 | ERROR | pipeline.loaded.load_postresql | PostgreSQL is not reachable at weatherflow@localhost:5432/weatherflow: (psycopg2.OperationalError) connection to server at "127.0.0.1", port 1 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections?
+
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2026-10-07 18:45:09,549 | INFO | pipeline.loaded.load_postresql | Loaded 1 row(s) into legacy table 'openweather_manila'.
+2026-10-07 18:45:09,553 | INFO | pipeline.loaded.load_postresql | Loaded 1 row(s) into legacy table 'openweather_manila'.
+2026-10-07 18:47:07,307 | INFO | pipeline.loaded.load_postresql | Loaded 1 row(s) into legacy table 'openweather_manila'.
+2026-10-07 18:47:07,853 | INFO | pipeline.loaded.load_postresql | Loaded 2 row(s) into legacy table 'openweather_all'.
+2026-10-07 18:47:07,868 | INFO | pipeline.loaded.load_postresql | Loaded 1 row(s) into legacy table 'openweather_manila'.
+2026-10-07 18:47:07,873 | INFO | pipeline.loaded.load_postresql | Loaded 1 row(s) into legacy table 'openweather_manila'.
+2026-10-07 18:47:07,886 | INFO | pipeline.loaded.load_postresql | Loaded 1 row(s) into legacy table 'openweather_manila'.
+2026-10-07 18:47:07,889 | INFO | pipeline.loaded.load_postresql | Loaded 1 row(s) into legacy table 'openweather_manila'.
+2026-10-07 18:47:07,903 | INFO | pipeline.loaded.load_postresql | Loaded 1 row(s) into legacy table 'openweather_manila'.
+2026-10-07 18:47:07,908 | INFO | pipeline.loaded.load_postresql | Loaded 1 row(s) into legacy table 'openweather_manila'.
+2026-10-07 18:47:07,922 | INFO | pipeline.loaded.load_postresql | Loaded 1 row(s) into legacy table 'openweather_manila'.
+2026-10-07 18:47:07,944 | WARNING | pipeline.loaded.load_postresql | No data to load into legacy table 'openweather_manila'.
+2026-10-07 18:47:07,965 | INFO | pipeline.loaded.load_postresql | Loaded 1 row(s) into legacy table 'openweather_manila'.
+2026-10-07 18:47:07,989 | INFO | pipeline.loaded.load_postresql | Loaded 1 row(s) into legacy table 'city_alias_table'.
+2026-10-07 18:47:08,064 | ERROR | pipeline.loaded.load_postresql | PostgreSQL is not reachable at weatherflow@localhost:5432/weatherflow: (psycopg2.OperationalError) connection to server at "127.0.0.1", port 1 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections?
+
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2026-10-07 18:47:08,095 | ERROR | pipeline.loaded.load_postresql | PostgreSQL is not reachable at weatherflow@localhost:5432/weatherflow: (psycopg2.OperationalError) connection to server at "127.0.0.1", port 1 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections?
+
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2026-10-07 10:50:21,785 | INFO | pipeline.loaded.load_postresql | Successfully loaded 1 row(s) into PostgreSQL table: geocoding_manila
+2026-10-07 10:50:22,244 | INFO | pipeline.loaded.load_postresql | Successfully loaded 1 row(s) into PostgreSQL table: geocoding_quezon_city
+2026-10-07 10:50:22,572 | INFO | pipeline.loaded.load_postresql | Successfully loaded 12 row(s) into PostgreSQL table: openweather_quezon_city
+2026-10-07 10:50:23,092 | INFO | pipeline.loaded.load_postresql | Successfully loaded 1 row(s) into PostgreSQL table: geocoding_cebu_city
+2026-10-07 10:50:23,411 | INFO | pipeline.loaded.load_postresql | Successfully loaded 12 row(s) into PostgreSQL table: openweather_cebu_city
+2026-10-07 10:50:23,929 | INFO | pipeline.loaded.load_postresql | Successfully loaded 1 row(s) into PostgreSQL table: geocoding_davao_city
+2026-10-07 10:50:24,333 | INFO | pipeline.loaded.load_postresql | Successfully loaded 13 row(s) into PostgreSQL table: openweather_davao_city
+2026-10-07 10:50:24,802 | INFO | pipeline.loaded.load_postresql | Successfully loaded 1 row(s) into PostgreSQL table: geocoding_baguio
+2026-10-07 10:50:25,262 | INFO | pipeline.loaded.load_postresql | Successfully loaded 12 row(s) into PostgreSQL table: openweather_baguio
+2026-10-07 10:50:25,707 | INFO | pipeline.loaded.load_postresql | Successfully loaded 1 row(s) into PostgreSQL table: geocoding_iloilo_city
+2026-10-07 10:50:26,060 | INFO | pipeline.loaded.load_postresql | Successfully loaded 12 row(s) into PostgreSQL table: openweather_iloilo_city
+2026-10-07 10:50:26,505 | INFO | pipeline.loaded.load_postresql | Successfully loaded 1 row(s) into PostgreSQL table: geocoding_cagayan_de_oro
+2026-10-07 10:50:26,993 | INFO | pipeline.loaded.load_postresql | Successfully loaded 11 row(s) into PostgreSQL table: openweather_cagayan_de_oro
+2026-10-07 10:50:27,412 | INFO | pipeline.loaded.load_postresql | Successfully loaded 1 row(s) into PostgreSQL table: geocoding_zamboanga_city
+2026-10-07 10:50:27,905 | INFO | pipeline.loaded.load_postresql | Successfully loaded 14 row(s) into PostgreSQL table: openweather_zamboanga_city
+2026-10-07 11:10:26,054 | ERROR | pipeline.loaded.load_postresql | Error loading data into PostgreSQL table geocoding_manila: (psycopg2.OperationalError) connection to server at "db" (172.18.0.2), port 5432 failed: FATAL:  password authentication failed for user "weatherflow"
+
+(Background on this error at: https://sqlalche.me/e/21/e3q8)
+2026-10-07 11:10:26,355 | ERROR | pipeline.loaded.load_postresql | Error loading data into PostgreSQL table geocoding_quezon_city: (psycopg2.OperationalError) connection to server at "db" (172.18.0.2), port 5432 failed: FATAL:  password authentication failed for user "weatherflow"
+
+(Background on this error at: https://sqlalche.me/e/21/e3q8)
+2026-10-07 11:10:26,702 | ERROR | pipeline.loaded.load_postresql | Error loading data into PostgreSQL table geocoding_cebu_city: (psycopg2.OperationalError) connection to server at "db" (172.18.0.2), port 5432 failed: FATAL:  password authentication failed for user "weatherflow"
+
+(Background on this error at: https://sqlalche.me/e/21/e3q8)
+2026-10-07 11:10:27,029 | ERROR | pipeline.loaded.load_postresql | Error loading data into PostgreSQL table geocoding_davao_city: (psycopg2.OperationalError) connection to server at "db" (172.18.0.2), port 5432 failed: FATAL:  password authentication failed for user "weatherflow"
+
+(Background on this error at: https://sqlalche.me/e/21/e3q8)
+2026-10-07 11:10:27,359 | ERROR | pipeline.loaded.load_postresql | Error loading data into PostgreSQL table geocoding_baguio: (psycopg2.OperationalError) connection to server at "db" (172.18.0.2), port 5432 failed: FATAL:  password authentication failed for user "weatherflow"
+
+(Background on this error at: https://sqlalche.me/e/21/e3q8)
+2026-10-07 11:10:27,669 | ERROR | pipeline.loaded.load_postresql | Error loading data into PostgreSQL table geocoding_iloilo_city: (psycopg2.OperationalError) connection to server at "db" (172.18.0.2), port 5432 failed: FATAL:  password authentication failed for user "weatherflow"
+
+(Background on this error at: https://sqlalche.me/e/21/e3q8)
+2026-10-07 11:10:28,012 | ERROR | pipeline.loaded.load_postresql | Error loading data into PostgreSQL table geocoding_cagayan_de_oro: (psycopg2.OperationalError) connection to server at "db" (172.18.0.2), port 5432 failed: FATAL:  password authentication failed for user "weatherflow"
+
+(Background on this error at: https://sqlalche.me/e/21/e3q8)
+2026-10-07 11:10:28,274 | ERROR | pipeline.loaded.load_postresql | Error loading data into PostgreSQL table geocoding_zamboanga_city: (psycopg2.OperationalError) connection to server at "db" (172.18.0.2), port 5432 failed: FATAL:  password authentication failed for user "weatherflow"
+
+(Background on this error at: https://sqlalche.me/e/21/e3q8)
+2026-10-07 11:36:40,701 | ERROR | pipeline.loaded.load_postresql | Error loading data into PostgreSQL table geocoding_manila: (psycopg2.OperationalError) connection to server at "db" (172.18.0.2), port 5432 failed: FATAL:  password authentication failed for user "weatherflow"
+
+(Background on this error at: https://sqlalche.me/e/21/e3q8)
+2026-10-07 11:36:40,984 | ERROR | pipeline.loaded.load_postresql | Error loading data into PostgreSQL table geocoding_quezon_city: (psycopg2.OperationalError) connection to server at "db" (172.18.0.2), port 5432 failed: FATAL:  password authentication failed for user "weatherflow"
+
+(Background on this error at: https://sqlalche.me/e/21/e3q8)
+2026-10-07 11:36:41,259 | ERROR | pipeline.loaded.load_postresql | Error loading data into PostgreSQL table geocoding_cebu_city: (psycopg2.OperationalError) connection to server at "db" (172.18.0.2), port 5432 failed: FATAL:  password authentication failed for user "weatherflow"
+
+(Background on this error at: https://sqlalche.me/e/21/e3q8)
+2026-10-07 11:36:41,525 | ERROR | pipeline.loaded.load_postresql | Error loading data into PostgreSQL table geocoding_davao_city: (psycopg2.OperationalError) connection to server at "db" (172.18.0.2), port 5432 failed: FATAL:  password authentication failed for user "weatherflow"
+
+(Background on this error at: https://sqlalche.me/e/21/e3q8)
+2026-10-07 11:36:41,820 | ERROR | pipeline.loaded.load_postresql | Error loading data into PostgreSQL table geocoding_baguio: (psycopg2.OperationalError) connection to server at "db" (172.18.0.2), port 5432 failed: FATAL:  password authentication failed for user "weatherflow"
+
+(Background on this error at: https://sqlalche.me/e/21/e3q8)
+2026-10-07 11:36:42,095 | ERROR | pipeline.loaded.load_postresql | Error loading data into PostgreSQL table geocoding_iloilo_city: (psycopg2.OperationalError) connection to server at "db" (172.18.0.2), port 5432 failed: FATAL:  password authentication failed for user "weatherflow"
+
+(Background on this error at: https://sqlalche.me/e/21/e3q8)
+2026-10-07 11:36:42,423 | ERROR | pipeline.loaded.load_postresql | Error loading data into PostgreSQL table geocoding_cagayan_de_oro: (psycopg2.OperationalError) connection to server at "db" (172.18.0.2), port 5432 failed: FATAL:  password authentication failed for user "weatherflow"
+
+(Background on this error at: https://sqlalche.me/e/21/e3q8)
+2026-10-07 11:36:42,731 | ERROR | pipeline.loaded.load_postresql | Error loading data into PostgreSQL table geocoding_zamboanga_city: (psycopg2.OperationalError) connection to server at "db" (172.18.0.2), port 5432 failed: FATAL:  password authentication failed for user "weatherflow"
+
+(Background on this error at: https://sqlalche.me/e/21/e3q8)
+2026-10-07 19:42:22,024 | INFO | pipeline.loaded.load_postresql | Loaded 1 row(s) into legacy table 'openweather_manila'.
+2026-10-07 19:42:22,512 | INFO | pipeline.loaded.load_postresql | Loaded 2 row(s) into legacy table 'openweather_all'.
+2026-10-07 19:42:22,522 | INFO | pipeline.loaded.load_postresql | Loaded 1 row(s) into legacy table 'openweather_manila'.
+2026-10-07 19:42:22,527 | INFO | pipeline.loaded.load_postresql | Loaded 1 row(s) into legacy table 'openweather_manila'.
+2026-10-07 19:42:22,538 | INFO | pipeline.loaded.load_postresql | Loaded 1 row(s) into legacy table 'openweather_manila'.
+2026-10-07 19:42:22,541 | INFO | pipeline.loaded.load_postresql | Loaded 1 row(s) into legacy table 'openweather_manila'.
+2026-10-07 19:42:22,551 | INFO | pipeline.loaded.load_postresql | Loaded 1 row(s) into legacy table 'openweather_manila'.
+2026-10-07 19:42:22,558 | INFO | pipeline.loaded.load_postresql | Loaded 1 row(s) into legacy table 'openweather_manila'.
+2026-10-07 19:42:22,567 | INFO | pipeline.loaded.load_postresql | Loaded 1 row(s) into legacy table 'openweather_manila'.
+2026-10-07 19:42:22,578 | WARNING | pipeline.loaded.load_postresql | No data to load into legacy table 'openweather_manila'.
+2026-10-07 19:42:22,591 | INFO | pipeline.loaded.load_postresql | Loaded 1 row(s) into legacy table 'openweather_manila'.
+2026-10-07 19:42:22,608 | INFO | pipeline.loaded.load_postresql | Loaded 1 row(s) into legacy table 'city_alias_table'.
+2026-10-07 19:42:22,690 | ERROR | pipeline.loaded.load_postresql | PostgreSQL is not reachable at weatherflow@localhost:5432/weatherflow: (psycopg2.OperationalError) connection to server at "127.0.0.1", port 1 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections?
+
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2026-10-07 19:42:22,703 | ERROR | pipeline.loaded.load_postresql | PostgreSQL is not reachable at weatherflow@localhost:5432/weatherflow: (psycopg2.OperationalError) connection to server at "127.0.0.1", port 1 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections?
+
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2026-10-07 19:43:46,474 | INFO | pipeline.loaded.load_postresql | Loaded 1 row(s) into legacy table 'openweather_manila'.
+2026-10-07 19:43:46,838 | INFO | pipeline.loaded.load_postresql | Loaded 2 row(s) into legacy table 'openweather_all'.
+2026-10-07 19:43:46,852 | INFO | pipeline.loaded.load_postresql | Loaded 1 row(s) into legacy table 'openweather_manila'.
+2026-10-07 19:43:46,858 | INFO | pipeline.loaded.load_postresql | Loaded 1 row(s) into legacy table 'openweather_manila'.
+2026-10-07 19:43:46,868 | INFO | pipeline.loaded.load_postresql | Loaded 1 row(s) into legacy table 'openweather_manila'.
+2026-10-07 19:43:46,873 | INFO | pipeline.loaded.load_postresql | Loaded 1 row(s) into legacy table 'openweather_manila'.
+2026-10-07 19:43:46,883 | INFO | pipeline.loaded.load_postresql | Loaded 1 row(s) into legacy table 'openweather_manila'.
+2026-10-07 19:43:46,888 | INFO | pipeline.loaded.load_postresql | Loaded 1 row(s) into legacy table 'openweather_manila'.
+2026-10-07 19:43:46,897 | INFO | pipeline.loaded.load_postresql | Loaded 1 row(s) into legacy table 'openweather_manila'.
+2026-10-07 19:43:46,909 | WARNING | pipeline.loaded.load_postresql | No data to load into legacy table 'openweather_manila'.
+2026-10-07 19:43:46,924 | INFO | pipeline.loaded.load_postresql | Loaded 1 row(s) into legacy table 'openweather_manila'.
+2026-10-07 19:43:46,937 | INFO | pipeline.loaded.load_postresql | Loaded 1 row(s) into legacy table 'city_alias_table'.
+2026-10-07 19:43:46,987 | ERROR | pipeline.loaded.load_postresql | PostgreSQL is not reachable at weatherflow@localhost:5432/weatherflow: (psycopg2.OperationalError) connection to server at "127.0.0.1", port 1 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections?
+
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2026-10-07 19:43:47,005 | ERROR | pipeline.loaded.load_postresql | PostgreSQL is not reachable at weatherflow@localhost:5432/weatherflow: (psycopg2.OperationalError) connection to server at "127.0.0.1", port 1 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections?
+
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2026-10-07 11:45:00,410 | ERROR | pipeline.loaded.load_postresql | Error loading data into PostgreSQL table geocoding_manila: (psycopg2.OperationalError) connection to server at "db" (172.18.0.2), port 5432 failed: FATAL:  password authentication failed for user "weatherflow"
+
+(Background on this error at: https://sqlalche.me/e/21/e3q8)
+2026-10-07 11:45:00,719 | ERROR | pipeline.loaded.load_postresql | Error loading data into PostgreSQL table geocoding_quezon_city: (psycopg2.OperationalError) connection to server at "db" (172.18.0.2), port 5432 failed: FATAL:  password authentication failed for user "weatherflow"
+
+(Background on this error at: https://sqlalche.me/e/21/e3q8)
+2026-10-07 11:45:00,964 | ERROR | pipeline.loaded.load_postresql | Error loading data into PostgreSQL table geocoding_cebu_city: (psycopg2.OperationalError) connection to server at "db" (172.18.0.2), port 5432 failed: FATAL:  password authentication failed for user "weatherflow"
+
+(Background on this error at: https://sqlalche.me/e/21/e3q8)
+2026-10-07 11:45:01,225 | ERROR | pipeline.loaded.load_postresql | Error loading data into PostgreSQL table geocoding_davao_city: (psycopg2.OperationalError) connection to server at "db" (172.18.0.2), port 5432 failed: FATAL:  password authentication failed for user "weatherflow"
+
+(Background on this error at: https://sqlalche.me/e/21/e3q8)
+2026-10-07 11:45:01,507 | ERROR | pipeline.loaded.load_postresql | Error loading data into PostgreSQL table geocoding_baguio: (psycopg2.OperationalError) connection to server at "db" (172.18.0.2), port 5432 failed: FATAL:  password authentication failed for user "weatherflow"
+
+(Background on this error at: https://sqlalche.me/e/21/e3q8)
+2026-10-07 11:45:01,808 | ERROR | pipeline.loaded.load_postresql | Error loading data into PostgreSQL table geocoding_iloilo_city: (psycopg2.OperationalError) connection to server at "db" (172.18.0.2), port 5432 failed: FATAL:  password authentication failed for user "weatherflow"
+
+(Background on this error at: https://sqlalche.me/e/21/e3q8)
+2026-10-07 11:45:02,032 | ERROR | pipeline.loaded.load_postresql | Error loading data into PostgreSQL table geocoding_cagayan_de_oro: (psycopg2.OperationalError) connection to server at "db" (172.18.0.2), port 5432 failed: FATAL:  password authentication failed for user "weatherflow"
+
+(Background on this error at: https://sqlalche.me/e/21/e3q8)
+2026-10-07 11:45:02,255 | ERROR | pipeline.loaded.load_postresql | Error loading data into PostgreSQL table geocoding_zamboanga_city: (psycopg2.OperationalError) connection to server at "db" (172.18.0.2), port 5432 failed: FATAL:  password authentication failed for user "weatherflow"
+
+(Background on this error at: https://sqlalche.me/e/21/e3q8)
+2026-10-07 19:53:16,498 | INFO | pipeline.loaded.load_postresql | Loaded 1 row(s) into legacy table 'openweather_manila'.
+2026-10-07 19:53:17,119 | INFO | pipeline.loaded.load_postresql | Loaded 2 row(s) into legacy table 'openweather_all'.
+2026-10-07 19:53:17,138 | INFO | pipeline.loaded.load_postresql | Loaded 1 row(s) into legacy table 'openweather_manila'.
+2026-10-07 19:53:17,145 | INFO | pipeline.loaded.load_postresql | Loaded 1 row(s) into legacy table 'openweather_manila'.
+2026-10-07 19:53:28,783 | INFO | pipeline.loaded.load_postresql | Loaded 1 row(s) into legacy table 'openweather_manila'.
+2026-10-07 19:53:28,786 | INFO | pipeline.loaded.load_postresql | Loaded 1 row(s) into legacy table 'openweather_manila'.
+2026-10-07 19:53:28,801 | INFO | pipeline.loaded.load_postresql | Loaded 1 row(s) into legacy table 'openweather_manila'.
+2026-10-07 19:53:28,806 | INFO | pipeline.loaded.load_postresql | Loaded 1 row(s) into legacy table 'openweather_manila'.
+2026-10-07 19:53:28,820 | INFO | pipeline.loaded.load_postresql | Loaded 1 row(s) into legacy table 'openweather_manila'.
+2026-10-07 19:53:28,838 | WARNING | pipeline.loaded.load_postresql | No data to load into legacy table 'openweather_manila'.
+2026-10-07 19:53:28,852 | INFO | pipeline.loaded.load_postresql | Loaded 1 row(s) into legacy table 'openweather_manila'.
+2026-10-07 19:53:28,870 | INFO | pipeline.loaded.load_postresql | Loaded 1 row(s) into legacy table 'city_alias_table'.
+2026-10-07 19:53:28,957 | ERROR | pipeline.loaded.load_postresql | PostgreSQL is not reachable at weatherflow@localhost:5432/weatherflow: (psycopg2.OperationalError) connection to server at "127.0.0.1", port 1 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections?
+
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2026-10-07 19:53:28,970 | ERROR | pipeline.loaded.load_postresql | PostgreSQL is not reachable at weatherflow@localhost:5432/weatherflow: (psycopg2.OperationalError) connection to server at "127.0.0.1", port 1 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections?
+
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2026-10-07 19:55:01,106 | INFO | pipeline.loaded.load_postresql | Loaded 1 row(s) into legacy table 'openweather_manila'.
+2026-10-07 19:55:01,509 | INFO | pipeline.loaded.load_postresql | Loaded 2 row(s) into legacy table 'openweather_all'.
+2026-10-07 19:55:01,518 | INFO | pipeline.loaded.load_postresql | Loaded 1 row(s) into legacy table 'openweather_manila'.
+2026-10-07 19:55:01,522 | INFO | pipeline.loaded.load_postresql | Loaded 1 row(s) into legacy table 'openweather_manila'.
+2026-10-07 19:55:01,533 | INFO | pipeline.loaded.load_postresql | Loaded 1 row(s) into legacy table 'openweather_manila'.
+2026-10-07 19:55:01,537 | INFO | pipeline.loaded.load_postresql | Loaded 1 row(s) into legacy table 'openweather_manila'.
+2026-10-07 19:55:01,548 | INFO | pipeline.loaded.load_postresql | Loaded 1 row(s) into legacy table 'openweather_manila'.
+2026-10-07 19:55:01,555 | INFO | pipeline.loaded.load_postresql | Loaded 1 row(s) into legacy table 'openweather_manila'.
+2026-10-07 19:55:01,567 | INFO | pipeline.loaded.load_postresql | Loaded 1 row(s) into legacy table 'openweather_manila'.
+2026-10-07 19:55:01,580 | WARNING | pipeline.loaded.load_postresql | No data to load into legacy table 'openweather_manila'.
+2026-10-07 19:55:01,593 | INFO | pipeline.loaded.load_postresql | Loaded 1 row(s) into legacy table 'openweather_manila'.
+2026-10-07 19:55:01,610 | INFO | pipeline.loaded.load_postresql | Loaded 1 row(s) into legacy table 'city_alias_table'.
+2026-10-07 19:55:01,670 | ERROR | pipeline.loaded.load_postresql | PostgreSQL is not reachable at weatherflow@localhost:5432/weatherflow: (psycopg2.OperationalError) connection to server at "127.0.0.1", port 1 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections?
+
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2026-10-07 19:55:01,687 | ERROR | pipeline.loaded.load_postresql | PostgreSQL is not reachable at weatherflow@localhost:5432/weatherflow: (psycopg2.OperationalError) connection to server at "127.0.0.1", port 1 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections?
+
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2026-10-07 11:55:41,962 | INFO | pipeline.loaded.load_postresql | Loaded 1 row(s) into legacy table 'geocoding_manila'.
+2026-10-07 11:55:42,329 | INFO | pipeline.loaded.load_postresql | Loaded 1 row(s) into legacy table 'geocoding_quezon_city'.
+2026-10-07 11:55:42,816 | INFO | pipeline.loaded.load_postresql | Loaded 13 row(s) into legacy table 'openweather_quezon_city'.
+2026-10-07 11:55:43,293 | INFO | pipeline.loaded.load_postresql | Loaded 1 row(s) into legacy table 'geocoding_cebu_city'.
+2026-10-07 11:55:43,719 | INFO | pipeline.loaded.load_postresql | Loaded 13 row(s) into legacy table 'openweather_cebu_city'.
+2026-10-07 11:55:44,093 | INFO | pipeline.loaded.load_postresql | Loaded 1 row(s) into legacy table 'geocoding_davao_city'.
+2026-10-07 11:55:44,494 | INFO | pipeline.loaded.load_postresql | Loaded 14 row(s) into legacy table 'openweather_davao_city'.
+2026-10-07 11:55:44,879 | INFO | pipeline.loaded.load_postresql | Loaded 1 row(s) into legacy table 'geocoding_baguio'.
+2026-10-07 11:55:45,254 | INFO | pipeline.loaded.load_postresql | Loaded 13 row(s) into legacy table 'openweather_baguio'.
+2026-10-07 11:55:45,603 | INFO | pipeline.loaded.load_postresql | Loaded 1 row(s) into legacy table 'geocoding_iloilo_city'.
+2026-10-07 11:55:45,931 | INFO | pipeline.loaded.load_postresql | Loaded 13 row(s) into legacy table 'openweather_iloilo_city'.
+2026-10-07 11:55:46,348 | INFO | pipeline.loaded.load_postresql | Loaded 1 row(s) into legacy table 'geocoding_cagayan_de_oro'.
+2026-10-07 11:55:46,633 | INFO | pipeline.loaded.load_postresql | Loaded 12 row(s) into legacy table 'openweather_cagayan_de_oro'.
+2026-10-07 11:55:46,992 | INFO | pipeline.loaded.load_postresql | Loaded 1 row(s) into legacy table 'geocoding_zamboanga_city'.
+2026-10-07 11:55:47,314 | INFO | pipeline.loaded.load_postresql | Loaded 15 row(s) into legacy table 'openweather_zamboanga_city'.
+2026-10-07 12:02:56,622 | INFO | pipeline.loaded.load_postresql | Loaded 1 row(s) into legacy table 'geocoding_manila'.
+2026-10-07 12:02:57,011 | INFO | pipeline.loaded.load_postresql | Loaded 12 row(s) into legacy table 'openweather_manila'.
+2026-10-07 12:02:57,415 | INFO | pipeline.loaded.load_postresql | Loaded 1 row(s) into legacy table 'geocoding_quezon_city'.
+2026-10-07 12:02:57,802 | INFO | pipeline.loaded.load_postresql | Loaded 14 row(s) into legacy table 'openweather_quezon_city'.
+2026-10-07 12:02:58,154 | INFO | pipeline.loaded.load_postresql | Loaded 1 row(s) into legacy table 'geocoding_cebu_city'.
+2026-10-07 12:02:58,567 | INFO | pipeline.loaded.load_postresql | Loaded 14 row(s) into legacy table 'openweather_cebu_city'.
+2026-10-07 12:02:58,951 | INFO | pipeline.loaded.load_postresql | Loaded 1 row(s) into legacy table 'geocoding_davao_city'.
+2026-10-07 12:02:59,272 | INFO | pipeline.loaded.load_postresql | Loaded 15 row(s) into legacy table 'openweather_davao_city'.
+2026-10-07 12:02:59,644 | INFO | pipeline.loaded.load_postresql | Loaded 1 row(s) into legacy table 'geocoding_baguio'.
+2026-10-07 12:02:59,957 | INFO | pipeline.loaded.load_postresql | Loaded 1 row(s) into legacy table 'geocoding_iloilo_city'.
+2026-10-07 12:03:00,323 | INFO | pipeline.loaded.load_postresql | Loaded 14 row(s) into legacy table 'openweather_iloilo_city'.
+2026-10-07 12:03:00,638 | INFO | pipeline.loaded.load_postresql | Loaded 1 row(s) into legacy table 'geocoding_cagayan_de_oro'.
+2026-10-07 12:03:00,946 | INFO | pipeline.loaded.load_postresql | Loaded 13 row(s) into legacy table 'openweather_cagayan_de_oro'.
+2026-10-07 12:03:01,315 | INFO | pipeline.loaded.load_postresql | Loaded 1 row(s) into legacy table 'geocoding_zamboanga_city'.
+2026-10-07 12:03:01,768 | INFO | pipeline.loaded.load_postresql | Loaded 16 row(s) into legacy table 'openweather_zamboanga_city'.
+2026-10-09 03:12:09,944 | INFO | pipeline.loaded.load_postresql | Loaded 1 row(s) into legacy table 'geocoding_manila'.
+2026-10-09 03:12:10,481 | INFO | pipeline.loaded.load_postresql | Loaded 13 row(s) into legacy table 'openweather_manila'.
+2026-10-09 03:12:10,862 | INFO | pipeline.loaded.load_postresql | Loaded 1 row(s) into legacy table 'geocoding_quezon_city'.
+2026-10-09 03:12:11,220 | INFO | pipeline.loaded.load_postresql | Loaded 15 row(s) into legacy table 'openweather_quezon_city'.
+2026-10-09 03:12:11,715 | INFO | pipeline.loaded.load_postresql | Loaded 1 row(s) into legacy table 'geocoding_cebu_city'.
+2026-10-09 03:12:12,108 | INFO | pipeline.loaded.load_postresql | Loaded 15 row(s) into legacy table 'openweather_cebu_city'.
+2026-10-09 03:12:12,714 | INFO | pipeline.loaded.load_postresql | Loaded 1 row(s) into legacy table 'geocoding_davao_city'.
+2026-10-09 03:12:13,248 | INFO | pipeline.loaded.load_postresql | Loaded 16 row(s) into legacy table 'openweather_davao_city'.
+2026-10-09 03:12:13,720 | INFO | pipeline.loaded.load_postresql | Loaded 1 row(s) into legacy table 'geocoding_baguio'.
+2026-10-09 03:12:14,113 | INFO | pipeline.loaded.load_postresql | Loaded 14 row(s) into legacy table 'openweather_baguio'.
+2026-10-09 03:12:14,512 | INFO | pipeline.loaded.load_postresql | Loaded 1 row(s) into legacy table 'geocoding_iloilo_city'.
+2026-10-09 03:12:14,936 | INFO | pipeline.loaded.load_postresql | Loaded 15 row(s) into legacy table 'openweather_iloilo_city'.
+2026-10-09 03:12:15,497 | INFO | pipeline.loaded.load_postresql | Loaded 1 row(s) into legacy table 'geocoding_cagayan_de_oro'.
+2026-10-09 03:12:15,999 | INFO | pipeline.loaded.load_postresql | Loaded 14 row(s) into legacy table 'openweather_cagayan_de_oro'.
+2026-10-09 03:12:16,444 | INFO | pipeline.loaded.load_postresql | Loaded 1 row(s) into legacy table 'geocoding_zamboanga_city'.
+2026-10-09 03:12:16,836 | INFO | pipeline.loaded.load_postresql | Loaded 17 row(s) into legacy table 'openweather_zamboanga_city'.
+2026-10-09 03:15:11,964 | INFO | pipeline.loaded.load_postresql | Loaded 1 row(s) into legacy table 'geocoding_manila'.
+2026-10-09 03:15:12,382 | INFO | pipeline.loaded.load_postresql | Loaded 1 row(s) into legacy table 'geocoding_quezon_city'.
+2026-10-09 03:15:12,816 | INFO | pipeline.loaded.load_postresql | Loaded 1 row(s) into legacy table 'geocoding_cebu_city'.
+2026-10-09 03:15:13,142 | INFO | pipeline.loaded.load_postresql | Loaded 16 row(s) into legacy table 'openweather_cebu_city'.
+2026-10-09 03:15:13,545 | INFO | pipeline.loaded.load_postresql | Loaded 1 row(s) into legacy table 'geocoding_davao_city'.
+2026-10-09 03:15:13,926 | INFO | pipeline.loaded.load_postresql | Loaded 1 row(s) into legacy table 'geocoding_baguio'.
+2026-10-09 03:15:14,343 | INFO | pipeline.loaded.load_postresql | Loaded 1 row(s) into legacy table 'geocoding_iloilo_city'.
+2026-10-09 03:15:14,840 | INFO | pipeline.loaded.load_postresql | Loaded 1 row(s) into legacy table 'geocoding_cagayan_de_oro'.
+2026-10-09 03:15:15,213 | INFO | pipeline.loaded.load_postresql | Loaded 1 row(s) into legacy table 'geocoding_zamboanga_city'.
+2026-10-09 08:43:03,087 | INFO | pipeline.loaded.load_postresql | Loaded 1 row(s) into legacy table 'geocoding_manila'.
+2026-10-09 08:43:03,404 | INFO | pipeline.loaded.load_postresql | Loaded 14 row(s) into legacy table 'openweather_manila'.
+2026-10-09 08:43:03,803 | INFO | pipeline.loaded.load_postresql | Loaded 1 row(s) into legacy table 'geocoding_quezon_city'.
+2026-10-09 08:43:04,165 | INFO | pipeline.loaded.load_postresql | Loaded 16 row(s) into legacy table 'openweather_quezon_city'.
+2026-10-09 08:43:04,558 | INFO | pipeline.loaded.load_postresql | Loaded 1 row(s) into legacy table 'geocoding_cebu_city'.
+2026-10-09 08:43:04,826 | INFO | pipeline.loaded.load_postresql | Loaded 17 row(s) into legacy table 'openweather_cebu_city'.
+2026-10-09 08:43:05,278 | INFO | pipeline.loaded.load_postresql | Loaded 1 row(s) into legacy table 'geocoding_davao_city'.
+2026-10-09 08:43:05,502 | INFO | pipeline.loaded.load_postresql | Loaded 17 row(s) into legacy table 'openweather_davao_city'.
+2026-10-09 08:43:05,961 | INFO | pipeline.loaded.load_postresql | Loaded 1 row(s) into legacy table 'geocoding_baguio'.
+2026-10-09 08:43:06,198 | INFO | pipeline.loaded.load_postresql | Loaded 15 row(s) into legacy table 'openweather_baguio'.
+2026-10-09 08:43:06,558 | INFO | pipeline.loaded.load_postresql | Loaded 1 row(s) into legacy table 'geocoding_iloilo_city'.
+2026-10-09 08:43:06,799 | INFO | pipeline.loaded.load_postresql | Loaded 16 row(s) into legacy table 'openweather_iloilo_city'.
+2026-10-09 08:43:07,429 | INFO | pipeline.loaded.load_postresql | Loaded 1 row(s) into legacy table 'geocoding_cagayan_de_oro'.
+2026-10-09 08:43:07,674 | INFO | pipeline.loaded.load_postresql | Loaded 15 row(s) into legacy table 'openweather_cagayan_de_oro'.
+2026-10-09 08:43:08,069 | INFO | pipeline.loaded.load_postresql | Loaded 1 row(s) into legacy table 'geocoding_zamboanga_city'.
+2026-10-09 08:43:08,313 | INFO | pipeline.loaded.load_postresql | Loaded 18 row(s) into legacy table 'openweather_zamboanga_city'.
+2026-10-09 17:04:11,639 | INFO | pipeline.loaded.load_postresql | Loaded 2 row(s) into legacy table 'openweather_all'.
+2026-10-09 17:04:11,652 | INFO | pipeline.loaded.load_postresql | Loaded 1 row(s) into legacy table 'openweather_manila'.
+2026-10-09 17:04:11,657 | INFO | pipeline.loaded.load_postresql | Loaded 1 row(s) into legacy table 'openweather_manila'.
+2026-10-09 17:04:11,801 | INFO | pipeline.loaded.load_postresql | Loaded 1 row(s) into legacy table 'openweather_manila'.
+2026-10-09 17:04:11,804 | INFO | pipeline.loaded.load_postresql | Loaded 1 row(s) into legacy table 'openweather_manila'.
+2026-10-09 17:04:11,819 | INFO | pipeline.loaded.load_postresql | Loaded 1 row(s) into legacy table 'openweather_manila'.
+2026-10-09 17:04:11,829 | INFO | pipeline.loaded.load_postresql | Loaded 1 row(s) into legacy table 'openweather_manila'.
+2026-10-09 17:04:11,885 | INFO | pipeline.loaded.load_postresql | Loaded 1 row(s) into legacy table 'weather_observations'.
+2026-10-09 17:04:11,889 | INFO | pipeline.loaded.load_postresql | Loaded 1 row(s) into legacy table 'weather_observations'.
+2026-10-09 17:04:11,902 | INFO | pipeline.loaded.load_postresql | Loaded 1 row(s) into legacy table 'openweather_manila'.
+2026-10-09 17:04:11,918 | WARNING | pipeline.loaded.load_postresql | No data to load into legacy table 'openweather_manila'.
+2026-10-09 17:04:11,933 | INFO | pipeline.loaded.load_postresql | Loaded 1 row(s) into legacy table 'openweather_manila'.
+2026-10-09 17:04:11,952 | INFO | pipeline.loaded.load_postresql | Loaded 1 row(s) into legacy table 'city_alias_table'.
+2026-10-09 17:04:12,148 | ERROR | pipeline.loaded.load_postresql | PostgreSQL is not reachable at weatherflow@localhost:5432/weatherflow: (psycopg2.OperationalError) connection to server at "127.0.0.1", port 1 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections?
+
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2026-10-09 17:04:12,178 | ERROR | pipeline.loaded.load_postresql | PostgreSQL is not reachable at weatherflow@localhost:5432/weatherflow: (psycopg2.OperationalError) connection to server at "127.0.0.1", port 1 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections?
+
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2026-10-09 17:05:53,828 | INFO | pipeline.loaded.load_postresql | Loaded 2 row(s) into legacy table 'openweather_all'.
+2026-10-09 17:05:53,847 | INFO | pipeline.loaded.load_postresql | Loaded 1 row(s) into legacy table 'openweather_manila'.
+2026-10-09 17:05:53,857 | INFO | pipeline.loaded.load_postresql | Loaded 1 row(s) into legacy table 'openweather_manila'.
+2026-10-09 17:05:53,887 | INFO | pipeline.loaded.load_postresql | Loaded 1 row(s) into legacy table 'openweather_manila'.
+2026-10-09 17:05:53,902 | INFO | pipeline.loaded.load_postresql | Loaded 1 row(s) into legacy table 'openweather_manila'.
+2026-10-09 17:05:53,915 | INFO | pipeline.loaded.load_postresql | Loaded 1 row(s) into legacy table 'openweather_manila'.
+2026-10-09 17:05:53,921 | INFO | pipeline.loaded.load_postresql | Loaded 1 row(s) into legacy table 'openweather_manila'.
+2026-10-09 17:05:54,030 | INFO | pipeline.loaded.load_postresql | Loaded 1 row(s) into legacy table 'weather_observations'.
+2026-10-09 17:05:54,036 | INFO | pipeline.loaded.load_postresql | Loaded 1 row(s) into legacy table 'weather_observations'.
+2026-10-09 17:05:54,048 | INFO | pipeline.loaded.load_postresql | Loaded 1 row(s) into legacy table 'openweather_manila'.
+2026-10-09 17:05:54,062 | WARNING | pipeline.loaded.load_postresql | No data to load into legacy table 'openweather_manila'.
+2026-10-09 17:05:54,078 | INFO | pipeline.loaded.load_postresql | Loaded 1 row(s) into legacy table 'openweather_manila'.
+2026-10-09 17:05:54,097 | INFO | pipeline.loaded.load_postresql | Loaded 1 row(s) into legacy table 'city_alias_table'.
+2026-10-09 17:05:54,143 | ERROR | pipeline.loaded.load_postresql | PostgreSQL is not reachable at weatherflow@localhost:5432/weatherflow: (psycopg2.OperationalError) connection to server at "127.0.0.1", port 1 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections?
+
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2026-10-09 17:05:54,156 | ERROR | pipeline.loaded.load_postresql | PostgreSQL is not reachable at weatherflow@localhost:5432/weatherflow: (psycopg2.OperationalError) connection to server at "127.0.0.1", port 1 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections?
+
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2026-10-09 17:07:36,412 | INFO | pipeline.loaded.load_postresql | Loaded 1 row(s) into legacy table 'openweather_manila'.
+2026-10-09 17:07:50,033 | INFO | pipeline.loaded.load_postresql | Loaded 2 row(s) into legacy table 'openweather_all'.
+2026-10-09 17:07:50,045 | INFO | pipeline.loaded.load_postresql | Loaded 1 row(s) into legacy table 'openweather_manila'.
+2026-10-09 17:07:50,049 | INFO | pipeline.loaded.load_postresql | Loaded 1 row(s) into legacy table 'openweather_manila'.
+2026-10-09 17:07:50,063 | INFO | pipeline.loaded.load_postresql | Loaded 1 row(s) into legacy table 'openweather_manila'.
+2026-10-09 17:07:50,068 | INFO | pipeline.loaded.load_postresql | Loaded 1 row(s) into legacy table 'openweather_manila'.
+2026-10-09 17:07:50,082 | INFO | pipeline.loaded.load_postresql | Loaded 1 row(s) into legacy table 'openweather_manila'.
+2026-10-09 17:07:50,087 | INFO | pipeline.loaded.load_postresql | Loaded 1 row(s) into legacy table 'openweather_manila'.
+2026-10-09 17:07:50,102 | INFO | pipeline.loaded.load_postresql | Loaded 1 row(s) into legacy table 'weather_observations'.
+2026-10-09 17:07:50,109 | INFO | pipeline.loaded.load_postresql | Loaded 1 row(s) into legacy table 'weather_observations'.
+2026-10-09 17:07:50,123 | INFO | pipeline.loaded.load_postresql | Loaded 1 row(s) into legacy table 'openweather_manila'.
+2026-10-09 17:07:50,143 | WARNING | pipeline.loaded.load_postresql | No data to load into legacy table 'openweather_manila'.
+2026-10-09 17:07:50,165 | INFO | pipeline.loaded.load_postresql | Loaded 1 row(s) into legacy table 'openweather_manila'.
+2026-10-09 17:07:50,190 | INFO | pipeline.loaded.load_postresql | Loaded 1 row(s) into legacy table 'city_alias_table'.
+2026-10-09 17:07:50,261 | ERROR | pipeline.loaded.load_postresql | PostgreSQL is not reachable at weatherflow@localhost:5432/weatherflow: (psycopg2.OperationalError) connection to server at "127.0.0.1", port 1 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections?
+
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2026-10-09 17:07:50,274 | ERROR | pipeline.loaded.load_postresql | PostgreSQL is not reachable at weatherflow@localhost:5432/weatherflow: (psycopg2.OperationalError) connection to server at "127.0.0.1", port 1 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections?
+
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2026-10-09 17:12:32,216 | INFO | pipeline.loaded.load_postresql | Loaded 1 row(s) into legacy table 'openweather_manila'.
+2026-10-09 17:12:47,877 | INFO | pipeline.loaded.load_postresql | Loaded 2 row(s) into legacy table 'openweather_all'.
+2026-10-09 17:12:47,887 | INFO | pipeline.loaded.load_postresql | Loaded 1 row(s) into legacy table 'openweather_manila'.
+2026-10-09 17:12:47,891 | INFO | pipeline.loaded.load_postresql | Loaded 1 row(s) into legacy table 'openweather_manila'.
+2026-10-09 17:12:47,902 | INFO | pipeline.loaded.load_postresql | Loaded 1 row(s) into legacy table 'openweather_manila'.
+2026-10-09 17:12:47,906 | INFO | pipeline.loaded.load_postresql | Loaded 1 row(s) into legacy table 'openweather_manila'.
+2026-10-09 17:12:47,919 | INFO | pipeline.loaded.load_postresql | Loaded 1 row(s) into legacy table 'openweather_manila'.
+2026-10-09 17:12:47,923 | INFO | pipeline.loaded.load_postresql | Loaded 1 row(s) into legacy table 'openweather_manila'.
+2026-10-09 17:12:47,941 | INFO | pipeline.loaded.load_postresql | Loaded 1 row(s) into legacy table 'weather_observations'.
+2026-10-09 17:12:47,945 | INFO | pipeline.loaded.load_postresql | Loaded 1 row(s) into legacy table 'weather_observations'.
+2026-10-09 17:12:47,958 | INFO | pipeline.loaded.load_postresql | Loaded 1 row(s) into legacy table 'openweather_manila'.
+2026-10-09 17:12:47,973 | WARNING | pipeline.loaded.load_postresql | No data to load into legacy table 'openweather_manila'.
+2026-10-09 17:12:47,988 | INFO | pipeline.loaded.load_postresql | Loaded 1 row(s) into legacy table 'openweather_manila'.
+2026-10-09 17:12:48,004 | INFO | pipeline.loaded.load_postresql | Loaded 1 row(s) into legacy table 'city_alias_table'.
+2026-10-09 17:12:48,069 | ERROR | pipeline.loaded.load_postresql | PostgreSQL is not reachable at weatherflow@localhost:5432/weatherflow: (psycopg2.OperationalError) connection to server at "127.0.0.1", port 1 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections?
+
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2026-10-09 17:12:48,098 | ERROR | pipeline.loaded.load_postresql | PostgreSQL is not reachable at weatherflow@localhost:5432/weatherflow: (psycopg2.OperationalError) connection to server at "127.0.0.1", port 1 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections?
+
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2026-10-09 17:15:00,289 | INFO | pipeline.loaded.load_postresql | Loaded 1 row(s) into legacy table 'openweather_manila'.
+2026-10-09 17:15:10,896 | INFO | pipeline.loaded.load_postresql | Loaded 2 row(s) into legacy table 'openweather_all'.
+2026-10-09 17:15:10,905 | INFO | pipeline.loaded.load_postresql | Loaded 1 row(s) into legacy table 'openweather_manila'.
+2026-10-09 17:15:10,909 | INFO | pipeline.loaded.load_postresql | Loaded 1 row(s) into legacy table 'openweather_manila'.
+2026-10-09 17:15:10,919 | INFO | pipeline.loaded.load_postresql | Loaded 1 row(s) into legacy table 'openweather_manila'.
+2026-10-09 17:15:10,923 | INFO | pipeline.loaded.load_postresql | Loaded 1 row(s) into legacy table 'openweather_manila'.
+2026-10-09 17:15:10,931 | INFO | pipeline.loaded.load_postresql | Loaded 1 row(s) into legacy table 'openweather_manila'.
+2026-10-09 17:15:10,935 | INFO | pipeline.loaded.load_postresql | Loaded 1 row(s) into legacy table 'openweather_manila'.
+2026-10-09 17:15:10,946 | INFO | pipeline.loaded.load_postresql | Loaded 1 row(s) into legacy table 'weather_observations'.
+2026-10-09 17:15:10,950 | INFO | pipeline.loaded.load_postresql | Loaded 1 row(s) into legacy table 'weather_observations'.
+2026-10-09 17:15:10,961 | INFO | pipeline.loaded.load_postresql | Loaded 1 row(s) into legacy table 'openweather_manila'.
+2026-10-09 17:15:10,973 | WARNING | pipeline.loaded.load_postresql | No data to load into legacy table 'openweather_manila'.
+2026-10-09 17:15:10,986 | INFO | pipeline.loaded.load_postresql | Loaded 1 row(s) into legacy table 'openweather_manila'.
+2026-10-09 17:15:10,999 | INFO | pipeline.loaded.load_postresql | Loaded 1 row(s) into legacy table 'city_alias_table'.
+2026-10-09 17:15:11,048 | ERROR | pipeline.loaded.load_postresql | PostgreSQL is not reachable at weatherflow@localhost:5432/weatherflow: (psycopg2.OperationalError) connection to server at "127.0.0.1", port 1 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections?
+
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2026-10-09 17:15:11,060 | ERROR | pipeline.loaded.load_postresql | PostgreSQL is not reachable at weatherflow@localhost:5432/weatherflow: (psycopg2.OperationalError) connection to server at "127.0.0.1", port 1 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections?
+
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2026-10-09 17:16:49,285 | INFO | pipeline.loaded.load_postresql | Loaded 1 row(s) into legacy table 'openweather_manila'.
+2026-10-09 17:16:49,658 | INFO | pipeline.loaded.load_postresql | Loaded 2 row(s) into legacy table 'openweather_all'.
+2026-10-09 17:16:49,671 | INFO | pipeline.loaded.load_postresql | Loaded 1 row(s) into legacy table 'openweather_manila'.
+2026-10-09 17:16:49,676 | INFO | pipeline.loaded.load_postresql | Loaded 1 row(s) into legacy table 'openweather_manila'.
+2026-10-09 17:16:49,688 | INFO | pipeline.loaded.load_postresql | Loaded 1 row(s) into legacy table 'openweather_manila'.
+2026-10-09 17:16:49,691 | INFO | pipeline.loaded.load_postresql | Loaded 1 row(s) into legacy table 'openweather_manila'.
+2026-10-09 17:16:49,704 | INFO | pipeline.loaded.load_postresql | Loaded 1 row(s) into legacy table 'openweather_manila'.
+2026-10-09 17:16:49,709 | INFO | pipeline.loaded.load_postresql | Loaded 1 row(s) into legacy table 'openweather_manila'.
+2026-10-09 17:16:49,723 | INFO | pipeline.loaded.load_postresql | Loaded 1 row(s) into legacy table 'weather_observations'.
+2026-10-09 17:16:49,727 | INFO | pipeline.loaded.load_postresql | Loaded 1 row(s) into legacy table 'weather_observations'.
+2026-10-09 17:16:49,736 | INFO | pipeline.loaded.load_postresql | Loaded 1 row(s) into legacy table 'openweather_manila'.
+2026-10-09 17:16:49,748 | WARNING | pipeline.loaded.load_postresql | No data to load into legacy table 'openweather_manila'.
+2026-10-09 17:16:49,763 | INFO | pipeline.loaded.load_postresql | Loaded 1 row(s) into legacy table 'openweather_manila'.
+2026-10-09 17:16:49,776 | INFO | pipeline.loaded.load_postresql | Loaded 1 row(s) into legacy table 'city_alias_table'.
+2026-10-09 17:16:49,829 | ERROR | pipeline.loaded.load_postresql | PostgreSQL is not reachable at weatherflow@localhost:5432/weatherflow: (psycopg2.OperationalError) connection to server at "127.0.0.1", port 1 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections?
+
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2026-10-09 17:16:49,844 | ERROR | pipeline.loaded.load_postresql | PostgreSQL is not reachable at weatherflow@localhost:5432/weatherflow: (psycopg2.OperationalError) connection to server at "127.0.0.1", port 1 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections?
+
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2026-10-09 09:19:45,212 | INFO | pipeline.loaded.load_postresql | Loaded 1 row(s) into legacy table 'geocoding_manila'.
+2026-10-09 09:19:45,474 | INFO | pipeline.loaded.load_postresql | Loaded 15 row(s) into legacy table 'openweather_manila'.
+2026-10-09 09:19:45,868 | INFO | pipeline.loaded.load_postresql | Loaded 1 row(s) into legacy table 'geocoding_quezon_city'.
+2026-10-09 09:19:46,268 | INFO | pipeline.loaded.load_postresql | Loaded 17 row(s) into legacy table 'openweather_quezon_city'.
+2026-10-09 09:19:46,707 | INFO | pipeline.loaded.load_postresql | Loaded 1 row(s) into legacy table 'geocoding_cebu_city'.
+2026-10-09 09:19:47,052 | INFO | pipeline.loaded.load_postresql | Loaded 18 row(s) into legacy table 'openweather_cebu_city'.
+2026-10-09 09:19:47,422 | INFO | pipeline.loaded.load_postresql | Loaded 1 row(s) into legacy table 'geocoding_davao_city'.
+2026-10-09 09:19:47,739 | INFO | pipeline.loaded.load_postresql | Loaded 18 row(s) into legacy table 'openweather_davao_city'.
+2026-10-09 09:19:48,196 | INFO | pipeline.loaded.load_postresql | Loaded 1 row(s) into legacy table 'geocoding_baguio'.
+2026-10-09 09:19:48,461 | INFO | pipeline.loaded.load_postresql | Loaded 16 row(s) into legacy table 'openweather_baguio'.
+2026-10-09 09:19:48,913 | INFO | pipeline.loaded.load_postresql | Loaded 1 row(s) into legacy table 'geocoding_iloilo_city'.
+2026-10-09 09:19:49,219 | INFO | pipeline.loaded.load_postresql | Loaded 17 row(s) into legacy table 'openweather_iloilo_city'.
+2026-10-09 09:19:49,678 | INFO | pipeline.loaded.load_postresql | Loaded 1 row(s) into legacy table 'geocoding_cagayan_de_oro'.
+2026-10-09 09:19:50,025 | INFO | pipeline.loaded.load_postresql | Loaded 16 row(s) into legacy table 'openweather_cagayan_de_oro'.
+2026-10-09 09:19:50,945 | INFO | pipeline.loaded.load_postresql | Loaded 1 row(s) into legacy table 'geocoding_zamboanga_city'.
+2026-10-09 09:19:51,335 | INFO | pipeline.loaded.load_postresql | Loaded 19 row(s) into legacy table 'openweather_zamboanga_city'.
+2026-10-09 09:25:32,374 | INFO | pipeline.loaded.load_postresql | Loaded 1 row(s) into legacy table 'geocoding_manila'.
+2026-10-09 09:25:32,820 | INFO | pipeline.loaded.load_postresql | Loaded 1 row(s) into legacy table 'geocoding_quezon_city'.
+2026-10-09 09:25:33,144 | INFO | pipeline.loaded.load_postresql | Loaded 1 row(s) into legacy table 'geocoding_cebu_city'.
+2026-10-09 09:25:33,532 | INFO | pipeline.loaded.load_postresql | Loaded 1 row(s) into legacy table 'geocoding_davao_city'.
+2026-10-09 09:25:33,902 | INFO | pipeline.loaded.load_postresql | Loaded 1 row(s) into legacy table 'geocoding_baguio'.
+2026-10-09 09:25:34,238 | INFO | pipeline.loaded.load_postresql | Loaded 1 row(s) into legacy table 'geocoding_iloilo_city'.
+2026-10-09 09:25:34,658 | INFO | pipeline.loaded.load_postresql | Loaded 1 row(s) into legacy table 'geocoding_cagayan_de_oro'.
+2026-10-09 09:25:35,112 | INFO | pipeline.loaded.load_postresql | Loaded 1 row(s) into legacy table 'geocoding_zamboanga_city'.
+2026-10-09 09:26:31,315 | INFO | pipeline.loaded.load_postresql | Loaded 1 row(s) into legacy table 'geocoding_manila'.
+2026-10-09 09:26:31,681 | INFO | pipeline.loaded.load_postresql | Loaded 1 row(s) into legacy table 'geocoding_quezon_city'.
+2026-10-09 09:26:32,027 | INFO | pipeline.loaded.load_postresql | Loaded 1 row(s) into legacy table 'geocoding_cebu_city'.
+2026-10-09 09:26:32,391 | INFO | pipeline.loaded.load_postresql | Loaded 1 row(s) into legacy table 'geocoding_davao_city'.
+2026-10-09 09:26:32,856 | INFO | pipeline.loaded.load_postresql | Loaded 1 row(s) into legacy table 'geocoding_baguio'.
+2026-10-09 09:26:33,267 | INFO | pipeline.loaded.load_postresql | Loaded 1 row(s) into legacy table 'geocoding_iloilo_city'.
+2026-10-09 09:26:33,604 | INFO | pipeline.loaded.load_postresql | Loaded 1 row(s) into legacy table 'geocoding_cagayan_de_oro'.
+2026-10-09 09:26:33,957 | INFO | pipeline.loaded.load_postresql | Loaded 1 row(s) into legacy table 'geocoding_zamboanga_city'.
+2026-10-09 09:28:37,682 | INFO | pipeline.loaded.load_postresql | Loaded 1 row(s) into legacy table 'geocoding_manila'.
+2026-10-09 09:28:38,108 | INFO | pipeline.loaded.load_postresql | Loaded 1 row(s) into legacy table 'geocoding_quezon_city'.
+2026-10-09 09:28:38,506 | INFO | pipeline.loaded.load_postresql | Loaded 1 row(s) into legacy table 'geocoding_cebu_city'.
+2026-10-09 09:28:38,882 | INFO | pipeline.loaded.load_postresql | Loaded 1 row(s) into legacy table 'geocoding_davao_city'.
+2026-10-09 09:28:39,237 | INFO | pipeline.loaded.load_postresql | Loaded 1 row(s) into legacy table 'geocoding_baguio'.
+2026-10-09 09:28:39,615 | INFO | pipeline.loaded.load_postresql | Loaded 1 row(s) into legacy table 'geocoding_iloilo_city'.
+2026-10-09 09:28:39,954 | INFO | pipeline.loaded.load_postresql | Loaded 1 row(s) into legacy table 'geocoding_cagayan_de_oro'.
+2026-10-09 09:28:40,334 | INFO | pipeline.loaded.load_postresql | Loaded 1 row(s) into legacy table 'geocoding_zamboanga_city'.
+2026-10-09 09:30:19,438 | INFO | pipeline.loaded.load_postresql | Loaded 1 row(s) into legacy table 'geocoding_manila'.
+2026-10-09 09:30:19,846 | INFO | pipeline.loaded.load_postresql | Loaded 1 row(s) into legacy table 'geocoding_quezon_city'.
+2026-10-09 09:30:20,215 | INFO | pipeline.loaded.load_postresql | Loaded 1 row(s) into legacy table 'geocoding_cebu_city'.
+2026-10-09 09:30:20,548 | INFO | pipeline.loaded.load_postresql | Loaded 1 row(s) into legacy table 'geocoding_davao_city'.
+2026-10-09 09:30:20,930 | INFO | pipeline.loaded.load_postresql | Loaded 1 row(s) into legacy table 'geocoding_baguio'.
+2026-10-09 09:30:21,396 | INFO | pipeline.loaded.load_postresql | Loaded 1 row(s) into legacy table 'geocoding_iloilo_city'.
+2026-10-09 09:30:21,783 | INFO | pipeline.loaded.load_postresql | Loaded 1 row(s) into legacy table 'geocoding_cagayan_de_oro'.
+2026-10-09 09:30:22,276 | INFO | pipeline.loaded.load_postresql | Loaded 1 row(s) into legacy table 'geocoding_zamboanga_city'.
+2026-10-09 17:36:17,123 | INFO | pipeline.loaded.load_postresql | Loaded 1 row(s) into legacy table 'openweather_manila'.
+2026-10-09 17:36:17,650 | INFO | pipeline.loaded.load_postresql | Loaded 2 row(s) into legacy table 'openweather_all'.
+2026-10-09 17:36:17,663 | INFO | pipeline.loaded.load_postresql | Loaded 1 row(s) into legacy table 'openweather_manila'.
+2026-10-09 17:36:17,667 | INFO | pipeline.loaded.load_postresql | Loaded 1 row(s) into legacy table 'openweather_manila'.
+2026-10-09 17:36:17,681 | INFO | pipeline.loaded.load_postresql | Loaded 1 row(s) into legacy table 'openweather_manila'.
+2026-10-09 17:36:17,685 | INFO | pipeline.loaded.load_postresql | Loaded 1 row(s) into legacy table 'openweather_manila'.
+2026-10-09 17:36:17,696 | INFO | pipeline.loaded.load_postresql | Loaded 1 row(s) into legacy table 'openweather_manila'.
+2026-10-09 17:36:17,700 | INFO | pipeline.loaded.load_postresql | Loaded 1 row(s) into legacy table 'openweather_manila'.
+2026-10-09 17:36:17,717 | INFO | pipeline.loaded.load_postresql | Loaded 1 row(s) into legacy table 'weather_observations'.
+2026-10-09 17:36:17,720 | INFO | pipeline.loaded.load_postresql | Loaded 1 row(s) into legacy table 'weather_observations'.
+2026-10-09 17:36:17,734 | INFO | pipeline.loaded.load_postresql | Loaded 1 row(s) into legacy table 'openweather_manila'.
+2026-10-09 17:36:17,752 | WARNING | pipeline.loaded.load_postresql | No data to load into legacy table 'openweather_manila'.
+2026-10-09 17:36:17,767 | INFO | pipeline.loaded.load_postresql | Loaded 1 row(s) into legacy table 'openweather_manila'.
+2026-10-09 17:36:17,784 | INFO | pipeline.loaded.load_postresql | Loaded 1 row(s) into legacy table 'city_alias_table'.
+2026-10-09 17:36:17,869 | ERROR | pipeline.loaded.load_postresql | PostgreSQL is not reachable at weatherflow@localhost:5432/weatherflow: (psycopg2.OperationalError) connection to server at "127.0.0.1", port 1 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections?
+
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2026-10-09 17:36:17,897 | ERROR | pipeline.loaded.load_postresql | PostgreSQL is not reachable at weatherflow@localhost:5432/weatherflow: (psycopg2.OperationalError) connection to server at "127.0.0.1", port 1 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections?
+
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2026-10-09 09:37:46,122 | INFO | pipeline.loaded.load_postresql | Loaded 1 row(s) into legacy table 'geocoding_manila'.
+2026-10-09 09:37:46,504 | INFO | pipeline.loaded.load_postresql | Loaded 1 row(s) into legacy table 'geocoding_quezon_city'.
+2026-10-09 09:37:46,860 | INFO | pipeline.loaded.load_postresql | Loaded 18 row(s) into legacy table 'openweather_quezon_city'.
+2026-10-09 09:37:47,255 | INFO | pipeline.loaded.load_postresql | Loaded 1 row(s) into legacy table 'geocoding_cebu_city'.
+2026-10-09 09:37:47,581 | INFO | pipeline.loaded.load_postresql | Loaded 19 row(s) into legacy table 'openweather_cebu_city'.
+2026-10-09 09:37:47,921 | INFO | pipeline.loaded.load_postresql | Loaded 1 row(s) into legacy table 'geocoding_davao_city'.
+2026-10-09 09:37:48,261 | INFO | pipeline.loaded.load_postresql | Loaded 19 row(s) into legacy table 'openweather_davao_city'.
+2026-10-09 09:37:48,683 | INFO | pipeline.loaded.load_postresql | Loaded 1 row(s) into legacy table 'geocoding_baguio'.
+2026-10-09 09:37:48,945 | INFO | pipeline.loaded.load_postresql | Loaded 17 row(s) into legacy table 'openweather_baguio'.
+2026-10-09 09:37:49,461 | INFO | pipeline.loaded.load_postresql | Loaded 1 row(s) into legacy table 'geocoding_iloilo_city'.
+2026-10-09 09:37:49,887 | INFO | pipeline.loaded.load_postresql | Loaded 18 row(s) into legacy table 'openweather_iloilo_city'.
+2026-10-09 09:37:50,239 | INFO | pipeline.loaded.load_postresql | Loaded 1 row(s) into legacy table 'geocoding_cagayan_de_oro'.
+2026-10-09 09:37:50,564 | INFO | pipeline.loaded.load_postresql | Loaded 17 row(s) into legacy table 'openweather_cagayan_de_oro'.
+2026-10-09 09:37:50,949 | INFO | pipeline.loaded.load_postresql | Loaded 1 row(s) into legacy table 'geocoding_zamboanga_city'.
+2026-10-09 09:37:51,269 | INFO | pipeline.loaded.load_postresql | Loaded 20 row(s) into legacy table 'openweather_zamboanga_city'.
+2026-10-09 09:39:20,310 | INFO | pipeline.loaded.load_postresql | Loaded 1 row(s) into legacy table 'geocoding_manila'.
+2026-10-09 09:39:20,620 | INFO | pipeline.loaded.load_postresql | Loaded 16 row(s) into legacy table 'openweather_manila'.
+2026-10-09 09:39:21,029 | INFO | pipeline.loaded.load_postresql | Loaded 1 row(s) into legacy table 'geocoding_quezon_city'.
+2026-10-09 09:39:21,393 | INFO | pipeline.loaded.load_postresql | Loaded 1 row(s) into legacy table 'geocoding_cebu_city'.
+2026-10-09 09:39:21,952 | INFO | pipeline.loaded.load_postresql | Loaded 20 row(s) into legacy table 'openweather_cebu_city'.
+2026-10-09 09:39:22,348 | INFO | pipeline.loaded.load_postresql | Loaded 1 row(s) into legacy table 'geocoding_davao_city'.
+2026-10-09 09:39:22,727 | INFO | pipeline.loaded.load_postresql | Loaded 1 row(s) into legacy table 'geocoding_baguio'.
+2026-10-09 09:39:23,022 | INFO | pipeline.loaded.load_postresql | Loaded 18 row(s) into legacy table 'openweather_baguio'.
+2026-10-09 09:39:23,428 | INFO | pipeline.loaded.load_postresql | Loaded 1 row(s) into legacy table 'geocoding_iloilo_city'.
+2026-10-09 09:39:23,768 | INFO | pipeline.loaded.load_postresql | Loaded 1 row(s) into legacy table 'geocoding_cagayan_de_oro'.
+2026-10-09 09:39:24,122 | INFO | pipeline.loaded.load_postresql | Loaded 1 row(s) into legacy table 'geocoding_zamboanga_city'.
+2026-10-09 09:39:55,121 | INFO | pipeline.loaded.load_postresql | Loaded 1 row(s) into legacy table 'geocoding_manila'.
+2026-10-09 09:39:55,545 | INFO | pipeline.loaded.load_postresql | Loaded 1 row(s) into legacy table 'geocoding_quezon_city'.
+2026-10-09 09:39:55,868 | INFO | pipeline.loaded.load_postresql | Loaded 1 row(s) into legacy table 'geocoding_cebu_city'.
+2026-10-09 09:39:56,218 | INFO | pipeline.loaded.load_postresql | Loaded 1 row(s) into legacy table 'geocoding_davao_city'.
+2026-10-09 09:39:56,594 | INFO | pipeline.loaded.load_postresql | Loaded 1 row(s) into legacy table 'geocoding_baguio'.
+2026-10-09 09:39:56,965 | INFO | pipeline.loaded.load_postresql | Loaded 1 row(s) into legacy table 'geocoding_iloilo_city'.
+2026-10-09 09:39:57,314 | INFO | pipeline.loaded.load_postresql | Loaded 1 row(s) into legacy table 'geocoding_cagayan_de_oro'.
+2026-10-09 09:39:57,622 | INFO | pipeline.loaded.load_postresql | Loaded 1 row(s) into legacy table 'geocoding_zamboanga_city'.
+2026-10-09 09:58:33,341 | INFO | pipeline.loaded.load_postresql | Loaded 1 row(s) into legacy table 'geocoding_manila'.
+2026-10-09 09:58:33,797 | INFO | pipeline.loaded.load_postresql | Loaded 17 row(s) into legacy table 'openweather_manila'.
+2026-10-09 09:58:34,187 | INFO | pipeline.loaded.load_postresql | Loaded 1 row(s) into legacy table 'geocoding_quezon_city'.
+2026-10-09 09:58:34,486 | INFO | pipeline.loaded.load_postresql | Loaded 19 row(s) into legacy table 'openweather_quezon_city'.
+2026-10-09 09:58:34,903 | INFO | pipeline.loaded.load_postresql | Loaded 1 row(s) into legacy table 'geocoding_cebu_city'.
+2026-10-09 09:58:35,211 | INFO | pipeline.loaded.load_postresql | Loaded 21 row(s) into legacy table 'openweather_cebu_city'.
+2026-10-09 09:58:35,677 | INFO | pipeline.loaded.load_postresql | Loaded 1 row(s) into legacy table 'geocoding_davao_city'.
+2026-10-09 09:58:35,956 | INFO | pipeline.loaded.load_postresql | Loaded 20 row(s) into legacy table 'openweather_davao_city'.
+2026-10-09 09:58:36,314 | INFO | pipeline.loaded.load_postresql | Loaded 1 row(s) into legacy table 'geocoding_baguio'.
+2026-10-09 09:58:36,741 | INFO | pipeline.loaded.load_postresql | Loaded 19 row(s) into legacy table 'openweather_baguio'.
+2026-10-09 09:58:37,213 | INFO | pipeline.loaded.load_postresql | Loaded 1 row(s) into legacy table 'geocoding_iloilo_city'.
+2026-10-09 09:58:37,570 | INFO | pipeline.loaded.load_postresql | Loaded 19 row(s) into legacy table 'openweather_iloilo_city'.
+2026-10-09 09:58:38,009 | INFO | pipeline.loaded.load_postresql | Loaded 1 row(s) into legacy table 'geocoding_cagayan_de_oro'.
+2026-10-09 09:58:38,266 | INFO | pipeline.loaded.load_postresql | Loaded 18 row(s) into legacy table 'openweather_cagayan_de_oro'.
+2026-10-09 09:58:38,705 | INFO | pipeline.loaded.load_postresql | Loaded 1 row(s) into legacy table 'geocoding_zamboanga_city'.
+2026-10-09 09:58:38,980 | INFO | pipeline.loaded.load_postresql | Loaded 21 row(s) into legacy table 'openweather_zamboanga_city'.
+2026-10-09 10:05:04,940 | INFO | pipeline.loaded.load_postresql | Loaded 1 row(s) into legacy table 'geocoding_manila'.
+2026-10-09 10:05:05,283 | INFO | pipeline.loaded.load_postresql | Loaded 1 row(s) into legacy table 'geocoding_quezon_city'.
+2026-10-09 10:05:05,606 | INFO | pipeline.loaded.load_postresql | Loaded 20 row(s) into legacy table 'openweather_quezon_city'.
+2026-10-09 10:05:05,930 | INFO | pipeline.loaded.load_postresql | Loaded 1 row(s) into legacy table 'geocoding_cebu_city'.
+2026-10-09 10:05:06,286 | INFO | pipeline.loaded.load_postresql | Loaded 1 row(s) into legacy table 'geocoding_davao_city'.
+2026-10-09 10:05:06,659 | INFO | pipeline.loaded.load_postresql | Loaded 21 row(s) into legacy table 'openweather_davao_city'.
+2026-10-09 10:05:07,014 | INFO | pipeline.loaded.load_postresql | Loaded 1 row(s) into legacy table 'geocoding_baguio'.
+2026-10-09 10:05:07,305 | INFO | pipeline.loaded.load_postresql | Loaded 20 row(s) into legacy table 'openweather_baguio'.
+2026-10-09 10:05:07,688 | INFO | pipeline.loaded.load_postresql | Loaded 1 row(s) into legacy table 'geocoding_iloilo_city'.
+2026-10-09 10:05:08,013 | INFO | pipeline.loaded.load_postresql | Loaded 20 row(s) into legacy table 'openweather_iloilo_city'.
+2026-10-09 10:05:08,448 | INFO | pipeline.loaded.load_postresql | Loaded 1 row(s) into legacy table 'geocoding_cagayan_de_oro'.
+2026-10-09 10:05:08,752 | INFO | pipeline.loaded.load_postresql | Loaded 1 row(s) into legacy table 'geocoding_zamboanga_city'.
+2026-10-09 10:05:27,599 | INFO | pipeline.loaded.load_postresql | Loaded 1 row(s) into legacy table 'geocoding_manila'.
+2026-10-09 10:05:27,946 | INFO | pipeline.loaded.load_postresql | Loaded 1 row(s) into legacy table 'geocoding_quezon_city'.
+2026-10-09 10:05:28,296 | INFO | pipeline.loaded.load_postresql | Loaded 1 row(s) into legacy table 'geocoding_cebu_city'.
+2026-10-09 10:05:28,620 | INFO | pipeline.loaded.load_postresql | Loaded 1 row(s) into legacy table 'geocoding_davao_city'.
+2026-10-09 10:05:28,988 | INFO | pipeline.loaded.load_postresql | Loaded 1 row(s) into legacy table 'geocoding_baguio'.
+2026-10-09 10:05:29,366 | INFO | pipeline.loaded.load_postresql | Loaded 1 row(s) into legacy table 'geocoding_iloilo_city'.
+2026-10-09 10:05:29,687 | INFO | pipeline.loaded.load_postresql | Loaded 1 row(s) into legacy table 'geocoding_cagayan_de_oro'.
+2026-10-09 10:05:30,049 | INFO | pipeline.loaded.load_postresql | Loaded 1 row(s) into legacy table 'geocoding_zamboanga_city'.
+2026-10-09 10:06:38,975 | INFO | pipeline.loaded.load_postresql | Loaded 1 row(s) into legacy table 'geocoding_manila'.
+2026-10-09 10:06:39,376 | INFO | pipeline.loaded.load_postresql | Loaded 1 row(s) into legacy table 'geocoding_quezon_city'.
+2026-10-09 10:06:39,783 | INFO | pipeline.loaded.load_postresql | Loaded 1 row(s) into legacy table 'geocoding_cebu_city'.
+2026-10-09 10:06:40,255 | INFO | pipeline.loaded.load_postresql | Loaded 1 row(s) into legacy table 'geocoding_davao_city'.
+2026-10-09 10:06:40,630 | INFO | pipeline.loaded.load_postresql | Loaded 1 row(s) into legacy table 'geocoding_baguio'.
+2026-10-09 10:06:41,010 | INFO | pipeline.loaded.load_postresql | Loaded 1 row(s) into legacy table 'geocoding_iloilo_city'.
+2026-10-09 10:06:41,340 | INFO | pipeline.loaded.load_postresql | Loaded 1 row(s) into legacy table 'geocoding_cagayan_de_oro'.
+2026-10-09 10:06:41,702 | INFO | pipeline.loaded.load_postresql | Loaded 1 row(s) into legacy table 'geocoding_zamboanga_city'.
+2026-10-09 10:07:43,309 | INFO | pipeline.loaded.load_postresql | Loaded 1 row(s) into legacy table 'geocoding_manila'.
+2026-10-09 10:07:43,660 | INFO | pipeline.loaded.load_postresql | Loaded 1 row(s) into legacy table 'geocoding_quezon_city'.
+2026-10-09 10:07:43,984 | INFO | pipeline.loaded.load_postresql | Loaded 1 row(s) into legacy table 'geocoding_cebu_city'.
+2026-10-09 10:07:44,350 | INFO | pipeline.loaded.load_postresql | Loaded 1 row(s) into legacy table 'geocoding_davao_city'.
+2026-10-09 10:07:44,711 | INFO | pipeline.loaded.load_postresql | Loaded 1 row(s) into legacy table 'geocoding_baguio'.
+2026-10-09 10:07:45,056 | INFO | pipeline.loaded.load_postresql | Loaded 1 row(s) into legacy table 'geocoding_iloilo_city'.
+2026-10-09 10:07:45,433 | INFO | pipeline.loaded.load_postresql | Loaded 1 row(s) into legacy table 'geocoding_cagayan_de_oro'.
+2026-10-09 10:07:45,770 | INFO | pipeline.loaded.load_postresql | Loaded 1 row(s) into legacy table 'geocoding_zamboanga_city'.
+2026-10-09 10:07:46,143 | INFO | pipeline.loaded.load_postresql | Loaded 22 row(s) into legacy table 'openweather_zamboanga_city'.
+2026-10-09 10:07:56,189 | INFO | pipeline.loaded.load_postresql | Loaded 1 row(s) into legacy table 'geocoding_manila'.
+2026-10-09 10:07:56,550 | INFO | pipeline.loaded.load_postresql | Loaded 1 row(s) into legacy table 'geocoding_quezon_city'.
+2026-10-09 10:07:57,134 | INFO | pipeline.loaded.load_postresql | Loaded 1 row(s) into legacy table 'geocoding_cebu_city'.
+2026-10-09 10:07:57,457 | INFO | pipeline.loaded.load_postresql | Loaded 1 row(s) into legacy table 'geocoding_davao_city'.
+2026-10-09 10:07:57,837 | INFO | pipeline.loaded.load_postresql | Loaded 1 row(s) into legacy table 'geocoding_baguio'.
+2026-10-09 10:07:58,291 | INFO | pipeline.loaded.load_postresql | Loaded 1 row(s) into legacy table 'geocoding_iloilo_city'.
+2026-10-09 10:07:58,600 | INFO | pipeline.loaded.load_postresql | Loaded 1 row(s) into legacy table 'geocoding_cagayan_de_oro'.
+2026-10-09 10:07:58,922 | INFO | pipeline.loaded.load_postresql | Loaded 1 row(s) into legacy table 'geocoding_zamboanga_city'.
+2026-10-09 10:08:42,637 | INFO | pipeline.loaded.load_postresql | Loaded 1 row(s) into legacy table 'geocoding_manila'.
+2026-10-09 10:08:42,996 | INFO | pipeline.loaded.load_postresql | Loaded 18 row(s) into legacy table 'openweather_manila'.
+2026-10-09 10:08:43,401 | INFO | pipeline.loaded.load_postresql | Loaded 1 row(s) into legacy table 'geocoding_quezon_city'.
+2026-10-09 10:08:43,817 | INFO | pipeline.loaded.load_postresql | Loaded 1 row(s) into legacy table 'geocoding_cebu_city'.
+2026-10-09 10:08:44,371 | INFO | pipeline.loaded.load_postresql | Loaded 22 row(s) into legacy table 'openweather_cebu_city'.
+2026-10-09 10:08:44,774 | INFO | pipeline.loaded.load_postresql | Loaded 1 row(s) into legacy table 'geocoding_davao_city'.
+2026-10-09 10:08:45,184 | INFO | pipeline.loaded.load_postresql | Loaded 1 row(s) into legacy table 'geocoding_baguio'.
+2026-10-09 10:08:45,494 | INFO | pipeline.loaded.load_postresql | Loaded 1 row(s) into legacy table 'geocoding_iloilo_city'.
+2026-10-09 10:08:45,843 | INFO | pipeline.loaded.load_postresql | Loaded 1 row(s) into legacy table 'geocoding_cagayan_de_oro'.
+2026-10-09 10:08:46,172 | INFO | pipeline.loaded.load_postresql | Loaded 19 row(s) into legacy table 'openweather_cagayan_de_oro'.
+2026-10-09 10:08:46,579 | INFO | pipeline.loaded.load_postresql | Loaded 1 row(s) into legacy table 'geocoding_zamboanga_city'.
+2026-10-09 10:08:56,589 | INFO | pipeline.loaded.load_postresql | Loaded 1 row(s) into legacy table 'geocoding_manila'.
+2026-10-09 10:08:56,900 | INFO | pipeline.loaded.load_postresql | Loaded 1 row(s) into legacy table 'geocoding_quezon_city'.
+2026-10-09 10:08:57,283 | INFO | pipeline.loaded.load_postresql | Loaded 1 row(s) into legacy table 'geocoding_cebu_city'.
+2026-10-09 10:08:57,674 | INFO | pipeline.loaded.load_postresql | Loaded 1 row(s) into legacy table 'geocoding_davao_city'.
+2026-10-09 10:08:58,031 | INFO | pipeline.loaded.load_postresql | Loaded 1 row(s) into legacy table 'geocoding_baguio'.
+2026-10-09 10:08:58,474 | INFO | pipeline.loaded.load_postresql | Loaded 1 row(s) into legacy table 'geocoding_iloilo_city'.
+2026-10-09 10:08:58,819 | INFO | pipeline.loaded.load_postresql | Loaded 1 row(s) into legacy table 'geocoding_cagayan_de_oro'.
+2026-10-09 10:08:59,185 | INFO | pipeline.loaded.load_postresql | Loaded 1 row(s) into legacy table 'geocoding_zamboanga_city'.
+2026-10-09 18:13:20,348 | INFO | pipeline.loaded.load_postresql | Loaded 1 row(s) into legacy table 'openweather_manila'.
+2026-10-09 18:13:35,066 | INFO | pipeline.loaded.load_postresql | Loaded 2 row(s) into legacy table 'openweather_all'.
+2026-10-09 18:13:35,075 | INFO | pipeline.loaded.load_postresql | Loaded 1 row(s) into legacy table 'openweather_manila'.
+2026-10-09 18:13:35,079 | INFO | pipeline.loaded.load_postresql | Loaded 1 row(s) into legacy table 'openweather_manila'.
+2026-10-09 18:13:35,087 | INFO | pipeline.loaded.load_postresql | Loaded 1 row(s) into legacy table 'openweather_manila'.
+2026-10-09 18:13:35,090 | INFO | pipeline.loaded.load_postresql | Loaded 1 row(s) into legacy table 'openweather_manila'.
+2026-10-09 18:13:35,099 | INFO | pipeline.loaded.load_postresql | Loaded 1 row(s) into legacy table 'openweather_manila'.
+2026-10-09 18:13:35,103 | INFO | pipeline.loaded.load_postresql | Loaded 1 row(s) into legacy table 'openweather_manila'.
+2026-10-09 18:13:35,115 | INFO | pipeline.loaded.load_postresql | Loaded 1 row(s) into legacy table 'weather_observations'.
+2026-10-09 18:13:35,118 | INFO | pipeline.loaded.load_postresql | Loaded 1 row(s) into legacy table 'weather_observations'.
+2026-10-09 18:13:35,127 | INFO | pipeline.loaded.load_postresql | Loaded 1 row(s) into legacy table 'openweather_manila'.
+2026-10-09 18:13:35,140 | WARNING | pipeline.loaded.load_postresql | No data to load into legacy table 'openweather_manila'.
+2026-10-09 18:13:35,159 | INFO | pipeline.loaded.load_postresql | Loaded 1 row(s) into legacy table 'openweather_manila'.
+2026-10-09 18:13:35,177 | INFO | pipeline.loaded.load_postresql | Loaded 1 row(s) into legacy table 'city_alias_table'.
+2026-10-09 18:13:35,232 | ERROR | pipeline.loaded.load_postresql | PostgreSQL is not reachable at weatherflow@localhost:5432/weatherflow: (psycopg2.OperationalError) connection to server at "127.0.0.1", port 1 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections?
+
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2026-10-09 18:13:35,250 | ERROR | pipeline.loaded.load_postresql | PostgreSQL is not reachable at weatherflow@localhost:5432/weatherflow: (psycopg2.OperationalError) connection to server at "127.0.0.1", port 1 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections?
+
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2026-10-09 18:15:37,115 | INFO | pipeline.loaded.load_postresql | Loaded 1 row(s) into legacy table 'openweather_manila'.
+2026-10-09 18:15:52,156 | INFO | pipeline.loaded.load_postresql | Loaded 2 row(s) into legacy table 'openweather_all'.
+2026-10-09 18:15:52,167 | INFO | pipeline.loaded.load_postresql | Loaded 1 row(s) into legacy table 'openweather_manila'.
+2026-10-09 18:15:52,173 | INFO | pipeline.loaded.load_postresql | Loaded 1 row(s) into legacy table 'openweather_manila'.
+2026-10-09 18:15:52,184 | INFO | pipeline.loaded.load_postresql | Loaded 1 row(s) into legacy table 'openweather_manila'.
+2026-10-09 18:15:52,191 | INFO | pipeline.loaded.load_postresql | Loaded 1 row(s) into legacy table 'openweather_manila'.
+2026-10-09 18:15:52,205 | INFO | pipeline.loaded.load_postresql | Loaded 1 row(s) into legacy table 'openweather_manila'.
+2026-10-09 18:15:52,212 | INFO | pipeline.loaded.load_postresql | Loaded 1 row(s) into legacy table 'openweather_manila'.
+2026-10-09 18:15:52,230 | INFO | pipeline.loaded.load_postresql | Loaded 1 row(s) into legacy table 'weather_observations'.
+2026-10-09 18:15:52,235 | INFO | pipeline.loaded.load_postresql | Loaded 1 row(s) into legacy table 'weather_observations'.
+2026-10-09 18:15:52,249 | INFO | pipeline.loaded.load_postresql | Loaded 1 row(s) into legacy table 'openweather_manila'.
+2026-10-09 18:15:52,264 | WARNING | pipeline.loaded.load_postresql | No data to load into legacy table 'openweather_manila'.
+2026-10-09 18:15:52,283 | INFO | pipeline.loaded.load_postresql | Loaded 1 row(s) into legacy table 'openweather_manila'.
+2026-10-09 18:15:52,300 | INFO | pipeline.loaded.load_postresql | Loaded 1 row(s) into legacy table 'city_alias_table'.
+2026-10-09 18:15:52,344 | ERROR | pipeline.loaded.load_postresql | PostgreSQL is not reachable at weatherflow@localhost:5432/weatherflow: (psycopg2.OperationalError) connection to server at "127.0.0.1", port 1 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections?
+
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2026-10-09 18:15:52,356 | ERROR | pipeline.loaded.load_postresql | PostgreSQL is not reachable at weatherflow@localhost:5432/weatherflow: (psycopg2.OperationalError) connection to server at "127.0.0.1", port 1 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections?
+
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2026-10-09 18:17:28,028 | INFO | pipeline.loaded.load_postresql | Loaded 1 row(s) into legacy table 'openweather_manila'.
+2026-10-09 18:17:28,522 | INFO | pipeline.loaded.load_postresql | Loaded 2 row(s) into legacy table 'openweather_all'.
+2026-10-09 18:17:28,533 | INFO | pipeline.loaded.load_postresql | Loaded 1 row(s) into legacy table 'openweather_manila'.
+2026-10-09 18:17:28,537 | INFO | pipeline.loaded.load_postresql | Loaded 1 row(s) into legacy table 'openweather_manila'.
+2026-10-09 18:17:28,550 | INFO | pipeline.loaded.load_postresql | Loaded 1 row(s) into legacy table 'openweather_manila'.
+2026-10-09 18:17:28,553 | INFO | pipeline.loaded.load_postresql | Loaded 1 row(s) into legacy table 'openweather_manila'.
+2026-10-09 18:17:28,564 | INFO | pipeline.loaded.load_postresql | Loaded 1 row(s) into legacy table 'openweather_manila'.
+2026-10-09 18:17:28,568 | INFO | pipeline.loaded.load_postresql | Loaded 1 row(s) into legacy table 'openweather_manila'.
+2026-10-09 18:17:28,580 | INFO | pipeline.loaded.load_postresql | Loaded 1 row(s) into legacy table 'weather_observations'.
+2026-10-09 18:17:28,584 | INFO | pipeline.loaded.load_postresql | Loaded 1 row(s) into legacy table 'weather_observations'.
+2026-10-09 18:17:28,594 | INFO | pipeline.loaded.load_postresql | Loaded 1 row(s) into legacy table 'openweather_manila'.
+2026-10-09 18:17:28,612 | WARNING | pipeline.loaded.load_postresql | No data to load into legacy table 'openweather_manila'.
+2026-10-09 18:17:28,626 | INFO | pipeline.loaded.load_postresql | Loaded 1 row(s) into legacy table 'openweather_manila'.
+2026-10-09 18:17:28,642 | INFO | pipeline.loaded.load_postresql | Loaded 1 row(s) into legacy table 'city_alias_table'.
+2026-10-09 18:17:28,702 | ERROR | pipeline.loaded.load_postresql | PostgreSQL is not reachable at weatherflow@localhost:5432/weatherflow: (psycopg2.OperationalError) connection to server at "127.0.0.1", port 1 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections?
+
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2026-10-09 18:17:28,717 | ERROR | pipeline.loaded.load_postresql | PostgreSQL is not reachable at weatherflow@localhost:5432/weatherflow: (psycopg2.OperationalError) connection to server at "127.0.0.1", port 1 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections?
+
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2026-10-09 10:20:04,490 | INFO | pipeline.loaded.load_postresql | Loaded 1 location record(s)into 'locations'.
+2026-10-09 10:20:04,787 | INFO | pipeline.loaded.load_postresql | Loaded 19 row(s) into legacy table 'weather_observations'.
+2026-10-09 10:20:05,137 | INFO | pipeline.loaded.load_postresql | Loaded 1 location record(s)into 'locations'.
+2026-10-09 10:20:05,385 | INFO | pipeline.loaded.load_postresql | Loaded 21 row(s) into legacy table 'weather_observations'.
+2026-10-09 10:20:05,696 | INFO | pipeline.loaded.load_postresql | Loaded 1 location record(s)into 'locations'.
+2026-10-09 10:20:05,990 | INFO | pipeline.loaded.load_postresql | Loaded 23 row(s) into legacy table 'weather_observations'.
+2026-10-09 10:20:06,337 | INFO | pipeline.loaded.load_postresql | Loaded 1 location record(s)into 'locations'.
+2026-10-09 10:20:06,647 | INFO | pipeline.loaded.load_postresql | Loaded 22 row(s) into legacy table 'weather_observations'.
+2026-10-09 10:20:06,985 | INFO | pipeline.loaded.load_postresql | Loaded 1 location record(s)into 'locations'.
+2026-10-09 10:20:07,260 | INFO | pipeline.loaded.load_postresql | Loaded 21 row(s) into legacy table 'weather_observations'.
+2026-10-09 10:20:07,631 | INFO | pipeline.loaded.load_postresql | Loaded 1 location record(s)into 'locations'.
+2026-10-09 10:20:07,891 | INFO | pipeline.loaded.load_postresql | Loaded 21 row(s) into legacy table 'weather_observations'.
+2026-10-09 10:20:08,240 | INFO | pipeline.loaded.load_postresql | Loaded 1 location record(s)into 'locations'.
+2026-10-09 10:20:08,587 | INFO | pipeline.loaded.load_postresql | Loaded 20 row(s) into legacy table 'weather_observations'.
+2026-10-09 10:20:09,020 | INFO | pipeline.loaded.load_postresql | Loaded 1 location record(s)into 'locations'.
+2026-10-09 10:20:09,276 | INFO | pipeline.loaded.load_postresql | Loaded 23 row(s) into legacy table 'weather_observations'.
+2026-10-09 10:20:38,413 | INFO | pipeline.loaded.load_postresql | Loaded 1 location record(s)into 'locations'.
+2026-10-09 10:20:38,771 | INFO | pipeline.loaded.load_postresql | Loaded 1 location record(s)into 'locations'.
+2026-10-09 10:20:39,059 | INFO | pipeline.loaded.load_postresql | Loaded 1 location record(s)into 'locations'.
+2026-10-09 10:20:39,346 | INFO | pipeline.loaded.load_postresql | Loaded 1 location record(s)into 'locations'.
+2026-10-09 10:20:39,588 | INFO | pipeline.loaded.load_postresql | Loaded 1 location record(s)into 'locations'.
+2026-10-09 10:20:39,852 | INFO | pipeline.loaded.load_postresql | Loaded 1 location record(s)into 'locations'.
+2026-10-09 10:20:40,259 | INFO | pipeline.loaded.load_postresql | Loaded 1 location record(s)into 'locations'.
+2026-10-09 10:20:40,527 | INFO | pipeline.loaded.load_postresql | Loaded 1 location record(s)into 'locations'.
+2026-10-09 18:21:23,195 | INFO | pipeline.loaded.load_postresql | Loaded 1 row(s) into legacy table 'openweather_manila'.
+2026-10-09 18:21:23,731 | INFO | pipeline.loaded.load_postresql | Loaded 2 row(s) into legacy table 'openweather_all'.
+2026-10-09 18:21:23,748 | INFO | pipeline.loaded.load_postresql | Loaded 1 row(s) into legacy table 'openweather_manila'.
+2026-10-09 18:21:23,753 | INFO | pipeline.loaded.load_postresql | Loaded 1 row(s) into legacy table 'openweather_manila'.
+2026-10-09 18:21:23,776 | INFO | pipeline.loaded.load_postresql | Loaded 1 row(s) into legacy table 'openweather_manila'.
+2026-10-09 18:21:23,792 | INFO | pipeline.loaded.load_postresql | Loaded 1 row(s) into legacy table 'openweather_manila'.
+2026-10-09 18:21:23,840 | INFO | pipeline.loaded.load_postresql | Loaded 1 row(s) into legacy table 'openweather_manila'.
+2026-10-09 18:21:23,847 | INFO | pipeline.loaded.load_postresql | Loaded 1 row(s) into legacy table 'openweather_manila'.
+2026-10-09 18:21:23,859 | INFO | pipeline.loaded.load_postresql | Loaded 1 row(s) into legacy table 'weather_observations'.
+2026-10-09 18:21:23,864 | INFO | pipeline.loaded.load_postresql | Loaded 1 row(s) into legacy table 'weather_observations'.
+2026-10-09 18:21:23,883 | INFO | pipeline.loaded.load_postresql | Loaded 1 row(s) into legacy table 'openweather_manila'.
+2026-10-09 18:21:23,911 | WARNING | pipeline.loaded.load_postresql | No data to load into legacy table 'openweather_manila'.
+2026-10-09 18:21:23,941 | INFO | pipeline.loaded.load_postresql | Loaded 1 row(s) into legacy table 'openweather_manila'.
+2026-10-09 18:21:23,958 | INFO | pipeline.loaded.load_postresql | Loaded 1 row(s) into legacy table 'city_alias_table'.
+2026-10-09 18:21:24,011 | ERROR | pipeline.loaded.load_postresql | PostgreSQL is not reachable at weatherflow@localhost:5432/weatherflow: (psycopg2.OperationalError) connection to server at "127.0.0.1", port 1 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections?
+
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2026-10-09 18:21:24,022 | ERROR | pipeline.loaded.load_postresql | PostgreSQL is not reachable at weatherflow@localhost:5432/weatherflow: (psycopg2.OperationalError) connection to server at "127.0.0.1", port 1 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections?
+
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2026-10-09 10:26:47,366 | INFO | pipeline.loaded.load_postresql | Loaded 1 row(s) into legacy table 'geocoding_manila'.
+2026-10-09 10:26:47,660 | INFO | pipeline.loaded.load_postresql | Loaded 1 row(s) into legacy table 'geocoding_quezon_city'.
+2026-10-09 10:26:48,004 | INFO | pipeline.loaded.load_postresql | Loaded 1 row(s) into legacy table 'geocoding_cebu_city'.
+2026-10-09 10:26:48,256 | INFO | pipeline.loaded.load_postresql | Loaded 24 row(s) into legacy table 'openweather_cebu_city'.
+2026-10-09 10:26:48,612 | INFO | pipeline.loaded.load_postresql | Loaded 1 row(s) into legacy table 'geocoding_davao_city'.
+2026-10-09 10:26:48,981 | INFO | pipeline.loaded.load_postresql | Loaded 1 row(s) into legacy table 'geocoding_baguio'.
+2026-10-09 10:26:49,317 | INFO | pipeline.loaded.load_postresql | Loaded 1 row(s) into legacy table 'geocoding_iloilo_city'.
+2026-10-09 10:26:49,597 | INFO | pipeline.loaded.load_postresql | Loaded 1 row(s) into legacy table 'geocoding_cagayan_de_oro'.
+2026-10-09 10:26:49,961 | INFO | pipeline.loaded.load_postresql | Loaded 1 row(s) into legacy table 'geocoding_zamboanga_city'.
+2026-10-09 10:27:10,093 | INFO | pipeline.loaded.load_postresql | Loaded 1 row(s) into legacy table 'geocoding_manila'.
+2026-10-09 10:27:10,546 | INFO | pipeline.loaded.load_postresql | Loaded 1 row(s) into legacy table 'geocoding_quezon_city'.
+2026-10-09 10:27:10,902 | INFO | pipeline.loaded.load_postresql | Loaded 1 row(s) into legacy table 'geocoding_cebu_city'.
+2026-10-09 10:27:11,277 | INFO | pipeline.loaded.load_postresql | Loaded 1 row(s) into legacy table 'geocoding_davao_city'.
+2026-10-09 10:27:11,865 | INFO | pipeline.loaded.load_postresql | Loaded 1 row(s) into legacy table 'geocoding_baguio'.
+2026-10-09 10:27:12,170 | INFO | pipeline.loaded.load_postresql | Loaded 22 row(s) into legacy table 'openweather_baguio'.
+2026-10-09 10:27:12,693 | INFO | pipeline.loaded.load_postresql | Loaded 1 row(s) into legacy table 'geocoding_iloilo_city'.
+2026-10-09 10:27:13,017 | INFO | pipeline.loaded.load_postresql | Loaded 22 row(s) into legacy table 'openweather_iloilo_city'.
+2026-10-09 10:27:13,603 | INFO | pipeline.loaded.load_postresql | Loaded 1 row(s) into legacy table 'geocoding_cagayan_de_oro'.
+2026-10-09 10:27:14,102 | INFO | pipeline.loaded.load_postresql | Loaded 1 row(s) into legacy table 'geocoding_zamboanga_city'.
+2026-10-09 10:34:30,513 | INFO | pipeline.loaded.load_postresql | Loaded 1 row(s) into legacy table 'geocoding_manila'.
+2026-10-09 10:34:31,214 | INFO | pipeline.loaded.load_postresql | Loaded 20 row(s) into legacy table 'openweather_manila'.
+2026-10-09 10:34:31,566 | INFO | pipeline.loaded.load_postresql | Loaded 1 row(s) into legacy table 'geocoding_quezon_city'.
+2026-10-09 10:34:31,948 | INFO | pipeline.loaded.load_postresql | Loaded 22 row(s) into legacy table 'openweather_quezon_city'.
+2026-10-09 10:34:32,344 | INFO | pipeline.loaded.load_postresql | Loaded 1 row(s) into legacy table 'geocoding_cebu_city'.
+2026-10-09 10:34:32,643 | INFO | pipeline.loaded.load_postresql | Loaded 25 row(s) into legacy table 'openweather_cebu_city'.
+2026-10-09 10:34:32,957 | INFO | pipeline.loaded.load_postresql | Loaded 1 row(s) into legacy table 'geocoding_davao_city'.
+2026-10-09 10:34:33,258 | INFO | pipeline.loaded.load_postresql | Loaded 23 row(s) into legacy table 'openweather_davao_city'.
+2026-10-09 10:34:33,677 | INFO | pipeline.loaded.load_postresql | Loaded 1 row(s) into legacy table 'geocoding_baguio'.
+2026-10-09 10:34:34,011 | INFO | pipeline.loaded.load_postresql | Loaded 22 row(s) into legacy table 'openweather_baguio'.
+2026-10-09 10:34:34,411 | INFO | pipeline.loaded.load_postresql | Loaded 1 row(s) into legacy table 'geocoding_iloilo_city'.
+2026-10-09 10:34:34,772 | INFO | pipeline.loaded.load_postresql | Loaded 22 row(s) into legacy table 'openweather_iloilo_city'.
+2026-10-09 10:34:35,374 | INFO | pipeline.loaded.load_postresql | Loaded 1 row(s) into legacy table 'geocoding_cagayan_de_oro'.
+2026-10-09 10:34:35,673 | INFO | pipeline.loaded.load_postresql | Loaded 21 row(s) into legacy table 'openweather_cagayan_de_oro'.
+2026-10-09 10:34:36,039 | INFO | pipeline.loaded.load_postresql | Loaded 1 row(s) into legacy table 'geocoding_zamboanga_city'.
+2026-10-09 10:34:36,303 | INFO | pipeline.loaded.load_postresql | Loaded 24 row(s) into legacy table 'openweather_zamboanga_city'.
+2026-10-09 10:34:49,450 | INFO | pipeline.loaded.load_postresql | Loaded 1 row(s) into legacy table 'geocoding_manila'.
+2026-10-09 10:34:49,853 | INFO | pipeline.loaded.load_postresql | Loaded 1 row(s) into legacy table 'geocoding_quezon_city'.
+2026-10-09 10:34:50,174 | INFO | pipeline.loaded.load_postresql | Loaded 1 row(s) into legacy table 'geocoding_cebu_city'.
+2026-10-09 10:34:50,547 | INFO | pipeline.loaded.load_postresql | Loaded 1 row(s) into legacy table 'geocoding_davao_city'.
+2026-10-09 10:34:50,938 | INFO | pipeline.loaded.load_postresql | Loaded 1 row(s) into legacy table 'geocoding_baguio'.
+2026-10-09 10:34:51,274 | INFO | pipeline.loaded.load_postresql | Loaded 1 row(s) into legacy table 'geocoding_iloilo_city'.
+2026-10-09 10:34:51,603 | INFO | pipeline.loaded.load_postresql | Loaded 1 row(s) into legacy table 'geocoding_cagayan_de_oro'.
+2026-10-09 10:34:51,986 | INFO | pipeline.loaded.load_postresql | Loaded 1 row(s) into legacy table 'geocoding_zamboanga_city'.

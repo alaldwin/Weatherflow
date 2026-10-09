@@ -61,24 +61,7 @@ docker compose --profile localdb run --rm -e POSTGRES_HOST=db app
    **View/Edit Data → All Rows**.
 4. Or use the Query Tool (**Tools → Query Tool**) with the same connection:
 
-```sql
-SELECT city, temperature, humidity, weather_description
-FROM   openweather_manila;
-```
 
-Connection settings for any client (pgAdmin, DBeaver, VS Code, DataGrip):
-
-| Setting | Value |
-| --- | --- |
-| Host | `localhost` |
-| Port | `5432` (`POSTGRES_PORT` in `.env`) |
-| Database | `weatherflow` |
-| Username | `postgres` |
-| Password | `POSTGRES_PASSWORD` from `.env` |
-
-CLI alternatives (no pgAdmin needed):
-
-```bash
 # table + row count summary, plus an optional ad-hoc query
 docker compose run --rm --no-deps app python -m scripts.inspect_data
 docker compose run --rm --no-deps app python -m scripts.inspect_data \
