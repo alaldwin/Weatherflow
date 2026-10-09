@@ -11,7 +11,7 @@ load_dotenv()
 logger = get_logger(__name__, "extract_api.log")
 
 OPENWEATHER_API_KEY = os.getenv("OPENWEATHER_API_KEY")
-
+ 
 
 def extract_openweather_data(latitude, longitude, city=None):
     """Extract current weather data from the OpenWeatherMap API."""

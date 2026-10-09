@@ -1,0 +1,1219 @@
+2026-09-18 13:40:53,897 | INFO | pipeline.transformation.weather_transform | Transformed OpenWeather data for city: Manila
+2026-09-18 13:40:54,035 | INFO | pipeline.transformation.weather_transform | Transformed WeatherAPI data for city: Ermita
+2026-09-18 13:40:54,546 | INFO | pipeline.transformation.weather_transform | Transformed OpenWeather data for city: Quezon City
+2026-09-18 13:40:54,604 | INFO | pipeline.transformation.weather_transform | Transformed WeatherAPI data for city: Tandang Sora
+2026-09-18 13:40:55,121 | INFO | pipeline.transformation.weather_transform | Transformed OpenWeather data for city: Cebu City
+2026-09-18 13:40:55,184 | INFO | pipeline.transformation.weather_transform | Transformed WeatherAPI data for city: Baugo
+2026-09-18 13:40:55,714 | INFO | pipeline.transformation.weather_transform | Transformed OpenWeather data for city: Davao City
+2026-09-18 13:40:55,789 | INFO | pipeline.transformation.weather_transform | Transformed WeatherAPI data for city: Calinan
+2026-09-18 13:40:56,391 | INFO | pipeline.transformation.weather_transform | Transformed OpenWeather data for city: Baguio City
+2026-09-18 13:40:56,468 | INFO | pipeline.transformation.weather_transform | Transformed WeatherAPI data for city: Baguio
+2026-09-18 13:40:57,029 | INFO | pipeline.transformation.weather_transform | Transformed OpenWeather data for city: Iloilo City
+2026-09-18 13:40:57,125 | INFO | pipeline.transformation.weather_transform | Transformed WeatherAPI data for city: Babuy
+2026-09-18 13:40:57,749 | INFO | pipeline.transformation.weather_transform | Transformed OpenWeather data for city: Cagayan de Oro
+2026-09-18 13:40:57,913 | INFO | pipeline.transformation.weather_transform | Transformed WeatherAPI data for city: Balulang
+2026-09-18 13:40:58,549 | INFO | pipeline.transformation.weather_transform | Transformed OpenWeather data for city: Zamboanga City
+2026-09-18 13:40:58,630 | INFO | pipeline.transformation.weather_transform | Transformed WeatherAPI data for city: Canelar
+2026-09-18 13:42:05,928 | INFO | pipeline.transformation.weather_transform | Transformed OpenWeather data for city: Manila
+2026-09-18 13:42:06,094 | INFO | pipeline.transformation.weather_transform | Transformed WeatherAPI data for city: Ermita
+2026-09-18 13:42:06,504 | INFO | pipeline.transformation.weather_transform | Transformed OpenWeather data for city: Quezon City
+2026-09-18 13:42:06,637 | INFO | pipeline.transformation.weather_transform | Transformed WeatherAPI data for city: Tandang Sora
+2026-09-18 13:42:06,985 | INFO | pipeline.transformation.weather_transform | Transformed OpenWeather data for city: Cebu City
+2026-09-18 13:42:07,068 | INFO | pipeline.transformation.weather_transform | Transformed WeatherAPI data for city: Baugo
+2026-09-18 13:42:07,569 | INFO | pipeline.transformation.weather_transform | Transformed OpenWeather data for city: Davao City
+2026-09-18 13:42:07,655 | INFO | pipeline.transformation.weather_transform | Transformed WeatherAPI data for city: Calinan
+2026-09-18 13:42:08,154 | INFO | pipeline.transformation.weather_transform | Transformed OpenWeather data for city: Baguio City
+2026-09-18 13:42:08,265 | INFO | pipeline.transformation.weather_transform | Transformed WeatherAPI data for city: Baguio
+2026-09-18 13:42:08,642 | INFO | pipeline.transformation.weather_transform | Transformed OpenWeather data for city: Iloilo City
+2026-09-18 13:42:08,719 | INFO | pipeline.transformation.weather_transform | Transformed WeatherAPI data for city: Babuy
+2026-09-18 13:42:09,095 | INFO | pipeline.transformation.weather_transform | Transformed OpenWeather data for city: Cagayan de Oro
+2026-09-18 13:42:09,200 | INFO | pipeline.transformation.weather_transform | Transformed WeatherAPI data for city: Balulang
+2026-09-18 13:42:09,555 | INFO | pipeline.transformation.weather_transform | Transformed OpenWeather data for city: Zamboanga City
+2026-09-18 13:42:09,621 | INFO | pipeline.transformation.weather_transform | Transformed WeatherAPI data for city: Canelar
+2026-09-18 13:44:48,388 | INFO | pipeline.transformation.weather_transform | Transformed OpenWeather data for city: Manila
+2026-09-18 13:44:48,558 | INFO | pipeline.transformation.weather_transform | Transformed WeatherAPI data for city: Kiyabo
+2026-09-18 13:44:49,086 | INFO | pipeline.transformation.weather_transform | Transformed OpenWeather data for city: Quezon City
+2026-09-18 13:44:49,147 | INFO | pipeline.transformation.weather_transform | Transformed WeatherAPI data for city: Tandang Sora
+2026-09-18 13:44:49,666 | INFO | pipeline.transformation.weather_transform | Transformed OpenWeather data for city: Cebu City
+2026-09-18 13:44:49,755 | INFO | pipeline.transformation.weather_transform | Transformed WeatherAPI data for city: Cebu
+2026-09-18 13:44:50,312 | INFO | pipeline.transformation.weather_transform | Transformed OpenWeather data for city: Davao City
+2026-09-18 13:44:50,392 | INFO | pipeline.transformation.weather_transform | Transformed WeatherAPI data for city: Calinan
+2026-09-18 13:44:50,960 | INFO | pipeline.transformation.weather_transform | Transformed OpenWeather data for city: Baguio City
+2026-09-18 13:44:51,057 | INFO | pipeline.transformation.weather_transform | Transformed WeatherAPI data for city: Baguio
+2026-09-18 13:44:51,609 | INFO | pipeline.transformation.weather_transform | Transformed OpenWeather data for city: Iloilo City
+2026-09-18 13:44:51,697 | INFO | pipeline.transformation.weather_transform | Transformed WeatherAPI data for city: Babuy
+2026-09-18 13:44:52,197 | INFO | pipeline.transformation.weather_transform | Transformed OpenWeather data for city: Cagayan de Oro
+2026-09-18 13:44:52,256 | INFO | pipeline.transformation.weather_transform | Transformed WeatherAPI data for city: Balulang
+2026-09-18 13:44:52,809 | INFO | pipeline.transformation.weather_transform | Transformed OpenWeather data for city: Zamboanga City
+2026-09-18 13:44:52,928 | INFO | pipeline.transformation.weather_transform | Transformed WeatherAPI data for city: Canelar
+2026-09-18 13:45:39,175 | INFO | pipeline.transformation.weather_transform | Transformed OpenWeather data for city: Manila
+2026-09-18 13:45:39,316 | INFO | pipeline.transformation.weather_transform | Transformed WeatherAPI data for city: Kiyabo
+2026-09-18 13:45:39,719 | INFO | pipeline.transformation.weather_transform | Transformed OpenWeather data for city: Quezon City
+2026-09-18 13:45:39,846 | INFO | pipeline.transformation.weather_transform | Transformed WeatherAPI data for city: Tandang Sora
+2026-09-18 13:45:40,330 | INFO | pipeline.transformation.weather_transform | Transformed OpenWeather data for city: Cebu City
+2026-09-18 13:45:40,444 | INFO | pipeline.transformation.weather_transform | Transformed WeatherAPI data for city: Cebu
+2026-09-18 13:45:40,798 | INFO | pipeline.transformation.weather_transform | Transformed OpenWeather data for city: Davao City
+2026-09-18 13:45:40,891 | INFO | pipeline.transformation.weather_transform | Transformed WeatherAPI data for city: Calinan
+2026-09-18 13:45:41,386 | INFO | pipeline.transformation.weather_transform | Transformed OpenWeather data for city: Baguio City
+2026-09-18 13:45:41,461 | INFO | pipeline.transformation.weather_transform | Transformed WeatherAPI data for city: Baguio
+2026-09-18 13:45:41,847 | INFO | pipeline.transformation.weather_transform | Transformed OpenWeather data for city: Iloilo City
+2026-09-18 13:45:41,943 | INFO | pipeline.transformation.weather_transform | Transformed WeatherAPI data for city: Babuy
+2026-09-18 13:45:42,449 | INFO | pipeline.transformation.weather_transform | Transformed OpenWeather data for city: Cagayan de Oro
+2026-09-18 13:45:42,521 | INFO | pipeline.transformation.weather_transform | Transformed WeatherAPI data for city: Balulang
+2026-09-18 13:45:42,919 | INFO | pipeline.transformation.weather_transform | Transformed OpenWeather data for city: Zamboanga City
+2026-09-18 13:45:43,057 | INFO | pipeline.transformation.weather_transform | Transformed WeatherAPI data for city: Canelar
+2026-09-18 13:47:04,793 | INFO | pipeline.transformation.weather_transform | Transformed OpenWeather data for city: Manila
+2026-09-18 13:47:04,950 | INFO | pipeline.transformation.weather_transform | Transformed WeatherAPI data for city: Kiyabo
+2026-09-18 13:47:05,395 | INFO | pipeline.transformation.weather_transform | Transformed OpenWeather data for city: Quezon City
+2026-09-18 13:47:05,505 | INFO | pipeline.transformation.weather_transform | Transformed WeatherAPI data for city: Tandang Sora
+2026-09-18 13:47:05,877 | INFO | pipeline.transformation.weather_transform | Transformed OpenWeather data for city: Cebu City
+2026-09-18 13:47:05,937 | INFO | pipeline.transformation.weather_transform | Transformed WeatherAPI data for city: Cebu
+2026-09-18 13:47:06,250 | INFO | pipeline.transformation.weather_transform | Transformed OpenWeather data for city: Davao City
+2026-09-18 13:47:06,355 | INFO | pipeline.transformation.weather_transform | Transformed WeatherAPI data for city: Calinan
+2026-09-18 13:47:06,763 | INFO | pipeline.transformation.weather_transform | Transformed OpenWeather data for city: Baguio City
+2026-09-18 13:47:06,863 | INFO | pipeline.transformation.weather_transform | Transformed WeatherAPI data for city: Baguio
+2026-09-18 13:47:07,217 | INFO | pipeline.transformation.weather_transform | Transformed OpenWeather data for city: Iloilo City
+2026-09-18 13:47:07,324 | INFO | pipeline.transformation.weather_transform | Transformed WeatherAPI data for city: Babuy
+2026-09-18 13:47:07,727 | INFO | pipeline.transformation.weather_transform | Transformed OpenWeather data for city: Cagayan de Oro
+2026-09-18 13:47:07,833 | INFO | pipeline.transformation.weather_transform | Transformed WeatherAPI data for city: Balulang
+2026-09-18 13:47:08,300 | INFO | pipeline.transformation.weather_transform | Transformed OpenWeather data for city: Zamboanga City
+2026-09-18 13:47:08,362 | INFO | pipeline.transformation.weather_transform | Transformed WeatherAPI data for city: Canelar
+2026-09-18 14:08:41,261 | INFO | pipeline.transformation.weather_transform | Transformed OpenWeather data for city: Manila
+2026-09-18 14:08:41,545 | INFO | pipeline.transformation.weather_transform | Transformed WeatherAPI data for city: Manila
+2026-09-18 14:08:42,178 | INFO | pipeline.transformation.weather_transform | Transformed OpenWeather data for city: Quezon City
+2026-09-18 14:08:42,276 | INFO | pipeline.transformation.weather_transform | Transformed WeatherAPI data for city: Tandang Sora
+2026-09-18 14:08:42,899 | INFO | pipeline.transformation.weather_transform | Transformed OpenWeather data for city: Cebu City
+2026-09-18 14:08:43,081 | INFO | pipeline.transformation.weather_transform | Transformed WeatherAPI data for city: Baugo
+2026-09-18 14:08:43,689 | INFO | pipeline.transformation.weather_transform | Transformed OpenWeather data for city: Davao City
+2026-09-18 14:08:43,885 | INFO | pipeline.transformation.weather_transform | Transformed WeatherAPI data for city: Calinan
+2026-09-18 14:08:44,682 | INFO | pipeline.transformation.weather_transform | Transformed OpenWeather data for city: Baguio City
+2026-09-18 14:08:44,780 | INFO | pipeline.transformation.weather_transform | Transformed WeatherAPI data for city: Baguio
+2026-09-18 14:08:45,361 | INFO | pipeline.transformation.weather_transform | Transformed OpenWeather data for city: Iloilo City
+2026-09-18 14:08:45,498 | INFO | pipeline.transformation.weather_transform | Transformed WeatherAPI data for city: Babuy
+2026-09-18 14:08:46,115 | INFO | pipeline.transformation.weather_transform | Transformed OpenWeather data for city: Cagayan de Oro
+2026-09-18 14:08:46,224 | INFO | pipeline.transformation.weather_transform | Transformed WeatherAPI data for city: Balulang
+2026-09-18 14:08:46,785 | INFO | pipeline.transformation.weather_transform | Transformed OpenWeather data for city: Zamboanga City
+2026-09-18 14:08:46,908 | INFO | pipeline.transformation.weather_transform | Transformed WeatherAPI data for city: Canelar
+2026-09-19 04:17:36,894 | INFO | pipeline.transformation.weather_transform | Transformed OpenWeather data for city: Manila
+2026-09-19 04:17:38,074 | INFO | pipeline.transformation.weather_transform | Transformed WeatherAPI data for city: Kiyabo
+2026-09-19 04:17:39,122 | INFO | pipeline.transformation.weather_transform | Transformed OpenWeather data for city: Quezon City
+2026-09-19 04:17:39,596 | INFO | pipeline.transformation.weather_transform | Transformed WeatherAPI data for city: Tandang Sora
+2026-09-19 04:17:40,791 | INFO | pipeline.transformation.weather_transform | Transformed OpenWeather data for city: Cebu City
+2026-09-19 04:17:41,141 | INFO | pipeline.transformation.weather_transform | Transformed WeatherAPI data for city: Cebu
+2026-09-19 04:17:42,074 | INFO | pipeline.transformation.weather_transform | Transformed OpenWeather data for city: Davao City
+2026-09-19 04:17:42,375 | INFO | pipeline.transformation.weather_transform | Transformed WeatherAPI data for city: Calinan
+2026-09-19 04:17:43,241 | INFO | pipeline.transformation.weather_transform | Transformed OpenWeather data for city: Baguio City
+2026-09-19 04:17:43,758 | INFO | pipeline.transformation.weather_transform | Transformed WeatherAPI data for city: Baguio
+2026-09-19 04:17:45,090 | INFO | pipeline.transformation.weather_transform | Transformed OpenWeather data for city: Iloilo City
+2026-09-19 04:17:45,598 | INFO | pipeline.transformation.weather_transform | Transformed WeatherAPI data for city: Iloilo
+2026-09-19 04:17:46,752 | INFO | pipeline.transformation.weather_transform | Transformed OpenWeather data for city: Cagayan de Oro
+2026-09-19 04:17:47,082 | INFO | pipeline.transformation.weather_transform | Transformed WeatherAPI data for city: Balulang
+2026-09-19 04:17:47,892 | INFO | pipeline.transformation.weather_transform | Transformed OpenWeather data for city: Zamboanga City
+2026-09-19 04:17:48,191 | INFO | pipeline.transformation.weather_transform | Transformed WeatherAPI data for city: Canelar
+2026-09-19 04:35:34,098 | INFO | pipeline.transformation.weather_transform | Transformed OpenWeather data for city: Manila
+2026-09-19 04:35:34,696 | INFO | pipeline.transformation.weather_transform | Transformed WeatherAPI data for city: Obrero
+2026-09-19 04:35:35,538 | INFO | pipeline.transformation.weather_transform | Transformed OpenWeather data for city: Quezon City
+2026-09-19 04:35:35,814 | INFO | pipeline.transformation.weather_transform | Transformed WeatherAPI data for city: Tandang Sora
+2026-09-19 04:35:36,821 | INFO | pipeline.transformation.weather_transform | Transformed OpenWeather data for city: Cebu City
+2026-09-19 04:35:37,086 | INFO | pipeline.transformation.weather_transform | Transformed WeatherAPI data for city: Cebu
+2026-09-19 04:35:37,848 | INFO | pipeline.transformation.weather_transform | Transformed OpenWeather data for city: Davao City
+2026-09-19 04:35:38,208 | INFO | pipeline.transformation.weather_transform | Transformed WeatherAPI data for city: Lacson
+2026-09-19 04:35:39,080 | INFO | pipeline.transformation.weather_transform | Transformed OpenWeather data for city: Baguio City
+2026-09-19 04:35:39,312 | INFO | pipeline.transformation.weather_transform | Transformed WeatherAPI data for city: Baguio
+2026-09-19 04:35:40,078 | INFO | pipeline.transformation.weather_transform | Transformed OpenWeather data for city: Iloilo City
+2026-09-19 04:35:40,267 | INFO | pipeline.transformation.weather_transform | Transformed WeatherAPI data for city: Babuy
+2026-09-19 04:35:41,136 | INFO | pipeline.transformation.weather_transform | Transformed OpenWeather data for city: Cagayan de Oro
+2026-09-19 04:35:41,286 | INFO | pipeline.transformation.weather_transform | Transformed WeatherAPI data for city: Balulang
+2026-09-19 04:35:41,935 | INFO | pipeline.transformation.weather_transform | Transformed OpenWeather data for city: Zamboanga City
+2026-09-19 04:35:42,153 | INFO | pipeline.transformation.weather_transform | Transformed WeatherAPI data for city: Canelar
+2026-09-19 04:40:10,666 | INFO | pipeline.transformation.weather_transform | Transformed OpenWeather data for city: Manila
+2026-09-19 04:40:11,102 | INFO | pipeline.transformation.weather_transform | Transformed WeatherAPI data for city: San Miguel
+2026-09-19 04:40:12,110 | INFO | pipeline.transformation.weather_transform | Transformed OpenWeather data for city: Quezon City
+2026-09-19 04:40:12,473 | INFO | pipeline.transformation.weather_transform | Transformed WeatherAPI data for city: Tandang Sora
+2026-09-19 04:40:13,139 | INFO | pipeline.transformation.weather_transform | Transformed OpenWeather data for city: Cebu City
+2026-09-19 04:40:13,542 | INFO | pipeline.transformation.weather_transform | Transformed WeatherAPI data for city: Cebu
+2026-09-19 04:40:14,587 | INFO | pipeline.transformation.weather_transform | Transformed OpenWeather data for city: Davao City
+2026-09-19 04:40:14,761 | INFO | pipeline.transformation.weather_transform | Transformed WeatherAPI data for city: Calinan
+2026-09-19 04:40:15,610 | INFO | pipeline.transformation.weather_transform | Transformed OpenWeather data for city: Baguio City
+2026-09-19 04:40:15,906 | INFO | pipeline.transformation.weather_transform | Transformed WeatherAPI data for city: Baguio
+2026-09-19 04:40:16,854 | INFO | pipeline.transformation.weather_transform | Transformed OpenWeather data for city: Iloilo City
+2026-09-19 04:40:17,035 | INFO | pipeline.transformation.weather_transform | Transformed WeatherAPI data for city: Babuy
+2026-09-19 04:40:17,813 | INFO | pipeline.transformation.weather_transform | Transformed OpenWeather data for city: Cagayan de Oro
+2026-09-19 04:40:17,992 | INFO | pipeline.transformation.weather_transform | Transformed WeatherAPI data for city: Balulang
+2026-09-19 04:40:18,717 | INFO | pipeline.transformation.weather_transform | Transformed OpenWeather data for city: Zamboanga City
+2026-09-19 04:40:18,929 | INFO | pipeline.transformation.weather_transform | Transformed WeatherAPI data for city: Canelar
+2026-09-19 13:07:08,375 | INFO | pipeline.transformation.weather_transform | Transformed OpenWeather data for city: Manila
+2026-09-19 13:08:20,543 | INFO | pipeline.transformation.weather_transform | Transformed OpenWeather data for city: Manila
+2026-09-19 13:08:21,476 | INFO | pipeline.transformation.weather_transform | Transformed WeatherAPI data for city: Kiyabo
+2026-09-19 13:08:23,458 | INFO | pipeline.transformation.weather_transform | Transformed OpenWeather data for city: Quezon City
+2026-09-19 13:08:23,680 | INFO | pipeline.transformation.weather_transform | Transformed WeatherAPI data for city: Tandang Sora
+2026-09-19 13:08:25,615 | INFO | pipeline.transformation.weather_transform | Transformed OpenWeather data for city: Cebu City
+2026-09-19 13:08:25,973 | INFO | pipeline.transformation.weather_transform | Transformed WeatherAPI data for city: Cebu
+2026-09-19 13:08:27,968 | INFO | pipeline.transformation.weather_transform | Transformed OpenWeather data for city: Davao City
+2026-09-19 13:08:28,265 | INFO | pipeline.transformation.weather_transform | Transformed WeatherAPI data for city: Calinan
+2026-09-19 13:08:30,110 | INFO | pipeline.transformation.weather_transform | Transformed OpenWeather data for city: Baguio City
+2026-09-19 13:08:30,467 | INFO | pipeline.transformation.weather_transform | Transformed WeatherAPI data for city: Baguio
+2026-09-19 13:08:33,046 | INFO | pipeline.transformation.weather_transform | Transformed OpenWeather data for city: Iloilo City
+2026-09-19 13:08:33,379 | INFO | pipeline.transformation.weather_transform | Transformed WeatherAPI data for city: Babuy
+2026-09-19 13:08:34,864 | INFO | pipeline.transformation.weather_transform | Transformed OpenWeather data for city: Cagayan de Oro
+2026-09-19 13:08:35,168 | INFO | pipeline.transformation.weather_transform | Transformed WeatherAPI data for city: Balulang
+2026-09-19 13:08:36,649 | INFO | pipeline.transformation.weather_transform | Transformed OpenWeather data for city: Zamboanga City
+2026-09-19 13:08:36,906 | INFO | pipeline.transformation.weather_transform | Transformed WeatherAPI data for city: Canelar
+2026-09-19 05:10:29,771 | INFO | pipeline.transformation.weather_transform | Transformed OpenWeather data for city: Manila
+2026-09-19 05:10:30,389 | INFO | pipeline.transformation.weather_transform | Transformed WeatherAPI data for city: Kiyabo
+2026-09-19 05:10:31,013 | INFO | pipeline.transformation.weather_transform | Transformed OpenWeather data for city: Quezon City
+2026-09-19 05:10:31,379 | INFO | pipeline.transformation.weather_transform | Transformed WeatherAPI data for city: Tandang Sora
+2026-09-19 05:10:32,064 | INFO | pipeline.transformation.weather_transform | Transformed OpenWeather data for city: Cebu City
+2026-09-19 05:10:32,397 | INFO | pipeline.transformation.weather_transform | Transformed WeatherAPI data for city: Cebu
+2026-09-19 05:10:33,097 | INFO | pipeline.transformation.weather_transform | Transformed OpenWeather data for city: Davao City
+2026-09-19 05:10:33,445 | INFO | pipeline.transformation.weather_transform | Transformed WeatherAPI data for city: Calinan
+2026-09-19 05:10:34,130 | INFO | pipeline.transformation.weather_transform | Transformed OpenWeather data for city: Baguio City
+2026-09-19 05:10:34,348 | INFO | pipeline.transformation.weather_transform | Transformed WeatherAPI data for city: Baguio
+2026-09-19 05:10:34,873 | INFO | pipeline.transformation.weather_transform | Transformed OpenWeather data for city: Iloilo City
+2026-09-19 05:10:35,107 | INFO | pipeline.transformation.weather_transform | Transformed WeatherAPI data for city: Babuy
+2026-09-19 05:10:35,699 | INFO | pipeline.transformation.weather_transform | Transformed OpenWeather data for city: Cagayan de Oro
+2026-09-19 05:10:35,960 | INFO | pipeline.transformation.weather_transform | Transformed WeatherAPI data for city: Balulang
+2026-09-19 05:10:36,634 | INFO | pipeline.transformation.weather_transform | Transformed OpenWeather data for city: Zamboanga City
+2026-09-19 05:10:36,887 | INFO | pipeline.transformation.weather_transform | Transformed WeatherAPI data for city: Canelar
+2026-09-19 13:11:46,689 | INFO | pipeline.transformation.weather_transform | Transformed OpenWeather data for city: Manila
+2026-09-19 13:11:47,097 | INFO | pipeline.transformation.weather_transform | Transformed WeatherAPI data for city: Kiyabo
+2026-09-19 13:11:47,999 | INFO | pipeline.transformation.weather_transform | Transformed OpenWeather data for city: Quezon City
+2026-09-19 13:11:48,152 | INFO | pipeline.transformation.weather_transform | Transformed WeatherAPI data for city: Tandang Sora
+2026-09-19 13:11:48,712 | INFO | pipeline.transformation.weather_transform | Transformed OpenWeather data for city: Manila
+2026-09-19 13:11:49,647 | INFO | pipeline.transformation.weather_transform | Transformed OpenWeather data for city: Cebu City
+2026-09-19 13:11:49,841 | INFO | pipeline.transformation.weather_transform | Transformed WeatherAPI data for city: Cebu
+2026-09-19 13:11:51,029 | INFO | pipeline.transformation.weather_transform | Transformed OpenWeather data for city: Davao City
+2026-09-19 13:11:51,253 | INFO | pipeline.transformation.weather_transform | Transformed WeatherAPI data for city: Calinan
+2026-09-19 13:11:52,380 | INFO | pipeline.transformation.weather_transform | Transformed OpenWeather data for city: Baguio City
+2026-09-19 13:11:52,660 | INFO | pipeline.transformation.weather_transform | Transformed WeatherAPI data for city: Baguio
+2026-09-19 13:11:54,216 | INFO | pipeline.transformation.weather_transform | Transformed OpenWeather data for city: Iloilo City
+2026-09-19 13:11:54,403 | INFO | pipeline.transformation.weather_transform | Transformed WeatherAPI data for city: Babuy
+2026-09-19 13:11:56,288 | INFO | pipeline.transformation.weather_transform | Transformed OpenWeather data for city: Cagayan de Oro
+2026-09-19 13:11:56,498 | INFO | pipeline.transformation.weather_transform | Transformed WeatherAPI data for city: Balulang
+2026-09-19 13:11:57,521 | INFO | pipeline.transformation.weather_transform | Transformed OpenWeather data for city: Zamboanga City
+2026-09-19 13:11:57,805 | INFO | pipeline.transformation.weather_transform | Transformed WeatherAPI data for city: Canelar
+2026-09-19 13:13:27,830 | INFO | pipeline.transformation.weather_transform | Transformed OpenWeather data for city: Manila
+2026-09-19 05:21:04,436 | INFO | pipeline.transformation.weather_transform | Transformed OpenWeather data for city: Manila
+2026-09-19 05:21:04,671 | INFO | pipeline.transformation.weather_transform | Transformed WeatherAPI data for city: Kiyabo
+2026-09-19 05:21:05,383 | INFO | pipeline.transformation.weather_transform | Transformed OpenWeather data for city: Quezon City
+2026-09-19 05:21:05,637 | INFO | pipeline.transformation.weather_transform | Transformed WeatherAPI data for city: Tandang Sora
+2026-09-19 05:21:06,335 | INFO | pipeline.transformation.weather_transform | Transformed OpenWeather data for city: Cebu City
+2026-09-19 05:21:06,493 | INFO | pipeline.transformation.weather_transform | Transformed WeatherAPI data for city: Cebu
+2026-09-19 05:21:07,229 | INFO | pipeline.transformation.weather_transform | Transformed OpenWeather data for city: Davao City
+2026-09-19 05:21:07,392 | INFO | pipeline.transformation.weather_transform | Transformed WeatherAPI data for city: Calinan
+2026-09-19 05:21:08,160 | INFO | pipeline.transformation.weather_transform | Transformed OpenWeather data for city: Baguio City
+2026-09-19 05:21:08,451 | INFO | pipeline.transformation.weather_transform | Transformed WeatherAPI data for city: Baguio
+2026-09-19 05:21:09,254 | INFO | pipeline.transformation.weather_transform | Transformed OpenWeather data for city: Iloilo City
+2026-09-19 05:21:09,445 | INFO | pipeline.transformation.weather_transform | Transformed WeatherAPI data for city: Babuy
+2026-09-19 05:21:10,172 | INFO | pipeline.transformation.weather_transform | Transformed OpenWeather data for city: Cagayan de Oro
+2026-09-19 05:21:10,357 | INFO | pipeline.transformation.weather_transform | Transformed WeatherAPI data for city: Balulang
+2026-09-19 05:21:11,215 | INFO | pipeline.transformation.weather_transform | Transformed OpenWeather data for city: Zamboanga City
+2026-09-19 05:21:11,394 | INFO | pipeline.transformation.weather_transform | Transformed WeatherAPI data for city: Canelar
+2026-09-19 13:26:27,918 | INFO | pipeline.transformation.weather_transform | Transformed OpenWeather data for city: Manila
+2026-09-19 13:26:28,542 | INFO | pipeline.transformation.weather_transform | Transformed WeatherAPI data for city: Batis
+2026-09-19 13:26:30,135 | INFO | pipeline.transformation.weather_transform | Transformed OpenWeather data for city: Quezon City
+2026-09-19 13:26:30,346 | INFO | pipeline.transformation.weather_transform | Transformed WeatherAPI data for city: Tandang Sora
+2026-09-19 13:26:32,111 | INFO | pipeline.transformation.weather_transform | Transformed OpenWeather data for city: Cebu City
+2026-09-19 13:26:32,374 | INFO | pipeline.transformation.weather_transform | Transformed WeatherAPI data for city: Cebu
+2026-09-19 13:26:34,116 | INFO | pipeline.transformation.weather_transform | Transformed OpenWeather data for city: Davao City
+2026-09-19 13:26:34,283 | INFO | pipeline.transformation.weather_transform | Transformed WeatherAPI data for city: Calinan
+2026-09-19 13:26:35,695 | INFO | pipeline.transformation.weather_transform | Transformed OpenWeather data for city: Baguio City
+2026-09-19 13:26:35,942 | INFO | pipeline.transformation.weather_transform | Transformed WeatherAPI data for city: Baguio
+2026-09-19 13:26:37,484 | INFO | pipeline.transformation.weather_transform | Transformed OpenWeather data for city: Iloilo City
+2026-09-19 13:26:37,694 | INFO | pipeline.transformation.weather_transform | Transformed WeatherAPI data for city: Babuy
+2026-09-19 13:26:38,979 | INFO | pipeline.transformation.weather_transform | Transformed OpenWeather data for city: Cagayan de Oro
+2026-09-19 13:26:39,185 | INFO | pipeline.transformation.weather_transform | Transformed WeatherAPI data for city: Balulang
+2026-09-19 13:26:40,407 | INFO | pipeline.transformation.weather_transform | Transformed OpenWeather data for city: Zamboanga City
+2026-09-19 13:26:40,639 | INFO | pipeline.transformation.weather_transform | Transformed WeatherAPI data for city: Canelar
+2026-09-19 13:28:37,227 | INFO | pipeline.transformation.weather_transform | Transformed OpenWeather data for city: Manila
+2026-09-19 13:42:08,763 | INFO | pipeline.transformation.weather_transform | Transformed OpenWeather data for city: Manila
+2026-09-19 05:42:13,669 | INFO | pipeline.transformation.weather_transform | Transformed OpenWeather data for city: Manila
+2026-09-19 05:42:14,125 | INFO | pipeline.transformation.weather_transform | Transformed WeatherAPI data for city: Kiyabo
+2026-09-19 05:42:15,022 | INFO | pipeline.transformation.weather_transform | Transformed OpenWeather data for city: Quezon City
+2026-09-19 05:42:15,413 | INFO | pipeline.transformation.weather_transform | Transformed WeatherAPI data for city: Tandang Sora
+2026-09-19 05:42:16,405 | INFO | pipeline.transformation.weather_transform | Transformed OpenWeather data for city: Cebu City
+2026-09-19 05:42:16,877 | INFO | pipeline.transformation.weather_transform | Transformed WeatherAPI data for city: Cebu
+2026-09-19 05:42:18,071 | INFO | pipeline.transformation.weather_transform | Transformed OpenWeather data for city: Davao City
+2026-09-19 05:42:18,578 | INFO | pipeline.transformation.weather_transform | Transformed WeatherAPI data for city: Calinan
+2026-09-19 05:42:19,713 | INFO | pipeline.transformation.weather_transform | Transformed OpenWeather data for city: Baguio City
+2026-09-19 05:42:20,086 | INFO | pipeline.transformation.weather_transform | Transformed WeatherAPI data for city: Baguio
+2026-09-19 05:42:20,874 | INFO | pipeline.transformation.weather_transform | Transformed OpenWeather data for city: Iloilo City
+2026-09-19 05:42:21,163 | INFO | pipeline.transformation.weather_transform | Transformed WeatherAPI data for city: Bulang
+2026-09-19 05:42:22,076 | INFO | pipeline.transformation.weather_transform | Transformed OpenWeather data for city: Cagayan de Oro
+2026-09-19 05:42:22,500 | INFO | pipeline.transformation.weather_transform | Transformed WeatherAPI data for city: Balulang
+2026-09-19 05:42:23,487 | INFO | pipeline.transformation.weather_transform | Transformed OpenWeather data for city: Zamboanga City
+2026-09-19 05:42:23,880 | INFO | pipeline.transformation.weather_transform | Transformed WeatherAPI data for city: Canelar
+2026-09-19 13:45:56,038 | INFO | pipeline.transformation.weather_transform | Transformed OpenWeather data for city: Manila
+2026-09-19 07:35:55,560 | INFO | pipeline.transformation.weather_transform | Transformed OpenWeather data for city: Manila
+2026-09-19 07:35:56,232 | INFO | pipeline.transformation.weather_transform | Transformed WeatherAPI data for city: Manila
+2026-09-19 07:35:57,012 | INFO | pipeline.transformation.weather_transform | Transformed OpenWeather data for city: Quezon City
+2026-09-19 07:35:57,360 | INFO | pipeline.transformation.weather_transform | Transformed WeatherAPI data for city: Tandang Sora
+2026-09-19 07:35:58,185 | INFO | pipeline.transformation.weather_transform | Transformed OpenWeather data for city: Cebu City
+2026-09-19 07:35:58,554 | INFO | pipeline.transformation.weather_transform | Transformed WeatherAPI data for city: Arrabal
+2026-09-19 07:35:59,344 | INFO | pipeline.transformation.weather_transform | Transformed OpenWeather data for city: Davao City
+2026-09-19 07:35:59,711 | INFO | pipeline.transformation.weather_transform | Transformed WeatherAPI data for city: Calinan
+2026-09-19 07:36:00,542 | INFO | pipeline.transformation.weather_transform | Transformed OpenWeather data for city: Baguio City
+2026-09-19 07:36:00,904 | INFO | pipeline.transformation.weather_transform | Transformed WeatherAPI data for city: Baguio
+2026-09-19 07:36:01,782 | INFO | pipeline.transformation.weather_transform | Transformed OpenWeather data for city: Iloilo City
+2026-09-19 07:36:02,278 | INFO | pipeline.transformation.weather_transform | Transformed WeatherAPI data for city: Babuy
+2026-09-19 07:36:03,126 | INFO | pipeline.transformation.weather_transform | Transformed OpenWeather data for city: Cagayan de Oro
+2026-09-19 07:36:03,468 | INFO | pipeline.transformation.weather_transform | Transformed WeatherAPI data for city: Balulang
+2026-09-19 07:36:04,359 | INFO | pipeline.transformation.weather_transform | Transformed OpenWeather data for city: Zamboanga City
+2026-09-19 07:36:04,758 | INFO | pipeline.transformation.weather_transform | Transformed WeatherAPI data for city: Canelar
+2026-09-19 16:23:51,129 | INFO | pipeline.transformation.weather_transform | Transformed OpenWeather data for city: Manila
+2026-09-19 16:37:56,455 | INFO | pipeline.transformation.weather_transform | Transformed OpenWeather data for city: Manila
+2026-09-19 16:37:57,063 | INFO | pipeline.transformation.weather_transform | Transformed WeatherAPI data for city: Kiyabo
+2026-09-19 16:37:59,460 | INFO | pipeline.transformation.weather_transform | Transformed OpenWeather data for city: Quezon City
+2026-09-19 16:37:59,623 | INFO | pipeline.transformation.weather_transform | Transformed WeatherAPI data for city: Tandang Sora
+2026-09-19 16:38:01,256 | INFO | pipeline.transformation.weather_transform | Transformed OpenWeather data for city: Cebu City
+2026-09-19 16:38:01,422 | INFO | pipeline.transformation.weather_transform | Transformed WeatherAPI data for city: Cebu
+2026-09-19 16:38:03,126 | INFO | pipeline.transformation.weather_transform | Transformed OpenWeather data for city: Davao City
+2026-09-19 16:38:03,207 | INFO | pipeline.transformation.weather_transform | Transformed WeatherAPI data for city: Calinan
+2026-09-19 16:38:04,788 | INFO | pipeline.transformation.weather_transform | Transformed OpenWeather data for city: Baguio City
+2026-09-19 16:38:04,994 | INFO | pipeline.transformation.weather_transform | Transformed WeatherAPI data for city: Baguio
+2026-09-19 16:38:06,851 | INFO | pipeline.transformation.weather_transform | Transformed OpenWeather data for city: Iloilo City
+2026-09-19 16:38:07,025 | INFO | pipeline.transformation.weather_transform | Transformed WeatherAPI data for city: Babuy
+2026-09-19 16:38:09,845 | INFO | pipeline.transformation.weather_transform | Transformed OpenWeather data for city: Cagayan de Oro
+2026-09-19 16:38:09,968 | INFO | pipeline.transformation.weather_transform | Transformed WeatherAPI data for city: Balulang
+2026-09-19 16:38:11,598 | INFO | pipeline.transformation.weather_transform | Transformed OpenWeather data for city: Zamboanga City
+2026-09-19 16:38:11,845 | INFO | pipeline.transformation.weather_transform | Transformed WeatherAPI data for city: Canelar
+2026-09-19 16:52:06,251 | INFO | pipeline.transformation.weather_transform | Transformed OpenWeather data for city: Manila
+2026-09-19 16:52:07,541 | INFO | pipeline.transformation.weather_transform | Transformed OpenWeather data for city: Quezon City
+2026-09-19 16:52:07,635 | INFO | pipeline.transformation.weather_transform | Transformed WeatherAPI data for city: Tandang Sora
+2026-09-19 16:52:08,701 | INFO | pipeline.transformation.weather_transform | Transformed OpenWeather data for city: Cebu City
+2026-09-19 16:52:08,780 | INFO | pipeline.transformation.weather_transform | Transformed WeatherAPI data for city: Cebu
+2026-09-19 16:52:09,605 | INFO | pipeline.transformation.weather_transform | Transformed OpenWeather data for city: Davao City
+2026-09-19 16:52:09,674 | INFO | pipeline.transformation.weather_transform | Transformed WeatherAPI data for city: Calinan
+2026-09-19 16:52:11,464 | INFO | pipeline.transformation.weather_transform | Transformed OpenWeather data for city: Baguio City
+2026-09-19 16:52:11,631 | INFO | pipeline.transformation.weather_transform | Transformed WeatherAPI data for city: Baguio
+2026-09-19 16:52:15,412 | INFO | pipeline.transformation.weather_transform | Transformed OpenWeather data for city: Iloilo City
+2026-09-19 16:52:15,598 | INFO | pipeline.transformation.weather_transform | Transformed WeatherAPI data for city: Mandurriao
+2026-09-19 16:52:17,606 | INFO | pipeline.transformation.weather_transform | Transformed OpenWeather data for city: Cagayan de Oro
+2026-09-19 16:52:17,820 | INFO | pipeline.transformation.weather_transform | Transformed WeatherAPI data for city: Balulang
+2026-09-19 16:52:20,128 | INFO | pipeline.transformation.weather_transform | Transformed OpenWeather data for city: Zamboanga City
+2026-09-19 16:52:20,319 | INFO | pipeline.transformation.weather_transform | Transformed WeatherAPI data for city: Canelar
+2026-09-19 08:56:35,685 | INFO | pipeline.transformation.weather_transform | Transformed OpenWeather data for city: Manila
+2026-09-19 08:56:36,840 | INFO | pipeline.transformation.weather_transform | Transformed WeatherAPI data for city: Manila
+2026-09-19 08:56:38,090 | INFO | pipeline.transformation.weather_transform | Transformed OpenWeather data for city: Quezon City
+2026-09-19 08:56:38,575 | INFO | pipeline.transformation.weather_transform | Transformed WeatherAPI data for city: Tandang Sora
+2026-09-19 08:56:41,749 | INFO | pipeline.transformation.weather_transform | Transformed OpenWeather data for city: Cebu City
+2026-09-19 08:56:42,432 | INFO | pipeline.transformation.weather_transform | Transformed WeatherAPI data for city: Cebu
+2026-09-19 08:56:44,168 | INFO | pipeline.transformation.weather_transform | Transformed OpenWeather data for city: Davao City
+2026-09-19 08:56:45,134 | INFO | pipeline.transformation.weather_transform | Transformed WeatherAPI data for city: Calinan
+2026-09-19 08:56:47,053 | INFO | pipeline.transformation.weather_transform | Transformed OpenWeather data for city: Baguio City
+2026-09-19 08:56:47,855 | INFO | pipeline.transformation.weather_transform | Transformed WeatherAPI data for city: Baguio
+2026-09-19 08:56:49,191 | INFO | pipeline.transformation.weather_transform | Transformed OpenWeather data for city: Iloilo City
+2026-09-19 08:56:49,694 | INFO | pipeline.transformation.weather_transform | Transformed WeatherAPI data for city: Babuy
+2026-09-19 08:56:51,376 | INFO | pipeline.transformation.weather_transform | Transformed OpenWeather data for city: Cagayan de Oro
+2026-09-19 08:56:52,174 | INFO | pipeline.transformation.weather_transform | Transformed WeatherAPI data for city: Balulang
+2026-09-19 08:56:53,909 | INFO | pipeline.transformation.weather_transform | Transformed OpenWeather data for city: Zamboanga City
+2026-09-19 08:56:54,592 | INFO | pipeline.transformation.weather_transform | Transformed WeatherAPI data for city: Canelar
+2026-09-19 09:04:01,651 | INFO | pipeline.transformation.weather_transform | Transformed OpenWeather data for city: Manila
+2026-09-19 09:04:03,633 | INFO | pipeline.transformation.weather_transform | Transformed WeatherAPI data for city: Kiyabo
+2026-09-19 09:04:06,237 | INFO | pipeline.transformation.weather_transform | Transformed OpenWeather data for city: Quezon City
+2026-09-19 09:04:06,687 | INFO | pipeline.transformation.weather_transform | Transformed WeatherAPI data for city: Tandang Sora
+2026-09-19 09:04:08,254 | INFO | pipeline.transformation.weather_transform | Transformed OpenWeather data for city: Cebu City
+2026-09-19 09:04:09,085 | INFO | pipeline.transformation.weather_transform | Transformed WeatherAPI data for city: Cebu
+2026-09-19 09:04:10,342 | INFO | pipeline.transformation.weather_transform | Transformed OpenWeather data for city: Davao City
+2026-09-19 09:04:10,989 | INFO | pipeline.transformation.weather_transform | Transformed WeatherAPI data for city: Calinan
+2026-09-19 09:04:12,588 | INFO | pipeline.transformation.weather_transform | Transformed OpenWeather data for city: Baguio City
+2026-09-19 09:04:13,651 | INFO | pipeline.transformation.weather_transform | Transformed WeatherAPI data for city: Baguio
+2026-09-19 09:04:14,992 | INFO | pipeline.transformation.weather_transform | Transformed OpenWeather data for city: Iloilo City
+2026-09-19 09:04:15,635 | INFO | pipeline.transformation.weather_transform | Transformed WeatherAPI data for city: Babuy
+2026-09-19 09:04:17,117 | INFO | pipeline.transformation.weather_transform | Transformed OpenWeather data for city: Cagayan de Oro
+2026-09-19 09:04:17,526 | INFO | pipeline.transformation.weather_transform | Transformed WeatherAPI data for city: Balulang
+2026-09-19 09:04:19,107 | INFO | pipeline.transformation.weather_transform | Transformed OpenWeather data for city: Zamboanga City
+2026-09-19 09:04:19,874 | INFO | pipeline.transformation.weather_transform | Transformed WeatherAPI data for city: Canelar
+2026-09-19 10:28:25,739 | INFO | pipeline.transformation.weather_transform | Transformed OpenWeather data for city: Manila
+2026-09-19 10:28:28,145 | INFO | pipeline.transformation.weather_transform | Transformed WeatherAPI data for city: Batis
+2026-09-19 10:28:32,661 | INFO | pipeline.transformation.weather_transform | Transformed OpenWeather data for city: Quezon City
+2026-09-19 10:28:36,120 | INFO | pipeline.transformation.weather_transform | Transformed WeatherAPI data for city: Tandang Sora
+2026-09-19 10:28:40,434 | INFO | pipeline.transformation.weather_transform | Transformed OpenWeather data for city: Cebu City
+2026-09-19 10:28:42,180 | INFO | pipeline.transformation.weather_transform | Transformed WeatherAPI data for city: Cebu
+2026-09-19 10:28:43,266 | INFO | pipeline.transformation.weather_transform | Transformed OpenWeather data for city: Davao City
+2026-09-19 10:28:43,730 | INFO | pipeline.transformation.weather_transform | Transformed WeatherAPI data for city: Calinan
+2026-09-19 10:28:44,666 | INFO | pipeline.transformation.weather_transform | Transformed OpenWeather data for city: Baguio City
+2026-09-19 10:28:45,104 | INFO | pipeline.transformation.weather_transform | Transformed WeatherAPI data for city: Baguio
+2026-09-19 10:28:46,358 | INFO | pipeline.transformation.weather_transform | Transformed OpenWeather data for city: Iloilo City
+2026-09-19 10:28:46,969 | INFO | pipeline.transformation.weather_transform | Transformed WeatherAPI data for city: Babuy
+2026-09-19 10:28:48,442 | INFO | pipeline.transformation.weather_transform | Transformed OpenWeather data for city: Cagayan de Oro
+2026-09-19 10:28:49,338 | INFO | pipeline.transformation.weather_transform | Transformed WeatherAPI data for city: Balulang
+2026-09-19 10:28:50,191 | INFO | pipeline.transformation.weather_transform | Transformed OpenWeather data for city: Zamboanga City
+2026-09-19 10:28:50,851 | INFO | pipeline.transformation.weather_transform | Transformed WeatherAPI data for city: Canelar
+2026-09-19 10:41:16,685 | INFO | pipeline.transformation.weather_transform | Transformed OpenWeather data for city: Manila
+2026-09-19 10:41:17,285 | INFO | pipeline.transformation.weather_transform | Transformed WeatherAPI data for city: Pandacan
+2026-09-19 10:41:18,308 | INFO | pipeline.transformation.weather_transform | Transformed OpenWeather data for city: Quezon City
+2026-09-19 10:41:18,891 | INFO | pipeline.transformation.weather_transform | Transformed WeatherAPI data for city: Tandang Sora
+2026-09-19 10:41:19,937 | INFO | pipeline.transformation.weather_transform | Transformed OpenWeather data for city: Cebu City
+2026-09-19 10:41:20,489 | INFO | pipeline.transformation.weather_transform | Transformed WeatherAPI data for city: Cebu
+2026-09-19 10:41:21,468 | INFO | pipeline.transformation.weather_transform | Transformed OpenWeather data for city: Davao City
+2026-09-19 10:41:21,959 | INFO | pipeline.transformation.weather_transform | Transformed WeatherAPI data for city: Calinan
+2026-09-19 10:41:23,057 | INFO | pipeline.transformation.weather_transform | Transformed OpenWeather data for city: Baguio City
+2026-09-19 10:41:23,642 | INFO | pipeline.transformation.weather_transform | Transformed WeatherAPI data for city: Baguio
+2026-09-19 10:41:24,886 | INFO | pipeline.transformation.weather_transform | Transformed OpenWeather data for city: Iloilo City
+2026-09-19 10:41:25,228 | INFO | pipeline.transformation.weather_transform | Transformed WeatherAPI data for city: Babuy
+2026-09-19 10:41:26,328 | INFO | pipeline.transformation.weather_transform | Transformed OpenWeather data for city: Cagayan de Oro
+2026-09-19 10:41:26,735 | INFO | pipeline.transformation.weather_transform | Transformed WeatherAPI data for city: Balulang
+2026-09-19 10:41:27,987 | INFO | pipeline.transformation.weather_transform | Transformed OpenWeather data for city: Zamboanga City
+2026-09-19 10:41:28,360 | INFO | pipeline.transformation.weather_transform | Transformed WeatherAPI data for city: Canelar
+2026-09-19 18:45:28,729 | ERROR | pipeline.transformation.weather_transform | Error transforming OpenWeather data: 'str' object has no attribute 'get'
+2026-09-19 18:46:35,865 | ERROR | pipeline.transformation.weather_transform | Error transforming OpenWeather data: 'str' object has no attribute 'get'
+2026-09-19 18:57:12,592 | INFO | pipeline.transformation.weather_transform | Transformed OpenWeather data for 1 city record(s)
+2026-09-19 18:57:12,617 | INFO | pipeline.transformation.weather_transform | Transformed 1 WeatherAPI record(s)
+2026-09-19 18:57:13,097 | INFO | pipeline.transformation.weather_transform | Transformed OpenWeather data for 1 city record(s)
+2026-09-19 18:58:36,550 | INFO | pipeline.transformation.weather_transform | Transformed OpenWeather data for 1 city record(s)
+2026-09-19 18:58:36,585 | INFO | pipeline.transformation.weather_transform | Transformed 1 WeatherAPI record(s)
+2026-09-19 18:58:37,132 | INFO | pipeline.transformation.weather_transform | Transformed OpenWeather data for 1 city record(s)
+2026-09-19 19:00:26,116 | INFO | pipeline.transformation.weather_transform | Transformed OpenWeather data for 1 city record(s)
+2026-09-19 19:00:26,138 | INFO | pipeline.transformation.weather_transform | Transformed 1 WeatherAPI record(s)
+2026-09-19 19:00:26,571 | INFO | pipeline.transformation.weather_transform | Transformed OpenWeather data for 1 city record(s)
+2026-09-19 19:01:59,649 | INFO | pipeline.transformation.weather_transform | Transformed OpenWeather data for 1 city record(s)
+2026-09-19 19:02:00,397 | INFO | pipeline.transformation.weather_transform | Transformed 1 WeatherAPI record(s)
+2026-09-19 19:02:01,707 | INFO | pipeline.transformation.weather_transform | Transformed OpenWeather data for 1 city record(s)
+2026-09-19 19:02:01,880 | INFO | pipeline.transformation.weather_transform | Transformed 1 WeatherAPI record(s)
+2026-09-19 19:02:03,291 | INFO | pipeline.transformation.weather_transform | Transformed OpenWeather data for 1 city record(s)
+2026-09-19 19:02:03,574 | INFO | pipeline.transformation.weather_transform | Transformed 1 WeatherAPI record(s)
+2026-09-19 19:02:04,831 | INFO | pipeline.transformation.weather_transform | Transformed OpenWeather data for 1 city record(s)
+2026-09-19 19:02:05,127 | INFO | pipeline.transformation.weather_transform | Transformed 1 WeatherAPI record(s)
+2026-09-19 19:02:06,791 | INFO | pipeline.transformation.weather_transform | Transformed OpenWeather data for 1 city record(s)
+2026-09-19 19:02:07,027 | INFO | pipeline.transformation.weather_transform | Transformed 1 WeatherAPI record(s)
+2026-09-19 19:02:08,633 | INFO | pipeline.transformation.weather_transform | Transformed OpenWeather data for 1 city record(s)
+2026-09-19 19:02:08,903 | INFO | pipeline.transformation.weather_transform | Transformed 1 WeatherAPI record(s)
+2026-09-19 19:02:10,349 | INFO | pipeline.transformation.weather_transform | Transformed OpenWeather data for 1 city record(s)
+2026-09-19 19:02:10,523 | INFO | pipeline.transformation.weather_transform | Transformed 1 WeatherAPI record(s)
+2026-09-19 19:02:11,722 | INFO | pipeline.transformation.weather_transform | Transformed OpenWeather data for 1 city record(s)
+2026-09-19 19:02:12,057 | INFO | pipeline.transformation.weather_transform | Transformed 1 WeatherAPI record(s)
+2026-09-20 12:25:24,646 | INFO | pipeline.transformation.weather_transform | Transformed OpenWeather data for city: Manila
+2026-09-20 12:25:25,097 | INFO | pipeline.transformation.weather_transform | Transformed WeatherAPI data for city: Kiyabo
+2026-09-20 12:25:26,186 | INFO | pipeline.transformation.weather_transform | Transformed OpenWeather data for city: Quezon City
+2026-09-20 12:25:26,536 | INFO | pipeline.transformation.weather_transform | Transformed WeatherAPI data for city: Tandang Sora
+2026-09-20 12:25:27,811 | INFO | pipeline.transformation.weather_transform | Transformed OpenWeather data for city: Cebu City
+2026-09-20 12:25:28,146 | INFO | pipeline.transformation.weather_transform | Transformed WeatherAPI data for city: Cebu
+2026-09-20 12:25:29,337 | INFO | pipeline.transformation.weather_transform | Transformed OpenWeather data for city: Davao City
+2026-09-20 12:25:29,757 | INFO | pipeline.transformation.weather_transform | Transformed WeatherAPI data for city: Calinan
+2026-09-20 12:25:30,582 | INFO | pipeline.transformation.weather_transform | Transformed OpenWeather data for city: Baguio City
+2026-09-20 12:25:30,989 | INFO | pipeline.transformation.weather_transform | Transformed WeatherAPI data for city: Baguio
+2026-09-20 12:25:31,768 | INFO | pipeline.transformation.weather_transform | Transformed OpenWeather data for city: Iloilo City
+2026-09-20 12:25:32,164 | INFO | pipeline.transformation.weather_transform | Transformed WeatherAPI data for city: Babuy
+2026-09-20 12:25:32,917 | INFO | pipeline.transformation.weather_transform | Transformed OpenWeather data for city: Cagayan de Oro
+2026-09-20 12:25:33,223 | INFO | pipeline.transformation.weather_transform | Transformed WeatherAPI data for city: Balulang
+2026-09-20 12:25:34,099 | INFO | pipeline.transformation.weather_transform | Transformed OpenWeather data for city: Zamboanga City
+2026-09-20 12:25:34,453 | INFO | pipeline.transformation.weather_transform | Transformed WeatherAPI data for city: Canelar
+2026-10-05 16:20:59,211 | INFO | pipeline.transformation.weather_transform | Transformed OpenWeather data for 1 city record(s)
+2026-10-05 16:20:59,243 | INFO | pipeline.transformation.weather_transform | Transformed 1 WeatherAPI record(s)
+2026-10-05 16:21:00,065 | INFO | pipeline.transformation.weather_transform | Transformed OpenWeather data for 1 city record(s)
+2026-10-05 16:23:03,572 | INFO | pipeline.transformation.weather_transform | Transformed OpenWeather data for 1 city record(s)
+2026-10-05 16:23:03,598 | INFO | pipeline.transformation.weather_transform | Transformed 1 WeatherAPI record(s)
+2026-10-05 16:29:01,242 | INFO | pipeline.transformation.weather_transform | Transformed OpenWeather data for 1 city record(s)
+2026-10-05 16:29:01,260 | INFO | pipeline.transformation.weather_transform | Transformed 1 WeatherAPI record(s)
+2026-10-05 16:29:01,714 | INFO | pipeline.transformation.weather_transform | Transformed OpenWeather data for 1 city record(s)
+2026-10-05 16:30:37,975 | INFO | pipeline.transformation.weather_transform | Transformed OpenWeather data for 1 city record(s)
+2026-10-05 16:30:37,997 | INFO | pipeline.transformation.weather_transform | Transformed 1 WeatherAPI record(s)
+2026-10-05 16:30:38,412 | INFO | pipeline.transformation.weather_transform | Transformed OpenWeather data for 1 city record(s)
+2026-10-05 16:32:48,887 | INFO | pipeline.transformation.weather_transform | Transformed OpenWeather data for 1 city record(s)
+2026-10-05 16:32:48,903 | INFO | pipeline.transformation.weather_transform | Transformed 1 WeatherAPI record(s)
+2026-10-05 16:32:49,256 | INFO | pipeline.transformation.weather_transform | Transformed OpenWeather data for 1 city record(s)
+2026-10-05 17:23:11,712 | INFO | pipeline.transformation.weather_transform | Transformed OpenWeather data for 1 city record(s)
+2026-10-05 17:23:11,734 | INFO | pipeline.transformation.weather_transform | Transformed 1 WeatherAPI record(s)
+2026-10-05 17:23:12,291 | INFO | pipeline.transformation.weather_transform | Transformed OpenWeather data for 1 city record(s)
+2026-10-05 17:29:10,717 | INFO | pipeline.transformation.weather_transform | Transformed OpenWeather data for 1 city record(s)
+2026-10-05 17:29:10,734 | INFO | pipeline.transformation.weather_transform | Transformed 1 WeatherAPI record(s)
+2026-10-05 17:29:10,992 | INFO | pipeline.transformation.weather_transform | Transformed OpenWeather data for 1 city record(s)
+2026-10-05 17:30:15,305 | INFO | pipeline.transformation.weather_transform | Transformed OpenWeather data for 1 city record(s)
+2026-10-05 17:32:10,318 | INFO | pipeline.transformation.weather_transform | Transformed OpenWeather data for 1 city record(s)
+2026-10-05 17:32:10,344 | INFO | pipeline.transformation.weather_transform | Transformed 1 WeatherAPI record(s)
+2026-10-05 17:32:10,726 | INFO | pipeline.transformation.weather_transform | Transformed OpenWeather data for 1 city record(s)
+2026-10-05 17:33:03,354 | INFO | pipeline.transformation.weather_transform | Transformed OpenWeather data for 1 city record(s)
+2026-10-05 17:33:03,937 | INFO | pipeline.transformation.weather_transform | Transformed 1 WeatherAPI record(s)
+2026-10-05 17:33:04,965 | INFO | pipeline.transformation.weather_transform | Transformed OpenWeather data for 1 city record(s)
+2026-10-05 17:33:05,098 | INFO | pipeline.transformation.weather_transform | Transformed 1 WeatherAPI record(s)
+2026-10-05 17:33:06,518 | INFO | pipeline.transformation.weather_transform | Transformed OpenWeather data for 1 city record(s)
+2026-10-05 17:33:06,725 | INFO | pipeline.transformation.weather_transform | Transformed 1 WeatherAPI record(s)
+2026-10-05 17:33:08,069 | INFO | pipeline.transformation.weather_transform | Transformed OpenWeather data for 1 city record(s)
+2026-10-05 17:33:08,207 | INFO | pipeline.transformation.weather_transform | Transformed 1 WeatherAPI record(s)
+2026-10-05 17:33:09,137 | INFO | pipeline.transformation.weather_transform | Transformed OpenWeather data for 1 city record(s)
+2026-10-05 17:33:09,225 | INFO | pipeline.transformation.weather_transform | Transformed 1 WeatherAPI record(s)
+2026-10-05 17:33:10,346 | INFO | pipeline.transformation.weather_transform | Transformed OpenWeather data for 1 city record(s)
+2026-10-05 17:33:10,445 | INFO | pipeline.transformation.weather_transform | Transformed 1 WeatherAPI record(s)
+2026-10-05 17:33:11,763 | INFO | pipeline.transformation.weather_transform | Transformed OpenWeather data for 1 city record(s)
+2026-10-05 17:33:11,869 | INFO | pipeline.transformation.weather_transform | Transformed 1 WeatherAPI record(s)
+2026-10-05 17:33:13,123 | INFO | pipeline.transformation.weather_transform | Transformed OpenWeather data for 1 city record(s)
+2026-10-05 17:33:13,253 | INFO | pipeline.transformation.weather_transform | Transformed 1 WeatherAPI record(s)
+2026-10-05 17:34:58,460 | INFO | pipeline.transformation.weather_transform | Transformed OpenWeather data for 1 city record(s)
+2026-10-05 17:34:59,171 | INFO | pipeline.transformation.weather_transform | Transformed 1 WeatherAPI record(s)
+2026-10-05 17:35:00,897 | INFO | pipeline.transformation.weather_transform | Transformed OpenWeather data for 1 city record(s)
+2026-10-05 17:35:01,109 | INFO | pipeline.transformation.weather_transform | Transformed 1 WeatherAPI record(s)
+2026-10-05 17:35:02,319 | INFO | pipeline.transformation.weather_transform | Transformed OpenWeather data for 1 city record(s)
+2026-10-05 17:35:02,565 | INFO | pipeline.transformation.weather_transform | Transformed 1 WeatherAPI record(s)
+2026-10-05 17:35:04,362 | INFO | pipeline.transformation.weather_transform | Transformed OpenWeather data for 1 city record(s)
+2026-10-05 17:35:04,638 | INFO | pipeline.transformation.weather_transform | Transformed 1 WeatherAPI record(s)
+2026-10-05 17:35:06,099 | INFO | pipeline.transformation.weather_transform | Transformed OpenWeather data for 1 city record(s)
+2026-10-05 17:35:06,273 | INFO | pipeline.transformation.weather_transform | Transformed 1 WeatherAPI record(s)
+2026-10-05 17:35:07,612 | INFO | pipeline.transformation.weather_transform | Transformed OpenWeather data for 1 city record(s)
+2026-10-05 17:35:07,856 | INFO | pipeline.transformation.weather_transform | Transformed 1 WeatherAPI record(s)
+2026-10-05 17:35:09,695 | INFO | pipeline.transformation.weather_transform | Transformed OpenWeather data for 1 city record(s)
+2026-10-05 17:35:09,933 | INFO | pipeline.transformation.weather_transform | Transformed 1 WeatherAPI record(s)
+2026-10-05 17:35:11,447 | INFO | pipeline.transformation.weather_transform | Transformed OpenWeather data for 1 city record(s)
+2026-10-05 17:35:11,732 | INFO | pipeline.transformation.weather_transform | Transformed 1 WeatherAPI record(s)
+2026-10-05 18:46:54,035 | INFO | pipeline.transformation.weather_transform | Transformed OpenWeather data for 1 city record(s)
+2026-10-05 18:46:54,061 | INFO | pipeline.transformation.weather_transform | Transformed 1 WeatherAPI record(s)
+2026-10-05 18:51:05,506 | INFO | pipeline.transformation.weather_transform | Transformed OpenWeather data for 1 city record(s)
+2026-10-05 18:51:05,522 | INFO | pipeline.transformation.weather_transform | Transformed 1 WeatherAPI record(s)
+2026-10-05 18:54:57,920 | INFO | pipeline.transformation.weather_transform | Transformed OpenWeather data for 1 city record(s)
+2026-10-05 18:54:57,943 | INFO | pipeline.transformation.weather_transform | Transformed 1 WeatherAPI record(s)
+2026-10-05 18:54:58,394 | INFO | pipeline.transformation.weather_transform | Transformed OpenWeather data for 1 city record(s)
+2026-10-05 19:04:07,947 | INFO | pipeline.transformation.weather_transform | Transformed OpenWeather data for 1 city record(s)
+2026-10-05 19:04:07,973 | INFO | pipeline.transformation.weather_transform | Transformed 1 geocoding record(s)
+2026-10-05 19:04:08,317 | INFO | pipeline.transformation.weather_transform | Transformed OpenWeather data for 1 city record(s)
+2026-10-06 14:31:03,328 | ERROR | pipeline.transformation.weather_transform | Error transforming OpenWeather data: name 'timezone' is not defined
+2026-10-06 14:34:03,906 | ERROR | pipeline.transformation.weather_transform | Error transforming OpenWeather data: invalid `time_unit`
+
+Expected one of {'ns','us','ms'}, got 's'.
+2026-10-06 14:36:40,255 | INFO | pipeline.transformation.weather_transform | Transformed 1 OpenWeather record(s)
+2026-10-06 14:39:35,717 | INFO | pipeline.transformation.weather_transform | Transformed OpenWeather data for 1 city record(s)
+2026-10-06 15:43:24,844 | INFO | pipeline.transformation.weather_transform | Transformed OpenWeather data for 1 city record(s)
+2026-10-06 15:43:24,863 | INFO | pipeline.transformation.weather_transform | Transformed 1 geocoding record(s)
+2026-10-06 15:43:25,356 | INFO | pipeline.transformation.weather_transform | Transformed OpenWeather data for 1 city record(s)
+2026-10-06 15:46:25,318 | INFO | pipeline.transformation.weather_transform | Transformed OpenWeather data for 1 city record(s)
+2026-10-06 15:46:25,337 | INFO | pipeline.transformation.weather_transform | Transformed 1 geocoding record(s)
+2026-10-06 15:46:25,791 | INFO | pipeline.transformation.weather_transform | Transformed OpenWeather data for 1 city record(s)
+2026-10-06 15:48:10,071 | INFO | pipeline.transformation.weather_transform | Transformed OpenWeather data for 1 city record(s)
+2026-10-06 15:48:10,604 | INFO | pipeline.transformation.weather_transform | Transformed 1 geocoding record(s)
+2026-10-06 15:48:11,323 | INFO | pipeline.transformation.weather_transform | Transformed OpenWeather data for 1 city record(s)
+2026-10-06 15:48:11,499 | INFO | pipeline.transformation.weather_transform | Transformed 1 geocoding record(s)
+2026-10-06 15:48:12,142 | INFO | pipeline.transformation.weather_transform | Transformed OpenWeather data for 1 city record(s)
+2026-10-06 15:48:12,371 | INFO | pipeline.transformation.weather_transform | Transformed 1 geocoding record(s)
+2026-10-06 15:48:13,095 | INFO | pipeline.transformation.weather_transform | Transformed OpenWeather data for 1 city record(s)
+2026-10-06 15:48:13,266 | INFO | pipeline.transformation.weather_transform | Transformed 1 geocoding record(s)
+2026-10-06 15:48:13,982 | INFO | pipeline.transformation.weather_transform | Transformed OpenWeather data for 1 city record(s)
+2026-10-06 15:48:14,202 | INFO | pipeline.transformation.weather_transform | Transformed 1 geocoding record(s)
+2026-10-06 15:48:14,854 | INFO | pipeline.transformation.weather_transform | Transformed OpenWeather data for 1 city record(s)
+2026-10-06 15:48:15,067 | INFO | pipeline.transformation.weather_transform | Transformed 1 geocoding record(s)
+2026-10-06 15:48:15,663 | INFO | pipeline.transformation.weather_transform | Transformed OpenWeather data for 1 city record(s)
+2026-10-06 15:48:15,836 | INFO | pipeline.transformation.weather_transform | Transformed 1 geocoding record(s)
+2026-10-06 15:48:16,489 | INFO | pipeline.transformation.weather_transform | Transformed OpenWeather data for 1 city record(s)
+2026-10-06 15:48:16,719 | INFO | pipeline.transformation.weather_transform | Transformed 1 geocoding record(s)
+2026-10-06 18:12:48,984 | INFO | pipeline.transformation.weather_transform | Transformed OpenWeather data for 1 city record(s)
+2026-10-06 18:12:49,000 | INFO | pipeline.transformation.weather_transform | Transformed 1 geocoding record(s)
+2026-10-06 18:12:49,202 | INFO | pipeline.transformation.weather_transform | Transformed OpenWeather data for 1 city record(s)
+2026-10-06 18:14:45,687 | INFO | pipeline.transformation.weather_transform | Transformed OpenWeather data for 1 city record(s)
+2026-10-06 18:14:45,707 | INFO | pipeline.transformation.weather_transform | Transformed 1 geocoding record(s)
+2026-10-06 18:14:46,154 | INFO | pipeline.transformation.weather_transform | Transformed OpenWeather data for 1 city record(s)
+2026-10-06 18:48:07,237 | INFO | pipeline.transformation.weather_transform | Transformed OpenWeather data for 1 city record(s)
+2026-10-06 18:50:11,648 | INFO | pipeline.transformation.weather_transform | Transformed OpenWeather data for 1 city record(s)
+2026-10-06 18:50:12,019 | INFO | pipeline.transformation.weather_transform | Transformed OpenWeather data for 1 city record(s)
+2026-10-06 18:59:02,476 | INFO | pipeline.transformation.weather_transform | Transformed OpenWeather data for 1 city record(s)
+2026-10-06 19:01:46,542 | INFO | pipeline.transformation.weather_transform | Transformed OpenWeather data for 1 city record(s)
+2026-10-06 19:01:46,813 | INFO | pipeline.transformation.weather_transform | Transformed OpenWeather data for 1 city record(s)
+2026-10-06 19:01:46,851 | INFO | pipeline.transformation.weather_transform | Transformed OpenWeather data for 1 city record(s)
+2026-10-06 19:12:38,564 | INFO | pipeline.transformation.weather_transform | Transformed OpenWeather data for 1 city record(s)
+2026-10-06 19:12:38,600 | INFO | pipeline.transformation.weather_transform | Transformed OpenWeather data for 1 city record(s)
+2026-10-06 19:14:27,049 | INFO | pipeline.transformation.weather_transform | Transformed OpenWeather data for 1 city record(s)
+2026-10-06 19:14:27,091 | INFO | pipeline.transformation.weather_transform | Transformed OpenWeather data for 1 city record(s)
+2026-10-06 19:14:27,401 | INFO | pipeline.transformation.weather_transform | Transformed OpenWeather data for 1 city record(s)
+2026-10-06 19:14:28,521 | INFO | pipeline.transformation.weather_transform | Transformed OpenWeather data for 1 city record(s)
+2026-10-06 19:17:22,250 | INFO | pipeline.transformation.weather_transform | Transformed OpenWeather data for 1 city record(s)
+2026-10-06 19:17:24,556 | INFO | pipeline.transformation.weather_transform | Transformed OpenWeather data for 1 city record(s)
+2026-10-06 19:17:25,121 | INFO | pipeline.transformation.weather_transform | Transformed OpenWeather data for 1 city record(s)
+2026-10-06 19:17:25,908 | INFO | pipeline.transformation.weather_transform | Transformed OpenWeather data for 1 city record(s)
+2026-10-06 19:17:26,797 | INFO | pipeline.transformation.weather_transform | Transformed OpenWeather data for 1 city record(s)
+2026-10-06 19:17:27,400 | INFO | pipeline.transformation.weather_transform | Transformed OpenWeather data for 1 city record(s)
+2026-10-06 19:17:28,248 | INFO | pipeline.transformation.weather_transform | Transformed OpenWeather data for 1 city record(s)
+2026-10-06 19:17:29,205 | INFO | pipeline.transformation.weather_transform | Transformed OpenWeather data for 1 city record(s)
+2026-10-06 19:25:31,659 | INFO | pipeline.transformation.weather_transform | Transformed OpenWeather data for 1 city record(s)
+2026-10-06 19:25:31,699 | INFO | pipeline.transformation.weather_transform | Transformed OpenWeather data for 1 city record(s)
+2026-10-06 19:25:32,140 | INFO | pipeline.transformation.weather_transform | Transformed OpenWeather data for 1 city record(s)
+2026-10-06 20:05:39,736 | INFO | pipeline.transformation.weather_transform | Transformed 1 geocoding record(s)
+2026-10-06 20:05:40,923 | INFO | pipeline.transformation.weather_transform | Transformed OpenWeather data for 1 city record(s)
+2026-10-06 20:05:42,450 | INFO | pipeline.transformation.weather_transform | Transformed 1 geocoding record(s)
+2026-10-06 20:05:42,619 | INFO | pipeline.transformation.weather_transform | Transformed OpenWeather data for 1 city record(s)
+2026-10-06 20:05:43,436 | INFO | pipeline.transformation.weather_transform | Transformed 1 geocoding record(s)
+2026-10-06 20:05:43,596 | INFO | pipeline.transformation.weather_transform | Transformed OpenWeather data for 1 city record(s)
+2026-10-06 20:05:44,312 | INFO | pipeline.transformation.weather_transform | Transformed 1 geocoding record(s)
+2026-10-06 20:05:44,487 | INFO | pipeline.transformation.weather_transform | Transformed OpenWeather data for 1 city record(s)
+2026-10-06 20:05:45,245 | INFO | pipeline.transformation.weather_transform | Transformed 1 geocoding record(s)
+2026-10-06 20:05:45,366 | INFO | pipeline.transformation.weather_transform | Transformed OpenWeather data for 1 city record(s)
+2026-10-06 20:05:46,134 | INFO | pipeline.transformation.weather_transform | Transformed 1 geocoding record(s)
+2026-10-06 20:05:46,321 | INFO | pipeline.transformation.weather_transform | Transformed OpenWeather data for 1 city record(s)
+2026-10-06 20:05:47,075 | INFO | pipeline.transformation.weather_transform | Transformed 1 geocoding record(s)
+2026-10-06 20:05:47,240 | INFO | pipeline.transformation.weather_transform | Transformed OpenWeather data for 1 city record(s)
+2026-10-06 20:05:47,843 | INFO | pipeline.transformation.weather_transform | Transformed 1 geocoding record(s)
+2026-10-06 20:05:48,031 | INFO | pipeline.transformation.weather_transform | Transformed OpenWeather data for 1 city record(s)
+2026-10-06 20:07:45,099 | INFO | pipeline.transformation.weather_transform | Transformed 1 geocoding record(s)
+2026-10-06 20:07:46,631 | INFO | pipeline.transformation.weather_transform | Transformed 1 geocoding record(s)
+2026-10-06 20:07:47,277 | INFO | pipeline.transformation.weather_transform | Transformed 1 geocoding record(s)
+2026-10-06 20:07:47,859 | INFO | pipeline.transformation.weather_transform | Transformed 1 geocoding record(s)
+2026-10-06 20:07:48,067 | INFO | pipeline.transformation.weather_transform | Transformed OpenWeather data for 1 city record(s)
+2026-10-06 20:07:49,139 | INFO | pipeline.transformation.weather_transform | Transformed 1 geocoding record(s)
+2026-10-06 20:07:49,956 | INFO | pipeline.transformation.weather_transform | Transformed 1 geocoding record(s)
+2026-10-06 20:07:50,534 | INFO | pipeline.transformation.weather_transform | Transformed 1 geocoding record(s)
+2026-10-06 20:07:50,728 | INFO | pipeline.transformation.weather_transform | Transformed OpenWeather data for 1 city record(s)
+2026-10-06 20:07:51,439 | INFO | pipeline.transformation.weather_transform | Transformed 1 geocoding record(s)
+2026-10-06 20:07:51,598 | INFO | pipeline.transformation.weather_transform | Transformed OpenWeather data for 1 city record(s)
+2026-10-06 20:12:07,107 | INFO | pipeline.transformation.weather_transform | Transformed 1 geocoding record(s)
+2026-10-06 20:12:08,620 | INFO | pipeline.transformation.weather_transform | Transformed OpenWeather data for 1 city record(s)
+2026-10-06 20:12:09,977 | INFO | pipeline.transformation.weather_transform | Transformed 1 geocoding record(s)
+2026-10-06 20:12:10,197 | INFO | pipeline.transformation.weather_transform | Transformed OpenWeather data for 1 city record(s)
+2026-10-06 20:12:11,391 | INFO | pipeline.transformation.weather_transform | Transformed 1 geocoding record(s)
+2026-10-06 20:12:11,627 | INFO | pipeline.transformation.weather_transform | Transformed OpenWeather data for 1 city record(s)
+2026-10-06 20:12:12,463 | INFO | pipeline.transformation.weather_transform | Transformed 1 geocoding record(s)
+2026-10-06 20:12:13,214 | INFO | pipeline.transformation.weather_transform | Transformed 1 geocoding record(s)
+2026-10-06 20:12:13,430 | INFO | pipeline.transformation.weather_transform | Transformed OpenWeather data for 1 city record(s)
+2026-10-06 20:12:14,288 | INFO | pipeline.transformation.weather_transform | Transformed 1 geocoding record(s)
+2026-10-06 20:12:14,468 | INFO | pipeline.transformation.weather_transform | Transformed OpenWeather data for 1 city record(s)
+2026-10-06 20:12:15,370 | INFO | pipeline.transformation.weather_transform | Transformed 1 geocoding record(s)
+2026-10-06 20:12:15,598 | INFO | pipeline.transformation.weather_transform | Transformed OpenWeather data for 1 city record(s)
+2026-10-06 20:12:16,456 | INFO | pipeline.transformation.weather_transform | Transformed 1 geocoding record(s)
+2026-10-06 20:12:16,646 | INFO | pipeline.transformation.weather_transform | Transformed OpenWeather data for 1 city record(s)
+2026-10-06 20:14:51,251 | INFO | pipeline.transformation.weather_transform | Transformed 1 geocoding record(s)
+2026-10-06 20:14:52,620 | INFO | pipeline.transformation.weather_transform | Transformed 1 geocoding record(s)
+2026-10-06 20:14:53,138 | INFO | pipeline.transformation.weather_transform | Transformed 1 geocoding record(s)
+2026-10-06 20:14:53,725 | INFO | pipeline.transformation.weather_transform | Transformed 1 geocoding record(s)
+2026-10-06 20:14:53,871 | INFO | pipeline.transformation.weather_transform | Transformed OpenWeather data for 1 city record(s)
+2026-10-06 20:14:54,981 | INFO | pipeline.transformation.weather_transform | Transformed 1 geocoding record(s)
+2026-10-06 20:14:55,532 | INFO | pipeline.transformation.weather_transform | Transformed 1 geocoding record(s)
+2026-10-06 20:14:56,184 | INFO | pipeline.transformation.weather_transform | Transformed 1 geocoding record(s)
+2026-10-06 20:14:56,956 | INFO | pipeline.transformation.weather_transform | Transformed 1 geocoding record(s)
+2026-10-06 20:14:57,195 | INFO | pipeline.transformation.weather_transform | Transformed OpenWeather data for 1 city record(s)
+2026-10-06 12:42:41,035 | INFO | pipeline.transformation.weather_transform | Transformed 1 geocoding record(s)
+2026-10-06 12:42:41,436 | INFO | pipeline.transformation.weather_transform | Transformed 1 geocoding record(s)
+2026-10-06 12:42:41,795 | INFO | pipeline.transformation.weather_transform | Transformed 1 geocoding record(s)
+2026-10-06 12:42:42,088 | INFO | pipeline.transformation.weather_transform | Transformed 1 geocoding record(s)
+2026-10-06 12:42:42,431 | INFO | pipeline.transformation.weather_transform | Transformed 1 geocoding record(s)
+2026-10-06 12:42:42,816 | INFO | pipeline.transformation.weather_transform | Transformed 1 geocoding record(s)
+2026-10-06 12:42:43,131 | INFO | pipeline.transformation.weather_transform | Transformed 1 geocoding record(s)
+2026-10-06 12:42:43,474 | INFO | pipeline.transformation.weather_transform | Transformed 1 geocoding record(s)
+2026-10-06 12:52:24,563 | INFO | pipeline.transformation.weather_transform | Transformed 1 geocoding record(s)
+2026-10-06 12:52:32,983 | INFO | pipeline.transformation.weather_transform | Transformed 1 geocoding record(s)
+2026-10-06 12:52:37,324 | INFO | pipeline.transformation.weather_transform | Transformed 1 geocoding record(s)
+2026-10-06 12:52:41,527 | INFO | pipeline.transformation.weather_transform | Transformed 1 geocoding record(s)
+2026-10-06 12:52:45,811 | INFO | pipeline.transformation.weather_transform | Transformed 1 geocoding record(s)
+2026-10-06 12:52:54,066 | INFO | pipeline.transformation.weather_transform | Transformed 1 geocoding record(s)
+2026-10-06 12:53:02,245 | INFO | pipeline.transformation.weather_transform | Transformed 1 geocoding record(s)
+2026-10-06 12:53:06,523 | INFO | pipeline.transformation.weather_transform | Transformed 1 geocoding record(s)
+2026-10-06 12:54:08,812 | INFO | pipeline.transformation.weather_transform | Transformed 1 geocoding record(s)
+2026-10-06 12:54:09,218 | INFO | pipeline.transformation.weather_transform | Transformed 1 geocoding record(s)
+2026-10-06 12:54:09,518 | INFO | pipeline.transformation.weather_transform | Transformed 1 geocoding record(s)
+2026-10-06 12:54:09,858 | INFO | pipeline.transformation.weather_transform | Transformed 1 geocoding record(s)
+2026-10-06 12:54:10,205 | INFO | pipeline.transformation.weather_transform | Transformed 1 geocoding record(s)
+2026-10-06 12:54:10,527 | INFO | pipeline.transformation.weather_transform | Transformed 1 geocoding record(s)
+2026-10-06 12:54:10,933 | INFO | pipeline.transformation.weather_transform | Transformed 1 geocoding record(s)
+2026-10-06 12:54:11,314 | INFO | pipeline.transformation.weather_transform | Transformed 1 geocoding record(s)
+2026-10-06 12:55:22,304 | INFO | pipeline.transformation.weather_transform | Transformed 1 geocoding record(s)
+2026-10-06 12:55:22,634 | INFO | pipeline.transformation.weather_transform | Transformed OpenWeather data for 1 city record(s)
+2026-10-06 12:55:23,338 | INFO | pipeline.transformation.weather_transform | Transformed 1 geocoding record(s)
+2026-10-06 12:55:23,546 | INFO | pipeline.transformation.weather_transform | Transformed OpenWeather data for 1 city record(s)
+2026-10-06 12:55:24,070 | INFO | pipeline.transformation.weather_transform | Transformed 1 geocoding record(s)
+2026-10-06 12:55:24,224 | INFO | pipeline.transformation.weather_transform | Transformed OpenWeather data for 1 city record(s)
+2026-10-06 12:55:24,746 | INFO | pipeline.transformation.weather_transform | Transformed 1 geocoding record(s)
+2026-10-06 12:55:24,905 | INFO | pipeline.transformation.weather_transform | Transformed OpenWeather data for 1 city record(s)
+2026-10-06 12:55:25,466 | INFO | pipeline.transformation.weather_transform | Transformed 1 geocoding record(s)
+2026-10-06 12:55:25,610 | INFO | pipeline.transformation.weather_transform | Transformed OpenWeather data for 1 city record(s)
+2026-10-06 12:55:26,162 | INFO | pipeline.transformation.weather_transform | Transformed 1 geocoding record(s)
+2026-10-06 12:55:26,291 | INFO | pipeline.transformation.weather_transform | Transformed OpenWeather data for 1 city record(s)
+2026-10-06 12:55:26,802 | INFO | pipeline.transformation.weather_transform | Transformed 1 geocoding record(s)
+2026-10-06 12:55:26,945 | INFO | pipeline.transformation.weather_transform | Transformed OpenWeather data for 1 city record(s)
+2026-10-06 12:55:27,442 | INFO | pipeline.transformation.weather_transform | Transformed 1 geocoding record(s)
+2026-10-06 12:55:27,608 | INFO | pipeline.transformation.weather_transform | Transformed OpenWeather data for 1 city record(s)
+2026-10-07 07:50:42,688 | INFO | pipeline.transformation.weather_transform | Transformed 1 geocoding record(s)
+2026-10-07 07:50:43,310 | INFO | pipeline.transformation.weather_transform | Transformed OpenWeather data for 1 city record(s)
+2026-10-07 07:50:43,976 | INFO | pipeline.transformation.weather_transform | Transformed 1 geocoding record(s)
+2026-10-07 07:50:44,184 | INFO | pipeline.transformation.weather_transform | Transformed OpenWeather data for 1 city record(s)
+2026-10-07 07:50:44,675 | INFO | pipeline.transformation.weather_transform | Transformed 1 geocoding record(s)
+2026-10-07 07:50:44,833 | INFO | pipeline.transformation.weather_transform | Transformed OpenWeather data for 1 city record(s)
+2026-10-07 07:50:45,388 | INFO | pipeline.transformation.weather_transform | Transformed 1 geocoding record(s)
+2026-10-07 07:50:45,603 | INFO | pipeline.transformation.weather_transform | Transformed OpenWeather data for 1 city record(s)
+2026-10-07 07:50:46,266 | INFO | pipeline.transformation.weather_transform | Transformed 1 geocoding record(s)
+2026-10-07 07:50:46,425 | INFO | pipeline.transformation.weather_transform | Transformed OpenWeather data for 1 city record(s)
+2026-10-07 07:50:47,079 | INFO | pipeline.transformation.weather_transform | Transformed 1 geocoding record(s)
+2026-10-07 07:50:47,237 | INFO | pipeline.transformation.weather_transform | Transformed OpenWeather data for 1 city record(s)
+2026-10-07 07:50:47,872 | INFO | pipeline.transformation.weather_transform | Transformed 1 geocoding record(s)
+2026-10-07 07:50:48,039 | INFO | pipeline.transformation.weather_transform | Transformed OpenWeather data for 1 city record(s)
+2026-10-07 07:50:48,615 | INFO | pipeline.transformation.weather_transform | Transformed 1 geocoding record(s)
+2026-10-07 07:50:48,840 | INFO | pipeline.transformation.weather_transform | Transformed OpenWeather data for 1 city record(s)
+2026-10-07 08:18:36,706 | INFO | pipeline.transformation.weather_transform | Transformed 1 geocoding record(s)
+2026-10-07 08:18:37,241 | INFO | pipeline.transformation.weather_transform | Transformed OpenWeather data for 1 city record(s)
+2026-10-07 08:18:37,951 | INFO | pipeline.transformation.weather_transform | Transformed 1 geocoding record(s)
+2026-10-07 08:18:38,189 | INFO | pipeline.transformation.weather_transform | Transformed OpenWeather data for 1 city record(s)
+2026-10-07 08:18:38,918 | INFO | pipeline.transformation.weather_transform | Transformed 1 geocoding record(s)
+2026-10-07 08:18:39,169 | INFO | pipeline.transformation.weather_transform | Transformed OpenWeather data for 1 city record(s)
+2026-10-07 08:18:39,881 | INFO | pipeline.transformation.weather_transform | Transformed 1 geocoding record(s)
+2026-10-07 08:18:40,044 | INFO | pipeline.transformation.weather_transform | Transformed OpenWeather data for 1 city record(s)
+2026-10-07 08:18:41,053 | INFO | pipeline.transformation.weather_transform | Transformed 1 geocoding record(s)
+2026-10-07 08:18:41,219 | INFO | pipeline.transformation.weather_transform | Transformed OpenWeather data for 1 city record(s)
+2026-10-07 08:18:41,853 | INFO | pipeline.transformation.weather_transform | Transformed 1 geocoding record(s)
+2026-10-07 08:18:42,008 | INFO | pipeline.transformation.weather_transform | Transformed OpenWeather data for 1 city record(s)
+2026-10-07 08:18:42,692 | INFO | pipeline.transformation.weather_transform | Transformed 1 geocoding record(s)
+2026-10-07 08:18:42,878 | INFO | pipeline.transformation.weather_transform | Transformed OpenWeather data for 1 city record(s)
+2026-10-07 08:18:43,516 | INFO | pipeline.transformation.weather_transform | Transformed 1 geocoding record(s)
+2026-10-07 08:18:43,652 | INFO | pipeline.transformation.weather_transform | Transformed OpenWeather data for 1 city record(s)
+2026-10-07 08:27:26,874 | INFO | pipeline.transformation.weather_transform | Transformed 1 geocoding record(s)
+2026-10-07 08:27:27,211 | INFO | pipeline.transformation.weather_transform | Transformed OpenWeather data for 1 city record(s)
+2026-10-07 08:27:27,932 | INFO | pipeline.transformation.weather_transform | Transformed 1 geocoding record(s)
+2026-10-07 08:27:28,301 | INFO | pipeline.transformation.weather_transform | Transformed 1 geocoding record(s)
+2026-10-07 08:27:28,747 | INFO | pipeline.transformation.weather_transform | Transformed 1 geocoding record(s)
+2026-10-07 08:27:29,166 | INFO | pipeline.transformation.weather_transform | Transformed 1 geocoding record(s)
+2026-10-07 08:27:29,622 | INFO | pipeline.transformation.weather_transform | Transformed 1 geocoding record(s)
+2026-10-07 08:27:29,938 | INFO | pipeline.transformation.weather_transform | Transformed 1 geocoding record(s)
+2026-10-07 08:27:30,367 | INFO | pipeline.transformation.weather_transform | Transformed 1 geocoding record(s)
+2026-10-07 08:27:30,826 | INFO | pipeline.transformation.weather_transform | Transformed OpenWeather data for 1 city record(s)
+2026-10-07 08:28:40,009 | INFO | pipeline.transformation.weather_transform | Transformed 1 geocoding record(s)
+2026-10-07 08:28:40,499 | INFO | pipeline.transformation.weather_transform | Transformed 1 geocoding record(s)
+2026-10-07 08:28:40,685 | INFO | pipeline.transformation.weather_transform | Transformed OpenWeather data for 1 city record(s)
+2026-10-07 08:28:41,242 | INFO | pipeline.transformation.weather_transform | Transformed 1 geocoding record(s)
+2026-10-07 08:28:41,426 | INFO | pipeline.transformation.weather_transform | Transformed OpenWeather data for 1 city record(s)
+2026-10-07 08:28:42,149 | INFO | pipeline.transformation.weather_transform | Transformed 1 geocoding record(s)
+2026-10-07 08:28:42,308 | INFO | pipeline.transformation.weather_transform | Transformed OpenWeather data for 1 city record(s)
+2026-10-07 08:28:43,038 | INFO | pipeline.transformation.weather_transform | Transformed 1 geocoding record(s)
+2026-10-07 08:28:43,201 | INFO | pipeline.transformation.weather_transform | Transformed OpenWeather data for 1 city record(s)
+2026-10-07 08:28:43,996 | INFO | pipeline.transformation.weather_transform | Transformed 1 geocoding record(s)
+2026-10-07 08:28:44,168 | INFO | pipeline.transformation.weather_transform | Transformed OpenWeather data for 1 city record(s)
+2026-10-07 08:28:44,993 | INFO | pipeline.transformation.weather_transform | Transformed 1 geocoding record(s)
+2026-10-07 08:28:45,267 | INFO | pipeline.transformation.weather_transform | Transformed OpenWeather data for 1 city record(s)
+2026-10-07 08:28:45,836 | INFO | pipeline.transformation.weather_transform | Transformed 1 geocoding record(s)
+2026-10-07 08:50:00,592 | INFO | pipeline.transformation.weather_transform | Transformed 1 geocoding record(s)
+2026-10-07 08:50:00,942 | INFO | pipeline.transformation.weather_transform | Transformed OpenWeather data for 1 city record(s)
+2026-10-07 08:50:01,718 | INFO | pipeline.transformation.weather_transform | Transformed 1 geocoding record(s)
+2026-10-07 08:50:01,897 | INFO | pipeline.transformation.weather_transform | Transformed OpenWeather data for 1 city record(s)
+2026-10-07 08:50:02,542 | INFO | pipeline.transformation.weather_transform | Transformed 1 geocoding record(s)
+2026-10-07 08:50:02,752 | INFO | pipeline.transformation.weather_transform | Transformed OpenWeather data for 1 city record(s)
+2026-10-07 08:50:03,640 | INFO | pipeline.transformation.weather_transform | Transformed 1 geocoding record(s)
+2026-10-07 08:50:03,785 | INFO | pipeline.transformation.weather_transform | Transformed OpenWeather data for 1 city record(s)
+2026-10-07 08:50:04,534 | INFO | pipeline.transformation.weather_transform | Transformed 1 geocoding record(s)
+2026-10-07 08:50:04,747 | INFO | pipeline.transformation.weather_transform | Transformed OpenWeather data for 1 city record(s)
+2026-10-07 08:50:05,477 | INFO | pipeline.transformation.weather_transform | Transformed 1 geocoding record(s)
+2026-10-07 08:50:05,625 | INFO | pipeline.transformation.weather_transform | Transformed OpenWeather data for 1 city record(s)
+2026-10-07 08:50:06,399 | INFO | pipeline.transformation.weather_transform | Transformed 1 geocoding record(s)
+2026-10-07 08:50:06,611 | INFO | pipeline.transformation.weather_transform | Transformed OpenWeather data for 1 city record(s)
+2026-10-07 08:50:07,328 | INFO | pipeline.transformation.weather_transform | Transformed 1 geocoding record(s)
+2026-10-07 08:50:07,532 | INFO | pipeline.transformation.weather_transform | Transformed OpenWeather data for 1 city record(s)
+2026-10-07 09:44:12,820 | INFO | pipeline.transformation.weather_transform | Transformed 1 geocoding record(s)
+2026-10-07 09:44:13,107 | INFO | pipeline.transformation.weather_transform | Transformed OpenWeather data for 1 city record(s)
+2026-10-07 09:44:13,767 | INFO | pipeline.transformation.weather_transform | Transformed 1 geocoding record(s)
+2026-10-07 09:44:13,935 | INFO | pipeline.transformation.weather_transform | Transformed OpenWeather data for 1 city record(s)
+2026-10-07 09:44:14,743 | INFO | pipeline.transformation.weather_transform | Transformed 1 geocoding record(s)
+2026-10-07 09:44:14,894 | INFO | pipeline.transformation.weather_transform | Transformed OpenWeather data for 1 city record(s)
+2026-10-07 09:44:15,487 | INFO | pipeline.transformation.weather_transform | Transformed 1 geocoding record(s)
+2026-10-07 09:44:15,693 | INFO | pipeline.transformation.weather_transform | Transformed OpenWeather data for 1 city record(s)
+2026-10-07 09:44:16,346 | INFO | pipeline.transformation.weather_transform | Transformed 1 geocoding record(s)
+2026-10-07 09:44:16,535 | INFO | pipeline.transformation.weather_transform | Transformed OpenWeather data for 1 city record(s)
+2026-10-07 09:44:17,145 | INFO | pipeline.transformation.weather_transform | Transformed 1 geocoding record(s)
+2026-10-07 09:44:17,360 | INFO | pipeline.transformation.weather_transform | Transformed OpenWeather data for 1 city record(s)
+2026-10-07 09:44:18,035 | INFO | pipeline.transformation.weather_transform | Transformed 1 geocoding record(s)
+2026-10-07 09:44:18,256 | INFO | pipeline.transformation.weather_transform | Transformed OpenWeather data for 1 city record(s)
+2026-10-07 09:44:19,002 | INFO | pipeline.transformation.weather_transform | Transformed 1 geocoding record(s)
+2026-10-07 09:44:19,213 | INFO | pipeline.transformation.weather_transform | Transformed OpenWeather data for 1 city record(s)
+2026-10-07 09:48:49,730 | INFO | pipeline.transformation.weather_transform | Transformed 1 geocoding record(s)
+2026-10-07 09:48:50,406 | INFO | pipeline.transformation.weather_transform | Transformed 1 geocoding record(s)
+2026-10-07 09:48:50,874 | INFO | pipeline.transformation.weather_transform | Transformed 1 geocoding record(s)
+2026-10-07 09:48:51,447 | INFO | pipeline.transformation.weather_transform | Transformed 1 geocoding record(s)
+2026-10-07 09:48:51,964 | INFO | pipeline.transformation.weather_transform | Transformed 1 geocoding record(s)
+2026-10-07 09:48:52,410 | INFO | pipeline.transformation.weather_transform | Transformed 1 geocoding record(s)
+2026-10-07 09:48:52,931 | INFO | pipeline.transformation.weather_transform | Transformed 1 geocoding record(s)
+2026-10-07 09:48:53,428 | INFO | pipeline.transformation.weather_transform | Transformed 1 geocoding record(s)
+2026-10-07 10:09:18,203 | INFO | pipeline.transformation.weather_transform | Transformed 1 geocoding record(s)
+2026-10-07 10:09:18,925 | INFO | pipeline.transformation.weather_transform | Transformed OpenWeather data for 1 city record(s)
+2026-10-07 10:09:19,650 | INFO | pipeline.transformation.weather_transform | Transformed 1 geocoding record(s)
+2026-10-07 10:09:19,835 | INFO | pipeline.transformation.weather_transform | Transformed OpenWeather data for 1 city record(s)
+2026-10-07 10:09:20,543 | INFO | pipeline.transformation.weather_transform | Transformed 1 geocoding record(s)
+2026-10-07 10:09:20,782 | INFO | pipeline.transformation.weather_transform | Transformed OpenWeather data for 1 city record(s)
+2026-10-07 10:09:21,457 | INFO | pipeline.transformation.weather_transform | Transformed 1 geocoding record(s)
+2026-10-07 10:09:21,633 | INFO | pipeline.transformation.weather_transform | Transformed OpenWeather data for 1 city record(s)
+2026-10-07 10:09:22,276 | INFO | pipeline.transformation.weather_transform | Transformed 1 geocoding record(s)
+2026-10-07 10:09:22,450 | INFO | pipeline.transformation.weather_transform | Transformed OpenWeather data for 1 city record(s)
+2026-10-07 10:09:23,173 | INFO | pipeline.transformation.weather_transform | Transformed 1 geocoding record(s)
+2026-10-07 10:09:23,429 | INFO | pipeline.transformation.weather_transform | Transformed OpenWeather data for 1 city record(s)
+2026-10-07 10:09:24,273 | INFO | pipeline.transformation.weather_transform | Transformed 1 geocoding record(s)
+2026-10-07 10:09:24,624 | INFO | pipeline.transformation.weather_transform | Transformed OpenWeather data for 1 city record(s)
+2026-10-07 10:09:25,274 | INFO | pipeline.transformation.weather_transform | Transformed 1 geocoding record(s)
+2026-10-07 10:09:25,506 | INFO | pipeline.transformation.weather_transform | Transformed OpenWeather data for 1 city record(s)
+2026-10-07 10:24:14,253 | INFO | pipeline.transformation.weather_transform | Transformed 1 geocoding record(s)
+2026-10-07 10:24:14,718 | INFO | pipeline.transformation.weather_transform | Transformed 1 geocoding record(s)
+2026-10-07 10:24:14,980 | INFO | pipeline.transformation.weather_transform | Transformed 1 geocoding record(s)
+2026-10-07 10:24:15,322 | INFO | pipeline.transformation.weather_transform | Transformed 1 geocoding record(s)
+2026-10-07 10:24:15,620 | INFO | pipeline.transformation.weather_transform | Transformed 1 geocoding record(s)
+2026-10-07 10:24:15,896 | INFO | pipeline.transformation.weather_transform | Transformed 1 geocoding record(s)
+2026-10-07 10:24:16,224 | INFO | pipeline.transformation.weather_transform | Transformed 1 geocoding record(s)
+2026-10-07 10:24:16,515 | INFO | pipeline.transformation.weather_transform | Transformed 1 geocoding record(s)
+2026-10-07 10:27:13,285 | INFO | pipeline.transformation.weather_transform | Transformed 1 geocoding record(s)
+2026-10-07 10:27:13,587 | INFO | pipeline.transformation.weather_transform | Transformed 1 geocoding record(s)
+2026-10-07 10:27:13,874 | INFO | pipeline.transformation.weather_transform | Transformed 1 geocoding record(s)
+2026-10-07 10:27:14,264 | INFO | pipeline.transformation.weather_transform | Transformed 1 geocoding record(s)
+2026-10-07 10:27:14,541 | INFO | pipeline.transformation.weather_transform | Transformed 1 geocoding record(s)
+2026-10-07 10:27:14,952 | INFO | pipeline.transformation.weather_transform | Transformed 1 geocoding record(s)
+2026-10-07 10:27:15,238 | INFO | pipeline.transformation.weather_transform | Transformed 1 geocoding record(s)
+2026-10-07 10:27:15,493 | INFO | pipeline.transformation.weather_transform | Transformed 1 geocoding record(s)
+2026-10-07 10:30:36,135 | INFO | pipeline.transformation.weather_transform | Transformed 1 geocoding record(s)
+2026-10-07 10:30:36,434 | INFO | pipeline.transformation.weather_transform | Transformed OpenWeather data for 1 city record(s)
+2026-10-07 10:30:37,161 | INFO | pipeline.transformation.weather_transform | Transformed 1 geocoding record(s)
+2026-10-07 10:30:37,332 | INFO | pipeline.transformation.weather_transform | Transformed OpenWeather data for 1 city record(s)
+2026-10-07 10:30:37,876 | INFO | pipeline.transformation.weather_transform | Transformed 1 geocoding record(s)
+2026-10-07 10:30:38,056 | INFO | pipeline.transformation.weather_transform | Transformed OpenWeather data for 1 city record(s)
+2026-10-07 10:30:38,677 | INFO | pipeline.transformation.weather_transform | Transformed 1 geocoding record(s)
+2026-10-07 10:30:38,854 | INFO | pipeline.transformation.weather_transform | Transformed OpenWeather data for 1 city record(s)
+2026-10-07 10:30:39,607 | INFO | pipeline.transformation.weather_transform | Transformed 1 geocoding record(s)
+2026-10-07 10:30:39,754 | INFO | pipeline.transformation.weather_transform | Transformed OpenWeather data for 1 city record(s)
+2026-10-07 10:30:40,444 | INFO | pipeline.transformation.weather_transform | Transformed 1 geocoding record(s)
+2026-10-07 10:30:40,619 | INFO | pipeline.transformation.weather_transform | Transformed OpenWeather data for 1 city record(s)
+2026-10-07 10:30:41,292 | INFO | pipeline.transformation.weather_transform | Transformed 1 geocoding record(s)
+2026-10-07 10:30:41,446 | INFO | pipeline.transformation.weather_transform | Transformed OpenWeather data for 1 city record(s)
+2026-10-07 10:30:41,998 | INFO | pipeline.transformation.weather_transform | Transformed 1 geocoding record(s)
+2026-10-07 10:30:42,151 | INFO | pipeline.transformation.weather_transform | Transformed OpenWeather data for 1 city record(s)
+2026-10-07 18:32:44,901 | INFO | pipeline.transformation.weather_transform | Transformed OpenWeather data for 1 city record(s)
+2026-10-07 18:32:45,514 | INFO | pipeline.transformation.weather_transform | Transformed OpenWeather data for 1 city record(s)
+2026-10-07 18:33:02,021 | INFO | pipeline.transformation.weather_transform | Transformed OpenWeather data for 1 city record(s)
+2026-10-07 18:33:02,491 | INFO | pipeline.transformation.weather_transform | Transformed 1 geocoding record(s)
+2026-10-07 18:33:02,497 | INFO | pipeline.transformation.weather_transform | Transformed OpenWeather data for 1 city record(s)
+2026-10-07 18:38:01,308 | INFO | pipeline.transformation.weather_transform | Transformed OpenWeather data for 1 city record(s)
+2026-10-07 18:38:16,917 | INFO | pipeline.transformation.weather_transform | Transformed OpenWeather data for 1 city record(s)
+2026-10-07 18:38:17,187 | INFO | pipeline.transformation.weather_transform | Transformed 1 geocoding record(s)
+2026-10-07 18:38:17,196 | INFO | pipeline.transformation.weather_transform | Transformed OpenWeather data for 1 city record(s)
+2026-10-07 18:39:47,739 | INFO | pipeline.transformation.weather_transform | Transformed OpenWeather data for 1 city record(s)
+2026-10-07 18:39:48,197 | INFO | pipeline.transformation.weather_transform | Transformed OpenWeather data for 1 city record(s)
+2026-10-07 18:39:48,237 | INFO | pipeline.transformation.weather_transform | Transformed OpenWeather data for 1 city record(s)
+2026-10-07 18:39:48,705 | INFO | pipeline.transformation.weather_transform | Transformed 1 geocoding record(s)
+2026-10-07 18:39:48,710 | INFO | pipeline.transformation.weather_transform | Transformed OpenWeather data for 1 city record(s)
+2026-10-07 18:43:33,171 | INFO | pipeline.transformation.weather_transform | Transformed OpenWeather data for 1 city record(s)
+2026-10-07 18:43:33,501 | INFO | pipeline.transformation.weather_transform | Transformed OpenWeather data for 1 city record(s)
+2026-10-07 18:43:33,552 | INFO | pipeline.transformation.weather_transform | Transformed OpenWeather data for 1 city record(s)
+2026-10-07 18:43:33,904 | INFO | pipeline.transformation.weather_transform | Transformed 1 geocoding record(s)
+2026-10-07 18:43:33,911 | INFO | pipeline.transformation.weather_transform | Transformed OpenWeather data for 1 city record(s)
+2026-10-07 18:47:06,903 | INFO | pipeline.transformation.weather_transform | Transformed OpenWeather data for 1 city record(s)
+2026-10-07 18:47:07,297 | INFO | pipeline.transformation.weather_transform | Transformed OpenWeather data for 1 city record(s)
+2026-10-07 18:47:07,349 | INFO | pipeline.transformation.weather_transform | Transformed OpenWeather data for 1 city record(s)
+2026-10-07 18:47:07,790 | INFO | pipeline.transformation.weather_transform | Transformed 1 geocoding record(s)
+2026-10-07 18:47:07,797 | INFO | pipeline.transformation.weather_transform | Transformed OpenWeather data for 1 city record(s)
+2026-10-07 10:50:21,575 | INFO | pipeline.transformation.weather_transform | Transformed 1 geocoding record(s)
+2026-10-07 10:50:22,135 | INFO | pipeline.transformation.weather_transform | Transformed 1 geocoding record(s)
+2026-10-07 10:50:22,307 | INFO | pipeline.transformation.weather_transform | Transformed OpenWeather data for 1 city record(s)
+2026-10-07 10:50:22,976 | INFO | pipeline.transformation.weather_transform | Transformed 1 geocoding record(s)
+2026-10-07 10:50:23,163 | INFO | pipeline.transformation.weather_transform | Transformed OpenWeather data for 1 city record(s)
+2026-10-07 10:50:23,827 | INFO | pipeline.transformation.weather_transform | Transformed 1 geocoding record(s)
+2026-10-07 10:50:23,995 | INFO | pipeline.transformation.weather_transform | Transformed OpenWeather data for 1 city record(s)
+2026-10-07 10:50:24,699 | INFO | pipeline.transformation.weather_transform | Transformed 1 geocoding record(s)
+2026-10-07 10:50:24,901 | INFO | pipeline.transformation.weather_transform | Transformed OpenWeather data for 1 city record(s)
+2026-10-07 10:50:25,555 | INFO | pipeline.transformation.weather_transform | Transformed 1 geocoding record(s)
+2026-10-07 10:50:25,778 | INFO | pipeline.transformation.weather_transform | Transformed OpenWeather data for 1 city record(s)
+2026-10-07 10:50:26,396 | INFO | pipeline.transformation.weather_transform | Transformed 1 geocoding record(s)
+2026-10-07 10:50:26,587 | INFO | pipeline.transformation.weather_transform | Transformed OpenWeather data for 1 city record(s)
+2026-10-07 10:50:27,323 | INFO | pipeline.transformation.weather_transform | Transformed 1 geocoding record(s)
+2026-10-07 10:50:27,547 | INFO | pipeline.transformation.weather_transform | Transformed OpenWeather data for 1 city record(s)
+2026-10-07 11:10:25,965 | INFO | pipeline.transformation.weather_transform | Transformed 1 geocoding record(s)
+2026-10-07 11:10:26,328 | INFO | pipeline.transformation.weather_transform | Transformed 1 geocoding record(s)
+2026-10-07 11:10:26,684 | INFO | pipeline.transformation.weather_transform | Transformed 1 geocoding record(s)
+2026-10-07 11:10:27,000 | INFO | pipeline.transformation.weather_transform | Transformed 1 geocoding record(s)
+2026-10-07 11:10:27,348 | INFO | pipeline.transformation.weather_transform | Transformed 1 geocoding record(s)
+2026-10-07 11:10:27,648 | INFO | pipeline.transformation.weather_transform | Transformed 1 geocoding record(s)
+2026-10-07 11:10:27,987 | INFO | pipeline.transformation.weather_transform | Transformed 1 geocoding record(s)
+2026-10-07 11:10:28,258 | INFO | pipeline.transformation.weather_transform | Transformed 1 geocoding record(s)
+2026-10-07 11:36:40,557 | INFO | pipeline.transformation.weather_transform | Transformed 1 geocoding record(s)
+2026-10-07 11:36:40,972 | INFO | pipeline.transformation.weather_transform | Transformed 1 geocoding record(s)
+2026-10-07 11:36:41,249 | INFO | pipeline.transformation.weather_transform | Transformed 1 geocoding record(s)
+2026-10-07 11:36:41,512 | INFO | pipeline.transformation.weather_transform | Transformed 1 geocoding record(s)
+2026-10-07 11:36:41,810 | INFO | pipeline.transformation.weather_transform | Transformed 1 geocoding record(s)
+2026-10-07 11:36:42,080 | INFO | pipeline.transformation.weather_transform | Transformed 1 geocoding record(s)
+2026-10-07 11:36:42,411 | INFO | pipeline.transformation.weather_transform | Transformed 1 geocoding record(s)
+2026-10-07 11:36:42,719 | INFO | pipeline.transformation.weather_transform | Transformed 1 geocoding record(s)
+2026-10-07 19:42:21,703 | INFO | pipeline.transformation.weather_transform | Transformed OpenWeather data for 1 city record(s)
+2026-10-07 19:42:22,009 | INFO | pipeline.transformation.weather_transform | Transformed OpenWeather data for 1 city record(s)
+2026-10-07 19:42:22,041 | INFO | pipeline.transformation.weather_transform | Transformed OpenWeather data for 1 city record(s)
+2026-10-07 19:42:22,465 | INFO | pipeline.transformation.weather_transform | Transformed 1 geocoding record(s)
+2026-10-07 19:42:22,470 | INFO | pipeline.transformation.weather_transform | Transformed OpenWeather data for 1 city record(s)
+2026-10-07 19:43:46,277 | INFO | pipeline.transformation.weather_transform | Transformed OpenWeather data for 1 city record(s)
+2026-10-07 19:43:46,463 | INFO | pipeline.transformation.weather_transform | Transformed OpenWeather data for 1 city record(s)
+2026-10-07 19:43:46,499 | INFO | pipeline.transformation.weather_transform | Transformed OpenWeather data for 1 city record(s)
+2026-10-07 19:43:46,792 | INFO | pipeline.transformation.weather_transform | Transformed 1 geocoding record(s)
+2026-10-07 19:43:46,797 | INFO | pipeline.transformation.weather_transform | Transformed OpenWeather data for 1 city record(s)
+2026-10-07 11:45:00,345 | INFO | pipeline.transformation.weather_transform | Transformed 1 geocoding record(s)
+2026-10-07 11:45:00,710 | INFO | pipeline.transformation.weather_transform | Transformed 1 geocoding record(s)
+2026-10-07 11:45:00,956 | INFO | pipeline.transformation.weather_transform | Transformed 1 geocoding record(s)
+2026-10-07 11:45:01,216 | INFO | pipeline.transformation.weather_transform | Transformed 1 geocoding record(s)
+2026-10-07 11:45:01,495 | INFO | pipeline.transformation.weather_transform | Transformed 1 geocoding record(s)
+2026-10-07 11:45:01,798 | INFO | pipeline.transformation.weather_transform | Transformed 1 geocoding record(s)
+2026-10-07 11:45:02,023 | INFO | pipeline.transformation.weather_transform | Transformed 1 geocoding record(s)
+2026-10-07 11:45:02,243 | INFO | pipeline.transformation.weather_transform | Transformed 1 geocoding record(s)
+2026-10-07 11:47:52,694 | INFO | pipeline.transformation.weather_transform | Transformed 1 geocoding record(s)
+2026-10-07 11:47:52,941 | INFO | pipeline.transformation.weather_transform | Transformed 1 geocoding record(s)
+2026-10-07 11:47:53,238 | INFO | pipeline.transformation.weather_transform | Transformed 1 geocoding record(s)
+2026-10-07 11:47:53,469 | INFO | pipeline.transformation.weather_transform | Transformed 1 geocoding record(s)
+2026-10-07 11:47:53,717 | INFO | pipeline.transformation.weather_transform | Transformed 1 geocoding record(s)
+2026-10-07 11:47:53,959 | INFO | pipeline.transformation.weather_transform | Transformed 1 geocoding record(s)
+2026-10-07 11:47:54,183 | INFO | pipeline.transformation.weather_transform | Transformed 1 geocoding record(s)
+2026-10-07 11:47:54,443 | INFO | pipeline.transformation.weather_transform | Transformed 1 geocoding record(s)
+2026-10-07 19:53:16,231 | INFO | pipeline.transformation.weather_transform | Transformed OpenWeather data for 1 city record(s)
+2026-10-07 19:53:16,483 | INFO | pipeline.transformation.weather_transform | Transformed OpenWeather data for 1 city record(s)
+2026-10-07 19:53:16,528 | INFO | pipeline.transformation.weather_transform | Transformed OpenWeather data for 1 city record(s)
+2026-10-07 19:53:17,037 | INFO | pipeline.transformation.weather_transform | Transformed 1 geocoding record(s)
+2026-10-07 19:53:17,042 | INFO | pipeline.transformation.weather_transform | Transformed OpenWeather data for 1 city record(s)
+2026-10-07 19:55:00,840 | INFO | pipeline.transformation.weather_transform | Transformed OpenWeather data for 1 city record(s)
+2026-10-07 19:55:01,093 | INFO | pipeline.transformation.weather_transform | Transformed OpenWeather data for 1 city record(s)
+2026-10-07 19:55:01,140 | INFO | pipeline.transformation.weather_transform | Transformed OpenWeather data for 1 city record(s)
+2026-10-07 19:55:01,442 | INFO | pipeline.transformation.weather_transform | Transformed 1 geocoding record(s)
+2026-10-07 19:55:01,447 | INFO | pipeline.transformation.weather_transform | Transformed OpenWeather data for 1 city record(s)
+2026-10-07 11:55:41,883 | INFO | pipeline.transformation.weather_transform | Transformed 1 geocoding record(s)
+2026-10-07 11:55:42,247 | INFO | pipeline.transformation.weather_transform | Transformed 1 geocoding record(s)
+2026-10-07 11:55:42,443 | INFO | pipeline.transformation.weather_transform | Transformed OpenWeather data for 1 city record(s)
+2026-10-07 11:55:43,212 | INFO | pipeline.transformation.weather_transform | Transformed 1 geocoding record(s)
+2026-10-07 11:55:43,447 | INFO | pipeline.transformation.weather_transform | Transformed OpenWeather data for 1 city record(s)
+2026-10-07 11:55:44,032 | INFO | pipeline.transformation.weather_transform | Transformed 1 geocoding record(s)
+2026-10-07 11:55:44,216 | INFO | pipeline.transformation.weather_transform | Transformed OpenWeather data for 1 city record(s)
+2026-10-07 11:55:44,793 | INFO | pipeline.transformation.weather_transform | Transformed 1 geocoding record(s)
+2026-10-07 11:55:44,958 | INFO | pipeline.transformation.weather_transform | Transformed OpenWeather data for 1 city record(s)
+2026-10-07 11:55:45,540 | INFO | pipeline.transformation.weather_transform | Transformed 1 geocoding record(s)
+2026-10-07 11:55:45,676 | INFO | pipeline.transformation.weather_transform | Transformed OpenWeather data for 1 city record(s)
+2026-10-07 11:55:46,278 | INFO | pipeline.transformation.weather_transform | Transformed 1 geocoding record(s)
+2026-10-07 11:55:46,393 | INFO | pipeline.transformation.weather_transform | Transformed OpenWeather data for 1 city record(s)
+2026-10-07 11:55:46,933 | INFO | pipeline.transformation.weather_transform | Transformed 1 geocoding record(s)
+2026-10-07 11:55:47,074 | INFO | pipeline.transformation.weather_transform | Transformed OpenWeather data for 1 city record(s)
+2026-10-07 12:02:56,538 | INFO | pipeline.transformation.weather_transform | Transformed 1 geocoding record(s)
+2026-10-07 12:02:56,710 | INFO | pipeline.transformation.weather_transform | Transformed OpenWeather data for 1 city record(s)
+2026-10-07 12:02:57,348 | INFO | pipeline.transformation.weather_transform | Transformed 1 geocoding record(s)
+2026-10-07 12:02:57,509 | INFO | pipeline.transformation.weather_transform | Transformed OpenWeather data for 1 city record(s)
+2026-10-07 12:02:58,080 | INFO | pipeline.transformation.weather_transform | Transformed 1 geocoding record(s)
+2026-10-07 12:02:58,225 | INFO | pipeline.transformation.weather_transform | Transformed OpenWeather data for 1 city record(s)
+2026-10-07 12:02:58,883 | INFO | pipeline.transformation.weather_transform | Transformed 1 geocoding record(s)
+2026-10-07 12:02:59,002 | INFO | pipeline.transformation.weather_transform | Transformed OpenWeather data for 1 city record(s)
+2026-10-07 12:02:59,581 | INFO | pipeline.transformation.weather_transform | Transformed 1 geocoding record(s)
+2026-10-07 12:02:59,881 | INFO | pipeline.transformation.weather_transform | Transformed 1 geocoding record(s)
+2026-10-07 12:03:00,061 | INFO | pipeline.transformation.weather_transform | Transformed OpenWeather data for 1 city record(s)
+2026-10-07 12:03:00,574 | INFO | pipeline.transformation.weather_transform | Transformed 1 geocoding record(s)
+2026-10-07 12:03:00,699 | INFO | pipeline.transformation.weather_transform | Transformed OpenWeather data for 1 city record(s)
+2026-10-07 12:03:01,241 | INFO | pipeline.transformation.weather_transform | Transformed 1 geocoding record(s)
+2026-10-07 12:03:01,387 | INFO | pipeline.transformation.weather_transform | Transformed OpenWeather data for 1 city record(s)
+2026-10-09 03:05:40,031 | INFO | pipeline.transformation.weather_transform | Transformed 1 geocoding record(s)
+2026-10-09 03:05:40,345 | INFO | pipeline.transformation.weather_transform | Transformed 1 geocoding record(s)
+2026-10-09 03:05:40,628 | INFO | pipeline.transformation.weather_transform | Transformed 1 geocoding record(s)
+2026-10-09 03:05:40,903 | INFO | pipeline.transformation.weather_transform | Transformed 1 geocoding record(s)
+2026-10-09 03:05:41,253 | INFO | pipeline.transformation.weather_transform | Transformed 1 geocoding record(s)
+2026-10-09 03:05:41,513 | INFO | pipeline.transformation.weather_transform | Transformed 1 geocoding record(s)
+2026-10-09 03:05:41,823 | INFO | pipeline.transformation.weather_transform | Transformed 1 geocoding record(s)
+2026-10-09 03:05:42,119 | INFO | pipeline.transformation.weather_transform | Transformed 1 geocoding record(s)
+2026-10-09 03:12:09,835 | INFO | pipeline.transformation.weather_transform | Transformed 1 geocoding record(s)
+2026-10-09 03:12:10,155 | INFO | pipeline.transformation.weather_transform | Transformed OpenWeather data for 1 city record(s)
+2026-10-09 03:12:10,789 | INFO | pipeline.transformation.weather_transform | Transformed 1 geocoding record(s)
+2026-10-09 03:12:10,936 | INFO | pipeline.transformation.weather_transform | Transformed OpenWeather data for 1 city record(s)
+2026-10-09 03:12:11,595 | INFO | pipeline.transformation.weather_transform | Transformed 1 geocoding record(s)
+2026-10-09 03:12:11,829 | INFO | pipeline.transformation.weather_transform | Transformed OpenWeather data for 1 city record(s)
+2026-10-09 03:12:12,606 | INFO | pipeline.transformation.weather_transform | Transformed 1 geocoding record(s)
+2026-10-09 03:12:12,787 | INFO | pipeline.transformation.weather_transform | Transformed OpenWeather data for 1 city record(s)
+2026-10-09 03:12:13,621 | INFO | pipeline.transformation.weather_transform | Transformed 1 geocoding record(s)
+2026-10-09 03:12:13,833 | INFO | pipeline.transformation.weather_transform | Transformed OpenWeather data for 1 city record(s)
+2026-10-09 03:12:14,430 | INFO | pipeline.transformation.weather_transform | Transformed 1 geocoding record(s)
+2026-10-09 03:12:14,677 | INFO | pipeline.transformation.weather_transform | Transformed OpenWeather data for 1 city record(s)
+2026-10-09 03:12:15,413 | INFO | pipeline.transformation.weather_transform | Transformed 1 geocoding record(s)
+2026-10-09 03:12:15,622 | INFO | pipeline.transformation.weather_transform | Transformed OpenWeather data for 1 city record(s)
+2026-10-09 03:12:16,363 | INFO | pipeline.transformation.weather_transform | Transformed 1 geocoding record(s)
+2026-10-09 03:12:16,537 | INFO | pipeline.transformation.weather_transform | Transformed OpenWeather data for 1 city record(s)
+2026-10-09 03:15:11,872 | INFO | pipeline.transformation.weather_transform | Transformed 1 geocoding record(s)
+2026-10-09 03:15:12,260 | INFO | pipeline.transformation.weather_transform | Transformed 1 geocoding record(s)
+2026-10-09 03:15:12,727 | INFO | pipeline.transformation.weather_transform | Transformed 1 geocoding record(s)
+2026-10-09 03:15:12,922 | INFO | pipeline.transformation.weather_transform | Transformed OpenWeather data for 1 city record(s)
+2026-10-09 03:15:13,487 | INFO | pipeline.transformation.weather_transform | Transformed 1 geocoding record(s)
+2026-10-09 03:15:13,795 | INFO | pipeline.transformation.weather_transform | Transformed 1 geocoding record(s)
+2026-10-09 03:15:14,228 | INFO | pipeline.transformation.weather_transform | Transformed 1 geocoding record(s)
+2026-10-09 03:15:14,726 | INFO | pipeline.transformation.weather_transform | Transformed 1 geocoding record(s)
+2026-10-09 03:15:15,133 | INFO | pipeline.transformation.weather_transform | Transformed 1 geocoding record(s)
+2026-10-09 08:43:02,929 | INFO | pipeline.transformation.weather_transform | Transformed 1 geocoding record(s)
+2026-10-09 08:43:03,136 | INFO | pipeline.transformation.weather_transform | Transformed OpenWeather data for 1 city record(s)
+2026-10-09 08:43:03,729 | INFO | pipeline.transformation.weather_transform | Transformed 1 geocoding record(s)
+2026-10-09 08:43:03,869 | INFO | pipeline.transformation.weather_transform | Transformed OpenWeather data for 1 city record(s)
+2026-10-09 08:43:04,477 | INFO | pipeline.transformation.weather_transform | Transformed 1 geocoding record(s)
+2026-10-09 08:43:04,598 | INFO | pipeline.transformation.weather_transform | Transformed OpenWeather data for 1 city record(s)
+2026-10-09 08:43:05,195 | INFO | pipeline.transformation.weather_transform | Transformed 1 geocoding record(s)
+2026-10-09 08:43:05,323 | INFO | pipeline.transformation.weather_transform | Transformed OpenWeather data for 1 city record(s)
+2026-10-09 08:43:05,846 | INFO | pipeline.transformation.weather_transform | Transformed 1 geocoding record(s)
+2026-10-09 08:43:06,006 | INFO | pipeline.transformation.weather_transform | Transformed OpenWeather data for 1 city record(s)
+2026-10-09 08:43:06,477 | INFO | pipeline.transformation.weather_transform | Transformed 1 geocoding record(s)
+2026-10-09 08:43:06,603 | INFO | pipeline.transformation.weather_transform | Transformed OpenWeather data for 1 city record(s)
+2026-10-09 08:43:07,310 | INFO | pipeline.transformation.weather_transform | Transformed 1 geocoding record(s)
+2026-10-09 08:43:07,474 | INFO | pipeline.transformation.weather_transform | Transformed OpenWeather data for 1 city record(s)
+2026-10-09 08:43:07,994 | INFO | pipeline.transformation.weather_transform | Transformed 1 geocoding record(s)
+2026-10-09 08:43:08,125 | INFO | pipeline.transformation.weather_transform | Transformed OpenWeather data for 1 city record(s)
+2026-10-09 17:03:55,840 | ERROR | pipeline.transformation.weather_transform | Error transforming OpenWeather data: Every item in the weather payload must be a dictionary.
+2026-10-09 17:04:10,726 | ERROR | pipeline.transformation.weather_transform | Error transforming OpenWeather data: Every item in the weather payload must be a dictionary.
+2026-10-09 17:04:11,087 | ERROR | pipeline.transformation.weather_transform | Error transforming geocoding data: Every item in the weather payload must be a dictionary.
+2026-10-09 17:05:41,837 | ERROR | pipeline.transformation.weather_transform | Error transforming OpenWeather data: 'list' object has no attribute 'get'
+2026-10-09 17:05:53,237 | ERROR | pipeline.transformation.weather_transform | Error transforming OpenWeather data: 'list' object has no attribute 'get'
+2026-10-09 17:05:53,386 | INFO | pipeline.transformation.weather_transform | Transformed 1 geocoding record(s)
+2026-10-09 17:05:53,390 | ERROR | pipeline.transformation.weather_transform | Error transforming OpenWeather data: 'list' object has no attribute 'get'
+2026-10-09 17:07:36,388 | INFO | pipeline.transformation.weather_transform | Transformed OpenWeather data for 1 city record(s)
+2026-10-09 17:07:49,333 | INFO | pipeline.transformation.weather_transform | Transformed OpenWeather data for 1 city record(s)
+2026-10-09 17:07:49,957 | INFO | pipeline.transformation.weather_transform | Transformed 1 geocoding record(s)
+2026-10-09 17:07:49,966 | INFO | pipeline.transformation.weather_transform | Transformed OpenWeather data for 1 city record(s)
+2026-10-09 17:09:28,595 | INFO | pipeline.transformation.weather_transform | Transformed OpenWeather data for 1 city record(s)
+2026-10-09 17:10:24,504 | INFO | pipeline.transformation.weather_transform | Transformed OpenWeather data for 1 city record(s)
+2026-10-09 17:10:24,537 | INFO | pipeline.transformation.weather_transform | Transformed OpenWeather data for 1 city record(s)
+2026-10-09 17:12:32,199 | INFO | pipeline.transformation.weather_transform | Transformed OpenWeather data for 1 city record(s)
+2026-10-09 17:12:32,239 | INFO | pipeline.transformation.weather_transform | Transformed OpenWeather data for 1 city record(s)
+2026-10-09 17:12:47,812 | INFO | pipeline.transformation.weather_transform | Transformed 1 geocoding record(s)
+2026-10-09 17:12:47,818 | INFO | pipeline.transformation.weather_transform | Transformed OpenWeather data for 1 city record(s)
+2026-10-09 17:13:35,456 | INFO | pipeline.transformation.weather_transform | Transformed OpenWeather data for 1 city record(s)
+2026-10-09 17:15:00,277 | INFO | pipeline.transformation.weather_transform | Transformed OpenWeather data for 1 city record(s)
+2026-10-09 17:15:00,306 | INFO | pipeline.transformation.weather_transform | Transformed OpenWeather data for 1 city record(s)
+2026-10-09 17:15:10,848 | INFO | pipeline.transformation.weather_transform | Transformed 1 geocoding record(s)
+2026-10-09 17:15:10,852 | INFO | pipeline.transformation.weather_transform | Transformed OpenWeather data for 1 city record(s)
+2026-10-09 17:16:49,270 | INFO | pipeline.transformation.weather_transform | Transformed OpenWeather data for 1 city record(s)
+2026-10-09 17:16:49,306 | INFO | pipeline.transformation.weather_transform | Transformed OpenWeather data for 1 city record(s)
+2026-10-09 17:16:49,587 | INFO | pipeline.transformation.weather_transform | Transformed 1 geocoding record(s)
+2026-10-09 17:16:49,592 | INFO | pipeline.transformation.weather_transform | Transformed OpenWeather data for 1 city record(s)
+2026-10-09 09:19:45,108 | INFO | pipeline.transformation.weather_transform | Transformed 1 geocoding record(s)
+2026-10-09 09:19:45,288 | INFO | pipeline.transformation.weather_transform | Transformed OpenWeather data for 1 city record(s)
+2026-10-09 09:19:45,799 | INFO | pipeline.transformation.weather_transform | Transformed 1 geocoding record(s)
+2026-10-09 09:19:45,956 | INFO | pipeline.transformation.weather_transform | Transformed OpenWeather data for 1 city record(s)
+2026-10-09 09:19:46,630 | INFO | pipeline.transformation.weather_transform | Transformed 1 geocoding record(s)
+2026-10-09 09:19:46,755 | INFO | pipeline.transformation.weather_transform | Transformed OpenWeather data for 1 city record(s)
+2026-10-09 09:19:47,357 | INFO | pipeline.transformation.weather_transform | Transformed 1 geocoding record(s)
+2026-10-09 09:19:47,474 | INFO | pipeline.transformation.weather_transform | Transformed OpenWeather data for 1 city record(s)
+2026-10-09 09:19:48,129 | INFO | pipeline.transformation.weather_transform | Transformed 1 geocoding record(s)
+2026-10-09 09:19:48,287 | INFO | pipeline.transformation.weather_transform | Transformed OpenWeather data for 1 city record(s)
+2026-10-09 09:19:48,799 | INFO | pipeline.transformation.weather_transform | Transformed 1 geocoding record(s)
+2026-10-09 09:19:48,984 | INFO | pipeline.transformation.weather_transform | Transformed OpenWeather data for 1 city record(s)
+2026-10-09 09:19:49,607 | INFO | pipeline.transformation.weather_transform | Transformed 1 geocoding record(s)
+2026-10-09 09:19:49,740 | INFO | pipeline.transformation.weather_transform | Transformed OpenWeather data for 1 city record(s)
+2026-10-09 09:19:50,845 | INFO | pipeline.transformation.weather_transform | Transformed 1 geocoding record(s)
+2026-10-09 09:19:51,017 | INFO | pipeline.transformation.weather_transform | Transformed OpenWeather data for 1 city record(s)
+2026-10-09 09:25:32,289 | INFO | pipeline.transformation.weather_transform | Transformed 1 geocoding record(s)
+2026-10-09 09:25:32,745 | INFO | pipeline.transformation.weather_transform | Transformed 1 geocoding record(s)
+2026-10-09 09:25:33,079 | INFO | pipeline.transformation.weather_transform | Transformed 1 geocoding record(s)
+2026-10-09 09:25:33,438 | INFO | pipeline.transformation.weather_transform | Transformed 1 geocoding record(s)
+2026-10-09 09:25:33,817 | INFO | pipeline.transformation.weather_transform | Transformed 1 geocoding record(s)
+2026-10-09 09:25:34,170 | INFO | pipeline.transformation.weather_transform | Transformed 1 geocoding record(s)
+2026-10-09 09:25:34,566 | INFO | pipeline.transformation.weather_transform | Transformed 1 geocoding record(s)
+2026-10-09 09:25:35,002 | INFO | pipeline.transformation.weather_transform | Transformed 1 geocoding record(s)
+2026-10-09 09:26:31,222 | INFO | pipeline.transformation.weather_transform | Transformed 1 geocoding record(s)
+2026-10-09 09:26:31,606 | INFO | pipeline.transformation.weather_transform | Transformed 1 geocoding record(s)
+2026-10-09 09:26:31,945 | INFO | pipeline.transformation.weather_transform | Transformed 1 geocoding record(s)
+2026-10-09 09:26:32,306 | INFO | pipeline.transformation.weather_transform | Transformed 1 geocoding record(s)
+2026-10-09 09:26:32,779 | INFO | pipeline.transformation.weather_transform | Transformed 1 geocoding record(s)
+2026-10-09 09:26:33,179 | INFO | pipeline.transformation.weather_transform | Transformed 1 geocoding record(s)
+2026-10-09 09:26:33,521 | INFO | pipeline.transformation.weather_transform | Transformed 1 geocoding record(s)
+2026-10-09 09:26:33,870 | INFO | pipeline.transformation.weather_transform | Transformed 1 geocoding record(s)
+2026-10-09 09:28:37,602 | INFO | pipeline.transformation.weather_transform | Transformed 1 geocoding record(s)
+2026-10-09 09:28:38,017 | INFO | pipeline.transformation.weather_transform | Transformed 1 geocoding record(s)
+2026-10-09 09:28:38,422 | INFO | pipeline.transformation.weather_transform | Transformed 1 geocoding record(s)
+2026-10-09 09:28:38,777 | INFO | pipeline.transformation.weather_transform | Transformed 1 geocoding record(s)
+2026-10-09 09:28:39,156 | INFO | pipeline.transformation.weather_transform | Transformed 1 geocoding record(s)
+2026-10-09 09:28:39,536 | INFO | pipeline.transformation.weather_transform | Transformed 1 geocoding record(s)
+2026-10-09 09:28:39,859 | INFO | pipeline.transformation.weather_transform | Transformed 1 geocoding record(s)
+2026-10-09 09:28:40,257 | INFO | pipeline.transformation.weather_transform | Transformed 1 geocoding record(s)
+2026-10-09 09:30:19,307 | INFO | pipeline.transformation.weather_transform | Transformed 1 geocoding record(s)
+2026-10-09 09:30:19,742 | INFO | pipeline.transformation.weather_transform | Transformed 1 geocoding record(s)
+2026-10-09 09:30:20,105 | INFO | pipeline.transformation.weather_transform | Transformed 1 geocoding record(s)
+2026-10-09 09:30:20,469 | INFO | pipeline.transformation.weather_transform | Transformed 1 geocoding record(s)
+2026-10-09 09:30:20,863 | INFO | pipeline.transformation.weather_transform | Transformed 1 geocoding record(s)
+2026-10-09 09:30:21,326 | INFO | pipeline.transformation.weather_transform | Transformed 1 geocoding record(s)
+2026-10-09 09:30:21,694 | INFO | pipeline.transformation.weather_transform | Transformed 1 geocoding record(s)
+2026-10-09 09:30:22,016 | INFO | pipeline.transformation.weather_transform | Transformed 1 geocoding record(s)
+2026-10-09 17:36:16,834 | INFO | pipeline.transformation.weather_transform | Transformed OpenWeather data for 1 city record(s)
+2026-10-09 17:36:17,111 | INFO | pipeline.transformation.weather_transform | Transformed OpenWeather data for 1 city record(s)
+2026-10-09 17:36:17,160 | INFO | pipeline.transformation.weather_transform | Transformed OpenWeather data for 1 city record(s)
+2026-10-09 17:36:17,554 | INFO | pipeline.transformation.weather_transform | Transformed 1 geocoding record(s)
+2026-10-09 17:36:17,565 | INFO | pipeline.transformation.weather_transform | Transformed OpenWeather data for 1 city record(s)
+2026-10-09 09:37:46,041 | INFO | pipeline.transformation.weather_transform | Transformed 1 geocoding record(s)
+2026-10-09 09:37:46,415 | INFO | pipeline.transformation.weather_transform | Transformed 1 geocoding record(s)
+2026-10-09 09:37:46,567 | INFO | pipeline.transformation.weather_transform | Transformed OpenWeather data for 1 city record(s)
+2026-10-09 09:37:47,187 | INFO | pipeline.transformation.weather_transform | Transformed 1 geocoding record(s)
+2026-10-09 09:37:47,311 | INFO | pipeline.transformation.weather_transform | Transformed OpenWeather data for 1 city record(s)
+2026-10-09 09:37:47,849 | INFO | pipeline.transformation.weather_transform | Transformed 1 geocoding record(s)
+2026-10-09 09:37:47,990 | INFO | pipeline.transformation.weather_transform | Transformed OpenWeather data for 1 city record(s)
+2026-10-09 09:37:48,605 | INFO | pipeline.transformation.weather_transform | Transformed 1 geocoding record(s)
+2026-10-09 09:37:48,731 | INFO | pipeline.transformation.weather_transform | Transformed OpenWeather data for 1 city record(s)
+2026-10-09 09:37:49,368 | INFO | pipeline.transformation.weather_transform | Transformed 1 geocoding record(s)
+2026-10-09 09:37:49,530 | INFO | pipeline.transformation.weather_transform | Transformed OpenWeather data for 1 city record(s)
+2026-10-09 09:37:50,169 | INFO | pipeline.transformation.weather_transform | Transformed 1 geocoding record(s)
+2026-10-09 09:37:50,309 | INFO | pipeline.transformation.weather_transform | Transformed OpenWeather data for 1 city record(s)
+2026-10-09 09:37:50,841 | INFO | pipeline.transformation.weather_transform | Transformed 1 geocoding record(s)
+2026-10-09 09:37:51,020 | INFO | pipeline.transformation.weather_transform | Transformed OpenWeather data for 1 city record(s)
+2026-10-09 09:39:20,232 | INFO | pipeline.transformation.weather_transform | Transformed 1 geocoding record(s)
+2026-10-09 09:39:20,369 | INFO | pipeline.transformation.weather_transform | Transformed OpenWeather data for 1 city record(s)
+2026-10-09 09:39:20,941 | INFO | pipeline.transformation.weather_transform | Transformed 1 geocoding record(s)
+2026-10-09 09:39:21,328 | INFO | pipeline.transformation.weather_transform | Transformed 1 geocoding record(s)
+2026-10-09 09:39:21,434 | INFO | pipeline.transformation.weather_transform | Transformed OpenWeather data for 1 city record(s)
+2026-10-09 09:39:22,283 | INFO | pipeline.transformation.weather_transform | Transformed 1 geocoding record(s)
+2026-10-09 09:39:22,644 | INFO | pipeline.transformation.weather_transform | Transformed 1 geocoding record(s)
+2026-10-09 09:39:22,786 | INFO | pipeline.transformation.weather_transform | Transformed OpenWeather data for 1 city record(s)
+2026-10-09 09:39:23,358 | INFO | pipeline.transformation.weather_transform | Transformed 1 geocoding record(s)
+2026-10-09 09:39:23,685 | INFO | pipeline.transformation.weather_transform | Transformed 1 geocoding record(s)
+2026-10-09 09:39:24,040 | INFO | pipeline.transformation.weather_transform | Transformed 1 geocoding record(s)
+2026-10-09 09:39:55,020 | INFO | pipeline.transformation.weather_transform | Transformed 1 geocoding record(s)
+2026-10-09 09:39:55,459 | INFO | pipeline.transformation.weather_transform | Transformed 1 geocoding record(s)
+2026-10-09 09:39:55,802 | INFO | pipeline.transformation.weather_transform | Transformed 1 geocoding record(s)
+2026-10-09 09:39:56,131 | INFO | pipeline.transformation.weather_transform | Transformed 1 geocoding record(s)
+2026-10-09 09:39:56,501 | INFO | pipeline.transformation.weather_transform | Transformed 1 geocoding record(s)
+2026-10-09 09:39:56,898 | INFO | pipeline.transformation.weather_transform | Transformed 1 geocoding record(s)
+2026-10-09 09:39:57,236 | INFO | pipeline.transformation.weather_transform | Transformed 1 geocoding record(s)
+2026-10-09 09:39:57,552 | INFO | pipeline.transformation.weather_transform | Transformed 1 geocoding record(s)
+2026-10-09 09:58:33,237 | INFO | pipeline.transformation.weather_transform | Transformed 1 geocoding record(s)
+2026-10-09 09:58:33,418 | INFO | pipeline.transformation.weather_transform | Transformed OpenWeather data for 1 city record(s)
+2026-10-09 09:58:34,111 | INFO | pipeline.transformation.weather_transform | Transformed 1 geocoding record(s)
+2026-10-09 09:58:34,247 | INFO | pipeline.transformation.weather_transform | Transformed OpenWeather data for 1 city record(s)
+2026-10-09 09:58:34,803 | INFO | pipeline.transformation.weather_transform | Transformed 1 geocoding record(s)
+2026-10-09 09:58:35,016 | INFO | pipeline.transformation.weather_transform | Transformed OpenWeather data for 1 city record(s)
+2026-10-09 09:58:35,595 | INFO | pipeline.transformation.weather_transform | Transformed 1 geocoding record(s)
+2026-10-09 09:58:35,721 | INFO | pipeline.transformation.weather_transform | Transformed OpenWeather data for 1 city record(s)
+2026-10-09 09:58:36,242 | INFO | pipeline.transformation.weather_transform | Transformed 1 geocoding record(s)
+2026-10-09 09:58:36,397 | INFO | pipeline.transformation.weather_transform | Transformed OpenWeather data for 1 city record(s)
+2026-10-09 09:58:37,138 | INFO | pipeline.transformation.weather_transform | Transformed 1 geocoding record(s)
+2026-10-09 09:58:37,274 | INFO | pipeline.transformation.weather_transform | Transformed OpenWeather data for 1 city record(s)
+2026-10-09 09:58:37,928 | INFO | pipeline.transformation.weather_transform | Transformed 1 geocoding record(s)
+2026-10-09 09:58:38,063 | INFO | pipeline.transformation.weather_transform | Transformed OpenWeather data for 1 city record(s)
+2026-10-09 09:58:38,617 | INFO | pipeline.transformation.weather_transform | Transformed 1 geocoding record(s)
+2026-10-09 09:58:38,750 | INFO | pipeline.transformation.weather_transform | Transformed OpenWeather data for 1 city record(s)
+2026-10-09 10:05:04,860 | INFO | pipeline.transformation.weather_transform | Transformed 1 geocoding record(s)
+2026-10-09 10:05:05,193 | INFO | pipeline.transformation.weather_transform | Transformed 1 geocoding record(s)
+2026-10-09 10:05:05,328 | INFO | pipeline.transformation.weather_transform | Transformed OpenWeather data for 1 city record(s)
+2026-10-09 10:05:05,870 | INFO | pipeline.transformation.weather_transform | Transformed 1 geocoding record(s)
+2026-10-09 10:05:06,217 | INFO | pipeline.transformation.weather_transform | Transformed 1 geocoding record(s)
+2026-10-09 10:05:06,355 | INFO | pipeline.transformation.weather_transform | Transformed OpenWeather data for 1 city record(s)
+2026-10-09 10:05:06,938 | INFO | pipeline.transformation.weather_transform | Transformed 1 geocoding record(s)
+2026-10-09 10:05:07,067 | INFO | pipeline.transformation.weather_transform | Transformed OpenWeather data for 1 city record(s)
+2026-10-09 10:05:07,628 | INFO | pipeline.transformation.weather_transform | Transformed 1 geocoding record(s)
+2026-10-09 10:05:07,799 | INFO | pipeline.transformation.weather_transform | Transformed OpenWeather data for 1 city record(s)
+2026-10-09 10:05:08,355 | INFO | pipeline.transformation.weather_transform | Transformed 1 geocoding record(s)
+2026-10-09 10:05:08,692 | INFO | pipeline.transformation.weather_transform | Transformed 1 geocoding record(s)
+2026-10-09 10:05:27,505 | INFO | pipeline.transformation.weather_transform | Transformed 1 geocoding record(s)
+2026-10-09 10:05:27,870 | INFO | pipeline.transformation.weather_transform | Transformed 1 geocoding record(s)
+2026-10-09 10:05:28,231 | INFO | pipeline.transformation.weather_transform | Transformed 1 geocoding record(s)
+2026-10-09 10:05:28,555 | INFO | pipeline.transformation.weather_transform | Transformed 1 geocoding record(s)
+2026-10-09 10:05:28,913 | INFO | pipeline.transformation.weather_transform | Transformed 1 geocoding record(s)
+2026-10-09 10:05:29,279 | INFO | pipeline.transformation.weather_transform | Transformed 1 geocoding record(s)
+2026-10-09 10:05:29,613 | INFO | pipeline.transformation.weather_transform | Transformed 1 geocoding record(s)
+2026-10-09 10:05:29,960 | INFO | pipeline.transformation.weather_transform | Transformed 1 geocoding record(s)
+2026-10-09 10:06:38,898 | INFO | pipeline.transformation.weather_transform | Transformed 1 geocoding record(s)
+2026-10-09 10:06:39,295 | INFO | pipeline.transformation.weather_transform | Transformed 1 geocoding record(s)
+2026-10-09 10:06:39,717 | INFO | pipeline.transformation.weather_transform | Transformed 1 geocoding record(s)
+2026-10-09 10:06:40,148 | INFO | pipeline.transformation.weather_transform | Transformed 1 geocoding record(s)
+2026-10-09 10:06:40,521 | INFO | pipeline.transformation.weather_transform | Transformed 1 geocoding record(s)
+2026-10-09 10:06:40,942 | INFO | pipeline.transformation.weather_transform | Transformed 1 geocoding record(s)
+2026-10-09 10:06:41,264 | INFO | pipeline.transformation.weather_transform | Transformed 1 geocoding record(s)
+2026-10-09 10:06:41,636 | INFO | pipeline.transformation.weather_transform | Transformed 1 geocoding record(s)
+2026-10-09 10:07:43,220 | INFO | pipeline.transformation.weather_transform | Transformed 1 geocoding record(s)
+2026-10-09 10:07:43,576 | INFO | pipeline.transformation.weather_transform | Transformed 1 geocoding record(s)
+2026-10-09 10:07:43,916 | INFO | pipeline.transformation.weather_transform | Transformed 1 geocoding record(s)
+2026-10-09 10:07:44,254 | INFO | pipeline.transformation.weather_transform | Transformed 1 geocoding record(s)
+2026-10-09 10:07:44,626 | INFO | pipeline.transformation.weather_transform | Transformed 1 geocoding record(s)
+2026-10-09 10:07:44,975 | INFO | pipeline.transformation.weather_transform | Transformed 1 geocoding record(s)
+2026-10-09 10:07:45,355 | INFO | pipeline.transformation.weather_transform | Transformed 1 geocoding record(s)
+2026-10-09 10:07:45,698 | INFO | pipeline.transformation.weather_transform | Transformed 1 geocoding record(s)
+2026-10-09 10:07:45,819 | INFO | pipeline.transformation.weather_transform | Transformed OpenWeather data for 1 city record(s)
+2026-10-09 10:07:56,073 | INFO | pipeline.transformation.weather_transform | Transformed 1 geocoding record(s)
+2026-10-09 10:07:56,452 | INFO | pipeline.transformation.weather_transform | Transformed 1 geocoding record(s)
+2026-10-09 10:07:57,036 | INFO | pipeline.transformation.weather_transform | Transformed 1 geocoding record(s)
+2026-10-09 10:07:57,379 | INFO | pipeline.transformation.weather_transform | Transformed 1 geocoding record(s)
+2026-10-09 10:07:57,764 | INFO | pipeline.transformation.weather_transform | Transformed 1 geocoding record(s)
+2026-10-09 10:07:58,186 | INFO | pipeline.transformation.weather_transform | Transformed 1 geocoding record(s)
+2026-10-09 10:07:58,514 | INFO | pipeline.transformation.weather_transform | Transformed 1 geocoding record(s)
+2026-10-09 10:07:58,852 | INFO | pipeline.transformation.weather_transform | Transformed 1 geocoding record(s)
+2026-10-09 10:08:42,545 | INFO | pipeline.transformation.weather_transform | Transformed 1 geocoding record(s)
+2026-10-09 10:08:42,699 | INFO | pipeline.transformation.weather_transform | Transformed OpenWeather data for 1 city record(s)
+2026-10-09 10:08:43,323 | INFO | pipeline.transformation.weather_transform | Transformed 1 geocoding record(s)
+2026-10-09 10:08:43,749 | INFO | pipeline.transformation.weather_transform | Transformed 1 geocoding record(s)
+2026-10-09 10:08:43,872 | INFO | pipeline.transformation.weather_transform | Transformed OpenWeather data for 1 city record(s)
+2026-10-09 10:08:44,701 | INFO | pipeline.transformation.weather_transform | Transformed 1 geocoding record(s)
+2026-10-09 10:08:45,094 | INFO | pipeline.transformation.weather_transform | Transformed 1 geocoding record(s)
+2026-10-09 10:08:45,418 | INFO | pipeline.transformation.weather_transform | Transformed 1 geocoding record(s)
+2026-10-09 10:08:45,772 | INFO | pipeline.transformation.weather_transform | Transformed 1 geocoding record(s)
+2026-10-09 10:08:45,885 | INFO | pipeline.transformation.weather_transform | Transformed OpenWeather data for 1 city record(s)
+2026-10-09 10:08:46,498 | INFO | pipeline.transformation.weather_transform | Transformed 1 geocoding record(s)
+2026-10-09 10:08:56,510 | INFO | pipeline.transformation.weather_transform | Transformed 1 geocoding record(s)
+2026-10-09 10:08:56,831 | INFO | pipeline.transformation.weather_transform | Transformed 1 geocoding record(s)
+2026-10-09 10:08:57,215 | INFO | pipeline.transformation.weather_transform | Transformed 1 geocoding record(s)
+2026-10-09 10:08:57,597 | INFO | pipeline.transformation.weather_transform | Transformed 1 geocoding record(s)
+2026-10-09 10:08:57,963 | INFO | pipeline.transformation.weather_transform | Transformed 1 geocoding record(s)
+2026-10-09 10:08:58,343 | INFO | pipeline.transformation.weather_transform | Transformed 1 geocoding record(s)
+2026-10-09 10:08:58,737 | INFO | pipeline.transformation.weather_transform | Transformed 1 geocoding record(s)
+2026-10-09 10:08:59,107 | INFO | pipeline.transformation.weather_transform | Transformed 1 geocoding record(s)
+2026-10-09 18:13:20,323 | INFO | pipeline.transformation.weather_transform | Transformed OpenWeather data for 1 city record(s)
+2026-10-09 18:13:20,393 | INFO | pipeline.transformation.weather_transform | Transformed OpenWeather data for 1 city record(s)
+2026-10-09 18:13:20,895 | INFO | pipeline.transformation.weather_transform | Transformed 1 geocoding record(s)
+2026-10-09 18:13:20,899 | INFO | pipeline.transformation.weather_transform | Transformed OpenWeather data for 1 city record(s)
+2026-10-09 18:13:20,915 | INFO | pipeline.transformation.weather_transform | Transformed 1 geocoding record(s)
+2026-10-09 18:13:20,919 | INFO | pipeline.transformation.weather_transform | Transformed OpenWeather data for 1 city record(s)
+2026-10-09 18:15:36,830 | INFO | pipeline.transformation.weather_transform | Transformed OpenWeather data for 1 city record(s)
+2026-10-09 18:15:37,104 | INFO | pipeline.transformation.weather_transform | Transformed OpenWeather data for 1 city record(s)
+2026-10-09 18:15:37,134 | INFO | pipeline.transformation.weather_transform | Transformed OpenWeather data for 1 city record(s)
+2026-10-09 18:15:37,506 | INFO | pipeline.transformation.weather_transform | Transformed 1 geocoding record(s)
+2026-10-09 18:15:37,516 | INFO | pipeline.transformation.weather_transform | Transformed OpenWeather data for 1 city record(s)
+2026-10-09 18:15:51,251 | INFO | pipeline.transformation.weather_transform | Transformed 1 geocoding record(s)
+2026-10-09 18:15:51,258 | INFO | pipeline.transformation.weather_transform | Transformed OpenWeather data for 1 city record(s)
+2026-10-09 18:17:27,793 | INFO | pipeline.transformation.weather_transform | Transformed OpenWeather data for 1 city record(s)
+2026-10-09 18:17:28,016 | INFO | pipeline.transformation.weather_transform | Transformed OpenWeather data for 1 city record(s)
+2026-10-09 18:17:28,060 | INFO | pipeline.transformation.weather_transform | Transformed OpenWeather data for 1 city record(s)
+2026-10-09 18:17:28,411 | INFO | pipeline.transformation.weather_transform | Transformed 1 geocoding record(s)
+2026-10-09 18:17:28,414 | INFO | pipeline.transformation.weather_transform | Transformed OpenWeather data for 1 city record(s)
+2026-10-09 18:17:28,435 | INFO | pipeline.transformation.weather_transform | Transformed 1 geocoding record(s)
+2026-10-09 18:17:28,443 | INFO | pipeline.transformation.weather_transform | Transformed OpenWeather data for 1 city record(s)
+2026-10-09 10:20:04,437 | INFO | pipeline.transformation.weather_transform | Transformed 1 geocoding record(s)
+2026-10-09 10:20:04,576 | INFO | pipeline.transformation.weather_transform | Transformed OpenWeather data for 1 city record(s)
+2026-10-09 10:20:05,116 | INFO | pipeline.transformation.weather_transform | Transformed 1 geocoding record(s)
+2026-10-09 10:20:05,178 | INFO | pipeline.transformation.weather_transform | Transformed OpenWeather data for 1 city record(s)
+2026-10-09 10:20:05,676 | INFO | pipeline.transformation.weather_transform | Transformed 1 geocoding record(s)
+2026-10-09 10:20:05,751 | INFO | pipeline.transformation.weather_transform | Transformed OpenWeather data for 1 city record(s)
+2026-10-09 10:20:06,308 | INFO | pipeline.transformation.weather_transform | Transformed 1 geocoding record(s)
+2026-10-09 10:20:06,391 | INFO | pipeline.transformation.weather_transform | Transformed OpenWeather data for 1 city record(s)
+2026-10-09 10:20:06,959 | INFO | pipeline.transformation.weather_transform | Transformed 1 geocoding record(s)
+2026-10-09 10:20:07,022 | INFO | pipeline.transformation.weather_transform | Transformed OpenWeather data for 1 city record(s)
+2026-10-09 10:20:07,579 | INFO | pipeline.transformation.weather_transform | Transformed 1 geocoding record(s)
+2026-10-09 10:20:07,701 | INFO | pipeline.transformation.weather_transform | Transformed OpenWeather data for 1 city record(s)
+2026-10-09 10:20:08,215 | INFO | pipeline.transformation.weather_transform | Transformed 1 geocoding record(s)
+2026-10-09 10:20:08,294 | INFO | pipeline.transformation.weather_transform | Transformed OpenWeather data for 1 city record(s)
+2026-10-09 10:20:09,001 | INFO | pipeline.transformation.weather_transform | Transformed 1 geocoding record(s)
+2026-10-09 10:20:09,091 | INFO | pipeline.transformation.weather_transform | Transformed OpenWeather data for 1 city record(s)
+2026-10-09 10:20:38,382 | INFO | pipeline.transformation.weather_transform | Transformed 1 geocoding record(s)
+2026-10-09 10:20:38,736 | INFO | pipeline.transformation.weather_transform | Transformed 1 geocoding record(s)
+2026-10-09 10:20:39,019 | INFO | pipeline.transformation.weather_transform | Transformed 1 geocoding record(s)
+2026-10-09 10:20:39,318 | INFO | pipeline.transformation.weather_transform | Transformed 1 geocoding record(s)
+2026-10-09 10:20:39,572 | INFO | pipeline.transformation.weather_transform | Transformed 1 geocoding record(s)
+2026-10-09 10:20:39,822 | INFO | pipeline.transformation.weather_transform | Transformed 1 geocoding record(s)
+2026-10-09 10:20:40,210 | INFO | pipeline.transformation.weather_transform | Transformed 1 geocoding record(s)
+2026-10-09 10:20:40,502 | INFO | pipeline.transformation.weather_transform | Transformed 1 geocoding record(s)
+2026-10-09 18:21:22,992 | INFO | pipeline.transformation.weather_transform | Transformed OpenWeather data for 1 city record(s)
+2026-10-09 18:21:23,178 | INFO | pipeline.transformation.weather_transform | Transformed OpenWeather data for 1 city record(s)
+2026-10-09 18:21:23,213 | INFO | pipeline.transformation.weather_transform | Transformed OpenWeather data for 1 city record(s)
+2026-10-09 18:21:23,628 | INFO | pipeline.transformation.weather_transform | Transformed 1 geocoding record(s)
+2026-10-09 18:21:23,636 | INFO | pipeline.transformation.weather_transform | Transformed OpenWeather data for 1 city record(s)
+2026-10-09 18:21:23,671 | INFO | pipeline.transformation.weather_transform | Transformed 1 geocoding record(s)
+2026-10-09 18:21:23,676 | INFO | pipeline.transformation.weather_transform | Transformed OpenWeather data for 1 city record(s)
+2026-10-09 10:26:47,273 | INFO | pipeline.transformation.weather_transform | Transformed 1 geocoding record(s)
+2026-10-09 10:26:47,581 | INFO | pipeline.transformation.weather_transform | Transformed 1 geocoding record(s)
+2026-10-09 10:26:47,913 | INFO | pipeline.transformation.weather_transform | Transformed 1 geocoding record(s)
+2026-10-09 10:26:48,037 | INFO | pipeline.transformation.weather_transform | Transformed OpenWeather data for 1 city record(s)
+2026-10-09 10:26:48,548 | INFO | pipeline.transformation.weather_transform | Transformed 1 geocoding record(s)
+2026-10-09 10:26:48,894 | INFO | pipeline.transformation.weather_transform | Transformed 1 geocoding record(s)
+2026-10-09 10:26:49,250 | INFO | pipeline.transformation.weather_transform | Transformed 1 geocoding record(s)
+2026-10-09 10:26:49,528 | INFO | pipeline.transformation.weather_transform | Transformed 1 geocoding record(s)
+2026-10-09 10:26:49,870 | INFO | pipeline.transformation.weather_transform | Transformed 1 geocoding record(s)
+2026-10-09 10:27:10,007 | INFO | pipeline.transformation.weather_transform | Transformed 1 geocoding record(s)
+2026-10-09 10:27:10,460 | INFO | pipeline.transformation.weather_transform | Transformed 1 geocoding record(s)
+2026-10-09 10:27:10,824 | INFO | pipeline.transformation.weather_transform | Transformed 1 geocoding record(s)
+2026-10-09 10:27:11,194 | INFO | pipeline.transformation.weather_transform | Transformed 1 geocoding record(s)
+2026-10-09 10:27:11,782 | INFO | pipeline.transformation.weather_transform | Transformed 1 geocoding record(s)
+2026-10-09 10:27:11,904 | INFO | pipeline.transformation.weather_transform | Transformed OpenWeather data for 1 city record(s)
+2026-10-09 10:27:12,622 | INFO | pipeline.transformation.weather_transform | Transformed 1 geocoding record(s)
+2026-10-09 10:27:12,738 | INFO | pipeline.transformation.weather_transform | Transformed OpenWeather data for 1 city record(s)
+2026-10-09 10:27:13,522 | INFO | pipeline.transformation.weather_transform | Transformed 1 geocoding record(s)
+2026-10-09 10:27:14,019 | INFO | pipeline.transformation.weather_transform | Transformed 1 geocoding record(s)
+2026-10-09 10:34:30,424 | INFO | pipeline.transformation.weather_transform | Transformed 1 geocoding record(s)
+2026-10-09 10:34:30,570 | INFO | pipeline.transformation.weather_transform | Transformed OpenWeather data for 1 city record(s)
+2026-10-09 10:34:31,497 | INFO | pipeline.transformation.weather_transform | Transformed 1 geocoding record(s)
+2026-10-09 10:34:31,628 | INFO | pipeline.transformation.weather_transform | Transformed OpenWeather data for 1 city record(s)
+2026-10-09 10:34:32,250 | INFO | pipeline.transformation.weather_transform | Transformed 1 geocoding record(s)
+2026-10-09 10:34:32,384 | INFO | pipeline.transformation.weather_transform | Transformed OpenWeather data for 1 city record(s)
+2026-10-09 10:34:32,881 | INFO | pipeline.transformation.weather_transform | Transformed 1 geocoding record(s)
+2026-10-09 10:34:33,014 | INFO | pipeline.transformation.weather_transform | Transformed OpenWeather data for 1 city record(s)
+2026-10-09 10:34:33,606 | INFO | pipeline.transformation.weather_transform | Transformed 1 geocoding record(s)
+2026-10-09 10:34:33,705 | INFO | pipeline.transformation.weather_transform | Transformed OpenWeather data for 1 city record(s)
+2026-10-09 10:34:34,325 | INFO | pipeline.transformation.weather_transform | Transformed 1 geocoding record(s)
+2026-10-09 10:34:34,481 | INFO | pipeline.transformation.weather_transform | Transformed OpenWeather data for 1 city record(s)
+2026-10-09 10:34:35,308 | INFO | pipeline.transformation.weather_transform | Transformed 1 geocoding record(s)
+2026-10-09 10:34:35,425 | INFO | pipeline.transformation.weather_transform | Transformed OpenWeather data for 1 city record(s)
+2026-10-09 10:34:35,953 | INFO | pipeline.transformation.weather_transform | Transformed 1 geocoding record(s)
+2026-10-09 10:34:36,086 | INFO | pipeline.transformation.weather_transform | Transformed OpenWeather data for 1 city record(s)
+2026-10-09 10:34:49,348 | INFO | pipeline.transformation.weather_transform | Transformed 1 geocoding record(s)
+2026-10-09 10:34:49,776 | INFO | pipeline.transformation.weather_transform | Transformed 1 geocoding record(s)
+2026-10-09 10:34:50,083 | INFO | pipeline.transformation.weather_transform | Transformed 1 geocoding record(s)
+2026-10-09 10:34:50,481 | INFO | pipeline.transformation.weather_transform | Transformed 1 geocoding record(s)
+2026-10-09 10:34:50,868 | INFO | pipeline.transformation.weather_transform | Transformed 1 geocoding record(s)
+2026-10-09 10:34:51,183 | INFO | pipeline.transformation.weather_transform | Transformed 1 geocoding record(s)
+2026-10-09 10:34:51,520 | INFO | pipeline.transformation.weather_transform | Transformed 1 geocoding record(s)
+2026-10-09 10:34:51,904 | INFO | pipeline.transformation.weather_transform | Transformed 1 geocoding record(s)

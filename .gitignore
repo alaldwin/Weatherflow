@@ -1,6 +1,11 @@
+# IDE
+.vscode/
+
 # Python-generated files
 __pycache__/
+.pytest_cache/
 *.py[oc]
+*.pyc
 build/
 dist/
 wheels/
@@ -9,9 +14,4 @@ wheels/
 
 .env
 .venv/
-__pycache__/
-*.pyc
 
-# Generated pipeline output
-data/
-logs/

@@ -1,0 +1,1095 @@
+[
+    {
+        "city": "Davao City",
+        "latitude": 7.1907,
+        "longitude": 125.4553,
+        "temperature": 26.75,
+        "feels_like": 29.69,
+        "temp_min": 26.75,
+        "temp_max": 28.84,
+        "pressure": 1011,
+        "humidity": 86,
+        "visibility": 10000,
+        "wind_speed": 0.94,
+        "wind_direction": 329,
+        "cloudiness": 100,
+        "weather_id": 500,
+        "weather_main": "Rain",
+        "weather_description": "light rain",
+        "observation_time": "2026-10-06T10:10:05+00:00",
+        "source": "openweather",
+        "ingested_time": "2026-10-06T10:15:23.189688+00:00"
+    },
+    {
+        "coord": {
+            "lon": 125.4553,
+            "lat": 7.1907
+        },
+        "weather": [
+            {
+                "id": 804,
+                "main": "Clouds",
+                "description": "overcast clouds",
+                "icon": "04n"
+            }
+        ],
+        "base": "stations",
+        "main": {
+            "temp": 26.03,
+            "feels_like": 26.03,
+            "temp_min": 26.03,
+            "temp_max": 26.84,
+            "pressure": 1012,
+            "humidity": 94,
+            "sea_level": 1012,
+            "grnd_level": 967
+        },
+        "visibility": 10000,
+        "wind": {
+            "speed": 1.12,
+            "deg": 353,
+            "gust": 1.27
+        },
+        "clouds": {
+            "all": 100
+        },
+        "dt": 1791285445,
+        "sys": {
+            "type": 5,
+            "id": 50014542,
+            "country": "PH",
+            "sunrise": 1791235529,
+            "sunset": 1791278831
+        },
+        "timezone": 28800,
+        "id": 1708199,
+        "name": "Lacson",
+        "cod": 200
+    },
+    {
+        "coord": {
+            "lon": 125.4553,
+            "lat": 7.1907
+        },
+        "weather": [
+            {
+                "id": 804,
+                "main": "Clouds",
+                "description": "overcast clouds",
+                "icon": "04n"
+            }
+        ],
+        "base": "stations",
+        "main": {
+            "temp": 25.8,
+            "feels_like": 26.89,
+            "temp_min": 25.8,
+            "temp_max": 26.84,
+            "pressure": 1014,
+            "humidity": 94,
+            "sea_level": 1014,
+            "grnd_level": 967
+        },
+        "visibility": 10000,
+        "wind": {
+            "speed": 0.68,
+            "deg": 320,
+            "gust": 0.77
+        },
+        "clouds": {
+            "all": 100
+        },
+        "dt": 1791288022,
+        "sys": {
+            "type": 5,
+            "id": 50014542,
+            "country": "PH",
+            "sunrise": 1791235529,
+            "sunset": 1791278831
+        },
+        "timezone": 28800,
+        "id": 1708199,
+        "name": "Lacson",
+        "cod": 200
+    },
+    {
+        "coord": {
+            "lon": 125.4553,
+            "lat": 7.1907
+        },
+        "weather": [
+            {
+                "id": 804,
+                "main": "Clouds",
+                "description": "overcast clouds",
+                "icon": "04n"
+            }
+        ],
+        "base": "stations",
+        "main": {
+            "temp": 25.8,
+            "feels_like": 26.89,
+            "temp_min": 25.8,
+            "temp_max": 26.84,
+            "pressure": 1014,
+            "humidity": 94,
+            "sea_level": 1014,
+            "grnd_level": 967
+        },
+        "visibility": 10000,
+        "wind": {
+            "speed": 0.68,
+            "deg": 320,
+            "gust": 0.77
+        },
+        "clouds": {
+            "all": 100
+        },
+        "dt": 1791288467,
+        "sys": {
+            "type": 5,
+            "id": 50014542,
+            "country": "PH",
+            "sunrise": 1791235529,
+            "sunset": 1791278831
+        },
+        "timezone": 28800,
+        "id": 1708199,
+        "name": "Lacson",
+        "cod": 200
+    },
+    {
+        "coord": {
+            "lon": 125.4553,
+            "lat": 7.1907
+        },
+        "weather": [
+            {
+                "id": 804,
+                "main": "Clouds",
+                "description": "overcast clouds",
+                "icon": "04n"
+            }
+        ],
+        "base": "stations",
+        "main": {
+            "temp": 25.8,
+            "feels_like": 26.89,
+            "temp_min": 25.8,
+            "temp_max": 26.84,
+            "pressure": 1014,
+            "humidity": 94,
+            "sea_level": 1014,
+            "grnd_level": 967
+        },
+        "visibility": 10000,
+        "wind": {
+            "speed": 0.68,
+            "deg": 320,
+            "gust": 0.77
+        },
+        "clouds": {
+            "all": 100
+        },
+        "dt": 1791288893,
+        "sys": {
+            "type": 5,
+            "id": 50014542,
+            "country": "PH",
+            "sunrise": 1791235529,
+            "sunset": 1791278831
+        },
+        "timezone": 28800,
+        "id": 1708199,
+        "name": "Lacson",
+        "cod": 200
+    },
+    {
+        "coord": {
+            "lon": 125.4553,
+            "lat": 7.1907
+        },
+        "weather": [
+            {
+                "id": 804,
+                "main": "Clouds",
+                "description": "overcast clouds",
+                "icon": "04n"
+            }
+        ],
+        "base": "stations",
+        "main": {
+            "temp": 25.75,
+            "feels_like": 26.81,
+            "temp_min": 25.75,
+            "temp_max": 26.84,
+            "pressure": 1014,
+            "humidity": 93,
+            "sea_level": 1014,
+            "grnd_level": 968
+        },
+        "visibility": 10000,
+        "wind": {
+            "speed": 0.28,
+            "deg": 322,
+            "gust": 0.75
+        },
+        "clouds": {
+            "all": 100
+        },
+        "dt": 1791291249,
+        "sys": {
+            "type": 5,
+            "id": 50014542,
+            "country": "PH",
+            "sunrise": 1791235529,
+            "sunset": 1791278831
+        },
+        "timezone": 28800,
+        "id": 1708199,
+        "name": "Lacson",
+        "cod": 200
+    },
+    {
+        "coord": {
+            "lon": 125.4553,
+            "lat": 7.1907
+        },
+        "weather": [
+            {
+                "id": 500,
+                "main": "Rain",
+                "description": "light rain",
+                "icon": "10d"
+            }
+        ],
+        "base": "stations",
+        "main": {
+            "temp": 27.58,
+            "feels_like": 31.88,
+            "temp_min": 27.58,
+            "temp_max": 27.58,
+            "pressure": 1011,
+            "humidity": 86,
+            "sea_level": 1011,
+            "grnd_level": 965
+        },
+        "visibility": 5311,
+        "wind": {
+            "speed": 1.91,
+            "deg": 165,
+            "gust": 4.09
+        },
+        "rain": {
+            "1h": 0.24
+        },
+        "clouds": {
+            "all": 100
+        },
+        "dt": 1791359319,
+        "sys": {
+            "type": 5,
+            "id": 50014542,
+            "country": "PH",
+            "sunrise": 1791321922,
+            "sunset": 1791365202
+        },
+        "timezone": 28800,
+        "id": 1708199,
+        "name": "Lacson",
+        "cod": 200
+    },
+    {
+        "coord": {
+            "lon": 125.4553,
+            "lat": 7.1907
+        },
+        "weather": [
+            {
+                "id": 804,
+                "main": "Clouds",
+                "description": "overcast clouds",
+                "icon": "04d"
+            }
+        ],
+        "base": "stations",
+        "main": {
+            "temp": 29.64,
+            "feels_like": 36.64,
+            "temp_min": 29.64,
+            "temp_max": 29.64,
+            "pressure": 1011,
+            "humidity": 84,
+            "sea_level": 1011,
+            "grnd_level": 965
+        },
+        "visibility": 5311,
+        "wind": {
+            "speed": 1.91,
+            "deg": 165,
+            "gust": 4.09
+        },
+        "clouds": {
+            "all": 100
+        },
+        "dt": 1791361119,
+        "sys": {
+            "country": "PH",
+            "sunrise": 1791321922,
+            "sunset": 1791365202
+        },
+        "timezone": 28800,
+        "id": 1708199,
+        "name": "Lacson",
+        "cod": 200
+    },
+    {
+        "coord": {
+            "lon": 125.4553,
+            "lat": 7.1907
+        },
+        "weather": [
+            {
+                "id": 804,
+                "main": "Clouds",
+                "description": "overcast clouds",
+                "icon": "04d"
+            }
+        ],
+        "base": "stations",
+        "main": {
+            "temp": 29.64,
+            "feels_like": 36.64,
+            "temp_min": 29.64,
+            "temp_max": 29.64,
+            "pressure": 1011,
+            "humidity": 84,
+            "sea_level": 1011,
+            "grnd_level": 965
+        },
+        "visibility": 5311,
+        "wind": {
+            "speed": 1.91,
+            "deg": 165,
+            "gust": 4.09
+        },
+        "clouds": {
+            "all": 100
+        },
+        "dt": 1791361722,
+        "sys": {
+            "country": "PH",
+            "sunrise": 1791321922,
+            "sunset": 1791365202
+        },
+        "timezone": 28800,
+        "id": 1708199,
+        "name": "Lacson",
+        "cod": 200
+    },
+    {
+        "coord": {
+            "lon": 125.4553,
+            "lat": 7.1907
+        },
+        "weather": [
+            {
+                "id": 804,
+                "main": "Clouds",
+                "description": "overcast clouds",
+                "icon": "04d"
+            }
+        ],
+        "base": "stations",
+        "main": {
+            "temp": 28.64,
+            "feels_like": 35.4,
+            "temp_min": 28.64,
+            "temp_max": 28.64,
+            "pressure": 1012,
+            "humidity": 88,
+            "sea_level": 1012,
+            "grnd_level": 966
+        },
+        "visibility": 10000,
+        "wind": {
+            "speed": 1.15,
+            "deg": 187,
+            "gust": 2.56
+        },
+        "clouds": {
+            "all": 100
+        },
+        "dt": 1791362705,
+        "sys": {
+            "country": "PH",
+            "sunrise": 1791321922,
+            "sunset": 1791365202
+        },
+        "timezone": 28800,
+        "id": 1708199,
+        "name": "Lacson",
+        "cod": 200
+    },
+    {
+        "coord": {
+            "lon": 125.4553,
+            "lat": 7.1907
+        },
+        "weather": [
+            {
+                "id": 804,
+                "main": "Clouds",
+                "description": "overcast clouds",
+                "icon": "04n"
+            }
+        ],
+        "base": "stations",
+        "main": {
+            "temp": 27.2,
+            "feels_like": 31.67,
+            "temp_min": 27.2,
+            "temp_max": 27.2,
+            "pressure": 1012,
+            "humidity": 93,
+            "sea_level": 1012,
+            "grnd_level": 966
+        },
+        "visibility": 10000,
+        "wind": {
+            "speed": 1.16,
+            "deg": 193,
+            "gust": 1.5
+        },
+        "clouds": {
+            "all": 100
+        },
+        "dt": 1791366255,
+        "sys": {
+            "country": "PH",
+            "sunrise": 1791321922,
+            "sunset": 1791365202
+        },
+        "timezone": 28800,
+        "id": 1708199,
+        "name": "Lacson",
+        "cod": 200
+    },
+    {
+        "coord": {
+            "lon": 125.4553,
+            "lat": 7.1907
+        },
+        "weather": [
+            {
+                "id": 804,
+                "main": "Clouds",
+                "description": "overcast clouds",
+                "icon": "04n"
+            }
+        ],
+        "base": "stations",
+        "main": {
+            "temp": 27.1,
+            "feels_like": 31.48,
+            "temp_min": 27.1,
+            "temp_max": 27.1,
+            "pressure": 1012,
+            "humidity": 94,
+            "sea_level": 1012,
+            "grnd_level": 966
+        },
+        "visibility": 10000,
+        "wind": {
+            "speed": 1.16,
+            "deg": 193,
+            "gust": 1.5
+        },
+        "clouds": {
+            "all": 100
+        },
+        "dt": 1791367761,
+        "sys": {
+            "country": "PH",
+            "sunrise": 1791321922,
+            "sunset": 1791365202
+        },
+        "timezone": 28800,
+        "id": 1708199,
+        "name": "Lacson",
+        "cod": 200
+    },
+    {
+        "coord": {
+            "lon": 125.4553,
+            "lat": 7.1907
+        },
+        "weather": [
+            {
+                "id": 500,
+                "main": "Rain",
+                "description": "light rain",
+                "icon": "10n"
+            }
+        ],
+        "base": "stations",
+        "main": {
+            "temp": 27.2,
+            "feels_like": 31.31,
+            "temp_min": 27.2,
+            "temp_max": 27.2,
+            "pressure": 1012,
+            "humidity": 90,
+            "sea_level": 1012,
+            "grnd_level": 966
+        },
+        "visibility": 10000,
+        "wind": {
+            "speed": 1.16,
+            "deg": 193,
+            "gust": 1.5
+        },
+        "rain": {
+            "1h": 0.13
+        },
+        "clouds": {
+            "all": 100
+        },
+        "dt": 1791368465,
+        "sys": {
+            "country": "PH",
+            "sunrise": 1791321922,
+            "sunset": 1791365202
+        },
+        "timezone": 28800,
+        "id": 1708199,
+        "name": "Lacson",
+        "cod": 200
+    },
+    {
+        "coord": {
+            "lon": 125.4553,
+            "lat": 7.1907
+        },
+        "weather": [
+            {
+                "id": 501,
+                "main": "Rain",
+                "description": "moderate rain",
+                "icon": "10n"
+            }
+        ],
+        "base": "stations",
+        "main": {
+            "temp": 26.14,
+            "feels_like": 26.14,
+            "temp_min": 26.14,
+            "temp_max": 26.14,
+            "pressure": 1013,
+            "humidity": 92,
+            "sea_level": 1013,
+            "grnd_level": 967
+        },
+        "visibility": 10000,
+        "wind": {
+            "speed": 1,
+            "deg": 243,
+            "gust": 0.73
+        },
+        "rain": {
+            "1h": 3.16
+        },
+        "clouds": {
+            "all": 100
+        },
+        "dt": 1791370223,
+        "sys": {
+            "country": "PH",
+            "sunrise": 1791321922,
+            "sunset": 1791365202
+        },
+        "timezone": 28800,
+        "id": 1708199,
+        "name": "Lacson",
+        "cod": 200
+    },
+    {
+        "coord": {
+            "lon": 125.4553,
+            "lat": 7.1907
+        },
+        "weather": [
+            {
+                "id": 500,
+                "main": "Rain",
+                "description": "light rain",
+                "icon": "10n"
+            }
+        ],
+        "base": "stations",
+        "main": {
+            "temp": 26.04,
+            "feels_like": 26.04,
+            "temp_min": 26.04,
+            "temp_max": 26.04,
+            "pressure": 1014,
+            "humidity": 92,
+            "sea_level": 1014,
+            "grnd_level": 968
+        },
+        "visibility": 10000,
+        "wind": {
+            "speed": 1.31,
+            "deg": 292,
+            "gust": 1.03
+        },
+        "rain": {
+            "1h": 0.59
+        },
+        "clouds": {
+            "all": 100
+        },
+        "dt": 1791374144,
+        "sys": {
+            "country": "PH",
+            "sunrise": 1791321922,
+            "sunset": 1791365202
+        },
+        "timezone": 28800,
+        "id": 1708199,
+        "name": "Lacson",
+        "cod": 200
+    },
+    {
+        "coord": {
+            "lon": 125.4553,
+            "lat": 7.1907
+        },
+        "weather": [
+            {
+                "id": 500,
+                "main": "Rain",
+                "description": "light rain",
+                "icon": "10n"
+            }
+        ],
+        "base": "stations",
+        "main": {
+            "temp": 26.04,
+            "feels_like": 26.04,
+            "temp_min": 26.04,
+            "temp_max": 26.04,
+            "pressure": 1014,
+            "humidity": 92,
+            "sea_level": 1014,
+            "grnd_level": 968
+        },
+        "visibility": 10000,
+        "wind": {
+            "speed": 1.31,
+            "deg": 292,
+            "gust": 1.03
+        },
+        "rain": {
+            "1h": 0.59
+        },
+        "clouds": {
+            "all": 100
+        },
+        "dt": 1791374444,
+        "sys": {
+            "country": "PH",
+            "sunrise": 1791321922,
+            "sunset": 1791365202
+        },
+        "timezone": 28800,
+        "id": 1708199,
+        "name": "Lacson",
+        "cod": 200
+    },
+    {
+        "coord": {
+            "lon": 125.4553,
+            "lat": 7.1907
+        },
+        "weather": [
+            {
+                "id": 501,
+                "main": "Rain",
+                "description": "moderate rain",
+                "icon": "10d"
+            }
+        ],
+        "base": "stations",
+        "main": {
+            "temp": 30.02,
+            "feels_like": 37.02,
+            "temp_min": 30.02,
+            "temp_max": 30.02,
+            "pressure": 1010,
+            "humidity": 78,
+            "sea_level": 1010,
+            "grnd_level": 964
+        },
+        "visibility": 5534,
+        "wind": {
+            "speed": 1.55,
+            "deg": 157,
+            "gust": 1.58
+        },
+        "rain": {
+            "1h": 1.6
+        },
+        "clouds": {
+            "all": 100
+        },
+        "dt": 1791515140,
+        "sys": {
+            "country": "PH",
+            "sunrise": 1791494710,
+            "sunset": 1791537943
+        },
+        "timezone": 28800,
+        "id": 1708199,
+        "name": "Lacson",
+        "cod": 200
+    },
+    {
+        "coord": {
+            "lon": 125.4553,
+            "lat": 7.1907
+        },
+        "weather": [
+            {
+                "id": 500,
+                "main": "Rain",
+                "description": "light rain",
+                "icon": "10d"
+            }
+        ],
+        "base": "stations",
+        "main": {
+            "temp": 26.95,
+            "feels_like": 30.39,
+            "temp_min": 26.95,
+            "temp_max": 26.95,
+            "pressure": 1008,
+            "humidity": 88,
+            "sea_level": 1008,
+            "grnd_level": 962
+        },
+        "visibility": 10000,
+        "wind": {
+            "speed": 1.81,
+            "deg": 192,
+            "gust": 3.99
+        },
+        "rain": {
+            "1h": 0.24
+        },
+        "clouds": {
+            "all": 93
+        },
+        "dt": 1791534992,
+        "sys": {
+            "country": "PH",
+            "sunrise": 1791494710,
+            "sunset": 1791537943
+        },
+        "timezone": 28800,
+        "id": 1708199,
+        "name": "Lacson",
+        "cod": 200
+    },
+    {
+        "coord": {
+            "lon": 125.4553,
+            "lat": 7.1907
+        },
+        "weather": [
+            {
+                "id": 804,
+                "main": "Clouds",
+                "description": "overcast clouds",
+                "icon": "04d"
+            }
+        ],
+        "base": "stations",
+        "main": {
+            "temp": 26.98,
+            "feels_like": 30.37,
+            "temp_min": 26.98,
+            "temp_max": 26.98,
+            "pressure": 1008,
+            "humidity": 87,
+            "sea_level": 1008,
+            "grnd_level": 962
+        },
+        "visibility": 10000,
+        "wind": {
+            "speed": 1.81,
+            "deg": 192,
+            "gust": 3.99
+        },
+        "clouds": {
+            "all": 93
+        },
+        "dt": 1791537435,
+        "sys": {
+            "country": "PH",
+            "sunrise": 1791494710,
+            "sunset": 1791537943
+        },
+        "timezone": 28800,
+        "id": 1708199,
+        "name": "Lacson",
+        "cod": 200
+    },
+    {
+        "coord": {
+            "lon": 125.4553,
+            "lat": 7.1907
+        },
+        "weather": [
+            {
+                "id": 804,
+                "main": "Clouds",
+                "description": "overcast clouds",
+                "icon": "04n"
+            }
+        ],
+        "base": "stations",
+        "main": {
+            "temp": 26.79,
+            "feels_like": 30.14,
+            "temp_min": 26.79,
+            "temp_max": 26.79,
+            "pressure": 1009,
+            "humidity": 90,
+            "sea_level": 1009,
+            "grnd_level": 963
+        },
+        "visibility": 10000,
+        "wind": {
+            "speed": 1.65,
+            "deg": 203,
+            "gust": 3.42
+        },
+        "clouds": {
+            "all": 95
+        },
+        "dt": 1791538203,
+        "sys": {
+            "country": "PH",
+            "sunrise": 1791494710,
+            "sunset": 1791537943
+        },
+        "timezone": 28800,
+        "id": 1708199,
+        "name": "Lacson",
+        "cod": 200,
+        "city": "Davao City",
+        "source": "openweather",
+        "observation_time": "2026-10-09T09:30:03+00:00"
+    },
+    {
+        "coord": {
+            "lon": 125.4553,
+            "lat": 7.1907
+        },
+        "weather": [
+            {
+                "id": 501,
+                "main": "Rain",
+                "description": "moderate rain",
+                "icon": "10n"
+            }
+        ],
+        "base": "stations",
+        "main": {
+            "temp": 26.77,
+            "feels_like": 30.18,
+            "temp_min": 26.77,
+            "temp_max": 26.77,
+            "pressure": 1009,
+            "humidity": 91,
+            "sea_level": 1009,
+            "grnd_level": 963
+        },
+        "visibility": 10000,
+        "wind": {
+            "speed": 1.65,
+            "deg": 203,
+            "gust": 3.42
+        },
+        "rain": {
+            "1h": 1.48
+        },
+        "clouds": {
+            "all": 95
+        },
+        "dt": 1791539672,
+        "sys": {
+            "country": "PH",
+            "sunrise": 1791494710,
+            "sunset": 1791537943
+        },
+        "timezone": 28800,
+        "id": 1708199,
+        "name": "Lacson",
+        "cod": 200,
+        "city": "Davao City",
+        "source": "openweather",
+        "observation_time": "2026-10-09T09:54:32+00:00"
+    },
+    {
+        "coord": {
+            "lon": 125.4553,
+            "lat": 7.1907
+        },
+        "weather": [
+            {
+                "id": 501,
+                "main": "Rain",
+                "description": "moderate rain",
+                "icon": "10n"
+            }
+        ],
+        "base": "stations",
+        "main": {
+            "temp": 26.82,
+            "feels_like": 30.23,
+            "temp_min": 26.82,
+            "temp_max": 26.82,
+            "pressure": 1008,
+            "humidity": 90,
+            "sea_level": 1008,
+            "grnd_level": 963
+        },
+        "visibility": 10000,
+        "wind": {
+            "speed": 1.65,
+            "deg": 203,
+            "gust": 3.42
+        },
+        "rain": {
+            "1h": 1.48
+        },
+        "clouds": {
+            "all": 95
+        },
+        "dt": 1791540305,
+        "sys": {
+            "country": "PH",
+            "sunrise": 1791494710,
+            "sunset": 1791537943
+        },
+        "timezone": 28800,
+        "id": 1708199,
+        "name": "Lacson",
+        "cod": 200,
+        "city": "Davao City",
+        "source": "openweather",
+        "observation_time": "2026-10-09T10:05:05+00:00"
+    },
+    {
+        "coord": {
+            "lon": 125.4553,
+            "lat": 7.1907
+        },
+        "weather": [
+            {
+                "id": 501,
+                "main": "Rain",
+                "description": "moderate rain",
+                "icon": "10n"
+            }
+        ],
+        "base": "stations",
+        "main": {
+            "temp": 26.76,
+            "feels_like": 29.88,
+            "temp_min": 26.76,
+            "temp_max": 26.76,
+            "pressure": 1009,
+            "humidity": 88,
+            "sea_level": 1009,
+            "grnd_level": 963
+        },
+        "visibility": 10000,
+        "wind": {
+            "speed": 1.65,
+            "deg": 203,
+            "gust": 3.42
+        },
+        "rain": {
+            "1h": 1.48
+        },
+        "clouds": {
+            "all": 95
+        },
+        "dt": 1791541112,
+        "sys": {
+            "country": "PH",
+            "sunrise": 1791494710,
+            "sunset": 1791537943
+        },
+        "timezone": 28800,
+        "id": 1708199,
+        "name": "Lacson",
+        "cod": 200,
+        "city": "Davao City",
+        "source": "openweather",
+        "observation_time": "2026-10-09T10:18:32+00:00"
+    },
+    {
+        "coord": {
+            "lon": 125.4553,
+            "lat": 7.1907
+        },
+        "weather": [
+            {
+                "id": 500,
+                "main": "Rain",
+                "description": "light rain",
+                "icon": "10n"
+            }
+        ],
+        "base": "stations",
+        "main": {
+            "temp": 25.43,
+            "feels_like": 26.4,
+            "temp_min": 25.43,
+            "temp_max": 25.43,
+            "pressure": 1010,
+            "humidity": 91,
+            "sea_level": 1010,
+            "grnd_level": 964
+        },
+        "visibility": 10000,
+        "wind": {
+            "speed": 1.26,
+            "deg": 269,
+            "gust": 1.05
+        },
+        "rain": {
+            "1h": 0.97
+        },
+        "clouds": {
+            "all": 96
+        },
+        "dt": 1791541803,
+        "sys": {
+            "country": "PH",
+            "sunrise": 1791494710,
+            "sunset": 1791537943
+        },
+        "timezone": 28800,
+        "id": 1708199,
+        "name": "Lacson",
+        "cod": 200,
+        "city": "Davao City",
+        "source": "openweather",
+        "observation_time": "2026-10-09T10:30:03+00:00"
+    }
+]
