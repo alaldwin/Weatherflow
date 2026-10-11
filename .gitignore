@@ -14,4 +14,7 @@ wheels/
 
 .env
 .venv/
+uv.lock
 
+
+.github/
