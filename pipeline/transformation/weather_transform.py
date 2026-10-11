@@ -2,6 +2,8 @@ import polars as pl
 
 from config.openweather_columns import COLUMNS
 
+from datetime import datetime, timezone
+
 from common.logging import get_logger
 
 logger = get_logger(__name__, "weather_transform.log")
@@ -117,7 +119,15 @@ class WeatherTransform:
                     "rain_1h": rain.get("1h"),
                     "cloudiness": clouds.get("all"),
 
-                    "observation_time": item.get("dt"),
+                    "observation_time": (
+                        datetime.fromtimestamp(
+                            float(item["dt"]),
+                            tz=timezone.utc,
+                        )
+                        if item.get("dt") is not None else None
+                    ),
+                    "source": self.source,
+                    "ingested_time": datetime.now(timezone.utc),
                     "sunrise": sys_data.get("sunrise"),
                     "sunset": sys_data.get("sunset"),
                     "cod": item.get("cod"),

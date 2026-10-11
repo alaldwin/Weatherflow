@@ -22,9 +22,13 @@ def _table_name(prefix: str, city: str) -> str:
 
 
 def main() -> int:
-    """Run the complete weather pipeline."""
+    """Run the weather pipeline and report failures to Airflow."""
 
     logger.info("Starting Weather Ingestion...")
+
+    successful_cities = []
+    skipped_cities = []
+    failed_cities = []
 
     for city, coordinates in CITIES.items():
         latitude = coordinates["latitude"]
@@ -33,66 +37,175 @@ def main() -> int:
         logger.info("Processing city: %s", city)
 
         try:
-            weather_data = extract_openweather_data(latitude, longitude, city)
+            # 1. Extract current weather
+            weather_data = extract_openweather_data(
+                latitude, longitude, city
+            )
+
             if not weather_data:
-                logger.warning("No weather data returned for %s", city)
-                continue
+                raise ValueError(
+                    f"No weather data returned for {city}"
+                )
 
-            geocoding_data = extract_geocoding_data(latitude, longitude, city)
+            # 2. Extract and load geocoding data
+            geocoding_data = extract_geocoding_data(
+                latitude, longitude, city
+            )
+
             if geocoding_data:
-                logger.info("Geocoding extracted for %s", city)
-                geocoding_df = WeatherTransform(geocoding_data, "geocoding").transform()
+                geocoding_df = WeatherTransform(
+                    geocoding_data, "geocoding"
+                ).transform()
+
                 if not geocoding_df.is_empty():
-                    geocoding_table = _table_name("geocoding", city)
-                    load_postgresql(geocoding_df, geocoding_table, if_exists="replace")
-                    logger.info("Geocoding loaded for %s into %s", city, geocoding_table)
+                    geocoding_table = _table_name(
+                        "geocoding", city
+                    )
+
+                    load_postgresql(
+                        geocoding_df,
+                        table_name=geocoding_table,
+                        if_exists="append",
+                    )
+
+                    logger.info(
+                        "Geocoding loaded for %s into %s",
+                        city,
+                        geocoding_table,
+                    )
+                else:
+                    logger.warning(
+                        "Geocoding transformation was empty for %s",
+                        city,
+                    )
             else:
-                logger.warning("No geocoding data returned for %s", city)
+                # Geocoding is optional here; weather ingestion can continue.
+                logger.warning(
+                    "No geocoding data returned for %s", city
+                )
 
+            # 3. Check incremental-load state
             observation_time = weather_data.get("dt")
+
             if observation_time is None:
-                logger.warning("Missing observation timestamp for %s; skipping incremental check", city)
+                raise ValueError(
+                    f"Missing observation timestamp for {city}"
+                )
+
+            if not is_new_data(
+                source="openweather",
+                location=city,
+                observation_time=observation_time,
+            ):
+                logger.info(
+                    "No new weather data for %s. Skipping.", city
+                )
+                skipped_cities.append(city)
                 continue
 
-            if not is_new_data(source="openweather", location=city, observation_time=observation_time):
-                logger.info("No new weather data for %s. Skipping.", city)
-                continue
+            # 4. Save raw JSON
+            output_file = save_json(
+                data=weather_data,
+                city=city,
+                source="openweather",
+            )
 
-            output_file = save_json(data=weather_data, city=city, source="openweather")
             if output_file is None:
-                logger.warning("Raw JSON was not saved for %s; skipping downstream processing", city)
-                continue
+                raise RuntimeError(
+                    f"Raw JSON was not saved for {city}"
+                )
 
-            logger.info("Raw JSON saved for %s: %s", city, output_file)
+            logger.info(
+                "Raw JSON saved for %s: %s",
+                city,
+                output_file,
+            )
 
-            weather_df = WeatherTransform(weather_data, "openweather").transform()
+            # 5. Transform weather data
+            weather_df = WeatherTransform(
+                weather_data, "openweather"
+            ).transform()
+
             if weather_df.is_empty():
-                logger.warning("Transformation produced no data for %s.", city)
-                continue
+                raise ValueError(
+                    f"Weather transformation produced no data for {city}"
+                )
 
-            logger.info("Weather data transformed for %s.", city)
+            logger.info(
+                "Weather data transformed for %s", city
+            )
 
-            parquet_file = save_parquet(weather_df, city, "openweather")
+            # 6. Save Parquet
+            parquet_file = save_parquet(
+                weather_df, city, "openweather"
+            )
+
             if parquet_file is None:
-                logger.warning("Parquet file was not saved for %s", city)
-                continue
+                raise RuntimeError(
+                    f"Parquet file was not saved for {city}"
+                )
 
-            logger.info("Parquet saved for %s: %s", city, parquet_file)
+            logger.info(
+                "Parquet saved for %s: %s",
+                city,
+                parquet_file,
+            )
 
+            # 7. Load PostgreSQL
             table_name = _table_name("openweather", city)
-            loaded_rows = load_postgresql(parquet_file, table_name=table_name, if_exists="replace")
-            logger.info("Loaded %d row(s) for %s into %s.", loaded_rows, city, table_name)
 
-            update_state(source="openweather", location=city, observation_time=observation_time)
+            loaded_rows = load_postgresql(
+                weather_df,
+                table_name=table_name,
+                if_exists="append",
+            )
+
+            logger.info(
+                "Loaded %d row(s) for %s into %s.",
+                loaded_rows,
+                city,
+                table_name,
+            )
+
+            # 8. Update checkpoint only after the database load succeeds
+            update_state(
+                source="openweather",
+                location=city,
+                observation_time=observation_time,
+            )
+
             logger.info("Checkpoint updated for %s.", city)
+            successful_cities.append(city)
 
         except Exception:
             logger.exception("Failed to process city: %s", city)
-            continue
+            failed_cities.append(city)
 
-    logger.info("Weather ingestion completed.")
+    # 9. Report the final result
+    logger.info(
+        "Pipeline summary | total=%d | loaded=%d | skipped=%d | failed=%d",
+        len(CITIES),
+        len(successful_cities),
+        len(skipped_cities),
+        len(failed_cities),
+    )
+
+    if successful_cities:
+        logger.info("Successfully loaded cities: %s", successful_cities)
+
+    if skipped_cities:
+        logger.info("Cities with no new data: %s", skipped_cities)
+
+    if failed_cities:
+        logger.error("Failed cities: %s", failed_cities)
+        logger.error(
+            "Weather ingestion completed with failures."
+        )
+        return 1
+
+    logger.info("Weather ingestion completed successfully.")
     return 0
 
 
 if __name__ == "__main__":
-    raise SystemExit(main()) 
+    raise SystemExit(main())

@@ -28,6 +28,8 @@ COLUMNS = [
     "sunrise",
     "sunset",
     "cod",
+    "source",
+    "ingested_time",
 ]
 
 __all__ = ["COLUMNS"]

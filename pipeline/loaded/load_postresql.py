@@ -1,15 +1,10 @@
 import json
 import math
 import os
-from datetime import datetime, timezone
 from pathlib import Path
 from typing import Any
-
-import psycopg2
-
 from urllib.parse import quote_plus
 
-from psycopg2 import sql
 import polars as pl
 
 from dotenv import load_dotenv
@@ -24,10 +19,8 @@ from sqlalchemy import (
     Integer,
     MetaData,
     Numeric,
-    String,
     Table,
     Text,
-    UniqueConstraint,
     create_engine,
     inspect,
     text,
@@ -44,10 +37,6 @@ logger = get_logger(__name__, "load_postgresql.log")
 
 load_dotenv()
 
-
-
-# PostgreSQL CONFIGURATION
-
 REQUIRED_ENV_VARS = (
     "POSTGRES_USER",
     "POSTGRES_PASSWORD",
@@ -59,7 +48,7 @@ REQUIRED_ENV_VARS = (
 VALID_IF_EXISTS = ("replace", "append", "fail",)
 
 # Fresh runs should replace stale rows; append is still supported for explicit schema-evolution loads.
-DEFAULT_IF_EXISTS = "replace"
+DEFAULT_IF_EXISTS = "append"
 
 """
  Canonical PostgreSQL table names.
@@ -354,7 +343,7 @@ def _sqlalchemy_type(dtype: pl.DataType) -> Any:
     return Text()
 
 
-def _column_definitions(df: pl.DataFram) -> list[Column]:
+def _column_definitions(df: pl.DataFrame) -> list[Column]:
     """Create SQLAlchemy columns from DataFrame schema."""
 
     return [Column(name, _sqlalchemy_type(dtype)) for name, dtype in df.schema.items()]
