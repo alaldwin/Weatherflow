@@ -61,12 +61,51 @@ services:
       timeout: 5s
       retries: 10
       start_period: 5s
-       
+
+
+  airflow:
+    build:
+      context: .
+      dockerfile: airflow/Dockerfile
+    container_name: wf-airflow
+    restart: unless-stopped
+
+    env_file:
+      - .env
+
+    environment:
+      AIRFLOW_HOME: /opt/airflow
+      AIRFLOW__CORE__LOAD_EXAMPLES: "false"
+      AIRFLOW__CORE__EXECUTOR: SequentialExecutor
+      AIRFLOW__CORE__DAGS_FOLDER: /opt/weatherflow/airflow/dags
+      AIRFLOW__WEBSERVER__WEB_SERVER_WORKER_TIMEOUT: "180"
+      PYTHONPATH: /opt/weatherflow
+      POSTGRES_HOST: db
+      POSTGRES_PORT: "5432"
+
+    command: standalone
+
+    ports:
+      - "8080:8080"
+
+    volumes:
+      - ./:/opt/weatherflow
+      - airflow-data:/opt/airflow
+
+    networks:
+      - weatherflow_net
+
+    depends_on:
+      db:
+        condition: service_healthy
+
 
 networks:
   weatherflow_net:
     name: weatherflow_net
     driver: bridge
 
+
 volumes:
   db-data:
+  airflow-data:
