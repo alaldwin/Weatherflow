@@ -1,0 +1,36 @@
+version: 2
+
+models:
+
+    - name: stg_weather_observations
+      description: "Standardized current weather observations from OpenWeather."
+
+      columns:
+
+        - name: city
+          description: "Name of the city."
+          data_tests:
+            - not_null
+        - name: source
+          description: "Weather data source."
+          data_tests:
+            - not_null
+        - name: observation_time
+          description: "Time when the weather observation was recorded."
+          data_tests:
+            - not_null
+        - name: temperature
+          description: "Temperature in Celsius."
+          data_tests:
+            - not_null
+        - name: humidity
+          description: "Relative humidity percentage."
+          data_tests:
+            - not_null
+        - name: latitude
+          data_tests:
+            - not_null
+        - name: longitude
+          data_tests:
+            - not_null
+

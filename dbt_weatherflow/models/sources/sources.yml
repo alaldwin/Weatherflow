@@ -1,0 +1,28 @@
+version: 2
+
+sources:
+  - name: openweather 
+    description: Raw OpenWeather observations loaded by the python pipeline
+    schema: public
+    tables:
+      - name: openweather_manila
+      - name: openweather_quezon_city
+      - name: openweather_cebu_city
+      - name: openweather_davao_city
+      - name: openweather_baguio
+      - name: openweather_iloilo_city
+      - name: openweather_cagayan_de_oro
+      - name: openweather_zamboanga_city
+
+  - name: geocoding
+    description: Raw location metadata from the OpenWeather Geocoding API
+    schema: public
+    tables:
+      - name: geocoding_manila
+      - name: geocoding_quezon_city
+      - name: geocoding_cebu_city
+      - name: geocoding_davao_city
+      - name: geocoding_baguio
+      - name: geocoding_iloilo_city
+      - name: geocoding_cagayan_de_oro
+      - name: geocoding_zamboanga_city
