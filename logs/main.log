@@ -23308,3 +23308,63 @@ sqlalchemy.exc.OperationalError: (psycopg2.OperationalError) connection to serve
 2026-10-11 07:00:13,437 | INFO | pipeline.main | Pipeline summary | total=8 | loaded=8 | skipped=0 | failed=0
 2026-10-11 07:00:13,439 | INFO | pipeline.main | Successfully loaded cities: ['Manila', 'Quezon City', 'Cebu City', 'Davao City', 'Baguio', 'Iloilo City', 'Cagayan de Oro', 'Zamboanga City']
 2026-10-11 07:00:13,442 | INFO | pipeline.main | Weather ingestion completed successfully.
+2026-10-11 08:00:12,291 | INFO | pipeline.main | Starting Weather Ingestion...
+2026-10-11 08:00:12,294 | INFO | pipeline.main | Processing city: Manila
+2026-10-11 08:00:12,836 | INFO | pipeline.main | Geocoding loaded for Manila into geocoding_manila
+2026-10-11 08:00:12,932 | INFO | pipeline.main | Raw JSON saved for Manila: /opt/weatherflow/data/raw/openweather/manila.json
+2026-10-11 08:00:12,955 | INFO | pipeline.main | Weather data transformed for Manila
+2026-10-11 08:00:13,323 | INFO | pipeline.main | Parquet saved for Manila: /opt/weatherflow/data/parquet/openweather/manila.parquet
+2026-10-11 08:00:13,396 | INFO | pipeline.main | Loaded 1 row(s) for Manila into openweather_manila.
+2026-10-11 08:00:13,494 | INFO | pipeline.main | Checkpoint updated for Manila.
+2026-10-11 08:00:13,496 | INFO | pipeline.main | Processing city: Quezon City
+2026-10-11 08:00:13,872 | INFO | pipeline.main | Geocoding loaded for Quezon City into geocoding_quezon_city
+2026-10-11 08:00:14,009 | INFO | pipeline.main | Raw JSON saved for Quezon City: /opt/weatherflow/data/raw/openweather/quezon_city.json
+2026-10-11 08:00:14,027 | INFO | pipeline.main | Weather data transformed for Quezon City
+2026-10-11 08:00:14,273 | INFO | pipeline.main | Parquet saved for Quezon City: /opt/weatherflow/data/parquet/openweather/quezon_city.parquet
+2026-10-11 08:00:14,334 | INFO | pipeline.main | Loaded 1 row(s) for Quezon City into openweather_quezon_city.
+2026-10-11 08:00:14,444 | INFO | pipeline.main | Checkpoint updated for Quezon City.
+2026-10-11 08:00:14,447 | INFO | pipeline.main | Processing city: Cebu City
+2026-10-11 08:00:14,829 | INFO | pipeline.main | Geocoding loaded for Cebu City into geocoding_cebu_city
+2026-10-11 08:00:14,992 | INFO | pipeline.main | Raw JSON saved for Cebu City: /opt/weatherflow/data/raw/openweather/cebu_city.json
+2026-10-11 08:00:14,998 | INFO | pipeline.main | Weather data transformed for Cebu City
+2026-10-11 08:00:15,230 | INFO | pipeline.main | Parquet saved for Cebu City: /opt/weatherflow/data/parquet/openweather/cebu_city.parquet
+2026-10-11 08:00:15,317 | INFO | pipeline.main | Loaded 1 row(s) for Cebu City into openweather_cebu_city.
+2026-10-11 08:00:15,364 | INFO | pipeline.main | Checkpoint updated for Cebu City.
+2026-10-11 08:00:15,367 | INFO | pipeline.main | Processing city: Davao City
+2026-10-11 08:00:15,826 | INFO | pipeline.main | Geocoding loaded for Davao City into geocoding_davao_city
+2026-10-11 08:00:15,909 | INFO | pipeline.main | Raw JSON saved for Davao City: /opt/weatherflow/data/raw/openweather/davao_city.json
+2026-10-11 08:00:15,916 | INFO | pipeline.main | Weather data transformed for Davao City
+2026-10-11 08:00:16,053 | INFO | pipeline.main | Parquet saved for Davao City: /opt/weatherflow/data/parquet/openweather/davao_city.parquet
+2026-10-11 08:00:16,092 | INFO | pipeline.main | Loaded 1 row(s) for Davao City into openweather_davao_city.
+2026-10-11 08:00:16,170 | INFO | pipeline.main | Checkpoint updated for Davao City.
+2026-10-11 08:00:16,176 | INFO | pipeline.main | Processing city: Baguio
+2026-10-11 08:00:16,567 | INFO | pipeline.main | Geocoding loaded for Baguio into geocoding_baguio
+2026-10-11 08:00:16,755 | INFO | pipeline.main | Raw JSON saved for Baguio: /opt/weatherflow/data/raw/openweather/baguio.json
+2026-10-11 08:00:16,770 | INFO | pipeline.main | Weather data transformed for Baguio
+2026-10-11 08:00:17,017 | INFO | pipeline.main | Parquet saved for Baguio: /opt/weatherflow/data/parquet/openweather/baguio.parquet
+2026-10-11 08:00:17,095 | INFO | pipeline.main | Loaded 1 row(s) for Baguio into openweather_baguio.
+2026-10-11 08:00:17,212 | INFO | pipeline.main | Checkpoint updated for Baguio.
+2026-10-11 08:00:17,217 | INFO | pipeline.main | Processing city: Iloilo City
+2026-10-11 08:00:17,566 | INFO | pipeline.main | Geocoding loaded for Iloilo City into geocoding_iloilo_city
+2026-10-11 08:00:17,668 | INFO | pipeline.main | Raw JSON saved for Iloilo City: /opt/weatherflow/data/raw/openweather/iloilo_city.json
+2026-10-11 08:00:17,674 | INFO | pipeline.main | Weather data transformed for Iloilo City
+2026-10-11 08:00:17,798 | INFO | pipeline.main | Parquet saved for Iloilo City: /opt/weatherflow/data/parquet/openweather/iloilo_city.parquet
+2026-10-11 08:00:17,854 | INFO | pipeline.main | Loaded 1 row(s) for Iloilo City into openweather_iloilo_city.
+2026-10-11 08:00:17,899 | INFO | pipeline.main | Checkpoint updated for Iloilo City.
+2026-10-11 08:00:17,901 | INFO | pipeline.main | Processing city: Cagayan de Oro
+2026-10-11 08:00:18,239 | INFO | pipeline.main | Geocoding loaded for Cagayan de Oro into geocoding_cagayan_de_oro
+2026-10-11 08:00:18,429 | INFO | pipeline.main | Raw JSON saved for Cagayan de Oro: /opt/weatherflow/data/raw/openweather/cagayan_de_oro.json
+2026-10-11 08:00:18,437 | INFO | pipeline.main | Weather data transformed for Cagayan de Oro
+2026-10-11 08:00:18,566 | INFO | pipeline.main | Parquet saved for Cagayan de Oro: /opt/weatherflow/data/parquet/openweather/cagayan_de_oro.parquet
+2026-10-11 08:00:18,642 | INFO | pipeline.main | Loaded 1 row(s) for Cagayan de Oro into openweather_cagayan_de_oro.
+2026-10-11 08:00:18,797 | INFO | pipeline.main | Checkpoint updated for Cagayan de Oro.
+2026-10-11 08:00:18,801 | INFO | pipeline.main | Processing city: Zamboanga City
+2026-10-11 08:00:19,171 | INFO | pipeline.main | Geocoding loaded for Zamboanga City into geocoding_zamboanga_city
+2026-10-11 08:00:19,315 | INFO | pipeline.main | Raw JSON saved for Zamboanga City: /opt/weatherflow/data/raw/openweather/zamboanga_city.json
+2026-10-11 08:00:19,331 | INFO | pipeline.main | Weather data transformed for Zamboanga City
+2026-10-11 08:00:19,494 | INFO | pipeline.main | Parquet saved for Zamboanga City: /opt/weatherflow/data/parquet/openweather/zamboanga_city.parquet
+2026-10-11 08:00:19,552 | INFO | pipeline.main | Loaded 1 row(s) for Zamboanga City into openweather_zamboanga_city.
+2026-10-11 08:00:19,608 | INFO | pipeline.main | Checkpoint updated for Zamboanga City.
+2026-10-11 08:00:19,611 | INFO | pipeline.main | Pipeline summary | total=8 | loaded=8 | skipped=0 | failed=0
+2026-10-11 08:00:19,613 | INFO | pipeline.main | Successfully loaded cities: ['Manila', 'Quezon City', 'Cebu City', 'Davao City', 'Baguio', 'Iloilo City', 'Cagayan de Oro', 'Zamboanga City']
+2026-10-11 08:00:19,615 | INFO | pipeline.main | Weather ingestion completed successfully.

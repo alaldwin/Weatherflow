@@ -1691,5 +1691,55 @@
         "city": "Davao City",
         "source": "openweather",
         "observation_time": "2026-10-11T07:00:09+00:00"
+    },
+    {
+        "coord": {
+            "lon": 125.4553,
+            "lat": 7.1907
+        },
+        "weather": [
+            {
+                "id": 501,
+                "main": "Rain",
+                "description": "moderate rain",
+                "icon": "10d"
+            }
+        ],
+        "base": "stations",
+        "main": {
+            "temp": 28.83,
+            "feels_like": 35.79,
+            "temp_min": 28.83,
+            "temp_max": 28.83,
+            "pressure": 1011,
+            "humidity": 87,
+            "sea_level": 1011,
+            "grnd_level": 964
+        },
+        "visibility": 10000,
+        "wind": {
+            "speed": 2.42,
+            "deg": 155,
+            "gust": 3.97
+        },
+        "rain": {
+            "1h": 1.89
+        },
+        "clouds": {
+            "all": 61
+        },
+        "dt": 1791705615,
+        "sys": {
+            "country": "PH",
+            "sunrise": 1791667500,
+            "sunset": 1791710687
+        },
+        "timezone": 28800,
+        "id": 1708199,
+        "name": "Lacson",
+        "cod": 200,
+        "city": "Davao City",
+        "source": "openweather",
+        "observation_time": "2026-10-11T08:00:15+00:00"
     }
 ]

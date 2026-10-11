@@ -1484,5 +1484,55 @@
         "city": "Manila",
         "source": "openweather",
         "observation_time": "2026-10-11T06:56:03+00:00"
+    },
+    {
+        "coord": {
+            "lon": 120.9842,
+            "lat": 14.5995
+        },
+        "weather": [
+            {
+                "id": 500,
+                "main": "Rain",
+                "description": "light rain",
+                "icon": "10d"
+            }
+        ],
+        "base": "stations",
+        "main": {
+            "temp": 31.1,
+            "feels_like": 37.87,
+            "temp_min": 31.1,
+            "temp_max": 31.1,
+            "pressure": 1009,
+            "humidity": 70,
+            "sea_level": 1009,
+            "grnd_level": 1012
+        },
+        "visibility": 10000,
+        "wind": {
+            "speed": 1.89,
+            "deg": 75,
+            "gust": 2.23
+        },
+        "rain": {
+            "1h": 0.18
+        },
+        "clouds": {
+            "all": 100
+        },
+        "dt": 1791705611,
+        "sys": {
+            "country": "PH",
+            "sunrise": 1791668790,
+            "sunset": 1791711543
+        },
+        "timezone": 28800,
+        "id": 1701668,
+        "name": "Manila",
+        "cod": 200,
+        "city": "Manila",
+        "source": "openweather",
+        "observation_time": "2026-10-11T08:00:11+00:00"
     }
 ]

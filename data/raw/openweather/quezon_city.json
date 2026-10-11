@@ -1656,5 +1656,55 @@
         "city": "Quezon City",
         "source": "openweather",
         "observation_time": "2026-10-11T07:00:08+00:00"
+    },
+    {
+        "coord": {
+            "lon": 121.0437,
+            "lat": 14.676
+        },
+        "weather": [
+            {
+                "id": 501,
+                "main": "Rain",
+                "description": "moderate rain",
+                "icon": "10d"
+            }
+        ],
+        "base": "stations",
+        "main": {
+            "temp": 30.82,
+            "feels_like": 37.12,
+            "temp_min": 30.82,
+            "temp_max": 30.82,
+            "pressure": 1010,
+            "humidity": 70,
+            "sea_level": 1010,
+            "grnd_level": 1006
+        },
+        "visibility": 10000,
+        "wind": {
+            "speed": 1.75,
+            "deg": 73,
+            "gust": 2.34
+        },
+        "rain": {
+            "1h": 1.15
+        },
+        "clouds": {
+            "all": 99
+        },
+        "dt": 1791705566,
+        "sys": {
+            "country": "PH",
+            "sunrise": 1791668778,
+            "sunset": 1791711526
+        },
+        "timezone": 28800,
+        "id": 1966336,
+        "name": "Bagong Pagasa",
+        "cod": 200,
+        "city": "Quezon City",
+        "source": "openweather",
+        "observation_time": "2026-10-11T07:59:26+00:00"
     }
 ]

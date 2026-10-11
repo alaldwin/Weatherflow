@@ -1731,5 +1731,55 @@
         "city": "Cebu City",
         "source": "openweather",
         "observation_time": "2026-10-11T06:57:47+00:00"
+    },
+    {
+        "coord": {
+            "lon": 123.8854,
+            "lat": 10.3157
+        },
+        "weather": [
+            {
+                "id": 500,
+                "main": "Rain",
+                "description": "light rain",
+                "icon": "10d"
+            }
+        ],
+        "base": "stations",
+        "main": {
+            "temp": 28.2,
+            "feels_like": 31.06,
+            "temp_min": 28.2,
+            "temp_max": 28.2,
+            "pressure": 1009,
+            "humidity": 70,
+            "sea_level": 1009,
+            "grnd_level": 992
+        },
+        "visibility": 10000,
+        "wind": {
+            "speed": 1.06,
+            "deg": 149,
+            "gust": 0.87
+        },
+        "rain": {
+            "1h": 0.11
+        },
+        "clouds": {
+            "all": 21
+        },
+        "dt": 1791705037,
+        "sys": {
+            "country": "PH",
+            "sunrise": 1791667968,
+            "sunset": 1791710973
+        },
+        "timezone": 28800,
+        "id": 1717512,
+        "name": "Cebu City",
+        "cod": 200,
+        "city": "Cebu City",
+        "source": "openweather",
+        "observation_time": "2026-10-11T07:50:37+00:00"
     }
 ]

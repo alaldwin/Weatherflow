@@ -1562,5 +1562,55 @@
         "city": "Iloilo City",
         "source": "openweather",
         "observation_time": "2026-10-11T07:00:11+00:00"
+    },
+    {
+        "coord": {
+            "lon": 122.5621,
+            "lat": 10.7202
+        },
+        "weather": [
+            {
+                "id": 500,
+                "main": "Rain",
+                "description": "light rain",
+                "icon": "10d"
+            }
+        ],
+        "base": "stations",
+        "main": {
+            "temp": 29.28,
+            "feels_like": 34.18,
+            "temp_min": 29.28,
+            "temp_max": 29.28,
+            "pressure": 1009,
+            "humidity": 74,
+            "sea_level": 1009,
+            "grnd_level": 1008
+        },
+        "visibility": 10000,
+        "wind": {
+            "speed": 3.44,
+            "deg": 213,
+            "gust": 3.84
+        },
+        "rain": {
+            "1h": 0.65
+        },
+        "clouds": {
+            "all": 13
+        },
+        "dt": 1791705608,
+        "sys": {
+            "country": "PH",
+            "sunrise": 1791668297,
+            "sunset": 1791711279
+        },
+        "timezone": 28800,
+        "id": 1711005,
+        "name": "Iloilo City",
+        "cod": 200,
+        "city": "Iloilo City",
+        "source": "openweather",
+        "observation_time": "2026-10-11T08:00:08+00:00"
     }
 ]
