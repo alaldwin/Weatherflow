@@ -70,8 +70,8 @@ flowchart TD
     I --> J
     J --> K
     K --> L
-    L --> M
-    M --> L
+    L -->|Analytics queries| M
+    M -->|API responses| N
 ```
 
 Apache Airflow orchestrates the Python ingestion pipeline on a schedule. Docker provides the runtime environment for the pipeline, Airflow, and PostgreSQL.
