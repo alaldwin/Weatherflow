@@ -1091,5 +1091,605 @@
         "city": "Davao City",
         "source": "openweather",
         "observation_time": "2026-10-09T10:30:03+00:00"
+    },
+    {
+        "coord": {
+            "lon": 125.4553,
+            "lat": 7.1907
+        },
+        "weather": [
+            {
+                "id": 500,
+                "main": "Rain",
+                "description": "light rain",
+                "icon": "10n"
+            }
+        ],
+        "base": "stations",
+        "main": {
+            "temp": 27.42,
+            "feels_like": 32.1,
+            "temp_min": 27.42,
+            "temp_max": 27.42,
+            "pressure": 1010,
+            "humidity": 91,
+            "sea_level": 1010,
+            "grnd_level": 964
+        },
+        "visibility": 10000,
+        "wind": {
+            "speed": 1.1,
+            "deg": 230,
+            "gust": 1.05
+        },
+        "rain": {
+            "1h": 0.49
+        },
+        "clouds": {
+            "all": 98
+        },
+        "dt": 1791629816,
+        "sys": {
+            "country": "PH",
+            "sunrise": 1791581105,
+            "sunset": 1791624315
+        },
+        "timezone": 28800,
+        "id": 1708199,
+        "name": "Lacson",
+        "cod": 200,
+        "city": "Davao City",
+        "source": "openweather",
+        "observation_time": "2026-10-10T10:56:56+00:00"
+    },
+    {
+        "coord": {
+            "lon": 125.4553,
+            "lat": 7.1907
+        },
+        "weather": [
+            {
+                "id": 500,
+                "main": "Rain",
+                "description": "light rain",
+                "icon": "10n"
+            }
+        ],
+        "base": "stations",
+        "main": {
+            "temp": 27.41,
+            "feels_like": 32.07,
+            "temp_min": 27.41,
+            "temp_max": 27.41,
+            "pressure": 1009,
+            "humidity": 91,
+            "sea_level": 1009,
+            "grnd_level": 964
+        },
+        "visibility": 10000,
+        "wind": {
+            "speed": 1.1,
+            "deg": 230,
+            "gust": 1.05
+        },
+        "rain": {
+            "1h": 0.49
+        },
+        "clouds": {
+            "all": 98
+        },
+        "dt": 1791630716,
+        "sys": {
+            "country": "PH",
+            "sunrise": 1791581105,
+            "sunset": 1791624315
+        },
+        "timezone": 28800,
+        "id": 1708199,
+        "name": "Lacson",
+        "cod": 200,
+        "city": "Davao City",
+        "source": "openweather",
+        "observation_time": "2026-10-10T11:11:56+00:00"
+    },
+    {
+        "coord": {
+            "lon": 125.4553,
+            "lat": 7.1907
+        },
+        "weather": [
+            {
+                "id": 501,
+                "main": "Rain",
+                "description": "moderate rain",
+                "icon": "10d"
+            }
+        ],
+        "base": "stations",
+        "main": {
+            "temp": 30.88,
+            "feels_like": 37.88,
+            "temp_min": 30.88,
+            "temp_max": 30.88,
+            "pressure": 1011,
+            "humidity": 82,
+            "sea_level": 1011,
+            "grnd_level": 964
+        },
+        "visibility": 10000,
+        "wind": {
+            "speed": 2.67,
+            "deg": 156,
+            "gust": 3
+        },
+        "rain": {
+            "1h": 1.85
+        },
+        "clouds": {
+            "all": 87
+        },
+        "dt": 1791694110,
+        "sys": {
+            "country": "PH",
+            "sunrise": 1791667500,
+            "sunset": 1791710687
+        },
+        "timezone": 28800,
+        "id": 1716315,
+        "name": "Dacudao",
+        "cod": 200,
+        "city": "Davao City",
+        "source": "openweather",
+        "observation_time": "2026-10-11T04:48:30+00:00"
+    },
+    {
+        "coord": {
+            "lon": 125.4553,
+            "lat": 7.1907
+        },
+        "weather": [
+            {
+                "id": 501,
+                "main": "Rain",
+                "description": "moderate rain",
+                "icon": "10d"
+            }
+        ],
+        "base": "stations",
+        "main": {
+            "temp": 30.88,
+            "feels_like": 37.88,
+            "temp_min": 30.88,
+            "temp_max": 30.88,
+            "pressure": 1011,
+            "humidity": 82,
+            "sea_level": 1011,
+            "grnd_level": 964
+        },
+        "visibility": 10000,
+        "wind": {
+            "speed": 2.67,
+            "deg": 156,
+            "gust": 3
+        },
+        "rain": {
+            "1h": 1.85
+        },
+        "clouds": {
+            "all": 87
+        },
+        "dt": 1791694811,
+        "sys": {
+            "country": "PH",
+            "sunrise": 1791667500,
+            "sunset": 1791710687
+        },
+        "timezone": 28800,
+        "id": 1716315,
+        "name": "Dacudao",
+        "cod": 200,
+        "city": "Davao City",
+        "source": "openweather",
+        "observation_time": "2026-10-11T05:00:11+00:00"
+    },
+    {
+        "coord": {
+            "lon": 125.4553,
+            "lat": 7.1907
+        },
+        "weather": [
+            {
+                "id": 501,
+                "main": "Rain",
+                "description": "moderate rain",
+                "icon": "10d"
+            }
+        ],
+        "base": "stations",
+        "main": {
+            "temp": 30.88,
+            "feels_like": 37.88,
+            "temp_min": 30.88,
+            "temp_max": 30.88,
+            "pressure": 1011,
+            "humidity": 82,
+            "sea_level": 1011,
+            "grnd_level": 964
+        },
+        "visibility": 10000,
+        "wind": {
+            "speed": 2.67,
+            "deg": 156,
+            "gust": 3
+        },
+        "rain": {
+            "1h": 1.85
+        },
+        "clouds": {
+            "all": 87
+        },
+        "dt": 1791694803,
+        "sys": {
+            "country": "PH",
+            "sunrise": 1791667500,
+            "sunset": 1791710687
+        },
+        "timezone": 28800,
+        "id": 1708199,
+        "name": "Lacson",
+        "cod": 200,
+        "city": "Davao City",
+        "source": "openweather",
+        "observation_time": "2026-10-11T05:00:03+00:00"
+    },
+    {
+        "coord": {
+            "lon": 125.4553,
+            "lat": 7.1907
+        },
+        "weather": [
+            {
+                "id": 501,
+                "main": "Rain",
+                "description": "moderate rain",
+                "icon": "10d"
+            }
+        ],
+        "base": "stations",
+        "main": {
+            "temp": 30.88,
+            "feels_like": 37.88,
+            "temp_min": 30.88,
+            "temp_max": 30.88,
+            "pressure": 1011,
+            "humidity": 82,
+            "sea_level": 1011,
+            "grnd_level": 964
+        },
+        "visibility": 10000,
+        "wind": {
+            "speed": 2.67,
+            "deg": 156,
+            "gust": 3
+        },
+        "rain": {
+            "1h": 1.85
+        },
+        "clouds": {
+            "all": 87
+        },
+        "dt": 1791696267,
+        "sys": {
+            "country": "PH",
+            "sunrise": 1791667500,
+            "sunset": 1791710687
+        },
+        "timezone": 28800,
+        "id": 1708199,
+        "name": "Lacson",
+        "cod": 200,
+        "city": "Davao City",
+        "source": "openweather",
+        "observation_time": "2026-10-11T05:24:27+00:00"
+    },
+    {
+        "coord": {
+            "lon": 125.4553,
+            "lat": 7.1907
+        },
+        "weather": [
+            {
+                "id": 501,
+                "main": "Rain",
+                "description": "moderate rain",
+                "icon": "10d"
+            }
+        ],
+        "base": "stations",
+        "main": {
+            "temp": 30.5,
+            "feels_like": 37.5,
+            "temp_min": 30.5,
+            "temp_max": 30.5,
+            "pressure": 1011,
+            "humidity": 84,
+            "sea_level": 1011,
+            "grnd_level": 964
+        },
+        "visibility": 10000,
+        "wind": {
+            "speed": 2.45,
+            "deg": 160,
+            "gust": 2.69
+        },
+        "rain": {
+            "1h": 1.83
+        },
+        "clouds": {
+            "all": 81
+        },
+        "dt": 1791698241,
+        "sys": {
+            "country": "PH",
+            "sunrise": 1791667500,
+            "sunset": 1791710687
+        },
+        "timezone": 28800,
+        "id": 1708199,
+        "name": "Lacson",
+        "cod": 200,
+        "city": "Davao City",
+        "source": "openweather",
+        "observation_time": "2026-10-11T05:57:21+00:00"
+    },
+    {
+        "coord": {
+            "lon": 125.4553,
+            "lat": 7.1907
+        },
+        "weather": [
+            {
+                "id": 501,
+                "main": "Rain",
+                "description": "moderate rain",
+                "icon": "10d"
+            }
+        ],
+        "base": "stations",
+        "main": {
+            "temp": 30.5,
+            "feels_like": 37.5,
+            "temp_min": 30.5,
+            "temp_max": 30.5,
+            "pressure": 1011,
+            "humidity": 84,
+            "sea_level": 1011,
+            "grnd_level": 964
+        },
+        "visibility": 10000,
+        "wind": {
+            "speed": 2.45,
+            "deg": 160,
+            "gust": 2.69
+        },
+        "rain": {
+            "1h": 1.83
+        },
+        "clouds": {
+            "all": 81
+        },
+        "dt": 1791698870,
+        "sys": {
+            "country": "PH",
+            "sunrise": 1791667500,
+            "sunset": 1791710687
+        },
+        "timezone": 28800,
+        "id": 1708199,
+        "name": "Lacson",
+        "cod": 200,
+        "city": "Davao City",
+        "source": "openweather",
+        "observation_time": "2026-10-11T06:07:50+00:00"
+    },
+    {
+        "coord": {
+            "lon": 125.4553,
+            "lat": 7.1907
+        },
+        "weather": [
+            {
+                "id": 501,
+                "main": "Rain",
+                "description": "moderate rain",
+                "icon": "10d"
+            }
+        ],
+        "base": "stations",
+        "main": {
+            "temp": 30.25,
+            "feels_like": 37.25,
+            "temp_min": 30.25,
+            "temp_max": 30.25,
+            "pressure": 1010,
+            "humidity": 87,
+            "sea_level": 1010,
+            "grnd_level": 964
+        },
+        "visibility": 8286,
+        "wind": {
+            "speed": 2.24,
+            "deg": 161,
+            "gust": 2.82
+        },
+        "rain": {
+            "1h": 1.85
+        },
+        "clouds": {
+            "all": 68
+        },
+        "dt": 1791700201,
+        "sys": {
+            "country": "PH",
+            "sunrise": 1791667500,
+            "sunset": 1791710687
+        },
+        "timezone": 28800,
+        "id": 1716315,
+        "name": "Dacudao",
+        "cod": 200,
+        "city": "Davao City",
+        "source": "openweather",
+        "observation_time": "2026-10-11T06:30:01+00:00"
+    },
+    {
+        "coord": {
+            "lon": 125.4553,
+            "lat": 7.1907
+        },
+        "weather": [
+            {
+                "id": 501,
+                "main": "Rain",
+                "description": "moderate rain",
+                "icon": "10d"
+            }
+        ],
+        "base": "stations",
+        "main": {
+            "temp": 30.25,
+            "feels_like": 37.25,
+            "temp_min": 30.25,
+            "temp_max": 30.25,
+            "pressure": 1010,
+            "humidity": 87,
+            "sea_level": 1010,
+            "grnd_level": 964
+        },
+        "visibility": 8286,
+        "wind": {
+            "speed": 2.24,
+            "deg": 161,
+            "gust": 2.82
+        },
+        "rain": {
+            "1h": 1.85
+        },
+        "clouds": {
+            "all": 68
+        },
+        "dt": 1791700682,
+        "sys": {
+            "country": "PH",
+            "sunrise": 1791667500,
+            "sunset": 1791710687
+        },
+        "timezone": 28800,
+        "id": 1708199,
+        "name": "Lacson",
+        "cod": 200,
+        "city": "Davao City",
+        "source": "openweather",
+        "observation_time": "2026-10-11T06:38:02+00:00"
+    },
+    {
+        "coord": {
+            "lon": 125.4553,
+            "lat": 7.1907
+        },
+        "weather": [
+            {
+                "id": 501,
+                "main": "Rain",
+                "description": "moderate rain",
+                "icon": "10d"
+            }
+        ],
+        "base": "stations",
+        "main": {
+            "temp": 30.25,
+            "feels_like": 37.25,
+            "temp_min": 30.25,
+            "temp_max": 30.25,
+            "pressure": 1010,
+            "humidity": 87,
+            "sea_level": 1010,
+            "grnd_level": 964
+        },
+        "visibility": 8286,
+        "wind": {
+            "speed": 2.24,
+            "deg": 161,
+            "gust": 2.82
+        },
+        "rain": {
+            "1h": 1.85
+        },
+        "clouds": {
+            "all": 68
+        },
+        "dt": 1791701406,
+        "sys": {
+            "country": "PH",
+            "sunrise": 1791667500,
+            "sunset": 1791710687
+        },
+        "timezone": 28800,
+        "id": 1708199,
+        "name": "Lacson",
+        "cod": 200,
+        "city": "Davao City",
+        "source": "openweather",
+        "observation_time": "2026-10-11T06:50:06+00:00"
+    },
+    {
+        "coord": {
+            "lon": 125.4553,
+            "lat": 7.1907
+        },
+        "weather": [
+            {
+                "id": 501,
+                "main": "Rain",
+                "description": "moderate rain",
+                "icon": "10d"
+            }
+        ],
+        "base": "stations",
+        "main": {
+            "temp": 30.25,
+            "feels_like": 37.25,
+            "temp_min": 30.25,
+            "temp_max": 30.25,
+            "pressure": 1010,
+            "humidity": 87,
+            "sea_level": 1010,
+            "grnd_level": 964
+        },
+        "visibility": 8286,
+        "wind": {
+            "speed": 2.24,
+            "deg": 161,
+            "gust": 2.82
+        },
+        "rain": {
+            "1h": 1.85
+        },
+        "clouds": {
+            "all": 68
+        },
+        "dt": 1791702009,
+        "sys": {
+            "country": "PH",
+            "sunrise": 1791667500,
+            "sunset": 1791710687
+        },
+        "timezone": 28800,
+        "id": 1708199,
+        "name": "Lacson",
+        "cod": 200,
+        "city": "Davao City",
+        "source": "openweather",
+        "observation_time": "2026-10-11T07:00:09+00:00"
     }
 ]

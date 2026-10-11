@@ -192,3 +192,224 @@ Runtime Error
 [0m18:55:22.162079 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7bb32f57fa80>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7bb32f586f90>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7bb32f3a19d0>]}
 [0m18:55:22.163523 [debug] [MainThread]: Flushing usage events
 [0m18:55:23.262801 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m18:50:04.575522 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7bdf9859a120>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7bdf9a359090>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7bdf96f0f9d0>]}
+
+
+============================== 18:50:04.634343 | 648b4419-0b98-42f6-8589-7afa9498e703 ==============================
+[0m18:50:04.634343 [info ] [MainThread]: Running with dbt=1.12.5
+[0m18:50:04.637128 [debug] [MainThread]: running dbt with arguments {'introspect': 'True', 'cache_selected_only': 'False', 'empty': 'None', 'partial_parse': 'True', 'hints_enabled': 'True', 'target_path': 'None', 'invocation_command': 'dbt debug', 'profiles_dir': '/home/aldwin/.dbt', 'use_colors': 'True', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'write_json': 'True', 'no_print': 'None', 'log_cache_events': 'False', 'printer_width': '80', 'indirect_selection': 'eager', 'version_check': 'True', 'log_path': 'logs', 'use_experimental_parser': 'False', 'warn_error': 'None', 'quiet': 'False', 'debug': 'False', 'log_format': 'default', 'send_anonymous_usage_stats': 'True', 'maximum_seed_size_mib': '1', 'fail_fast': 'False', 'static_parser': 'True'}
+[0m18:50:05.750502 [info ] [MainThread]: dbt version: 1.12.5
+[0m18:50:05.753071 [info ] [MainThread]: python version: 3.14.4
+[0m18:50:05.755449 [info ] [MainThread]: python path: /mnt/c/Users/aldwin/project/Weatherflow/.venv/bin/python
+[0m18:50:05.757447 [info ] [MainThread]: os info: Linux-6.18.33.2-microsoft-standard-WSL2-x86_64-with-glibc2.43
+[0m18:50:08.043216 [info ] [MainThread]: Using profiles dir at /home/aldwin/.dbt
+[0m18:50:08.045472 [info ] [MainThread]: Using profiles.yml file at /home/aldwin/.dbt/profiles.yml
+[0m18:50:08.047920 [info ] [MainThread]: Using dbt_project.yml file at /mnt/c/Users/aldwin/project/weatherflow/dbt_project.yml
+[0m18:50:08.107388 [info ] [MainThread]: adapter type: postgres
+[0m18:50:08.109472 [info ] [MainThread]: adapter version: 1.11.0
+[0m18:50:08.112491 [info ] [MainThread]: Configuration:
+[0m18:50:08.114915 [info ] [MainThread]:   profiles.yml file [[32mOK found and valid[0m]
+[0m18:50:08.117415 [info ] [MainThread]:   dbt_project.yml file [[31mERROR not found[0m]
+[0m18:50:08.119933 [info ] [MainThread]: Required dependencies:
+[0m18:50:08.122678 [debug] [MainThread]: Executing "git --help"
+[0m18:50:08.133986 [debug] [MainThread]: STDOUT: "b"usage: git [-v | --version] [-h | --help] [-C <path>] [-c <name>=<value>]\n           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]\n           [-p | --paginate | -P | --no-pager] [--no-replace-objects] [--no-lazy-fetch]\n           [--no-optional-locks] [--no-advice] [--bare] [--git-dir=<path>]\n           [--work-tree=<path>] [--namespace=<name>] [--config-env=<name>=<envvar>]\n           <command> [<args>]\n\nThese are common Git commands used in various situations:\n\nstart a working area (see also: git help tutorial)\n   clone      Clone a repository into a new directory\n   init       Create an empty Git repository or reinitialize an existing one\n\nwork on the current change (see also: git help everyday)\n   add        Add file contents to the index\n   mv         Move or rename a file, a directory, or a symlink\n   restore    Restore working tree files\n   rm         Remove files from the working tree and from the index\n\nexamine the history and state (see also: git help revisions)\n   bisect     Use binary search to find the commit that introduced a bug\n   diff       Show changes between commits, commit and working tree, etc\n   grep       Print lines matching a pattern\n   log        Show commit logs\n   show       Show various types of objects\n   status     Show the working tree status\n\ngrow, mark and tweak your common history\n   backfill   Download missing objects in a partial clone\n   branch     List, create, or delete branches\n   commit     Record changes to the repository\n   merge      Join two or more development histories together\n   rebase     Reapply commits on top of another base tip\n   reset      Set `HEAD` or the index to a known state\n   switch     Switch branches\n   tag        Create, list, delete or verify tags\n\ncollaborate (see also: git help workflows)\n   fetch      Download objects and refs from another repository\n   pull       Fetch from and integrate with another repository or a local branch\n   push       Update remote refs along with associated objects\n\n'git help -a' and 'git help -g' list available subcommands and some\nconcept guides. See 'git help <command>' or 'git help <concept>'\nto read about a specific subcommand or concept.\nSee 'git help git' for an overview of the system.\n""
+[0m18:50:08.136272 [debug] [MainThread]: STDERR: "b''"
+[0m18:50:08.138354 [info ] [MainThread]:  - git [[32mOK found[0m]
+
+[0m18:50:08.140394 [info ] [MainThread]: Connection:
+[0m18:50:08.142814 [info ] [MainThread]:   host: 127.0.0.1
+[0m18:50:08.145837 [info ] [MainThread]:   port: 5433
+[0m18:50:08.149237 [info ] [MainThread]:   user: weatherflow
+[0m18:50:08.152259 [info ] [MainThread]:   database: weatherflow
+[0m18:50:08.153847 [info ] [MainThread]:   schema: dbt_dev
+[0m18:50:08.155543 [info ] [MainThread]:   connect_timeout: 10
+[0m18:50:08.157481 [info ] [MainThread]:   role: None
+[0m18:50:08.160053 [info ] [MainThread]:   search_path: None
+[0m18:50:08.162003 [info ] [MainThread]:   keepalives_idle: 0
+[0m18:50:08.163952 [info ] [MainThread]:   sslmode: None
+[0m18:50:08.165740 [info ] [MainThread]:   sslcert: None
+[0m18:50:08.167314 [info ] [MainThread]:   sslkey: None
+[0m18:50:08.169068 [info ] [MainThread]:   sslrootcert: None
+[0m18:50:08.170631 [info ] [MainThread]:   application_name: dbt
+[0m18:50:08.172592 [info ] [MainThread]:   autocommit: False
+[0m18:50:08.174537 [info ] [MainThread]:   retries: 1
+[0m18:50:08.180209 [info ] [MainThread]: Registered adapter: postgres=1.11.0
+[0m18:50:43.002765 [debug] [MainThread]: Acquiring new postgres connection 'debug'
+[0m18:50:50.658414 [error] [MainThread]: [[31mERROR[0m]: Encountered an error:
+
+[0m18:50:51.128753 [error] [MainThread]: Traceback (most recent call last):
+  File "/mnt/c/Users/aldwin/project/Weatherflow/.venv/lib/python3.14/site-packages/dbt/cli/requires.py", line 198, in wrapper
+    result, success = func(*args, **kwargs)
+                      ~~~~^^^^^^^^^^^^^^^^^
+  File "/mnt/c/Users/aldwin/project/Weatherflow/.venv/lib/python3.14/site-packages/dbt/cli/requires.py", line 144, in wrapper
+    return func(*args, **kwargs)
+  File "/mnt/c/Users/aldwin/project/Weatherflow/.venv/lib/python3.14/site-packages/dbt/cli/main.py", line 440, in debug
+    results = task.run()
+  File "/mnt/c/Users/aldwin/project/Weatherflow/.venv/lib/python3.14/site-packages/dbt/task/debug.py", line 144, in run
+    connection_status = self.test_connection()
+  File "/mnt/c/Users/aldwin/project/Weatherflow/.venv/lib/python3.14/site-packages/dbt/task/debug.py", line 465, in test_connection
+    connection_result = self.attempt_connection(self.profile)
+  File "/mnt/c/Users/aldwin/project/Weatherflow/.venv/lib/python3.14/site-packages/dbt/task/debug.py", line 443, in attempt_connection
+    adapter.debug_query()
+    ~~~~~~~~~~~~~~~~~~~^^
+  File "/mnt/c/Users/aldwin/project/Weatherflow/.venv/lib/python3.14/site-packages/dbt/adapters/postgres/impl.py", line 182, in debug_query
+    self.execute("select 1 as id")
+    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^
+  File "/mnt/c/Users/aldwin/project/Weatherflow/.venv/lib/python3.14/site-packages/dbt_common/record.py", line 538, in record_replay_wrapper
+    return func_to_record(*call_args, **kwargs)
+  File "/mnt/c/Users/aldwin/project/Weatherflow/.venv/lib/python3.14/site-packages/dbt/adapters/base/impl.py", line 523, in execute
+    return self.connections.execute(sql=sql, auto_begin=auto_begin, fetch=fetch, limit=limit)
+           ~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/c/Users/aldwin/project/Weatherflow/.venv/lib/python3.14/site-packages/dbt/adapters/sql/connections.py", line 216, in execute
+    from dbt_common.clients.agate_helper import empty_table
+  File "/mnt/c/Users/aldwin/project/Weatherflow/.venv/lib/python3.14/site-packages/dbt_common/clients/agate_helper.py", line 77, in <module>
+    DEFAULT_TYPE_TESTER = build_type_tester(())
+  File "/mnt/c/Users/aldwin/project/Weatherflow/.venv/lib/python3.14/site-packages/dbt_common/clients/agate_helper.py", line 64, in build_type_tester
+    Number(null_values=("null", "")),
+    ~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/c/Users/aldwin/project/Weatherflow/.venv/lib/python3.14/site-packages/agate/data_types/number.py", line 48, in __init__
+    number_symbols = self.locale.number_symbols.get('latn', self.locale.number_symbols)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/c/Users/aldwin/project/Weatherflow/.venv/lib/python3.14/site-packages/babel/core.py", line 687, in number_symbols
+    return self._data['number_symbols']
+           ^^^^^^^^^^
+  File "/mnt/c/Users/aldwin/project/Weatherflow/.venv/lib/python3.14/site-packages/babel/core.py", line 474, in _data
+    self.__data = localedata.LocaleDataDict(localedata.load(self.__data_identifier))
+                                            ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/c/Users/aldwin/project/Weatherflow/.venv/lib/python3.14/site-packages/babel/localedata.py", line 163, in load
+    data = load(parent).copy()
+           ~~~~^^^^^^^^
+  File "/mnt/c/Users/aldwin/project/Weatherflow/.venv/lib/python3.14/site-packages/babel/localedata.py", line 163, in load
+    data = load(parent).copy()
+           ~~~~^^^^^^^^
+  File "/mnt/c/Users/aldwin/project/Weatherflow/.venv/lib/python3.14/site-packages/babel/localedata.py", line 169, in load
+    data = pickle.load(fileobj)
+  File "/mnt/c/Users/aldwin/project/Weatherflow/.venv/lib/python3.14/site-packages/babel/dates.py", line 35, in <module>
+    from babel import localtime
+  File "/mnt/c/Users/aldwin/project/Weatherflow/.venv/lib/python3.14/site-packages/babel/localtime/__init__.py", line 41, in <module>
+    LOCALTZ = get_localzone()
+  File "/mnt/c/Users/aldwin/project/Weatherflow/.venv/lib/python3.14/site-packages/babel/localtime/__init__.py", line 37, in get_localzone
+    return _get_localzone()
+  File "/mnt/c/Users/aldwin/project/Weatherflow/.venv/lib/python3.14/site-packages/babel/localtime/_unix.py", line 55, in _get_localzone
+    tzinfo = _get_tzinfo(zone_name)
+  File "/mnt/c/Users/aldwin/project/Weatherflow/.venv/lib/python3.14/site-packages/babel/localtime/_helpers.py", line 20, in _get_tzinfo
+    return pytz.timezone(tzenv)
+           ~~~~~~~~~~~~~^^^^^^^
+  File "/mnt/c/Users/aldwin/project/Weatherflow/.venv/lib/python3.14/site-packages/pytz/__init__.py", line 191, in timezone
+    if zone in all_timezones_set:  # noqa
+       ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/c/Users/aldwin/project/Weatherflow/.venv/lib/python3.14/site-packages/pytz/lazy.py", line 154, in _lazy
+    for i in fill_iter.pop():
+             ~~~~~~~~~~~~~^^
+  File "/mnt/c/Users/aldwin/project/Weatherflow/.venv/lib/python3.14/site-packages/pytz/lazy.py", line 101, in _lazy
+    list.extend(self, fill_iter.pop())
+    ~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/c/Users/aldwin/project/Weatherflow/.venv/lib/python3.14/site-packages/pytz/__init__.py", line 1126, in <genexpr>
+    tz for tz in _all_timezones_unchecked if resource_exists(tz))
+                                             ~~~~~~~~~~~~~~~^^^^
+  File "/mnt/c/Users/aldwin/project/Weatherflow/.venv/lib/python3.14/site-packages/pytz/__init__.py", line 131, in resource_exists
+    open_resource(name).close()
+    ~~~~~~~~~~~~~^^^^^^
+  File "/mnt/c/Users/aldwin/project/Weatherflow/.venv/lib/python3.14/site-packages/pytz/__init__.py", line 118, in open_resource
+    return open(filename, 'rb')
+KeyboardInterrupt
+
+[0m18:50:51.148320 [debug] [MainThread]: Resource report: {"command_name": "debug", "command_success": false, "command_wall_clock_time": 46.70567, "process_in_blocks": "39131", "process_kernel_time": 6.01925, "process_mem_max_rss": "127240", "process_out_blocks": "0", "process_user_time": 4.905239}
+[0m18:50:51.150414 [debug] [MainThread]: Command `dbt debug` failed at 18:50:51.150198 after 46.71 seconds
+[0m18:50:51.151739 [debug] [MainThread]: Connection 'debug' was properly closed.
+[0m18:50:51.153243 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7bdf96cb23f0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7bdf96c49130>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7bdf96d005a0>]}
+[0m18:50:51.155712 [debug] [MainThread]: Flushing usage events
+[0m18:50:52.323517 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m11:25:46.116902 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x75a9e81b6120>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x75a9e9f54f50>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x75a9e6acf9d0>]}
+
+
+============================== 11:25:46.140159 | aaa938fb-bbe6-4530-bc47-d5461a69f7f0 ==============================
+[0m11:25:46.140159 [info ] [MainThread]: Running with dbt=1.12.5
+[0m11:25:46.149757 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'cache_selected_only': 'False', 'write_json': 'True', 'static_parser': 'True', 'use_colors': 'True', 'introspect': 'True', 'invocation_command': 'dbt debug', 'maximum_seed_size_mib': '1', 'debug': 'False', 'target_path': 'None', 'log_path': 'logs', 'quiet': 'False', 'no_print': 'None', 'version_check': 'True', 'warn_error': 'None', 'empty': 'None', 'log_format': 'default', 'partial_parse': 'True', 'send_anonymous_usage_stats': 'True', 'hints_enabled': 'True', 'fail_fast': 'False', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'profiles_dir': '/home/aldwin/.dbt', 'use_experimental_parser': 'False', 'log_cache_events': 'False', 'indirect_selection': 'eager'}
+[0m11:25:47.889885 [info ] [MainThread]: dbt version: 1.12.5
+[0m11:25:47.893882 [info ] [MainThread]: python version: 3.14.4
+[0m11:25:47.898560 [info ] [MainThread]: python path: /mnt/c/Users/aldwin/project/Weatherflow/.venv/bin/python
+[0m11:25:47.904812 [info ] [MainThread]: os info: Linux-6.18.33.2-microsoft-standard-WSL2-x86_64-with-glibc2.43
+[0m11:25:50.503097 [info ] [MainThread]: Using profiles dir at /home/aldwin/.dbt
+[0m11:25:50.506690 [info ] [MainThread]: Using profiles.yml file at /home/aldwin/.dbt/profiles.yml
+[0m11:25:50.508813 [info ] [MainThread]: Using dbt_project.yml file at /mnt/c/Users/aldwin/project/weatherflow/dbt_project.yml
+[0m11:25:50.553354 [info ] [MainThread]: adapter type: postgres
+[0m11:25:50.560306 [info ] [MainThread]: adapter version: 1.11.0
+[0m11:25:50.575975 [info ] [MainThread]: Configuration:
+[0m11:25:50.582699 [info ] [MainThread]:   profiles.yml file [[32mOK found and valid[0m]
+[0m11:25:50.588761 [info ] [MainThread]:   dbt_project.yml file [[31mERROR not found[0m]
+[0m11:25:50.594250 [info ] [MainThread]: Required dependencies:
+[0m11:25:50.599244 [debug] [MainThread]: Executing "git --help"
+[0m11:25:50.613499 [debug] [MainThread]: STDOUT: "b"usage: git [-v | --version] [-h | --help] [-C <path>] [-c <name>=<value>]\n           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]\n           [-p | --paginate | -P | --no-pager] [--no-replace-objects] [--no-lazy-fetch]\n           [--no-optional-locks] [--no-advice] [--bare] [--git-dir=<path>]\n           [--work-tree=<path>] [--namespace=<name>] [--config-env=<name>=<envvar>]\n           <command> [<args>]\n\nThese are common Git commands used in various situations:\n\nstart a working area (see also: git help tutorial)\n   clone      Clone a repository into a new directory\n   init       Create an empty Git repository or reinitialize an existing one\n\nwork on the current change (see also: git help everyday)\n   add        Add file contents to the index\n   mv         Move or rename a file, a directory, or a symlink\n   restore    Restore working tree files\n   rm         Remove files from the working tree and from the index\n\nexamine the history and state (see also: git help revisions)\n   bisect     Use binary search to find the commit that introduced a bug\n   diff       Show changes between commits, commit and working tree, etc\n   grep       Print lines matching a pattern\n   log        Show commit logs\n   show       Show various types of objects\n   status     Show the working tree status\n\ngrow, mark and tweak your common history\n   backfill   Download missing objects in a partial clone\n   branch     List, create, or delete branches\n   commit     Record changes to the repository\n   merge      Join two or more development histories together\n   rebase     Reapply commits on top of another base tip\n   reset      Set `HEAD` or the index to a known state\n   switch     Switch branches\n   tag        Create, list, delete or verify tags\n\ncollaborate (see also: git help workflows)\n   fetch      Download objects and refs from another repository\n   pull       Fetch from and integrate with another repository or a local branch\n   push       Update remote refs along with associated objects\n\n'git help -a' and 'git help -g' list available subcommands and some\nconcept guides. See 'git help <command>' or 'git help <concept>'\nto read about a specific subcommand or concept.\nSee 'git help git' for an overview of the system.\n""
+[0m11:25:50.617428 [debug] [MainThread]: STDERR: "b''"
+[0m11:25:50.621124 [info ] [MainThread]:  - git [[32mOK found[0m]
+
+[0m11:25:50.623231 [info ] [MainThread]: Connection:
+[0m11:25:50.624701 [info ] [MainThread]:   host: 127.0.0.1
+[0m11:25:50.626045 [info ] [MainThread]:   port: 5433
+[0m11:25:50.627377 [info ] [MainThread]:   user: weatherflow
+[0m11:25:50.628730 [info ] [MainThread]:   database: weatherflow
+[0m11:25:50.631455 [info ] [MainThread]:   schema: dbt_dev
+[0m11:25:50.634217 [info ] [MainThread]:   connect_timeout: 10
+[0m11:25:50.636228 [info ] [MainThread]:   role: None
+[0m11:25:50.637675 [info ] [MainThread]:   search_path: None
+[0m11:25:50.639239 [info ] [MainThread]:   keepalives_idle: 0
+[0m11:25:50.640492 [info ] [MainThread]:   sslmode: None
+[0m11:25:50.641558 [info ] [MainThread]:   sslcert: None
+[0m11:25:50.642675 [info ] [MainThread]:   sslkey: None
+[0m11:25:50.644096 [info ] [MainThread]:   sslrootcert: None
+[0m11:25:50.645724 [info ] [MainThread]:   application_name: dbt
+[0m11:25:50.647446 [info ] [MainThread]:   autocommit: False
+[0m11:25:50.648891 [info ] [MainThread]:   retries: 1
+[0m11:25:50.653843 [info ] [MainThread]: Registered adapter: postgres=1.11.0
+[0m11:26:38.321761 [debug] [MainThread]: Acquiring new postgres connection 'debug'
+[0m11:26:54.095355 [debug] [MainThread]: Using postgres connection "debug"
+[0m11:26:54.096981 [debug] [MainThread]: On debug: select 1 as id
+[0m11:26:54.098844 [debug] [MainThread]: Opening a new connection, currently in state init
+[0m11:26:54.204530 [debug] [MainThread]: Postgres adapter: Got a retryable error when attempting to open a postgres connection.
+1 attempts remaining. Retrying in 0 seconds.
+Error:
+connection to server at "127.0.0.1", port 5433 failed: FATAL:  password authentication failed for user "weatherflow"
+
+[0m11:26:54.216211 [debug] [MainThread]: Postgres adapter: Error running SQL: select 1 as id
+[0m11:26:54.218253 [debug] [MainThread]: Postgres adapter: Rolling back transaction.
+[0m11:26:54.221109 [debug] [MainThread]: On debug: No close available on handle
+[0m11:26:54.223512 [info ] [MainThread]:   Connection test: [[31mERROR[0m]
+
+[0m11:26:54.225943 [info ] [MainThread]: [31m2 checks failed:[0m
+[0m11:26:54.227701 [info ] [MainThread]: Project loading failed for the following reason:
+ project path </mnt/c/Users/aldwin/project/weatherflow/dbt_project.yml> not found
+
+[0m11:26:54.229689 [info ] [MainThread]: dbt was unable to connect to the specified database.
+The database returned the following error:
+
+  >Database Error
+  connection to server at "127.0.0.1", port 5433 failed: FATAL:  password authentication failed for user "weatherflow"
+  
+
+Check your database credentials and try again. For more information, visit:
+https://docs.getdbt.com/docs/configure-your-profile
+
+
+[0m11:26:54.244256 [debug] [MainThread]: Resource report: {"command_name": "debug", "command_success": false, "command_wall_clock_time": 68.23547, "process_in_blocks": "39302", "process_kernel_time": 6.715321, "process_mem_max_rss": "131156", "process_out_blocks": "0", "process_user_time": 5.259619}
+[0m11:26:54.247449 [debug] [MainThread]: Command `dbt debug` failed at 11:26:54.247113 after 68.24 seconds
+[0m11:26:54.250502 [debug] [MainThread]: Connection 'debug' was properly closed.
+[0m11:26:54.253361 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x75a9e697ab10>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x75a9e69ff9b0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x75a9e6afdbf0>]}
+[0m11:26:54.256110 [debug] [MainThread]: Flushing usage events
+[0m11:26:55.596447 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m11:30:11.909234 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x724476666120>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x724478391090>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x724474fdb9d0>]}
+
+
+============================== 11:30:12.019888 | 977fcd75-9670-4c17-9f59-47d1214f8f08 ==============================
+[0m11:30:12.019888 [info ] [MainThread]: Running with dbt=1.12.5
+[0m11:30:12.024220 [debug] [MainThread]: running dbt with arguments {'hints_enabled': 'True', 'invocation_command': 'dbt parse', 'use_experimental_parser': 'False', 'introspect': 'True', 'no_print': 'None', 'write_json': 'True', 'use_colors': 'True', 'log_path': 'logs', 'log_cache_events': 'False', 'cache_selected_only': 'False', 'version_check': 'True', 'log_format': 'default', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'empty': 'None', 'fail_fast': 'False', 'partial_parse': 'True', 'static_parser': 'True', 'quiet': 'False', 'target_path': 'None', 'debug': 'False', 'indirect_selection': 'eager', 'send_anonymous_usage_stats': 'True', 'warn_error': 'None', 'maximum_seed_size_mib': '1', 'printer_width': '80', 'profiles_dir': '/home/aldwin/.dbt'}
+[0m11:30:12.033192 [error] [MainThread]: [[31mERROR[0m]: Encountered an error:
+Runtime Error
+  No dbt_project.yml found at expected path /mnt/c/Users/aldwin/project/weatherflow/dbt_project.yml
+  Verify that each entry within packages.yml (and their transitive dependencies) contains a file named dbt_project.yml
+  
+[0m11:30:12.063454 [debug] [MainThread]: Resource report: {"command_name": "parse", "command_success": false, "command_wall_clock_time": 0.257097, "process_in_blocks": "35888", "process_kernel_time": 2.02908, "process_mem_max_rss": "117524", "process_out_blocks": "0", "process_user_time": 2.884101}
+[0m11:30:12.066279 [debug] [MainThread]: Command `dbt parse` failed at 11:30:12.065894 after 0.26 seconds
+[0m11:30:12.069427 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7244751e7a80>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7244751eef90>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7244750099d0>]}
+[0m11:30:12.072710 [debug] [MainThread]: Flushing usage events
+[0m11:30:13.475955 [debug] [MainThread]: An error was encountered while trying to flush usage events

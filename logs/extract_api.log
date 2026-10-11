@@ -1378,3 +1378,387 @@
 2026-10-09 10:34:51,516 | INFO | pipeline.ingestion.extract_api | Successfully extracted geocoding data from OpenWeather API.
 2026-10-09 10:34:51,773 | INFO | pipeline.ingestion.extract_api | Successfully extracted data from OpenWeather API.
 2026-10-09 10:34:51,896 | INFO | pipeline.ingestion.extract_api | Successfully extracted geocoding data from OpenWeather API.
+2026-10-10 11:00:16,349 | INFO | pipeline.ingestion.extract_api | Successfully extracted data from OpenWeather API.
+2026-10-10 11:00:16,443 | INFO | pipeline.ingestion.extract_api | Successfully extracted geocoding data from OpenWeather API.
+2026-10-10 11:00:17,529 | INFO | pipeline.ingestion.extract_api | Successfully extracted data from OpenWeather API.
+2026-10-10 11:00:17,628 | INFO | pipeline.ingestion.extract_api | Successfully extracted geocoding data from OpenWeather API.
+2026-10-10 11:00:18,192 | INFO | pipeline.ingestion.extract_api | Successfully extracted data from OpenWeather API.
+2026-10-10 11:00:18,272 | INFO | pipeline.ingestion.extract_api | Successfully extracted geocoding data from OpenWeather API.
+2026-10-10 11:00:18,773 | INFO | pipeline.ingestion.extract_api | Successfully extracted data from OpenWeather API.
+2026-10-10 11:00:18,862 | INFO | pipeline.ingestion.extract_api | Successfully extracted geocoding data from OpenWeather API.
+2026-10-10 11:00:19,492 | INFO | pipeline.ingestion.extract_api | Successfully extracted data from OpenWeather API.
+2026-10-10 11:00:19,578 | INFO | pipeline.ingestion.extract_api | Successfully extracted geocoding data from OpenWeather API.
+2026-10-10 11:00:20,162 | INFO | pipeline.ingestion.extract_api | Successfully extracted data from OpenWeather API.
+2026-10-10 11:00:20,298 | INFO | pipeline.ingestion.extract_api | Successfully extracted geocoding data from OpenWeather API.
+2026-10-10 11:00:20,789 | INFO | pipeline.ingestion.extract_api | Successfully extracted data from OpenWeather API.
+2026-10-10 11:00:20,911 | INFO | pipeline.ingestion.extract_api | Successfully extracted geocoding data from OpenWeather API.
+2026-10-10 11:00:21,391 | INFO | pipeline.ingestion.extract_api | Successfully extracted data from OpenWeather API.
+2026-10-10 11:00:21,493 | INFO | pipeline.ingestion.extract_api | Successfully extracted geocoding data from OpenWeather API.
+2026-10-10 11:17:15,935 | INFO | pipeline.ingestion.extract_api | Successfully extracted data from OpenWeather API.
+2026-10-10 11:17:16,038 | INFO | pipeline.ingestion.extract_api | Successfully extracted geocoding data from OpenWeather API.
+2026-10-10 11:17:16,761 | INFO | pipeline.ingestion.extract_api | Successfully extracted data from OpenWeather API.
+2026-10-10 11:17:16,861 | INFO | pipeline.ingestion.extract_api | Successfully extracted geocoding data from OpenWeather API.
+2026-10-10 11:17:17,410 | INFO | pipeline.ingestion.extract_api | Successfully extracted data from OpenWeather API.
+2026-10-10 11:17:17,519 | INFO | pipeline.ingestion.extract_api | Successfully extracted geocoding data from OpenWeather API.
+2026-10-10 11:17:18,242 | INFO | pipeline.ingestion.extract_api | Successfully extracted data from OpenWeather API.
+2026-10-10 11:17:18,363 | INFO | pipeline.ingestion.extract_api | Successfully extracted geocoding data from OpenWeather API.
+2026-10-10 11:17:18,971 | INFO | pipeline.ingestion.extract_api | Successfully extracted data from OpenWeather API.
+2026-10-10 11:17:19,085 | INFO | pipeline.ingestion.extract_api | Successfully extracted geocoding data from OpenWeather API.
+2026-10-10 11:17:19,798 | INFO | pipeline.ingestion.extract_api | Successfully extracted data from OpenWeather API.
+2026-10-10 11:17:19,959 | INFO | pipeline.ingestion.extract_api | Successfully extracted geocoding data from OpenWeather API.
+2026-10-10 11:17:20,702 | INFO | pipeline.ingestion.extract_api | Successfully extracted data from OpenWeather API.
+2026-10-10 11:17:20,870 | INFO | pipeline.ingestion.extract_api | Successfully extracted geocoding data from OpenWeather API.
+2026-10-10 11:17:21,518 | INFO | pipeline.ingestion.extract_api | Successfully extracted data from OpenWeather API.
+2026-10-10 11:17:21,645 | INFO | pipeline.ingestion.extract_api | Successfully extracted geocoding data from OpenWeather API.
+2026-10-10 11:17:36,522 | INFO | pipeline.ingestion.extract_api | Successfully extracted data from OpenWeather API.
+2026-10-10 11:17:36,620 | INFO | pipeline.ingestion.extract_api | Successfully extracted geocoding data from OpenWeather API.
+2026-10-10 11:17:37,004 | INFO | pipeline.ingestion.extract_api | Successfully extracted data from OpenWeather API.
+2026-10-10 11:17:37,135 | INFO | pipeline.ingestion.extract_api | Successfully extracted geocoding data from OpenWeather API.
+2026-10-10 11:17:37,455 | INFO | pipeline.ingestion.extract_api | Successfully extracted data from OpenWeather API.
+2026-10-10 11:17:37,556 | INFO | pipeline.ingestion.extract_api | Successfully extracted geocoding data from OpenWeather API.
+2026-10-10 11:17:37,936 | INFO | pipeline.ingestion.extract_api | Successfully extracted data from OpenWeather API.
+2026-10-10 11:17:38,066 | INFO | pipeline.ingestion.extract_api | Successfully extracted geocoding data from OpenWeather API.
+2026-10-10 11:17:38,397 | INFO | pipeline.ingestion.extract_api | Successfully extracted data from OpenWeather API.
+2026-10-10 11:17:38,510 | INFO | pipeline.ingestion.extract_api | Successfully extracted geocoding data from OpenWeather API.
+2026-10-10 11:17:38,838 | INFO | pipeline.ingestion.extract_api | Successfully extracted data from OpenWeather API.
+2026-10-10 11:17:38,981 | INFO | pipeline.ingestion.extract_api | Successfully extracted geocoding data from OpenWeather API.
+2026-10-10 11:17:39,252 | INFO | pipeline.ingestion.extract_api | Successfully extracted data from OpenWeather API.
+2026-10-10 11:17:39,404 | INFO | pipeline.ingestion.extract_api | Successfully extracted geocoding data from OpenWeather API.
+2026-10-10 11:17:39,664 | INFO | pipeline.ingestion.extract_api | Successfully extracted data from OpenWeather API.
+2026-10-10 11:17:39,747 | INFO | pipeline.ingestion.extract_api | Successfully extracted geocoding data from OpenWeather API.
+2026-10-10 11:41:45,595 | INFO | pipeline.ingestion.extract_api | Successfully extracted data from OpenWeather API.
+2026-10-10 11:41:45,681 | INFO | pipeline.ingestion.extract_api | Successfully extracted geocoding data from OpenWeather API.
+2026-10-10 11:41:45,905 | INFO | pipeline.ingestion.extract_api | Successfully extracted data from OpenWeather API.
+2026-10-10 11:41:45,987 | INFO | pipeline.ingestion.extract_api | Successfully extracted geocoding data from OpenWeather API.
+2026-10-10 11:41:46,177 | INFO | pipeline.ingestion.extract_api | Successfully extracted data from OpenWeather API.
+2026-10-10 11:41:46,256 | INFO | pipeline.ingestion.extract_api | Successfully extracted geocoding data from OpenWeather API.
+2026-10-10 11:41:46,453 | INFO | pipeline.ingestion.extract_api | Successfully extracted data from OpenWeather API.
+2026-10-10 11:41:46,562 | INFO | pipeline.ingestion.extract_api | Successfully extracted geocoding data from OpenWeather API.
+2026-10-10 11:41:46,703 | INFO | pipeline.ingestion.extract_api | Successfully extracted data from OpenWeather API.
+2026-10-10 11:41:46,787 | INFO | pipeline.ingestion.extract_api | Successfully extracted geocoding data from OpenWeather API.
+2026-10-10 11:41:47,108 | INFO | pipeline.ingestion.extract_api | Successfully extracted data from OpenWeather API.
+2026-10-10 11:41:47,250 | INFO | pipeline.ingestion.extract_api | Successfully extracted geocoding data from OpenWeather API.
+2026-10-10 11:41:47,389 | INFO | pipeline.ingestion.extract_api | Successfully extracted data from OpenWeather API.
+2026-10-10 11:41:47,467 | INFO | pipeline.ingestion.extract_api | Successfully extracted geocoding data from OpenWeather API.
+2026-10-10 11:41:47,631 | INFO | pipeline.ingestion.extract_api | Successfully extracted data from OpenWeather API.
+2026-10-10 11:41:47,727 | INFO | pipeline.ingestion.extract_api | Successfully extracted geocoding data from OpenWeather API.
+2026-10-10 12:22:44,624 | INFO | pipeline.ingestion.extract_api | Successfully extracted data from OpenWeather API.
+2026-10-10 12:22:44,743 | INFO | pipeline.ingestion.extract_api | Successfully extracted geocoding data from OpenWeather API.
+2026-10-10 12:22:45,244 | INFO | pipeline.ingestion.extract_api | Successfully extracted data from OpenWeather API.
+2026-10-10 12:22:45,344 | INFO | pipeline.ingestion.extract_api | Successfully extracted geocoding data from OpenWeather API.
+2026-10-10 12:22:45,529 | INFO | pipeline.ingestion.extract_api | Successfully extracted data from OpenWeather API.
+2026-10-10 12:22:45,649 | INFO | pipeline.ingestion.extract_api | Successfully extracted geocoding data from OpenWeather API.
+2026-10-10 12:22:45,837 | INFO | pipeline.ingestion.extract_api | Successfully extracted data from OpenWeather API.
+2026-10-10 12:22:45,984 | INFO | pipeline.ingestion.extract_api | Successfully extracted geocoding data from OpenWeather API.
+2026-10-10 12:22:46,170 | INFO | pipeline.ingestion.extract_api | Successfully extracted data from OpenWeather API.
+2026-10-10 12:22:46,249 | INFO | pipeline.ingestion.extract_api | Successfully extracted geocoding data from OpenWeather API.
+2026-10-10 12:22:46,471 | INFO | pipeline.ingestion.extract_api | Successfully extracted data from OpenWeather API.
+2026-10-10 12:22:46,570 | INFO | pipeline.ingestion.extract_api | Successfully extracted geocoding data from OpenWeather API.
+2026-10-10 12:22:46,744 | INFO | pipeline.ingestion.extract_api | Successfully extracted data from OpenWeather API.
+2026-10-10 12:22:46,865 | INFO | pipeline.ingestion.extract_api | Successfully extracted geocoding data from OpenWeather API.
+2026-10-10 12:22:47,044 | INFO | pipeline.ingestion.extract_api | Successfully extracted data from OpenWeather API.
+2026-10-10 12:22:47,180 | INFO | pipeline.ingestion.extract_api | Successfully extracted geocoding data from OpenWeather API.
+2026-10-11 03:15:27,742 | INFO | pipeline.ingestion.extract_api | Successfully extracted data from OpenWeather API.
+2026-10-11 03:15:27,868 | INFO | pipeline.ingestion.extract_api | Successfully extracted geocoding data from OpenWeather API.
+2026-10-11 03:15:28,199 | INFO | pipeline.ingestion.extract_api | Successfully extracted data from OpenWeather API.
+2026-10-11 03:15:28,284 | INFO | pipeline.ingestion.extract_api | Successfully extracted geocoding data from OpenWeather API.
+2026-10-11 03:15:28,486 | INFO | pipeline.ingestion.extract_api | Successfully extracted data from OpenWeather API.
+2026-10-11 03:15:28,567 | INFO | pipeline.ingestion.extract_api | Successfully extracted geocoding data from OpenWeather API.
+2026-10-11 03:15:28,761 | INFO | pipeline.ingestion.extract_api | Successfully extracted data from OpenWeather API.
+2026-10-11 03:15:28,849 | INFO | pipeline.ingestion.extract_api | Successfully extracted geocoding data from OpenWeather API.
+2026-10-11 03:15:29,116 | INFO | pipeline.ingestion.extract_api | Successfully extracted data from OpenWeather API.
+2026-10-11 03:15:29,199 | INFO | pipeline.ingestion.extract_api | Successfully extracted geocoding data from OpenWeather API.
+2026-10-11 03:15:29,378 | INFO | pipeline.ingestion.extract_api | Successfully extracted data from OpenWeather API.
+2026-10-11 03:15:29,487 | INFO | pipeline.ingestion.extract_api | Successfully extracted geocoding data from OpenWeather API.
+2026-10-11 03:15:29,667 | INFO | pipeline.ingestion.extract_api | Successfully extracted data from OpenWeather API.
+2026-10-11 03:15:29,744 | INFO | pipeline.ingestion.extract_api | Successfully extracted geocoding data from OpenWeather API.
+2026-10-11 03:15:29,958 | INFO | pipeline.ingestion.extract_api | Successfully extracted data from OpenWeather API.
+2026-10-11 03:15:30,039 | INFO | pipeline.ingestion.extract_api | Successfully extracted geocoding data from OpenWeather API.
+2026-10-11 03:16:06,199 | INFO | pipeline.ingestion.extract_api | Successfully extracted data from OpenWeather API.
+2026-10-11 03:16:06,289 | INFO | pipeline.ingestion.extract_api | Successfully extracted geocoding data from OpenWeather API.
+2026-10-11 03:16:06,547 | INFO | pipeline.ingestion.extract_api | Successfully extracted data from OpenWeather API.
+2026-10-11 03:16:06,658 | INFO | pipeline.ingestion.extract_api | Successfully extracted geocoding data from OpenWeather API.
+2026-10-11 03:16:06,804 | INFO | pipeline.ingestion.extract_api | Successfully extracted data from OpenWeather API.
+2026-10-11 03:16:06,910 | INFO | pipeline.ingestion.extract_api | Successfully extracted geocoding data from OpenWeather API.
+2026-10-11 03:16:07,097 | INFO | pipeline.ingestion.extract_api | Successfully extracted data from OpenWeather API.
+2026-10-11 03:16:07,179 | INFO | pipeline.ingestion.extract_api | Successfully extracted geocoding data from OpenWeather API.
+2026-10-11 03:16:07,352 | INFO | pipeline.ingestion.extract_api | Successfully extracted data from OpenWeather API.
+2026-10-11 03:16:07,435 | INFO | pipeline.ingestion.extract_api | Successfully extracted geocoding data from OpenWeather API.
+2026-10-11 03:16:07,612 | INFO | pipeline.ingestion.extract_api | Successfully extracted data from OpenWeather API.
+2026-10-11 03:16:07,730 | INFO | pipeline.ingestion.extract_api | Successfully extracted geocoding data from OpenWeather API.
+2026-10-11 03:16:07,926 | INFO | pipeline.ingestion.extract_api | Successfully extracted data from OpenWeather API.
+2026-10-11 03:16:08,011 | INFO | pipeline.ingestion.extract_api | Successfully extracted geocoding data from OpenWeather API.
+2026-10-11 03:16:08,199 | INFO | pipeline.ingestion.extract_api | Successfully extracted data from OpenWeather API.
+2026-10-11 03:16:08,312 | INFO | pipeline.ingestion.extract_api | Successfully extracted geocoding data from OpenWeather API.
+2026-10-11 04:00:08,403 | INFO | pipeline.ingestion.extract_api | Successfully extracted data from OpenWeather API.
+2026-10-11 04:00:08,483 | INFO | pipeline.ingestion.extract_api | Successfully extracted geocoding data from OpenWeather API.
+2026-10-11 04:00:08,923 | INFO | pipeline.ingestion.extract_api | Successfully extracted data from OpenWeather API.
+2026-10-11 04:00:09,004 | INFO | pipeline.ingestion.extract_api | Successfully extracted geocoding data from OpenWeather API.
+2026-10-11 04:00:09,479 | INFO | pipeline.ingestion.extract_api | Successfully extracted data from OpenWeather API.
+2026-10-11 04:00:09,610 | INFO | pipeline.ingestion.extract_api | Successfully extracted geocoding data from OpenWeather API.
+2026-10-11 04:00:10,061 | INFO | pipeline.ingestion.extract_api | Successfully extracted data from OpenWeather API.
+2026-10-11 04:00:10,171 | INFO | pipeline.ingestion.extract_api | Successfully extracted geocoding data from OpenWeather API.
+2026-10-11 04:00:10,384 | INFO | pipeline.ingestion.extract_api | Successfully extracted data from OpenWeather API.
+2026-10-11 04:00:10,507 | INFO | pipeline.ingestion.extract_api | Successfully extracted geocoding data from OpenWeather API.
+2026-10-11 04:00:10,710 | INFO | pipeline.ingestion.extract_api | Successfully extracted data from OpenWeather API.
+2026-10-11 04:00:10,860 | INFO | pipeline.ingestion.extract_api | Successfully extracted geocoding data from OpenWeather API.
+2026-10-11 04:00:11,255 | INFO | pipeline.ingestion.extract_api | Successfully extracted data from OpenWeather API.
+2026-10-11 04:00:11,372 | INFO | pipeline.ingestion.extract_api | Successfully extracted geocoding data from OpenWeather API.
+2026-10-11 04:00:11,631 | INFO | pipeline.ingestion.extract_api | Successfully extracted data from OpenWeather API.
+2026-10-11 04:00:11,747 | INFO | pipeline.ingestion.extract_api | Successfully extracted geocoding data from OpenWeather API.
+2026-10-11 04:48:26,256 | INFO | pipeline.ingestion.extract_api | Successfully extracted data from OpenWeather API.
+2026-10-11 04:48:26,379 | INFO | pipeline.ingestion.extract_api | Successfully extracted geocoding data from OpenWeather API.
+2026-10-11 04:48:28,281 | INFO | pipeline.ingestion.extract_api | Successfully extracted data from OpenWeather API.
+2026-10-11 04:48:28,402 | INFO | pipeline.ingestion.extract_api | Successfully extracted geocoding data from OpenWeather API.
+2026-10-11 04:48:29,147 | INFO | pipeline.ingestion.extract_api | Successfully extracted data from OpenWeather API.
+2026-10-11 04:48:29,251 | INFO | pipeline.ingestion.extract_api | Successfully extracted geocoding data from OpenWeather API.
+2026-10-11 04:48:30,216 | INFO | pipeline.ingestion.extract_api | Successfully extracted data from OpenWeather API.
+2026-10-11 04:48:30,367 | INFO | pipeline.ingestion.extract_api | Successfully extracted geocoding data from OpenWeather API.
+2026-10-11 04:48:31,321 | INFO | pipeline.ingestion.extract_api | Successfully extracted data from OpenWeather API.
+2026-10-11 04:48:31,419 | INFO | pipeline.ingestion.extract_api | Successfully extracted geocoding data from OpenWeather API.
+2026-10-11 04:48:31,845 | INFO | pipeline.ingestion.extract_api | Successfully extracted data from OpenWeather API.
+2026-10-11 04:48:31,962 | INFO | pipeline.ingestion.extract_api | Successfully extracted geocoding data from OpenWeather API.
+2026-10-11 04:48:32,746 | INFO | pipeline.ingestion.extract_api | Successfully extracted data from OpenWeather API.
+2026-10-11 04:48:32,889 | INFO | pipeline.ingestion.extract_api | Successfully extracted geocoding data from OpenWeather API.
+2026-10-11 04:48:33,532 | INFO | pipeline.ingestion.extract_api | Successfully extracted data from OpenWeather API.
+2026-10-11 04:48:33,675 | INFO | pipeline.ingestion.extract_api | Successfully extracted geocoding data from OpenWeather API.
+2026-10-11 04:51:42,348 | INFO | pipeline.ingestion.extract_api | Successfully extracted data from OpenWeather API.
+2026-10-11 04:51:42,490 | INFO | pipeline.ingestion.extract_api | Successfully extracted geocoding data from OpenWeather API.
+2026-10-11 04:51:43,313 | INFO | pipeline.ingestion.extract_api | Successfully extracted data from OpenWeather API.
+2026-10-11 04:51:43,425 | INFO | pipeline.ingestion.extract_api | Successfully extracted geocoding data from OpenWeather API.
+2026-10-11 04:51:43,995 | INFO | pipeline.ingestion.extract_api | Successfully extracted data from OpenWeather API.
+2026-10-11 04:51:44,167 | INFO | pipeline.ingestion.extract_api | Successfully extracted geocoding data from OpenWeather API.
+2026-10-11 04:51:45,014 | INFO | pipeline.ingestion.extract_api | Successfully extracted data from OpenWeather API.
+2026-10-11 04:51:45,150 | INFO | pipeline.ingestion.extract_api | Successfully extracted geocoding data from OpenWeather API.
+2026-10-11 04:51:45,805 | INFO | pipeline.ingestion.extract_api | Successfully extracted data from OpenWeather API.
+2026-10-11 04:51:45,895 | INFO | pipeline.ingestion.extract_api | Successfully extracted geocoding data from OpenWeather API.
+2026-10-11 04:51:46,561 | INFO | pipeline.ingestion.extract_api | Successfully extracted data from OpenWeather API.
+2026-10-11 04:51:46,666 | INFO | pipeline.ingestion.extract_api | Successfully extracted geocoding data from OpenWeather API.
+2026-10-11 04:51:47,399 | INFO | pipeline.ingestion.extract_api | Successfully extracted data from OpenWeather API.
+2026-10-11 04:51:47,528 | INFO | pipeline.ingestion.extract_api | Successfully extracted geocoding data from OpenWeather API.
+2026-10-11 04:51:48,333 | INFO | pipeline.ingestion.extract_api | Successfully extracted data from OpenWeather API.
+2026-10-11 04:51:48,423 | INFO | pipeline.ingestion.extract_api | Successfully extracted geocoding data from OpenWeather API.
+2026-10-11 05:00:08,765 | INFO | pipeline.ingestion.extract_api | Successfully extracted data from OpenWeather API.
+2026-10-11 05:00:08,905 | INFO | pipeline.ingestion.extract_api | Successfully extracted geocoding data from OpenWeather API.
+2026-10-11 05:00:09,763 | INFO | pipeline.ingestion.extract_api | Successfully extracted data from OpenWeather API.
+2026-10-11 05:00:09,882 | INFO | pipeline.ingestion.extract_api | Successfully extracted geocoding data from OpenWeather API.
+2026-10-11 05:00:10,474 | INFO | pipeline.ingestion.extract_api | Successfully extracted data from OpenWeather API.
+2026-10-11 05:00:10,606 | INFO | pipeline.ingestion.extract_api | Successfully extracted geocoding data from OpenWeather API.
+2026-10-11 05:00:11,541 | INFO | pipeline.ingestion.extract_api | Successfully extracted data from OpenWeather API.
+2026-10-11 05:00:11,636 | INFO | pipeline.ingestion.extract_api | Successfully extracted geocoding data from OpenWeather API.
+2026-10-11 05:00:12,473 | INFO | pipeline.ingestion.extract_api | Successfully extracted data from OpenWeather API.
+2026-10-11 05:00:12,591 | INFO | pipeline.ingestion.extract_api | Successfully extracted geocoding data from OpenWeather API.
+2026-10-11 05:00:13,304 | INFO | pipeline.ingestion.extract_api | Successfully extracted data from OpenWeather API.
+2026-10-11 05:00:13,462 | INFO | pipeline.ingestion.extract_api | Successfully extracted geocoding data from OpenWeather API.
+2026-10-11 05:00:14,412 | INFO | pipeline.ingestion.extract_api | Successfully extracted data from OpenWeather API.
+2026-10-11 05:00:14,523 | INFO | pipeline.ingestion.extract_api | Successfully extracted geocoding data from OpenWeather API.
+2026-10-11 05:00:15,525 | INFO | pipeline.ingestion.extract_api | Successfully extracted data from OpenWeather API.
+2026-10-11 05:00:15,686 | INFO | pipeline.ingestion.extract_api | Successfully extracted geocoding data from OpenWeather API.
+2026-10-11 05:02:23,480 | INFO | pipeline.ingestion.extract_api | Successfully extracted data from OpenWeather API.
+2026-10-11 05:02:23,588 | INFO | pipeline.ingestion.extract_api | Successfully extracted geocoding data from OpenWeather API.
+2026-10-11 05:02:24,082 | INFO | pipeline.ingestion.extract_api | Successfully extracted data from OpenWeather API.
+2026-10-11 05:02:24,196 | INFO | pipeline.ingestion.extract_api | Successfully extracted geocoding data from OpenWeather API.
+2026-10-11 05:02:24,627 | INFO | pipeline.ingestion.extract_api | Successfully extracted data from OpenWeather API.
+2026-10-11 05:02:24,741 | INFO | pipeline.ingestion.extract_api | Successfully extracted geocoding data from OpenWeather API.
+2026-10-11 05:02:25,399 | INFO | pipeline.ingestion.extract_api | Successfully extracted data from OpenWeather API.
+2026-10-11 05:02:25,494 | INFO | pipeline.ingestion.extract_api | Successfully extracted geocoding data from OpenWeather API.
+2026-10-11 05:02:26,363 | INFO | pipeline.ingestion.extract_api | Successfully extracted data from OpenWeather API.
+2026-10-11 05:02:26,477 | INFO | pipeline.ingestion.extract_api | Successfully extracted geocoding data from OpenWeather API.
+2026-10-11 05:02:27,471 | INFO | pipeline.ingestion.extract_api | Successfully extracted data from OpenWeather API.
+2026-10-11 05:02:27,579 | INFO | pipeline.ingestion.extract_api | Successfully extracted geocoding data from OpenWeather API.
+2026-10-11 05:02:28,639 | INFO | pipeline.ingestion.extract_api | Successfully extracted data from OpenWeather API.
+2026-10-11 05:02:28,771 | INFO | pipeline.ingestion.extract_api | Successfully extracted geocoding data from OpenWeather API.
+2026-10-11 05:02:29,618 | INFO | pipeline.ingestion.extract_api | Successfully extracted data from OpenWeather API.
+2026-10-11 05:02:29,779 | INFO | pipeline.ingestion.extract_api | Successfully extracted geocoding data from OpenWeather API.
+2026-10-11 05:24:24,632 | INFO | pipeline.ingestion.extract_api | Successfully extracted data from OpenWeather API.
+2026-10-11 05:24:24,755 | INFO | pipeline.ingestion.extract_api | Successfully extracted geocoding data from OpenWeather API.
+2026-10-11 05:24:25,390 | INFO | pipeline.ingestion.extract_api | Successfully extracted data from OpenWeather API.
+2026-10-11 05:24:25,508 | INFO | pipeline.ingestion.extract_api | Successfully extracted geocoding data from OpenWeather API.
+2026-10-11 05:24:26,121 | INFO | pipeline.ingestion.extract_api | Successfully extracted data from OpenWeather API.
+2026-10-11 05:24:26,223 | INFO | pipeline.ingestion.extract_api | Successfully extracted geocoding data from OpenWeather API.
+2026-10-11 05:24:27,082 | INFO | pipeline.ingestion.extract_api | Successfully extracted data from OpenWeather API.
+2026-10-11 05:24:27,201 | INFO | pipeline.ingestion.extract_api | Successfully extracted geocoding data from OpenWeather API.
+2026-10-11 05:24:27,749 | INFO | pipeline.ingestion.extract_api | Successfully extracted data from OpenWeather API.
+2026-10-11 05:24:27,857 | INFO | pipeline.ingestion.extract_api | Successfully extracted geocoding data from OpenWeather API.
+2026-10-11 05:24:28,699 | INFO | pipeline.ingestion.extract_api | Successfully extracted data from OpenWeather API.
+2026-10-11 05:24:28,780 | INFO | pipeline.ingestion.extract_api | Successfully extracted geocoding data from OpenWeather API.
+2026-10-11 05:24:29,762 | INFO | pipeline.ingestion.extract_api | Successfully extracted data from OpenWeather API.
+2026-10-11 05:24:29,873 | INFO | pipeline.ingestion.extract_api | Successfully extracted geocoding data from OpenWeather API.
+2026-10-11 05:24:30,583 | INFO | pipeline.ingestion.extract_api | Successfully extracted data from OpenWeather API.
+2026-10-11 05:24:30,700 | INFO | pipeline.ingestion.extract_api | Successfully extracted geocoding data from OpenWeather API.
+2026-10-11 05:57:17,900 | INFO | pipeline.ingestion.extract_api | Successfully extracted data from OpenWeather API.
+2026-10-11 05:57:18,023 | INFO | pipeline.ingestion.extract_api | Successfully extracted geocoding data from OpenWeather API.
+2026-10-11 05:57:19,161 | INFO | pipeline.ingestion.extract_api | Successfully extracted data from OpenWeather API.
+2026-10-11 05:57:19,282 | INFO | pipeline.ingestion.extract_api | Successfully extracted geocoding data from OpenWeather API.
+2026-10-11 05:57:20,268 | INFO | pipeline.ingestion.extract_api | Successfully extracted data from OpenWeather API.
+2026-10-11 05:57:20,460 | INFO | pipeline.ingestion.extract_api | Successfully extracted geocoding data from OpenWeather API.
+2026-10-11 05:57:21,252 | INFO | pipeline.ingestion.extract_api | Successfully extracted data from OpenWeather API.
+2026-10-11 05:57:21,372 | INFO | pipeline.ingestion.extract_api | Successfully extracted geocoding data from OpenWeather API.
+2026-10-11 05:57:22,102 | INFO | pipeline.ingestion.extract_api | Successfully extracted data from OpenWeather API.
+2026-10-11 05:57:22,178 | INFO | pipeline.ingestion.extract_api | Successfully extracted geocoding data from OpenWeather API.
+2026-10-11 05:57:22,834 | INFO | pipeline.ingestion.extract_api | Successfully extracted data from OpenWeather API.
+2026-10-11 05:57:22,993 | INFO | pipeline.ingestion.extract_api | Successfully extracted geocoding data from OpenWeather API.
+2026-10-11 05:57:23,867 | INFO | pipeline.ingestion.extract_api | Successfully extracted data from OpenWeather API.
+2026-10-11 05:57:23,984 | INFO | pipeline.ingestion.extract_api | Successfully extracted geocoding data from OpenWeather API.
+2026-10-11 05:57:25,044 | INFO | pipeline.ingestion.extract_api | Successfully extracted data from OpenWeather API.
+2026-10-11 05:57:25,156 | INFO | pipeline.ingestion.extract_api | Successfully extracted geocoding data from OpenWeather API.
+2026-10-11 05:59:30,745 | INFO | pipeline.ingestion.extract_api | Successfully extracted data from OpenWeather API.
+2026-10-11 05:59:30,882 | INFO | pipeline.ingestion.extract_api | Successfully extracted geocoding data from OpenWeather API.
+2026-10-11 05:59:31,214 | INFO | pipeline.ingestion.extract_api | Successfully extracted data from OpenWeather API.
+2026-10-11 05:59:31,352 | INFO | pipeline.ingestion.extract_api | Successfully extracted geocoding data from OpenWeather API.
+2026-10-11 05:59:31,918 | INFO | pipeline.ingestion.extract_api | Successfully extracted data from OpenWeather API.
+2026-10-11 05:59:32,082 | INFO | pipeline.ingestion.extract_api | Successfully extracted geocoding data from OpenWeather API.
+2026-10-11 05:59:32,442 | INFO | pipeline.ingestion.extract_api | Successfully extracted data from OpenWeather API.
+2026-10-11 05:59:32,519 | INFO | pipeline.ingestion.extract_api | Successfully extracted geocoding data from OpenWeather API.
+2026-10-11 05:59:32,899 | INFO | pipeline.ingestion.extract_api | Successfully extracted data from OpenWeather API.
+2026-10-11 05:59:33,031 | INFO | pipeline.ingestion.extract_api | Successfully extracted geocoding data from OpenWeather API.
+2026-10-11 05:59:33,298 | INFO | pipeline.ingestion.extract_api | Successfully extracted data from OpenWeather API.
+2026-10-11 05:59:33,432 | INFO | pipeline.ingestion.extract_api | Successfully extracted geocoding data from OpenWeather API.
+2026-10-11 05:59:33,678 | INFO | pipeline.ingestion.extract_api | Successfully extracted data from OpenWeather API.
+2026-10-11 05:59:33,842 | INFO | pipeline.ingestion.extract_api | Successfully extracted geocoding data from OpenWeather API.
+2026-10-11 05:59:34,115 | INFO | pipeline.ingestion.extract_api | Successfully extracted data from OpenWeather API.
+2026-10-11 05:59:34,266 | INFO | pipeline.ingestion.extract_api | Successfully extracted geocoding data from OpenWeather API.
+2026-10-11 06:00:08,226 | INFO | pipeline.ingestion.extract_api | Successfully extracted data from OpenWeather API.
+2026-10-11 06:00:08,396 | INFO | pipeline.ingestion.extract_api | Successfully extracted geocoding data from OpenWeather API.
+2026-10-11 06:00:08,882 | INFO | pipeline.ingestion.extract_api | Successfully extracted data from OpenWeather API.
+2026-10-11 06:00:09,024 | INFO | pipeline.ingestion.extract_api | Successfully extracted geocoding data from OpenWeather API.
+2026-10-11 06:00:09,359 | INFO | pipeline.ingestion.extract_api | Successfully extracted data from OpenWeather API.
+2026-10-11 06:00:09,488 | INFO | pipeline.ingestion.extract_api | Successfully extracted geocoding data from OpenWeather API.
+2026-10-11 06:00:09,754 | INFO | pipeline.ingestion.extract_api | Successfully extracted data from OpenWeather API.
+2026-10-11 06:00:09,866 | INFO | pipeline.ingestion.extract_api | Successfully extracted geocoding data from OpenWeather API.
+2026-10-11 06:00:10,139 | INFO | pipeline.ingestion.extract_api | Successfully extracted data from OpenWeather API.
+2026-10-11 06:00:10,274 | INFO | pipeline.ingestion.extract_api | Successfully extracted geocoding data from OpenWeather API.
+2026-10-11 06:00:10,526 | INFO | pipeline.ingestion.extract_api | Successfully extracted data from OpenWeather API.
+2026-10-11 06:00:10,615 | INFO | pipeline.ingestion.extract_api | Successfully extracted geocoding data from OpenWeather API.
+2026-10-11 06:00:10,873 | INFO | pipeline.ingestion.extract_api | Successfully extracted data from OpenWeather API.
+2026-10-11 06:00:10,976 | INFO | pipeline.ingestion.extract_api | Successfully extracted geocoding data from OpenWeather API.
+2026-10-11 06:00:11,205 | INFO | pipeline.ingestion.extract_api | Successfully extracted data from OpenWeather API.
+2026-10-11 06:00:11,280 | INFO | pipeline.ingestion.extract_api | Successfully extracted geocoding data from OpenWeather API.
+2026-10-11 06:07:48,458 | INFO | pipeline.ingestion.extract_api | Successfully extracted data from OpenWeather API.
+2026-10-11 06:07:48,602 | INFO | pipeline.ingestion.extract_api | Successfully extracted geocoding data from OpenWeather API.
+2026-10-11 06:07:49,477 | INFO | pipeline.ingestion.extract_api | Successfully extracted data from OpenWeather API.
+2026-10-11 06:07:49,598 | INFO | pipeline.ingestion.extract_api | Successfully extracted geocoding data from OpenWeather API.
+2026-10-11 06:07:50,264 | INFO | pipeline.ingestion.extract_api | Successfully extracted data from OpenWeather API.
+2026-10-11 06:07:50,357 | INFO | pipeline.ingestion.extract_api | Successfully extracted geocoding data from OpenWeather API.
+2026-10-11 06:07:50,636 | INFO | pipeline.ingestion.extract_api | Successfully extracted data from OpenWeather API.
+2026-10-11 06:07:50,740 | INFO | pipeline.ingestion.extract_api | Successfully extracted geocoding data from OpenWeather API.
+2026-10-11 06:07:51,538 | INFO | pipeline.ingestion.extract_api | Successfully extracted data from OpenWeather API.
+2026-10-11 06:07:51,699 | INFO | pipeline.ingestion.extract_api | Successfully extracted geocoding data from OpenWeather API.
+2026-10-11 06:07:52,421 | INFO | pipeline.ingestion.extract_api | Successfully extracted data from OpenWeather API.
+2026-10-11 06:07:52,563 | INFO | pipeline.ingestion.extract_api | Successfully extracted geocoding data from OpenWeather API.
+2026-10-11 06:07:52,869 | INFO | pipeline.ingestion.extract_api | Successfully extracted data from OpenWeather API.
+2026-10-11 06:07:53,003 | INFO | pipeline.ingestion.extract_api | Successfully extracted geocoding data from OpenWeather API.
+2026-10-11 06:07:53,977 | INFO | pipeline.ingestion.extract_api | Successfully extracted data from OpenWeather API.
+2026-10-11 06:07:54,075 | INFO | pipeline.ingestion.extract_api | Successfully extracted geocoding data from OpenWeather API.
+2026-10-11 06:14:45,746 | INFO | pipeline.ingestion.extract_api | Successfully extracted data from OpenWeather API.
+2026-10-11 06:14:45,858 | INFO | pipeline.ingestion.extract_api | Successfully extracted geocoding data from OpenWeather API.
+2026-10-11 06:14:46,477 | INFO | pipeline.ingestion.extract_api | Successfully extracted data from OpenWeather API.
+2026-10-11 06:14:46,622 | INFO | pipeline.ingestion.extract_api | Successfully extracted geocoding data from OpenWeather API.
+2026-10-11 06:14:46,833 | INFO | pipeline.ingestion.extract_api | Successfully extracted data from OpenWeather API.
+2026-10-11 06:14:46,937 | INFO | pipeline.ingestion.extract_api | Successfully extracted geocoding data from OpenWeather API.
+2026-10-11 06:14:47,241 | INFO | pipeline.ingestion.extract_api | Successfully extracted data from OpenWeather API.
+2026-10-11 06:14:47,342 | INFO | pipeline.ingestion.extract_api | Successfully extracted geocoding data from OpenWeather API.
+2026-10-11 06:14:47,492 | INFO | pipeline.ingestion.extract_api | Successfully extracted data from OpenWeather API.
+2026-10-11 06:14:47,606 | INFO | pipeline.ingestion.extract_api | Successfully extracted geocoding data from OpenWeather API.
+2026-10-11 06:14:47,910 | INFO | pipeline.ingestion.extract_api | Successfully extracted data from OpenWeather API.
+2026-10-11 06:14:48,018 | INFO | pipeline.ingestion.extract_api | Successfully extracted geocoding data from OpenWeather API.
+2026-10-11 06:14:48,268 | INFO | pipeline.ingestion.extract_api | Successfully extracted data from OpenWeather API.
+2026-10-11 06:14:48,345 | INFO | pipeline.ingestion.extract_api | Successfully extracted geocoding data from OpenWeather API.
+2026-10-11 06:14:48,499 | INFO | pipeline.ingestion.extract_api | Successfully extracted data from OpenWeather API.
+2026-10-11 06:14:48,587 | INFO | pipeline.ingestion.extract_api | Successfully extracted geocoding data from OpenWeather API.
+2026-10-11 06:29:59,655 | INFO | pipeline.ingestion.extract_api | Successfully extracted data from OpenWeather API.
+2026-10-11 06:29:59,759 | INFO | pipeline.ingestion.extract_api | Successfully extracted geocoding data from OpenWeather API.
+2026-10-11 06:30:00,705 | INFO | pipeline.ingestion.extract_api | Successfully extracted data from OpenWeather API.
+2026-10-11 06:30:00,875 | INFO | pipeline.ingestion.extract_api | Successfully extracted geocoding data from OpenWeather API.
+2026-10-11 06:30:01,312 | INFO | pipeline.ingestion.extract_api | Successfully extracted data from OpenWeather API.
+2026-10-11 06:30:01,402 | INFO | pipeline.ingestion.extract_api | Successfully extracted geocoding data from OpenWeather API.
+2026-10-11 06:30:02,070 | INFO | pipeline.ingestion.extract_api | Successfully extracted data from OpenWeather API.
+2026-10-11 06:30:02,180 | INFO | pipeline.ingestion.extract_api | Successfully extracted geocoding data from OpenWeather API.
+2026-10-11 06:30:02,727 | INFO | pipeline.ingestion.extract_api | Successfully extracted data from OpenWeather API.
+2026-10-11 06:30:02,830 | INFO | pipeline.ingestion.extract_api | Successfully extracted geocoding data from OpenWeather API.
+2026-10-11 06:30:03,357 | INFO | pipeline.ingestion.extract_api | Successfully extracted data from OpenWeather API.
+2026-10-11 06:30:03,468 | INFO | pipeline.ingestion.extract_api | Successfully extracted geocoding data from OpenWeather API.
+2026-10-11 06:30:04,263 | INFO | pipeline.ingestion.extract_api | Successfully extracted data from OpenWeather API.
+2026-10-11 06:30:04,387 | INFO | pipeline.ingestion.extract_api | Successfully extracted geocoding data from OpenWeather API.
+2026-10-11 06:30:05,014 | INFO | pipeline.ingestion.extract_api | Successfully extracted data from OpenWeather API.
+2026-10-11 06:30:05,160 | INFO | pipeline.ingestion.extract_api | Successfully extracted geocoding data from OpenWeather API.
+2026-10-11 06:38:01,199 | INFO | pipeline.ingestion.extract_api | Successfully extracted data from OpenWeather API.
+2026-10-11 06:38:01,305 | INFO | pipeline.ingestion.extract_api | Successfully extracted geocoding data from OpenWeather API.
+2026-10-11 06:38:01,781 | INFO | pipeline.ingestion.extract_api | Successfully extracted data from OpenWeather API.
+2026-10-11 06:38:01,866 | INFO | pipeline.ingestion.extract_api | Successfully extracted geocoding data from OpenWeather API.
+2026-10-11 06:38:02,372 | INFO | pipeline.ingestion.extract_api | Successfully extracted data from OpenWeather API.
+2026-10-11 06:38:02,455 | INFO | pipeline.ingestion.extract_api | Successfully extracted geocoding data from OpenWeather API.
+2026-10-11 06:38:02,970 | INFO | pipeline.ingestion.extract_api | Successfully extracted data from OpenWeather API.
+2026-10-11 06:38:03,131 | INFO | pipeline.ingestion.extract_api | Successfully extracted geocoding data from OpenWeather API.
+2026-10-11 06:38:03,588 | INFO | pipeline.ingestion.extract_api | Successfully extracted data from OpenWeather API.
+2026-10-11 06:38:03,712 | INFO | pipeline.ingestion.extract_api | Successfully extracted geocoding data from OpenWeather API.
+2026-10-11 06:38:04,197 | INFO | pipeline.ingestion.extract_api | Successfully extracted data from OpenWeather API.
+2026-10-11 06:38:04,331 | INFO | pipeline.ingestion.extract_api | Successfully extracted geocoding data from OpenWeather API.
+2026-10-11 06:38:04,865 | INFO | pipeline.ingestion.extract_api | Successfully extracted data from OpenWeather API.
+2026-10-11 06:38:04,996 | INFO | pipeline.ingestion.extract_api | Successfully extracted geocoding data from OpenWeather API.
+2026-10-11 06:38:05,475 | INFO | pipeline.ingestion.extract_api | Successfully extracted data from OpenWeather API.
+2026-10-11 06:38:05,576 | INFO | pipeline.ingestion.extract_api | Successfully extracted geocoding data from OpenWeather API.
+2026-10-11 06:40:01,295 | INFO | pipeline.ingestion.extract_api | Successfully extracted data from OpenWeather API.
+2026-10-11 06:40:01,378 | INFO | pipeline.ingestion.extract_api | Successfully extracted geocoding data from OpenWeather API.
+2026-10-11 06:40:01,666 | INFO | pipeline.ingestion.extract_api | Successfully extracted data from OpenWeather API.
+2026-10-11 06:40:01,757 | INFO | pipeline.ingestion.extract_api | Successfully extracted geocoding data from OpenWeather API.
+2026-10-11 06:40:01,968 | INFO | pipeline.ingestion.extract_api | Successfully extracted data from OpenWeather API.
+2026-10-11 06:40:02,126 | INFO | pipeline.ingestion.extract_api | Successfully extracted geocoding data from OpenWeather API.
+2026-10-11 06:40:02,415 | INFO | pipeline.ingestion.extract_api | Successfully extracted data from OpenWeather API.
+2026-10-11 06:40:02,570 | INFO | pipeline.ingestion.extract_api | Successfully extracted geocoding data from OpenWeather API.
+2026-10-11 06:40:02,963 | INFO | pipeline.ingestion.extract_api | Successfully extracted data from OpenWeather API.
+2026-10-11 06:40:03,174 | INFO | pipeline.ingestion.extract_api | Successfully extracted geocoding data from OpenWeather API.
+2026-10-11 06:40:03,400 | INFO | pipeline.ingestion.extract_api | Successfully extracted data from OpenWeather API.
+2026-10-11 06:40:03,588 | INFO | pipeline.ingestion.extract_api | Successfully extracted geocoding data from OpenWeather API.
+2026-10-11 06:40:03,806 | INFO | pipeline.ingestion.extract_api | Successfully extracted data from OpenWeather API.
+2026-10-11 06:40:03,884 | INFO | pipeline.ingestion.extract_api | Successfully extracted geocoding data from OpenWeather API.
+2026-10-11 06:40:04,183 | INFO | pipeline.ingestion.extract_api | Successfully extracted data from OpenWeather API.
+2026-10-11 06:40:04,296 | INFO | pipeline.ingestion.extract_api | Successfully extracted geocoding data from OpenWeather API.
+2026-10-11 06:58:05,939 | INFO | pipeline.ingestion.extract_api | Successfully extracted data from OpenWeather API.
+2026-10-11 06:58:06,037 | INFO | pipeline.ingestion.extract_api | Successfully extracted geocoding data from OpenWeather API.
+2026-10-11 06:58:06,712 | INFO | pipeline.ingestion.extract_api | Successfully extracted data from OpenWeather API.
+2026-10-11 06:58:06,819 | INFO | pipeline.ingestion.extract_api | Successfully extracted geocoding data from OpenWeather API.
+2026-10-11 06:58:07,278 | INFO | pipeline.ingestion.extract_api | Successfully extracted data from OpenWeather API.
+2026-10-11 06:58:07,383 | INFO | pipeline.ingestion.extract_api | Successfully extracted geocoding data from OpenWeather API.
+2026-10-11 06:58:07,930 | INFO | pipeline.ingestion.extract_api | Successfully extracted data from OpenWeather API.
+2026-10-11 06:58:08,034 | INFO | pipeline.ingestion.extract_api | Successfully extracted geocoding data from OpenWeather API.
+2026-10-11 06:58:08,592 | INFO | pipeline.ingestion.extract_api | Successfully extracted data from OpenWeather API.
+2026-10-11 06:58:08,692 | INFO | pipeline.ingestion.extract_api | Successfully extracted geocoding data from OpenWeather API.
+2026-10-11 06:58:09,125 | INFO | pipeline.ingestion.extract_api | Successfully extracted data from OpenWeather API.
+2026-10-11 06:58:09,251 | INFO | pipeline.ingestion.extract_api | Successfully extracted geocoding data from OpenWeather API.
+2026-10-11 06:58:09,829 | INFO | pipeline.ingestion.extract_api | Successfully extracted data from OpenWeather API.
+2026-10-11 06:58:09,907 | INFO | pipeline.ingestion.extract_api | Successfully extracted geocoding data from OpenWeather API.
+2026-10-11 06:58:10,401 | INFO | pipeline.ingestion.extract_api | Successfully extracted data from OpenWeather API.
+2026-10-11 06:58:10,503 | INFO | pipeline.ingestion.extract_api | Successfully extracted geocoding data from OpenWeather API.
+2026-10-11 06:58:11,179 | INFO | pipeline.ingestion.extract_api | Successfully extracted data from OpenWeather API.
+2026-10-11 06:58:11,259 | INFO | pipeline.ingestion.extract_api | Successfully extracted geocoding data from OpenWeather API.
+2026-10-11 06:58:11,542 | INFO | pipeline.ingestion.extract_api | Successfully extracted data from OpenWeather API.
+2026-10-11 06:58:11,663 | INFO | pipeline.ingestion.extract_api | Successfully extracted geocoding data from OpenWeather API.
+2026-10-11 06:58:11,891 | INFO | pipeline.ingestion.extract_api | Successfully extracted data from OpenWeather API.
+2026-10-11 06:58:12,011 | INFO | pipeline.ingestion.extract_api | Successfully extracted geocoding data from OpenWeather API.
+2026-10-11 06:58:12,243 | INFO | pipeline.ingestion.extract_api | Successfully extracted data from OpenWeather API.
+2026-10-11 06:58:12,394 | INFO | pipeline.ingestion.extract_api | Successfully extracted geocoding data from OpenWeather API.
+2026-10-11 06:58:12,651 | INFO | pipeline.ingestion.extract_api | Successfully extracted data from OpenWeather API.
+2026-10-11 06:58:12,784 | INFO | pipeline.ingestion.extract_api | Successfully extracted geocoding data from OpenWeather API.
+2026-10-11 06:58:12,985 | INFO | pipeline.ingestion.extract_api | Successfully extracted data from OpenWeather API.
+2026-10-11 06:58:13,100 | INFO | pipeline.ingestion.extract_api | Successfully extracted geocoding data from OpenWeather API.
+2026-10-11 06:58:13,419 | INFO | pipeline.ingestion.extract_api | Successfully extracted data from OpenWeather API.
+2026-10-11 06:58:13,526 | INFO | pipeline.ingestion.extract_api | Successfully extracted geocoding data from OpenWeather API.
+2026-10-11 06:58:13,806 | INFO | pipeline.ingestion.extract_api | Successfully extracted data from OpenWeather API.
+2026-10-11 06:58:13,922 | INFO | pipeline.ingestion.extract_api | Successfully extracted geocoding data from OpenWeather API.
+2026-10-11 07:00:07,677 | INFO | pipeline.ingestion.extract_api | Successfully extracted data from OpenWeather API.
+2026-10-11 07:00:07,760 | INFO | pipeline.ingestion.extract_api | Successfully extracted geocoding data from OpenWeather API.
+2026-10-11 07:00:08,363 | INFO | pipeline.ingestion.extract_api | Successfully extracted data from OpenWeather API.
+2026-10-11 07:00:08,465 | INFO | pipeline.ingestion.extract_api | Successfully extracted geocoding data from OpenWeather API.
+2026-10-11 07:00:09,182 | INFO | pipeline.ingestion.extract_api | Successfully extracted data from OpenWeather API.
+2026-10-11 07:00:09,293 | INFO | pipeline.ingestion.extract_api | Successfully extracted geocoding data from OpenWeather API.
+2026-10-11 07:00:10,045 | INFO | pipeline.ingestion.extract_api | Successfully extracted data from OpenWeather API.
+2026-10-11 07:00:10,178 | INFO | pipeline.ingestion.extract_api | Successfully extracted geocoding data from OpenWeather API.
+2026-10-11 07:00:10,727 | INFO | pipeline.ingestion.extract_api | Successfully extracted data from OpenWeather API.
+2026-10-11 07:00:10,888 | INFO | pipeline.ingestion.extract_api | Successfully extracted geocoding data from OpenWeather API.
+2026-10-11 07:00:11,524 | INFO | pipeline.ingestion.extract_api | Successfully extracted data from OpenWeather API.
+2026-10-11 07:00:11,609 | INFO | pipeline.ingestion.extract_api | Successfully extracted geocoding data from OpenWeather API.
+2026-10-11 07:00:12,021 | INFO | pipeline.ingestion.extract_api | Successfully extracted data from OpenWeather API.
+2026-10-11 07:00:12,158 | INFO | pipeline.ingestion.extract_api | Successfully extracted geocoding data from OpenWeather API.
+2026-10-11 07:00:12,772 | INFO | pipeline.ingestion.extract_api | Successfully extracted data from OpenWeather API.
+2026-10-11 07:00:12,888 | INFO | pipeline.ingestion.extract_api | Successfully extracted geocoding data from OpenWeather API.
