@@ -4,8 +4,11 @@ from sqlalchemy import text
 from sqlalchemy.exc import SQLAlchemyError
 
 from app.db.session import engine
-
 from app.schemas.weather import CityComparisonResponse
+
+from app.core.logging_config import get_logger
+
+logger = get_logger(__name__, "comprison.log")
 
 router = APIRouter(
     prefix="/api/v1/weather",
@@ -13,7 +16,21 @@ router = APIRouter(
 )
 
 
-@router.get("/cities/compare", response_model=CityComparisonResponse)
+
+@router.get(
+    "/cities/compare",
+    response_model=CityComparisonResponse,
+    summary="Compare weather across cities",
+    description=(
+        "Returns city-level weather data with temperature rankings "
+        "and differences from the average. Supports sorting and pagination."
+    ),
+    responses={
+        200: {"description": "City comparison data retrieved successfully."},
+        422: {"description": "An invalid sort field, sort order, or query parameter was supplied."},
+        503: {"description": "The database is unavailable."},
+    },
+)
 def compare_cities(
     sort_by: str = Query(
         default="temperature",
@@ -24,6 +41,9 @@ def compare_cities(
         pattern="^(asc|desc)$",
     ),
 ):
+
+    logger.info("City comprison request received | sort_by%s | order=%s", sort_by, order)
+
     # Map accepted parameters to fixed SQL column names.
     sort_columns = {
         "temperature": "temperature",
@@ -61,6 +81,9 @@ def compare_cities(
             result = connection.execute(query)
             rows = result.mappings().all()
 
+
+        logger.info("City comparison query successful | rows_returned=%d | sort_by=%s | order=%s", len(rows), sort_by, order)
+
         return {
             "count": len(rows),
             "sort": {
@@ -71,7 +94,12 @@ def compare_cities(
         }
 
     except SQLAlchemyError as exc:
-        print(f"Weather City Comparison Query Failed {exc!r}")
+        logger.exception(
+            "City comparison database query failed | "
+            "sort_by=%s | order=%s",
+            sort_by,
+            order,
+        )
         raise HTTPException(
             status_code=503,
             detail="Unable to retrieve city comparison data.",

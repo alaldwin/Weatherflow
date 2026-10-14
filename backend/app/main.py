@@ -23,9 +23,51 @@ logger = get_logger(__name__, "backend_name.log")
 
 app = FastAPI(
     title="Weatherflow API",
-    description="API for Weatherflow weather analytics.",
-    version="0.1.0",
+    description="""
+    # Weatherflow Weather Intelligence API
+
+    Provides current weather, daily weather summaries, weather trends,
+    and city comparisons using processed weather data stored in PostgreSQL.
+
+    ## Main features
+
+    - Current weather by city
+    - Daily weather filtering by city and date range
+    - Historical weather trends
+    - Weather comparisons across cities
+
+    ## Data flow
+
+    OpenWeather APIs → Python ingestion → PostgreSQL → dbt → FastAPI
+    """,
+    version="1.0.0",
+    contact={
+        "name": "Weatherflow Project",
+    },
+    openapi_tags=[
+        {
+            "name": "Health",
+            "description": "Check API availability and database connectivity.",
+        },
+        {
+            "name": "Current Weather",
+            "description": "Retrieve the latest processed weather observations.",
+        },
+        {
+            "name": "Daily Weather",
+            "description": "Retrieve daily weather summaries with optional filters.",
+        },
+        {
+            "name": "Weather Trends",
+            "description": "Review historical changes in temperature and humidity.",
+        },
+        {
+            "name": "City Comparison",
+            "description": "Compare current weather conditions across cities.",
+        },
+    ],
 )
+
 
 # Register API routers
 app.include_router(current_weather_router)
@@ -39,6 +81,16 @@ app.include_router(city_comparison_router)
 async def log_requests(request: Request, call_next):
     request_id = str(uuid.uuid4())
     start_time = time.perf_counter()
+
+    # Store the request ID for correlation with other logs.
+    request.state.request_id = request_id
+
+    logger.debug(
+        "Incoming HTTP request | request_id=%s | method=%s | path=%s",
+        request_id,
+        request.method,
+        request.url.path,
+    )
 
     try:
         response = await call_next(request)
@@ -60,9 +112,12 @@ async def log_requests(request: Request, call_next):
 
     response.headers["X-Request-ID"] = request_id
 
-    logger.info(
-        "Request completed | request_id=%s method=%s "
-        "path=%s status_code=%s duration_seconds=%.3f",
+    log_message = (
+        "Request completed | request_id=%s | method=%s | "
+        "path=%s | status_code=%s | duration_seconds=%.3f"
+    )
+
+    log_args = (
         request_id,
         request.method,
         request.url.path,
@@ -70,7 +125,24 @@ async def log_requests(request: Request, call_next):
         duration,
     )
 
+    if response.status_code >= 500:
+        logger.error(log_message, *log_args)
+
+    elif response.status_code >= 400:
+        logger.warning(log_message, *log_args)
+
+    else:
+        logger.info(log_message, *log_args)
+
+    logger.debug(
+        "HTTP response generated | request_id=%s | "
+        "response_headers=%s",
+        request_id,
+        response.headers,
+    )
+
     return response
+
 
 
 # Global exception handler
@@ -79,8 +151,12 @@ async def unexpected_error_handler(
     request: Request,
     exc: Exception,
 ):
+    request_id = getattr(request.state, "request_id", "unknown")
+
     logger.exception(
-        "Unexpected application error | method=%s path=%s",
+        "Unexpected application error | request_id=%s | "
+        "method=%s | path=%s",
+        request_id,
         request.method,
         request.url.path,
         exc_info=(type(exc), exc, exc.__traceback__),
@@ -96,27 +172,57 @@ async def unexpected_error_handler(
         },
     )
 
+
+
 # Root endpoint
 @app.get("/", tags=["General"])
 def root():
+
+    logger.debug("Root endpoint requested")
+
+    logger.info("Weatherflow API root endpoint accessed")
+
     return {
         "application": "Weatherflow API",
         "status": "running",
         "docs": "/docs",
     }
 
+
+
 # Application health check
-@app.get("/health", tags=["Health"])
+@app.get(
+    tags=["Health"],
+    summary="Check API health",
+    description="Confirms that the FastAPI application is responding.",
+)
 def health_check():
+
+    logger.debug("Application health check started")
+
+    logger.info("Application health check successful")
+
     return {
         "status": "healthy",
     }
 
+
+
 # Database health check
-@app.get("/health/database", tags=["Health"])
+@app.get(
+    "/health/database",
+    tags=["Health"],
+    summary="Check database connectivity",
+    description="Checks whether the backend can execute a query against PostgreSQL.",
+)
 def database_health_check():
+
+    logger.debug("Database health check started")
+
     try:
         check_database_connection()
+
+        logger.info("Database health check successful")
 
         return {
             "status": "healthy",
@@ -124,6 +230,7 @@ def database_health_check():
         }
 
     except SQLAlchemyError:
+        logger.exception("Database health check failed")
         raise HTTPException(
             status_code=503,
             detail={

@@ -1,0 +1,2 @@
+2026-10-14 17:10:05,063 | INFO | app.api.routes.current_weather | Current weather list request received | limit=20 | offset=0
+2026-10-14 17:10:05,087 | INFO | app.api.routes.current_weather | Current weather list retrieved successfully | count=12 | limit=20 | offset=0 | has_more=False

@@ -62,3 +62,1350 @@ NameError: name 'uuid' is not defined. Did you forget to import 'uuid'?
 2026-10-14 12:20:23,778 | INFO | app.main | Request completed | request_id=6bc784ca-056b-4295-8b9b-ba660383d849 method=GET path=/api/v1/weather/cities/compare status_code=200 duration_seconds=0.002
 2026-10-14 12:20:23,790 | INFO | app.main | Request completed | request_id=b76f7862-a683-434c-b868-5b23decda9dc method=GET path=/api/v1/weather/cities/compare status_code=422 duration_seconds=0.001
 2026-10-14 12:20:23,806 | INFO | app.main | Request completed | request_id=a65addb1-8451-4e25-8341-e21453a2c0c1 method=GET path=/api/v1/weather/current status_code=503 duration_seconds=0.002
+2026-10-14 12:45:05,602 | INFO | app.main | Request completed | request_id=3f2bcdb1-5686-49f4-8cb6-61492d48bf86 method=GET path=/health/database status_code=200 duration_seconds=0.131
+2026-10-14 12:45:05,712 | INFO | app.main | Request completed | request_id=d66cc488-7907-4007-98d4-f06e921ab70d method=GET path=/api/v1/weather/current status_code=200 duration_seconds=0.095
+2026-10-14 12:45:05,769 | INFO | app.main | Request completed | request_id=34e3f220-6103-4b2e-8246-37311564dbe8 method=GET path=/api/v1/weather/daily status_code=200 duration_seconds=0.044
+2026-10-14 12:45:05,820 | INFO | app.main | Request completed | request_id=ff3d9991-3554-45af-8d07-5d59a33ccbb5 method=GET path=/api/v1/weather/trends status_code=200 duration_seconds=0.041
+2026-10-14 12:45:05,891 | INFO | app.main | Request completed | request_id=cb90bf00-5e58-432d-987b-4c7a4751f7b2 method=GET path=/api/v1/weather/cities/compare status_code=200 duration_seconds=0.053
+2026-10-14 12:45:05,925 | INFO | app.main | Request completed | request_id=aedb4bcb-dc10-4edd-a1e1-2dc3a66a3745 method=GET path=/api/v1/weather/daily status_code=200 duration_seconds=0.018
+2026-10-14 12:45:05,962 | INFO | app.main | Request completed | request_id=e193cd75-8eda-4ec3-9a28-d01542c49470 method=GET path=/api/v1/weather/cities/compare status_code=200 duration_seconds=0.011
+2026-10-14 12:45:05,980 | INFO | app.main | Request completed | request_id=cc92cd8d-9ea1-4299-93aa-cd238b4f4615 method=GET path=/api/v1/weather/cities/compare status_code=422 duration_seconds=0.002
+2026-10-14 12:46:22,141 | INFO | app.main | Request completed | request_id=cb658cd8-c64f-40d5-8544-3dc3068859fe method=GET path=/ status_code=200 duration_seconds=0.059
+2026-10-14 12:46:22,220 | INFO | app.main | Request completed | request_id=17779d3d-5fc0-4431-a3b0-d435cd44d54f method=GET path=/health status_code=200 duration_seconds=0.029
+2026-10-14 12:46:22,270 | INFO | app.main | Request completed | request_id=e331c5dc-7742-4e1c-af23-6e47172a9122 method=GET path=/health/database status_code=200 duration_seconds=0.010
+2026-10-14 12:46:22,287 | INFO | app.main | Request completed | request_id=75ead285-847e-4ce7-8b0a-173e752c47e1 method=GET path=/health/database status_code=503 duration_seconds=0.002
+2026-10-14 12:46:22,356 | INFO | app.main | Request completed | request_id=16c7c668-91e1-40cf-9953-eecee565f67b method=GET path=/health/database status_code=503 duration_seconds=0.056
+2026-10-14 12:46:37,379 | INFO | app.main | Request completed | request_id=115f258c-cfd7-4316-8e2b-4a3d2b195f65 method=GET path=/api/v1/weather/current status_code=503 duration_seconds=0.070
+2026-10-14 12:46:37,494 | INFO | app.main | Request completed | request_id=9a0fd97e-7875-444f-89d0-8d041d7cbbba method=GET path=/api/v1/weather/daily status_code=503 duration_seconds=0.027
+2026-10-14 12:46:37,630 | INFO | app.main | Request completed | request_id=e8d24a30-aa65-415c-9ccc-37a14a96a7e8 method=GET path=/api/v1/weather/trends status_code=503 duration_seconds=0.054
+2026-10-14 12:46:38,000 | INFO | app.main | Request completed | request_id=0bdb040f-953c-4b03-8735-ded6e01cfcaf method=GET path=/api/v1/weather/cities/compare status_code=503 duration_seconds=0.047
+2026-10-14 12:46:38,282 | INFO | app.main | Request completed | request_id=6c8d2381-bff9-47d0-b8c9-28b4859bfcd8 method=GET path=/api/v1/weather/daily status_code=503 duration_seconds=0.044
+2026-10-14 12:46:38,494 | INFO | app.main | Request completed | request_id=994845b1-5e92-4a7f-bb61-9cd1d4bd75f7 method=GET path=/api/v1/weather/cities/compare status_code=503 duration_seconds=0.033
+2026-10-14 12:46:38,680 | INFO | app.main | Request completed | request_id=bb1bb091-12d2-4259-80a5-d001d2de1b7d method=GET path=/api/v1/weather/cities/compare status_code=422 duration_seconds=0.003
+2026-10-14 12:46:38,701 | INFO | app.main | Request completed | request_id=9ce8fc4e-9b22-43d1-b6df-fac91a1c77c6 method=GET path=/api/v1/weather/current status_code=200 duration_seconds=0.004
+2026-10-14 12:46:38,723 | INFO | app.main | Request completed | request_id=35f3ec32-6a3c-4a59-ba63-65125ccc2b16 method=GET path=/api/v1/weather/current/Manila status_code=200 duration_seconds=0.007
+2026-10-14 12:46:38,739 | INFO | app.main | Request completed | request_id=324107f8-3da9-43a1-b2e3-2b8af2fbc4f5 method=GET path=/api/v1/weather/current/Unknown City status_code=404 duration_seconds=0.001
+2026-10-14 12:46:38,752 | INFO | app.main | Request completed | request_id=35125776-9871-48df-a3c5-ac3a7458a462 method=GET path=/api/v1/weather/daily status_code=200 duration_seconds=0.003
+2026-10-14 12:46:38,767 | INFO | app.main | Request completed | request_id=4e0933a5-beba-4e57-bd44-f477a26572df method=GET path=/api/v1/weather/daily status_code=422 duration_seconds=0.002
+2026-10-14 12:46:38,782 | INFO | app.main | Request completed | request_id=8c3f3de6-b47c-4dc9-961a-4cc263f38895 method=GET path=/api/v1/weather/trends status_code=200 duration_seconds=0.002
+2026-10-14 12:46:38,796 | INFO | app.main | Request completed | request_id=399c0fb5-34df-4a07-a4a9-cb63b397ea73 method=GET path=/api/v1/weather/cities/compare status_code=200 duration_seconds=0.002
+2026-10-14 12:46:38,806 | INFO | app.main | Request completed | request_id=bc5917d8-773d-40fb-8481-95d74d318100 method=GET path=/api/v1/weather/cities/compare status_code=422 duration_seconds=0.001
+2026-10-14 12:46:38,818 | INFO | app.main | Request completed | request_id=1d6bb57a-7e45-4b48-9a67-72e3f512a96a method=GET path=/api/v1/weather/current status_code=503 duration_seconds=0.001
+2026-10-14 12:54:12,417 | INFO | app.main | Request completed | request_id=bf40bd98-f0f3-40bc-8167-4cfa85aec05b method=GET path=/ status_code=200 duration_seconds=0.017
+2026-10-14 12:54:12,432 | INFO | app.main | Request completed | request_id=58c9bdc7-e576-47c8-9977-17beed5d31ac method=GET path=/health status_code=200 duration_seconds=0.004
+2026-10-14 12:54:12,454 | INFO | app.main | Request completed | request_id=217442c5-0f21-4a45-a172-7733b76b3b53 method=GET path=/health/database status_code=200 duration_seconds=0.004
+2026-10-14 12:54:12,470 | INFO | app.main | Request completed | request_id=01aca5f3-59c8-4ac2-a932-547dd16ba415 method=GET path=/health/database status_code=503 duration_seconds=0.002
+2026-10-14 12:54:12,546 | INFO | app.main | Request completed | request_id=669d439e-dc86-42e2-a065-ac15d89d3c41 method=GET path=/health/database status_code=503 duration_seconds=0.066
+2026-10-14 12:54:27,264 | INFO | app.main | Request completed | request_id=cb11a5bc-cdba-4621-9c88-92947c7a6219 method=GET path=/api/v1/weather/current status_code=503 duration_seconds=0.094
+2026-10-14 12:54:27,451 | INFO | app.main | Request completed | request_id=3a9bc592-698b-4889-b7d6-ce28d6e1ca87 method=GET path=/api/v1/weather/daily status_code=503 duration_seconds=0.029
+2026-10-14 12:54:27,645 | INFO | app.main | Request completed | request_id=b8a1ba3c-065b-48cd-b89d-0244e3000cbc method=GET path=/api/v1/weather/trends status_code=503 duration_seconds=0.073
+2026-10-14 12:54:27,977 | INFO | app.main | Request completed | request_id=be9efbd4-8a19-42ea-a27e-0c90e2b8c9cc method=GET path=/api/v1/weather/cities/compare status_code=503 duration_seconds=0.074
+2026-10-14 12:54:28,241 | INFO | app.main | Request completed | request_id=7e79eb1a-0e90-4726-87fb-e6c759c0c93b method=GET path=/api/v1/weather/daily status_code=503 duration_seconds=0.039
+2026-10-14 12:54:28,530 | INFO | app.main | Request completed | request_id=f039f0dc-3c51-43ca-b80c-4e62cff08730 method=GET path=/api/v1/weather/cities/compare status_code=503 duration_seconds=0.040
+2026-10-14 12:54:28,850 | INFO | app.main | Request completed | request_id=3aab2b7d-6ae9-4380-8cb4-c2b9337e4a68 method=GET path=/api/v1/weather/cities/compare status_code=422 duration_seconds=0.002
+2026-10-14 12:54:28,865 | INFO | app.main | Request completed | request_id=02274890-7130-4b53-af9e-b18ccb3c1347 method=GET path=/api/v1/weather/current status_code=200 duration_seconds=0.005
+2026-10-14 12:54:28,882 | INFO | app.main | Request completed | request_id=2204620e-b02e-4842-9632-dacb3194d778 method=GET path=/api/v1/weather/current/Manila status_code=200 duration_seconds=0.005
+2026-10-14 12:54:28,895 | INFO | app.main | Request completed | request_id=3f8d7a25-c0ab-4e5e-b884-6d75bb951977 method=GET path=/api/v1/weather/current/Unknown City status_code=404 duration_seconds=0.002
+2026-10-14 12:54:28,908 | INFO | app.main | Request completed | request_id=9407cef5-643e-4b87-ba62-99e8c1a55480 method=GET path=/api/v1/weather/daily status_code=200 duration_seconds=0.002
+2026-10-14 12:54:28,920 | INFO | app.main | Request completed | request_id=1ce87477-ea6f-4ead-a8fe-29fb1d1571b2 method=GET path=/api/v1/weather/daily status_code=422 duration_seconds=0.002
+2026-10-14 12:54:28,934 | INFO | app.main | Request completed | request_id=345cdf7b-97ee-4927-8834-a1717ddb33ec method=GET path=/api/v1/weather/trends status_code=200 duration_seconds=0.003
+2026-10-14 12:54:28,947 | INFO | app.main | Request completed | request_id=038be8dc-6033-455c-b3fd-3ddca8309120 method=GET path=/api/v1/weather/cities/compare status_code=200 duration_seconds=0.002
+2026-10-14 12:54:28,960 | INFO | app.main | Request completed | request_id=b4dfbfd6-12b0-4869-8bcf-fadfef53c2cf method=GET path=/api/v1/weather/cities/compare status_code=422 duration_seconds=0.001
+2026-10-14 12:54:28,971 | INFO | app.main | Request completed | request_id=9de007c8-4f4f-42e4-acb8-80f0301cfb3c method=GET path=/api/v1/weather/current status_code=503 duration_seconds=0.001
+2026-10-14 12:55:52,521 | INFO | app.main | Request completed | request_id=c63fd2ff-39e8-4750-87bd-8aa0d4e8c1f4 method=GET path=/ status_code=200 duration_seconds=0.028
+2026-10-14 12:55:52,540 | INFO | app.main | Request completed | request_id=bd8dc459-6af6-401f-9304-1c8def5ddbf3 method=GET path=/health status_code=200 duration_seconds=0.006
+2026-10-14 12:55:52,558 | INFO | app.main | Request completed | request_id=b0a73606-57fc-4619-ab9d-74fb9ee15e81 method=GET path=/health/database status_code=200 duration_seconds=0.004
+2026-10-14 12:55:52,571 | INFO | app.main | Request completed | request_id=4039236f-ca3e-4557-8e55-092358b6fdc5 method=GET path=/health/database status_code=503 duration_seconds=0.001
+2026-10-14 12:55:52,636 | INFO | app.main | Request completed | request_id=943b4263-cdec-442b-93e1-c0a681a61c90 method=GET path=/health/database status_code=503 duration_seconds=0.053
+2026-10-14 12:56:06,203 | INFO | app.main | Request completed | request_id=bc151ab4-b8fc-4e1b-bf42-3206079f8ef8 method=GET path=/api/v1/weather/current status_code=503 duration_seconds=0.046
+2026-10-14 12:56:06,472 | INFO | app.main | Request completed | request_id=32cbbe2f-644a-4a94-882c-0f1322e1abd1 method=GET path=/api/v1/weather/daily status_code=503 duration_seconds=0.093
+2026-10-14 12:56:06,768 | INFO | app.main | Request completed | request_id=84faa9e3-f364-4dcb-b07c-e53e6db7a103 method=GET path=/api/v1/weather/trends status_code=503 duration_seconds=0.033
+2026-10-14 12:56:06,988 | INFO | app.main | Request completed | request_id=374bd29d-2205-4f06-82ce-e22d37d180ab method=GET path=/api/v1/weather/cities/compare status_code=503 duration_seconds=0.111
+2026-10-14 12:56:07,280 | INFO | app.main | Request completed | request_id=8ed45d54-27cd-4e50-8448-e037e8978c90 method=GET path=/api/v1/weather/daily status_code=503 duration_seconds=0.019
+2026-10-14 12:56:07,455 | INFO | app.main | Request completed | request_id=c1efbf61-daa9-457d-8123-7f18580a5688 method=GET path=/api/v1/weather/cities/compare status_code=503 duration_seconds=0.022
+2026-10-14 12:56:07,638 | INFO | app.main | Request completed | request_id=b963a407-5baa-43fb-8876-e659178deb3a method=GET path=/api/v1/weather/cities/compare status_code=422 duration_seconds=0.002
+2026-10-14 12:56:07,673 | INFO | app.main | Request completed | request_id=9a055209-7f89-4491-a2bc-4fc16f53703d method=GET path=/api/v1/weather/current status_code=200 duration_seconds=0.004
+2026-10-14 12:56:07,717 | INFO | app.main | Request completed | request_id=9a81d264-d6f7-4a84-82a8-462a485338f0 method=GET path=/api/v1/weather/current/Manila status_code=200 duration_seconds=0.014
+2026-10-14 12:56:07,741 | INFO | app.main | Request completed | request_id=1d9f7c38-783a-41bd-9912-ead649f13f52 method=GET path=/api/v1/weather/current/Unknown City status_code=404 duration_seconds=0.002
+2026-10-14 12:56:07,752 | INFO | app.main | Request completed | request_id=7b826fa4-d5a9-4cc0-8c0d-3418a0cbf074 method=GET path=/api/v1/weather/daily status_code=200 duration_seconds=0.001
+2026-10-14 12:56:07,764 | INFO | app.main | Request completed | request_id=d96a0e8a-951d-4812-aedf-9836f85c345d method=GET path=/api/v1/weather/daily status_code=422 duration_seconds=0.001
+2026-10-14 12:56:07,775 | INFO | app.main | Request completed | request_id=ac30c1ef-1311-4a75-833e-7f20946bf019 method=GET path=/api/v1/weather/trends status_code=200 duration_seconds=0.002
+2026-10-14 12:56:07,785 | INFO | app.main | Request completed | request_id=63167fa9-09c8-479c-a540-70157f617072 method=GET path=/api/v1/weather/cities/compare status_code=200 duration_seconds=0.001
+2026-10-14 12:56:07,796 | INFO | app.main | Request completed | request_id=a21e6b46-9daa-452f-8952-684630d6a30b method=GET path=/api/v1/weather/cities/compare status_code=422 duration_seconds=0.001
+2026-10-14 12:56:07,806 | INFO | app.main | Request completed | request_id=51d6c18a-2631-44a4-9f9f-74c2836f6d22 method=GET path=/api/v1/weather/current status_code=503 duration_seconds=0.001
+2026-10-14 13:00:49,094 | INFO | app.main | Request completed | request_id=dd664c5e-5693-4bff-823b-ce86d84a3de9 method=GET path=/health/database status_code=503 duration_seconds=0.086
+2026-10-14 13:01:08,714 | INFO | app.main | Request completed | request_id=5dba0a88-dbff-426a-ac5c-31132e663fb0 method=GET path=/api/v1/weather/current status_code=503 duration_seconds=0.085
+2026-10-14 13:01:09,126 | INFO | app.main | Request completed | request_id=a440070d-9f51-44f8-a38a-feee83d3e723 method=GET path=/api/v1/weather/daily status_code=503 duration_seconds=0.103
+2026-10-14 13:01:09,280 | INFO | app.main | Request completed | request_id=8892c343-53ed-4147-b21a-8ccc5d262b3d method=GET path=/api/v1/weather/trends status_code=503 duration_seconds=0.030
+2026-10-14 13:01:09,535 | INFO | app.main | Request completed | request_id=6bfd7143-c7d6-4e1a-94b1-1df08d60ddaa method=GET path=/api/v1/weather/cities/compare status_code=503 duration_seconds=0.096
+2026-10-14 13:01:09,647 | INFO | app.main | Request completed | request_id=7962cb3f-c31c-444d-8c70-f6b1f0b7068c method=GET path=/api/v1/weather/daily status_code=503 duration_seconds=0.013
+2026-10-14 13:01:09,799 | INFO | app.main | Request completed | request_id=cf2fc7b9-412e-45ff-accb-c9fb3ed74a4d method=GET path=/api/v1/weather/cities/compare status_code=503 duration_seconds=0.009
+2026-10-14 13:01:09,894 | INFO | app.main | Request completed | request_id=ddc37b61-cf04-46c6-a155-d2995e5ebaa9 method=GET path=/api/v1/weather/cities/compare status_code=422 duration_seconds=0.003
+2026-10-14 13:07:54,700 | INFO | app.main | Request completed | request_id=8e7b7480-0f91-4194-aaba-720094a86ee1 method=GET path=/health/database status_code=503 duration_seconds=0.242
+2026-10-14 13:08:09,451 | INFO | app.main | Request completed | request_id=6207a77b-3dcc-4685-a46b-972f238688d9 method=GET path=/api/v1/weather/current status_code=503 duration_seconds=0.067
+2026-10-14 13:08:09,569 | INFO | app.main | Request completed | request_id=819dac58-d1e6-42c9-9deb-6161e56d4879 method=GET path=/api/v1/weather/daily status_code=503 duration_seconds=0.024
+2026-10-14 13:08:09,774 | INFO | app.main | Request completed | request_id=2655b769-b5cd-48e2-9cdb-2982ad322e09 method=GET path=/api/v1/weather/trends status_code=503 duration_seconds=0.079
+2026-10-14 13:08:10,069 | INFO | app.main | Request completed | request_id=a6dd022a-1227-4ade-8942-adbe8b69909f method=GET path=/api/v1/weather/cities/compare status_code=503 duration_seconds=0.075
+2026-10-14 13:08:10,361 | INFO | app.main | Request completed | request_id=832b684a-1c1c-42fc-bc9d-38d13b1fc835 method=GET path=/api/v1/weather/daily status_code=503 duration_seconds=0.036
+2026-10-14 13:08:10,560 | INFO | app.main | Request completed | request_id=12e8401d-6742-432b-9c38-c73c27da926c method=GET path=/api/v1/weather/cities/compare status_code=503 duration_seconds=0.036
+2026-10-14 13:08:10,827 | INFO | app.main | Request completed | request_id=d3aa5ef4-61f1-47f6-85c9-d1d2ceaae585 method=GET path=/api/v1/weather/cities/compare status_code=422 duration_seconds=0.006
+2026-10-14 13:11:19,383 | INFO | app.main | Request completed | request_id=db4534c0-9eed-491e-aa87-59e1d6fbafc1 method=GET path=/health/database status_code=200 duration_seconds=0.082
+2026-10-14 13:11:19,427 | INFO | app.main | Request completed | request_id=8236e3fa-7f7d-4c57-afbf-2f9f45d63931 method=GET path=/api/v1/weather/current status_code=200 duration_seconds=0.033
+2026-10-14 13:11:19,517 | INFO | app.main | Request completed | request_id=cdc25b01-a1bf-4d4b-956c-089148225901 method=GET path=/api/v1/weather/daily status_code=200 duration_seconds=0.072
+2026-10-14 13:11:19,549 | INFO | app.main | Request completed | request_id=fbaab14e-61a8-46d2-8575-eea7b2569339 method=GET path=/api/v1/weather/trends status_code=200 duration_seconds=0.024
+2026-10-14 13:11:19,586 | INFO | app.main | Request completed | request_id=1ae72ade-b598-46e9-bd83-deeb9781d852 method=GET path=/api/v1/weather/cities/compare status_code=200 duration_seconds=0.029
+2026-10-14 13:11:19,600 | INFO | app.main | Request completed | request_id=a9726ceb-edb8-4d27-8ee8-4717e90fad06 method=GET path=/api/v1/weather/daily status_code=200 duration_seconds=0.004
+2026-10-14 13:11:19,612 | INFO | app.main | Request completed | request_id=a38f8c6e-77be-44a5-8394-1caf476e6f7a method=GET path=/api/v1/weather/cities/compare status_code=200 duration_seconds=0.004
+2026-10-14 13:11:19,624 | INFO | app.main | Request completed | request_id=a0744b83-5cbe-421e-9a92-b933b2df00c3 method=GET path=/api/v1/weather/cities/compare status_code=422 duration_seconds=0.001
+2026-10-14 13:13:35,752 | INFO | app.main | Request completed | request_id=f892d306-2b11-41d7-8a19-23bdb25aa762 method=GET path=/ status_code=200 duration_seconds=0.028
+2026-10-14 13:13:35,766 | INFO | app.main | Request completed | request_id=7d5bce49-618d-49c5-a1f0-11e729377124 method=GET path=/health status_code=200 duration_seconds=0.003
+2026-10-14 13:13:35,782 | INFO | app.main | Request completed | request_id=d2d289b1-c8a8-4e43-bc85-2d4d4553c5a0 method=GET path=/health/database status_code=200 duration_seconds=0.004
+2026-10-14 13:13:35,798 | INFO | app.main | Request completed | request_id=0aa2ef22-472c-400a-aad1-cf6a4f18306f method=GET path=/health/database status_code=503 duration_seconds=0.001
+2026-10-14 13:13:35,878 | INFO | app.main | Request completed | request_id=2e36d521-5911-45e9-8bbe-2342d1c49a81 method=GET path=/health/database status_code=200 duration_seconds=0.069
+2026-10-14 13:13:35,920 | INFO | app.main | Request completed | request_id=f1d3d5b0-b556-4dbe-b241-68d82c2dd6aa method=GET path=/api/v1/weather/current status_code=200 duration_seconds=0.033
+2026-10-14 13:13:35,968 | INFO | app.main | Request completed | request_id=7413cfa8-b5e6-462c-a5d2-8b73655062da method=GET path=/api/v1/weather/daily status_code=200 duration_seconds=0.039
+2026-10-14 13:13:36,056 | INFO | app.main | Request completed | request_id=853ce684-1280-4f82-acbc-3275a5240a96 method=GET path=/api/v1/weather/trends status_code=200 duration_seconds=0.072
+2026-10-14 13:13:36,141 | INFO | app.main | Request completed | request_id=5643eb48-d9fe-40a3-b141-ec1b1ae7d349 method=GET path=/api/v1/weather/cities/compare status_code=200 duration_seconds=0.045
+2026-10-14 13:13:36,176 | INFO | app.main | Request completed | request_id=2609b0b7-326e-4a5c-8d78-f3f73ff98d8d method=GET path=/api/v1/weather/daily status_code=200 duration_seconds=0.017
+2026-10-14 13:13:36,232 | INFO | app.main | Request completed | request_id=32fe7fa3-d42b-4f0f-8b02-4281bd81e3ad method=GET path=/api/v1/weather/cities/compare status_code=200 duration_seconds=0.014
+2026-10-14 13:13:36,250 | INFO | app.main | Request completed | request_id=b9a4165e-f50e-4a0e-8493-9300c1f50352 method=GET path=/api/v1/weather/cities/compare status_code=422 duration_seconds=0.001
+2026-10-14 13:13:36,265 | INFO | app.main | Request completed | request_id=340d1111-3c6a-4537-a3e6-0f260efce95b method=GET path=/api/v1/weather/current status_code=200 duration_seconds=0.002
+2026-10-14 13:13:36,281 | INFO | app.main | Request completed | request_id=d690c664-6824-42d3-93ac-f3a11b75432f method=GET path=/api/v1/weather/current/Manila status_code=200 duration_seconds=0.005
+2026-10-14 13:13:36,294 | INFO | app.main | Request completed | request_id=5aea7df7-60a4-4808-adfe-49a0c556230b method=GET path=/api/v1/weather/current/Unknown City status_code=404 duration_seconds=0.001
+2026-10-14 13:13:36,307 | INFO | app.main | Request completed | request_id=47380eca-b298-4641-9b24-6336ff7b6c1c method=GET path=/api/v1/weather/daily status_code=200 duration_seconds=0.003
+2026-10-14 13:13:36,322 | INFO | app.main | Request completed | request_id=7cb71e28-5dcd-47d3-a422-2fecb98c8e93 method=GET path=/api/v1/weather/daily status_code=422 duration_seconds=0.001
+2026-10-14 13:13:36,338 | INFO | app.main | Request completed | request_id=d676a690-34cd-4755-803c-feba1111eb02 method=GET path=/api/v1/weather/trends status_code=200 duration_seconds=0.003
+2026-10-14 13:13:36,360 | INFO | app.main | Request completed | request_id=1351739c-bcb1-4625-842f-1f26b490277b method=GET path=/api/v1/weather/cities/compare status_code=200 duration_seconds=0.003
+2026-10-14 13:13:36,373 | INFO | app.main | Request completed | request_id=8b6b13d4-3ba2-4742-b4a9-b152a84fc47c method=GET path=/api/v1/weather/cities/compare status_code=422 duration_seconds=0.001
+2026-10-14 13:13:36,386 | INFO | app.main | Request completed | request_id=82ee32f9-3c26-4678-a84d-cedfc73e4e96 method=GET path=/api/v1/weather/current status_code=503 duration_seconds=0.002
+2026-10-14 13:15:16,341 | INFO | app.main | Request completed | request_id=c5738c44-4db9-42e0-bcbe-40af1dcec36e method=GET path=/ status_code=200 duration_seconds=0.073
+2026-10-14 13:15:16,408 | INFO | app.main | Request completed | request_id=65902860-06cc-428b-b3cc-ab413e1ed01f method=GET path=/health status_code=200 duration_seconds=0.022
+2026-10-14 13:15:16,451 | INFO | app.main | Request completed | request_id=326ac280-ca9e-448a-bff9-12a9ae475df8 method=GET path=/health/database status_code=200 duration_seconds=0.007
+2026-10-14 13:15:16,464 | INFO | app.main | Request completed | request_id=f049632f-24d2-46f8-a580-1d4c22f1c8d6 method=GET path=/health/database status_code=503 duration_seconds=0.001
+2026-10-14 13:15:16,602 | INFO | app.main | Request completed | request_id=515e3876-ad3c-467b-a2e5-882c7252c502 method=GET path=/health/database status_code=200 duration_seconds=0.123
+2026-10-14 13:15:16,646 | INFO | app.main | Request completed | request_id=86086459-a1fa-4002-9b6f-8142150d5be0 method=GET path=/api/v1/weather/current status_code=200 duration_seconds=0.035
+2026-10-14 13:15:16,695 | INFO | app.main | Request completed | request_id=42dc4845-bc23-4180-90e0-0bd8236d4c35 method=GET path=/api/v1/weather/daily status_code=200 duration_seconds=0.035
+2026-10-14 13:15:16,758 | INFO | app.main | Request completed | request_id=85b92c93-50e9-4dd6-8b20-4541cc7af906 method=GET path=/api/v1/weather/trends status_code=200 duration_seconds=0.049
+2026-10-14 13:15:16,797 | INFO | app.main | Request completed | request_id=42590426-c3c4-47de-9a52-c4ac23c14f48 method=GET path=/api/v1/weather/cities/compare status_code=200 duration_seconds=0.029
+2026-10-14 13:15:16,812 | INFO | app.main | Request completed | request_id=647e88aa-2442-46fc-8ed4-55777bbef4ee method=GET path=/api/v1/weather/daily status_code=200 duration_seconds=0.004
+2026-10-14 13:15:16,826 | INFO | app.main | Request completed | request_id=1a3a174a-a1a4-49cc-9ce3-88ed4355e05f method=GET path=/api/v1/weather/cities/compare status_code=200 duration_seconds=0.003
+2026-10-14 13:15:16,839 | INFO | app.main | Request completed | request_id=5a7027d5-0289-46b2-aaad-264af36e9c6d method=GET path=/api/v1/weather/cities/compare status_code=422 duration_seconds=0.001
+2026-10-14 13:15:16,856 | INFO | app.main | Request completed | request_id=add0a104-30a9-4342-bdf6-d44b16e9ce57 method=GET path=/api/v1/weather/current status_code=200 duration_seconds=0.003
+2026-10-14 13:15:16,875 | INFO | app.main | Request completed | request_id=4fdc4842-23cb-4c61-a137-ff01e857d789 method=GET path=/api/v1/weather/current/Manila status_code=200 duration_seconds=0.008
+2026-10-14 13:15:16,888 | INFO | app.main | Request completed | request_id=94def71f-4989-4264-8b1b-31e4341cd392 method=GET path=/api/v1/weather/current/Unknown City status_code=404 duration_seconds=0.001
+2026-10-14 13:15:16,902 | INFO | app.main | Request completed | request_id=32485bf9-a0ab-457c-bc78-901b299fcd18 method=GET path=/api/v1/weather/daily status_code=200 duration_seconds=0.001
+2026-10-14 13:15:16,917 | INFO | app.main | Request completed | request_id=4e53e23e-1305-41be-bc08-9f05f2e61b22 method=GET path=/api/v1/weather/daily status_code=422 duration_seconds=0.001
+2026-10-14 13:15:16,929 | INFO | app.main | Request completed | request_id=c9e64bf5-351b-41ac-8ccc-da807a0e7961 method=GET path=/api/v1/weather/trends status_code=200 duration_seconds=0.002
+2026-10-14 13:15:16,943 | INFO | app.main | Request completed | request_id=da8e655c-ae3d-49fb-8e56-7be7e0cf62f6 method=GET path=/api/v1/weather/cities/compare status_code=200 duration_seconds=0.002
+2026-10-14 13:15:16,954 | INFO | app.main | Request completed | request_id=4e9e1661-6fac-4827-9a84-b616deaaaca2 method=GET path=/api/v1/weather/cities/compare status_code=422 duration_seconds=0.001
+2026-10-14 13:15:16,964 | INFO | app.main | Request completed | request_id=586d10e2-d5ad-4bd9-b5ed-3e48eaf0e26d method=GET path=/api/v1/weather/current status_code=503 duration_seconds=0.002
+2026-10-14 14:34:14,081 | INFO | app.main | Request completed | request_id=88487aa1-279e-464b-915e-008d55c7e20e method=GET path=/ status_code=200 duration_seconds=0.120
+2026-10-14 14:34:14,152 | INFO | app.main | Request completed | request_id=ea38e6fe-399c-4194-a20f-bcbc35adc812 method=GET path=/health status_code=200 duration_seconds=0.026
+2026-10-14 14:34:14,199 | INFO | app.main | Request completed | request_id=b4d7198d-edc4-4a8d-8789-35afe6794853 method=GET path=/health/database status_code=200 duration_seconds=0.009
+2026-10-14 14:34:14,217 | INFO | app.main | Request completed | request_id=04c3f565-b770-4d64-913b-1ce5020f3a15 method=GET path=/health/database status_code=503 duration_seconds=0.001
+2026-10-14 14:34:14,366 | INFO | app.main | Request completed | request_id=60608695-6ee1-4858-b3b9-277f60d3f59d method=GET path=/health/database status_code=200 duration_seconds=0.139
+2026-10-14 14:34:14,485 | INFO | app.main | Request completed | request_id=3340dcca-0488-4c17-8388-0d45448a126f method=GET path=/api/v1/weather/current status_code=200 duration_seconds=0.094
+2026-10-14 14:34:14,633 | INFO | app.main | Request completed | request_id=561b3842-4346-4736-adf7-e475b69ce84e method=GET path=/api/v1/weather/daily status_code=200 duration_seconds=0.137
+2026-10-14 14:34:14,849 | INFO | app.main | Request completed | request_id=803b81cd-0d29-4268-b391-e6e4ddfdb8a0 method=GET path=/api/v1/weather/trends status_code=200 duration_seconds=0.169
+2026-10-14 14:34:15,007 | INFO | app.main | Request completed | request_id=1cf865f3-9642-45df-a82f-6a762e919c8f method=GET path=/api/v1/weather/cities/compare status_code=200 duration_seconds=0.113
+2026-10-14 14:34:15,046 | INFO | app.main | Request completed | request_id=b600f12f-9aa1-4e89-938f-e6d7c093fead method=GET path=/api/v1/weather/daily status_code=200 duration_seconds=0.020
+2026-10-14 14:34:15,094 | INFO | app.main | Request completed | request_id=4d8c1605-d467-4a49-96e5-4c80b82453bb method=GET path=/api/v1/weather/cities/compare status_code=200 duration_seconds=0.013
+2026-10-14 14:34:15,110 | INFO | app.main | Request completed | request_id=6a5c78c9-6347-4d9c-9621-7bc97d313507 method=GET path=/api/v1/weather/cities/compare status_code=422 duration_seconds=0.001
+2026-10-14 14:34:15,126 | INFO | app.main | Request completed | request_id=49366839-0527-4de0-befd-0ec4d88e34c8 method=GET path=/api/v1/weather/current status_code=200 duration_seconds=0.003
+2026-10-14 14:34:15,145 | INFO | app.main | Request completed | request_id=6885fb9a-b7ad-40f4-a6a7-f29b58819c86 method=GET path=/api/v1/weather/current/Manila status_code=200 duration_seconds=0.008
+2026-10-14 14:34:15,161 | INFO | app.main | Request completed | request_id=faa43975-445c-47c4-bd10-16e7bfa9ebd1 method=GET path=/api/v1/weather/current/Unknown City status_code=404 duration_seconds=0.002
+2026-10-14 14:34:15,177 | INFO | app.main | Request completed | request_id=1a3d0d3a-db9e-4bf6-8f89-bd05c5c10635 method=GET path=/api/v1/weather/daily status_code=200 duration_seconds=0.003
+2026-10-14 14:34:15,190 | INFO | app.main | Request completed | request_id=f172d421-33fd-48fd-b96f-31549ab56cbf method=GET path=/api/v1/weather/daily status_code=422 duration_seconds=0.001
+2026-10-14 14:34:15,205 | INFO | app.main | Request completed | request_id=f746dcc0-fc56-422c-a213-8fc3e2c0cf2e method=GET path=/api/v1/weather/trends status_code=200 duration_seconds=0.004
+2026-10-14 14:34:15,219 | INFO | app.main | Request completed | request_id=87e113b2-993b-44ba-a51a-6b93d52ae2cd method=GET path=/api/v1/weather/cities/compare status_code=200 duration_seconds=0.003
+2026-10-14 14:34:15,232 | INFO | app.main | Request completed | request_id=d817dc16-d472-4637-b00f-bd5333532ef3 method=GET path=/api/v1/weather/cities/compare status_code=422 duration_seconds=0.001
+2026-10-14 14:34:15,243 | INFO | app.main | Request completed | request_id=954889a0-dd51-4b15-b89b-04f278f4613e method=GET path=/api/v1/weather/current status_code=503 duration_seconds=0.001
+2026-10-14 14:37:41,795 | INFO | app.main | Request completed | request_id=c600be7e-6898-4f08-8bb9-0ca165516566 method=GET path=/ status_code=200 duration_seconds=0.028
+2026-10-14 14:37:41,813 | INFO | app.main | Request completed | request_id=a39d0e75-e7d1-45fd-803e-8aeffd53cb2c method=GET path=/health status_code=200 duration_seconds=0.004
+2026-10-14 14:37:41,836 | INFO | app.main | Request completed | request_id=5090c2f4-d086-422c-8987-73add5e7a465 method=GET path=/health/database status_code=200 duration_seconds=0.005
+2026-10-14 14:37:41,857 | INFO | app.main | Request completed | request_id=0ee7fcba-08f0-4b52-b95e-cc1d8bca0c34 method=GET path=/health/database status_code=503 duration_seconds=0.002
+2026-10-14 14:37:41,961 | INFO | app.main | Request completed | request_id=a9d759c9-afd2-458a-9b0e-0b69d80233a7 method=GET path=/health/database status_code=200 duration_seconds=0.091
+2026-10-14 14:37:42,054 | INFO | app.main | Request completed | request_id=0350283b-df0f-4551-9aa1-f0c357d6bfab method=GET path=/api/v1/weather/current status_code=200 duration_seconds=0.079
+2026-10-14 14:37:42,183 | INFO | app.main | Request completed | request_id=d49ba288-207e-4528-aafb-c2d86d974bbe method=GET path=/api/v1/weather/daily status_code=200 duration_seconds=0.100
+2026-10-14 14:37:42,311 | INFO | app.main | Request completed | request_id=3e8d2820-578e-473a-9ded-2036c216b23d method=GET path=/api/v1/weather/trends status_code=200 duration_seconds=0.093
+2026-10-14 14:37:42,454 | INFO | app.main | Request completed | request_id=878bef6b-db1f-4e40-b811-53ca9c0fec36 method=GET path=/api/v1/weather/cities/compare status_code=200 duration_seconds=0.098
+2026-10-14 14:37:42,519 | INFO | app.main | Request completed | request_id=a7af0ea3-6651-4124-a83e-a530a40c48a3 method=GET path=/api/v1/weather/daily status_code=200 duration_seconds=0.026
+2026-10-14 14:37:42,565 | INFO | app.main | Request completed | request_id=fc33f155-7e88-4358-bf40-6950eb5a09b8 method=GET path=/api/v1/weather/cities/compare status_code=200 duration_seconds=0.010
+2026-10-14 14:37:42,582 | INFO | app.main | Request completed | request_id=f6e09903-c3c4-4c45-8512-8a9c25500506 method=GET path=/api/v1/weather/cities/compare status_code=422 duration_seconds=0.002
+2026-10-14 14:37:42,593 | INFO | app.main | Request completed | request_id=37fd88f3-6c7f-4e3f-b682-27a4459b3d9a method=GET path=/api/v1/weather/current status_code=200 duration_seconds=0.002
+2026-10-14 14:37:42,609 | INFO | app.main | Request completed | request_id=6398b762-0659-40f4-861b-bfc86673beb2 method=GET path=/api/v1/weather/current/Manila status_code=200 duration_seconds=0.006
+2026-10-14 14:37:42,620 | INFO | app.main | Request completed | request_id=c9a14bed-a22a-486c-b10c-d530ab3645d2 method=GET path=/api/v1/weather/current/Unknown City status_code=404 duration_seconds=0.001
+2026-10-14 14:37:42,632 | INFO | app.main | Request completed | request_id=c78359dd-3f2c-4a15-9a19-b56f93b30f81 method=GET path=/api/v1/weather/daily status_code=200 duration_seconds=0.002
+2026-10-14 14:37:42,644 | INFO | app.main | Request completed | request_id=0a9734a4-6be3-43d9-95a0-924a150870a3 method=GET path=/api/v1/weather/daily status_code=422 duration_seconds=0.002
+2026-10-14 14:37:42,658 | INFO | app.main | Request completed | request_id=5118bec3-afc2-462e-9078-122dbcb569e8 method=GET path=/api/v1/weather/trends status_code=200 duration_seconds=0.003
+2026-10-14 14:37:42,670 | INFO | app.main | Request completed | request_id=9c33d917-3be9-4257-9b4a-162203dfe6f9 method=GET path=/api/v1/weather/cities/compare status_code=200 duration_seconds=0.002
+2026-10-14 14:37:42,678 | INFO | app.main | Request completed | request_id=469da3ac-7ad3-424a-9af9-c25a68049202 method=GET path=/api/v1/weather/cities/compare status_code=422 duration_seconds=0.000
+2026-10-14 14:37:42,690 | INFO | app.main | Request completed | request_id=2d48b9b5-a734-427c-9158-e7b5a8b49d1e method=GET path=/api/v1/weather/current status_code=503 duration_seconds=0.003
+2026-10-14 14:51:18,906 | INFO | app.main | Request completed | request_id=9ee6adc3-a903-47a7-a11f-6e563b33beef method=GET path=/api/v1/weather/current status_code=200 duration_seconds=0.278
+2026-10-14 14:51:26,994 | INFO | app.main | Request completed | request_id=c5696eb9-c229-4bba-9777-444fa95b9695 method=GET path=/api/v1/weather/daily status_code=200 duration_seconds=0.037
+2026-10-14 14:51:32,559 | INFO | app.main | Request completed | request_id=f9c404be-fce9-4447-a461-0a2b3d244214 method=GET path=/api/v1/weather/trends status_code=200 duration_seconds=0.061
+2026-10-14 14:51:38,927 | INFO | app.main | Request completed | request_id=b8f32ab5-d76a-4b0b-ae95-15f5aab09968 method=GET path=/api/v1/weather/cities/compare status_code=200 duration_seconds=0.049
+2026-10-14 14:51:46,614 | INFO | app.main | Request completed | request_id=3e7bacab-f1ed-4319-8e0e-eeaf6fc2f7c6 method=GET path=/api/v1/weather/current status_code=422 duration_seconds=0.002
+2026-10-14 14:53:15,250 | INFO | app.main | Request completed | request_id=16692481-bb07-4625-bbbe-1f3bfc91da7d method=GET path=/ status_code=200 duration_seconds=0.018
+2026-10-14 14:53:15,266 | INFO | app.main | Request completed | request_id=c5082f50-db71-4ef0-8b5a-530d2f1a672e method=GET path=/health status_code=200 duration_seconds=0.003
+2026-10-14 14:53:15,278 | INFO | app.main | Request completed | request_id=ec33f634-57a4-48e4-a828-6e990bfa3c68 method=GET path=/health/database status_code=200 duration_seconds=0.003
+2026-10-14 14:53:15,290 | INFO | app.main | Request completed | request_id=35f286b4-3626-465a-8982-d93c21ee2579 method=GET path=/health/database status_code=503 duration_seconds=0.001
+2026-10-14 14:53:15,375 | INFO | app.main | Request completed | request_id=b497965f-beff-4bdd-8995-0f312710d042 method=GET path=/health/database status_code=200 duration_seconds=0.005
+2026-10-14 14:53:15,426 | INFO | app.main | Request completed | request_id=f2ccdf8e-ae3d-4f6a-98aa-eec73dd81c5a method=GET path=/api/v1/weather/current status_code=200 duration_seconds=0.042
+2026-10-14 14:53:15,481 | INFO | app.main | Request completed | request_id=a6cb6e8c-b494-4cd8-bd84-52cd587a575b method=GET path=/api/v1/weather/daily status_code=200 duration_seconds=0.039
+2026-10-14 14:53:15,541 | INFO | app.main | Request completed | request_id=672bc4bb-bc4b-448b-898e-ae8ae5c48962 method=GET path=/api/v1/weather/trends status_code=200 duration_seconds=0.049
+2026-10-14 14:53:15,616 | INFO | app.main | Request completed | request_id=bf78dc4b-a9ba-4819-a317-926926e5f985 method=GET path=/api/v1/weather/cities/compare status_code=200 duration_seconds=0.062
+2026-10-14 14:53:15,635 | INFO | app.main | Request completed | request_id=c12c2513-5cea-4062-a4cd-18c262dde4b4 method=GET path=/api/v1/weather/daily status_code=200 duration_seconds=0.005
+2026-10-14 14:53:15,653 | INFO | app.main | Request completed | request_id=4b07bfb2-5e1c-475a-8ca9-efc399b841ea method=GET path=/api/v1/weather/cities/compare status_code=200 duration_seconds=0.005
+2026-10-14 14:53:15,671 | INFO | app.main | Request completed | request_id=20a395a9-a5cf-4422-be2f-e4fb97f1023e method=GET path=/api/v1/weather/cities/compare status_code=422 duration_seconds=0.002
+2026-10-14 14:53:15,683 | INFO | app.main | Request completed | request_id=414efd98-54ed-46b6-9df1-6dc0b3c3f10e method=GET path=/api/v1/weather/current status_code=200 duration_seconds=0.002
+2026-10-14 14:53:15,707 | INFO | app.main | Request completed | request_id=4243da6b-ef50-42e2-ac5f-d9f12ffb5973 method=GET path=/api/v1/weather/current/Manila status_code=200 duration_seconds=0.010
+2026-10-14 14:53:15,721 | INFO | app.main | Request completed | request_id=d29cb06f-9120-4632-a422-d989ad79bd02 method=GET path=/api/v1/weather/current/Unknown City status_code=404 duration_seconds=0.002
+2026-10-14 14:53:15,734 | INFO | app.main | Request completed | request_id=fa793f49-165a-4579-9eb5-6e8cccce2091 method=GET path=/api/v1/weather/daily status_code=200 duration_seconds=0.002
+2026-10-14 14:53:15,748 | INFO | app.main | Request completed | request_id=cc34f16a-1297-4b38-bcb1-444f7fdc3c2d method=GET path=/api/v1/weather/daily status_code=422 duration_seconds=0.002
+2026-10-14 14:53:15,761 | INFO | app.main | Request completed | request_id=9ad8367c-43ee-4d8b-8d82-69d75e7cc38b method=GET path=/api/v1/weather/trends status_code=200 duration_seconds=0.002
+2026-10-14 14:53:15,774 | INFO | app.main | Request completed | request_id=5e6e7863-f999-4238-b50b-b4b71281a837 method=GET path=/api/v1/weather/cities/compare status_code=200 duration_seconds=0.002
+2026-10-14 14:53:15,787 | INFO | app.main | Request completed | request_id=f98fad1f-5ff6-4c3c-929f-96686221422a method=GET path=/api/v1/weather/cities/compare status_code=422 duration_seconds=0.000
+2026-10-14 14:53:15,800 | INFO | app.main | Request completed | request_id=8a62dc8e-844a-418f-8d64-b8306d846b0e method=GET path=/api/v1/weather/current status_code=503 duration_seconds=0.001
+2026-10-14 14:59:43,880 | INFO | app.main | Request completed | request_id=75cebb9c-d032-4994-93a3-49763c6ca7e7 method=GET path=/api/v1/weather/current status_code=422 duration_seconds=0.008
+2026-10-14 14:59:47,047 | INFO | app.main | Request completed | request_id=6ed72c78-22fa-40a9-bab4-2b9397555637 method=GET path=/health/database status_code=200 duration_seconds=0.087
+2026-10-14 15:19:57,198 | INFO | app.main | Request completed | request_id=9c54efcb-c648-4c49-b0a1-c75acb09095f method=GET path=/ status_code=200 duration_seconds=0.030
+2026-10-14 15:19:57,227 | INFO | app.main | Request completed | request_id=6578cb7a-6798-4483-97c4-5df82f4f51c8 method=GET path=/health status_code=200 duration_seconds=0.010
+2026-10-14 15:19:57,260 | INFO | app.main | Request completed | request_id=9d1a6366-08c4-449b-93f7-141dcd71be46 method=GET path=/health/database status_code=200 duration_seconds=0.010
+2026-10-14 15:19:57,275 | INFO | app.main | Request completed | request_id=3662939a-69a4-47c6-afcb-9464d9010e35 method=GET path=/health/database status_code=503 duration_seconds=0.001
+2026-10-14 15:19:57,375 | INFO | app.main | Request completed | request_id=e9d8b73b-99f0-4c69-a4bc-16f8688b16b4 method=GET path=/health/database status_code=200 duration_seconds=0.003
+2026-10-14 15:19:57,443 | INFO | app.main | Request completed | request_id=a9ad0d78-5e8a-45f4-86a1-642b85826d0b method=GET path=/api/v1/weather/current status_code=200 duration_seconds=0.055
+2026-10-14 15:19:57,480 | INFO | app.main | Request completed | request_id=053f1114-6238-4eb4-a82f-abaf5c395187 method=GET path=/api/v1/weather/daily status_code=200 duration_seconds=0.027
+2026-10-14 15:19:57,501 | ERROR | app.main | Unhandled request error | request_id=53c7bf35-a46f-4402-b4a6-2f61fe876a3a method=GET path=/api/v1/weather/trends duration_seconds=0.012
+Traceback (most recent call last):
+  File "/mnt/c/Users/aldwin/project/weatherflow/backend/app/main.py", line 44, in log_requests
+    response = await call_next(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/c/Users/aldwin/project/Weatherflow/.venv/lib/python3.14/site-packages/starlette/middleware/base.py", line 173, in call_next
+    raise app_exc from app_exc.__cause__ or app_exc.__context__
+  File "/mnt/c/Users/aldwin/project/Weatherflow/.venv/lib/python3.14/site-packages/starlette/middleware/base.py", line 149, in coro
+    await self.app(scope, receive_or_disconnect, send_no_error)
+  File "/mnt/c/Users/aldwin/project/Weatherflow/.venv/lib/python3.14/site-packages/starlette/middleware/exceptions.py", line 63, in __call__
+    await wrap_app_handling_exceptions(self.app, conn)(scope, receive, send)
+  File "/mnt/c/Users/aldwin/project/Weatherflow/.venv/lib/python3.14/site-packages/starlette/_exception_handler.py", line 53, in wrapped_app
+    raise exc
+  File "/mnt/c/Users/aldwin/project/Weatherflow/.venv/lib/python3.14/site-packages/starlette/_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+  File "/mnt/c/Users/aldwin/project/Weatherflow/.venv/lib/python3.14/site-packages/fastapi/middleware/asyncexitstack.py", line 18, in __call__
+    await self.app(scope, receive, send)
+  File "/mnt/c/Users/aldwin/project/Weatherflow/.venv/lib/python3.14/site-packages/starlette/routing.py", line 676, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "/mnt/c/Users/aldwin/project/Weatherflow/.venv/lib/python3.14/site-packages/fastapi/routing.py", line 2786, in app
+    await route.handle(scope, receive, send)
+  File "/mnt/c/Users/aldwin/project/Weatherflow/.venv/lib/python3.14/site-packages/fastapi/routing.py", line 1817, in handle
+    await self.original_router.handle(scope, receive, send)
+  File "/mnt/c/Users/aldwin/project/Weatherflow/.venv/lib/python3.14/site-packages/fastapi/routing.py", line 2869, in handle
+    await included_router._handle_selected(scope, receive, send)
+  File "/mnt/c/Users/aldwin/project/Weatherflow/.venv/lib/python3.14/site-packages/fastapi/routing.py", line 1843, in _handle_selected
+    await original_route.handle(scope, receive, send)
+  File "/mnt/c/Users/aldwin/project/Weatherflow/.venv/lib/python3.14/site-packages/fastapi/routing.py", line 1308, in handle
+    await effective_context.app(scope, receive, send)
+  File "/mnt/c/Users/aldwin/project/Weatherflow/.venv/lib/python3.14/site-packages/fastapi/routing.py", line 165, in app
+    await wrap_app_handling_exceptions(app, request)(scope, receive, send)
+  File "/mnt/c/Users/aldwin/project/Weatherflow/.venv/lib/python3.14/site-packages/starlette/_exception_handler.py", line 53, in wrapped_app
+    raise exc
+  File "/mnt/c/Users/aldwin/project/Weatherflow/.venv/lib/python3.14/site-packages/starlette/_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+  File "/mnt/c/Users/aldwin/project/Weatherflow/.venv/lib/python3.14/site-packages/fastapi/routing.py", line 151, in app
+    response = await f(request)
+               ^^^^^^^^^^^^^^^^
+  File "/mnt/c/Users/aldwin/project/Weatherflow/.venv/lib/python3.14/site-packages/fastapi/routing.py", line 727, in app
+    raw_response = await run_endpoint_function(
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<3 lines>...
+    )
+    ^
+  File "/mnt/c/Users/aldwin/project/Weatherflow/.venv/lib/python3.14/site-packages/fastapi/routing.py", line 362, in run_endpoint_function
+    return await run_in_threadpool(
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+        _run_sync_endpoint, function=dependant.call, arguments=values
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/mnt/c/Users/aldwin/project/Weatherflow/.venv/lib/python3.14/site-packages/starlette/concurrency.py", line 34, in run_in_threadpool
+    return await anyio.to_thread.run_sync(func)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/c/Users/aldwin/project/Weatherflow/.venv/lib/python3.14/site-packages/anyio/to_thread.py", line 65, in run_sync
+    return await get_async_backend().run_sync_in_worker_thread(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        func, args, abandon_on_cancel=abandon_on_cancel, limiter=limiter
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/mnt/c/Users/aldwin/project/Weatherflow/.venv/lib/python3.14/site-packages/anyio/_backends/_asyncio.py", line 2706, in run_sync_in_worker_thread
+    return await future
+           ^^^^^^^^^^^^
+  File "/mnt/c/Users/aldwin/project/Weatherflow/.venv/lib/python3.14/site-packages/anyio/_backends/_asyncio.py", line 1100, in run
+    result = context.run(func, *args)
+  File "/mnt/c/Users/aldwin/project/Weatherflow/.venv/lib/python3.14/site-packages/fastapi/telemetry/_api.py", line 244, in _run_sync_endpoint
+    return function(**arguments)
+  File "/mnt/c/Users/aldwin/project/weatherflow/backend/app/api/routes/trends.py", line 32, in get_weather_trends
+    "fetch_limit": limit + 1,
+                   ^^^^^
+NameError: name 'limit' is not defined. Did you mean: 'list'?
+2026-10-14 15:19:58,127 | ERROR | app.main | Unexpected application error | method=GET path=/api/v1/weather/trends
+Traceback (most recent call last):
+  File "/mnt/c/Users/aldwin/project/Weatherflow/.venv/lib/python3.14/site-packages/starlette/middleware/errors.py", line 164, in __call__
+    await self.app(scope, receive, _send)
+  File "/mnt/c/Users/aldwin/project/Weatherflow/.venv/lib/python3.14/site-packages/fastapi/telemetry/_asgi.py", line 151, in __call__
+    await self.app(scope, receive, send)
+  File "/mnt/c/Users/aldwin/project/Weatherflow/.venv/lib/python3.14/site-packages/starlette/middleware/base.py", line 197, in __call__
+    response = await self.dispatch_func(request, call_next)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/c/Users/aldwin/project/weatherflow/backend/app/main.py", line 44, in log_requests
+    response = await call_next(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/c/Users/aldwin/project/Weatherflow/.venv/lib/python3.14/site-packages/starlette/middleware/base.py", line 173, in call_next
+    raise app_exc from app_exc.__cause__ or app_exc.__context__
+  File "/mnt/c/Users/aldwin/project/Weatherflow/.venv/lib/python3.14/site-packages/starlette/middleware/base.py", line 149, in coro
+    await self.app(scope, receive_or_disconnect, send_no_error)
+  File "/mnt/c/Users/aldwin/project/Weatherflow/.venv/lib/python3.14/site-packages/starlette/middleware/exceptions.py", line 63, in __call__
+    await wrap_app_handling_exceptions(self.app, conn)(scope, receive, send)
+  File "/mnt/c/Users/aldwin/project/Weatherflow/.venv/lib/python3.14/site-packages/starlette/_exception_handler.py", line 53, in wrapped_app
+    raise exc
+  File "/mnt/c/Users/aldwin/project/Weatherflow/.venv/lib/python3.14/site-packages/starlette/_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+  File "/mnt/c/Users/aldwin/project/Weatherflow/.venv/lib/python3.14/site-packages/fastapi/middleware/asyncexitstack.py", line 18, in __call__
+    await self.app(scope, receive, send)
+  File "/mnt/c/Users/aldwin/project/Weatherflow/.venv/lib/python3.14/site-packages/starlette/routing.py", line 676, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "/mnt/c/Users/aldwin/project/Weatherflow/.venv/lib/python3.14/site-packages/fastapi/routing.py", line 2786, in app
+    await route.handle(scope, receive, send)
+  File "/mnt/c/Users/aldwin/project/Weatherflow/.venv/lib/python3.14/site-packages/fastapi/routing.py", line 1817, in handle
+    await self.original_router.handle(scope, receive, send)
+  File "/mnt/c/Users/aldwin/project/Weatherflow/.venv/lib/python3.14/site-packages/fastapi/routing.py", line 2869, in handle
+    await included_router._handle_selected(scope, receive, send)
+  File "/mnt/c/Users/aldwin/project/Weatherflow/.venv/lib/python3.14/site-packages/fastapi/routing.py", line 1843, in _handle_selected
+    await original_route.handle(scope, receive, send)
+  File "/mnt/c/Users/aldwin/project/Weatherflow/.venv/lib/python3.14/site-packages/fastapi/routing.py", line 1308, in handle
+    await effective_context.app(scope, receive, send)
+  File "/mnt/c/Users/aldwin/project/Weatherflow/.venv/lib/python3.14/site-packages/fastapi/routing.py", line 165, in app
+    await wrap_app_handling_exceptions(app, request)(scope, receive, send)
+  File "/mnt/c/Users/aldwin/project/Weatherflow/.venv/lib/python3.14/site-packages/starlette/_exception_handler.py", line 53, in wrapped_app
+    raise exc
+  File "/mnt/c/Users/aldwin/project/Weatherflow/.venv/lib/python3.14/site-packages/starlette/_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+  File "/mnt/c/Users/aldwin/project/Weatherflow/.venv/lib/python3.14/site-packages/fastapi/routing.py", line 151, in app
+    response = await f(request)
+               ^^^^^^^^^^^^^^^^
+  File "/mnt/c/Users/aldwin/project/Weatherflow/.venv/lib/python3.14/site-packages/fastapi/routing.py", line 727, in app
+    raw_response = await run_endpoint_function(
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<3 lines>...
+    )
+    ^
+  File "/mnt/c/Users/aldwin/project/Weatherflow/.venv/lib/python3.14/site-packages/fastapi/routing.py", line 362, in run_endpoint_function
+    return await run_in_threadpool(
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+        _run_sync_endpoint, function=dependant.call, arguments=values
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/mnt/c/Users/aldwin/project/Weatherflow/.venv/lib/python3.14/site-packages/starlette/concurrency.py", line 34, in run_in_threadpool
+    return await anyio.to_thread.run_sync(func)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/c/Users/aldwin/project/Weatherflow/.venv/lib/python3.14/site-packages/anyio/to_thread.py", line 65, in run_sync
+    return await get_async_backend().run_sync_in_worker_thread(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        func, args, abandon_on_cancel=abandon_on_cancel, limiter=limiter
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/mnt/c/Users/aldwin/project/Weatherflow/.venv/lib/python3.14/site-packages/anyio/_backends/_asyncio.py", line 2706, in run_sync_in_worker_thread
+    return await future
+           ^^^^^^^^^^^^
+  File "/mnt/c/Users/aldwin/project/Weatherflow/.venv/lib/python3.14/site-packages/anyio/_backends/_asyncio.py", line 1100, in run
+    result = context.run(func, *args)
+  File "/mnt/c/Users/aldwin/project/Weatherflow/.venv/lib/python3.14/site-packages/fastapi/telemetry/_api.py", line 244, in _run_sync_endpoint
+    return function(**arguments)
+  File "/mnt/c/Users/aldwin/project/weatherflow/backend/app/api/routes/trends.py", line 32, in get_weather_trends
+    "fetch_limit": limit + 1,
+                   ^^^^^
+NameError: name 'limit' is not defined. Did you mean: 'list'?
+2026-10-14 15:19:59,320 | INFO | app.main | Request completed | request_id=6333146c-d1fe-4e00-b205-47c36ea55cb2 method=GET path=/docs status_code=200 duration_seconds=0.001
+2026-10-14 15:19:59,878 | INFO | app.main | Request completed | request_id=e7a16da9-f4b3-488d-8ca8-fb97f165ce4c method=GET path=/openapi.json status_code=200 duration_seconds=0.103
+2026-10-14 15:20:14,971 | INFO | app.main | Request completed | request_id=4203ab2c-629f-4624-9613-27a2e9372844 method=GET path=/api/v1/weather/cities/compare status_code=200 duration_seconds=0.033
+2026-10-14 15:20:15,020 | INFO | app.main | Request completed | request_id=d9bf0685-c4ca-41aa-9bc6-5a9f1eda0646 method=GET path=/api/v1/weather/daily status_code=200 duration_seconds=0.024
+2026-10-14 15:20:15,052 | INFO | app.main | Request completed | request_id=b69a31f9-714f-4867-bf83-94978741a940 method=GET path=/api/v1/weather/cities/compare status_code=200 duration_seconds=0.007
+2026-10-14 15:20:15,064 | INFO | app.main | Request completed | request_id=5606aebe-ce98-435f-9eb5-13236220eb91 method=GET path=/api/v1/weather/cities/compare status_code=422 duration_seconds=0.001
+2026-10-14 15:20:15,076 | INFO | app.main | Request completed | request_id=960aebff-14e8-4365-b482-31fff095c9c8 method=GET path=/api/v1/weather/current status_code=200 duration_seconds=0.001
+2026-10-14 15:20:15,097 | INFO | app.main | Request completed | request_id=006438a8-8959-45ec-bae7-5e505a386d5f method=GET path=/api/v1/weather/current/Manila status_code=200 duration_seconds=0.009
+2026-10-14 15:20:15,113 | INFO | app.main | Request completed | request_id=395caa90-ad3c-46bc-9670-5ef4e55fd34d method=GET path=/api/v1/weather/current/Unknown City status_code=404 duration_seconds=0.002
+2026-10-14 15:20:15,128 | INFO | app.main | Request completed | request_id=478c6bd1-b27b-44f2-baa1-f0b191a6d6e0 method=GET path=/api/v1/weather/daily status_code=200 duration_seconds=0.002
+2026-10-14 15:20:15,139 | ERROR | app.main | Unhandled request error | request_id=91380100-cbf0-40cc-a341-8b05737ffaa7 method=GET path=/api/v1/weather/daily duration_seconds=0.001
+Traceback (most recent call last):
+  File "/mnt/c/Users/aldwin/project/weatherflow/backend/app/main.py", line 44, in log_requests
+    response = await call_next(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/c/Users/aldwin/project/Weatherflow/.venv/lib/python3.14/site-packages/starlette/middleware/base.py", line 173, in call_next
+    raise app_exc from app_exc.__cause__ or app_exc.__context__
+  File "/mnt/c/Users/aldwin/project/Weatherflow/.venv/lib/python3.14/site-packages/starlette/middleware/base.py", line 149, in coro
+    await self.app(scope, receive_or_disconnect, send_no_error)
+  File "/mnt/c/Users/aldwin/project/Weatherflow/.venv/lib/python3.14/site-packages/starlette/middleware/exceptions.py", line 63, in __call__
+    await wrap_app_handling_exceptions(self.app, conn)(scope, receive, send)
+  File "/mnt/c/Users/aldwin/project/Weatherflow/.venv/lib/python3.14/site-packages/starlette/_exception_handler.py", line 53, in wrapped_app
+    raise exc
+  File "/mnt/c/Users/aldwin/project/Weatherflow/.venv/lib/python3.14/site-packages/starlette/_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+  File "/mnt/c/Users/aldwin/project/Weatherflow/.venv/lib/python3.14/site-packages/fastapi/middleware/asyncexitstack.py", line 18, in __call__
+    await self.app(scope, receive, send)
+  File "/mnt/c/Users/aldwin/project/Weatherflow/.venv/lib/python3.14/site-packages/starlette/routing.py", line 676, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "/mnt/c/Users/aldwin/project/Weatherflow/.venv/lib/python3.14/site-packages/fastapi/routing.py", line 2786, in app
+    await route.handle(scope, receive, send)
+  File "/mnt/c/Users/aldwin/project/Weatherflow/.venv/lib/python3.14/site-packages/fastapi/routing.py", line 1817, in handle
+    await self.original_router.handle(scope, receive, send)
+  File "/mnt/c/Users/aldwin/project/Weatherflow/.venv/lib/python3.14/site-packages/fastapi/routing.py", line 2869, in handle
+    await included_router._handle_selected(scope, receive, send)
+  File "/mnt/c/Users/aldwin/project/Weatherflow/.venv/lib/python3.14/site-packages/fastapi/routing.py", line 1843, in _handle_selected
+    await original_route.handle(scope, receive, send)
+  File "/mnt/c/Users/aldwin/project/Weatherflow/.venv/lib/python3.14/site-packages/fastapi/routing.py", line 1308, in handle
+    await effective_context.app(scope, receive, send)
+  File "/mnt/c/Users/aldwin/project/Weatherflow/.venv/lib/python3.14/site-packages/fastapi/routing.py", line 165, in app
+    await wrap_app_handling_exceptions(app, request)(scope, receive, send)
+  File "/mnt/c/Users/aldwin/project/Weatherflow/.venv/lib/python3.14/site-packages/starlette/_exception_handler.py", line 53, in wrapped_app
+    raise exc
+  File "/mnt/c/Users/aldwin/project/Weatherflow/.venv/lib/python3.14/site-packages/starlette/_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+  File "/mnt/c/Users/aldwin/project/Weatherflow/.venv/lib/python3.14/site-packages/fastapi/routing.py", line 151, in app
+    response = await f(request)
+               ^^^^^^^^^^^^^^^^
+  File "/mnt/c/Users/aldwin/project/Weatherflow/.venv/lib/python3.14/site-packages/fastapi/routing.py", line 499, in app
+    solved_result = await solve_dependencies(
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+    )
+    ^
+  File "/mnt/c/Users/aldwin/project/Weatherflow/.venv/lib/python3.14/site-packages/fastapi/dependencies/utils.py", line 676, in solve_dependencies
+    solved = await run_in_threadpool(call, **solved_result.values)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/c/Users/aldwin/project/Weatherflow/.venv/lib/python3.14/site-packages/starlette/concurrency.py", line 34, in run_in_threadpool
+    return await anyio.to_thread.run_sync(func)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/c/Users/aldwin/project/Weatherflow/.venv/lib/python3.14/site-packages/anyio/to_thread.py", line 65, in run_sync
+    return await get_async_backend().run_sync_in_worker_thread(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        func, args, abandon_on_cancel=abandon_on_cancel, limiter=limiter
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/mnt/c/Users/aldwin/project/Weatherflow/.venv/lib/python3.14/site-packages/anyio/_backends/_asyncio.py", line 2706, in run_sync_in_worker_thread
+    return await future
+           ^^^^^^^^^^^^
+  File "/mnt/c/Users/aldwin/project/Weatherflow/.venv/lib/python3.14/site-packages/anyio/_backends/_asyncio.py", line 1100, in run
+    result = context.run(func, *args)
+  File "/mnt/c/Users/aldwin/project/weatherflow/backend/app/api/dependencies.py", line 42, in get_date_filters
+    return WeatherDateFilters(
+        city=city.strip() if city else None,
+        start_date=start_date,
+        end_date=end_date,
+    )
+  File "/mnt/c/Users/aldwin/project/Weatherflow/.venv/lib/python3.14/site-packages/pydantic/main.py", line 263, in __init__
+    validated_self = self.__pydantic_validator__.validate_python(data, self_instance=self)
+pydantic_core._pydantic_core.ValidationError: 1 validation error for WeatherDateFilters
+  Value error, start_date must be on or before end_date [type=value_error, input_value={'city': None, 'start_dat...etime.date(2026, 10, 1)}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.13/v/value_error
+2026-10-14 15:20:15,415 | ERROR | app.main | Unexpected application error | method=GET path=/api/v1/weather/daily
+Traceback (most recent call last):
+  File "/mnt/c/Users/aldwin/project/Weatherflow/.venv/lib/python3.14/site-packages/starlette/middleware/errors.py", line 164, in __call__
+    await self.app(scope, receive, _send)
+  File "/mnt/c/Users/aldwin/project/Weatherflow/.venv/lib/python3.14/site-packages/fastapi/telemetry/_asgi.py", line 151, in __call__
+    await self.app(scope, receive, send)
+  File "/mnt/c/Users/aldwin/project/Weatherflow/.venv/lib/python3.14/site-packages/starlette/middleware/base.py", line 197, in __call__
+    response = await self.dispatch_func(request, call_next)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/c/Users/aldwin/project/weatherflow/backend/app/main.py", line 44, in log_requests
+    response = await call_next(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/c/Users/aldwin/project/Weatherflow/.venv/lib/python3.14/site-packages/starlette/middleware/base.py", line 173, in call_next
+    raise app_exc from app_exc.__cause__ or app_exc.__context__
+  File "/mnt/c/Users/aldwin/project/Weatherflow/.venv/lib/python3.14/site-packages/starlette/middleware/base.py", line 149, in coro
+    await self.app(scope, receive_or_disconnect, send_no_error)
+  File "/mnt/c/Users/aldwin/project/Weatherflow/.venv/lib/python3.14/site-packages/starlette/middleware/exceptions.py", line 63, in __call__
+    await wrap_app_handling_exceptions(self.app, conn)(scope, receive, send)
+  File "/mnt/c/Users/aldwin/project/Weatherflow/.venv/lib/python3.14/site-packages/starlette/_exception_handler.py", line 53, in wrapped_app
+    raise exc
+  File "/mnt/c/Users/aldwin/project/Weatherflow/.venv/lib/python3.14/site-packages/starlette/_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+  File "/mnt/c/Users/aldwin/project/Weatherflow/.venv/lib/python3.14/site-packages/fastapi/middleware/asyncexitstack.py", line 18, in __call__
+    await self.app(scope, receive, send)
+  File "/mnt/c/Users/aldwin/project/Weatherflow/.venv/lib/python3.14/site-packages/starlette/routing.py", line 676, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "/mnt/c/Users/aldwin/project/Weatherflow/.venv/lib/python3.14/site-packages/fastapi/routing.py", line 2786, in app
+    await route.handle(scope, receive, send)
+  File "/mnt/c/Users/aldwin/project/Weatherflow/.venv/lib/python3.14/site-packages/fastapi/routing.py", line 1817, in handle
+    await self.original_router.handle(scope, receive, send)
+  File "/mnt/c/Users/aldwin/project/Weatherflow/.venv/lib/python3.14/site-packages/fastapi/routing.py", line 2869, in handle
+    await included_router._handle_selected(scope, receive, send)
+  File "/mnt/c/Users/aldwin/project/Weatherflow/.venv/lib/python3.14/site-packages/fastapi/routing.py", line 1843, in _handle_selected
+    await original_route.handle(scope, receive, send)
+  File "/mnt/c/Users/aldwin/project/Weatherflow/.venv/lib/python3.14/site-packages/fastapi/routing.py", line 1308, in handle
+    await effective_context.app(scope, receive, send)
+  File "/mnt/c/Users/aldwin/project/Weatherflow/.venv/lib/python3.14/site-packages/fastapi/routing.py", line 165, in app
+    await wrap_app_handling_exceptions(app, request)(scope, receive, send)
+  File "/mnt/c/Users/aldwin/project/Weatherflow/.venv/lib/python3.14/site-packages/starlette/_exception_handler.py", line 53, in wrapped_app
+    raise exc
+  File "/mnt/c/Users/aldwin/project/Weatherflow/.venv/lib/python3.14/site-packages/starlette/_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+  File "/mnt/c/Users/aldwin/project/Weatherflow/.venv/lib/python3.14/site-packages/fastapi/routing.py", line 151, in app
+    response = await f(request)
+               ^^^^^^^^^^^^^^^^
+  File "/mnt/c/Users/aldwin/project/Weatherflow/.venv/lib/python3.14/site-packages/fastapi/routing.py", line 499, in app
+    solved_result = await solve_dependencies(
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+    )
+    ^
+  File "/mnt/c/Users/aldwin/project/Weatherflow/.venv/lib/python3.14/site-packages/fastapi/dependencies/utils.py", line 676, in solve_dependencies
+    solved = await run_in_threadpool(call, **solved_result.values)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/c/Users/aldwin/project/Weatherflow/.venv/lib/python3.14/site-packages/starlette/concurrency.py", line 34, in run_in_threadpool
+    return await anyio.to_thread.run_sync(func)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/c/Users/aldwin/project/Weatherflow/.venv/lib/python3.14/site-packages/anyio/to_thread.py", line 65, in run_sync
+    return await get_async_backend().run_sync_in_worker_thread(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        func, args, abandon_on_cancel=abandon_on_cancel, limiter=limiter
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/mnt/c/Users/aldwin/project/Weatherflow/.venv/lib/python3.14/site-packages/anyio/_backends/_asyncio.py", line 2706, in run_sync_in_worker_thread
+    return await future
+           ^^^^^^^^^^^^
+  File "/mnt/c/Users/aldwin/project/Weatherflow/.venv/lib/python3.14/site-packages/anyio/_backends/_asyncio.py", line 1100, in run
+    result = context.run(func, *args)
+  File "/mnt/c/Users/aldwin/project/weatherflow/backend/app/api/dependencies.py", line 42, in get_date_filters
+    return WeatherDateFilters(
+        city=city.strip() if city else None,
+        start_date=start_date,
+        end_date=end_date,
+    )
+  File "/mnt/c/Users/aldwin/project/Weatherflow/.venv/lib/python3.14/site-packages/pydantic/main.py", line 263, in __init__
+    validated_self = self.__pydantic_validator__.validate_python(data, self_instance=self)
+pydantic_core._pydantic_core.ValidationError: 1 validation error for WeatherDateFilters
+  Value error, start_date must be on or before end_date [type=value_error, input_value={'city': None, 'start_dat...etime.date(2026, 10, 1)}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.13/v/value_error
+2026-10-14 15:20:18,058 | ERROR | app.main | Unhandled request error | request_id=767ade71-753b-45de-9064-fd71199e0ce4 method=GET path=/api/v1/weather/trends duration_seconds=0.003
+Traceback (most recent call last):
+  File "/mnt/c/Users/aldwin/project/weatherflow/backend/app/main.py", line 44, in log_requests
+    response = await call_next(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/c/Users/aldwin/project/Weatherflow/.venv/lib/python3.14/site-packages/starlette/middleware/base.py", line 173, in call_next
+    raise app_exc from app_exc.__cause__ or app_exc.__context__
+  File "/mnt/c/Users/aldwin/project/Weatherflow/.venv/lib/python3.14/site-packages/starlette/middleware/base.py", line 149, in coro
+    await self.app(scope, receive_or_disconnect, send_no_error)
+  File "/mnt/c/Users/aldwin/project/Weatherflow/.venv/lib/python3.14/site-packages/starlette/middleware/exceptions.py", line 63, in __call__
+    await wrap_app_handling_exceptions(self.app, conn)(scope, receive, send)
+  File "/mnt/c/Users/aldwin/project/Weatherflow/.venv/lib/python3.14/site-packages/starlette/_exception_handler.py", line 53, in wrapped_app
+    raise exc
+  File "/mnt/c/Users/aldwin/project/Weatherflow/.venv/lib/python3.14/site-packages/starlette/_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+  File "/mnt/c/Users/aldwin/project/Weatherflow/.venv/lib/python3.14/site-packages/fastapi/middleware/asyncexitstack.py", line 18, in __call__
+    await self.app(scope, receive, send)
+  File "/mnt/c/Users/aldwin/project/Weatherflow/.venv/lib/python3.14/site-packages/starlette/routing.py", line 676, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "/mnt/c/Users/aldwin/project/Weatherflow/.venv/lib/python3.14/site-packages/fastapi/routing.py", line 2786, in app
+    await route.handle(scope, receive, send)
+  File "/mnt/c/Users/aldwin/project/Weatherflow/.venv/lib/python3.14/site-packages/fastapi/routing.py", line 1817, in handle
+    await self.original_router.handle(scope, receive, send)
+  File "/mnt/c/Users/aldwin/project/Weatherflow/.venv/lib/python3.14/site-packages/fastapi/routing.py", line 2869, in handle
+    await included_router._handle_selected(scope, receive, send)
+  File "/mnt/c/Users/aldwin/project/Weatherflow/.venv/lib/python3.14/site-packages/fastapi/routing.py", line 1843, in _handle_selected
+    await original_route.handle(scope, receive, send)
+  File "/mnt/c/Users/aldwin/project/Weatherflow/.venv/lib/python3.14/site-packages/fastapi/routing.py", line 1308, in handle
+    await effective_context.app(scope, receive, send)
+  File "/mnt/c/Users/aldwin/project/Weatherflow/.venv/lib/python3.14/site-packages/fastapi/routing.py", line 165, in app
+    await wrap_app_handling_exceptions(app, request)(scope, receive, send)
+  File "/mnt/c/Users/aldwin/project/Weatherflow/.venv/lib/python3.14/site-packages/starlette/_exception_handler.py", line 53, in wrapped_app
+    raise exc
+  File "/mnt/c/Users/aldwin/project/Weatherflow/.venv/lib/python3.14/site-packages/starlette/_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+  File "/mnt/c/Users/aldwin/project/Weatherflow/.venv/lib/python3.14/site-packages/fastapi/routing.py", line 151, in app
+    response = await f(request)
+               ^^^^^^^^^^^^^^^^
+  File "/mnt/c/Users/aldwin/project/Weatherflow/.venv/lib/python3.14/site-packages/fastapi/routing.py", line 727, in app
+    raw_response = await run_endpoint_function(
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<3 lines>...
+    )
+    ^
+  File "/mnt/c/Users/aldwin/project/Weatherflow/.venv/lib/python3.14/site-packages/fastapi/routing.py", line 362, in run_endpoint_function
+    return await run_in_threadpool(
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+        _run_sync_endpoint, function=dependant.call, arguments=values
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/mnt/c/Users/aldwin/project/Weatherflow/.venv/lib/python3.14/site-packages/starlette/concurrency.py", line 34, in run_in_threadpool
+    return await anyio.to_thread.run_sync(func)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/c/Users/aldwin/project/Weatherflow/.venv/lib/python3.14/site-packages/anyio/to_thread.py", line 65, in run_sync
+    return await get_async_backend().run_sync_in_worker_thread(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        func, args, abandon_on_cancel=abandon_on_cancel, limiter=limiter
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/mnt/c/Users/aldwin/project/Weatherflow/.venv/lib/python3.14/site-packages/anyio/_backends/_asyncio.py", line 2706, in run_sync_in_worker_thread
+    return await future
+           ^^^^^^^^^^^^
+  File "/mnt/c/Users/aldwin/project/Weatherflow/.venv/lib/python3.14/site-packages/anyio/_backends/_asyncio.py", line 1100, in run
+    result = context.run(func, *args)
+  File "/mnt/c/Users/aldwin/project/Weatherflow/.venv/lib/python3.14/site-packages/fastapi/telemetry/_api.py", line 244, in _run_sync_endpoint
+    return function(**arguments)
+  File "/mnt/c/Users/aldwin/project/weatherflow/backend/app/api/routes/trends.py", line 32, in get_weather_trends
+    "fetch_limit": limit + 1,
+                   ^^^^^
+NameError: name 'limit' is not defined. Did you mean: 'list'?
+2026-10-14 15:20:18,122 | ERROR | app.main | Unexpected application error | method=GET path=/api/v1/weather/trends
+Traceback (most recent call last):
+  File "/mnt/c/Users/aldwin/project/Weatherflow/.venv/lib/python3.14/site-packages/starlette/middleware/errors.py", line 164, in __call__
+    await self.app(scope, receive, _send)
+  File "/mnt/c/Users/aldwin/project/Weatherflow/.venv/lib/python3.14/site-packages/fastapi/telemetry/_asgi.py", line 151, in __call__
+    await self.app(scope, receive, send)
+  File "/mnt/c/Users/aldwin/project/Weatherflow/.venv/lib/python3.14/site-packages/starlette/middleware/base.py", line 197, in __call__
+    response = await self.dispatch_func(request, call_next)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/c/Users/aldwin/project/weatherflow/backend/app/main.py", line 44, in log_requests
+    response = await call_next(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/c/Users/aldwin/project/Weatherflow/.venv/lib/python3.14/site-packages/starlette/middleware/base.py", line 173, in call_next
+    raise app_exc from app_exc.__cause__ or app_exc.__context__
+  File "/mnt/c/Users/aldwin/project/Weatherflow/.venv/lib/python3.14/site-packages/starlette/middleware/base.py", line 149, in coro
+    await self.app(scope, receive_or_disconnect, send_no_error)
+  File "/mnt/c/Users/aldwin/project/Weatherflow/.venv/lib/python3.14/site-packages/starlette/middleware/exceptions.py", line 63, in __call__
+    await wrap_app_handling_exceptions(self.app, conn)(scope, receive, send)
+  File "/mnt/c/Users/aldwin/project/Weatherflow/.venv/lib/python3.14/site-packages/starlette/_exception_handler.py", line 53, in wrapped_app
+    raise exc
+  File "/mnt/c/Users/aldwin/project/Weatherflow/.venv/lib/python3.14/site-packages/starlette/_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+  File "/mnt/c/Users/aldwin/project/Weatherflow/.venv/lib/python3.14/site-packages/fastapi/middleware/asyncexitstack.py", line 18, in __call__
+    await self.app(scope, receive, send)
+  File "/mnt/c/Users/aldwin/project/Weatherflow/.venv/lib/python3.14/site-packages/starlette/routing.py", line 676, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "/mnt/c/Users/aldwin/project/Weatherflow/.venv/lib/python3.14/site-packages/fastapi/routing.py", line 2786, in app
+    await route.handle(scope, receive, send)
+  File "/mnt/c/Users/aldwin/project/Weatherflow/.venv/lib/python3.14/site-packages/fastapi/routing.py", line 1817, in handle
+    await self.original_router.handle(scope, receive, send)
+  File "/mnt/c/Users/aldwin/project/Weatherflow/.venv/lib/python3.14/site-packages/fastapi/routing.py", line 2869, in handle
+    await included_router._handle_selected(scope, receive, send)
+  File "/mnt/c/Users/aldwin/project/Weatherflow/.venv/lib/python3.14/site-packages/fastapi/routing.py", line 1843, in _handle_selected
+    await original_route.handle(scope, receive, send)
+  File "/mnt/c/Users/aldwin/project/Weatherflow/.venv/lib/python3.14/site-packages/fastapi/routing.py", line 1308, in handle
+    await effective_context.app(scope, receive, send)
+  File "/mnt/c/Users/aldwin/project/Weatherflow/.venv/lib/python3.14/site-packages/fastapi/routing.py", line 165, in app
+    await wrap_app_handling_exceptions(app, request)(scope, receive, send)
+  File "/mnt/c/Users/aldwin/project/Weatherflow/.venv/lib/python3.14/site-packages/starlette/_exception_handler.py", line 53, in wrapped_app
+    raise exc
+  File "/mnt/c/Users/aldwin/project/Weatherflow/.venv/lib/python3.14/site-packages/starlette/_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+  File "/mnt/c/Users/aldwin/project/Weatherflow/.venv/lib/python3.14/site-packages/fastapi/routing.py", line 151, in app
+    response = await f(request)
+               ^^^^^^^^^^^^^^^^
+  File "/mnt/c/Users/aldwin/project/Weatherflow/.venv/lib/python3.14/site-packages/fastapi/routing.py", line 727, in app
+    raw_response = await run_endpoint_function(
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<3 lines>...
+    )
+    ^
+  File "/mnt/c/Users/aldwin/project/Weatherflow/.venv/lib/python3.14/site-packages/fastapi/routing.py", line 362, in run_endpoint_function
+    return await run_in_threadpool(
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+        _run_sync_endpoint, function=dependant.call, arguments=values
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/mnt/c/Users/aldwin/project/Weatherflow/.venv/lib/python3.14/site-packages/starlette/concurrency.py", line 34, in run_in_threadpool
+    return await anyio.to_thread.run_sync(func)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/c/Users/aldwin/project/Weatherflow/.venv/lib/python3.14/site-packages/anyio/to_thread.py", line 65, in run_sync
+    return await get_async_backend().run_sync_in_worker_thread(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        func, args, abandon_on_cancel=abandon_on_cancel, limiter=limiter
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/mnt/c/Users/aldwin/project/Weatherflow/.venv/lib/python3.14/site-packages/anyio/_backends/_asyncio.py", line 2706, in run_sync_in_worker_thread
+    return await future
+           ^^^^^^^^^^^^
+  File "/mnt/c/Users/aldwin/project/Weatherflow/.venv/lib/python3.14/site-packages/anyio/_backends/_asyncio.py", line 1100, in run
+    result = context.run(func, *args)
+  File "/mnt/c/Users/aldwin/project/Weatherflow/.venv/lib/python3.14/site-packages/fastapi/telemetry/_api.py", line 244, in _run_sync_endpoint
+    return function(**arguments)
+  File "/mnt/c/Users/aldwin/project/weatherflow/backend/app/api/routes/trends.py", line 32, in get_weather_trends
+    "fetch_limit": limit + 1,
+                   ^^^^^
+NameError: name 'limit' is not defined. Did you mean: 'list'?
+2026-10-14 15:20:21,110 | INFO | app.main | Request completed | request_id=78f2a300-eb4e-4c04-a8ec-4ab7cc1253f1 method=GET path=/api/v1/weather/cities/compare status_code=200 duration_seconds=0.002
+2026-10-14 15:20:21,127 | INFO | app.main | Request completed | request_id=dd60c659-5dff-4a2e-b94d-2676d677b445 method=GET path=/api/v1/weather/cities/compare status_code=422 duration_seconds=0.002
+2026-10-14 15:20:21,158 | INFO | app.main | Request completed | request_id=e700f074-66f8-4ee7-96a4-de3adde7916c method=GET path=/api/v1/weather/current status_code=503 duration_seconds=0.002
+2026-10-14 15:48:17,333 | INFO | app.main | Request completed | request_id=8b64456d-5b3a-4af7-b68b-589d25bb1d00 method=GET path=/docs status_code=200 duration_seconds=0.001
+2026-10-14 15:48:17,796 | INFO | app.main | Request completed | request_id=75bbf6a1-a49e-417e-b9cc-d851069f00dc method=GET path=/openapi.json status_code=200 duration_seconds=0.092
+2026-10-14 15:48:30,091 | ERROR | app.main | Unhandled request error | request_id=596c505d-ef60-4ccf-a15f-c57c2dcba923 method=GET path=/api/v1/weather/daily duration_seconds=0.037
+Traceback (most recent call last):
+  File "/mnt/c/Users/aldwin/project/weatherflow/backend/app/main.py", line 44, in log_requests
+    response = await call_next(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/c/Users/aldwin/project/weatherflow/.venv/lib/python3.14/site-packages/starlette/middleware/base.py", line 173, in call_next
+    raise app_exc from app_exc.__cause__ or app_exc.__context__
+  File "/mnt/c/Users/aldwin/project/weatherflow/.venv/lib/python3.14/site-packages/starlette/middleware/base.py", line 149, in coro
+    await self.app(scope, receive_or_disconnect, send_no_error)
+  File "/mnt/c/Users/aldwin/project/weatherflow/.venv/lib/python3.14/site-packages/starlette/middleware/exceptions.py", line 63, in __call__
+    await wrap_app_handling_exceptions(self.app, conn)(scope, receive, send)
+  File "/mnt/c/Users/aldwin/project/weatherflow/.venv/lib/python3.14/site-packages/starlette/_exception_handler.py", line 53, in wrapped_app
+    raise exc
+  File "/mnt/c/Users/aldwin/project/weatherflow/.venv/lib/python3.14/site-packages/starlette/_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+  File "/mnt/c/Users/aldwin/project/weatherflow/.venv/lib/python3.14/site-packages/fastapi/middleware/asyncexitstack.py", line 18, in __call__
+    await self.app(scope, receive, send)
+  File "/mnt/c/Users/aldwin/project/weatherflow/.venv/lib/python3.14/site-packages/starlette/routing.py", line 676, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "/mnt/c/Users/aldwin/project/weatherflow/.venv/lib/python3.14/site-packages/fastapi/routing.py", line 2786, in app
+    await route.handle(scope, receive, send)
+  File "/mnt/c/Users/aldwin/project/weatherflow/.venv/lib/python3.14/site-packages/fastapi/routing.py", line 1817, in handle
+    await self.original_router.handle(scope, receive, send)
+  File "/mnt/c/Users/aldwin/project/weatherflow/.venv/lib/python3.14/site-packages/fastapi/routing.py", line 2869, in handle
+    await included_router._handle_selected(scope, receive, send)
+  File "/mnt/c/Users/aldwin/project/weatherflow/.venv/lib/python3.14/site-packages/fastapi/routing.py", line 1843, in _handle_selected
+    await original_route.handle(scope, receive, send)
+  File "/mnt/c/Users/aldwin/project/weatherflow/.venv/lib/python3.14/site-packages/fastapi/routing.py", line 1308, in handle
+    await effective_context.app(scope, receive, send)
+  File "/mnt/c/Users/aldwin/project/weatherflow/.venv/lib/python3.14/site-packages/fastapi/routing.py", line 165, in app
+    await wrap_app_handling_exceptions(app, request)(scope, receive, send)
+  File "/mnt/c/Users/aldwin/project/weatherflow/.venv/lib/python3.14/site-packages/starlette/_exception_handler.py", line 53, in wrapped_app
+    raise exc
+  File "/mnt/c/Users/aldwin/project/weatherflow/.venv/lib/python3.14/site-packages/starlette/_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+  File "/mnt/c/Users/aldwin/project/weatherflow/.venv/lib/python3.14/site-packages/fastapi/routing.py", line 151, in app
+    response = await f(request)
+               ^^^^^^^^^^^^^^^^
+  File "/mnt/c/Users/aldwin/project/weatherflow/.venv/lib/python3.14/site-packages/fastapi/routing.py", line 727, in app
+    raw_response = await run_endpoint_function(
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<3 lines>...
+    )
+    ^
+  File "/mnt/c/Users/aldwin/project/weatherflow/.venv/lib/python3.14/site-packages/fastapi/routing.py", line 362, in run_endpoint_function
+    return await run_in_threadpool(
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+        _run_sync_endpoint, function=dependant.call, arguments=values
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/mnt/c/Users/aldwin/project/weatherflow/.venv/lib/python3.14/site-packages/starlette/concurrency.py", line 34, in run_in_threadpool
+    return await anyio.to_thread.run_sync(func)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/c/Users/aldwin/project/weatherflow/.venv/lib/python3.14/site-packages/anyio/to_thread.py", line 65, in run_sync
+    return await get_async_backend().run_sync_in_worker_thread(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        func, args, abandon_on_cancel=abandon_on_cancel, limiter=limiter
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/mnt/c/Users/aldwin/project/weatherflow/.venv/lib/python3.14/site-packages/anyio/_backends/_asyncio.py", line 2706, in run_sync_in_worker_thread
+    return await future
+           ^^^^^^^^^^^^
+  File "/mnt/c/Users/aldwin/project/weatherflow/.venv/lib/python3.14/site-packages/anyio/_backends/_asyncio.py", line 1100, in run
+    result = context.run(func, *args)
+  File "/mnt/c/Users/aldwin/project/weatherflow/.venv/lib/python3.14/site-packages/fastapi/telemetry/_api.py", line 244, in _run_sync_endpoint
+    return function(**arguments)
+  File "/mnt/c/Users/aldwin/project/weatherflow/backend/app/api/routes/daily_weather.py", line 62, in get_daily_weather
+    "fetch_limit": limit + 1,
+                   ^^^^^
+NameError: name 'limit' is not defined. Did you mean: 'list'?
+2026-10-14 15:48:30,279 | ERROR | app.main | Unexpected application error | method=GET path=/api/v1/weather/daily
+Traceback (most recent call last):
+  File "/mnt/c/Users/aldwin/project/weatherflow/.venv/lib/python3.14/site-packages/starlette/middleware/errors.py", line 164, in __call__
+    await self.app(scope, receive, _send)
+  File "/mnt/c/Users/aldwin/project/weatherflow/.venv/lib/python3.14/site-packages/fastapi/telemetry/_asgi.py", line 151, in __call__
+    await self.app(scope, receive, send)
+  File "/mnt/c/Users/aldwin/project/weatherflow/.venv/lib/python3.14/site-packages/starlette/middleware/base.py", line 197, in __call__
+    response = await self.dispatch_func(request, call_next)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/c/Users/aldwin/project/weatherflow/backend/app/main.py", line 44, in log_requests
+    response = await call_next(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/c/Users/aldwin/project/weatherflow/.venv/lib/python3.14/site-packages/starlette/middleware/base.py", line 173, in call_next
+    raise app_exc from app_exc.__cause__ or app_exc.__context__
+  File "/mnt/c/Users/aldwin/project/weatherflow/.venv/lib/python3.14/site-packages/starlette/middleware/base.py", line 149, in coro
+    await self.app(scope, receive_or_disconnect, send_no_error)
+  File "/mnt/c/Users/aldwin/project/weatherflow/.venv/lib/python3.14/site-packages/starlette/middleware/exceptions.py", line 63, in __call__
+    await wrap_app_handling_exceptions(self.app, conn)(scope, receive, send)
+  File "/mnt/c/Users/aldwin/project/weatherflow/.venv/lib/python3.14/site-packages/starlette/_exception_handler.py", line 53, in wrapped_app
+    raise exc
+  File "/mnt/c/Users/aldwin/project/weatherflow/.venv/lib/python3.14/site-packages/starlette/_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+  File "/mnt/c/Users/aldwin/project/weatherflow/.venv/lib/python3.14/site-packages/fastapi/middleware/asyncexitstack.py", line 18, in __call__
+    await self.app(scope, receive, send)
+  File "/mnt/c/Users/aldwin/project/weatherflow/.venv/lib/python3.14/site-packages/starlette/routing.py", line 676, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "/mnt/c/Users/aldwin/project/weatherflow/.venv/lib/python3.14/site-packages/fastapi/routing.py", line 2786, in app
+    await route.handle(scope, receive, send)
+  File "/mnt/c/Users/aldwin/project/weatherflow/.venv/lib/python3.14/site-packages/fastapi/routing.py", line 1817, in handle
+    await self.original_router.handle(scope, receive, send)
+  File "/mnt/c/Users/aldwin/project/weatherflow/.venv/lib/python3.14/site-packages/fastapi/routing.py", line 2869, in handle
+    await included_router._handle_selected(scope, receive, send)
+  File "/mnt/c/Users/aldwin/project/weatherflow/.venv/lib/python3.14/site-packages/fastapi/routing.py", line 1843, in _handle_selected
+    await original_route.handle(scope, receive, send)
+  File "/mnt/c/Users/aldwin/project/weatherflow/.venv/lib/python3.14/site-packages/fastapi/routing.py", line 1308, in handle
+    await effective_context.app(scope, receive, send)
+  File "/mnt/c/Users/aldwin/project/weatherflow/.venv/lib/python3.14/site-packages/fastapi/routing.py", line 165, in app
+    await wrap_app_handling_exceptions(app, request)(scope, receive, send)
+  File "/mnt/c/Users/aldwin/project/weatherflow/.venv/lib/python3.14/site-packages/starlette/_exception_handler.py", line 53, in wrapped_app
+    raise exc
+  File "/mnt/c/Users/aldwin/project/weatherflow/.venv/lib/python3.14/site-packages/starlette/_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+  File "/mnt/c/Users/aldwin/project/weatherflow/.venv/lib/python3.14/site-packages/fastapi/routing.py", line 151, in app
+    response = await f(request)
+               ^^^^^^^^^^^^^^^^
+  File "/mnt/c/Users/aldwin/project/weatherflow/.venv/lib/python3.14/site-packages/fastapi/routing.py", line 727, in app
+    raw_response = await run_endpoint_function(
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<3 lines>...
+    )
+    ^
+  File "/mnt/c/Users/aldwin/project/weatherflow/.venv/lib/python3.14/site-packages/fastapi/routing.py", line 362, in run_endpoint_function
+    return await run_in_threadpool(
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+        _run_sync_endpoint, function=dependant.call, arguments=values
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/mnt/c/Users/aldwin/project/weatherflow/.venv/lib/python3.14/site-packages/starlette/concurrency.py", line 34, in run_in_threadpool
+    return await anyio.to_thread.run_sync(func)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/c/Users/aldwin/project/weatherflow/.venv/lib/python3.14/site-packages/anyio/to_thread.py", line 65, in run_sync
+    return await get_async_backend().run_sync_in_worker_thread(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        func, args, abandon_on_cancel=abandon_on_cancel, limiter=limiter
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/mnt/c/Users/aldwin/project/weatherflow/.venv/lib/python3.14/site-packages/anyio/_backends/_asyncio.py", line 2706, in run_sync_in_worker_thread
+    return await future
+           ^^^^^^^^^^^^
+  File "/mnt/c/Users/aldwin/project/weatherflow/.venv/lib/python3.14/site-packages/anyio/_backends/_asyncio.py", line 1100, in run
+    result = context.run(func, *args)
+  File "/mnt/c/Users/aldwin/project/weatherflow/.venv/lib/python3.14/site-packages/fastapi/telemetry/_api.py", line 244, in _run_sync_endpoint
+    return function(**arguments)
+  File "/mnt/c/Users/aldwin/project/weatherflow/backend/app/api/routes/daily_weather.py", line 62, in get_daily_weather
+    "fetch_limit": limit + 1,
+                   ^^^^^
+NameError: name 'limit' is not defined. Did you mean: 'list'?
+2026-10-14 15:56:53,157 | INFO | app.main | Request completed | request_id=b023380f-37a6-42e5-9b5e-53a74439fcf2 method=GET path=/api/v1/weather/daily status_code=422 duration_seconds=0.088
+2026-10-14 15:58:39,358 | INFO | app.main | Request completed | request_id=cfd73057-e425-4792-a69e-7d81357e2b47 method=GET path=/api/v1/weather/daily status_code=422 duration_seconds=0.122
+2026-10-14 15:58:53,029 | INFO | app.main | Request completed | request_id=bda611fc-84e1-455a-8356-ae7cb789b553 method=GET path=/api/v1/weather/daily status_code=422 duration_seconds=0.001
+2026-10-14 16:03:37,443 | INFO | app.main | Request completed | request_id=ce26c1d6-0bbd-4640-aef2-afe6521bfde4 method=GET path=/api/v1/weather/daily status_code=422 duration_seconds=0.041
+2026-10-14 16:04:04,223 | INFO | app.main | Request completed | request_id=f0112c23-e702-46a0-be61-272ff9aad29f method=GET path=/api/v1/weather/daily status_code=422 duration_seconds=0.001
+2026-10-14 16:08:47,231 | ERROR | app.main | Unhandled request error | request_id=408f026b-7ffa-4624-a14e-195b3311d09a method=GET path=/api/v1/weather/daily duration_seconds=0.059
+Traceback (most recent call last):
+  File "/mnt/c/Users/aldwin/project/weatherflow/backend/app/main.py", line 44, in log_requests
+    response = await call_next(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/c/Users/aldwin/project/weatherflow/.venv/lib/python3.14/site-packages/starlette/middleware/base.py", line 173, in call_next
+    raise app_exc from app_exc.__cause__ or app_exc.__context__
+  File "/mnt/c/Users/aldwin/project/weatherflow/.venv/lib/python3.14/site-packages/starlette/middleware/base.py", line 149, in coro
+    await self.app(scope, receive_or_disconnect, send_no_error)
+  File "/mnt/c/Users/aldwin/project/weatherflow/.venv/lib/python3.14/site-packages/starlette/middleware/exceptions.py", line 63, in __call__
+    await wrap_app_handling_exceptions(self.app, conn)(scope, receive, send)
+  File "/mnt/c/Users/aldwin/project/weatherflow/.venv/lib/python3.14/site-packages/starlette/_exception_handler.py", line 53, in wrapped_app
+    raise exc
+  File "/mnt/c/Users/aldwin/project/weatherflow/.venv/lib/python3.14/site-packages/starlette/_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+  File "/mnt/c/Users/aldwin/project/weatherflow/.venv/lib/python3.14/site-packages/fastapi/middleware/asyncexitstack.py", line 18, in __call__
+    await self.app(scope, receive, send)
+  File "/mnt/c/Users/aldwin/project/weatherflow/.venv/lib/python3.14/site-packages/starlette/routing.py", line 676, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "/mnt/c/Users/aldwin/project/weatherflow/.venv/lib/python3.14/site-packages/fastapi/routing.py", line 2786, in app
+    await route.handle(scope, receive, send)
+  File "/mnt/c/Users/aldwin/project/weatherflow/.venv/lib/python3.14/site-packages/fastapi/routing.py", line 1817, in handle
+    await self.original_router.handle(scope, receive, send)
+  File "/mnt/c/Users/aldwin/project/weatherflow/.venv/lib/python3.14/site-packages/fastapi/routing.py", line 2869, in handle
+    await included_router._handle_selected(scope, receive, send)
+  File "/mnt/c/Users/aldwin/project/weatherflow/.venv/lib/python3.14/site-packages/fastapi/routing.py", line 1843, in _handle_selected
+    await original_route.handle(scope, receive, send)
+  File "/mnt/c/Users/aldwin/project/weatherflow/.venv/lib/python3.14/site-packages/fastapi/routing.py", line 1308, in handle
+    await effective_context.app(scope, receive, send)
+  File "/mnt/c/Users/aldwin/project/weatherflow/.venv/lib/python3.14/site-packages/fastapi/routing.py", line 165, in app
+    await wrap_app_handling_exceptions(app, request)(scope, receive, send)
+  File "/mnt/c/Users/aldwin/project/weatherflow/.venv/lib/python3.14/site-packages/starlette/_exception_handler.py", line 53, in wrapped_app
+    raise exc
+  File "/mnt/c/Users/aldwin/project/weatherflow/.venv/lib/python3.14/site-packages/starlette/_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+  File "/mnt/c/Users/aldwin/project/weatherflow/.venv/lib/python3.14/site-packages/fastapi/routing.py", line 151, in app
+    response = await f(request)
+               ^^^^^^^^^^^^^^^^
+  File "/mnt/c/Users/aldwin/project/weatherflow/.venv/lib/python3.14/site-packages/fastapi/routing.py", line 727, in app
+    raw_response = await run_endpoint_function(
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<3 lines>...
+    )
+    ^
+  File "/mnt/c/Users/aldwin/project/weatherflow/.venv/lib/python3.14/site-packages/fastapi/routing.py", line 362, in run_endpoint_function
+    return await run_in_threadpool(
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+        _run_sync_endpoint, function=dependant.call, arguments=values
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/mnt/c/Users/aldwin/project/weatherflow/.venv/lib/python3.14/site-packages/starlette/concurrency.py", line 34, in run_in_threadpool
+    return await anyio.to_thread.run_sync(func)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/c/Users/aldwin/project/weatherflow/.venv/lib/python3.14/site-packages/anyio/to_thread.py", line 65, in run_sync
+    return await get_async_backend().run_sync_in_worker_thread(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        func, args, abandon_on_cancel=abandon_on_cancel, limiter=limiter
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/mnt/c/Users/aldwin/project/weatherflow/.venv/lib/python3.14/site-packages/anyio/_backends/_asyncio.py", line 2706, in run_sync_in_worker_thread
+    return await future
+           ^^^^^^^^^^^^
+  File "/mnt/c/Users/aldwin/project/weatherflow/.venv/lib/python3.14/site-packages/anyio/_backends/_asyncio.py", line 1100, in run
+    result = context.run(func, *args)
+  File "/mnt/c/Users/aldwin/project/weatherflow/.venv/lib/python3.14/site-packages/fastapi/telemetry/_api.py", line 244, in _run_sync_endpoint
+    return function(**arguments)
+  File "/mnt/c/Users/aldwin/project/weatherflow/backend/app/api/routes/daily_weather.py", line 40, in get_daily_weather
+    if city:
+       ^^^^
+NameError: name 'city' is not defined
+2026-10-14 16:08:47,455 | ERROR | app.main | Unexpected application error | method=GET path=/api/v1/weather/daily
+Traceback (most recent call last):
+  File "/mnt/c/Users/aldwin/project/weatherflow/.venv/lib/python3.14/site-packages/starlette/middleware/errors.py", line 164, in __call__
+    await self.app(scope, receive, _send)
+  File "/mnt/c/Users/aldwin/project/weatherflow/.venv/lib/python3.14/site-packages/fastapi/telemetry/_asgi.py", line 151, in __call__
+    await self.app(scope, receive, send)
+  File "/mnt/c/Users/aldwin/project/weatherflow/.venv/lib/python3.14/site-packages/starlette/middleware/base.py", line 197, in __call__
+    response = await self.dispatch_func(request, call_next)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/c/Users/aldwin/project/weatherflow/backend/app/main.py", line 44, in log_requests
+    response = await call_next(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/c/Users/aldwin/project/weatherflow/.venv/lib/python3.14/site-packages/starlette/middleware/base.py", line 173, in call_next
+    raise app_exc from app_exc.__cause__ or app_exc.__context__
+  File "/mnt/c/Users/aldwin/project/weatherflow/.venv/lib/python3.14/site-packages/starlette/middleware/base.py", line 149, in coro
+    await self.app(scope, receive_or_disconnect, send_no_error)
+  File "/mnt/c/Users/aldwin/project/weatherflow/.venv/lib/python3.14/site-packages/starlette/middleware/exceptions.py", line 63, in __call__
+    await wrap_app_handling_exceptions(self.app, conn)(scope, receive, send)
+  File "/mnt/c/Users/aldwin/project/weatherflow/.venv/lib/python3.14/site-packages/starlette/_exception_handler.py", line 53, in wrapped_app
+    raise exc
+  File "/mnt/c/Users/aldwin/project/weatherflow/.venv/lib/python3.14/site-packages/starlette/_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+  File "/mnt/c/Users/aldwin/project/weatherflow/.venv/lib/python3.14/site-packages/fastapi/middleware/asyncexitstack.py", line 18, in __call__
+    await self.app(scope, receive, send)
+  File "/mnt/c/Users/aldwin/project/weatherflow/.venv/lib/python3.14/site-packages/starlette/routing.py", line 676, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "/mnt/c/Users/aldwin/project/weatherflow/.venv/lib/python3.14/site-packages/fastapi/routing.py", line 2786, in app
+    await route.handle(scope, receive, send)
+  File "/mnt/c/Users/aldwin/project/weatherflow/.venv/lib/python3.14/site-packages/fastapi/routing.py", line 1817, in handle
+    await self.original_router.handle(scope, receive, send)
+  File "/mnt/c/Users/aldwin/project/weatherflow/.venv/lib/python3.14/site-packages/fastapi/routing.py", line 2869, in handle
+    await included_router._handle_selected(scope, receive, send)
+  File "/mnt/c/Users/aldwin/project/weatherflow/.venv/lib/python3.14/site-packages/fastapi/routing.py", line 1843, in _handle_selected
+    await original_route.handle(scope, receive, send)
+  File "/mnt/c/Users/aldwin/project/weatherflow/.venv/lib/python3.14/site-packages/fastapi/routing.py", line 1308, in handle
+    await effective_context.app(scope, receive, send)
+  File "/mnt/c/Users/aldwin/project/weatherflow/.venv/lib/python3.14/site-packages/fastapi/routing.py", line 165, in app
+    await wrap_app_handling_exceptions(app, request)(scope, receive, send)
+  File "/mnt/c/Users/aldwin/project/weatherflow/.venv/lib/python3.14/site-packages/starlette/_exception_handler.py", line 53, in wrapped_app
+    raise exc
+  File "/mnt/c/Users/aldwin/project/weatherflow/.venv/lib/python3.14/site-packages/starlette/_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+  File "/mnt/c/Users/aldwin/project/weatherflow/.venv/lib/python3.14/site-packages/fastapi/routing.py", line 151, in app
+    response = await f(request)
+               ^^^^^^^^^^^^^^^^
+  File "/mnt/c/Users/aldwin/project/weatherflow/.venv/lib/python3.14/site-packages/fastapi/routing.py", line 727, in app
+    raw_response = await run_endpoint_function(
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<3 lines>...
+    )
+    ^
+  File "/mnt/c/Users/aldwin/project/weatherflow/.venv/lib/python3.14/site-packages/fastapi/routing.py", line 362, in run_endpoint_function
+    return await run_in_threadpool(
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+        _run_sync_endpoint, function=dependant.call, arguments=values
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/mnt/c/Users/aldwin/project/weatherflow/.venv/lib/python3.14/site-packages/starlette/concurrency.py", line 34, in run_in_threadpool
+    return await anyio.to_thread.run_sync(func)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/c/Users/aldwin/project/weatherflow/.venv/lib/python3.14/site-packages/anyio/to_thread.py", line 65, in run_sync
+    return await get_async_backend().run_sync_in_worker_thread(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        func, args, abandon_on_cancel=abandon_on_cancel, limiter=limiter
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/mnt/c/Users/aldwin/project/weatherflow/.venv/lib/python3.14/site-packages/anyio/_backends/_asyncio.py", line 2706, in run_sync_in_worker_thread
+    return await future
+           ^^^^^^^^^^^^
+  File "/mnt/c/Users/aldwin/project/weatherflow/.venv/lib/python3.14/site-packages/anyio/_backends/_asyncio.py", line 1100, in run
+    result = context.run(func, *args)
+  File "/mnt/c/Users/aldwin/project/weatherflow/.venv/lib/python3.14/site-packages/fastapi/telemetry/_api.py", line 244, in _run_sync_endpoint
+    return function(**arguments)
+  File "/mnt/c/Users/aldwin/project/weatherflow/backend/app/api/routes/daily_weather.py", line 40, in get_daily_weather
+    if city:
+       ^^^^
+NameError: name 'city' is not defined
+2026-10-14 16:12:22,360 | INFO | app.main | Request completed | request_id=bbcdd389-6ad3-4349-8cb9-b680aa849be4 method=GET path=/api/v1/weather/daily status_code=503 duration_seconds=0.316
+2026-10-14 16:12:40,805 | INFO | app.main | Request completed | request_id=8bf2f252-7568-4320-a12a-7620d032ae53 method=GET path=/api/v1/weather/daily status_code=503 duration_seconds=0.007
+2026-10-14 16:14:42,243 | ERROR | app.main | Unhandled request error | request_id=9e1fc8d6-5059-4e54-b47c-4eef1a708d7c method=GET path=/api/v1/weather/daily duration_seconds=0.134
+Traceback (most recent call last):
+  File "/mnt/c/Users/aldwin/project/weatherflow/.venv/lib/python3.14/site-packages/sqlalchemy/engine/base.py", line 1969, in _exec_single_context
+    self.dialect.do_execute(
+    ~~~~~~~~~~~~~~~~~~~~~~~^
+        cursor, str_statement, effective_parameters, context
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/mnt/c/Users/aldwin/project/weatherflow/.venv/lib/python3.14/site-packages/sqlalchemy/engine/default.py", line 952, in do_execute
+    cursor.execute(statement, parameters)
+    ~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/c/Users/aldwin/project/weatherflow/.venv/lib/python3.14/site-packages/psycopg/cursor.py", line 117, in execute
+    raise ex.with_traceback(None)
+psycopg.errors.SyntaxError: syntax error at or near "{"
+LINE 15:         {where_clause}
+                 ^
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/mnt/c/Users/aldwin/project/weatherflow/backend/app/api/routes/daily_weather.py", line 79, in get_daily_weather
+    result = connection.execute(query, params)
+  File "/mnt/c/Users/aldwin/project/weatherflow/.venv/lib/python3.14/site-packages/sqlalchemy/engine/base.py", line 1421, in execute
+    return meth(
+        self,
+        distilled_parameters,
+        execution_options or NO_OPTIONS,
+    )
+  File "/mnt/c/Users/aldwin/project/weatherflow/.venv/lib/python3.14/site-packages/sqlalchemy/sql/elements.py", line 526, in _execute_on_connection
+    return connection._execute_clauseelement(
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        self, distilled_params, execution_options
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/mnt/c/Users/aldwin/project/weatherflow/.venv/lib/python3.14/site-packages/sqlalchemy/engine/base.py", line 1643, in _execute_clauseelement
+    ret = self._execute_context(
+        dialect,
+    ...<8 lines>...
+        cache_hit=cache_hit,
+    )
+  File "/mnt/c/Users/aldwin/project/weatherflow/.venv/lib/python3.14/site-packages/sqlalchemy/engine/base.py", line 1848, in _execute_context
+    return self._exec_single_context(
+           ~~~~~~~~~~~~~~~~~~~~~~~~~^
+        dialect, context, statement, parameters
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/mnt/c/Users/aldwin/project/weatherflow/.venv/lib/python3.14/site-packages/sqlalchemy/engine/base.py", line 1988, in _exec_single_context
+    self._handle_dbapi_exception(
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        e, str_statement, effective_parameters, cursor, context
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/mnt/c/Users/aldwin/project/weatherflow/.venv/lib/python3.14/site-packages/sqlalchemy/engine/base.py", line 2365, in _handle_dbapi_exception
+    raise sqlalchemy_exception.with_traceback(exc_info[2]) from e
+  File "/mnt/c/Users/aldwin/project/weatherflow/.venv/lib/python3.14/site-packages/sqlalchemy/engine/base.py", line 1969, in _exec_single_context
+    self.dialect.do_execute(
+    ~~~~~~~~~~~~~~~~~~~~~~~^
+        cursor, str_statement, effective_parameters, context
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/mnt/c/Users/aldwin/project/weatherflow/.venv/lib/python3.14/site-packages/sqlalchemy/engine/default.py", line 952, in do_execute
+    cursor.execute(statement, parameters)
+    ~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/c/Users/aldwin/project/weatherflow/.venv/lib/python3.14/site-packages/psycopg/cursor.py", line 117, in execute
+    raise ex.with_traceback(None)
+sqlalchemy.exc.ProgrammingError: (psycopg.errors.SyntaxError) syntax error at or near "{"
+LINE 15:         {where_clause}
+                 ^
+[SQL: 
+        SELECT
+            city,
+            observation_date,
+            avg_temperature,
+            min_temperature,
+            max_temperature,
+            avg_feels_like,
+            avg_humidity,
+            avg_pressure,
+            avg_wind_speed,
+            avg_cloudiness,
+            observation_count
+        FROM mrt_dev.mrt_daily_weather
+        {where_clause}
+        ORDER BY observation_date DESC, city
+        LIMIT %(fetch_limit)s OFFSET %(offset)s
+    ]
+[parameters: {'fetch_limit': 21, 'offset': 0}]
+(Background on this error at: https://sqlalche.me/e/20/f405)
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/mnt/c/Users/aldwin/project/weatherflow/backend/app/main.py", line 44, in log_requests
+    response = await call_next(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/c/Users/aldwin/project/weatherflow/.venv/lib/python3.14/site-packages/starlette/middleware/base.py", line 173, in call_next
+    raise app_exc from app_exc.__cause__ or app_exc.__context__
+  File "/mnt/c/Users/aldwin/project/weatherflow/.venv/lib/python3.14/site-packages/starlette/middleware/base.py", line 149, in coro
+    await self.app(scope, receive_or_disconnect, send_no_error)
+  File "/mnt/c/Users/aldwin/project/weatherflow/.venv/lib/python3.14/site-packages/starlette/middleware/exceptions.py", line 63, in __call__
+    await wrap_app_handling_exceptions(self.app, conn)(scope, receive, send)
+  File "/mnt/c/Users/aldwin/project/weatherflow/.venv/lib/python3.14/site-packages/starlette/_exception_handler.py", line 53, in wrapped_app
+    raise exc
+  File "/mnt/c/Users/aldwin/project/weatherflow/.venv/lib/python3.14/site-packages/starlette/_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+  File "/mnt/c/Users/aldwin/project/weatherflow/.venv/lib/python3.14/site-packages/fastapi/middleware/asyncexitstack.py", line 18, in __call__
+    await self.app(scope, receive, send)
+  File "/mnt/c/Users/aldwin/project/weatherflow/.venv/lib/python3.14/site-packages/starlette/routing.py", line 676, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "/mnt/c/Users/aldwin/project/weatherflow/.venv/lib/python3.14/site-packages/fastapi/routing.py", line 2786, in app
+    await route.handle(scope, receive, send)
+  File "/mnt/c/Users/aldwin/project/weatherflow/.venv/lib/python3.14/site-packages/fastapi/routing.py", line 1817, in handle
+    await self.original_router.handle(scope, receive, send)
+  File "/mnt/c/Users/aldwin/project/weatherflow/.venv/lib/python3.14/site-packages/fastapi/routing.py", line 2869, in handle
+    await included_router._handle_selected(scope, receive, send)
+  File "/mnt/c/Users/aldwin/project/weatherflow/.venv/lib/python3.14/site-packages/fastapi/routing.py", line 1843, in _handle_selected
+    await original_route.handle(scope, receive, send)
+  File "/mnt/c/Users/aldwin/project/weatherflow/.venv/lib/python3.14/site-packages/fastapi/routing.py", line 1308, in handle
+    await effective_context.app(scope, receive, send)
+  File "/mnt/c/Users/aldwin/project/weatherflow/.venv/lib/python3.14/site-packages/fastapi/routing.py", line 165, in app
+    await wrap_app_handling_exceptions(app, request)(scope, receive, send)
+  File "/mnt/c/Users/aldwin/project/weatherflow/.venv/lib/python3.14/site-packages/starlette/_exception_handler.py", line 53, in wrapped_app
+    raise exc
+  File "/mnt/c/Users/aldwin/project/weatherflow/.venv/lib/python3.14/site-packages/starlette/_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+  File "/mnt/c/Users/aldwin/project/weatherflow/.venv/lib/python3.14/site-packages/fastapi/routing.py", line 151, in app
+    response = await f(request)
+               ^^^^^^^^^^^^^^^^
+  File "/mnt/c/Users/aldwin/project/weatherflow/.venv/lib/python3.14/site-packages/fastapi/routing.py", line 727, in app
+    raw_response = await run_endpoint_function(
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<3 lines>...
+    )
+    ^
+  File "/mnt/c/Users/aldwin/project/weatherflow/.venv/lib/python3.14/site-packages/fastapi/routing.py", line 362, in run_endpoint_function
+    return await run_in_threadpool(
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+        _run_sync_endpoint, function=dependant.call, arguments=values
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/mnt/c/Users/aldwin/project/weatherflow/.venv/lib/python3.14/site-packages/starlette/concurrency.py", line 34, in run_in_threadpool
+    return await anyio.to_thread.run_sync(func)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/c/Users/aldwin/project/weatherflow/.venv/lib/python3.14/site-packages/anyio/to_thread.py", line 65, in run_sync
+    return await get_async_backend().run_sync_in_worker_thread(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        func, args, abandon_on_cancel=abandon_on_cancel, limiter=limiter
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/mnt/c/Users/aldwin/project/weatherflow/.venv/lib/python3.14/site-packages/anyio/_backends/_asyncio.py", line 2706, in run_sync_in_worker_thread
+    return await future
+           ^^^^^^^^^^^^
+  File "/mnt/c/Users/aldwin/project/weatherflow/.venv/lib/python3.14/site-packages/anyio/_backends/_asyncio.py", line 1100, in run
+    result = context.run(func, *args)
+  File "/mnt/c/Users/aldwin/project/weatherflow/.venv/lib/python3.14/site-packages/fastapi/telemetry/_api.py", line 244, in _run_sync_endpoint
+    return function(**arguments)
+  File "/mnt/c/Users/aldwin/project/weatherflow/backend/app/api/routes/daily_weather.py", line 96, in get_daily_weather
+    logger.exception("Failed to retrieve daily weather data")
+    ^^^^^^
+NameError: name 'logger' is not defined
+2026-10-14 16:14:42,716 | ERROR | app.main | Unexpected application error | method=GET path=/api/v1/weather/daily
+Traceback (most recent call last):
+  File "/mnt/c/Users/aldwin/project/weatherflow/.venv/lib/python3.14/site-packages/sqlalchemy/engine/base.py", line 1969, in _exec_single_context
+    self.dialect.do_execute(
+    ~~~~~~~~~~~~~~~~~~~~~~~^
+        cursor, str_statement, effective_parameters, context
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/mnt/c/Users/aldwin/project/weatherflow/.venv/lib/python3.14/site-packages/sqlalchemy/engine/default.py", line 952, in do_execute
+    cursor.execute(statement, parameters)
+    ~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/c/Users/aldwin/project/weatherflow/.venv/lib/python3.14/site-packages/psycopg/cursor.py", line 117, in execute
+    raise ex.with_traceback(None)
+psycopg.errors.SyntaxError: syntax error at or near "{"
+LINE 15:         {where_clause}
+                 ^
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/mnt/c/Users/aldwin/project/weatherflow/backend/app/api/routes/daily_weather.py", line 79, in get_daily_weather
+    result = connection.execute(query, params)
+  File "/mnt/c/Users/aldwin/project/weatherflow/.venv/lib/python3.14/site-packages/sqlalchemy/engine/base.py", line 1421, in execute
+    return meth(
+        self,
+        distilled_parameters,
+        execution_options or NO_OPTIONS,
+    )
+  File "/mnt/c/Users/aldwin/project/weatherflow/.venv/lib/python3.14/site-packages/sqlalchemy/sql/elements.py", line 526, in _execute_on_connection
+    return connection._execute_clauseelement(
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        self, distilled_params, execution_options
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/mnt/c/Users/aldwin/project/weatherflow/.venv/lib/python3.14/site-packages/sqlalchemy/engine/base.py", line 1643, in _execute_clauseelement
+    ret = self._execute_context(
+        dialect,
+    ...<8 lines>...
+        cache_hit=cache_hit,
+    )
+  File "/mnt/c/Users/aldwin/project/weatherflow/.venv/lib/python3.14/site-packages/sqlalchemy/engine/base.py", line 1848, in _execute_context
+    return self._exec_single_context(
+           ~~~~~~~~~~~~~~~~~~~~~~~~~^
+        dialect, context, statement, parameters
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/mnt/c/Users/aldwin/project/weatherflow/.venv/lib/python3.14/site-packages/sqlalchemy/engine/base.py", line 1988, in _exec_single_context
+    self._handle_dbapi_exception(
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        e, str_statement, effective_parameters, cursor, context
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/mnt/c/Users/aldwin/project/weatherflow/.venv/lib/python3.14/site-packages/sqlalchemy/engine/base.py", line 2365, in _handle_dbapi_exception
+    raise sqlalchemy_exception.with_traceback(exc_info[2]) from e
+  File "/mnt/c/Users/aldwin/project/weatherflow/.venv/lib/python3.14/site-packages/sqlalchemy/engine/base.py", line 1969, in _exec_single_context
+    self.dialect.do_execute(
+    ~~~~~~~~~~~~~~~~~~~~~~~^
+        cursor, str_statement, effective_parameters, context
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/mnt/c/Users/aldwin/project/weatherflow/.venv/lib/python3.14/site-packages/sqlalchemy/engine/default.py", line 952, in do_execute
+    cursor.execute(statement, parameters)
+    ~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/c/Users/aldwin/project/weatherflow/.venv/lib/python3.14/site-packages/psycopg/cursor.py", line 117, in execute
+    raise ex.with_traceback(None)
+sqlalchemy.exc.ProgrammingError: (psycopg.errors.SyntaxError) syntax error at or near "{"
+LINE 15:         {where_clause}
+                 ^
+[SQL: 
+        SELECT
+            city,
+            observation_date,
+            avg_temperature,
+            min_temperature,
+            max_temperature,
+            avg_feels_like,
+            avg_humidity,
+            avg_pressure,
+            avg_wind_speed,
+            avg_cloudiness,
+            observation_count
+        FROM mrt_dev.mrt_daily_weather
+        {where_clause}
+        ORDER BY observation_date DESC, city
+        LIMIT %(fetch_limit)s OFFSET %(offset)s
+    ]
+[parameters: {'fetch_limit': 21, 'offset': 0}]
+(Background on this error at: https://sqlalche.me/e/20/f405)
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/mnt/c/Users/aldwin/project/weatherflow/.venv/lib/python3.14/site-packages/starlette/middleware/errors.py", line 164, in __call__
+    await self.app(scope, receive, _send)
+  File "/mnt/c/Users/aldwin/project/weatherflow/.venv/lib/python3.14/site-packages/fastapi/telemetry/_asgi.py", line 151, in __call__
+    await self.app(scope, receive, send)
+  File "/mnt/c/Users/aldwin/project/weatherflow/.venv/lib/python3.14/site-packages/starlette/middleware/base.py", line 197, in __call__
+    response = await self.dispatch_func(request, call_next)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/c/Users/aldwin/project/weatherflow/backend/app/main.py", line 44, in log_requests
+    response = await call_next(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/c/Users/aldwin/project/weatherflow/.venv/lib/python3.14/site-packages/starlette/middleware/base.py", line 173, in call_next
+    raise app_exc from app_exc.__cause__ or app_exc.__context__
+  File "/mnt/c/Users/aldwin/project/weatherflow/.venv/lib/python3.14/site-packages/starlette/middleware/base.py", line 149, in coro
+    await self.app(scope, receive_or_disconnect, send_no_error)
+  File "/mnt/c/Users/aldwin/project/weatherflow/.venv/lib/python3.14/site-packages/starlette/middleware/exceptions.py", line 63, in __call__
+    await wrap_app_handling_exceptions(self.app, conn)(scope, receive, send)
+  File "/mnt/c/Users/aldwin/project/weatherflow/.venv/lib/python3.14/site-packages/starlette/_exception_handler.py", line 53, in wrapped_app
+    raise exc
+  File "/mnt/c/Users/aldwin/project/weatherflow/.venv/lib/python3.14/site-packages/starlette/_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+  File "/mnt/c/Users/aldwin/project/weatherflow/.venv/lib/python3.14/site-packages/fastapi/middleware/asyncexitstack.py", line 18, in __call__
+    await self.app(scope, receive, send)
+  File "/mnt/c/Users/aldwin/project/weatherflow/.venv/lib/python3.14/site-packages/starlette/routing.py", line 676, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "/mnt/c/Users/aldwin/project/weatherflow/.venv/lib/python3.14/site-packages/fastapi/routing.py", line 2786, in app
+    await route.handle(scope, receive, send)
+  File "/mnt/c/Users/aldwin/project/weatherflow/.venv/lib/python3.14/site-packages/fastapi/routing.py", line 1817, in handle
+    await self.original_router.handle(scope, receive, send)
+  File "/mnt/c/Users/aldwin/project/weatherflow/.venv/lib/python3.14/site-packages/fastapi/routing.py", line 2869, in handle
+    await included_router._handle_selected(scope, receive, send)
+  File "/mnt/c/Users/aldwin/project/weatherflow/.venv/lib/python3.14/site-packages/fastapi/routing.py", line 1843, in _handle_selected
+    await original_route.handle(scope, receive, send)
+  File "/mnt/c/Users/aldwin/project/weatherflow/.venv/lib/python3.14/site-packages/fastapi/routing.py", line 1308, in handle
+    await effective_context.app(scope, receive, send)
+  File "/mnt/c/Users/aldwin/project/weatherflow/.venv/lib/python3.14/site-packages/fastapi/routing.py", line 165, in app
+    await wrap_app_handling_exceptions(app, request)(scope, receive, send)
+  File "/mnt/c/Users/aldwin/project/weatherflow/.venv/lib/python3.14/site-packages/starlette/_exception_handler.py", line 53, in wrapped_app
+    raise exc
+  File "/mnt/c/Users/aldwin/project/weatherflow/.venv/lib/python3.14/site-packages/starlette/_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+  File "/mnt/c/Users/aldwin/project/weatherflow/.venv/lib/python3.14/site-packages/fastapi/routing.py", line 151, in app
+    response = await f(request)
+               ^^^^^^^^^^^^^^^^
+  File "/mnt/c/Users/aldwin/project/weatherflow/.venv/lib/python3.14/site-packages/fastapi/routing.py", line 727, in app
+    raw_response = await run_endpoint_function(
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<3 lines>...
+    )
+    ^
+  File "/mnt/c/Users/aldwin/project/weatherflow/.venv/lib/python3.14/site-packages/fastapi/routing.py", line 362, in run_endpoint_function
+    return await run_in_threadpool(
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+        _run_sync_endpoint, function=dependant.call, arguments=values
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/mnt/c/Users/aldwin/project/weatherflow/.venv/lib/python3.14/site-packages/starlette/concurrency.py", line 34, in run_in_threadpool
+    return await anyio.to_thread.run_sync(func)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/c/Users/aldwin/project/weatherflow/.venv/lib/python3.14/site-packages/anyio/to_thread.py", line 65, in run_sync
+    return await get_async_backend().run_sync_in_worker_thread(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        func, args, abandon_on_cancel=abandon_on_cancel, limiter=limiter
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/mnt/c/Users/aldwin/project/weatherflow/.venv/lib/python3.14/site-packages/anyio/_backends/_asyncio.py", line 2706, in run_sync_in_worker_thread
+    return await future
+           ^^^^^^^^^^^^
+  File "/mnt/c/Users/aldwin/project/weatherflow/.venv/lib/python3.14/site-packages/anyio/_backends/_asyncio.py", line 1100, in run
+    result = context.run(func, *args)
+  File "/mnt/c/Users/aldwin/project/weatherflow/.venv/lib/python3.14/site-packages/fastapi/telemetry/_api.py", line 244, in _run_sync_endpoint
+    return function(**arguments)
+  File "/mnt/c/Users/aldwin/project/weatherflow/backend/app/api/routes/daily_weather.py", line 96, in get_daily_weather
+    logger.exception("Failed to retrieve daily weather data")
+    ^^^^^^
+NameError: name 'logger' is not defined
+2026-10-14 16:17:22,513 | INFO | app.main | Request completed | request_id=078c6082-d7b4-4488-8c22-4fbf43cd4b35 method=GET path=/api/v1/weather/daily status_code=503 duration_seconds=0.272
+2026-10-14 16:19:50,348 | INFO | app.main | Request completed | request_id=d0a672e5-1096-4c5a-a0ab-08609c435e84 method=GET path=/api/v1/weather/daily status_code=200 duration_seconds=0.135
+2026-10-14 16:42:31,201 | INFO | app.main | Request completed | request_id=b7247499-655f-40bf-b77c-9aa24cbfba10 method=GET path=/api/v1/weather/daily status_code=200 duration_seconds=0.019
+2026-10-14 16:42:39,195 | INFO | app.main | Request completed | request_id=d00ffa63-fe69-4ba2-838f-e34fcb9f310b method=GET path=/api/v1/weather/daily status_code=422 duration_seconds=0.002
+2026-10-14 16:44:23,184 | INFO | app.main | Request completed | request_id=b61a5f85-c2e7-4d1c-9194-2daf28115c09 method=GET path=/api/v1/weather/daily status_code=200 duration_seconds=0.149
+2026-10-14 17:06:22,272 | INFO | app.main | Request completed | request_id=a468853f-4389-4572-ac79-f1d1510cc50e method=GET path=/api/v1/weather/daily status_code=200 duration_seconds=0.150
+2026-10-14 17:09:45,179 | INFO | app.main | Weatherflow API root endpoint accessed
+2026-10-14 17:09:45,183 | INFO | app.main | Request completed | request_id=728c4284-ff4c-404a-9a3d-3228893e2bf9 | method=GET | path=/ | status_code=200 | duration_seconds=0.040
+2026-10-14 17:09:54,949 | INFO | app.main | Application health check successful
+2026-10-14 17:09:54,952 | INFO | app.main | Request completed | request_id=cd081903-a6d5-4bfe-999c-4cceaf3b0f4f | method=GET | path=/health | status_code=200 | duration_seconds=0.007
+2026-10-14 17:10:00,286 | INFO | app.main | Database health check successful
+2026-10-14 17:10:00,291 | INFO | app.main | Request completed | request_id=06e9b0fa-37a5-4d2b-a8ee-9c6e81f6c118 | method=GET | path=/health/database | status_code=200 | duration_seconds=0.150
+2026-10-14 17:10:05,105 | INFO | app.main | Request completed | request_id=3ba6d4a1-cb9d-4841-a2f5-cb955245f859 | method=GET | path=/api/v1/weather/current | status_code=200 | duration_seconds=0.070

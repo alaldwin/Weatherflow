@@ -35,6 +35,9 @@ class CurrentWeather(WeatherBase):
 
 class CurrentWeatherListResponse(BaseModel):
     count: int
+    limit: int
+    offset: int
+    has_more: bool
     data: list[CurrentWeather]
 
 
