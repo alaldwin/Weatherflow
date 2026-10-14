@@ -1,0 +1,64 @@
+2026-10-14 12:13:11,726 | ERROR | app.main | Unexpected application error | method=GET path=/api/v1/weather/daily
+Traceback (most recent call last):
+  File "/mnt/c/Users/aldwin/project/weatherflow/.venv/lib/python3.14/site-packages/starlette/middleware/errors.py", line 164, in __call__
+    await self.app(scope, receive, _send)
+  File "/mnt/c/Users/aldwin/project/weatherflow/.venv/lib/python3.14/site-packages/fastapi/telemetry/_asgi.py", line 151, in __call__
+    await self.app(scope, receive, send)
+  File "/mnt/c/Users/aldwin/project/weatherflow/.venv/lib/python3.14/site-packages/starlette/middleware/base.py", line 197, in __call__
+    response = await self.dispatch_func(request, call_next)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/c/Users/aldwin/project/weatherflow/backend/app/main.py", line 31, in log_requests
+    request_id = str(uuid.uuid4())
+                     ^^^^
+NameError: name 'uuid' is not defined. Did you forget to import 'uuid'?
+2026-10-14 12:13:27,014 | ERROR | app.main | Unexpected application error | method=GET path=/health/database
+Traceback (most recent call last):
+  File "/mnt/c/Users/aldwin/project/weatherflow/.venv/lib/python3.14/site-packages/starlette/middleware/errors.py", line 164, in __call__
+    await self.app(scope, receive, _send)
+  File "/mnt/c/Users/aldwin/project/weatherflow/.venv/lib/python3.14/site-packages/fastapi/telemetry/_asgi.py", line 151, in __call__
+    await self.app(scope, receive, send)
+  File "/mnt/c/Users/aldwin/project/weatherflow/.venv/lib/python3.14/site-packages/starlette/middleware/base.py", line 197, in __call__
+    response = await self.dispatch_func(request, call_next)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/c/Users/aldwin/project/weatherflow/backend/app/main.py", line 31, in log_requests
+    request_id = str(uuid.uuid4())
+                     ^^^^
+NameError: name 'uuid' is not defined. Did you forget to import 'uuid'?
+2026-10-14 12:13:32,755 | ERROR | app.main | Unexpected application error | method=GET path=/docs
+Traceback (most recent call last):
+  File "/mnt/c/Users/aldwin/project/weatherflow/.venv/lib/python3.14/site-packages/starlette/middleware/errors.py", line 164, in __call__
+    await self.app(scope, receive, _send)
+  File "/mnt/c/Users/aldwin/project/weatherflow/.venv/lib/python3.14/site-packages/fastapi/telemetry/_asgi.py", line 151, in __call__
+    await self.app(scope, receive, send)
+  File "/mnt/c/Users/aldwin/project/weatherflow/.venv/lib/python3.14/site-packages/starlette/middleware/base.py", line 197, in __call__
+    response = await self.dispatch_func(request, call_next)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/c/Users/aldwin/project/weatherflow/backend/app/main.py", line 31, in log_requests
+    request_id = str(uuid.uuid4())
+                     ^^^^
+NameError: name 'uuid' is not defined. Did you forget to import 'uuid'?
+2026-10-14 12:17:50,972 | INFO | app.main | Request completed | request_id=ab8c0781-bcbe-4f86-83f3-fcfe3e351689 method=GET path=/docs status_code=200 duration_seconds=0.003
+2026-10-14 12:17:51,497 | INFO | app.main | Request completed | request_id=796ccda7-5308-4c95-a5b8-9d64d47ecd92 method=GET path=/openapi.json status_code=200 duration_seconds=0.076
+2026-10-14 12:17:53,599 | INFO | app.main | Request completed | request_id=57786f30-63fc-490e-986f-281f6ead7443 method=GET path=/health/database status_code=200 duration_seconds=0.161
+2026-10-14 12:17:55,776 | INFO | app.main | Request completed | request_id=9c876ffb-13e2-45e5-b9ba-71d624b317b5 method=GET path=/api/v1/weather/daily status_code=200 duration_seconds=0.064
+2026-10-14 12:20:09,153 | INFO | app.main | Request completed | request_id=3a5dc46f-017a-4242-a160-22fab338c950 method=GET path=/ status_code=200 duration_seconds=0.019
+2026-10-14 12:20:09,182 | INFO | app.main | Request completed | request_id=d54f5535-96d4-4fbb-acf8-7ab31d38ff3a method=GET path=/health status_code=200 duration_seconds=0.007
+2026-10-14 12:20:09,202 | INFO | app.main | Request completed | request_id=fd407d6b-f8f3-4c11-9ca4-a39ac0732646 method=GET path=/health/database status_code=200 duration_seconds=0.004
+2026-10-14 12:20:09,216 | INFO | app.main | Request completed | request_id=dc0b3b1c-b476-4cfe-8352-56160e5c3e9b method=GET path=/health/database status_code=503 duration_seconds=0.002
+2026-10-14 12:20:09,292 | INFO | app.main | Request completed | request_id=8cf4925a-b97f-4d10-80fd-24fdd8284271 method=GET path=/health/database status_code=503 duration_seconds=0.065
+2026-10-14 12:20:22,128 | INFO | app.main | Request completed | request_id=c0a8fc34-d023-4c02-98c5-c2326f0a04b5 method=GET path=/api/v1/weather/current status_code=503 duration_seconds=0.036
+2026-10-14 12:20:22,429 | INFO | app.main | Request completed | request_id=eca97cc7-d564-4211-9e0f-65464a9fe8a6 method=GET path=/api/v1/weather/daily status_code=503 duration_seconds=0.080
+2026-10-14 12:20:22,628 | INFO | app.main | Request completed | request_id=e3bfa848-f2a3-403d-97a2-953211225637 method=GET path=/api/v1/weather/trends status_code=503 duration_seconds=0.082
+2026-10-14 12:20:22,908 | INFO | app.main | Request completed | request_id=1975ef19-1038-4762-9aca-4076f4086d14 method=GET path=/api/v1/weather/cities/compare status_code=503 duration_seconds=0.029
+2026-10-14 12:20:23,049 | INFO | app.main | Request completed | request_id=3162ad9b-a037-4fc9-95c8-20b7780235f0 method=GET path=/api/v1/weather/daily status_code=503 duration_seconds=0.013
+2026-10-14 12:20:23,398 | INFO | app.main | Request completed | request_id=6a1c6ecf-174d-42fe-a69d-942a5332a4aa method=GET path=/api/v1/weather/cities/compare status_code=503 duration_seconds=0.028
+2026-10-14 12:20:23,649 | INFO | app.main | Request completed | request_id=2ee189e4-26c7-438c-89c1-1ca399ccdb0c method=GET path=/api/v1/weather/cities/compare status_code=422 duration_seconds=0.003
+2026-10-14 12:20:23,670 | INFO | app.main | Request completed | request_id=c035f3bf-925a-44f9-8237-5c2f7e5c4deb method=GET path=/api/v1/weather/current status_code=200 duration_seconds=0.006
+2026-10-14 12:20:23,696 | INFO | app.main | Request completed | request_id=08e58c29-dad4-41aa-a55a-af793651b959 method=GET path=/api/v1/weather/current/Manila status_code=200 duration_seconds=0.012
+2026-10-14 12:20:23,714 | INFO | app.main | Request completed | request_id=773105ab-7273-4f24-8805-a492545218bf method=GET path=/api/v1/weather/current/Unknown City status_code=404 duration_seconds=0.001
+2026-10-14 12:20:23,731 | INFO | app.main | Request completed | request_id=e3121877-4dbb-4b26-a591-bb63e93678f4 method=GET path=/api/v1/weather/daily status_code=200 duration_seconds=0.002
+2026-10-14 12:20:23,746 | INFO | app.main | Request completed | request_id=1d8eab7c-3b5d-42c8-a063-c02abbb2640f method=GET path=/api/v1/weather/daily status_code=422 duration_seconds=0.001
+2026-10-14 12:20:23,761 | INFO | app.main | Request completed | request_id=d9453173-7539-43b9-aba6-ac726720ebb9 method=GET path=/api/v1/weather/trends status_code=200 duration_seconds=0.002
+2026-10-14 12:20:23,778 | INFO | app.main | Request completed | request_id=6bc784ca-056b-4295-8b9b-ba660383d849 method=GET path=/api/v1/weather/cities/compare status_code=200 duration_seconds=0.002
+2026-10-14 12:20:23,790 | INFO | app.main | Request completed | request_id=b76f7862-a683-434c-b868-5b23decda9dc method=GET path=/api/v1/weather/cities/compare status_code=422 duration_seconds=0.001
+2026-10-14 12:20:23,806 | INFO | app.main | Request completed | request_id=a65addb1-8451-4e25-8341-e21453a2c0c1 method=GET path=/api/v1/weather/current status_code=503 duration_seconds=0.002

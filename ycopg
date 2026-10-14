@@ -1,0 +1,64 @@
+openweather_zamboanga_city|cloudiness|bigint
+openweather_baguio|humidity|bigint
+openweather_baguio|pressure|bigint
+openweather_baguio|wind_speed|double precision
+openweather_baguio|feels_like|double precision
+openweather_baguio|visibility|bigint
+openweather_baguio|rain_1h|double precision
+openweather_baguio|cloudiness|bigint
+openweather_cagayan_de_oro|temperature|double precision
+openweather_cagayan_de_oro|humidity|bigint
+openweather_cagayan_de_oro|pressure|bigint
+openweather_cagayan_de_oro|wind_speed|double precision
+openweather_cagayan_de_oro|feels_like|double precision
+openweather_cagayan_de_oro|visibility|bigint
+openweather_cagayan_de_oro|rain_1h|double precision
+openweather_cagayan_de_oro|cloudiness|bigint
+openweather_cebu_city|temperature|double precision
+openweather_cebu_city|humidity|bigint
+openweather_cebu_city|pressure|bigint
+openweather_cebu_city|wind_speed|double precision
+openweather_cebu_city|feels_like|double precision
+openweather_cebu_city|visibility|bigint
+openweather_cebu_city|rain_1h|double precision
+openweather_cebu_city|cloudiness|bigint
+openweather_davao_city|temperature|double precision
+openweather_davao_city|humidity|bigint
+openweather_davao_city|pressure|bigint
+openweather_davao_city|wind_speed|double precision
+openweather_davao_city|feels_like|double precision
+openweather_davao_city|visibility|bigint
+openweather_davao_city|rain_1h|double precision
+openweather_davao_city|cloudiness|bigint
+openweather_iloilo_city|temperature|double precision
+openweather_iloilo_city|humidity|bigint
+openweather_iloilo_city|pressure|bigint
+openweather_iloilo_city|wind_speed|double precision
+openweather_iloilo_city|feels_like|double precision
+openweather_iloilo_city|visibility|bigint
+openweather_iloilo_city|rain_1h|double precision
+openweather_iloilo_city|cloudiness|bigint
+openweather_manila|temperature|double precision
+openweather_manila|humidity|bigint
+openweather_manila|pressure|bigint
+openweather_manila|wind_speed|double precision
+openweather_manila|feels_like|double precision
+openweather_manila|visibility|bigint
+openweather_baguio|temperature|double precision
+openweather_manila|cloudiness|bigint
+openweather_quezon_city|temperature|double precision
+openweather_quezon_city|humidity|bigint
+openweather_quezon_city|pressure|bigint
+openweather_quezon_city|wind_speed|double precision
+openweather_quezon_city|feels_like|double precision
+openweather_quezon_city|visibility|bigint
+openweather_quezon_city|rain_1h|double precision
+openweather_quezon_city|cloudiness|bigint
+openweather_zamboanga_city|temperature|double precision
+openweather_zamboanga_city|humidity|bigint
+openweather_zamboanga_city|pressure|bigint
+openweather_zamboanga_city|wind_speed|double precision
+openweather_zamboanga_city|feels_like|double precision
+openweather_zamboanga_city|visibility|bigint
+openweather_zamboanga_city|rain_1h|double precision
+openweather_manila|rain_1h|text

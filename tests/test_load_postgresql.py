@@ -222,13 +222,13 @@ def test_load_all_parquet_files_into_single_table(sqlite_engine, tmp_path):
     assert cities == ["Cebu", "Manila"]
 
 
-def test_default_load_replaces_previous_rows(sqlite_engine):
+def test_default_load_appends_rows(sqlite_engine):
     df = pl.DataFrame({"city": ["Manila"], "temperature": [32.21]})
 
     load_postgresql(df, "openweather_manila", engine=sqlite_engine)
     load_postgresql(df, "openweather_manila", engine=sqlite_engine)
 
-    assert _count_rows(sqlite_engine, "openweather_manila") == 1
+    assert _count_rows(sqlite_engine, "openweather_manila") == 2
 
 
 def test_append_mode_keeps_existing_rows(sqlite_engine):

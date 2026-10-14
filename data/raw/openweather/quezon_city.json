@@ -1706,5 +1706,669 @@
         "city": "Quezon City",
         "source": "openweather",
         "observation_time": "2026-10-11T07:59:26+00:00"
+    },
+    {
+        "coord": {
+            "lon": 121.0437,
+            "lat": 14.676
+        },
+        "weather": [
+            {
+                "id": 804,
+                "main": "Clouds",
+                "description": "overcast clouds",
+                "icon": "04d"
+            }
+        ],
+        "base": "stations",
+        "main": {
+            "temp": 29.57,
+            "feels_like": 35.63,
+            "temp_min": 29.57,
+            "temp_max": 29.57,
+            "pressure": 1010,
+            "humidity": 77,
+            "sea_level": 1010,
+            "grnd_level": 1007
+        },
+        "visibility": 10000,
+        "wind": {
+            "speed": 1.71,
+            "deg": 88,
+            "gust": 1.72
+        },
+        "clouds": {
+            "all": 99
+        },
+        "dt": 1791708769,
+        "sys": {
+            "country": "PH",
+            "sunrise": 1791668778,
+            "sunset": 1791711526
+        },
+        "timezone": 28800,
+        "id": 1966336,
+        "name": "Bagong Pagasa",
+        "cod": 200,
+        "city": "Quezon City",
+        "source": "openweather",
+        "observation_time": "2026-10-11T08:52:49+00:00"
+    },
+    {
+        "coord": {
+            "lon": 121.0437,
+            "lat": 14.676
+        },
+        "weather": [
+            {
+                "id": 804,
+                "main": "Clouds",
+                "description": "overcast clouds",
+                "icon": "04d"
+            }
+        ],
+        "base": "stations",
+        "main": {
+            "temp": 29.48,
+            "feels_like": 36.48,
+            "temp_min": 29.48,
+            "temp_max": 29.48,
+            "pressure": 1012,
+            "humidity": 82,
+            "sea_level": 1012,
+            "grnd_level": 1008
+        },
+        "visibility": 10000,
+        "wind": {
+            "speed": 1.81,
+            "deg": 79,
+            "gust": 2.77
+        },
+        "clouds": {
+            "all": 100
+        },
+        "dt": 1791797013,
+        "sys": {
+            "country": "PH",
+            "sunrise": 1791755186,
+            "sunset": 1791797887
+        },
+        "timezone": 28800,
+        "id": 1966336,
+        "name": "Bagong Pagasa",
+        "cod": 200,
+        "city": "Quezon City",
+        "source": "openweather",
+        "observation_time": "2026-10-12T09:23:33+00:00"
+    },
+    {
+        "coord": {
+            "lon": 121.0437,
+            "lat": 14.676
+        },
+        "weather": [
+            {
+                "id": 500,
+                "main": "Rain",
+                "description": "light rain",
+                "icon": "10d"
+            }
+        ],
+        "base": "stations",
+        "main": {
+            "temp": 28.88,
+            "feels_like": 34,
+            "temp_min": 28.88,
+            "temp_max": 28.88,
+            "pressure": 1012,
+            "humidity": 78,
+            "sea_level": 1012,
+            "grnd_level": 1008
+        },
+        "visibility": 10000,
+        "wind": {
+            "speed": 1.88,
+            "deg": 89,
+            "gust": 2.91
+        },
+        "rain": {
+            "1h": 0.12
+        },
+        "clouds": {
+            "all": 100
+        },
+        "dt": 1791797770,
+        "sys": {
+            "country": "PH",
+            "sunrise": 1791755186,
+            "sunset": 1791797887
+        },
+        "timezone": 28800,
+        "id": 1966336,
+        "name": "Bagong Pagasa",
+        "cod": 200,
+        "city": "Quezon City",
+        "source": "openweather",
+        "observation_time": "2026-10-12T09:36:10+00:00"
+    },
+    {
+        "coord": {
+            "lon": 121.0437,
+            "lat": 14.676
+        },
+        "weather": [
+            {
+                "id": 804,
+                "main": "Clouds",
+                "description": "overcast clouds",
+                "icon": "04n"
+            }
+        ],
+        "base": "stations",
+        "main": {
+            "temp": 28.84,
+            "feels_like": 34.09,
+            "temp_min": 28.84,
+            "temp_max": 28.84,
+            "pressure": 1012,
+            "humidity": 79,
+            "sea_level": 1012,
+            "grnd_level": 1008
+        },
+        "visibility": 10000,
+        "wind": {
+            "speed": 1.88,
+            "deg": 89,
+            "gust": 2.91
+        },
+        "clouds": {
+            "all": 100
+        },
+        "dt": 1791799208,
+        "sys": {
+            "country": "PH",
+            "sunrise": 1791755186,
+            "sunset": 1791797887
+        },
+        "timezone": 28800,
+        "id": 1966336,
+        "name": "Bagong Pagasa",
+        "cod": 200,
+        "city": "Quezon City",
+        "source": "openweather",
+        "observation_time": "2026-10-12T10:00:08+00:00"
+    },
+    {
+        "coord": {
+            "lon": 121.0437,
+            "lat": 14.676
+        },
+        "weather": [
+            {
+                "id": 804,
+                "main": "Clouds",
+                "description": "overcast clouds",
+                "icon": "04n"
+            }
+        ],
+        "base": "stations",
+        "main": {
+            "temp": 28.31,
+            "feels_like": 33.06,
+            "temp_min": 28.31,
+            "temp_max": 28.31,
+            "pressure": 1013,
+            "humidity": 81,
+            "sea_level": 1013,
+            "grnd_level": 1009
+        },
+        "visibility": 10000,
+        "wind": {
+            "speed": 2.01,
+            "deg": 85,
+            "gust": 2.61
+        },
+        "clouds": {
+            "all": 99
+        },
+        "dt": 1791802541,
+        "sys": {
+            "country": "PH",
+            "sunrise": 1791755186,
+            "sunset": 1791797887
+        },
+        "timezone": 28800,
+        "id": 1966336,
+        "name": "Bagong Pagasa",
+        "cod": 200,
+        "city": "Quezon City",
+        "source": "openweather",
+        "observation_time": "2026-10-12T10:55:41+00:00"
+    },
+    {
+        "coord": {
+            "lon": 121.0437,
+            "lat": 14.676
+        },
+        "weather": [
+            {
+                "id": 803,
+                "main": "Clouds",
+                "description": "broken clouds",
+                "icon": "04d"
+            }
+        ],
+        "base": "stations",
+        "main": {
+            "temp": 27.95,
+            "feels_like": 32.6,
+            "temp_min": 27.95,
+            "temp_max": 27.95,
+            "pressure": 1015,
+            "humidity": 84,
+            "sea_level": 1015,
+            "grnd_level": 1011
+        },
+        "visibility": 10000,
+        "wind": {
+            "speed": 0.68,
+            "deg": 136,
+            "gust": 0.86
+        },
+        "clouds": {
+            "all": 66
+        },
+        "dt": 1791851154,
+        "sys": {
+            "country": "PH",
+            "sunrise": 1791841595,
+            "sunset": 1791884248
+        },
+        "timezone": 28800,
+        "id": 1966336,
+        "name": "Bagong Pagasa",
+        "cod": 200,
+        "city": "Quezon City",
+        "source": "openweather",
+        "observation_time": "2026-10-13T00:25:54+00:00"
+    },
+    {
+        "coord": {
+            "lon": 121.0437,
+            "lat": 14.676
+        },
+        "weather": [
+            {
+                "id": 803,
+                "main": "Clouds",
+                "description": "broken clouds",
+                "icon": "04n"
+            }
+        ],
+        "base": "stations",
+        "main": {
+            "temp": 28.81,
+            "feels_like": 33.42,
+            "temp_min": 28.81,
+            "temp_max": 28.81,
+            "pressure": 1013,
+            "humidity": 76,
+            "sea_level": 1013,
+            "grnd_level": 1009
+        },
+        "visibility": 10000,
+        "wind": {
+            "speed": 1.91,
+            "deg": 138,
+            "gust": 2.1
+        },
+        "clouds": {
+            "all": 69
+        },
+        "dt": 1791888324,
+        "sys": {
+            "country": "PH",
+            "sunrise": 1791841595,
+            "sunset": 1791884248
+        },
+        "timezone": 28800,
+        "id": 1966336,
+        "name": "Bagong Pagasa",
+        "cod": 200,
+        "city": "Quezon City",
+        "source": "openweather",
+        "observation_time": "2026-10-13T10:45:24+00:00"
+    },
+    {
+        "coord": {
+            "lon": 121.0437,
+            "lat": 14.676
+        },
+        "weather": [
+            {
+                "id": 803,
+                "main": "Clouds",
+                "description": "broken clouds",
+                "icon": "04n"
+            }
+        ],
+        "base": "stations",
+        "main": {
+            "temp": 28.8,
+            "feels_like": 33.4,
+            "temp_min": 28.8,
+            "temp_max": 28.8,
+            "pressure": 1013,
+            "humidity": 76,
+            "sea_level": 1013,
+            "grnd_level": 1009
+        },
+        "visibility": 10000,
+        "wind": {
+            "speed": 1.91,
+            "deg": 138,
+            "gust": 2.1
+        },
+        "clouds": {
+            "all": 69
+        },
+        "dt": 1791889207,
+        "sys": {
+            "country": "PH",
+            "sunrise": 1791841595,
+            "sunset": 1791884248
+        },
+        "timezone": 28800,
+        "id": 1966336,
+        "name": "Bagong Pagasa",
+        "cod": 200,
+        "city": "Quezon City",
+        "source": "openweather",
+        "observation_time": "2026-10-13T11:00:07+00:00"
+    },
+    {
+        "coord": {
+            "lon": 121.0437,
+            "lat": 14.676
+        },
+        "weather": [
+            {
+                "id": 500,
+                "main": "Rain",
+                "description": "light rain",
+                "icon": "10n"
+            }
+        ],
+        "base": "stations",
+        "main": {
+            "temp": 28.39,
+            "feels_like": 32.92,
+            "temp_min": 28.39,
+            "temp_max": 28.39,
+            "pressure": 1014,
+            "humidity": 79,
+            "sea_level": 1014,
+            "grnd_level": 1010
+        },
+        "visibility": 10000,
+        "wind": {
+            "speed": 1.72,
+            "deg": 119,
+            "gust": 2.38
+        },
+        "rain": {
+            "1h": 0.22
+        },
+        "clouds": {
+            "all": 60
+        },
+        "dt": 1791892556,
+        "sys": {
+            "country": "PH",
+            "sunrise": 1791841595,
+            "sunset": 1791884248
+        },
+        "timezone": 28800,
+        "id": 1966336,
+        "name": "Bagong Pagasa",
+        "cod": 200,
+        "city": "Quezon City",
+        "source": "openweather",
+        "observation_time": "2026-10-13T11:55:56+00:00"
+    },
+    {
+        "coord": {
+            "lon": 121.0437,
+            "lat": 14.676
+        },
+        "weather": [
+            {
+                "id": 803,
+                "main": "Clouds",
+                "description": "broken clouds",
+                "icon": "04d"
+            }
+        ],
+        "base": "stations",
+        "main": {
+            "temp": 29.46,
+            "feels_like": 35.33,
+            "temp_min": 29.46,
+            "temp_max": 29.46,
+            "pressure": 1014,
+            "humidity": 77,
+            "sea_level": 1014,
+            "grnd_level": 1011
+        },
+        "visibility": 10000,
+        "wind": {
+            "speed": 1.08,
+            "deg": 129,
+            "gust": 2.33
+        },
+        "clouds": {
+            "all": 63
+        },
+        "dt": 1791937885,
+        "sys": {
+            "country": "PH",
+            "sunrise": 1791928004,
+            "sunset": 1791970610
+        },
+        "timezone": 28800,
+        "id": 1966336,
+        "name": "Bagong Pagasa",
+        "cod": 200,
+        "city": "Quezon City",
+        "source": "openweather",
+        "observation_time": "2026-10-14T00:31:25+00:00"
+    },
+    {
+        "coord": {
+            "lon": 121.0437,
+            "lat": 14.676
+        },
+        "weather": [
+            {
+                "id": 803,
+                "main": "Clouds",
+                "description": "broken clouds",
+                "icon": "04d"
+            }
+        ],
+        "base": "stations",
+        "main": {
+            "temp": 29.27,
+            "feels_like": 35.04,
+            "temp_min": 29.27,
+            "temp_max": 29.27,
+            "pressure": 1014,
+            "humidity": 78,
+            "sea_level": 1014,
+            "grnd_level": 1011
+        },
+        "visibility": 10000,
+        "wind": {
+            "speed": 1.08,
+            "deg": 129,
+            "gust": 2.33
+        },
+        "clouds": {
+            "all": 63
+        },
+        "dt": 1791939608,
+        "sys": {
+            "country": "PH",
+            "sunrise": 1791928004,
+            "sunset": 1791970610
+        },
+        "timezone": 28800,
+        "id": 1966336,
+        "name": "Bagong Pagasa",
+        "cod": 200,
+        "city": "Quezon City",
+        "source": "openweather",
+        "observation_time": "2026-10-14T01:00:08+00:00"
+    },
+    {
+        "coord": {
+            "lon": 121.0437,
+            "lat": 14.676
+        },
+        "weather": [
+            {
+                "id": 803,
+                "main": "Clouds",
+                "description": "broken clouds",
+                "icon": "04d"
+            }
+        ],
+        "base": "stations",
+        "main": {
+            "temp": 30.21,
+            "feels_like": 36.88,
+            "temp_min": 30.21,
+            "temp_max": 30.21,
+            "pressure": 1014,
+            "humidity": 75,
+            "sea_level": 1014,
+            "grnd_level": 1011
+        },
+        "visibility": 10000,
+        "wind": {
+            "speed": 0.95,
+            "deg": 116,
+            "gust": 3.14
+        },
+        "clouds": {
+            "all": 54
+        },
+        "dt": 1791943209,
+        "sys": {
+            "country": "PH",
+            "sunrise": 1791928004,
+            "sunset": 1791970610
+        },
+        "timezone": 28800,
+        "id": 1966336,
+        "name": "Bagong Pagasa",
+        "cod": 200,
+        "city": "Quezon City",
+        "source": "openweather",
+        "observation_time": "2026-10-14T02:00:09+00:00"
+    },
+    {
+        "coord": {
+            "lon": 121.0437,
+            "lat": 14.676
+        },
+        "weather": [
+            {
+                "id": 803,
+                "main": "Clouds",
+                "description": "broken clouds",
+                "icon": "04d"
+            }
+        ],
+        "base": "stations",
+        "main": {
+            "temp": 31.22,
+            "feels_like": 38.22,
+            "temp_min": 31.22,
+            "temp_max": 31.22,
+            "pressure": 1014,
+            "humidity": 71,
+            "sea_level": 1014,
+            "grnd_level": 1010
+        },
+        "visibility": 10000,
+        "wind": {
+            "speed": 0.85,
+            "deg": 79,
+            "gust": 3.42
+        },
+        "clouds": {
+            "all": 53
+        },
+        "dt": 1791946585,
+        "sys": {
+            "country": "PH",
+            "sunrise": 1791928004,
+            "sunset": 1791970610
+        },
+        "timezone": 28800,
+        "id": 1966336,
+        "name": "Bagong Pagasa",
+        "cod": 200,
+        "city": "Quezon City",
+        "source": "openweather",
+        "observation_time": "2026-10-14T02:56:25+00:00"
+    },
+    {
+        "coord": {
+            "lon": 121.0437,
+            "lat": 14.676
+        },
+        "weather": [
+            {
+                "id": 803,
+                "main": "Clouds",
+                "description": "broken clouds",
+                "icon": "04d"
+            }
+        ],
+        "base": "stations",
+        "main": {
+            "temp": 31.96,
+            "feels_like": 38.96,
+            "temp_min": 31.96,
+            "temp_max": 31.96,
+            "pressure": 1013,
+            "humidity": 67,
+            "sea_level": 1013,
+            "grnd_level": 1009
+        },
+        "visibility": 10000,
+        "wind": {
+            "speed": 1.3,
+            "deg": 82,
+            "gust": 3.37
+        },
+        "clouds": {
+            "all": 56
+        },
+        "dt": 1791950164,
+        "sys": {
+            "country": "PH",
+            "sunrise": 1791928004,
+            "sunset": 1791970610
+        },
+        "timezone": 28800,
+        "id": 1966336,
+        "name": "Bagong Pagasa",
+        "cod": 200,
+        "city": "Quezon City",
+        "source": "openweather",
+        "observation_time": "2026-10-14T03:56:04+00:00"
     }
 ]
