@@ -2210,5 +2210,525 @@
         "city": "Manila",
         "source": "openweather",
         "observation_time": "2026-10-14T03:48:56+00:00"
+    },
+    {
+        "coord": {
+            "lon": 120.9758,
+            "lat": 14.6005
+        },
+        "weather": [
+            {
+                "id": 500,
+                "main": "Rain",
+                "description": "light rain",
+                "icon": "10d"
+            }
+        ],
+        "base": "stations",
+        "main": {
+            "temp": 32.02,
+            "feels_like": 39.02,
+            "temp_min": 32.02,
+            "temp_max": 32.02,
+            "pressure": 1012,
+            "humidity": 66,
+            "sea_level": 1012,
+            "grnd_level": 1014
+        },
+        "visibility": 10000,
+        "wind": {
+            "speed": 1.25,
+            "deg": 132,
+            "gust": 2.68
+        },
+        "rain": {
+            "1h": 0.19
+        },
+        "clouds": {
+            "all": 62
+        },
+        "dt": 1791953617,
+        "sys": {
+            "country": "PH",
+            "sunrise": 1791928018,
+            "sunset": 1791970628
+        },
+        "timezone": 28800,
+        "id": 1701668,
+        "name": "Manila",
+        "cod": 200,
+        "city": "Manila",
+        "source": "openweather",
+        "observation_time": "2026-10-14T04:53:37+00:00"
+    },
+    {
+        "coord": {
+            "lon": 120.98,
+            "lat": 14.6
+        },
+        "weather": [
+            {
+                "id": 803,
+                "main": "Clouds",
+                "description": "broken clouds",
+                "icon": "04d"
+            }
+        ],
+        "base": "stations",
+        "main": {
+            "temp": 32.29,
+            "feels_like": 39.29,
+            "temp_min": 32.29,
+            "temp_max": 32.29,
+            "pressure": 1011,
+            "humidity": 66,
+            "sea_level": 1011,
+            "grnd_level": 1013
+        },
+        "visibility": 10000,
+        "wind": {
+            "speed": 2.51,
+            "deg": 90,
+            "gust": 3.61
+        },
+        "clouds": {
+            "all": 58
+        },
+        "dt": 1791958129,
+        "sys": {
+            "country": "PH",
+            "sunrise": 1791928017,
+            "sunset": 1791970627
+        },
+        "timezone": 28800,
+        "id": 1692184,
+        "name": "Quiapo District",
+        "cod": 200,
+        "city": "Manila",
+        "source": "openweather",
+        "observation_time": "2026-10-14T06:08:49+00:00"
+    },
+    {
+        "coord": {
+            "lon": 120.9842,
+            "lat": 14.5995
+        },
+        "weather": [
+            {
+                "id": 802,
+                "main": "Clouds",
+                "description": "scattered clouds",
+                "icon": "03d"
+            }
+        ],
+        "base": "stations",
+        "main": {
+            "temp": 32.37,
+            "feels_like": 39.37,
+            "temp_min": 32.37,
+            "temp_max": 32.37,
+            "pressure": 1010,
+            "humidity": 65,
+            "sea_level": 1010,
+            "grnd_level": 1013
+        },
+        "visibility": 10000,
+        "wind": {
+            "speed": 3.93,
+            "deg": 86,
+            "gust": 4.45
+        },
+        "clouds": {
+            "all": 33
+        },
+        "dt": 1791964403,
+        "sys": {
+            "country": "PH",
+            "sunrise": 1791928016,
+            "sunset": 1791970627
+        },
+        "timezone": 28800,
+        "id": 1692184,
+        "name": "Quiapo District",
+        "cod": 200,
+        "city": "Manila",
+        "source": "openweather",
+        "observation_time": "2026-10-14T07:53:23+00:00"
+    },
+    {
+        "coord": {
+            "lon": 120.9776,
+            "lat": 14.5982
+        },
+        "weather": [
+            {
+                "id": 802,
+                "main": "Clouds",
+                "description": "scattered clouds",
+                "icon": "03d"
+            }
+        ],
+        "base": "stations",
+        "main": {
+            "temp": 31.2,
+            "feels_like": 37.83,
+            "temp_min": 31.2,
+            "temp_max": 31.2,
+            "pressure": 1010,
+            "humidity": 69,
+            "sea_level": 1010,
+            "grnd_level": 1013
+        },
+        "visibility": 10000,
+        "wind": {
+            "speed": 3.94,
+            "deg": 97,
+            "gust": 4.38
+        },
+        "clouds": {
+            "all": 36
+        },
+        "dt": 1791968008,
+        "sys": {
+            "country": "PH",
+            "sunrise": 1791928017,
+            "sunset": 1791970628
+        },
+        "timezone": 28800,
+        "id": 1692184,
+        "name": "Quiapo District",
+        "cod": 200,
+        "city": "Manila",
+        "source": "openweather",
+        "observation_time": "2026-10-14T08:53:28+00:00"
+    },
+    {
+        "coord": {
+            "lon": 120.9842,
+            "lat": 14.5995
+        },
+        "weather": [
+            {
+                "id": 802,
+                "main": "Clouds",
+                "description": "scattered clouds",
+                "icon": "03n"
+            }
+        ],
+        "base": "stations",
+        "main": {
+            "temp": 29.91,
+            "feels_like": 34.59,
+            "temp_min": 29.91,
+            "temp_max": 29.91,
+            "pressure": 1011,
+            "humidity": 69,
+            "sea_level": 1011,
+            "grnd_level": 1014
+        },
+        "visibility": 10000,
+        "wind": {
+            "speed": 4.1,
+            "deg": 103,
+            "gust": 5.02
+        },
+        "clouds": {
+            "all": 35
+        },
+        "dt": 1791973770,
+        "sys": {
+            "country": "PH",
+            "sunrise": 1791928016,
+            "sunset": 1791970627
+        },
+        "timezone": 28800,
+        "id": 1701668,
+        "name": "Manila",
+        "cod": 200,
+        "city": "Manila",
+        "source": "openweather",
+        "observation_time": "2026-10-14T10:29:30+00:00"
+    },
+    {
+        "coord": {
+            "lon": 120.9842,
+            "lat": 14.5995
+        },
+        "weather": [
+            {
+                "id": 802,
+                "main": "Clouds",
+                "description": "scattered clouds",
+                "icon": "03n"
+            }
+        ],
+        "base": "stations",
+        "main": {
+            "temp": 27.94,
+            "feels_like": 30.55,
+            "temp_min": 27.94,
+            "temp_max": 27.94,
+            "pressure": 1013,
+            "humidity": 70,
+            "sea_level": 1013,
+            "grnd_level": 1016
+        },
+        "visibility": 10000,
+        "wind": {
+            "speed": 3.8,
+            "deg": 96,
+            "gust": 3.95
+        },
+        "clouds": {
+            "all": 25
+        },
+        "dt": 1791977847,
+        "sys": {
+            "country": "PH",
+            "sunrise": 1791928016,
+            "sunset": 1791970627
+        },
+        "timezone": 28800,
+        "id": 1692184,
+        "name": "Quiapo District",
+        "cod": 200,
+        "city": "Manila",
+        "source": "openweather",
+        "observation_time": "2026-10-14T11:37:27+00:00"
+    },
+    {
+        "coord": {
+            "lon": 120.9842,
+            "lat": 14.5995
+        },
+        "weather": [
+            {
+                "id": 802,
+                "main": "Clouds",
+                "description": "scattered clouds",
+                "icon": "03n"
+            }
+        ],
+        "base": "stations",
+        "main": {
+            "temp": 27.94,
+            "feels_like": 30.68,
+            "temp_min": 27.94,
+            "temp_max": 27.94,
+            "pressure": 1013,
+            "humidity": 71,
+            "sea_level": 1013,
+            "grnd_level": 1016
+        },
+        "visibility": 10000,
+        "wind": {
+            "speed": 3.8,
+            "deg": 96,
+            "gust": 3.95
+        },
+        "clouds": {
+            "all": 25
+        },
+        "dt": 1791978592,
+        "sys": {
+            "country": "PH",
+            "sunrise": 1791928016,
+            "sunset": 1791970627
+        },
+        "timezone": 28800,
+        "id": 1692184,
+        "name": "Quiapo District",
+        "cod": 200,
+        "city": "Manila",
+        "source": "openweather",
+        "observation_time": "2026-10-14T11:49:52+00:00"
+    },
+    {
+        "coord": {
+            "lon": 120.9842,
+            "lat": 14.5995
+        },
+        "weather": [
+            {
+                "id": 800,
+                "main": "Clear",
+                "description": "clear sky",
+                "icon": "01n"
+            }
+        ],
+        "base": "stations",
+        "main": {
+            "temp": 27.69,
+            "feels_like": 30.56,
+            "temp_min": 27.69,
+            "temp_max": 27.69,
+            "pressure": 1013,
+            "humidity": 74,
+            "sea_level": 1013,
+            "grnd_level": 1016
+        },
+        "visibility": 10000,
+        "wind": {
+            "speed": 3.54,
+            "deg": 98,
+            "gust": 3.75
+        },
+        "clouds": {
+            "all": 8
+        },
+        "dt": 1791982809,
+        "sys": {
+            "country": "PH",
+            "sunrise": 1791928016,
+            "sunset": 1791970627
+        },
+        "timezone": 28800,
+        "id": 1692184,
+        "name": "Quiapo District",
+        "cod": 200,
+        "city": "Manila",
+        "source": "openweather",
+        "observation_time": "2026-10-14T13:00:09+00:00"
+    },
+    {
+        "coord": {
+            "lon": 120.9842,
+            "lat": 14.5995
+        },
+        "weather": [
+            {
+                "id": 800,
+                "main": "Clear",
+                "description": "clear sky",
+                "icon": "01d"
+            }
+        ],
+        "base": "stations",
+        "main": {
+            "temp": 30.55,
+            "feels_like": 34.61,
+            "temp_min": 30.55,
+            "temp_max": 30.55,
+            "pressure": 1013,
+            "humidity": 63,
+            "sea_level": 1013,
+            "grnd_level": 1016
+        },
+        "visibility": 10000,
+        "wind": {
+            "speed": 2.34,
+            "deg": 90,
+            "gust": 3.3
+        },
+        "clouds": {
+            "all": 8
+        },
+        "dt": 1792028401,
+        "sys": {
+            "country": "PH",
+            "sunrise": 1792014425,
+            "sunset": 1792056989
+        },
+        "timezone": 28800,
+        "id": 1701668,
+        "name": "Manila",
+        "cod": 200,
+        "city": "Manila",
+        "source": "openweather",
+        "observation_time": "2026-10-15T01:40:01+00:00"
+    },
+    {
+        "coord": {
+            "lon": 120.9842,
+            "lat": 14.5995
+        },
+        "weather": [
+            {
+                "id": 800,
+                "main": "Clear",
+                "description": "clear sky",
+                "icon": "01d"
+            }
+        ],
+        "base": "stations",
+        "main": {
+            "temp": 30.59,
+            "feels_like": 34.7,
+            "temp_min": 30.59,
+            "temp_max": 30.59,
+            "pressure": 1013,
+            "humidity": 63,
+            "sea_level": 1013,
+            "grnd_level": 1016
+        },
+        "visibility": 10000,
+        "wind": {
+            "speed": 2.34,
+            "deg": 90,
+            "gust": 3.3
+        },
+        "clouds": {
+            "all": 8
+        },
+        "dt": 1792029132,
+        "sys": {
+            "country": "PH",
+            "sunrise": 1792014425,
+            "sunset": 1792056989
+        },
+        "timezone": 28800,
+        "id": 1701668,
+        "name": "Manila",
+        "cod": 200,
+        "city": "Manila",
+        "source": "openweather",
+        "observation_time": "2026-10-15T01:52:12+00:00"
+    },
+    {
+        "coord": {
+            "lon": 120.9842,
+            "lat": 14.5995
+        },
+        "weather": [
+            {
+                "id": 803,
+                "main": "Clouds",
+                "description": "broken clouds",
+                "icon": "04d"
+            }
+        ],
+        "base": "stations",
+        "main": {
+            "temp": 31.74,
+            "feels_like": 37.06,
+            "temp_min": 31.74,
+            "temp_max": 31.74,
+            "pressure": 1013,
+            "humidity": 62,
+            "sea_level": 1013,
+            "grnd_level": 1016
+        },
+        "visibility": 10000,
+        "wind": {
+            "speed": 1.63,
+            "deg": 71,
+            "gust": 3.63
+        },
+        "clouds": {
+            "all": 75
+        },
+        "dt": 1792205625,
+        "sys": {
+            "country": "PH",
+            "sunrise": 1792187246,
+            "sunset": 1792229716
+        },
+        "timezone": 28800,
+        "id": 1692184,
+        "name": "Quiapo District",
+        "cod": 200,
+        "city": "Manila",
+        "source": "openweather",
+        "observation_time": "2026-10-17T02:53:45+00:00"
     }
 ]

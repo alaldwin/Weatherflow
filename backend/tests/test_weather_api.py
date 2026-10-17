@@ -2,16 +2,15 @@ from contextlib import contextmanager
 from datetime import date, datetime
 
 import pytest
-from fastapi.testclient import TestClient
-from sqlalchemy.exc import SQLAlchemyError
-
-from app.main import app
 from app.api.routes import (
+    city_comparison,
     current_weather,
     daily_weather,
     trends,
-    city_comparison,
 )
+from app.main import app
+from fastapi.testclient import TestClient
+from sqlalchemy.exc import SQLAlchemyError
 
 client = TestClient(app)
 

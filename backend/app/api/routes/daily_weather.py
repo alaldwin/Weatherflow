@@ -6,15 +6,13 @@ from sqlalchemy import text
 from sqlalchemy.exc import SQLAlchemyError
 
 from app.api.dependencies import (
-    WeatherDateFilters,
     PaginationQuery,
     get_date_filters,
     get_pagination,
 )
-
-from app.db.session import engine
-from app.schemas.weather import DailyWeatherResponse
 from app.core.logging_config import get_logger
+from app.db.session import engine
+from app.schemas.weather import DailyWeatherResponse, DateFilters
 
 logger = get_logger(__name__, "daily_weather.log")
 
@@ -39,8 +37,11 @@ router = APIRouter(
         503: {"description": "The database is unavailable."},
     },
 )
+
+
+
 def get_daily_weather(
-    filters: Annotated[WeatherDateFilters, Depends(get_date_filters)],
+    filters: Annotated[DateFilters, Depends(get_date_filters)],
     pagination: Annotated[PaginationQuery, Depends(get_pagination)],
 ):
     limit = pagination.limit
@@ -146,7 +147,7 @@ def get_daily_weather(
             )
 
         return {
-            "count": len(rows),
+            "count": len(data),
             "filters": {
                 "city": filters.city,
                 "start_date": filters.start_date,
@@ -166,9 +167,12 @@ def get_daily_weather(
             limit,
             offset,
         )
-        logger.exception("Failed to retrieve daily weather data")
+         
         raise HTTPException(
             status_code=503,
-            detail="Unable to retrieve daily weather data.",
+            detail={
+                "code": "SERVICE_UNAVAILABLE",
+                "message": "Unable to retrieve daily weather data.",
+            },
         )
 

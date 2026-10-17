@@ -2,21 +2,19 @@
 import time
 import uuid
 
-from fastapi import FastAPI, HTTPException
+from fastapi import FastAPI, HTTPException, Request
+from fastapi.exceptions import RequestValidationError
 from fastapi.responses import JSONResponse
 from sqlalchemy.exc import SQLAlchemyError
 
-from app.db.session import check_database_connection
-
+from app.api.routes.city_comparison import router as city_comparison_router
 from app.api.routes.current_weather import router as current_weather_router
 from app.api.routes.daily_weather import router as daily_weather_router
 from app.api.routes.trends import router as trends_router
-from app.api.routes.city_comparison import router as city_comparison_router
+from app.core.logging_config import config_logging, get_logger
+from app.db.session import check_database_connection
 
-from app.core.logging_config import get_logger
-
-
-
+config_logging()
 logger = get_logger(__name__, "backend_name.log")
 
 
@@ -84,13 +82,42 @@ async def log_requests(request: Request, call_next):
 
     # Store the request ID for correlation with other logs.
     request.state.request_id = request_id
+    request.state.request_started_at = start_time
 
-    logger.debug(
-        "Incoming HTTP request | request_id=%s | method=%s | path=%s",
-        request_id,
-        request.method,
-        request.url.path,
+    logger.info(
+        "http_request_started",
+        extra={
+            "request_id": request_id,
+            "method": request.method,
+            "path": request.url.path,
+        },
     )
+
+    response = await call_next(request)
+
+    duration_ms = round(
+        (time.perf_counter() - start_time) * 1000,
+        2,
+    )
+
+    response.headers["X-Request-ID"] = request_id
+
+    log_data = {
+        "request_id": request_id,
+        "method": request.method,
+        "path": request.url.path,
+        "status_code": response.status_code,
+        "duration_ms": duration_ms,
+    }
+
+    if response.status_code >= 500:
+        logger.error("http_request_completed", extra=log_data)
+    elif response.status_code >= 400:
+        logger.warning("http_request_completed", extra=log_data)
+    else:
+        logger.info("http_request_completed", extra=log_data)
+
+    return response
 
     try:
         response = await call_next(request)
@@ -145,7 +172,96 @@ async def log_requests(request: Request, call_next):
 
 
 
-# Global exception handler
+# Standardized HTTP exception handler
+@app.exception_handler(HTTPException)
+async def http_exception_handler(
+    request: Request,
+    exc: HTTPException,
+):
+    request_id = getattr(request.state, "request_id", "unknown")
+
+    error_codes = {
+        400: "BAD_REQUEST",
+        401: "UNAUTHORIZED",
+        403: "FORBIDDEN",
+        404: "NOT_FOUND",
+        405: "METHOD_NOT_ALLOWED",
+        409: "CONFLICT",
+        422: "VALIDATION_ERROR",
+        429: "TOO_MANY_REQUESTS",
+        503: "SERVICE_UNAVAILABLE",
+    }
+
+    if isinstance(exc.detail, dict):
+        message = exc.detail.get("message", "The request could not be completed.")
+        code = exc.detail.get("code", error_codes.get(exc.status_code, "HTTP_ERROR"))
+    elif isinstance(exc.detail, str):
+        message = exc.detail
+        code = error_codes.get(exc.status_code, "HTTP_ERROR")
+    else:
+        message = "The request could not be completed."
+        code = error_codes.get(exc.status_code, "HTTP_ERROR")
+
+    return JSONResponse(
+        status_code=exc.status_code,
+        headers={
+            **(exc.headers or {}),
+            "X-Request-ID": request_id,
+        },
+        content={
+            "error": {
+                "code": code,
+                "message": message,
+            },
+            "request_id": request_id,
+        },
+    )
+
+
+
+# Standardized request validation handler
+@app.exception_handler(RequestValidationError)
+async def validation_exception_handler(
+    request: Request,
+    exc: RequestValidationError,
+):
+    request_id = getattr(request.state, "request_id", "unknown")
+
+    errors = [
+        {
+            "field": ".".join(str(part) for part in error["loc"]),
+            "message": error["msg"],
+            "type": error["type"],
+        }
+        for error in exc.errors()
+    ]
+
+    logger.warning(
+        "request_validation_failed",
+        extra={
+            "request_id": request_id,
+            "method": request.method,
+            "path": request.url.path,
+            "status_code": 422,
+        },
+    )
+
+    return JSONResponse(
+        status_code=422,
+        headers={"X-Request-ID": request_id},
+        content={
+            "error": {
+                "code": "VALIDATION_ERROR",
+                "message": "The request contains invalid parameters or data.",
+                "details": errors,
+            },
+            "request_id": request_id,
+        },
+    )
+
+
+
+# Standardized unexpected exception handler
 @app.exception_handler(Exception)
 async def unexpected_error_handler(
     request: Request,
@@ -153,27 +269,42 @@ async def unexpected_error_handler(
 ):
     request_id = getattr(request.state, "request_id", "unknown")
 
-    logger.exception(
-        "Unexpected application error | request_id=%s | "
-        "method=%s | path=%s",
-        request_id,
-        request.method,
-        request.url.path,
+    start_time = getattr(
+        request.state,
+        "request_started_at",
+        time.perf_counter(),
+    )
+
+    duration_ms = round(
+        (time.perf_counter() - start_time) * 1000,
+        2,
+    )
+
+    logger.error(
+        "http_request_failed",
+        extra={
+            "request_id": request_id,
+            "method": request.method,
+            "path": request.url.path,
+            "status_code": 500,
+            "duration_ms": duration_ms,
+        },
         exc_info=(type(exc), exc, exc.__traceback__),
     )
 
     return JSONResponse(
         status_code=500,
+        headers={"X-Request-ID": request_id},
         content={
             "error": {
                 "code": "INTERNAL_SERVER_ERROR",
                 "message": "An unexpected server error occurred.",
-            }
+            },
+            "request_id": request_id,
         },
     )
 
-
-
+ 
 # Root endpoint
 @app.get("/", tags=["General"])
 def root():
@@ -192,6 +323,7 @@ def root():
 
 # Application health check
 @app.get(
+    "/health",
     tags=["Health"],
     summary="Check API health",
     description="Confirms that the FastAPI application is responding.",
@@ -231,11 +363,12 @@ def database_health_check():
 
     except SQLAlchemyError:
         logger.exception("Database health check failed")
+
         raise HTTPException(
             status_code=503,
             detail={
-                "status": "unhealthy",
-                "database": "unavailable",
+                "code": "DATABASE_UNAVAILABLE",
+                "message": "The database is currently unavailable.",
             },
         )
 

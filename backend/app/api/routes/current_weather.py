@@ -3,10 +3,9 @@ from fastapi import APIRouter, HTTPException, Query
 from sqlalchemy import text
 from sqlalchemy.exc import SQLAlchemyError
 
+from app.core.logging_config import get_logger
 from app.db.session import engine
 from app.schemas.weather import CurrentWeather, CurrentWeatherListResponse
-from app.core.logging_config import get_logger
-
 
 logger = get_logger(__name__, "current_weather.log")
 
@@ -224,5 +223,8 @@ def get_current_weather_by_city(city: str):
         )
         raise HTTPException(
             status_code=503,
-            detail="Unable to retrieve current weather data.",
+            detail={
+                "code": "SERVICE_UNAVAILABLE",
+                "message": "Unable to retrieve current weather data.",
+            },
         )

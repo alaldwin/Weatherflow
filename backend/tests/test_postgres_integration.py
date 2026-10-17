@@ -1,10 +1,11 @@
 
-import pytest
-from fastapi.testclient import TestClient
-from sqlalchemy import text
 
+import pytest
 from app.db.session import engine
 from app.main import app
+from fastapi.testclient import TestClient
+from sqlalchemy import text
+from sqlalchemy.exc import SQLAlchemyError
 
 client = TestClient(app)
 
@@ -15,14 +16,10 @@ def verify_postgres_connection():
     try:
         with engine.connect() as connection:
             connection.execute(text("SELECT 1"))
-    except Exception as exc:
+    except SQLAlchemyError as exc:
         pytest.fail(
             "PostgreSQL integration tests require a working database "
-            "connection. Check POSTGRES_HOST, POSTGRES_PORT, "
-            "POSTGRES_DB, POSTGRES_USER, and POSTGRES_PASSWORD "
-            "in your .env file. "
-            f"Error: {type(exc).__name__}: {exc}",
-            pytrace=False,
+            f"connection: {exc}"
         )
 
 

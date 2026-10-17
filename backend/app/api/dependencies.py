@@ -5,11 +5,7 @@ from typing import Annotated
 from fastapi import HTTPException, Query
 from pydantic import BaseModel, Field
 
-
-class WeatherDateFilters(BaseModel):
-    city: str | None = None
-    start_date: date | None = None
-    end_date: date | None = None
+from app.schemas.weather import DateFilters
 
 
 class PaginationQuery(BaseModel):
@@ -21,7 +17,7 @@ def get_date_filters(
     city: Annotated[str | None, Query(min_length=1, max_length=100)] = None,
     start_date: Annotated[date | None, Query()] = None,
     end_date: Annotated[date | None, Query()] = None,
-) -> WeatherDateFilters:
+) -> DateFilters:
 
     if start_date and end_date and start_date > end_date:
         raise HTTPException(
@@ -29,7 +25,7 @@ def get_date_filters(
             detail="start_date must be on or before end_date",
         )
 
-    return WeatherDateFilters(
+    return DateFilters(
         city=city.strip() if city else None,
         start_date=start_date,
         end_date=end_date,
@@ -44,3 +40,4 @@ def get_pagination(
         limit=limit,
         offset=offset,
     )
+

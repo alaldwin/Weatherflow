@@ -1,21 +1,18 @@
 
 from typing import Annotated
 
-from fastapi import APIRouter, HTTPException, Query
+from fastapi import APIRouter, Depends, HTTPException
 from sqlalchemy import text
 from sqlalchemy.exc import SQLAlchemyError
 
-from app.db.session import engine
-from app.schemas.weather import WeatherTrendsResponse
 from app.api.dependencies import (
-    WeatherDateFilters,
     PaginationQuery,
     get_date_filters,
     get_pagination,
 )
-
 from app.core.logging_config import get_logger
-
+from app.db.session import engine
+from app.schemas.weather import DateFilters, WeatherTrendsResponse
 
 logger = get_logger(__name__, "weather_trends.log")
 
@@ -41,7 +38,7 @@ router = APIRouter(
     },
 )
 def get_weather_trends(
-    filters: Annotated[WeatherDateFilters, Depends(get_date_filters)],
+    filters: Annotated[DateFilters, Depends(get_date_filters)],
     pagination: Annotated[PaginationQuery, Depends(get_pagination)],
 ):
     limit = pagination.limit
@@ -178,5 +175,8 @@ def get_weather_trends(
         )
         raise HTTPException(
             status_code=503,
-            detail="Unable to retrieve weather trends.",
-        ) from exc
+            detail={
+                "code": "SERVICE_UNAVAILABLE",
+                "message": "Unable to retrieve weather trends.",
+            },
+        ) from exc 

@@ -81,6 +81,17 @@ case "$MODE" in
         fi
         ;;
 
+        request_logging)
+        echo "Running Request logging tests..."
+
+        if [[ -f tests/test_request_logging.py ]]; then
+            uv run pytest backend/tests/test_request_logging.py -v 
+        else
+            echo "ERROR: backend/tests/test_request_logging.py was not found." >&2
+            exit 2
+        fi
+        ;;
+
     # measure test coverage
     coverage)
         echo "Running backend tests with coverage..."
