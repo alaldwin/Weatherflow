@@ -1716,5 +1716,1328 @@
         "city": "Cagayan de Oro",
         "source": "openweather",
         "observation_time": "2026-10-11T08:00:14+00:00"
+    },
+    {
+        "coord": {
+            "lon": 124.6319,
+            "lat": 8.4542
+        },
+        "weather": [
+            {
+                "id": 804,
+                "main": "Clouds",
+                "description": "overcast clouds",
+                "icon": "04d"
+            }
+        ],
+        "base": "stations",
+        "main": {
+            "temp": 26.21,
+            "feels_like": 26.21,
+            "temp_min": 26.21,
+            "temp_max": 26.21,
+            "pressure": 1010,
+            "humidity": 91,
+            "sea_level": 1010,
+            "grnd_level": 994
+        },
+        "visibility": 10000,
+        "wind": {
+            "speed": 1.9,
+            "deg": 138,
+            "gust": 2.08
+        },
+        "clouds": {
+            "all": 99
+        },
+        "dt": 1791708774,
+        "sys": {
+            "country": "PH",
+            "sunrise": 1791667734,
+            "sunset": 1791710848
+        },
+        "timezone": 28800,
+        "id": 1721080,
+        "name": "Cagayan de Oro",
+        "cod": 200,
+        "city": "Cagayan de Oro",
+        "source": "openweather",
+        "observation_time": "2026-10-11T08:52:54+00:00"
+    },
+    {
+        "coord": {
+            "lon": 124.6319,
+            "lat": 8.4542
+        },
+        "weather": [
+            {
+                "id": 501,
+                "main": "Rain",
+                "description": "moderate rain",
+                "icon": "10n"
+            }
+        ],
+        "base": "stations",
+        "main": {
+            "temp": 27.58,
+            "feels_like": 31.74,
+            "temp_min": 27.58,
+            "temp_max": 27.58,
+            "pressure": 1011,
+            "humidity": 85,
+            "sea_level": 1011,
+            "grnd_level": 995
+        },
+        "visibility": 10000,
+        "wind": {
+            "speed": 1.17,
+            "deg": 43,
+            "gust": 1.41
+        },
+        "rain": {
+            "1h": 1.42
+        },
+        "clouds": {
+            "all": 97
+        },
+        "dt": 1791797391,
+        "sys": {
+            "country": "PH",
+            "sunrise": 1791754132,
+            "sunset": 1791797219
+        },
+        "timezone": 28800,
+        "id": 1721080,
+        "name": "Cagayan de Oro",
+        "cod": 200,
+        "city": "Cagayan de Oro",
+        "source": "openweather",
+        "observation_time": "2026-10-12T09:29:51+00:00"
+    },
+    {
+        "coord": {
+            "lon": 124.6319,
+            "lat": 8.4542
+        },
+        "weather": [
+            {
+                "id": 500,
+                "main": "Rain",
+                "description": "light rain",
+                "icon": "10n"
+            }
+        ],
+        "base": "stations",
+        "main": {
+            "temp": 26.64,
+            "feels_like": 26.64,
+            "temp_min": 26.64,
+            "temp_max": 26.64,
+            "pressure": 1012,
+            "humidity": 86,
+            "sea_level": 1012,
+            "grnd_level": 995
+        },
+        "visibility": 10000,
+        "wind": {
+            "speed": 0.7,
+            "deg": 82,
+            "gust": 0.91
+        },
+        "rain": {
+            "1h": 0.74
+        },
+        "clouds": {
+            "all": 99
+        },
+        "dt": 1791798049,
+        "sys": {
+            "country": "PH",
+            "sunrise": 1791754132,
+            "sunset": 1791797219
+        },
+        "timezone": 28800,
+        "id": 1721080,
+        "name": "Cagayan de Oro",
+        "cod": 200,
+        "city": "Cagayan de Oro",
+        "source": "openweather",
+        "observation_time": "2026-10-12T09:40:49+00:00"
+    },
+    {
+        "coord": {
+            "lon": 124.6319,
+            "lat": 8.4542
+        },
+        "weather": [
+            {
+                "id": 500,
+                "main": "Rain",
+                "description": "light rain",
+                "icon": "10n"
+            }
+        ],
+        "base": "stations",
+        "main": {
+            "temp": 26.61,
+            "feels_like": 26.61,
+            "temp_min": 26.61,
+            "temp_max": 26.61,
+            "pressure": 1012,
+            "humidity": 86,
+            "sea_level": 1012,
+            "grnd_level": 995
+        },
+        "visibility": 10000,
+        "wind": {
+            "speed": 0.7,
+            "deg": 82,
+            "gust": 0.91
+        },
+        "rain": {
+            "1h": 0.74
+        },
+        "clouds": {
+            "all": 99
+        },
+        "dt": 1791799212,
+        "sys": {
+            "country": "PH",
+            "sunrise": 1791754132,
+            "sunset": 1791797219
+        },
+        "timezone": 28800,
+        "id": 1721080,
+        "name": "Cagayan de Oro",
+        "cod": 200,
+        "city": "Cagayan de Oro",
+        "source": "openweather",
+        "observation_time": "2026-10-12T10:00:12+00:00"
+    },
+    {
+        "coord": {
+            "lon": 124.6319,
+            "lat": 8.4542
+        },
+        "weather": [
+            {
+                "id": 500,
+                "main": "Rain",
+                "description": "light rain",
+                "icon": "10n"
+            }
+        ],
+        "base": "stations",
+        "main": {
+            "temp": 26.31,
+            "feels_like": 26.31,
+            "temp_min": 26.31,
+            "temp_max": 26.31,
+            "pressure": 1013,
+            "humidity": 87,
+            "sea_level": 1013,
+            "grnd_level": 996
+        },
+        "visibility": 10000,
+        "wind": {
+            "speed": 0.9,
+            "deg": 141,
+            "gust": 0.84
+        },
+        "rain": {
+            "1h": 0.69
+        },
+        "clouds": {
+            "all": 99
+        },
+        "dt": 1791802814,
+        "sys": {
+            "country": "PH",
+            "sunrise": 1791754132,
+            "sunset": 1791797219
+        },
+        "timezone": 28800,
+        "id": 1721080,
+        "name": "Cagayan de Oro",
+        "cod": 200,
+        "city": "Cagayan de Oro",
+        "source": "openweather",
+        "observation_time": "2026-10-12T11:00:14+00:00"
+    },
+    {
+        "coord": {
+            "lon": 124.6319,
+            "lat": 8.4542
+        },
+        "weather": [
+            {
+                "id": 802,
+                "main": "Clouds",
+                "description": "scattered clouds",
+                "icon": "03d"
+            }
+        ],
+        "base": "stations",
+        "main": {
+            "temp": 28.8,
+            "feels_like": 33.02,
+            "temp_min": 28.8,
+            "temp_max": 28.8,
+            "pressure": 1014,
+            "humidity": 74,
+            "sea_level": 1014,
+            "grnd_level": 998
+        },
+        "visibility": 10000,
+        "wind": {
+            "speed": 0.73,
+            "deg": 149,
+            "gust": 0.7
+        },
+        "clouds": {
+            "all": 37
+        },
+        "dt": 1791851289,
+        "sys": {
+            "country": "PH",
+            "sunrise": 1791840530,
+            "sunset": 1791883591
+        },
+        "timezone": 28800,
+        "id": 1721080,
+        "name": "Cagayan de Oro",
+        "cod": 200,
+        "city": "Cagayan de Oro",
+        "source": "openweather",
+        "observation_time": "2026-10-13T00:28:09+00:00"
+    },
+    {
+        "coord": {
+            "lon": 124.6319,
+            "lat": 8.4542
+        },
+        "weather": [
+            {
+                "id": 500,
+                "main": "Rain",
+                "description": "light rain",
+                "icon": "10n"
+            }
+        ],
+        "base": "stations",
+        "main": {
+            "temp": 25.59,
+            "feels_like": 26.48,
+            "temp_min": 25.59,
+            "temp_max": 25.59,
+            "pressure": 1013,
+            "humidity": 87,
+            "sea_level": 1013,
+            "grnd_level": 997
+        },
+        "visibility": 7968,
+        "wind": {
+            "speed": 1.78,
+            "deg": 153,
+            "gust": 1.7
+        },
+        "rain": {
+            "1h": 0.56
+        },
+        "clouds": {
+            "all": 66
+        },
+        "dt": 1791888536,
+        "sys": {
+            "country": "PH",
+            "sunrise": 1791840530,
+            "sunset": 1791883591
+        },
+        "timezone": 28800,
+        "id": 1721080,
+        "name": "Cagayan de Oro",
+        "cod": 200,
+        "city": "Cagayan de Oro",
+        "source": "openweather",
+        "observation_time": "2026-10-13T10:48:56+00:00"
+    },
+    {
+        "coord": {
+            "lon": 124.6319,
+            "lat": 8.4542
+        },
+        "weather": [
+            {
+                "id": 500,
+                "main": "Rain",
+                "description": "light rain",
+                "icon": "10n"
+            }
+        ],
+        "base": "stations",
+        "main": {
+            "temp": 25.59,
+            "feels_like": 26.48,
+            "temp_min": 25.59,
+            "temp_max": 25.59,
+            "pressure": 1013,
+            "humidity": 87,
+            "sea_level": 1013,
+            "grnd_level": 997
+        },
+        "visibility": 7968,
+        "wind": {
+            "speed": 1.78,
+            "deg": 153,
+            "gust": 1.7
+        },
+        "rain": {
+            "1h": 0.56
+        },
+        "clouds": {
+            "all": 66
+        },
+        "dt": 1791889209,
+        "sys": {
+            "country": "PH",
+            "sunrise": 1791840530,
+            "sunset": 1791883591
+        },
+        "timezone": 28800,
+        "id": 1721080,
+        "name": "Cagayan de Oro",
+        "cod": 200,
+        "city": "Cagayan de Oro",
+        "source": "openweather",
+        "observation_time": "2026-10-13T11:00:09+00:00"
+    },
+    {
+        "coord": {
+            "lon": 124.6319,
+            "lat": 8.4542
+        },
+        "weather": [
+            {
+                "id": 500,
+                "main": "Rain",
+                "description": "light rain",
+                "icon": "10n"
+            }
+        ],
+        "base": "stations",
+        "main": {
+            "temp": 25.29,
+            "feels_like": 26.22,
+            "temp_min": 25.29,
+            "temp_max": 25.29,
+            "pressure": 1014,
+            "humidity": 90,
+            "sea_level": 1014,
+            "grnd_level": 997
+        },
+        "visibility": 10000,
+        "wind": {
+            "speed": 1.86,
+            "deg": 165,
+            "gust": 1.94
+        },
+        "rain": {
+            "1h": 0.15
+        },
+        "clouds": {
+            "all": 62
+        },
+        "dt": 1791892813,
+        "sys": {
+            "country": "PH",
+            "sunrise": 1791840530,
+            "sunset": 1791883591
+        },
+        "timezone": 28800,
+        "id": 1721080,
+        "name": "Cagayan de Oro",
+        "cod": 200,
+        "city": "Cagayan de Oro",
+        "source": "openweather",
+        "observation_time": "2026-10-13T12:00:13+00:00"
+    },
+    {
+        "coord": {
+            "lon": 124.6319,
+            "lat": 8.4542
+        },
+        "weather": [
+            {
+                "id": 804,
+                "main": "Clouds",
+                "description": "overcast clouds",
+                "icon": "04d"
+            }
+        ],
+        "base": "stations",
+        "main": {
+            "temp": 29.82,
+            "feels_like": 33.71,
+            "temp_min": 29.82,
+            "temp_max": 29.82,
+            "pressure": 1013,
+            "humidity": 66,
+            "sea_level": 1013,
+            "grnd_level": 997
+        },
+        "visibility": 10000,
+        "wind": {
+            "speed": 1.02,
+            "deg": 341,
+            "gust": 0.74
+        },
+        "clouds": {
+            "all": 100
+        },
+        "dt": 1791937920,
+        "sys": {
+            "country": "PH",
+            "sunrise": 1791926929,
+            "sunset": 1791969963
+        },
+        "timezone": 28800,
+        "id": 1721080,
+        "name": "Cagayan de Oro",
+        "cod": 200,
+        "city": "Cagayan de Oro",
+        "source": "openweather",
+        "observation_time": "2026-10-14T00:32:00+00:00"
+    },
+    {
+        "coord": {
+            "lon": 124.6319,
+            "lat": 8.4542
+        },
+        "weather": [
+            {
+                "id": 804,
+                "main": "Clouds",
+                "description": "overcast clouds",
+                "icon": "04d"
+            }
+        ],
+        "base": "stations",
+        "main": {
+            "temp": 30.17,
+            "feels_like": 34.02,
+            "temp_min": 30.17,
+            "temp_max": 30.17,
+            "pressure": 1013,
+            "humidity": 64,
+            "sea_level": 1013,
+            "grnd_level": 997
+        },
+        "visibility": 10000,
+        "wind": {
+            "speed": 1.02,
+            "deg": 341,
+            "gust": 0.74
+        },
+        "clouds": {
+            "all": 100
+        },
+        "dt": 1791939611,
+        "sys": {
+            "country": "PH",
+            "sunrise": 1791926929,
+            "sunset": 1791969963
+        },
+        "timezone": 28800,
+        "id": 1721080,
+        "name": "Cagayan de Oro",
+        "cod": 200,
+        "city": "Cagayan de Oro",
+        "source": "openweather",
+        "observation_time": "2026-10-14T01:00:11+00:00"
+    },
+    {
+        "coord": {
+            "lon": 124.6319,
+            "lat": 8.4542
+        },
+        "weather": [
+            {
+                "id": 804,
+                "main": "Clouds",
+                "description": "overcast clouds",
+                "icon": "04d"
+            }
+        ],
+        "base": "stations",
+        "main": {
+            "temp": 30.91,
+            "feels_like": 34.9,
+            "temp_min": 30.91,
+            "temp_max": 30.91,
+            "pressure": 1013,
+            "humidity": 61,
+            "sea_level": 1013,
+            "grnd_level": 996
+        },
+        "visibility": 10000,
+        "wind": {
+            "speed": 2.51,
+            "deg": 348,
+            "gust": 1.83
+        },
+        "clouds": {
+            "all": 100
+        },
+        "dt": 1791943214,
+        "sys": {
+            "country": "PH",
+            "sunrise": 1791926929,
+            "sunset": 1791969963
+        },
+        "timezone": 28800,
+        "id": 1721080,
+        "name": "Cagayan de Oro",
+        "cod": 200,
+        "city": "Cagayan de Oro",
+        "source": "openweather",
+        "observation_time": "2026-10-14T02:00:14+00:00"
+    },
+    {
+        "coord": {
+            "lon": 124.6319,
+            "lat": 8.4542
+        },
+        "weather": [
+            {
+                "id": 500,
+                "main": "Rain",
+                "description": "light rain",
+                "icon": "10d"
+            }
+        ],
+        "base": "stations",
+        "main": {
+            "temp": 30.68,
+            "feels_like": 35.93,
+            "temp_min": 30.68,
+            "temp_max": 30.68,
+            "pressure": 1012,
+            "humidity": 67,
+            "sea_level": 1012,
+            "grnd_level": 995
+        },
+        "visibility": 6408,
+        "wind": {
+            "speed": 3.66,
+            "deg": 351,
+            "gust": 2.61
+        },
+        "rain": {
+            "1h": 0.39
+        },
+        "clouds": {
+            "all": 100
+        },
+        "dt": 1791946812,
+        "sys": {
+            "country": "PH",
+            "sunrise": 1791926929,
+            "sunset": 1791969963
+        },
+        "timezone": 28800,
+        "id": 1721080,
+        "name": "Cagayan de Oro",
+        "cod": 200,
+        "city": "Cagayan de Oro",
+        "source": "openweather",
+        "observation_time": "2026-10-14T03:00:12+00:00"
+    },
+    {
+        "coord": {
+            "lon": 124.6319,
+            "lat": 8.4542
+        },
+        "weather": [
+            {
+                "id": 501,
+                "main": "Rain",
+                "description": "moderate rain",
+                "icon": "10d"
+            }
+        ],
+        "base": "stations",
+        "main": {
+            "temp": 29.98,
+            "feels_like": 35.48,
+            "temp_min": 29.98,
+            "temp_max": 29.98,
+            "pressure": 1011,
+            "humidity": 72,
+            "sea_level": 1011,
+            "grnd_level": 995
+        },
+        "visibility": 5695,
+        "wind": {
+            "speed": 3.6,
+            "deg": 345,
+            "gust": 3.03
+        },
+        "rain": {
+            "1h": 1.26
+        },
+        "clouds": {
+            "all": 100
+        },
+        "dt": 1791950412,
+        "sys": {
+            "country": "PH",
+            "sunrise": 1791926929,
+            "sunset": 1791969963
+        },
+        "timezone": 28800,
+        "id": 1721080,
+        "name": "Cagayan de Oro",
+        "cod": 200,
+        "city": "Cagayan de Oro",
+        "source": "openweather",
+        "observation_time": "2026-10-14T04:00:12+00:00"
+    },
+    {
+        "coord": {
+            "lon": 124.6319,
+            "lat": 8.4542
+        },
+        "weather": [
+            {
+                "id": 501,
+                "main": "Rain",
+                "description": "moderate rain",
+                "icon": "10d"
+            }
+        ],
+        "base": "stations",
+        "main": {
+            "temp": 29.95,
+            "feels_like": 35.16,
+            "temp_min": 29.95,
+            "temp_max": 29.95,
+            "pressure": 1011,
+            "humidity": 71,
+            "sea_level": 1011,
+            "grnd_level": 994
+        },
+        "visibility": 10000,
+        "wind": {
+            "speed": 3.18,
+            "deg": 334,
+            "gust": 3.18
+        },
+        "rain": {
+            "1h": 1.14
+        },
+        "clouds": {
+            "all": 94
+        },
+        "dt": 1791954011,
+        "sys": {
+            "country": "PH",
+            "sunrise": 1791926929,
+            "sunset": 1791969963
+        },
+        "timezone": 28800,
+        "id": 1721080,
+        "name": "Cagayan de Oro",
+        "cod": 200,
+        "city": "Cagayan de Oro",
+        "source": "openweather",
+        "observation_time": "2026-10-14T05:00:11+00:00"
+    },
+    {
+        "coord": {
+            "lon": 124.6319,
+            "lat": 8.4542
+        },
+        "weather": [
+            {
+                "id": 501,
+                "main": "Rain",
+                "description": "moderate rain",
+                "icon": "10d"
+            }
+        ],
+        "base": "stations",
+        "main": {
+            "temp": 29.87,
+            "feels_like": 34.96,
+            "temp_min": 29.87,
+            "temp_max": 29.87,
+            "pressure": 1010,
+            "humidity": 71,
+            "sea_level": 1010,
+            "grnd_level": 994
+        },
+        "visibility": 10000,
+        "wind": {
+            "speed": 2.53,
+            "deg": 348,
+            "gust": 2.59
+        },
+        "rain": {
+            "1h": 1.09
+        },
+        "clouds": {
+            "all": 82
+        },
+        "dt": 1791958492,
+        "sys": {
+            "country": "PH",
+            "sunrise": 1791926929,
+            "sunset": 1791969963
+        },
+        "timezone": 28800,
+        "id": 1721080,
+        "name": "Cagayan de Oro",
+        "cod": 200,
+        "city": "Cagayan de Oro",
+        "source": "openweather",
+        "observation_time": "2026-10-14T06:14:52+00:00"
+    },
+    {
+        "coord": {
+            "lon": 124.6319,
+            "lat": 8.4542
+        },
+        "weather": [
+            {
+                "id": 500,
+                "main": "Rain",
+                "description": "light rain",
+                "icon": "10d"
+            }
+        ],
+        "base": "stations",
+        "main": {
+            "temp": 29.36,
+            "feels_like": 34.16,
+            "temp_min": 29.36,
+            "temp_max": 29.36,
+            "pressure": 1010,
+            "humidity": 73,
+            "sea_level": 1010,
+            "grnd_level": 993
+        },
+        "visibility": 10000,
+        "wind": {
+            "speed": 2.59,
+            "deg": 354,
+            "gust": 2.69
+        },
+        "rain": {
+            "1h": 0.64
+        },
+        "clouds": {
+            "all": 84
+        },
+        "dt": 1791961215,
+        "sys": {
+            "country": "PH",
+            "sunrise": 1791926929,
+            "sunset": 1791969963
+        },
+        "timezone": 28800,
+        "id": 1721080,
+        "name": "Cagayan de Oro",
+        "cod": 200,
+        "city": "Cagayan de Oro",
+        "source": "openweather",
+        "observation_time": "2026-10-14T07:00:15+00:00"
+    },
+    {
+        "coord": {
+            "lon": 124.6319,
+            "lat": 8.4542
+        },
+        "weather": [
+            {
+                "id": 500,
+                "main": "Rain",
+                "description": "light rain",
+                "icon": "10d"
+            }
+        ],
+        "base": "stations",
+        "main": {
+            "temp": 28.36,
+            "feels_like": 32.67,
+            "temp_min": 28.36,
+            "temp_max": 28.36,
+            "pressure": 1010,
+            "humidity": 78,
+            "sea_level": 1010,
+            "grnd_level": 994
+        },
+        "visibility": 10000,
+        "wind": {
+            "speed": 2.06,
+            "deg": 350,
+            "gust": 2.37
+        },
+        "rain": {
+            "1h": 0.82
+        },
+        "clouds": {
+            "all": 93
+        },
+        "dt": 1791964814,
+        "sys": {
+            "country": "PH",
+            "sunrise": 1791926929,
+            "sunset": 1791969963
+        },
+        "timezone": 28800,
+        "id": 1721080,
+        "name": "Cagayan de Oro",
+        "cod": 200,
+        "city": "Cagayan de Oro",
+        "source": "openweather",
+        "observation_time": "2026-10-14T08:00:14+00:00"
+    },
+    {
+        "coord": {
+            "lon": 124.6319,
+            "lat": 8.4542
+        },
+        "weather": [
+            {
+                "id": 500,
+                "main": "Rain",
+                "description": "light rain",
+                "icon": "10d"
+            }
+        ],
+        "base": "stations",
+        "main": {
+            "temp": 26.93,
+            "feels_like": 30.05,
+            "temp_min": 26.93,
+            "temp_max": 26.93,
+            "pressure": 1011,
+            "humidity": 85,
+            "sea_level": 1011,
+            "grnd_level": 994
+        },
+        "visibility": 10000,
+        "wind": {
+            "speed": 0.65,
+            "deg": 27,
+            "gust": 0.84
+        },
+        "rain": {
+            "1h": 0.86
+        },
+        "clouds": {
+            "all": 95
+        },
+        "dt": 1791968412,
+        "sys": {
+            "country": "PH",
+            "sunrise": 1791926929,
+            "sunset": 1791969963
+        },
+        "timezone": 28800,
+        "id": 1721080,
+        "name": "Cagayan de Oro",
+        "cod": 200,
+        "city": "Cagayan de Oro",
+        "source": "openweather",
+        "observation_time": "2026-10-14T09:00:12+00:00"
+    },
+    {
+        "coord": {
+            "lon": 124.6319,
+            "lat": 8.4542
+        },
+        "weather": [
+            {
+                "id": 500,
+                "main": "Rain",
+                "description": "light rain",
+                "icon": "10n"
+            }
+        ],
+        "base": "stations",
+        "main": {
+            "temp": 25.17,
+            "feels_like": 26.07,
+            "temp_min": 25.17,
+            "temp_max": 25.17,
+            "pressure": 1012,
+            "humidity": 89,
+            "sea_level": 1012,
+            "grnd_level": 995
+        },
+        "visibility": 10000,
+        "wind": {
+            "speed": 1.29,
+            "deg": 151,
+            "gust": 1.42
+        },
+        "rain": {
+            "1h": 0.22
+        },
+        "clouds": {
+            "all": 97
+        },
+        "dt": 1791974054,
+        "sys": {
+            "country": "PH",
+            "sunrise": 1791926929,
+            "sunset": 1791969963
+        },
+        "timezone": 28800,
+        "id": 1721080,
+        "name": "Cagayan de Oro",
+        "cod": 200,
+        "city": "Cagayan de Oro",
+        "source": "openweather",
+        "observation_time": "2026-10-14T10:34:14+00:00"
+    },
+    {
+        "coord": {
+            "lon": 124.6319,
+            "lat": 8.4542
+        },
+        "weather": [
+            {
+                "id": 500,
+                "main": "Rain",
+                "description": "light rain",
+                "icon": "10n"
+            }
+        ],
+        "base": "stations",
+        "main": {
+            "temp": 25.16,
+            "feels_like": 26.06,
+            "temp_min": 25.16,
+            "temp_max": 25.16,
+            "pressure": 1012,
+            "humidity": 89,
+            "sea_level": 1012,
+            "grnd_level": 995
+        },
+        "visibility": 10000,
+        "wind": {
+            "speed": 1.29,
+            "deg": 151,
+            "gust": 1.42
+        },
+        "rain": {
+            "1h": 0.22
+        },
+        "clouds": {
+            "all": 97
+        },
+        "dt": 1791975612,
+        "sys": {
+            "country": "PH",
+            "sunrise": 1791926929,
+            "sunset": 1791969963
+        },
+        "timezone": 28800,
+        "id": 1721080,
+        "name": "Cagayan de Oro",
+        "cod": 200,
+        "city": "Cagayan de Oro",
+        "source": "openweather",
+        "observation_time": "2026-10-14T11:00:12+00:00"
+    },
+    {
+        "coord": {
+            "lon": 124.6319,
+            "lat": 8.4542
+        },
+        "weather": [
+            {
+                "id": 804,
+                "main": "Clouds",
+                "description": "overcast clouds",
+                "icon": "04n"
+            }
+        ],
+        "base": "stations",
+        "main": {
+            "temp": 24.8,
+            "feels_like": 25.71,
+            "temp_min": 24.8,
+            "temp_max": 24.8,
+            "pressure": 1013,
+            "humidity": 91,
+            "sea_level": 1013,
+            "grnd_level": 996
+        },
+        "visibility": 10000,
+        "wind": {
+            "speed": 1.73,
+            "deg": 157,
+            "gust": 2.03
+        },
+        "clouds": {
+            "all": 98
+        },
+        "dt": 1791978415,
+        "sys": {
+            "country": "PH",
+            "sunrise": 1791926929,
+            "sunset": 1791969963
+        },
+        "timezone": 28800,
+        "id": 1721080,
+        "name": "Cagayan de Oro",
+        "cod": 200,
+        "city": "Cagayan de Oro",
+        "source": "openweather",
+        "observation_time": "2026-10-14T11:46:55+00:00"
+    },
+    {
+        "coord": {
+            "lon": 124.6319,
+            "lat": 8.4542
+        },
+        "weather": [
+            {
+                "id": 804,
+                "main": "Clouds",
+                "description": "overcast clouds",
+                "icon": "04n"
+            }
+        ],
+        "base": "stations",
+        "main": {
+            "temp": 24.8,
+            "feels_like": 25.71,
+            "temp_min": 24.8,
+            "temp_max": 24.8,
+            "pressure": 1013,
+            "humidity": 91,
+            "sea_level": 1013,
+            "grnd_level": 996
+        },
+        "visibility": 10000,
+        "wind": {
+            "speed": 1.55,
+            "deg": 161,
+            "gust": 1.83
+        },
+        "clouds": {
+            "all": 99
+        },
+        "dt": 1791979212,
+        "sys": {
+            "country": "PH",
+            "sunrise": 1791926929,
+            "sunset": 1791969963
+        },
+        "timezone": 28800,
+        "id": 1721080,
+        "name": "Cagayan de Oro",
+        "cod": 200,
+        "city": "Cagayan de Oro",
+        "source": "openweather",
+        "observation_time": "2026-10-14T12:00:12+00:00"
+    },
+    {
+        "coord": {
+            "lon": 124.6319,
+            "lat": 8.4542
+        },
+        "weather": [
+            {
+                "id": 804,
+                "main": "Clouds",
+                "description": "overcast clouds",
+                "icon": "04n"
+            }
+        ],
+        "base": "stations",
+        "main": {
+            "temp": 24.79,
+            "feels_like": 25.67,
+            "temp_min": 24.79,
+            "temp_max": 24.79,
+            "pressure": 1013,
+            "humidity": 90,
+            "sea_level": 1013,
+            "grnd_level": 996
+        },
+        "visibility": 10000,
+        "wind": {
+            "speed": 1.69,
+            "deg": 166,
+            "gust": 1.93
+        },
+        "clouds": {
+            "all": 100
+        },
+        "dt": 1791982812,
+        "sys": {
+            "country": "PH",
+            "sunrise": 1791926929,
+            "sunset": 1791969963
+        },
+        "timezone": 28800,
+        "id": 1721080,
+        "name": "Cagayan de Oro",
+        "cod": 200,
+        "city": "Cagayan de Oro",
+        "source": "openweather",
+        "observation_time": "2026-10-14T13:00:12+00:00"
+    },
+    {
+        "coord": {
+            "lon": 124.6319,
+            "lat": 8.4542
+        },
+        "weather": [
+            {
+                "id": 500,
+                "main": "Rain",
+                "description": "light rain",
+                "icon": "10d"
+            }
+        ],
+        "base": "stations",
+        "main": {
+            "temp": 29.75,
+            "feels_like": 34.21,
+            "temp_min": 29.75,
+            "temp_max": 29.75,
+            "pressure": 1012,
+            "humidity": 69,
+            "sea_level": 1012,
+            "grnd_level": 995
+        },
+        "visibility": 10000,
+        "wind": {
+            "speed": 2.19,
+            "deg": 341,
+            "gust": 1.98
+        },
+        "rain": {
+            "1h": 0.16
+        },
+        "clouds": {
+            "all": 96
+        },
+        "dt": 1792028406,
+        "sys": {
+            "country": "PH",
+            "sunrise": 1792013328,
+            "sunset": 1792056335
+        },
+        "timezone": 28800,
+        "id": 1721080,
+        "name": "Cagayan de Oro",
+        "cod": 200,
+        "city": "Cagayan de Oro",
+        "source": "openweather",
+        "observation_time": "2026-10-15T01:40:06+00:00"
+    },
+    {
+        "coord": {
+            "lon": 124.6319,
+            "lat": 8.4542
+        },
+        "weather": [
+            {
+                "id": 500,
+                "main": "Rain",
+                "description": "light rain",
+                "icon": "10d"
+            }
+        ],
+        "base": "stations",
+        "main": {
+            "temp": 29.72,
+            "feels_like": 34.14,
+            "temp_min": 29.72,
+            "temp_max": 29.72,
+            "pressure": 1012,
+            "humidity": 69,
+            "sea_level": 1012,
+            "grnd_level": 995
+        },
+        "visibility": 10000,
+        "wind": {
+            "speed": 2.19,
+            "deg": 341,
+            "gust": 1.98
+        },
+        "rain": {
+            "1h": 0.16
+        },
+        "clouds": {
+            "all": 96
+        },
+        "dt": 1792029615,
+        "sys": {
+            "country": "PH",
+            "sunrise": 1792013328,
+            "sunset": 1792056335
+        },
+        "timezone": 28800,
+        "id": 1721080,
+        "name": "Cagayan de Oro",
+        "cod": 200,
+        "city": "Cagayan de Oro",
+        "source": "openweather",
+        "observation_time": "2026-10-15T02:00:15+00:00"
+    },
+    {
+        "coord": {
+            "lon": 124.6319,
+            "lat": 8.4542
+        },
+        "weather": [
+            {
+                "id": 804,
+                "main": "Clouds",
+                "description": "overcast clouds",
+                "icon": "04d"
+            }
+        ],
+        "base": "stations",
+        "main": {
+            "temp": 30.77,
+            "feels_like": 36.42,
+            "temp_min": 30.77,
+            "temp_max": 30.77,
+            "pressure": 1011,
+            "humidity": 68,
+            "sea_level": 1011,
+            "grnd_level": 994
+        },
+        "visibility": 10000,
+        "wind": {
+            "speed": 3.12,
+            "deg": 353,
+            "gust": 1.96
+        },
+        "clouds": {
+            "all": 98
+        },
+        "dt": 1792205806,
+        "sys": {
+            "country": "PH",
+            "sunrise": 1792186129,
+            "sunset": 1792229083
+        },
+        "timezone": 28800,
+        "id": 1721080,
+        "name": "Cagayan de Oro",
+        "cod": 200,
+        "city": "Cagayan de Oro",
+        "source": "openweather",
+        "observation_time": "2026-10-17T02:56:46+00:00"
     }
 ]

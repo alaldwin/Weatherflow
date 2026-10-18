@@ -151,13 +151,15 @@ def test_pipeline_main_saves_parquet_and_loads_to_postgresql(monkeypatch, tmp_pa
     result = pipeline_main.main()
 
     assert result == 0
-    assert any(call == "state" for call in calls)
+    assert "state" in calls
     assert any(isinstance(call, tuple) and len(call) == 3 and call[1] == "Manila" and call[2] == "openweather" for call in calls)
-    assert any(isinstance(call, tuple) and len(call) == 2 and call[1] == WEATHER_TABLE for call in calls)
+    assert any(isinstance(call, tuple) and len(call) == 2 and call[1] == "openweather_manila" for call in calls)
 
 
 def test_pipeline_main_uses_canonical_tables(monkeypatch, tmp_path):
+
     pipeline_main.CITIES = {"Manila": {"latitude": 14.5995, "longitude": 120.9842}}
+
     payload = {
         "coord": {"lon": 120.9842, "lat": 14.5995},
         "weather": [{"id": 500, "main": "Rain", "description": "light rain"}],
@@ -185,11 +187,13 @@ def test_pipeline_main_uses_canonical_tables(monkeypatch, tmp_path):
 
     load_calls = [call for call in calls if isinstance(call, tuple) and len(call) == 2 and call[0] == "load"]
 
+    loaded_tables = {call[1] for call in load_calls}
+
     assert result == 0
-    assert any(call == ("load", LOCATIONS_TABLE) for call in load_calls)
-    assert any(call == ("load", WEATHER_TABLE) for call in load_calls)
-    assert all(call[1] != "openweather_manila" for call in load_calls)
-    assert all(call[1] != "geocoding_manila" for call in load_calls)
+    assert "geocoding_manila" in loaded_tables
+    assert "openweather_manila" in loaded_tables
+    assert LOCATIONS_TABLE not in loaded_tables
+    assert WEATHER_TABLE not in loaded_tables
 
 
 def test_pipeline_main_returns_nonzero_when_city_fails(monkeypatch):
@@ -222,13 +226,13 @@ def test_load_all_parquet_files_into_single_table(sqlite_engine, tmp_path):
     assert cities == ["Cebu", "Manila"]
 
 
-def test_default_load_replaces_previous_rows(sqlite_engine):
+def test_default_load_appends_rows(sqlite_engine):
     df = pl.DataFrame({"city": ["Manila"], "temperature": [32.21]})
 
     load_postgresql(df, "openweather_manila", engine=sqlite_engine)
     load_postgresql(df, "openweather_manila", engine=sqlite_engine)
 
-    assert _count_rows(sqlite_engine, "openweather_manila") == 1
+    assert _count_rows(sqlite_engine, "openweather_manila") == 2
 
 
 def test_append_mode_keeps_existing_rows(sqlite_engine):

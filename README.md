@@ -56,6 +56,8 @@ flowchart TD
     J[dbt Staging Models]
     K[dbt Intermediate Models]
     L[dbt Analytics Marts]
+    M[FastAPI Backend]
+    N[React Native Mobile App]
 
     A --> C
     B --> C
@@ -68,6 +70,8 @@ flowchart TD
     I --> J
     J --> K
     K --> L
+    L -->|Analytics queries| M
+    M -->|API responses| N
 ```
 
 Apache Airflow orchestrates the Python ingestion pipeline on a schedule. Docker provides the runtime environment for the pipeline, Airflow, and PostgreSQL.
@@ -297,6 +301,8 @@ Check the row counts for the city-specific weather tables:
 
 ```bash
 docker compose exec db psql -U weatherflow -d weatherflow -c "
+
+
 SELECT 'Manila' AS city, COUNT(*) AS rows
 FROM public.openweather_manila
 UNION ALL

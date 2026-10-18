@@ -1,0 +1,175 @@
+2026-10-14 16:17:22,405 | ERROR | app.api.routes.daily_weather | Failed to retrieve daily weather data
+Traceback (most recent call last):
+  File "/mnt/c/Users/aldwin/project/weatherflow/.venv/lib/python3.14/site-packages/sqlalchemy/engine/base.py", line 1969, in _exec_single_context
+    self.dialect.do_execute(
+    ~~~~~~~~~~~~~~~~~~~~~~~^
+        cursor, str_statement, effective_parameters, context
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/mnt/c/Users/aldwin/project/weatherflow/.venv/lib/python3.14/site-packages/sqlalchemy/engine/default.py", line 952, in do_execute
+    cursor.execute(statement, parameters)
+    ~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/c/Users/aldwin/project/weatherflow/.venv/lib/python3.14/site-packages/psycopg/cursor.py", line 117, in execute
+    raise ex.with_traceback(None)
+psycopg.errors.SyntaxError: syntax error at or near "{"
+LINE 15:         {where_clause}
+                 ^
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/mnt/c/Users/aldwin/project/weatherflow/backend/app/api/routes/daily_weather.py", line 83, in get_daily_weather
+    result = connection.execute(query, params)
+  File "/mnt/c/Users/aldwin/project/weatherflow/.venv/lib/python3.14/site-packages/sqlalchemy/engine/base.py", line 1421, in execute
+    return meth(
+        self,
+        distilled_parameters,
+        execution_options or NO_OPTIONS,
+    )
+  File "/mnt/c/Users/aldwin/project/weatherflow/.venv/lib/python3.14/site-packages/sqlalchemy/sql/elements.py", line 526, in _execute_on_connection
+    return connection._execute_clauseelement(
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        self, distilled_params, execution_options
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/mnt/c/Users/aldwin/project/weatherflow/.venv/lib/python3.14/site-packages/sqlalchemy/engine/base.py", line 1643, in _execute_clauseelement
+    ret = self._execute_context(
+        dialect,
+    ...<8 lines>...
+        cache_hit=cache_hit,
+    )
+  File "/mnt/c/Users/aldwin/project/weatherflow/.venv/lib/python3.14/site-packages/sqlalchemy/engine/base.py", line 1848, in _execute_context
+    return self._exec_single_context(
+           ~~~~~~~~~~~~~~~~~~~~~~~~~^
+        dialect, context, statement, parameters
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/mnt/c/Users/aldwin/project/weatherflow/.venv/lib/python3.14/site-packages/sqlalchemy/engine/base.py", line 1988, in _exec_single_context
+    self._handle_dbapi_exception(
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        e, str_statement, effective_parameters, cursor, context
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/mnt/c/Users/aldwin/project/weatherflow/.venv/lib/python3.14/site-packages/sqlalchemy/engine/base.py", line 2365, in _handle_dbapi_exception
+    raise sqlalchemy_exception.with_traceback(exc_info[2]) from e
+  File "/mnt/c/Users/aldwin/project/weatherflow/.venv/lib/python3.14/site-packages/sqlalchemy/engine/base.py", line 1969, in _exec_single_context
+    self.dialect.do_execute(
+    ~~~~~~~~~~~~~~~~~~~~~~~^
+        cursor, str_statement, effective_parameters, context
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/mnt/c/Users/aldwin/project/weatherflow/.venv/lib/python3.14/site-packages/sqlalchemy/engine/default.py", line 952, in do_execute
+    cursor.execute(statement, parameters)
+    ~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/c/Users/aldwin/project/weatherflow/.venv/lib/python3.14/site-packages/psycopg/cursor.py", line 117, in execute
+    raise ex.with_traceback(None)
+sqlalchemy.exc.ProgrammingError: (psycopg.errors.SyntaxError) syntax error at or near "{"
+LINE 15:         {where_clause}
+                 ^
+[SQL: 
+        SELECT
+            city,
+            observation_date,
+            avg_temperature,
+            min_temperature,
+            max_temperature,
+            avg_feels_like,
+            avg_humidity,
+            avg_pressure,
+            avg_wind_speed,
+            avg_cloudiness,
+            observation_count
+        FROM mrt_dev.mrt_daily_weather
+        {where_clause}
+        ORDER BY observation_date DESC, city
+        LIMIT %(fetch_limit)s OFFSET %(offset)s
+    ]
+[parameters: {'fetch_limit': 21, 'offset': 0}]
+(Background on this error at: https://sqlalche.me/e/20/f405)
+2026-10-14 17:06:22,171 | INFO | app.api.routes.daily_weather | Daily weather request received | city=Manila | start_date=2026-10-01 | end_date=2026-10-13 | limit=20 | offset=0
+2026-10-14 17:06:22,266 | INFO | app.api.routes.daily_weather | Daily weather query successful | count=2 | has_more=False | limit=20 | offset=0
+2026-10-14 18:40:24,547 | INFO | app.api.routes.daily_weather | Daily weather request received | city=None | start_date=None | end_date=None | limit=20 | offset=0
+2026-10-14 18:40:24,552 | INFO | app.api.routes.daily_weather | Daily weather query successful | count=20 | has_more=True | limit=20 | offset=0
+2026-10-14 18:40:40,770 | INFO | app.api.routes.daily_weather | Daily weather request received | city=Manila | start_date=None | end_date=None | limit=20 | offset=0
+2026-10-14 18:40:40,777 | INFO | app.api.routes.daily_weather | Daily weather query successful | count=2 | has_more=False | limit=20 | offset=0
+2026-10-14 18:40:40,889 | INFO | app.api.routes.daily_weather | Daily weather request received | city=Manila | start_date=None | end_date=None | limit=20 | offset=0
+2026-10-14 18:40:40,890 | INFO | app.api.routes.daily_weather | Daily weather query successful | count=1 | has_more=False | limit=20 | offset=0
+2026-10-14 18:51:19,745 | INFO | app.api.routes.daily_weather | Daily weather request received | city=None | start_date=None | end_date=None | limit=20 | offset=0
+2026-10-14 18:51:19,750 | INFO | app.api.routes.daily_weather | Daily weather query successful | count=20 | has_more=True | limit=20 | offset=0
+2026-10-14 18:51:35,349 | INFO | app.api.routes.daily_weather | Daily weather request received | city=Manila | start_date=None | end_date=None | limit=20 | offset=0
+2026-10-14 18:51:35,358 | INFO | app.api.routes.daily_weather | Daily weather query successful | count=2 | has_more=False | limit=20 | offset=0
+2026-10-14 18:51:35,518 | INFO | app.api.routes.daily_weather | Daily weather request received | city=Manila | start_date=None | end_date=None | limit=20 | offset=0
+2026-10-14 18:51:35,521 | INFO | app.api.routes.daily_weather | Daily weather query successful | count=1 | has_more=False | limit=20 | offset=0
+2026-10-14 18:58:04,305 | INFO | app.api.routes.daily_weather | Daily weather request received | city=None | start_date=None | end_date=None | limit=20 | offset=0
+2026-10-14 18:58:04,317 | INFO | app.api.routes.daily_weather | Daily weather query successful | count=20 | has_more=True | limit=20 | offset=0
+2026-10-14 18:58:04,515 | INFO | app.api.routes.daily_weather | Daily weather request received | city=Manila | start_date=None | end_date=None | limit=20 | offset=0
+2026-10-14 18:58:04,529 | INFO | app.api.routes.daily_weather | Daily weather query successful | count=2 | has_more=False | limit=20 | offset=0
+2026-10-14 18:58:04,650 | INFO | app.api.routes.daily_weather | Daily weather request received | city=Manila | start_date=None | end_date=None | limit=20 | offset=0
+2026-10-14 18:58:04,651 | INFO | app.api.routes.daily_weather | Daily weather query successful | count=1 | has_more=False | limit=20 | offset=0
+2026-10-14 19:25:32,091 | INFO | app.api.routes.daily_weather | Daily weather request received | city=None | start_date=None | end_date=None | limit=20 | offset=0
+2026-10-14 19:25:32,097 | INFO | app.api.routes.daily_weather | Daily weather query successful | count=20 | has_more=True | limit=20 | offset=0
+2026-10-14 19:25:32,252 | INFO | app.api.routes.daily_weather | Daily weather request received | city=Manila | start_date=None | end_date=None | limit=20 | offset=0
+2026-10-14 19:25:32,261 | INFO | app.api.routes.daily_weather | Daily weather query successful | count=2 | has_more=False | limit=20 | offset=0
+2026-10-14 19:25:32,403 | INFO | app.api.routes.daily_weather | Daily weather request received | city=Manila | start_date=None | end_date=None | limit=20 | offset=0
+2026-10-14 19:25:32,404 | INFO | app.api.routes.daily_weather | Daily weather query successful | count=1 | has_more=False | limit=20 | offset=0
+{"timestamp": "2026-10-14T11:33:44.978052+00:00", "level": "INFO", "logger": "app.api.routes.daily_weather", "message": "Daily weather request received | city=None | start_date=None | end_date=None | limit=20 | offset=0"}
+{"timestamp": "2026-10-14T11:33:44.984685+00:00", "level": "INFO", "logger": "app.api.routes.daily_weather", "message": "Daily weather query successful | count=20 | has_more=True | limit=20 | offset=0"}
+{"timestamp": "2026-10-14T11:33:45.243940+00:00", "level": "INFO", "logger": "app.api.routes.daily_weather", "message": "Daily weather request received | city=Manila | start_date=None | end_date=None | limit=20 | offset=0"}
+{"timestamp": "2026-10-14T11:33:45.247859+00:00", "level": "INFO", "logger": "app.api.routes.daily_weather", "message": "Daily weather query successful | count=2 | has_more=False | limit=20 | offset=0"}
+{"timestamp": "2026-10-14T11:33:45.475727+00:00", "level": "INFO", "logger": "app.api.routes.daily_weather", "message": "Daily weather request received | city=Manila | start_date=None | end_date=None | limit=20 | offset=0"}
+{"timestamp": "2026-10-14T11:33:45.476695+00:00", "level": "INFO", "logger": "app.api.routes.daily_weather", "message": "Daily weather query successful | count=1 | has_more=False | limit=20 | offset=0"}
+{"timestamp": "2026-10-14T11:36:54.278373+00:00", "level": "INFO", "logger": "app.api.routes.daily_weather", "message": "Daily weather request received | city=None | start_date=None | end_date=None | limit=20 | offset=0"}
+{"timestamp": "2026-10-14T11:36:54.282667+00:00", "level": "INFO", "logger": "app.api.routes.daily_weather", "message": "Daily weather query successful | count=20 | has_more=True | limit=20 | offset=0"}
+{"timestamp": "2026-10-14T11:36:54.404840+00:00", "level": "INFO", "logger": "app.api.routes.daily_weather", "message": "Daily weather request received | city=Manila | start_date=None | end_date=None | limit=20 | offset=0"}
+{"timestamp": "2026-10-14T11:36:54.410550+00:00", "level": "INFO", "logger": "app.api.routes.daily_weather", "message": "Daily weather query successful | count=2 | has_more=False | limit=20 | offset=0"}
+{"timestamp": "2026-10-14T11:36:55.099651+00:00", "level": "INFO", "logger": "app.api.routes.daily_weather", "message": "Daily weather request received | city=Manila | start_date=None | end_date=None | limit=20 | offset=0"}
+{"timestamp": "2026-10-14T11:36:55.101454+00:00", "level": "INFO", "logger": "app.api.routes.daily_weather", "message": "Daily weather query successful | count=1 | has_more=False | limit=20 | offset=0"}
+{"timestamp": "2026-10-14T11:39:31.064363+00:00", "level": "INFO", "logger": "app.api.routes.daily_weather", "message": "Daily weather request received | city=None | start_date=None | end_date=None | limit=20 | offset=0"}
+{"timestamp": "2026-10-14T11:39:31.068574+00:00", "level": "INFO", "logger": "app.api.routes.daily_weather", "message": "Daily weather query successful | count=20 | has_more=True | limit=20 | offset=0"}
+{"timestamp": "2026-10-14T11:39:31.246373+00:00", "level": "INFO", "logger": "app.api.routes.daily_weather", "message": "Daily weather request received | city=Manila | start_date=None | end_date=None | limit=20 | offset=0"}
+{"timestamp": "2026-10-14T11:39:31.257494+00:00", "level": "INFO", "logger": "app.api.routes.daily_weather", "message": "Daily weather query successful | count=2 | has_more=False | limit=20 | offset=0"}
+{"timestamp": "2026-10-14T11:39:32.262120+00:00", "level": "INFO", "logger": "app.api.routes.daily_weather", "message": "Daily weather request received | city=Manila | start_date=None | end_date=None | limit=20 | offset=0"}
+{"timestamp": "2026-10-14T11:39:32.264093+00:00", "level": "INFO", "logger": "app.api.routes.daily_weather", "message": "Daily weather query successful | count=1 | has_more=False | limit=20 | offset=0"}
+{"timestamp": "2026-10-14T11:43:31.018095+00:00", "level": "INFO", "logger": "app.api.routes.daily_weather", "message": "Daily weather request received | city=None | start_date=None | end_date=None | limit=20 | offset=0"}
+{"timestamp": "2026-10-14T11:43:31.023253+00:00", "level": "INFO", "logger": "app.api.routes.daily_weather", "message": "Daily weather query successful | count=20 | has_more=True | limit=20 | offset=0"}
+{"timestamp": "2026-10-14T11:43:31.220844+00:00", "level": "INFO", "logger": "app.api.routes.daily_weather", "message": "Daily weather request received | city=Manila | start_date=None | end_date=None | limit=20 | offset=0"}
+{"timestamp": "2026-10-14T11:43:31.233288+00:00", "level": "INFO", "logger": "app.api.routes.daily_weather", "message": "Daily weather query successful | count=2 | has_more=False | limit=20 | offset=0"}
+{"timestamp": "2026-10-14T11:43:31.997129+00:00", "level": "INFO", "logger": "app.api.routes.daily_weather", "message": "Daily weather request received | city=Manila | start_date=None | end_date=None | limit=20 | offset=0"}
+{"timestamp": "2026-10-14T11:43:31.998011+00:00", "level": "INFO", "logger": "app.api.routes.daily_weather", "message": "Daily weather query successful | count=1 | has_more=False | limit=20 | offset=0"}
+{"timestamp": "2026-10-14T12:00:03.513252+00:00", "level": "INFO", "logger": "app.api.routes.daily_weather", "message": "Daily weather request received | city=None | start_date=None | end_date=None | limit=20 | offset=0"}
+{"timestamp": "2026-10-14T12:00:03.517778+00:00", "level": "INFO", "logger": "app.api.routes.daily_weather", "message": "Daily weather query successful | count=20 | has_more=True | limit=20 | offset=0"}
+{"timestamp": "2026-10-14T12:00:03.613417+00:00", "level": "INFO", "logger": "app.api.routes.daily_weather", "message": "Daily weather request received | city=Manila | start_date=None | end_date=None | limit=20 | offset=0"}
+{"timestamp": "2026-10-14T12:00:03.618740+00:00", "level": "INFO", "logger": "app.api.routes.daily_weather", "message": "Daily weather query successful | count=2 | has_more=False | limit=20 | offset=0"}
+{"timestamp": "2026-10-14T12:00:04.318146+00:00", "level": "INFO", "logger": "app.api.routes.daily_weather", "message": "Daily weather request received | city=Manila | start_date=None | end_date=None | limit=20 | offset=0"}
+{"timestamp": "2026-10-14T12:00:04.319503+00:00", "level": "INFO", "logger": "app.api.routes.daily_weather", "message": "Daily weather query successful | count=1 | has_more=False | limit=20 | offset=0"}
+{"timestamp": "2026-10-14T12:12:09.577627+00:00", "level": "INFO", "logger": "app.api.routes.daily_weather", "message": "Daily weather request received | city=None | start_date=None | end_date=None | limit=20 | offset=0"}
+{"timestamp": "2026-10-14T12:12:09.582797+00:00", "level": "INFO", "logger": "app.api.routes.daily_weather", "message": "Daily weather query successful | count=20 | has_more=True | limit=20 | offset=0"}
+{"timestamp": "2026-10-14T12:12:09.766317+00:00", "level": "INFO", "logger": "app.api.routes.daily_weather", "message": "Daily weather request received | city=Manila | start_date=None | end_date=None | limit=20 | offset=0"}
+{"timestamp": "2026-10-14T12:12:09.773714+00:00", "level": "INFO", "logger": "app.api.routes.daily_weather", "message": "Daily weather query successful | count=2 | has_more=False | limit=20 | offset=0"}
+{"timestamp": "2026-10-14T12:12:10.685122+00:00", "level": "INFO", "logger": "app.api.routes.daily_weather", "message": "Daily weather request received | city=Manila | start_date=None | end_date=None | limit=20 | offset=0"}
+{"timestamp": "2026-10-14T12:12:10.686368+00:00", "level": "INFO", "logger": "app.api.routes.daily_weather", "message": "Daily weather query successful | count=1 | has_more=False | limit=20 | offset=0"}
+{"timestamp": "2026-10-14T12:18:08.812242+00:00", "level": "INFO", "logger": "app.api.routes.daily_weather", "message": "Daily weather request received | city=None | start_date=None | end_date=None | limit=20 | offset=0"}
+{"timestamp": "2026-10-14T12:18:08.817290+00:00", "level": "INFO", "logger": "app.api.routes.daily_weather", "message": "Daily weather query successful | count=20 | has_more=True | limit=20 | offset=0"}
+{"timestamp": "2026-10-14T12:18:08.963687+00:00", "level": "INFO", "logger": "app.api.routes.daily_weather", "message": "Daily weather request received | city=Manila | start_date=None | end_date=None | limit=20 | offset=0"}
+{"timestamp": "2026-10-14T12:18:08.970356+00:00", "level": "INFO", "logger": "app.api.routes.daily_weather", "message": "Daily weather query successful | count=2 | has_more=False | limit=20 | offset=0"}
+{"timestamp": "2026-10-14T12:18:09.924193+00:00", "level": "INFO", "logger": "app.api.routes.daily_weather", "message": "Daily weather request received | city=Manila | start_date=None | end_date=None | limit=20 | offset=0"}
+{"timestamp": "2026-10-14T12:18:09.925712+00:00", "level": "INFO", "logger": "app.api.routes.daily_weather", "message": "Daily weather query successful | count=1 | has_more=False | limit=20 | offset=0"}
+{"timestamp": "2026-10-14T12:18:56.085285+00:00", "level": "INFO", "logger": "app.api.routes.daily_weather", "message": "Daily weather request received | city=None | start_date=None | end_date=None | limit=20 | offset=0"}
+{"timestamp": "2026-10-14T12:18:56.091660+00:00", "level": "INFO", "logger": "app.api.routes.daily_weather", "message": "Daily weather query successful | count=20 | has_more=True | limit=20 | offset=0"}
+{"timestamp": "2026-10-14T12:26:25.147008+00:00", "level": "INFO", "logger": "app.api.routes.daily_weather", "message": "Daily weather request received | city=None | start_date=None | end_date=None | limit=20 | offset=0"}
+{"timestamp": "2026-10-14T12:26:25.152663+00:00", "level": "INFO", "logger": "app.api.routes.daily_weather", "message": "Daily weather query successful | count=20 | has_more=True | limit=20 | offset=0"}
+{"timestamp": "2026-10-14T12:26:25.360930+00:00", "level": "INFO", "logger": "app.api.routes.daily_weather", "message": "Daily weather request received | city=Manila | start_date=None | end_date=None | limit=20 | offset=0"}
+{"timestamp": "2026-10-14T12:26:25.367051+00:00", "level": "INFO", "logger": "app.api.routes.daily_weather", "message": "Daily weather query successful | count=2 | has_more=False | limit=20 | offset=0"}
+{"timestamp": "2026-10-14T12:26:26.180593+00:00", "level": "INFO", "logger": "app.api.routes.daily_weather", "message": "Daily weather request received | city=Manila | start_date=None | end_date=None | limit=20 | offset=0"}
+{"timestamp": "2026-10-14T12:26:26.182142+00:00", "level": "INFO", "logger": "app.api.routes.daily_weather", "message": "Daily weather query successful | count=1 | has_more=False | limit=20 | offset=0"}
+{"timestamp": "2026-10-14T12:32:44.060558+00:00", "level": "INFO", "logger": "app.api.routes.daily_weather", "message": "Daily weather request received | city=None | start_date=None | end_date=None | limit=20 | offset=0"}
+{"timestamp": "2026-10-14T12:32:44.065989+00:00", "level": "INFO", "logger": "app.api.routes.daily_weather", "message": "Daily weather query successful | count=20 | has_more=True | limit=20 | offset=0"}
+{"timestamp": "2026-10-14T12:32:44.227146+00:00", "level": "INFO", "logger": "app.api.routes.daily_weather", "message": "Daily weather request received | city=Manila | start_date=None | end_date=None | limit=20 | offset=0"}
+{"timestamp": "2026-10-14T12:32:44.232336+00:00", "level": "INFO", "logger": "app.api.routes.daily_weather", "message": "Daily weather query successful | count=2 | has_more=False | limit=20 | offset=0"}
+{"timestamp": "2026-10-14T12:32:45.023882+00:00", "level": "INFO", "logger": "app.api.routes.daily_weather", "message": "Daily weather request received | city=Manila | start_date=None | end_date=None | limit=20 | offset=0"}
+{"timestamp": "2026-10-14T12:32:45.025221+00:00", "level": "INFO", "logger": "app.api.routes.daily_weather", "message": "Daily weather query successful | count=1 | has_more=False | limit=20 | offset=0"}
