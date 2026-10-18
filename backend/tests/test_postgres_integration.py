@@ -1,9 +1,26 @@
-import pytest
-from fastapi.testclient import TestClient
 
+
+import pytest
+from app.db.session import engine
 from app.main import app
+from fastapi.testclient import TestClient
+from sqlalchemy import text
+from sqlalchemy.exc import SQLAlchemyError
 
 client = TestClient(app)
+
+
+@pytest.fixture(scope="module", autouse=True)
+def verify_postgres_connection():
+    """Verify PostgreSQL connectivity before running integration tests."""
+    try:
+        with engine.connect() as connection:
+            connection.execute(text("SELECT 1"))
+    except SQLAlchemyError as exc:
+        pytest.fail(
+            "PostgreSQL integration tests require a working database "
+            f"connection: {exc}"
+        )
 
 
 @pytest.mark.integration
@@ -11,7 +28,9 @@ def test_postgres_connection():
     response = client.get("/health/database")
 
     assert response.status_code == 200, response.text
-    assert response.json()["database"] == "connected"
+
+    body = response.json()
+    assert body["database"] == "connected"
 
 
 @pytest.mark.integration
@@ -28,7 +47,7 @@ def test_mart_endpoint_returns_valid_response(endpoint):
     response = client.get(endpoint)
 
     assert response.status_code == 200, (
-        f"{endpoint} failed with {response.status_code}: "
+        f"{endpoint} failed with HTTP {response.status_code}: "
         f"{response.text}"
     )
 
@@ -36,6 +55,8 @@ def test_mart_endpoint_returns_valid_response(endpoint):
 
     assert "count" in body
     assert isinstance(body["count"], int)
+    assert body["count"] >= 0
+
     assert "data" in body
     assert isinstance(body["data"], list)
     assert body["count"] == len(body["data"])
@@ -43,7 +64,10 @@ def test_mart_endpoint_returns_valid_response(endpoint):
 
 @pytest.mark.integration
 def test_current_weather_optional_city_filter():
-    response = client.get("/api/v1/weather/daily?city=Manila")
+    response = client.get(
+        "/api/v1/weather/daily",
+        params={"city": "Manila"},
+    )
 
     assert response.status_code == 200, response.text
 
@@ -57,8 +81,8 @@ def test_current_weather_optional_city_filter():
 @pytest.mark.integration
 def test_city_comparison_sort_options():
     response = client.get(
-        "/api/v1/weather/cities/compare"
-        "?sort_by=temperature&order=desc"
+        "/api/v1/weather/cities/compare",
+        params={"sort_by": "temperature", "order": "desc"},
     )
 
     assert response.status_code == 200, response.text
@@ -71,7 +95,9 @@ def test_city_comparison_sort_options():
 @pytest.mark.integration
 def test_invalid_city_comparison_sort_is_rejected():
     response = client.get(
-        "/api/v1/weather/cities/compare?sort_by=invalid"
+        "/api/v1/weather/cities/compare",
+        params={"sort_by": "invalid"},
     )
 
     assert response.status_code == 422
+

@@ -74,10 +74,20 @@ case "$MODE" in
         echo "Running PostgreSQL integration tests..."
 
         if [[ -f tests/test_postgres_integration.py ]]; then
-            uv run pytest -v -m integration \
-                backend/tests/test_postgres_integration.py
+            uv run pytest -m backend/tests/test_postgre_integration.py -v 
         else
             echo "ERROR: backend/tests/test_postgres_integration.py was not found." >&2
+            exit 2
+        fi
+        ;;
+
+        request_logging)
+        echo "Running Request logging tests..."
+
+        if [[ -f tests/test_request_logging.py ]]; then
+            uv run pytest backend/tests/test_request_logging.py -v 
+        else
+            echo "ERROR: backend/tests/test_request_logging.py was not found." >&2
             exit 2
         fi
         ;;
@@ -158,7 +168,7 @@ Examples:
 Examples from the backend directory:
   ./scripts/test_backend.sh all
   ./scripts/test_backend.sh file tests/test_postgres_integration.py
-  
+
 HELP
         ;;
 

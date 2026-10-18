@@ -1,13 +1,21 @@
 
-from datetime import date
+from typing import Annotated
 
-from fastapi import APIRouter, HTTPException, Query
+from fastapi import APIRouter, Depends, HTTPException
 from sqlalchemy import text
 from sqlalchemy.exc import SQLAlchemyError
 
+from app.api.dependencies import (
+    PaginationQuery,
+    get_date_filters,
+    get_pagination,
+)
+from app.core.logging_config import get_logger
 from app.db.session import engine
+from app.schemas.weather import DailyWeatherResponse, DateFilters
 
-from app.schemas.weather import DailyWeatherResponse
+logger = get_logger(__name__, "daily_weather.log")
+
 
 router = APIRouter(
     prefix="/api/v1/weather",
@@ -15,19 +23,78 @@ router = APIRouter(
 )
 
 
-@router.get("/daily", response_model=DailyWeatherResponse)
+@router.get(
+    "/daily",
+    response_model=DailyWeatherResponse,
+    summary="Get daily weather summaries",
+    description=(
+        "Returns daily weather aggregates. Optionally filter by city, "
+        "start date, and end date. Supports pagination."
+    ),
+    responses={
+        200: {"description": "Daily weather summaries retrieved successfully."},
+        422: {"description": "Query parameters are invalid, including an invalid date range."},
+        503: {"description": "The database is unavailable."},
+    },
+)
+
+
+
 def get_daily_weather(
-    city: str | None = Query(default=None, min_length=1),
-    start_date: date | None = Query(default=None),
-    end_date: date | None = Query(default=None),
+    filters: Annotated[DateFilters, Depends(get_date_filters)],
+    pagination: Annotated[PaginationQuery, Depends(get_pagination)],
 ):
-    if start_date and end_date and start_date > end_date:
-        raise HTTPException(
-            status_code=422,
-            detail="start_date must be before or equal to end_date.",
+    limit = pagination.limit
+    offset = pagination.offset
+
+    logger.info(
+        "Daily weather request received | city=%s | "
+        "start_date=%s | end_date=%s | limit=%d | offset=%d",
+        filters.city,
+        filters.start_date,
+        filters.end_date,
+        limit,
+        offset,
+    )
+
+    conditions = []
+    params = {
+        "fetch_limit": limit + 1,
+        "offset": offset,
+    }
+
+    if filters.city:
+        conditions.append("LOWER(city) = LOWER(:city)")
+        params["city"] = filters.city
+
+    if filters.start_date:
+        conditions.append("observation_date >= :start_date")
+        params["start_date"] = filters.start_date
+        logger.debug(
+            "Daily weather start date filter applied | start_date=%s",
+            filters.start_date,
         )
 
-    query = text("""
+    if filters.end_date:
+        conditions.append("observation_date <= :end_date")
+        params["end_date"] = filters.end_date
+        logger.debug(
+            "Daily weather end date filter applied | end_date=%s",
+            filters.end_date,
+        )
+
+    where_clause = (
+        "WHERE " + " AND ".join(conditions)
+        if conditions
+        else ""
+    )
+
+    logger.debug(
+        "Daily weather SQL query prepared | filters_applied=%d",
+        len(conditions),
+    )
+
+    query = text(f"""
         SELECT
             city,
             observation_date,
@@ -41,48 +108,71 @@ def get_daily_weather(
             avg_cloudiness,
             observation_count
         FROM mrt_dev.mrt_daily_weather
-        WHERE (
-            CAST(:city AS TEXT) IS NULL 
-            OR LOWER(city) = LOWER(CAST(:city AS TEXT))
-        )
-        AND (
-            CAST(:start_date AS DATE) IS NULL 
-            OR observation_date >= CAST(:start_date AS DATE)
-        )
-        AND (
-            CAST(:end_date AS DATE) IS NULL 
-            OR observation_date <= CAST(:end_date AS DATE)
-        )
+        {where_clause}
         ORDER BY observation_date DESC, city
-        LIMIT 1000;
+        LIMIT :fetch_limit OFFSET :offset
     """)
 
     try:
         with engine.connect() as connection:
-            result = connection.execute(
-                query,
-                {
-                    "city": city.strip() if city else None,
-                    "start_date": start_date,
-                    "end_date": end_date,
-                },
-            )
+            logger.debug("Executing daily weather database query")
+
+            result = connection.execute(query, params)
             rows = result.mappings().all()
 
+        logger.debug(
+            "Daily weather query executed | fetched_rows=%d",
+            len(rows),
+        )
+
+        has_more = len(rows) > limit
+        data = [dict(row) for row in rows[:limit]]
+
+        logger.info(
+            "Daily weather query successful | count=%d | "
+            "has_more=%s | limit=%d | offset=%d",
+            len(data),
+            has_more,
+            limit,
+            offset,
+        )
+
+        if not data:
+            logger.warning(
+                "No daily weather records found | city=%s | "
+                "start_date=%s | end_date=%s",
+                filters.city,
+                filters.start_date,
+                filters.end_date,
+            )
+
         return {
-            "count": len(rows),
+            "count": len(data),
             "filters": {
-                "city": city,
-                "start_date": start_date,
-                "end_date": end_date,
+                "city": filters.city,
+                "start_date": filters.start_date,
+                "end_date": filters.end_date,
             },
-            "data": [dict(row) for row in rows],
+            "data": data
         }
 
-    except SQLAlchemyError as exc:
-        print(f"Weather Query Failed: {exc!r}")
+    except SQLAlchemyError:
+        logger.exception(
+            "Failed to retrieve daily weather data | "
+            "city=%s | start_date=%s | end_date=%s | "
+            "limit=%d | offset=%d",
+            filters.city,
+            filters.start_date,
+            filters.end_date,
+            limit,
+            offset,
+        )
+         
         raise HTTPException(
             status_code=503,
-            detail="Unable to retrieve daily weather data.",
-        ) from exc
+            detail={
+                "code": "SERVICE_UNAVAILABLE",
+                "message": "Unable to retrieve daily weather data.",
+            },
+        )
 

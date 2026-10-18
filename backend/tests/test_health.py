@@ -1,6 +1,5 @@
-from fastapi.testclient import TestClient
-
 import app.main as main_module
+from fastapi.testclient import TestClient
 
 client = TestClient(main_module.app)
 
@@ -51,5 +50,13 @@ def test_database_health_when_unavailable(monkeypatch):
     response = client.get("/health/database")
 
     assert response.status_code == 503
-    assert response.json()["detail"]["database"] == "unavailable"
+
+    body = response.json()
+
+    assert body["error"]["code"] == "DATABASE_UNAVAILABLE"
+    assert body["error"]["message"] == (
+        "The database is currently unavailable."
+    )
+    assert body["request_id"]
+    assert response.headers["X-Request-ID"] == body["request_id"]
 

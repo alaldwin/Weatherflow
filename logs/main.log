@@ -25339,3 +25339,2256 @@ RuntimeError: API failure
 2026-10-14 04:00:12,926 | INFO | pipeline.main | Pipeline summary | total=8 | loaded=8 | skipped=0 | failed=0
 2026-10-14 04:00:12,928 | INFO | pipeline.main | Successfully loaded cities: ['Manila', 'Quezon City', 'Cebu City', 'Davao City', 'Baguio', 'Iloilo City', 'Cagayan de Oro', 'Zamboanga City']
 2026-10-14 04:00:12,930 | INFO | pipeline.main | Weather ingestion completed successfully.
+2026-10-14 05:00:06,997 | INFO | pipeline.main | Starting Weather Ingestion...
+2026-10-14 05:00:06,999 | INFO | pipeline.main | Processing city: Manila
+2026-10-14 05:00:07,497 | INFO | pipeline.main | Geocoding loaded for Manila into geocoding_manila
+2026-10-14 05:00:07,538 | INFO | pipeline.main | Raw JSON saved for Manila: /opt/weatherflow/data/raw/openweather/manila.json
+2026-10-14 05:00:07,548 | INFO | pipeline.main | Weather data transformed for Manila
+2026-10-14 05:00:07,701 | INFO | pipeline.main | Parquet saved for Manila: /opt/weatherflow/data/parquet/openweather/manila.parquet
+2026-10-14 05:00:07,761 | INFO | pipeline.main | Loaded 1 row(s) for Manila into openweather_manila.
+2026-10-14 05:00:07,815 | INFO | pipeline.main | Checkpoint updated for Manila.
+2026-10-14 05:00:07,817 | INFO | pipeline.main | Processing city: Quezon City
+2026-10-14 05:00:08,122 | INFO | pipeline.main | Geocoding loaded for Quezon City into geocoding_quezon_city
+2026-10-14 05:00:08,188 | INFO | pipeline.main | Raw JSON saved for Quezon City: /opt/weatherflow/data/raw/openweather/quezon_city.json
+2026-10-14 05:00:08,193 | INFO | pipeline.main | Weather data transformed for Quezon City
+2026-10-14 05:00:08,311 | INFO | pipeline.main | Parquet saved for Quezon City: /opt/weatherflow/data/parquet/openweather/quezon_city.parquet
+2026-10-14 05:00:08,412 | INFO | pipeline.main | Loaded 1 row(s) for Quezon City into openweather_quezon_city.
+2026-10-14 05:00:08,482 | INFO | pipeline.main | Checkpoint updated for Quezon City.
+2026-10-14 05:00:08,486 | INFO | pipeline.main | Processing city: Cebu City
+2026-10-14 05:00:08,778 | INFO | pipeline.main | Geocoding loaded for Cebu City into geocoding_cebu_city
+2026-10-14 05:00:08,950 | INFO | pipeline.main | Raw JSON saved for Cebu City: /opt/weatherflow/data/raw/openweather/cebu_city.json
+2026-10-14 05:00:08,956 | INFO | pipeline.main | Weather data transformed for Cebu City
+2026-10-14 05:00:09,084 | INFO | pipeline.main | Parquet saved for Cebu City: /opt/weatherflow/data/parquet/openweather/cebu_city.parquet
+2026-10-14 05:00:09,126 | INFO | pipeline.main | Loaded 1 row(s) for Cebu City into openweather_cebu_city.
+2026-10-14 05:00:09,168 | INFO | pipeline.main | Checkpoint updated for Cebu City.
+2026-10-14 05:00:09,170 | INFO | pipeline.main | Processing city: Davao City
+2026-10-14 05:00:09,517 | INFO | pipeline.main | Geocoding loaded for Davao City into geocoding_davao_city
+2026-10-14 05:00:09,599 | INFO | pipeline.main | Raw JSON saved for Davao City: /opt/weatherflow/data/raw/openweather/davao_city.json
+2026-10-14 05:00:09,604 | INFO | pipeline.main | Weather data transformed for Davao City
+2026-10-14 05:00:09,736 | INFO | pipeline.main | Parquet saved for Davao City: /opt/weatherflow/data/parquet/openweather/davao_city.parquet
+2026-10-14 05:00:09,773 | INFO | pipeline.main | Loaded 1 row(s) for Davao City into openweather_davao_city.
+2026-10-14 05:00:09,809 | INFO | pipeline.main | Checkpoint updated for Davao City.
+2026-10-14 05:00:09,810 | INFO | pipeline.main | Processing city: Baguio
+2026-10-14 05:00:10,122 | INFO | pipeline.main | Geocoding loaded for Baguio into geocoding_baguio
+2026-10-14 05:00:10,206 | INFO | pipeline.main | Raw JSON saved for Baguio: /opt/weatherflow/data/raw/openweather/baguio.json
+2026-10-14 05:00:10,212 | INFO | pipeline.main | Weather data transformed for Baguio
+2026-10-14 05:00:10,345 | INFO | pipeline.main | Parquet saved for Baguio: /opt/weatherflow/data/parquet/openweather/baguio.parquet
+2026-10-14 05:00:10,388 | INFO | pipeline.main | Loaded 1 row(s) for Baguio into openweather_baguio.
+2026-10-14 05:00:10,442 | INFO | pipeline.main | Checkpoint updated for Baguio.
+2026-10-14 05:00:10,443 | INFO | pipeline.main | Processing city: Iloilo City
+2026-10-14 05:00:10,769 | INFO | pipeline.main | Geocoding loaded for Iloilo City into geocoding_iloilo_city
+2026-10-14 05:00:10,835 | INFO | pipeline.main | Raw JSON saved for Iloilo City: /opt/weatherflow/data/raw/openweather/iloilo_city.json
+2026-10-14 05:00:10,839 | INFO | pipeline.main | Weather data transformed for Iloilo City
+2026-10-14 05:00:10,926 | INFO | pipeline.main | Parquet saved for Iloilo City: /opt/weatherflow/data/parquet/openweather/iloilo_city.parquet
+2026-10-14 05:00:10,964 | INFO | pipeline.main | Loaded 1 row(s) for Iloilo City into openweather_iloilo_city.
+2026-10-14 05:00:11,015 | INFO | pipeline.main | Checkpoint updated for Iloilo City.
+2026-10-14 05:00:11,017 | INFO | pipeline.main | Processing city: Cagayan de Oro
+2026-10-14 05:00:11,323 | INFO | pipeline.main | Geocoding loaded for Cagayan de Oro into geocoding_cagayan_de_oro
+2026-10-14 05:00:11,396 | INFO | pipeline.main | Raw JSON saved for Cagayan de Oro: /opt/weatherflow/data/raw/openweather/cagayan_de_oro.json
+2026-10-14 05:00:11,400 | INFO | pipeline.main | Weather data transformed for Cagayan de Oro
+2026-10-14 05:00:11,506 | INFO | pipeline.main | Parquet saved for Cagayan de Oro: /opt/weatherflow/data/parquet/openweather/cagayan_de_oro.parquet
+2026-10-14 05:00:11,550 | INFO | pipeline.main | Loaded 1 row(s) for Cagayan de Oro into openweather_cagayan_de_oro.
+2026-10-14 05:00:11,592 | INFO | pipeline.main | Checkpoint updated for Cagayan de Oro.
+2026-10-14 05:00:11,595 | INFO | pipeline.main | Processing city: Zamboanga City
+2026-10-14 05:00:11,925 | INFO | pipeline.main | Geocoding loaded for Zamboanga City into geocoding_zamboanga_city
+2026-10-14 05:00:11,976 | INFO | pipeline.main | Raw JSON saved for Zamboanga City: /opt/weatherflow/data/raw/openweather/zamboanga_city.json
+2026-10-14 05:00:11,980 | INFO | pipeline.main | Weather data transformed for Zamboanga City
+2026-10-14 05:00:12,079 | INFO | pipeline.main | Parquet saved for Zamboanga City: /opt/weatherflow/data/parquet/openweather/zamboanga_city.parquet
+2026-10-14 05:00:12,146 | INFO | pipeline.main | Loaded 1 row(s) for Zamboanga City into openweather_zamboanga_city.
+2026-10-14 05:00:12,213 | INFO | pipeline.main | Checkpoint updated for Zamboanga City.
+2026-10-14 05:00:12,216 | INFO | pipeline.main | Pipeline summary | total=8 | loaded=8 | skipped=0 | failed=0
+2026-10-14 05:00:12,217 | INFO | pipeline.main | Successfully loaded cities: ['Manila', 'Quezon City', 'Cebu City', 'Davao City', 'Baguio', 'Iloilo City', 'Cagayan de Oro', 'Zamboanga City']
+2026-10-14 05:00:12,218 | INFO | pipeline.main | Weather ingestion completed successfully.
+2026-10-14 13:16:31,755 | INFO | pipeline.main | Starting Weather Ingestion...
+2026-10-14 13:16:31,756 | INFO | pipeline.main | Processing city: Manila
+2026-10-14 13:16:31,760 | INFO | pipeline.main | Geocoding loaded for Manila into geocoding_manila
+2026-10-14 13:16:31,767 | INFO | pipeline.main | Raw JSON saved for Manila: /tmp/pytest-of-aldwin/pytest-1/test_pipeline_main_saves_parqu0/manila.json
+2026-10-14 13:16:31,770 | INFO | pipeline.main | Weather data transformed for Manila
+2026-10-14 13:16:31,773 | INFO | pipeline.main | Parquet saved for Manila: /tmp/pytest-of-aldwin/pytest-1/test_pipeline_main_saves_parqu0/openweather_Manila.parquet
+2026-10-14 13:16:31,775 | INFO | pipeline.main | Loaded 1 row(s) for Manila into openweather_manila.
+2026-10-14 13:16:31,776 | INFO | pipeline.main | Checkpoint updated for Manila.
+2026-10-14 13:16:31,778 | INFO | pipeline.main | Pipeline summary | total=1 | loaded=1 | skipped=0 | failed=0
+2026-10-14 13:16:31,779 | INFO | pipeline.main | Successfully loaded cities: ['Manila']
+2026-10-14 13:16:31,781 | INFO | pipeline.main | Weather ingestion completed successfully.
+2026-10-14 13:16:47,606 | INFO | pipeline.main | Starting Weather Ingestion...
+2026-10-14 13:16:47,608 | INFO | pipeline.main | Processing city: Manila
+2026-10-14 13:16:47,613 | INFO | pipeline.main | Geocoding loaded for Manila into geocoding_manila
+2026-10-14 13:16:47,615 | INFO | pipeline.main | Raw JSON saved for Manila: /tmp/pytest-of-aldwin/pytest-1/test_pipeline_main_uses_canoni0/manila.json
+2026-10-14 13:16:47,619 | INFO | pipeline.main | Weather data transformed for Manila
+2026-10-14 13:16:47,620 | INFO | pipeline.main | Parquet saved for Manila: /tmp/pytest-of-aldwin/pytest-1/test_pipeline_main_uses_canoni0/openweather_Manila.parquet
+2026-10-14 13:16:47,621 | INFO | pipeline.main | Loaded 1 row(s) for Manila into openweather_manila.
+2026-10-14 13:16:47,622 | INFO | pipeline.main | Checkpoint updated for Manila.
+2026-10-14 13:16:47,624 | INFO | pipeline.main | Pipeline summary | total=1 | loaded=1 | skipped=0 | failed=0
+2026-10-14 13:16:47,625 | INFO | pipeline.main | Successfully loaded cities: ['Manila']
+2026-10-14 13:16:47,627 | INFO | pipeline.main | Weather ingestion completed successfully.
+2026-10-14 13:16:47,738 | INFO | pipeline.main | Starting Weather Ingestion...
+2026-10-14 13:16:47,740 | INFO | pipeline.main | Processing city: Manila
+2026-10-14 13:16:47,742 | ERROR | pipeline.main | Failed to process city: Manila
+Traceback (most recent call last):
+  File "/mnt/c/Users/aldwin/project/weatherflow/pipeline/main.py", line 41, in main
+    weather_data = extract_openweather_data(
+        latitude, longitude, city
+    )
+  File "/mnt/c/Users/aldwin/project/weatherflow/tests/test_load_postgresql.py", line 201, in <lambda>
+    lambda *args, **kwargs: (_ for _ in ()).throw(RuntimeError("API failure")),
+                            ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/c/Users/aldwin/project/weatherflow/tests/test_load_postgresql.py", line 201, in <genexpr>
+    lambda *args, **kwargs: (_ for _ in ()).throw(RuntimeError("API failure")),
+RuntimeError: API failure
+2026-10-14 13:16:47,799 | INFO | pipeline.main | Pipeline summary | total=1 | loaded=0 | skipped=0 | failed=1
+2026-10-14 13:16:47,802 | ERROR | pipeline.main | Failed cities: ['Manila']
+2026-10-14 13:16:47,804 | ERROR | pipeline.main | Weather ingestion completed with failures.
+2026-10-14 06:14:47,334 | INFO | pipeline.main | Starting Weather Ingestion...
+2026-10-14 06:14:47,336 | INFO | pipeline.main | Processing city: Manila
+2026-10-14 06:14:47,788 | INFO | pipeline.main | Geocoding loaded for Manila into geocoding_manila
+2026-10-14 06:14:48,051 | INFO | pipeline.main | Raw JSON saved for Manila: /opt/weatherflow/data/raw/openweather/manila.json
+2026-10-14 06:14:48,058 | INFO | pipeline.main | Weather data transformed for Manila
+2026-10-14 06:14:48,182 | INFO | pipeline.main | Parquet saved for Manila: /opt/weatherflow/data/parquet/openweather/manila.parquet
+2026-10-14 06:14:48,211 | INFO | pipeline.main | Loaded 1 row(s) for Manila into openweather_manila.
+2026-10-14 06:14:48,252 | INFO | pipeline.main | Checkpoint updated for Manila.
+2026-10-14 06:14:48,254 | INFO | pipeline.main | Processing city: Quezon City
+2026-10-14 06:14:48,519 | INFO | pipeline.main | Geocoding loaded for Quezon City into geocoding_quezon_city
+2026-10-14 06:14:48,565 | INFO | pipeline.main | Raw JSON saved for Quezon City: /opt/weatherflow/data/raw/openweather/quezon_city.json
+2026-10-14 06:14:48,569 | INFO | pipeline.main | Weather data transformed for Quezon City
+2026-10-14 06:14:48,648 | INFO | pipeline.main | Parquet saved for Quezon City: /opt/weatherflow/data/parquet/openweather/quezon_city.parquet
+2026-10-14 06:14:48,680 | INFO | pipeline.main | Loaded 1 row(s) for Quezon City into openweather_quezon_city.
+2026-10-14 06:14:48,761 | INFO | pipeline.main | Checkpoint updated for Quezon City.
+2026-10-14 06:14:48,767 | INFO | pipeline.main | Processing city: Cebu City
+2026-10-14 06:14:49,135 | INFO | pipeline.main | Geocoding loaded for Cebu City into geocoding_cebu_city
+2026-10-14 06:14:49,187 | INFO | pipeline.main | Raw JSON saved for Cebu City: /opt/weatherflow/data/raw/openweather/cebu_city.json
+2026-10-14 06:14:49,189 | INFO | pipeline.main | Weather data transformed for Cebu City
+2026-10-14 06:14:49,273 | INFO | pipeline.main | Parquet saved for Cebu City: /opt/weatherflow/data/parquet/openweather/cebu_city.parquet
+2026-10-14 06:14:49,406 | INFO | pipeline.main | Loaded 1 row(s) for Cebu City into openweather_cebu_city.
+2026-10-14 06:14:49,437 | INFO | pipeline.main | Checkpoint updated for Cebu City.
+2026-10-14 06:14:49,438 | INFO | pipeline.main | Processing city: Davao City
+2026-10-14 06:14:49,807 | INFO | pipeline.main | Geocoding loaded for Davao City into geocoding_davao_city
+2026-10-14 06:14:49,923 | INFO | pipeline.main | Raw JSON saved for Davao City: /opt/weatherflow/data/raw/openweather/davao_city.json
+2026-10-14 06:14:49,931 | INFO | pipeline.main | Weather data transformed for Davao City
+2026-10-14 06:14:50,066 | INFO | pipeline.main | Parquet saved for Davao City: /opt/weatherflow/data/parquet/openweather/davao_city.parquet
+2026-10-14 06:14:50,141 | INFO | pipeline.main | Loaded 1 row(s) for Davao City into openweather_davao_city.
+2026-10-14 06:14:50,242 | INFO | pipeline.main | Checkpoint updated for Davao City.
+2026-10-14 06:14:50,244 | INFO | pipeline.main | Processing city: Baguio
+2026-10-14 06:14:50,499 | INFO | pipeline.main | Geocoding loaded for Baguio into geocoding_baguio
+2026-10-14 06:14:50,544 | INFO | pipeline.main | Raw JSON saved for Baguio: /opt/weatherflow/data/raw/openweather/baguio.json
+2026-10-14 06:14:50,546 | INFO | pipeline.main | Weather data transformed for Baguio
+2026-10-14 06:14:50,602 | INFO | pipeline.main | Parquet saved for Baguio: /opt/weatherflow/data/parquet/openweather/baguio.parquet
+2026-10-14 06:14:50,631 | INFO | pipeline.main | Loaded 1 row(s) for Baguio into openweather_baguio.
+2026-10-14 06:14:50,654 | INFO | pipeline.main | Checkpoint updated for Baguio.
+2026-10-14 06:14:50,655 | INFO | pipeline.main | Processing city: Iloilo City
+2026-10-14 06:14:51,067 | INFO | pipeline.main | Geocoding loaded for Iloilo City into geocoding_iloilo_city
+2026-10-14 06:14:51,163 | INFO | pipeline.main | Raw JSON saved for Iloilo City: /opt/weatherflow/data/raw/openweather/iloilo_city.json
+2026-10-14 06:14:51,171 | INFO | pipeline.main | Weather data transformed for Iloilo City
+2026-10-14 06:14:51,375 | INFO | pipeline.main | Parquet saved for Iloilo City: /opt/weatherflow/data/parquet/openweather/iloilo_city.parquet
+2026-10-14 06:14:51,433 | INFO | pipeline.main | Loaded 1 row(s) for Iloilo City into openweather_iloilo_city.
+2026-10-14 06:14:51,463 | INFO | pipeline.main | Checkpoint updated for Iloilo City.
+2026-10-14 06:14:51,464 | INFO | pipeline.main | Processing city: Cagayan de Oro
+2026-10-14 06:14:51,732 | INFO | pipeline.main | Geocoding loaded for Cagayan de Oro into geocoding_cagayan_de_oro
+2026-10-14 06:14:51,766 | INFO | pipeline.main | Raw JSON saved for Cagayan de Oro: /opt/weatherflow/data/raw/openweather/cagayan_de_oro.json
+2026-10-14 06:14:51,771 | INFO | pipeline.main | Weather data transformed for Cagayan de Oro
+2026-10-14 06:14:51,829 | INFO | pipeline.main | Parquet saved for Cagayan de Oro: /opt/weatherflow/data/parquet/openweather/cagayan_de_oro.parquet
+2026-10-14 06:14:51,864 | INFO | pipeline.main | Loaded 1 row(s) for Cagayan de Oro into openweather_cagayan_de_oro.
+2026-10-14 06:14:51,884 | INFO | pipeline.main | Checkpoint updated for Cagayan de Oro.
+2026-10-14 06:14:51,886 | INFO | pipeline.main | Processing city: Zamboanga City
+2026-10-14 06:14:52,287 | INFO | pipeline.main | Geocoding loaded for Zamboanga City into geocoding_zamboanga_city
+2026-10-14 06:14:52,372 | INFO | pipeline.main | Raw JSON saved for Zamboanga City: /opt/weatherflow/data/raw/openweather/zamboanga_city.json
+2026-10-14 06:14:52,376 | INFO | pipeline.main | Weather data transformed for Zamboanga City
+2026-10-14 06:14:52,445 | INFO | pipeline.main | Parquet saved for Zamboanga City: /opt/weatherflow/data/parquet/openweather/zamboanga_city.parquet
+2026-10-14 06:14:52,551 | INFO | pipeline.main | Loaded 1 row(s) for Zamboanga City into openweather_zamboanga_city.
+2026-10-14 06:14:52,570 | INFO | pipeline.main | Checkpoint updated for Zamboanga City.
+2026-10-14 06:14:52,571 | INFO | pipeline.main | Pipeline summary | total=8 | loaded=8 | skipped=0 | failed=0
+2026-10-14 06:14:52,572 | INFO | pipeline.main | Successfully loaded cities: ['Manila', 'Quezon City', 'Cebu City', 'Davao City', 'Baguio', 'Iloilo City', 'Cagayan de Oro', 'Zamboanga City']
+2026-10-14 06:14:52,573 | INFO | pipeline.main | Weather ingestion completed successfully.
+2026-10-14 14:21:58,749 | INFO | pipeline.main | Starting Weather Ingestion...
+2026-10-14 14:21:58,750 | INFO | pipeline.main | Processing city: Manila
+2026-10-14 14:21:58,756 | INFO | pipeline.main | Geocoding loaded for Manila into geocoding_manila
+2026-10-14 14:21:58,758 | INFO | pipeline.main | Raw JSON saved for Manila: /tmp/pytest-of-aldwin/pytest-2/test_pipeline_main_saves_parqu0/manila.json
+2026-10-14 14:21:58,761 | INFO | pipeline.main | Weather data transformed for Manila
+2026-10-14 14:21:58,764 | INFO | pipeline.main | Parquet saved for Manila: /tmp/pytest-of-aldwin/pytest-2/test_pipeline_main_saves_parqu0/openweather_Manila.parquet
+2026-10-14 14:21:58,766 | INFO | pipeline.main | Loaded 1 row(s) for Manila into openweather_manila.
+2026-10-14 14:21:58,768 | INFO | pipeline.main | Checkpoint updated for Manila.
+2026-10-14 14:21:58,770 | INFO | pipeline.main | Pipeline summary | total=1 | loaded=1 | skipped=0 | failed=0
+2026-10-14 14:21:58,772 | INFO | pipeline.main | Successfully loaded cities: ['Manila']
+2026-10-14 14:21:58,774 | INFO | pipeline.main | Weather ingestion completed successfully.
+2026-10-14 14:21:58,779 | INFO | pipeline.main | Starting Weather Ingestion...
+2026-10-14 14:21:58,781 | INFO | pipeline.main | Processing city: Manila
+2026-10-14 14:21:58,784 | INFO | pipeline.main | Geocoding loaded for Manila into geocoding_manila
+2026-10-14 14:21:58,785 | INFO | pipeline.main | Raw JSON saved for Manila: /tmp/pytest-of-aldwin/pytest-2/test_pipeline_main_uses_canoni0/manila.json
+2026-10-14 14:21:58,789 | INFO | pipeline.main | Weather data transformed for Manila
+2026-10-14 14:21:58,790 | INFO | pipeline.main | Parquet saved for Manila: /tmp/pytest-of-aldwin/pytest-2/test_pipeline_main_uses_canoni0/openweather_Manila.parquet
+2026-10-14 14:21:58,792 | INFO | pipeline.main | Loaded 1 row(s) for Manila into openweather_manila.
+2026-10-14 14:21:58,793 | INFO | pipeline.main | Checkpoint updated for Manila.
+2026-10-14 14:21:58,794 | INFO | pipeline.main | Pipeline summary | total=1 | loaded=1 | skipped=0 | failed=0
+2026-10-14 14:21:58,795 | INFO | pipeline.main | Successfully loaded cities: ['Manila']
+2026-10-14 14:21:58,797 | INFO | pipeline.main | Weather ingestion completed successfully.
+2026-10-14 14:22:12,523 | INFO | pipeline.main | Starting Weather Ingestion...
+2026-10-14 14:22:12,524 | INFO | pipeline.main | Processing city: Manila
+2026-10-14 14:22:12,525 | ERROR | pipeline.main | Failed to process city: Manila
+Traceback (most recent call last):
+  File "/mnt/c/Users/aldwin/project/weatherflow/pipeline/main.py", line 41, in main
+    weather_data = extract_openweather_data(
+        latitude, longitude, city
+    )
+  File "/mnt/c/Users/aldwin/project/weatherflow/tests/test_load_postgresql.py", line 201, in <lambda>
+    lambda *args, **kwargs: (_ for _ in ()).throw(RuntimeError("API failure")),
+                            ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/c/Users/aldwin/project/weatherflow/tests/test_load_postgresql.py", line 201, in <genexpr>
+    lambda *args, **kwargs: (_ for _ in ()).throw(RuntimeError("API failure")),
+RuntimeError: API failure
+2026-10-14 14:22:12,540 | INFO | pipeline.main | Pipeline summary | total=1 | loaded=0 | skipped=0 | failed=1
+2026-10-14 14:22:12,541 | ERROR | pipeline.main | Failed cities: ['Manila']
+2026-10-14 14:22:12,542 | ERROR | pipeline.main | Weather ingestion completed with failures.
+2026-10-14 14:25:23,093 | INFO | pipeline.main | Starting Weather Ingestion...
+2026-10-14 14:25:23,094 | INFO | pipeline.main | Processing city: Manila
+2026-10-14 14:25:23,118 | INFO | pipeline.main | Geocoding loaded for Manila into geocoding_manila
+2026-10-14 14:25:23,123 | INFO | pipeline.main | Raw JSON saved for Manila: /tmp/pytest-of-aldwin/pytest-3/test_pipeline_main_saves_parqu0/manila.json
+2026-10-14 14:25:23,134 | INFO | pipeline.main | Weather data transformed for Manila
+2026-10-14 14:25:23,139 | INFO | pipeline.main | Parquet saved for Manila: /tmp/pytest-of-aldwin/pytest-3/test_pipeline_main_saves_parqu0/openweather_Manila.parquet
+2026-10-14 14:25:23,142 | INFO | pipeline.main | Loaded 1 row(s) for Manila into openweather_manila.
+2026-10-14 14:25:23,146 | INFO | pipeline.main | Checkpoint updated for Manila.
+2026-10-14 14:25:23,148 | INFO | pipeline.main | Pipeline summary | total=1 | loaded=1 | skipped=0 | failed=0
+2026-10-14 14:25:23,150 | INFO | pipeline.main | Successfully loaded cities: ['Manila']
+2026-10-14 14:25:23,152 | INFO | pipeline.main | Weather ingestion completed successfully.
+2026-10-14 14:25:23,160 | INFO | pipeline.main | Starting Weather Ingestion...
+2026-10-14 14:25:23,163 | INFO | pipeline.main | Processing city: Manila
+2026-10-14 14:25:23,167 | INFO | pipeline.main | Geocoding loaded for Manila into geocoding_manila
+2026-10-14 14:25:23,169 | INFO | pipeline.main | Raw JSON saved for Manila: /tmp/pytest-of-aldwin/pytest-3/test_pipeline_main_uses_canoni0/manila.json
+2026-10-14 14:25:23,171 | INFO | pipeline.main | Weather data transformed for Manila
+2026-10-14 14:25:23,172 | INFO | pipeline.main | Parquet saved for Manila: /tmp/pytest-of-aldwin/pytest-3/test_pipeline_main_uses_canoni0/openweather_Manila.parquet
+2026-10-14 14:25:23,174 | INFO | pipeline.main | Loaded 1 row(s) for Manila into openweather_manila.
+2026-10-14 14:25:23,175 | INFO | pipeline.main | Checkpoint updated for Manila.
+2026-10-14 14:25:23,177 | INFO | pipeline.main | Pipeline summary | total=1 | loaded=1 | skipped=0 | failed=0
+2026-10-14 14:25:23,178 | INFO | pipeline.main | Successfully loaded cities: ['Manila']
+2026-10-14 14:25:23,179 | INFO | pipeline.main | Weather ingestion completed successfully.
+2026-10-14 14:25:42,579 | INFO | pipeline.main | Starting Weather Ingestion...
+2026-10-14 14:25:42,590 | INFO | pipeline.main | Processing city: Manila
+2026-10-14 14:25:42,595 | ERROR | pipeline.main | Failed to process city: Manila
+Traceback (most recent call last):
+  File "/mnt/c/Users/aldwin/project/weatherflow/pipeline/main.py", line 41, in main
+    weather_data = extract_openweather_data(
+        latitude, longitude, city
+    )
+  File "/mnt/c/Users/aldwin/project/weatherflow/tests/test_load_postgresql.py", line 201, in <lambda>
+    lambda *args, **kwargs: (_ for _ in ()).throw(RuntimeError("API failure")),
+                            ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/c/Users/aldwin/project/weatherflow/tests/test_load_postgresql.py", line 201, in <genexpr>
+    lambda *args, **kwargs: (_ for _ in ()).throw(RuntimeError("API failure")),
+RuntimeError: API failure
+2026-10-14 14:25:42,636 | INFO | pipeline.main | Pipeline summary | total=1 | loaded=0 | skipped=0 | failed=1
+2026-10-14 14:25:42,639 | ERROR | pipeline.main | Failed cities: ['Manila']
+2026-10-14 14:25:42,641 | ERROR | pipeline.main | Weather ingestion completed with failures.
+2026-10-14 14:26:59,854 | INFO | pipeline.main | Starting Weather Ingestion...
+2026-10-14 14:26:59,855 | INFO | pipeline.main | Processing city: Manila
+2026-10-14 14:26:59,859 | INFO | pipeline.main | Geocoding loaded for Manila into geocoding_manila
+2026-10-14 14:26:59,860 | INFO | pipeline.main | Raw JSON saved for Manila: /tmp/pytest-of-aldwin/pytest-4/test_pipeline_main_saves_parqu0/manila.json
+2026-10-14 14:26:59,862 | INFO | pipeline.main | Weather data transformed for Manila
+2026-10-14 14:26:59,865 | INFO | pipeline.main | Parquet saved for Manila: /tmp/pytest-of-aldwin/pytest-4/test_pipeline_main_saves_parqu0/openweather_Manila.parquet
+2026-10-14 14:26:59,866 | INFO | pipeline.main | Loaded 1 row(s) for Manila into openweather_manila.
+2026-10-14 14:26:59,867 | INFO | pipeline.main | Checkpoint updated for Manila.
+2026-10-14 14:26:59,869 | INFO | pipeline.main | Pipeline summary | total=1 | loaded=1 | skipped=0 | failed=0
+2026-10-14 14:26:59,870 | INFO | pipeline.main | Successfully loaded cities: ['Manila']
+2026-10-14 14:26:59,871 | INFO | pipeline.main | Weather ingestion completed successfully.
+2026-10-14 14:26:59,877 | INFO | pipeline.main | Starting Weather Ingestion...
+2026-10-14 14:26:59,878 | INFO | pipeline.main | Processing city: Manila
+2026-10-14 14:26:59,881 | INFO | pipeline.main | Geocoding loaded for Manila into geocoding_manila
+2026-10-14 14:26:59,882 | INFO | pipeline.main | Raw JSON saved for Manila: /tmp/pytest-of-aldwin/pytest-4/test_pipeline_main_uses_canoni0/manila.json
+2026-10-14 14:26:59,885 | INFO | pipeline.main | Weather data transformed for Manila
+2026-10-14 14:26:59,887 | INFO | pipeline.main | Parquet saved for Manila: /tmp/pytest-of-aldwin/pytest-4/test_pipeline_main_uses_canoni0/openweather_Manila.parquet
+2026-10-14 14:26:59,888 | INFO | pipeline.main | Loaded 1 row(s) for Manila into openweather_manila.
+2026-10-14 14:26:59,890 | INFO | pipeline.main | Checkpoint updated for Manila.
+2026-10-14 14:26:59,891 | INFO | pipeline.main | Pipeline summary | total=1 | loaded=1 | skipped=0 | failed=0
+2026-10-14 14:26:59,893 | INFO | pipeline.main | Successfully loaded cities: ['Manila']
+2026-10-14 14:26:59,894 | INFO | pipeline.main | Weather ingestion completed successfully.
+2026-10-14 14:27:17,968 | INFO | pipeline.main | Starting Weather Ingestion...
+2026-10-14 14:27:17,973 | INFO | pipeline.main | Processing city: Manila
+2026-10-14 14:27:17,978 | ERROR | pipeline.main | Failed to process city: Manila
+Traceback (most recent call last):
+  File "/mnt/c/Users/aldwin/project/weatherflow/pipeline/main.py", line 41, in main
+    weather_data = extract_openweather_data(
+        latitude, longitude, city
+    )
+  File "/mnt/c/Users/aldwin/project/weatherflow/tests/test_load_postgresql.py", line 201, in <lambda>
+    lambda *args, **kwargs: (_ for _ in ()).throw(RuntimeError("API failure")),
+                            ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/c/Users/aldwin/project/weatherflow/tests/test_load_postgresql.py", line 201, in <genexpr>
+    lambda *args, **kwargs: (_ for _ in ()).throw(RuntimeError("API failure")),
+RuntimeError: API failure
+2026-10-14 14:27:18,015 | INFO | pipeline.main | Pipeline summary | total=1 | loaded=0 | skipped=0 | failed=1
+2026-10-14 14:27:18,018 | ERROR | pipeline.main | Failed cities: ['Manila']
+2026-10-14 14:27:18,019 | ERROR | pipeline.main | Weather ingestion completed with failures.
+2026-10-14 14:32:30,163 | INFO | pipeline.main | Starting Weather Ingestion...
+2026-10-14 14:32:30,164 | INFO | pipeline.main | Processing city: Manila
+2026-10-14 14:32:30,169 | INFO | pipeline.main | Geocoding loaded for Manila into geocoding_manila
+2026-10-14 14:32:30,172 | INFO | pipeline.main | Raw JSON saved for Manila: /tmp/pytest-of-aldwin/pytest-5/test_pipeline_main_saves_parqu0/manila.json
+2026-10-14 14:32:30,175 | INFO | pipeline.main | Weather data transformed for Manila
+2026-10-14 14:32:30,177 | INFO | pipeline.main | Parquet saved for Manila: /tmp/pytest-of-aldwin/pytest-5/test_pipeline_main_saves_parqu0/openweather_Manila.parquet
+2026-10-14 14:32:30,181 | INFO | pipeline.main | Loaded 1 row(s) for Manila into openweather_manila.
+2026-10-14 14:32:30,183 | INFO | pipeline.main | Checkpoint updated for Manila.
+2026-10-14 14:32:30,184 | INFO | pipeline.main | Pipeline summary | total=1 | loaded=1 | skipped=0 | failed=0
+2026-10-14 14:32:30,186 | INFO | pipeline.main | Successfully loaded cities: ['Manila']
+2026-10-14 14:32:30,188 | INFO | pipeline.main | Weather ingestion completed successfully.
+2026-10-14 14:32:30,197 | INFO | pipeline.main | Starting Weather Ingestion...
+2026-10-14 14:32:30,199 | INFO | pipeline.main | Processing city: Manila
+2026-10-14 14:32:30,201 | INFO | pipeline.main | Geocoding loaded for Manila into geocoding_manila
+2026-10-14 14:32:30,202 | INFO | pipeline.main | Raw JSON saved for Manila: /tmp/pytest-of-aldwin/pytest-5/test_pipeline_main_uses_canoni0/manila.json
+2026-10-14 14:32:30,205 | INFO | pipeline.main | Weather data transformed for Manila
+2026-10-14 14:32:30,206 | INFO | pipeline.main | Parquet saved for Manila: /tmp/pytest-of-aldwin/pytest-5/test_pipeline_main_uses_canoni0/openweather_Manila.parquet
+2026-10-14 14:32:30,208 | INFO | pipeline.main | Loaded 1 row(s) for Manila into openweather_manila.
+2026-10-14 14:32:30,209 | INFO | pipeline.main | Checkpoint updated for Manila.
+2026-10-14 14:32:30,210 | INFO | pipeline.main | Pipeline summary | total=1 | loaded=1 | skipped=0 | failed=0
+2026-10-14 14:32:30,211 | INFO | pipeline.main | Successfully loaded cities: ['Manila']
+2026-10-14 14:32:30,213 | INFO | pipeline.main | Weather ingestion completed successfully.
+2026-10-14 14:32:30,217 | INFO | pipeline.main | Starting Weather Ingestion...
+2026-10-14 14:32:30,219 | INFO | pipeline.main | Processing city: Manila
+2026-10-14 14:32:30,220 | ERROR | pipeline.main | Failed to process city: Manila
+Traceback (most recent call last):
+  File "/mnt/c/Users/aldwin/project/weatherflow/pipeline/main.py", line 41, in main
+    weather_data = extract_openweather_data(
+        latitude, longitude, city
+    )
+  File "/mnt/c/Users/aldwin/project/weatherflow/tests/test_load_postgresql.py", line 205, in <lambda>
+    lambda *args, **kwargs: (_ for _ in ()).throw(RuntimeError("API failure")),
+                            ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/c/Users/aldwin/project/weatherflow/tests/test_load_postgresql.py", line 205, in <genexpr>
+    lambda *args, **kwargs: (_ for _ in ()).throw(RuntimeError("API failure")),
+RuntimeError: API failure
+2026-10-14 14:32:30,273 | INFO | pipeline.main | Pipeline summary | total=1 | loaded=0 | skipped=0 | failed=1
+2026-10-14 14:32:30,275 | ERROR | pipeline.main | Failed cities: ['Manila']
+2026-10-14 14:32:30,278 | ERROR | pipeline.main | Weather ingestion completed with failures.
+2026-10-14 14:36:40,722 | INFO | pipeline.main | Starting Weather Ingestion...
+2026-10-14 14:36:40,723 | INFO | pipeline.main | Processing city: Manila
+2026-10-14 14:36:40,727 | INFO | pipeline.main | Geocoding loaded for Manila into geocoding_manila
+2026-10-14 14:36:40,729 | INFO | pipeline.main | Raw JSON saved for Manila: /tmp/pytest-of-aldwin/pytest-6/test_pipeline_main_saves_parqu0/manila.json
+2026-10-14 14:36:40,731 | INFO | pipeline.main | Weather data transformed for Manila
+2026-10-14 14:36:40,732 | INFO | pipeline.main | Parquet saved for Manila: /tmp/pytest-of-aldwin/pytest-6/test_pipeline_main_saves_parqu0/openweather_Manila.parquet
+2026-10-14 14:36:40,734 | INFO | pipeline.main | Loaded 1 row(s) for Manila into openweather_manila.
+2026-10-14 14:36:40,735 | INFO | pipeline.main | Checkpoint updated for Manila.
+2026-10-14 14:36:40,736 | INFO | pipeline.main | Pipeline summary | total=1 | loaded=1 | skipped=0 | failed=0
+2026-10-14 14:36:40,737 | INFO | pipeline.main | Successfully loaded cities: ['Manila']
+2026-10-14 14:36:40,739 | INFO | pipeline.main | Weather ingestion completed successfully.
+2026-10-14 14:36:40,745 | INFO | pipeline.main | Starting Weather Ingestion...
+2026-10-14 14:36:40,746 | INFO | pipeline.main | Processing city: Manila
+2026-10-14 14:36:40,748 | INFO | pipeline.main | Geocoding loaded for Manila into geocoding_manila
+2026-10-14 14:36:40,749 | INFO | pipeline.main | Raw JSON saved for Manila: /tmp/pytest-of-aldwin/pytest-6/test_pipeline_main_uses_canoni0/manila.json
+2026-10-14 14:36:40,752 | INFO | pipeline.main | Weather data transformed for Manila
+2026-10-14 14:36:40,753 | INFO | pipeline.main | Parquet saved for Manila: /tmp/pytest-of-aldwin/pytest-6/test_pipeline_main_uses_canoni0/openweather_Manila.parquet
+2026-10-14 14:36:40,754 | INFO | pipeline.main | Loaded 1 row(s) for Manila into openweather_manila.
+2026-10-14 14:36:40,755 | INFO | pipeline.main | Checkpoint updated for Manila.
+2026-10-14 14:36:40,756 | INFO | pipeline.main | Pipeline summary | total=1 | loaded=1 | skipped=0 | failed=0
+2026-10-14 14:36:40,757 | INFO | pipeline.main | Successfully loaded cities: ['Manila']
+2026-10-14 14:36:40,758 | INFO | pipeline.main | Weather ingestion completed successfully.
+2026-10-14 14:36:40,764 | INFO | pipeline.main | Starting Weather Ingestion...
+2026-10-14 14:36:40,765 | INFO | pipeline.main | Processing city: Manila
+2026-10-14 14:36:40,766 | ERROR | pipeline.main | Failed to process city: Manila
+Traceback (most recent call last):
+  File "/mnt/c/Users/aldwin/project/weatherflow/pipeline/main.py", line 41, in main
+    weather_data = extract_openweather_data(
+        latitude, longitude, city
+    )
+  File "/mnt/c/Users/aldwin/project/weatherflow/tests/test_load_postgresql.py", line 205, in <lambda>
+    lambda *args, **kwargs: (_ for _ in ()).throw(RuntimeError("API failure")),
+                            ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/c/Users/aldwin/project/weatherflow/tests/test_load_postgresql.py", line 205, in <genexpr>
+    lambda *args, **kwargs: (_ for _ in ()).throw(RuntimeError("API failure")),
+RuntimeError: API failure
+2026-10-14 14:36:40,783 | INFO | pipeline.main | Pipeline summary | total=1 | loaded=0 | skipped=0 | failed=1
+2026-10-14 14:36:40,784 | ERROR | pipeline.main | Failed cities: ['Manila']
+2026-10-14 14:36:40,785 | ERROR | pipeline.main | Weather ingestion completed with failures.
+2026-10-14 14:59:21,912 | INFO | pipeline.main | Starting Weather Ingestion...
+2026-10-14 14:59:21,915 | INFO | pipeline.main | Processing city: Manila
+2026-10-14 14:59:21,940 | INFO | pipeline.main | Geocoding loaded for Manila into geocoding_manila
+2026-10-14 14:59:21,948 | INFO | pipeline.main | Raw JSON saved for Manila: /tmp/pytest-of-aldwin/pytest-7/test_pipeline_main_saves_parqu0/manila.json
+2026-10-14 14:59:21,958 | INFO | pipeline.main | Weather data transformed for Manila
+2026-10-14 14:59:21,964 | INFO | pipeline.main | Parquet saved for Manila: /tmp/pytest-of-aldwin/pytest-7/test_pipeline_main_saves_parqu0/openweather_Manila.parquet
+2026-10-14 14:59:21,971 | INFO | pipeline.main | Loaded 1 row(s) for Manila into openweather_manila.
+2026-10-14 14:59:21,975 | INFO | pipeline.main | Checkpoint updated for Manila.
+2026-10-14 14:59:21,978 | INFO | pipeline.main | Pipeline summary | total=1 | loaded=1 | skipped=0 | failed=0
+2026-10-14 14:59:21,980 | INFO | pipeline.main | Successfully loaded cities: ['Manila']
+2026-10-14 14:59:21,981 | INFO | pipeline.main | Weather ingestion completed successfully.
+2026-10-14 14:59:21,991 | INFO | pipeline.main | Starting Weather Ingestion...
+2026-10-14 14:59:21,994 | INFO | pipeline.main | Processing city: Manila
+2026-10-14 14:59:21,998 | INFO | pipeline.main | Geocoding loaded for Manila into geocoding_manila
+2026-10-14 14:59:22,000 | INFO | pipeline.main | Raw JSON saved for Manila: /tmp/pytest-of-aldwin/pytest-7/test_pipeline_main_uses_canoni0/manila.json
+2026-10-14 14:59:22,004 | INFO | pipeline.main | Weather data transformed for Manila
+2026-10-14 14:59:22,006 | INFO | pipeline.main | Parquet saved for Manila: /tmp/pytest-of-aldwin/pytest-7/test_pipeline_main_uses_canoni0/openweather_Manila.parquet
+2026-10-14 14:59:22,007 | INFO | pipeline.main | Loaded 1 row(s) for Manila into openweather_manila.
+2026-10-14 14:59:22,009 | INFO | pipeline.main | Checkpoint updated for Manila.
+2026-10-14 14:59:22,012 | INFO | pipeline.main | Pipeline summary | total=1 | loaded=1 | skipped=0 | failed=0
+2026-10-14 14:59:22,014 | INFO | pipeline.main | Successfully loaded cities: ['Manila']
+2026-10-14 14:59:22,015 | INFO | pipeline.main | Weather ingestion completed successfully.
+2026-10-14 14:59:22,022 | INFO | pipeline.main | Starting Weather Ingestion...
+2026-10-14 14:59:22,023 | INFO | pipeline.main | Processing city: Manila
+2026-10-14 14:59:22,025 | ERROR | pipeline.main | Failed to process city: Manila
+Traceback (most recent call last):
+  File "/mnt/c/Users/aldwin/project/weatherflow/pipeline/main.py", line 41, in main
+    weather_data = extract_openweather_data(
+        latitude, longitude, city
+    )
+  File "/mnt/c/Users/aldwin/project/weatherflow/tests/test_load_postgresql.py", line 205, in <lambda>
+    lambda *args, **kwargs: (_ for _ in ()).throw(RuntimeError("API failure")),
+                            ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/c/Users/aldwin/project/weatherflow/tests/test_load_postgresql.py", line 205, in <genexpr>
+    lambda *args, **kwargs: (_ for _ in ()).throw(RuntimeError("API failure")),
+RuntimeError: API failure
+2026-10-14 14:59:22,066 | INFO | pipeline.main | Pipeline summary | total=1 | loaded=0 | skipped=0 | failed=1
+2026-10-14 14:59:22,068 | ERROR | pipeline.main | Failed cities: ['Manila']
+2026-10-14 14:59:22,070 | ERROR | pipeline.main | Weather ingestion completed with failures.
+2026-10-14 07:00:09,220 | INFO | pipeline.main | Starting Weather Ingestion...
+2026-10-14 07:00:09,223 | INFO | pipeline.main | Processing city: Manila
+2026-10-14 07:00:09,699 | INFO | pipeline.main | Geocoding loaded for Manila into geocoding_manila
+2026-10-14 07:00:09,717 | INFO | pipeline.main | No new weather data for Manila. Skipping.
+2026-10-14 07:00:09,719 | INFO | pipeline.main | Processing city: Quezon City
+2026-10-14 07:00:10,140 | INFO | pipeline.main | Geocoding loaded for Quezon City into geocoding_quezon_city
+2026-10-14 07:00:10,297 | INFO | pipeline.main | Raw JSON saved for Quezon City: /opt/weatherflow/data/raw/openweather/quezon_city.json
+2026-10-14 07:00:10,305 | INFO | pipeline.main | Weather data transformed for Quezon City
+2026-10-14 07:00:10,492 | INFO | pipeline.main | Parquet saved for Quezon City: /opt/weatherflow/data/parquet/openweather/quezon_city.parquet
+2026-10-14 07:00:10,546 | INFO | pipeline.main | Loaded 1 row(s) for Quezon City into openweather_quezon_city.
+2026-10-14 07:00:10,636 | INFO | pipeline.main | Checkpoint updated for Quezon City.
+2026-10-14 07:00:10,650 | INFO | pipeline.main | Processing city: Cebu City
+2026-10-14 07:00:11,025 | INFO | pipeline.main | Geocoding loaded for Cebu City into geocoding_cebu_city
+2026-10-14 07:00:11,204 | INFO | pipeline.main | Raw JSON saved for Cebu City: /opt/weatherflow/data/raw/openweather/cebu_city.json
+2026-10-14 07:00:11,212 | INFO | pipeline.main | Weather data transformed for Cebu City
+2026-10-14 07:00:11,356 | INFO | pipeline.main | Parquet saved for Cebu City: /opt/weatherflow/data/parquet/openweather/cebu_city.parquet
+2026-10-14 07:00:11,424 | INFO | pipeline.main | Loaded 1 row(s) for Cebu City into openweather_cebu_city.
+2026-10-14 07:00:11,469 | INFO | pipeline.main | Checkpoint updated for Cebu City.
+2026-10-14 07:00:11,473 | INFO | pipeline.main | Processing city: Davao City
+2026-10-14 07:00:11,934 | INFO | pipeline.main | Geocoding loaded for Davao City into geocoding_davao_city
+2026-10-14 07:00:12,076 | INFO | pipeline.main | Raw JSON saved for Davao City: /opt/weatherflow/data/raw/openweather/davao_city.json
+2026-10-14 07:00:12,087 | INFO | pipeline.main | Weather data transformed for Davao City
+2026-10-14 07:00:12,231 | INFO | pipeline.main | Parquet saved for Davao City: /opt/weatherflow/data/parquet/openweather/davao_city.parquet
+2026-10-14 07:00:12,290 | INFO | pipeline.main | Loaded 1 row(s) for Davao City into openweather_davao_city.
+2026-10-14 07:00:12,329 | INFO | pipeline.main | Checkpoint updated for Davao City.
+2026-10-14 07:00:12,332 | INFO | pipeline.main | Processing city: Baguio
+2026-10-14 07:00:12,839 | INFO | pipeline.main | Geocoding loaded for Baguio into geocoding_baguio
+2026-10-14 07:00:12,942 | INFO | pipeline.main | Raw JSON saved for Baguio: /opt/weatherflow/data/raw/openweather/baguio.json
+2026-10-14 07:00:12,947 | INFO | pipeline.main | Weather data transformed for Baguio
+2026-10-14 07:00:13,124 | INFO | pipeline.main | Parquet saved for Baguio: /opt/weatherflow/data/parquet/openweather/baguio.parquet
+2026-10-14 07:00:13,179 | INFO | pipeline.main | Loaded 1 row(s) for Baguio into openweather_baguio.
+2026-10-14 07:00:13,248 | INFO | pipeline.main | Checkpoint updated for Baguio.
+2026-10-14 07:00:13,252 | INFO | pipeline.main | Processing city: Iloilo City
+2026-10-14 07:00:13,534 | INFO | pipeline.main | Geocoding loaded for Iloilo City into geocoding_iloilo_city
+2026-10-14 07:00:13,620 | INFO | pipeline.main | Raw JSON saved for Iloilo City: /opt/weatherflow/data/raw/openweather/iloilo_city.json
+2026-10-14 07:00:13,628 | INFO | pipeline.main | Weather data transformed for Iloilo City
+2026-10-14 07:00:13,791 | INFO | pipeline.main | Parquet saved for Iloilo City: /opt/weatherflow/data/parquet/openweather/iloilo_city.parquet
+2026-10-14 07:00:13,840 | INFO | pipeline.main | Loaded 1 row(s) for Iloilo City into openweather_iloilo_city.
+2026-10-14 07:00:13,885 | INFO | pipeline.main | Checkpoint updated for Iloilo City.
+2026-10-14 07:00:13,888 | INFO | pipeline.main | Processing city: Cagayan de Oro
+2026-10-14 07:00:14,242 | INFO | pipeline.main | Geocoding loaded for Cagayan de Oro into geocoding_cagayan_de_oro
+2026-10-14 07:00:14,351 | INFO | pipeline.main | Raw JSON saved for Cagayan de Oro: /opt/weatherflow/data/raw/openweather/cagayan_de_oro.json
+2026-10-14 07:00:14,358 | INFO | pipeline.main | Weather data transformed for Cagayan de Oro
+2026-10-14 07:00:14,556 | INFO | pipeline.main | Parquet saved for Cagayan de Oro: /opt/weatherflow/data/parquet/openweather/cagayan_de_oro.parquet
+2026-10-14 07:00:14,635 | INFO | pipeline.main | Loaded 1 row(s) for Cagayan de Oro into openweather_cagayan_de_oro.
+2026-10-14 07:00:14,714 | INFO | pipeline.main | Checkpoint updated for Cagayan de Oro.
+2026-10-14 07:00:14,717 | INFO | pipeline.main | Processing city: Zamboanga City
+2026-10-14 07:00:15,087 | INFO | pipeline.main | Geocoding loaded for Zamboanga City into geocoding_zamboanga_city
+2026-10-14 07:00:15,219 | INFO | pipeline.main | Raw JSON saved for Zamboanga City: /opt/weatherflow/data/raw/openweather/zamboanga_city.json
+2026-10-14 07:00:15,236 | INFO | pipeline.main | Weather data transformed for Zamboanga City
+2026-10-14 07:00:15,396 | INFO | pipeline.main | Parquet saved for Zamboanga City: /opt/weatherflow/data/parquet/openweather/zamboanga_city.parquet
+2026-10-14 07:00:15,438 | INFO | pipeline.main | Loaded 1 row(s) for Zamboanga City into openweather_zamboanga_city.
+2026-10-14 07:00:15,495 | INFO | pipeline.main | Checkpoint updated for Zamboanga City.
+2026-10-14 07:00:15,500 | INFO | pipeline.main | Pipeline summary | total=8 | loaded=7 | skipped=1 | failed=0
+2026-10-14 07:00:15,501 | INFO | pipeline.main | Successfully loaded cities: ['Quezon City', 'Cebu City', 'Davao City', 'Baguio', 'Iloilo City', 'Cagayan de Oro', 'Zamboanga City']
+2026-10-14 07:00:15,502 | INFO | pipeline.main | Cities with no new data: ['Manila']
+2026-10-14 07:00:15,504 | INFO | pipeline.main | Weather ingestion completed successfully.
+2026-10-14 08:00:07,847 | INFO | pipeline.main | Starting Weather Ingestion...
+2026-10-14 08:00:07,850 | INFO | pipeline.main | Processing city: Manila
+2026-10-14 08:00:08,249 | INFO | pipeline.main | Geocoding loaded for Manila into geocoding_manila
+2026-10-14 08:00:08,361 | INFO | pipeline.main | Raw JSON saved for Manila: /opt/weatherflow/data/raw/openweather/manila.json
+2026-10-14 08:00:08,374 | INFO | pipeline.main | Weather data transformed for Manila
+2026-10-14 08:00:08,617 | INFO | pipeline.main | Parquet saved for Manila: /opt/weatherflow/data/parquet/openweather/manila.parquet
+2026-10-14 08:00:08,690 | INFO | pipeline.main | Loaded 1 row(s) for Manila into openweather_manila.
+2026-10-14 08:00:08,753 | INFO | pipeline.main | Checkpoint updated for Manila.
+2026-10-14 08:00:08,754 | INFO | pipeline.main | Processing city: Quezon City
+2026-10-14 08:00:09,127 | INFO | pipeline.main | Geocoding loaded for Quezon City into geocoding_quezon_city
+2026-10-14 08:00:09,379 | INFO | pipeline.main | Raw JSON saved for Quezon City: /opt/weatherflow/data/raw/openweather/quezon_city.json
+2026-10-14 08:00:09,399 | INFO | pipeline.main | Weather data transformed for Quezon City
+2026-10-14 08:00:09,653 | INFO | pipeline.main | Parquet saved for Quezon City: /opt/weatherflow/data/parquet/openweather/quezon_city.parquet
+2026-10-14 08:00:09,750 | INFO | pipeline.main | Loaded 1 row(s) for Quezon City into openweather_quezon_city.
+2026-10-14 08:00:09,868 | INFO | pipeline.main | Checkpoint updated for Quezon City.
+2026-10-14 08:00:09,871 | INFO | pipeline.main | Processing city: Cebu City
+2026-10-14 08:00:10,314 | INFO | pipeline.main | Geocoding loaded for Cebu City into geocoding_cebu_city
+2026-10-14 08:00:10,489 | INFO | pipeline.main | Raw JSON saved for Cebu City: /opt/weatherflow/data/raw/openweather/cebu_city.json
+2026-10-14 08:00:10,494 | INFO | pipeline.main | Weather data transformed for Cebu City
+2026-10-14 08:00:10,800 | INFO | pipeline.main | Parquet saved for Cebu City: /opt/weatherflow/data/parquet/openweather/cebu_city.parquet
+2026-10-14 08:00:10,880 | INFO | pipeline.main | Loaded 1 row(s) for Cebu City into openweather_cebu_city.
+2026-10-14 08:00:11,125 | INFO | pipeline.main | Checkpoint updated for Cebu City.
+2026-10-14 08:00:11,130 | INFO | pipeline.main | Processing city: Davao City
+2026-10-14 08:00:11,488 | INFO | pipeline.main | Geocoding loaded for Davao City into geocoding_davao_city
+2026-10-14 08:00:11,569 | INFO | pipeline.main | Raw JSON saved for Davao City: /opt/weatherflow/data/raw/openweather/davao_city.json
+2026-10-14 08:00:11,574 | INFO | pipeline.main | Weather data transformed for Davao City
+2026-10-14 08:00:11,744 | INFO | pipeline.main | Parquet saved for Davao City: /opt/weatherflow/data/parquet/openweather/davao_city.parquet
+2026-10-14 08:00:11,797 | INFO | pipeline.main | Loaded 1 row(s) for Davao City into openweather_davao_city.
+2026-10-14 08:00:11,846 | INFO | pipeline.main | Checkpoint updated for Davao City.
+2026-10-14 08:00:11,848 | INFO | pipeline.main | Processing city: Baguio
+2026-10-14 08:00:12,114 | INFO | pipeline.main | Geocoding loaded for Baguio into geocoding_baguio
+2026-10-14 08:00:12,201 | INFO | pipeline.main | Raw JSON saved for Baguio: /opt/weatherflow/data/raw/openweather/baguio.json
+2026-10-14 08:00:12,205 | INFO | pipeline.main | Weather data transformed for Baguio
+2026-10-14 08:00:12,314 | INFO | pipeline.main | Parquet saved for Baguio: /opt/weatherflow/data/parquet/openweather/baguio.parquet
+2026-10-14 08:00:12,357 | INFO | pipeline.main | Loaded 1 row(s) for Baguio into openweather_baguio.
+2026-10-14 08:00:12,408 | INFO | pipeline.main | Checkpoint updated for Baguio.
+2026-10-14 08:00:12,410 | INFO | pipeline.main | Processing city: Iloilo City
+2026-10-14 08:00:12,675 | INFO | pipeline.main | Geocoding loaded for Iloilo City into geocoding_iloilo_city
+2026-10-14 08:00:12,738 | INFO | pipeline.main | Raw JSON saved for Iloilo City: /opt/weatherflow/data/raw/openweather/iloilo_city.json
+2026-10-14 08:00:12,741 | INFO | pipeline.main | Weather data transformed for Iloilo City
+2026-10-14 08:00:12,843 | INFO | pipeline.main | Parquet saved for Iloilo City: /opt/weatherflow/data/parquet/openweather/iloilo_city.parquet
+2026-10-14 08:00:12,882 | INFO | pipeline.main | Loaded 1 row(s) for Iloilo City into openweather_iloilo_city.
+2026-10-14 08:00:12,918 | INFO | pipeline.main | Checkpoint updated for Iloilo City.
+2026-10-14 08:00:12,920 | INFO | pipeline.main | Processing city: Cagayan de Oro
+2026-10-14 08:00:13,402 | INFO | pipeline.main | Geocoding loaded for Cagayan de Oro into geocoding_cagayan_de_oro
+2026-10-14 08:00:13,502 | INFO | pipeline.main | Raw JSON saved for Cagayan de Oro: /opt/weatherflow/data/raw/openweather/cagayan_de_oro.json
+2026-10-14 08:00:13,514 | INFO | pipeline.main | Weather data transformed for Cagayan de Oro
+2026-10-14 08:00:13,654 | INFO | pipeline.main | Parquet saved for Cagayan de Oro: /opt/weatherflow/data/parquet/openweather/cagayan_de_oro.parquet
+2026-10-14 08:00:13,697 | INFO | pipeline.main | Loaded 1 row(s) for Cagayan de Oro into openweather_cagayan_de_oro.
+2026-10-14 08:00:13,741 | INFO | pipeline.main | Checkpoint updated for Cagayan de Oro.
+2026-10-14 08:00:13,745 | INFO | pipeline.main | Processing city: Zamboanga City
+2026-10-14 08:00:14,087 | INFO | pipeline.main | Geocoding loaded for Zamboanga City into geocoding_zamboanga_city
+2026-10-14 08:00:14,188 | INFO | pipeline.main | Raw JSON saved for Zamboanga City: /opt/weatherflow/data/raw/openweather/zamboanga_city.json
+2026-10-14 08:00:14,197 | INFO | pipeline.main | Weather data transformed for Zamboanga City
+2026-10-14 08:00:14,316 | INFO | pipeline.main | Parquet saved for Zamboanga City: /opt/weatherflow/data/parquet/openweather/zamboanga_city.parquet
+2026-10-14 08:00:14,371 | INFO | pipeline.main | Loaded 1 row(s) for Zamboanga City into openweather_zamboanga_city.
+2026-10-14 08:00:14,447 | INFO | pipeline.main | Checkpoint updated for Zamboanga City.
+2026-10-14 08:00:14,450 | INFO | pipeline.main | Pipeline summary | total=8 | loaded=8 | skipped=0 | failed=0
+2026-10-14 08:00:14,453 | INFO | pipeline.main | Successfully loaded cities: ['Manila', 'Quezon City', 'Cebu City', 'Davao City', 'Baguio', 'Iloilo City', 'Cagayan de Oro', 'Zamboanga City']
+2026-10-14 08:00:14,455 | INFO | pipeline.main | Weather ingestion completed successfully.
+2026-10-14 09:00:07,417 | INFO | pipeline.main | Starting Weather Ingestion...
+2026-10-14 09:00:07,421 | INFO | pipeline.main | Processing city: Manila
+2026-10-14 09:00:07,978 | INFO | pipeline.main | Geocoding loaded for Manila into geocoding_manila
+2026-10-14 09:00:08,032 | INFO | pipeline.main | Raw JSON saved for Manila: /opt/weatherflow/data/raw/openweather/manila.json
+2026-10-14 09:00:08,039 | INFO | pipeline.main | Weather data transformed for Manila
+2026-10-14 09:00:08,228 | INFO | pipeline.main | Parquet saved for Manila: /opt/weatherflow/data/parquet/openweather/manila.parquet
+2026-10-14 09:00:08,283 | INFO | pipeline.main | Loaded 1 row(s) for Manila into openweather_manila.
+2026-10-14 09:00:08,346 | INFO | pipeline.main | Checkpoint updated for Manila.
+2026-10-14 09:00:08,348 | INFO | pipeline.main | Processing city: Quezon City
+2026-10-14 09:00:08,734 | INFO | pipeline.main | Geocoding loaded for Quezon City into geocoding_quezon_city
+2026-10-14 09:00:08,889 | INFO | pipeline.main | Raw JSON saved for Quezon City: /opt/weatherflow/data/raw/openweather/quezon_city.json
+2026-10-14 09:00:08,906 | INFO | pipeline.main | Weather data transformed for Quezon City
+2026-10-14 09:00:09,017 | INFO | pipeline.main | Parquet saved for Quezon City: /opt/weatherflow/data/parquet/openweather/quezon_city.parquet
+2026-10-14 09:00:09,059 | INFO | pipeline.main | Loaded 1 row(s) for Quezon City into openweather_quezon_city.
+2026-10-14 09:00:09,089 | INFO | pipeline.main | Checkpoint updated for Quezon City.
+2026-10-14 09:00:09,091 | INFO | pipeline.main | Processing city: Cebu City
+2026-10-14 09:00:09,523 | INFO | pipeline.main | Geocoding loaded for Cebu City into geocoding_cebu_city
+2026-10-14 09:00:09,614 | INFO | pipeline.main | Raw JSON saved for Cebu City: /opt/weatherflow/data/raw/openweather/cebu_city.json
+2026-10-14 09:00:09,618 | INFO | pipeline.main | Weather data transformed for Cebu City
+2026-10-14 09:00:09,703 | INFO | pipeline.main | Parquet saved for Cebu City: /opt/weatherflow/data/parquet/openweather/cebu_city.parquet
+2026-10-14 09:00:09,742 | INFO | pipeline.main | Loaded 1 row(s) for Cebu City into openweather_cebu_city.
+2026-10-14 09:00:09,777 | INFO | pipeline.main | Checkpoint updated for Cebu City.
+2026-10-14 09:00:09,779 | INFO | pipeline.main | Processing city: Davao City
+2026-10-14 09:00:10,160 | INFO | pipeline.main | Geocoding loaded for Davao City into geocoding_davao_city
+2026-10-14 09:00:10,199 | INFO | pipeline.main | Raw JSON saved for Davao City: /opt/weatherflow/data/raw/openweather/davao_city.json
+2026-10-14 09:00:10,203 | INFO | pipeline.main | Weather data transformed for Davao City
+2026-10-14 09:00:10,306 | INFO | pipeline.main | Parquet saved for Davao City: /opt/weatherflow/data/parquet/openweather/davao_city.parquet
+2026-10-14 09:00:10,348 | INFO | pipeline.main | Loaded 1 row(s) for Davao City into openweather_davao_city.
+2026-10-14 09:00:10,427 | INFO | pipeline.main | Checkpoint updated for Davao City.
+2026-10-14 09:00:10,433 | INFO | pipeline.main | Processing city: Baguio
+2026-10-14 09:00:10,747 | INFO | pipeline.main | Geocoding loaded for Baguio into geocoding_baguio
+2026-10-14 09:00:10,797 | INFO | pipeline.main | Raw JSON saved for Baguio: /opt/weatherflow/data/raw/openweather/baguio.json
+2026-10-14 09:00:10,802 | INFO | pipeline.main | Weather data transformed for Baguio
+2026-10-14 09:00:10,909 | INFO | pipeline.main | Parquet saved for Baguio: /opt/weatherflow/data/parquet/openweather/baguio.parquet
+2026-10-14 09:00:10,954 | INFO | pipeline.main | Loaded 1 row(s) for Baguio into openweather_baguio.
+2026-10-14 09:00:10,984 | INFO | pipeline.main | Checkpoint updated for Baguio.
+2026-10-14 09:00:10,986 | INFO | pipeline.main | Processing city: Iloilo City
+2026-10-14 09:00:11,345 | INFO | pipeline.main | Geocoding loaded for Iloilo City into geocoding_iloilo_city
+2026-10-14 09:00:11,459 | INFO | pipeline.main | Raw JSON saved for Iloilo City: /opt/weatherflow/data/raw/openweather/iloilo_city.json
+2026-10-14 09:00:11,463 | INFO | pipeline.main | Weather data transformed for Iloilo City
+2026-10-14 09:00:11,656 | INFO | pipeline.main | Parquet saved for Iloilo City: /opt/weatherflow/data/parquet/openweather/iloilo_city.parquet
+2026-10-14 09:00:11,754 | INFO | pipeline.main | Loaded 1 row(s) for Iloilo City into openweather_iloilo_city.
+2026-10-14 09:00:11,880 | INFO | pipeline.main | Checkpoint updated for Iloilo City.
+2026-10-14 09:00:11,885 | INFO | pipeline.main | Processing city: Cagayan de Oro
+2026-10-14 09:00:12,332 | INFO | pipeline.main | Geocoding loaded for Cagayan de Oro into geocoding_cagayan_de_oro
+2026-10-14 09:00:12,540 | INFO | pipeline.main | Raw JSON saved for Cagayan de Oro: /opt/weatherflow/data/raw/openweather/cagayan_de_oro.json
+2026-10-14 09:00:12,551 | INFO | pipeline.main | Weather data transformed for Cagayan de Oro
+2026-10-14 09:00:12,715 | INFO | pipeline.main | Parquet saved for Cagayan de Oro: /opt/weatherflow/data/parquet/openweather/cagayan_de_oro.parquet
+2026-10-14 09:00:12,815 | INFO | pipeline.main | Loaded 1 row(s) for Cagayan de Oro into openweather_cagayan_de_oro.
+2026-10-14 09:00:12,919 | INFO | pipeline.main | Checkpoint updated for Cagayan de Oro.
+2026-10-14 09:00:12,923 | INFO | pipeline.main | Processing city: Zamboanga City
+2026-10-14 09:00:13,275 | INFO | pipeline.main | Geocoding loaded for Zamboanga City into geocoding_zamboanga_city
+2026-10-14 09:00:13,440 | INFO | pipeline.main | Raw JSON saved for Zamboanga City: /opt/weatherflow/data/raw/openweather/zamboanga_city.json
+2026-10-14 09:00:13,446 | INFO | pipeline.main | Weather data transformed for Zamboanga City
+2026-10-14 09:00:13,616 | INFO | pipeline.main | Parquet saved for Zamboanga City: /opt/weatherflow/data/parquet/openweather/zamboanga_city.parquet
+2026-10-14 09:00:13,673 | INFO | pipeline.main | Loaded 1 row(s) for Zamboanga City into openweather_zamboanga_city.
+2026-10-14 09:00:13,745 | INFO | pipeline.main | Checkpoint updated for Zamboanga City.
+2026-10-14 09:00:13,754 | INFO | pipeline.main | Pipeline summary | total=8 | loaded=8 | skipped=0 | failed=0
+2026-10-14 09:00:13,764 | INFO | pipeline.main | Successfully loaded cities: ['Manila', 'Quezon City', 'Cebu City', 'Davao City', 'Baguio', 'Iloilo City', 'Cagayan de Oro', 'Zamboanga City']
+2026-10-14 09:00:13,770 | INFO | pipeline.main | Weather ingestion completed successfully.
+2026-10-14 10:34:09,285 | INFO | pipeline.main | Starting Weather Ingestion...
+2026-10-14 10:34:09,287 | INFO | pipeline.main | Processing city: Manila
+2026-10-14 10:34:09,966 | INFO | pipeline.main | Geocoding loaded for Manila into geocoding_manila
+2026-10-14 10:34:10,041 | INFO | pipeline.main | Raw JSON saved for Manila: /opt/weatherflow/data/raw/openweather/manila.json
+2026-10-14 10:34:10,052 | INFO | pipeline.main | Weather data transformed for Manila
+2026-10-14 10:34:10,224 | INFO | pipeline.main | Parquet saved for Manila: /opt/weatherflow/data/parquet/openweather/manila.parquet
+2026-10-14 10:34:10,271 | INFO | pipeline.main | Loaded 1 row(s) for Manila into openweather_manila.
+2026-10-14 10:34:10,346 | INFO | pipeline.main | Checkpoint updated for Manila.
+2026-10-14 10:34:10,348 | INFO | pipeline.main | Processing city: Quezon City
+2026-10-14 10:34:10,589 | INFO | pipeline.main | Geocoding loaded for Quezon City into geocoding_quezon_city
+2026-10-14 10:34:10,624 | INFO | pipeline.main | Raw JSON saved for Quezon City: /opt/weatherflow/data/raw/openweather/quezon_city.json
+2026-10-14 10:34:10,627 | INFO | pipeline.main | Weather data transformed for Quezon City
+2026-10-14 10:34:10,689 | INFO | pipeline.main | Parquet saved for Quezon City: /opt/weatherflow/data/parquet/openweather/quezon_city.parquet
+2026-10-14 10:34:10,719 | INFO | pipeline.main | Loaded 1 row(s) for Quezon City into openweather_quezon_city.
+2026-10-14 10:34:10,741 | INFO | pipeline.main | Checkpoint updated for Quezon City.
+2026-10-14 10:34:10,744 | INFO | pipeline.main | Processing city: Cebu City
+2026-10-14 10:34:11,334 | INFO | pipeline.main | Geocoding loaded for Cebu City into geocoding_cebu_city
+2026-10-14 10:34:11,371 | INFO | pipeline.main | Raw JSON saved for Cebu City: /opt/weatherflow/data/raw/openweather/cebu_city.json
+2026-10-14 10:34:11,375 | INFO | pipeline.main | Weather data transformed for Cebu City
+2026-10-14 10:34:11,440 | INFO | pipeline.main | Parquet saved for Cebu City: /opt/weatherflow/data/parquet/openweather/cebu_city.parquet
+2026-10-14 10:34:11,469 | INFO | pipeline.main | Loaded 1 row(s) for Cebu City into openweather_cebu_city.
+2026-10-14 10:34:11,488 | INFO | pipeline.main | Checkpoint updated for Cebu City.
+2026-10-14 10:34:11,489 | INFO | pipeline.main | Processing city: Davao City
+2026-10-14 10:34:11,717 | INFO | pipeline.main | Geocoding loaded for Davao City into geocoding_davao_city
+2026-10-14 10:34:11,773 | INFO | pipeline.main | Raw JSON saved for Davao City: /opt/weatherflow/data/raw/openweather/davao_city.json
+2026-10-14 10:34:11,780 | INFO | pipeline.main | Weather data transformed for Davao City
+2026-10-14 10:34:11,890 | INFO | pipeline.main | Parquet saved for Davao City: /opt/weatherflow/data/parquet/openweather/davao_city.parquet
+2026-10-14 10:34:11,922 | INFO | pipeline.main | Loaded 1 row(s) for Davao City into openweather_davao_city.
+2026-10-14 10:34:11,953 | INFO | pipeline.main | Checkpoint updated for Davao City.
+2026-10-14 10:34:11,954 | INFO | pipeline.main | Processing city: Baguio
+2026-10-14 10:34:12,229 | INFO | pipeline.main | Geocoding loaded for Baguio into geocoding_baguio
+2026-10-14 10:34:12,316 | INFO | pipeline.main | Raw JSON saved for Baguio: /opt/weatherflow/data/raw/openweather/baguio.json
+2026-10-14 10:34:12,319 | INFO | pipeline.main | Weather data transformed for Baguio
+2026-10-14 10:34:12,408 | INFO | pipeline.main | Parquet saved for Baguio: /opt/weatherflow/data/parquet/openweather/baguio.parquet
+2026-10-14 10:34:12,440 | INFO | pipeline.main | Loaded 1 row(s) for Baguio into openweather_baguio.
+2026-10-14 10:34:12,457 | INFO | pipeline.main | Checkpoint updated for Baguio.
+2026-10-14 10:34:12,458 | INFO | pipeline.main | Processing city: Iloilo City
+2026-10-14 10:34:12,700 | INFO | pipeline.main | Geocoding loaded for Iloilo City into geocoding_iloilo_city
+2026-10-14 10:34:12,747 | INFO | pipeline.main | Raw JSON saved for Iloilo City: /opt/weatherflow/data/raw/openweather/iloilo_city.json
+2026-10-14 10:34:12,750 | INFO | pipeline.main | Weather data transformed for Iloilo City
+2026-10-14 10:34:12,849 | INFO | pipeline.main | Parquet saved for Iloilo City: /opt/weatherflow/data/parquet/openweather/iloilo_city.parquet
+2026-10-14 10:34:12,880 | INFO | pipeline.main | Loaded 1 row(s) for Iloilo City into openweather_iloilo_city.
+2026-10-14 10:34:12,913 | INFO | pipeline.main | Checkpoint updated for Iloilo City.
+2026-10-14 10:34:12,914 | INFO | pipeline.main | Processing city: Cagayan de Oro
+2026-10-14 10:34:13,239 | INFO | pipeline.main | Geocoding loaded for Cagayan de Oro into geocoding_cagayan_de_oro
+2026-10-14 10:34:13,274 | INFO | pipeline.main | Raw JSON saved for Cagayan de Oro: /opt/weatherflow/data/raw/openweather/cagayan_de_oro.json
+2026-10-14 10:34:13,278 | INFO | pipeline.main | Weather data transformed for Cagayan de Oro
+2026-10-14 10:34:13,343 | INFO | pipeline.main | Parquet saved for Cagayan de Oro: /opt/weatherflow/data/parquet/openweather/cagayan_de_oro.parquet
+2026-10-14 10:34:13,375 | INFO | pipeline.main | Loaded 1 row(s) for Cagayan de Oro into openweather_cagayan_de_oro.
+2026-10-14 10:34:13,395 | INFO | pipeline.main | Checkpoint updated for Cagayan de Oro.
+2026-10-14 10:34:13,396 | INFO | pipeline.main | Processing city: Zamboanga City
+2026-10-14 10:34:13,795 | INFO | pipeline.main | Geocoding loaded for Zamboanga City into geocoding_zamboanga_city
+2026-10-14 10:34:13,833 | INFO | pipeline.main | Raw JSON saved for Zamboanga City: /opt/weatherflow/data/raw/openweather/zamboanga_city.json
+2026-10-14 10:34:13,835 | INFO | pipeline.main | Weather data transformed for Zamboanga City
+2026-10-14 10:34:13,916 | INFO | pipeline.main | Parquet saved for Zamboanga City: /opt/weatherflow/data/parquet/openweather/zamboanga_city.parquet
+2026-10-14 10:34:13,963 | INFO | pipeline.main | Loaded 1 row(s) for Zamboanga City into openweather_zamboanga_city.
+2026-10-14 10:34:13,998 | INFO | pipeline.main | Checkpoint updated for Zamboanga City.
+2026-10-14 10:34:13,999 | INFO | pipeline.main | Pipeline summary | total=8 | loaded=8 | skipped=0 | failed=0
+2026-10-14 10:34:14,001 | INFO | pipeline.main | Successfully loaded cities: ['Manila', 'Quezon City', 'Cebu City', 'Davao City', 'Baguio', 'Iloilo City', 'Cagayan de Oro', 'Zamboanga City']
+2026-10-14 10:34:14,003 | INFO | pipeline.main | Weather ingestion completed successfully.
+2026-10-14 18:36:32,092 | INFO | pipeline.main | Starting Weather Ingestion...
+2026-10-14 18:36:32,094 | INFO | pipeline.main | Processing city: Manila
+2026-10-14 18:36:32,100 | INFO | pipeline.main | Geocoding loaded for Manila into geocoding_manila
+2026-10-14 18:36:32,101 | INFO | pipeline.main | Raw JSON saved for Manila: /tmp/pytest-of-aldwin/pytest-8/test_pipeline_main_saves_parqu0/manila.json
+2026-10-14 18:36:32,104 | INFO | pipeline.main | Weather data transformed for Manila
+2026-10-14 18:36:32,105 | INFO | pipeline.main | Parquet saved for Manila: /tmp/pytest-of-aldwin/pytest-8/test_pipeline_main_saves_parqu0/openweather_Manila.parquet
+2026-10-14 18:36:32,106 | INFO | pipeline.main | Loaded 1 row(s) for Manila into openweather_manila.
+2026-10-14 18:36:32,107 | INFO | pipeline.main | Checkpoint updated for Manila.
+2026-10-14 18:36:32,108 | INFO | pipeline.main | Pipeline summary | total=1 | loaded=1 | skipped=0 | failed=0
+2026-10-14 18:36:32,109 | INFO | pipeline.main | Successfully loaded cities: ['Manila']
+2026-10-14 18:36:32,111 | INFO | pipeline.main | Weather ingestion completed successfully.
+2026-10-14 18:36:32,116 | INFO | pipeline.main | Starting Weather Ingestion...
+2026-10-14 18:36:32,117 | INFO | pipeline.main | Processing city: Manila
+2026-10-14 18:36:32,119 | INFO | pipeline.main | Geocoding loaded for Manila into geocoding_manila
+2026-10-14 18:36:32,121 | INFO | pipeline.main | Raw JSON saved for Manila: /tmp/pytest-of-aldwin/pytest-8/test_pipeline_main_uses_canoni0/manila.json
+2026-10-14 18:36:32,123 | INFO | pipeline.main | Weather data transformed for Manila
+2026-10-14 18:36:32,125 | INFO | pipeline.main | Parquet saved for Manila: /tmp/pytest-of-aldwin/pytest-8/test_pipeline_main_uses_canoni0/openweather_Manila.parquet
+2026-10-14 18:36:32,126 | INFO | pipeline.main | Loaded 1 row(s) for Manila into openweather_manila.
+2026-10-14 18:36:32,127 | INFO | pipeline.main | Checkpoint updated for Manila.
+2026-10-14 18:36:32,128 | INFO | pipeline.main | Pipeline summary | total=1 | loaded=1 | skipped=0 | failed=0
+2026-10-14 18:36:32,129 | INFO | pipeline.main | Successfully loaded cities: ['Manila']
+2026-10-14 18:36:32,130 | INFO | pipeline.main | Weather ingestion completed successfully.
+2026-10-14 18:36:32,136 | INFO | pipeline.main | Starting Weather Ingestion...
+2026-10-14 18:36:32,137 | INFO | pipeline.main | Processing city: Manila
+2026-10-14 18:36:32,138 | ERROR | pipeline.main | Failed to process city: Manila
+Traceback (most recent call last):
+  File "/mnt/c/Users/aldwin/project/weatherflow/pipeline/main.py", line 41, in main
+    weather_data = extract_openweather_data(
+        latitude, longitude, city
+    )
+  File "/mnt/c/Users/aldwin/project/weatherflow/tests/test_load_postgresql.py", line 205, in <lambda>
+    lambda *args, **kwargs: (_ for _ in ()).throw(RuntimeError("API failure")),
+                            ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/c/Users/aldwin/project/weatherflow/tests/test_load_postgresql.py", line 205, in <genexpr>
+    lambda *args, **kwargs: (_ for _ in ()).throw(RuntimeError("API failure")),
+RuntimeError: API failure
+2026-10-14 18:36:32,165 | INFO | pipeline.main | Pipeline summary | total=1 | loaded=0 | skipped=0 | failed=1
+2026-10-14 18:36:32,166 | ERROR | pipeline.main | Failed cities: ['Manila']
+2026-10-14 18:36:32,167 | ERROR | pipeline.main | Weather ingestion completed with failures.
+2026-10-14 18:59:41,485 | INFO | pipeline.main | Starting Weather Ingestion...
+2026-10-14 18:59:41,488 | INFO | pipeline.main | Processing city: Manila
+2026-10-14 18:59:41,494 | INFO | pipeline.main | Geocoding loaded for Manila into geocoding_manila
+2026-10-14 18:59:41,496 | INFO | pipeline.main | Raw JSON saved for Manila: /tmp/pytest-of-aldwin/pytest-9/test_pipeline_main_saves_parqu0/manila.json
+2026-10-14 18:59:41,500 | INFO | pipeline.main | Weather data transformed for Manila
+2026-10-14 18:59:41,502 | INFO | pipeline.main | Parquet saved for Manila: /tmp/pytest-of-aldwin/pytest-9/test_pipeline_main_saves_parqu0/openweather_Manila.parquet
+2026-10-14 18:59:41,504 | INFO | pipeline.main | Loaded 1 row(s) for Manila into openweather_manila.
+2026-10-14 18:59:41,505 | INFO | pipeline.main | Checkpoint updated for Manila.
+2026-10-14 18:59:41,506 | INFO | pipeline.main | Pipeline summary | total=1 | loaded=1 | skipped=0 | failed=0
+2026-10-14 18:59:41,508 | INFO | pipeline.main | Successfully loaded cities: ['Manila']
+2026-10-14 18:59:41,509 | INFO | pipeline.main | Weather ingestion completed successfully.
+2026-10-14 18:59:41,516 | INFO | pipeline.main | Starting Weather Ingestion...
+2026-10-14 18:59:41,517 | INFO | pipeline.main | Processing city: Manila
+2026-10-14 18:59:41,520 | INFO | pipeline.main | Geocoding loaded for Manila into geocoding_manila
+2026-10-14 18:59:41,522 | INFO | pipeline.main | Raw JSON saved for Manila: /tmp/pytest-of-aldwin/pytest-9/test_pipeline_main_uses_canoni0/manila.json
+2026-10-14 18:59:41,525 | INFO | pipeline.main | Weather data transformed for Manila
+2026-10-14 18:59:41,526 | INFO | pipeline.main | Parquet saved for Manila: /tmp/pytest-of-aldwin/pytest-9/test_pipeline_main_uses_canoni0/openweather_Manila.parquet
+2026-10-14 18:59:41,528 | INFO | pipeline.main | Loaded 1 row(s) for Manila into openweather_manila.
+2026-10-14 18:59:41,529 | INFO | pipeline.main | Checkpoint updated for Manila.
+2026-10-14 18:59:41,531 | INFO | pipeline.main | Pipeline summary | total=1 | loaded=1 | skipped=0 | failed=0
+2026-10-14 18:59:41,532 | INFO | pipeline.main | Successfully loaded cities: ['Manila']
+2026-10-14 18:59:41,533 | INFO | pipeline.main | Weather ingestion completed successfully.
+2026-10-14 18:59:41,541 | INFO | pipeline.main | Starting Weather Ingestion...
+2026-10-14 18:59:41,542 | INFO | pipeline.main | Processing city: Manila
+2026-10-14 18:59:41,543 | ERROR | pipeline.main | Failed to process city: Manila
+Traceback (most recent call last):
+  File "/mnt/c/Users/aldwin/project/weatherflow/pipeline/main.py", line 41, in main
+    weather_data = extract_openweather_data(
+        latitude, longitude, city
+    )
+  File "/mnt/c/Users/aldwin/project/weatherflow/tests/test_load_postgresql.py", line 205, in <lambda>
+    lambda *args, **kwargs: (_ for _ in ()).throw(RuntimeError("API failure")),
+                            ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/c/Users/aldwin/project/weatherflow/tests/test_load_postgresql.py", line 205, in <genexpr>
+    lambda *args, **kwargs: (_ for _ in ()).throw(RuntimeError("API failure")),
+RuntimeError: API failure
+2026-10-14 18:59:41,565 | INFO | pipeline.main | Pipeline summary | total=1 | loaded=0 | skipped=0 | failed=1
+2026-10-14 18:59:41,566 | ERROR | pipeline.main | Failed cities: ['Manila']
+2026-10-14 18:59:41,568 | ERROR | pipeline.main | Weather ingestion completed with failures.
+2026-10-14 11:00:06,242 | INFO | pipeline.main | Starting Weather Ingestion...
+2026-10-14 11:00:06,244 | INFO | pipeline.main | Processing city: Manila
+2026-10-14 11:00:06,777 | INFO | pipeline.main | Geocoding loaded for Manila into geocoding_manila
+2026-10-14 11:00:06,803 | INFO | pipeline.main | No new weather data for Manila. Skipping.
+2026-10-14 11:00:06,805 | INFO | pipeline.main | Processing city: Quezon City
+2026-10-14 11:00:07,227 | INFO | pipeline.main | Geocoding loaded for Quezon City into geocoding_quezon_city
+2026-10-14 11:00:07,374 | INFO | pipeline.main | Raw JSON saved for Quezon City: /opt/weatherflow/data/raw/openweather/quezon_city.json
+2026-10-14 11:00:07,384 | INFO | pipeline.main | Weather data transformed for Quezon City
+2026-10-14 11:00:07,549 | INFO | pipeline.main | Parquet saved for Quezon City: /opt/weatherflow/data/parquet/openweather/quezon_city.parquet
+2026-10-14 11:00:07,597 | INFO | pipeline.main | Loaded 1 row(s) for Quezon City into openweather_quezon_city.
+2026-10-14 11:00:07,624 | INFO | pipeline.main | Checkpoint updated for Quezon City.
+2026-10-14 11:00:07,626 | INFO | pipeline.main | Processing city: Cebu City
+2026-10-14 11:00:07,923 | INFO | pipeline.main | Geocoding loaded for Cebu City into geocoding_cebu_city
+2026-10-14 11:00:08,048 | INFO | pipeline.main | Raw JSON saved for Cebu City: /opt/weatherflow/data/raw/openweather/cebu_city.json
+2026-10-14 11:00:08,061 | INFO | pipeline.main | Weather data transformed for Cebu City
+2026-10-14 11:00:08,429 | INFO | pipeline.main | Parquet saved for Cebu City: /opt/weatherflow/data/parquet/openweather/cebu_city.parquet
+2026-10-14 11:00:08,530 | INFO | pipeline.main | Loaded 1 row(s) for Cebu City into openweather_cebu_city.
+2026-10-14 11:00:08,627 | INFO | pipeline.main | Checkpoint updated for Cebu City.
+2026-10-14 11:00:08,633 | INFO | pipeline.main | Processing city: Davao City
+2026-10-14 11:00:09,038 | INFO | pipeline.main | Geocoding loaded for Davao City into geocoding_davao_city
+2026-10-14 11:00:09,199 | INFO | pipeline.main | Raw JSON saved for Davao City: /opt/weatherflow/data/raw/openweather/davao_city.json
+2026-10-14 11:00:09,205 | INFO | pipeline.main | Weather data transformed for Davao City
+2026-10-14 11:00:09,311 | INFO | pipeline.main | Parquet saved for Davao City: /opt/weatherflow/data/parquet/openweather/davao_city.parquet
+2026-10-14 11:00:09,345 | INFO | pipeline.main | Loaded 1 row(s) for Davao City into openweather_davao_city.
+2026-10-14 11:00:09,395 | INFO | pipeline.main | Checkpoint updated for Davao City.
+2026-10-14 11:00:09,398 | INFO | pipeline.main | Processing city: Baguio
+2026-10-14 11:00:09,769 | INFO | pipeline.main | Geocoding loaded for Baguio into geocoding_baguio
+2026-10-14 11:00:09,865 | INFO | pipeline.main | Raw JSON saved for Baguio: /opt/weatherflow/data/raw/openweather/baguio.json
+2026-10-14 11:00:09,878 | INFO | pipeline.main | Weather data transformed for Baguio
+2026-10-14 11:00:10,005 | INFO | pipeline.main | Parquet saved for Baguio: /opt/weatherflow/data/parquet/openweather/baguio.parquet
+2026-10-14 11:00:10,086 | INFO | pipeline.main | Loaded 1 row(s) for Baguio into openweather_baguio.
+2026-10-14 11:00:10,198 | INFO | pipeline.main | Checkpoint updated for Baguio.
+2026-10-14 11:00:10,202 | INFO | pipeline.main | Processing city: Iloilo City
+2026-10-14 11:00:10,625 | INFO | pipeline.main | Geocoding loaded for Iloilo City into geocoding_iloilo_city
+2026-10-14 11:00:10,701 | INFO | pipeline.main | Raw JSON saved for Iloilo City: /opt/weatherflow/data/raw/openweather/iloilo_city.json
+2026-10-14 11:00:10,707 | INFO | pipeline.main | Weather data transformed for Iloilo City
+2026-10-14 11:00:10,782 | INFO | pipeline.main | Parquet saved for Iloilo City: /opt/weatherflow/data/parquet/openweather/iloilo_city.parquet
+2026-10-14 11:00:10,854 | INFO | pipeline.main | Loaded 1 row(s) for Iloilo City into openweather_iloilo_city.
+2026-10-14 11:00:10,963 | INFO | pipeline.main | Checkpoint updated for Iloilo City.
+2026-10-14 11:00:10,969 | INFO | pipeline.main | Processing city: Cagayan de Oro
+2026-10-14 11:00:11,272 | INFO | pipeline.main | Geocoding loaded for Cagayan de Oro into geocoding_cagayan_de_oro
+2026-10-14 11:00:11,339 | INFO | pipeline.main | Raw JSON saved for Cagayan de Oro: /opt/weatherflow/data/raw/openweather/cagayan_de_oro.json
+2026-10-14 11:00:11,348 | INFO | pipeline.main | Weather data transformed for Cagayan de Oro
+2026-10-14 11:00:11,572 | INFO | pipeline.main | Parquet saved for Cagayan de Oro: /opt/weatherflow/data/parquet/openweather/cagayan_de_oro.parquet
+2026-10-14 11:00:11,626 | INFO | pipeline.main | Loaded 1 row(s) for Cagayan de Oro into openweather_cagayan_de_oro.
+2026-10-14 11:00:11,651 | INFO | pipeline.main | Checkpoint updated for Cagayan de Oro.
+2026-10-14 11:00:11,652 | INFO | pipeline.main | Processing city: Zamboanga City
+2026-10-14 11:00:12,018 | INFO | pipeline.main | Geocoding loaded for Zamboanga City into geocoding_zamboanga_city
+2026-10-14 11:00:12,073 | INFO | pipeline.main | Raw JSON saved for Zamboanga City: /opt/weatherflow/data/raw/openweather/zamboanga_city.json
+2026-10-14 11:00:12,079 | INFO | pipeline.main | Weather data transformed for Zamboanga City
+2026-10-14 11:00:12,157 | INFO | pipeline.main | Parquet saved for Zamboanga City: /opt/weatherflow/data/parquet/openweather/zamboanga_city.parquet
+2026-10-14 11:00:12,193 | INFO | pipeline.main | Loaded 1 row(s) for Zamboanga City into openweather_zamboanga_city.
+2026-10-14 11:00:12,216 | INFO | pipeline.main | Checkpoint updated for Zamboanga City.
+2026-10-14 11:00:12,217 | INFO | pipeline.main | Pipeline summary | total=8 | loaded=7 | skipped=1 | failed=0
+2026-10-14 11:00:12,219 | INFO | pipeline.main | Successfully loaded cities: ['Quezon City', 'Cebu City', 'Davao City', 'Baguio', 'Iloilo City', 'Cagayan de Oro', 'Zamboanga City']
+2026-10-14 11:00:12,220 | INFO | pipeline.main | Cities with no new data: ['Manila']
+2026-10-14 11:00:12,222 | INFO | pipeline.main | Weather ingestion completed successfully.
+2026-10-14 11:46:49,758 | INFO | __main__ | Starting Weather Ingestion...
+2026-10-14 11:46:49,760 | INFO | __main__ | Processing city: Manila
+2026-10-14 11:46:50,319 | INFO | __main__ | Geocoding loaded for Manila into geocoding_manila
+2026-10-14 11:46:50,419 | INFO | __main__ | Raw JSON saved for Manila: /opt/weatherflow/data/raw/openweather/manila.json
+2026-10-14 11:46:50,445 | INFO | __main__ | Weather data transformed for Manila
+2026-10-14 11:46:50,624 | INFO | __main__ | Parquet saved for Manila: /opt/weatherflow/data/parquet/openweather/manila.parquet
+2026-10-14 11:46:50,709 | INFO | __main__ | Loaded 1 row(s) for Manila into openweather_manila.
+2026-10-14 11:46:50,745 | INFO | __main__ | Checkpoint updated for Manila.
+2026-10-14 11:46:50,746 | INFO | __main__ | Processing city: Quezon City
+2026-10-14 11:46:51,060 | INFO | __main__ | Geocoding loaded for Quezon City into geocoding_quezon_city
+2026-10-14 11:46:51,129 | INFO | __main__ | Raw JSON saved for Quezon City: /opt/weatherflow/data/raw/openweather/quezon_city.json
+2026-10-14 11:46:51,134 | INFO | __main__ | Weather data transformed for Quezon City
+2026-10-14 11:46:51,287 | INFO | __main__ | Parquet saved for Quezon City: /opt/weatherflow/data/parquet/openweather/quezon_city.parquet
+2026-10-14 11:46:51,389 | INFO | __main__ | Loaded 1 row(s) for Quezon City into openweather_quezon_city.
+2026-10-14 11:46:51,457 | INFO | __main__ | Checkpoint updated for Quezon City.
+2026-10-14 11:46:51,465 | INFO | __main__ | Processing city: Cebu City
+2026-10-14 11:46:51,846 | INFO | __main__ | Geocoding loaded for Cebu City into geocoding_cebu_city
+2026-10-14 11:46:51,912 | INFO | __main__ | Raw JSON saved for Cebu City: /opt/weatherflow/data/raw/openweather/cebu_city.json
+2026-10-14 11:46:51,917 | INFO | __main__ | Weather data transformed for Cebu City
+2026-10-14 11:46:52,028 | INFO | __main__ | Parquet saved for Cebu City: /opt/weatherflow/data/parquet/openweather/cebu_city.parquet
+2026-10-14 11:46:52,096 | INFO | __main__ | Loaded 1 row(s) for Cebu City into openweather_cebu_city.
+2026-10-14 11:46:52,147 | INFO | __main__ | Checkpoint updated for Cebu City.
+2026-10-14 11:46:52,151 | INFO | __main__ | Processing city: Davao City
+2026-10-14 11:46:52,536 | INFO | __main__ | Geocoding loaded for Davao City into geocoding_davao_city
+2026-10-14 11:46:52,664 | INFO | __main__ | Raw JSON saved for Davao City: /opt/weatherflow/data/raw/openweather/davao_city.json
+2026-10-14 11:46:52,693 | INFO | __main__ | Weather data transformed for Davao City
+2026-10-14 11:46:52,846 | INFO | __main__ | Parquet saved for Davao City: /opt/weatherflow/data/parquet/openweather/davao_city.parquet
+2026-10-14 11:46:52,914 | INFO | __main__ | Loaded 1 row(s) for Davao City into openweather_davao_city.
+2026-10-14 11:46:52,998 | INFO | __main__ | Checkpoint updated for Davao City.
+2026-10-14 11:46:53,002 | INFO | __main__ | Processing city: Baguio
+2026-10-14 11:46:53,313 | INFO | __main__ | Geocoding loaded for Baguio into geocoding_baguio
+2026-10-14 11:46:53,403 | INFO | __main__ | Raw JSON saved for Baguio: /opt/weatherflow/data/raw/openweather/baguio.json
+2026-10-14 11:46:53,426 | INFO | __main__ | Weather data transformed for Baguio
+2026-10-14 11:46:53,718 | INFO | __main__ | Parquet saved for Baguio: /opt/weatherflow/data/parquet/openweather/baguio.parquet
+2026-10-14 11:46:53,780 | INFO | __main__ | Loaded 1 row(s) for Baguio into openweather_baguio.
+2026-10-14 11:46:53,847 | INFO | __main__ | Checkpoint updated for Baguio.
+2026-10-14 11:46:53,850 | INFO | __main__ | Processing city: Iloilo City
+2026-10-14 11:46:54,223 | INFO | __main__ | Geocoding loaded for Iloilo City into geocoding_iloilo_city
+2026-10-14 11:46:54,328 | INFO | __main__ | Raw JSON saved for Iloilo City: /opt/weatherflow/data/raw/openweather/iloilo_city.json
+2026-10-14 11:46:54,343 | INFO | __main__ | Weather data transformed for Iloilo City
+2026-10-14 11:46:54,469 | INFO | __main__ | Parquet saved for Iloilo City: /opt/weatherflow/data/parquet/openweather/iloilo_city.parquet
+2026-10-14 11:46:54,521 | INFO | __main__ | Loaded 1 row(s) for Iloilo City into openweather_iloilo_city.
+2026-10-14 11:46:54,572 | INFO | __main__ | Checkpoint updated for Iloilo City.
+2026-10-14 11:46:54,576 | INFO | __main__ | Processing city: Cagayan de Oro
+2026-10-14 11:46:54,873 | INFO | __main__ | Geocoding loaded for Cagayan de Oro into geocoding_cagayan_de_oro
+2026-10-14 11:46:54,990 | INFO | __main__ | Raw JSON saved for Cagayan de Oro: /opt/weatherflow/data/raw/openweather/cagayan_de_oro.json
+2026-10-14 11:46:55,002 | INFO | __main__ | Weather data transformed for Cagayan de Oro
+2026-10-14 11:46:55,109 | INFO | __main__ | Parquet saved for Cagayan de Oro: /opt/weatherflow/data/parquet/openweather/cagayan_de_oro.parquet
+2026-10-14 11:46:55,178 | INFO | __main__ | Loaded 1 row(s) for Cagayan de Oro into openweather_cagayan_de_oro.
+2026-10-14 11:46:55,240 | INFO | __main__ | Checkpoint updated for Cagayan de Oro.
+2026-10-14 11:46:55,246 | INFO | __main__ | Processing city: Zamboanga City
+2026-10-14 11:46:55,630 | INFO | __main__ | Geocoding loaded for Zamboanga City into geocoding_zamboanga_city
+2026-10-14 11:46:55,695 | INFO | __main__ | Raw JSON saved for Zamboanga City: /opt/weatherflow/data/raw/openweather/zamboanga_city.json
+2026-10-14 11:46:55,700 | INFO | __main__ | Weather data transformed for Zamboanga City
+2026-10-14 11:46:55,882 | INFO | __main__ | Parquet saved for Zamboanga City: /opt/weatherflow/data/parquet/openweather/zamboanga_city.parquet
+2026-10-14 11:46:55,934 | INFO | __main__ | Loaded 1 row(s) for Zamboanga City into openweather_zamboanga_city.
+2026-10-14 11:46:56,024 | INFO | __main__ | Checkpoint updated for Zamboanga City.
+2026-10-14 11:46:56,030 | INFO | __main__ | Pipeline summary | total=8 | loaded=8 | skipped=0 | failed=0
+2026-10-14 11:46:56,040 | INFO | __main__ | Successfully loaded cities: ['Manila', 'Quezon City', 'Cebu City', 'Davao City', 'Baguio', 'Iloilo City', 'Cagayan de Oro', 'Zamboanga City']
+2026-10-14 11:46:56,051 | INFO | __main__ | Weather ingestion completed successfully.
+2026-10-14 12:00:06,640 | INFO | pipeline.main | Starting Weather Ingestion...
+2026-10-14 12:00:06,644 | INFO | pipeline.main | Processing city: Manila
+2026-10-14 12:00:07,105 | INFO | pipeline.main | Geocoding loaded for Manila into geocoding_manila
+2026-10-14 12:00:07,250 | INFO | pipeline.main | Raw JSON saved for Manila: /opt/weatherflow/data/raw/openweather/manila.json
+2026-10-14 12:00:07,270 | INFO | pipeline.main | Weather data transformed for Manila
+2026-10-14 12:00:07,444 | INFO | pipeline.main | Parquet saved for Manila: /opt/weatherflow/data/parquet/openweather/manila.parquet
+2026-10-14 12:00:07,510 | INFO | pipeline.main | Loaded 1 row(s) for Manila into openweather_manila.
+2026-10-14 12:00:07,568 | INFO | pipeline.main | Checkpoint updated for Manila.
+2026-10-14 12:00:07,572 | INFO | pipeline.main | Processing city: Quezon City
+2026-10-14 12:00:07,943 | INFO | pipeline.main | Geocoding loaded for Quezon City into geocoding_quezon_city
+2026-10-14 12:00:08,014 | INFO | pipeline.main | Raw JSON saved for Quezon City: /opt/weatherflow/data/raw/openweather/quezon_city.json
+2026-10-14 12:00:08,018 | INFO | pipeline.main | Weather data transformed for Quezon City
+2026-10-14 12:00:08,115 | INFO | pipeline.main | Parquet saved for Quezon City: /opt/weatherflow/data/parquet/openweather/quezon_city.parquet
+2026-10-14 12:00:08,165 | INFO | pipeline.main | Loaded 1 row(s) for Quezon City into openweather_quezon_city.
+2026-10-14 12:00:08,297 | INFO | pipeline.main | Checkpoint updated for Quezon City.
+2026-10-14 12:00:08,307 | INFO | pipeline.main | Processing city: Cebu City
+2026-10-14 12:00:08,591 | INFO | pipeline.main | Geocoding loaded for Cebu City into geocoding_cebu_city
+2026-10-14 12:00:08,645 | INFO | pipeline.main | Raw JSON saved for Cebu City: /opt/weatherflow/data/raw/openweather/cebu_city.json
+2026-10-14 12:00:08,649 | INFO | pipeline.main | Weather data transformed for Cebu City
+2026-10-14 12:00:08,734 | INFO | pipeline.main | Parquet saved for Cebu City: /opt/weatherflow/data/parquet/openweather/cebu_city.parquet
+2026-10-14 12:00:08,786 | INFO | pipeline.main | Loaded 1 row(s) for Cebu City into openweather_cebu_city.
+2026-10-14 12:00:08,828 | INFO | pipeline.main | Checkpoint updated for Cebu City.
+2026-10-14 12:00:08,833 | INFO | pipeline.main | Processing city: Davao City
+2026-10-14 12:00:09,139 | INFO | pipeline.main | Geocoding loaded for Davao City into geocoding_davao_city
+2026-10-14 12:00:09,220 | INFO | pipeline.main | Raw JSON saved for Davao City: /opt/weatherflow/data/raw/openweather/davao_city.json
+2026-10-14 12:00:09,236 | INFO | pipeline.main | Weather data transformed for Davao City
+2026-10-14 12:00:09,424 | INFO | pipeline.main | Parquet saved for Davao City: /opt/weatherflow/data/parquet/openweather/davao_city.parquet
+2026-10-14 12:00:09,468 | INFO | pipeline.main | Loaded 1 row(s) for Davao City into openweather_davao_city.
+2026-10-14 12:00:09,538 | INFO | pipeline.main | Checkpoint updated for Davao City.
+2026-10-14 12:00:09,545 | INFO | pipeline.main | Processing city: Baguio
+2026-10-14 12:00:09,906 | INFO | pipeline.main | Geocoding loaded for Baguio into geocoding_baguio
+2026-10-14 12:00:09,983 | INFO | pipeline.main | Raw JSON saved for Baguio: /opt/weatherflow/data/raw/openweather/baguio.json
+2026-10-14 12:00:09,990 | INFO | pipeline.main | Weather data transformed for Baguio
+2026-10-14 12:00:10,192 | INFO | pipeline.main | Parquet saved for Baguio: /opt/weatherflow/data/parquet/openweather/baguio.parquet
+2026-10-14 12:00:10,285 | INFO | pipeline.main | Loaded 1 row(s) for Baguio into openweather_baguio.
+2026-10-14 12:00:10,419 | INFO | pipeline.main | Checkpoint updated for Baguio.
+2026-10-14 12:00:10,429 | INFO | pipeline.main | Processing city: Iloilo City
+2026-10-14 12:00:10,831 | INFO | pipeline.main | Geocoding loaded for Iloilo City into geocoding_iloilo_city
+2026-10-14 12:00:10,914 | INFO | pipeline.main | Raw JSON saved for Iloilo City: /opt/weatherflow/data/raw/openweather/iloilo_city.json
+2026-10-14 12:00:10,934 | INFO | pipeline.main | Weather data transformed for Iloilo City
+2026-10-14 12:00:11,099 | INFO | pipeline.main | Parquet saved for Iloilo City: /opt/weatherflow/data/parquet/openweather/iloilo_city.parquet
+2026-10-14 12:00:11,152 | INFO | pipeline.main | Loaded 1 row(s) for Iloilo City into openweather_iloilo_city.
+2026-10-14 12:00:11,211 | INFO | pipeline.main | Checkpoint updated for Iloilo City.
+2026-10-14 12:00:11,217 | INFO | pipeline.main | Processing city: Cagayan de Oro
+2026-10-14 12:00:11,697 | INFO | pipeline.main | Geocoding loaded for Cagayan de Oro into geocoding_cagayan_de_oro
+2026-10-14 12:00:11,803 | INFO | pipeline.main | Raw JSON saved for Cagayan de Oro: /opt/weatherflow/data/raw/openweather/cagayan_de_oro.json
+2026-10-14 12:00:11,809 | INFO | pipeline.main | Weather data transformed for Cagayan de Oro
+2026-10-14 12:00:11,909 | INFO | pipeline.main | Parquet saved for Cagayan de Oro: /opt/weatherflow/data/parquet/openweather/cagayan_de_oro.parquet
+2026-10-14 12:00:11,966 | INFO | pipeline.main | Loaded 1 row(s) for Cagayan de Oro into openweather_cagayan_de_oro.
+2026-10-14 12:00:12,037 | INFO | pipeline.main | Checkpoint updated for Cagayan de Oro.
+2026-10-14 12:00:12,048 | INFO | pipeline.main | Processing city: Zamboanga City
+2026-10-14 12:00:12,543 | INFO | pipeline.main | Geocoding loaded for Zamboanga City into geocoding_zamboanga_city
+2026-10-14 12:00:12,613 | INFO | pipeline.main | Raw JSON saved for Zamboanga City: /opt/weatherflow/data/raw/openweather/zamboanga_city.json
+2026-10-14 12:00:12,623 | INFO | pipeline.main | Weather data transformed for Zamboanga City
+2026-10-14 12:00:12,739 | INFO | pipeline.main | Parquet saved for Zamboanga City: /opt/weatherflow/data/parquet/openweather/zamboanga_city.parquet
+2026-10-14 12:00:12,783 | INFO | pipeline.main | Loaded 1 row(s) for Zamboanga City into openweather_zamboanga_city.
+2026-10-14 12:00:12,818 | INFO | pipeline.main | Checkpoint updated for Zamboanga City.
+2026-10-14 12:00:12,820 | INFO | pipeline.main | Pipeline summary | total=8 | loaded=8 | skipped=0 | failed=0
+2026-10-14 12:00:12,822 | INFO | pipeline.main | Successfully loaded cities: ['Manila', 'Quezon City', 'Cebu City', 'Davao City', 'Baguio', 'Iloilo City', 'Cagayan de Oro', 'Zamboanga City']
+2026-10-14 12:00:12,824 | INFO | pipeline.main | Weather ingestion completed successfully.
+2026-10-14 20:47:41,491 | INFO | pipeline.main | Starting Weather Ingestion...
+2026-10-14 20:47:41,494 | INFO | pipeline.main | Processing city: Manila
+2026-10-14 20:47:41,500 | INFO | pipeline.main | Geocoding loaded for Manila into geocoding_manila
+2026-10-14 20:47:41,506 | INFO | pipeline.main | Raw JSON saved for Manila: /tmp/pytest-of-aldwin/pytest-15/test_pipeline_main_saves_parqu0/manila.json
+2026-10-14 20:47:41,518 | INFO | pipeline.main | Weather data transformed for Manila
+2026-10-14 20:47:41,525 | INFO | pipeline.main | Parquet saved for Manila: /tmp/pytest-of-aldwin/pytest-15/test_pipeline_main_saves_parqu0/openweather_Manila.parquet
+2026-10-14 20:47:41,532 | INFO | pipeline.main | Loaded 1 row(s) for Manila into openweather_manila.
+2026-10-14 20:47:41,536 | INFO | pipeline.main | Checkpoint updated for Manila.
+2026-10-14 20:47:41,538 | INFO | pipeline.main | Pipeline summary | total=1 | loaded=1 | skipped=0 | failed=0
+2026-10-14 20:47:41,540 | INFO | pipeline.main | Successfully loaded cities: ['Manila']
+2026-10-14 20:47:41,541 | INFO | pipeline.main | Weather ingestion completed successfully.
+2026-10-14 20:47:41,548 | INFO | pipeline.main | Starting Weather Ingestion...
+2026-10-14 20:47:41,549 | INFO | pipeline.main | Processing city: Manila
+2026-10-14 20:47:41,555 | INFO | pipeline.main | Geocoding loaded for Manila into geocoding_manila
+2026-10-14 20:47:41,556 | INFO | pipeline.main | Raw JSON saved for Manila: /tmp/pytest-of-aldwin/pytest-15/test_pipeline_main_uses_canoni0/manila.json
+2026-10-14 20:47:41,560 | INFO | pipeline.main | Weather data transformed for Manila
+2026-10-14 20:47:41,561 | INFO | pipeline.main | Parquet saved for Manila: /tmp/pytest-of-aldwin/pytest-15/test_pipeline_main_uses_canoni0/openweather_Manila.parquet
+2026-10-14 20:47:41,562 | INFO | pipeline.main | Loaded 1 row(s) for Manila into openweather_manila.
+2026-10-14 20:47:41,564 | INFO | pipeline.main | Checkpoint updated for Manila.
+2026-10-14 20:47:41,567 | INFO | pipeline.main | Pipeline summary | total=1 | loaded=1 | skipped=0 | failed=0
+2026-10-14 20:47:41,569 | INFO | pipeline.main | Successfully loaded cities: ['Manila']
+2026-10-14 20:47:41,571 | INFO | pipeline.main | Weather ingestion completed successfully.
+2026-10-14 20:47:41,591 | INFO | pipeline.main | Starting Weather Ingestion...
+2026-10-14 20:47:41,596 | INFO | pipeline.main | Processing city: Manila
+2026-10-14 20:47:41,600 | ERROR | pipeline.main | Failed to process city: Manila
+Traceback (most recent call last):
+  File "/mnt/c/Users/aldwin/project/weatherflow/pipeline/main.py", line 41, in main
+    weather_data = extract_openweather_data(
+        latitude, longitude, city
+    )
+  File "/mnt/c/Users/aldwin/project/weatherflow/tests/test_load_postgresql.py", line 205, in <lambda>
+    lambda *args, **kwargs: (_ for _ in ()).throw(RuntimeError("API failure")),
+                            ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/c/Users/aldwin/project/weatherflow/tests/test_load_postgresql.py", line 205, in <genexpr>
+    lambda *args, **kwargs: (_ for _ in ()).throw(RuntimeError("API failure")),
+RuntimeError: API failure
+2026-10-14 20:47:41,639 | INFO | pipeline.main | Pipeline summary | total=1 | loaded=0 | skipped=0 | failed=1
+2026-10-14 20:47:41,640 | ERROR | pipeline.main | Failed cities: ['Manila']
+2026-10-14 20:47:41,643 | ERROR | pipeline.main | Weather ingestion completed with failures.
+2026-10-14 20:59:13,040 | INFO | pipeline.main | Starting Weather Ingestion...
+2026-10-14 20:59:13,042 | INFO | pipeline.main | Processing city: Manila
+2026-10-14 20:59:13,051 | INFO | pipeline.main | Geocoding loaded for Manila into geocoding_manila
+2026-10-14 20:59:13,056 | INFO | pipeline.main | Raw JSON saved for Manila: /tmp/pytest-of-aldwin/pytest-16/test_pipeline_main_saves_parqu0/manila.json
+2026-10-14 20:59:13,063 | INFO | pipeline.main | Weather data transformed for Manila
+2026-10-14 20:59:13,067 | INFO | pipeline.main | Parquet saved for Manila: /tmp/pytest-of-aldwin/pytest-16/test_pipeline_main_saves_parqu0/openweather_Manila.parquet
+2026-10-14 20:59:13,070 | INFO | pipeline.main | Loaded 1 row(s) for Manila into openweather_manila.
+2026-10-14 20:59:13,074 | INFO | pipeline.main | Checkpoint updated for Manila.
+2026-10-14 20:59:13,078 | INFO | pipeline.main | Pipeline summary | total=1 | loaded=1 | skipped=0 | failed=0
+2026-10-14 20:59:13,081 | INFO | pipeline.main | Successfully loaded cities: ['Manila']
+2026-10-14 20:59:13,084 | INFO | pipeline.main | Weather ingestion completed successfully.
+2026-10-14 20:59:13,099 | INFO | pipeline.main | Starting Weather Ingestion...
+2026-10-14 20:59:13,101 | INFO | pipeline.main | Processing city: Manila
+2026-10-14 20:59:13,104 | INFO | pipeline.main | Geocoding loaded for Manila into geocoding_manila
+2026-10-14 20:59:13,106 | INFO | pipeline.main | Raw JSON saved for Manila: /tmp/pytest-of-aldwin/pytest-16/test_pipeline_main_uses_canoni0/manila.json
+2026-10-14 20:59:13,110 | INFO | pipeline.main | Weather data transformed for Manila
+2026-10-14 20:59:13,111 | INFO | pipeline.main | Parquet saved for Manila: /tmp/pytest-of-aldwin/pytest-16/test_pipeline_main_uses_canoni0/openweather_Manila.parquet
+2026-10-14 20:59:13,112 | INFO | pipeline.main | Loaded 1 row(s) for Manila into openweather_manila.
+2026-10-14 20:59:13,114 | INFO | pipeline.main | Checkpoint updated for Manila.
+2026-10-14 20:59:13,115 | INFO | pipeline.main | Pipeline summary | total=1 | loaded=1 | skipped=0 | failed=0
+2026-10-14 20:59:13,117 | INFO | pipeline.main | Successfully loaded cities: ['Manila']
+2026-10-14 20:59:13,119 | INFO | pipeline.main | Weather ingestion completed successfully.
+2026-10-14 20:59:13,125 | INFO | pipeline.main | Starting Weather Ingestion...
+2026-10-14 20:59:13,126 | INFO | pipeline.main | Processing city: Manila
+2026-10-14 20:59:13,128 | ERROR | pipeline.main | Failed to process city: Manila
+Traceback (most recent call last):
+  File "/mnt/c/Users/aldwin/project/weatherflow/pipeline/main.py", line 41, in main
+    weather_data = extract_openweather_data(
+        latitude, longitude, city
+    )
+  File "/mnt/c/Users/aldwin/project/weatherflow/tests/test_load_postgresql.py", line 205, in <lambda>
+    lambda *args, **kwargs: (_ for _ in ()).throw(RuntimeError("API failure")),
+                            ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/c/Users/aldwin/project/weatherflow/tests/test_load_postgresql.py", line 205, in <genexpr>
+    lambda *args, **kwargs: (_ for _ in ()).throw(RuntimeError("API failure")),
+RuntimeError: API failure
+2026-10-14 20:59:13,150 | INFO | pipeline.main | Pipeline summary | total=1 | loaded=0 | skipped=0 | failed=1
+2026-10-14 20:59:13,153 | ERROR | pipeline.main | Failed cities: ['Manila']
+2026-10-14 20:59:13,155 | ERROR | pipeline.main | Weather ingestion completed with failures.
+2026-10-14 13:00:08,098 | INFO | pipeline.main | Starting Weather Ingestion...
+2026-10-14 13:00:08,106 | INFO | pipeline.main | Processing city: Manila
+2026-10-14 13:00:08,722 | INFO | pipeline.main | Geocoding loaded for Manila into geocoding_manila
+2026-10-14 13:00:08,942 | INFO | pipeline.main | Raw JSON saved for Manila: /opt/weatherflow/data/raw/openweather/manila.json
+2026-10-14 13:00:08,966 | INFO | pipeline.main | Weather data transformed for Manila
+2026-10-14 13:00:09,352 | INFO | pipeline.main | Parquet saved for Manila: /opt/weatherflow/data/parquet/openweather/manila.parquet
+2026-10-14 13:00:09,449 | INFO | pipeline.main | Loaded 1 row(s) for Manila into openweather_manila.
+2026-10-14 13:00:09,582 | INFO | pipeline.main | Checkpoint updated for Manila.
+2026-10-14 13:00:09,586 | INFO | pipeline.main | Processing city: Quezon City
+2026-10-14 13:00:09,915 | INFO | pipeline.main | Geocoding loaded for Quezon City into geocoding_quezon_city
+2026-10-14 13:00:09,976 | INFO | pipeline.main | Raw JSON saved for Quezon City: /opt/weatherflow/data/raw/openweather/quezon_city.json
+2026-10-14 13:00:09,983 | INFO | pipeline.main | Weather data transformed for Quezon City
+2026-10-14 13:00:10,106 | INFO | pipeline.main | Parquet saved for Quezon City: /opt/weatherflow/data/parquet/openweather/quezon_city.parquet
+2026-10-14 13:00:10,172 | INFO | pipeline.main | Loaded 1 row(s) for Quezon City into openweather_quezon_city.
+2026-10-14 13:00:10,236 | INFO | pipeline.main | Checkpoint updated for Quezon City.
+2026-10-14 13:00:10,240 | INFO | pipeline.main | Processing city: Cebu City
+2026-10-14 13:00:10,574 | INFO | pipeline.main | Geocoding loaded for Cebu City into geocoding_cebu_city
+2026-10-14 13:00:10,672 | INFO | pipeline.main | Raw JSON saved for Cebu City: /opt/weatherflow/data/raw/openweather/cebu_city.json
+2026-10-14 13:00:10,677 | INFO | pipeline.main | Weather data transformed for Cebu City
+2026-10-14 13:00:10,871 | INFO | pipeline.main | Parquet saved for Cebu City: /opt/weatherflow/data/parquet/openweather/cebu_city.parquet
+2026-10-14 13:00:10,942 | INFO | pipeline.main | Loaded 1 row(s) for Cebu City into openweather_cebu_city.
+2026-10-14 13:00:11,057 | INFO | pipeline.main | Checkpoint updated for Cebu City.
+2026-10-14 13:00:11,066 | INFO | pipeline.main | Processing city: Davao City
+2026-10-14 13:00:11,426 | INFO | pipeline.main | Geocoding loaded for Davao City into geocoding_davao_city
+2026-10-14 13:00:11,625 | INFO | pipeline.main | Raw JSON saved for Davao City: /opt/weatherflow/data/raw/openweather/davao_city.json
+2026-10-14 13:00:11,642 | INFO | pipeline.main | Weather data transformed for Davao City
+2026-10-14 13:00:11,877 | INFO | pipeline.main | Parquet saved for Davao City: /opt/weatherflow/data/parquet/openweather/davao_city.parquet
+2026-10-14 13:00:12,006 | INFO | pipeline.main | Loaded 1 row(s) for Davao City into openweather_davao_city.
+2026-10-14 13:00:12,045 | INFO | pipeline.main | Checkpoint updated for Davao City.
+2026-10-14 13:00:12,048 | INFO | pipeline.main | Processing city: Baguio
+2026-10-14 13:00:12,390 | INFO | pipeline.main | Geocoding loaded for Baguio into geocoding_baguio
+2026-10-14 13:00:12,491 | INFO | pipeline.main | Raw JSON saved for Baguio: /opt/weatherflow/data/raw/openweather/baguio.json
+2026-10-14 13:00:12,498 | INFO | pipeline.main | Weather data transformed for Baguio
+2026-10-14 13:00:12,649 | INFO | pipeline.main | Parquet saved for Baguio: /opt/weatherflow/data/parquet/openweather/baguio.parquet
+2026-10-14 13:00:12,691 | INFO | pipeline.main | Loaded 1 row(s) for Baguio into openweather_baguio.
+2026-10-14 13:00:12,723 | INFO | pipeline.main | Checkpoint updated for Baguio.
+2026-10-14 13:00:12,725 | INFO | pipeline.main | Processing city: Iloilo City
+2026-10-14 13:00:13,048 | INFO | pipeline.main | Geocoding loaded for Iloilo City into geocoding_iloilo_city
+2026-10-14 13:00:13,144 | INFO | pipeline.main | Raw JSON saved for Iloilo City: /opt/weatherflow/data/raw/openweather/iloilo_city.json
+2026-10-14 13:00:13,150 | INFO | pipeline.main | Weather data transformed for Iloilo City
+2026-10-14 13:00:13,261 | INFO | pipeline.main | Parquet saved for Iloilo City: /opt/weatherflow/data/parquet/openweather/iloilo_city.parquet
+2026-10-14 13:00:13,362 | INFO | pipeline.main | Loaded 1 row(s) for Iloilo City into openweather_iloilo_city.
+2026-10-14 13:00:13,449 | INFO | pipeline.main | Checkpoint updated for Iloilo City.
+2026-10-14 13:00:13,454 | INFO | pipeline.main | Processing city: Cagayan de Oro
+2026-10-14 13:00:13,850 | INFO | pipeline.main | Geocoding loaded for Cagayan de Oro into geocoding_cagayan_de_oro
+2026-10-14 13:00:13,904 | INFO | pipeline.main | Raw JSON saved for Cagayan de Oro: /opt/weatherflow/data/raw/openweather/cagayan_de_oro.json
+2026-10-14 13:00:13,907 | INFO | pipeline.main | Weather data transformed for Cagayan de Oro
+2026-10-14 13:00:14,009 | INFO | pipeline.main | Parquet saved for Cagayan de Oro: /opt/weatherflow/data/parquet/openweather/cagayan_de_oro.parquet
+2026-10-14 13:00:14,060 | INFO | pipeline.main | Loaded 1 row(s) for Cagayan de Oro into openweather_cagayan_de_oro.
+2026-10-14 13:00:14,182 | INFO | pipeline.main | Checkpoint updated for Cagayan de Oro.
+2026-10-14 13:00:14,190 | INFO | pipeline.main | Processing city: Zamboanga City
+2026-10-14 13:00:14,542 | INFO | pipeline.main | Geocoding loaded for Zamboanga City into geocoding_zamboanga_city
+2026-10-14 13:00:14,627 | INFO | pipeline.main | Raw JSON saved for Zamboanga City: /opt/weatherflow/data/raw/openweather/zamboanga_city.json
+2026-10-14 13:00:14,631 | INFO | pipeline.main | Weather data transformed for Zamboanga City
+2026-10-14 13:00:14,762 | INFO | pipeline.main | Parquet saved for Zamboanga City: /opt/weatherflow/data/parquet/openweather/zamboanga_city.parquet
+2026-10-14 13:00:14,800 | INFO | pipeline.main | Loaded 1 row(s) for Zamboanga City into openweather_zamboanga_city.
+2026-10-14 13:00:14,853 | INFO | pipeline.main | Checkpoint updated for Zamboanga City.
+2026-10-14 13:00:14,877 | INFO | pipeline.main | Pipeline summary | total=8 | loaded=8 | skipped=0 | failed=0
+2026-10-14 13:00:14,889 | INFO | pipeline.main | Successfully loaded cities: ['Manila', 'Quezon City', 'Cebu City', 'Davao City', 'Baguio', 'Iloilo City', 'Cagayan de Oro', 'Zamboanga City']
+2026-10-14 13:00:14,901 | INFO | pipeline.main | Weather ingestion completed successfully.
+2026-10-14 21:05:45,953 | INFO | pipeline.main | Starting Weather Ingestion...
+2026-10-14 21:05:45,957 | INFO | pipeline.main | Processing city: Manila
+2026-10-14 21:05:45,975 | INFO | pipeline.main | Geocoding loaded for Manila into geocoding_manila
+2026-10-14 21:05:45,979 | INFO | pipeline.main | Raw JSON saved for Manila: /tmp/pytest-of-aldwin/pytest-17/test_pipeline_main_saves_parqu0/manila.json
+2026-10-14 21:05:45,988 | INFO | pipeline.main | Weather data transformed for Manila
+2026-10-14 21:05:45,991 | INFO | pipeline.main | Parquet saved for Manila: /tmp/pytest-of-aldwin/pytest-17/test_pipeline_main_saves_parqu0/openweather_Manila.parquet
+2026-10-14 21:05:45,996 | INFO | pipeline.main | Loaded 1 row(s) for Manila into openweather_manila.
+2026-10-14 21:05:45,998 | INFO | pipeline.main | Checkpoint updated for Manila.
+2026-10-14 21:05:46,000 | INFO | pipeline.main | Pipeline summary | total=1 | loaded=1 | skipped=0 | failed=0
+2026-10-14 21:05:46,002 | INFO | pipeline.main | Successfully loaded cities: ['Manila']
+2026-10-14 21:05:46,004 | INFO | pipeline.main | Weather ingestion completed successfully.
+2026-10-14 21:05:46,014 | INFO | pipeline.main | Starting Weather Ingestion...
+2026-10-14 21:05:46,015 | INFO | pipeline.main | Processing city: Manila
+2026-10-14 21:05:46,018 | INFO | pipeline.main | Geocoding loaded for Manila into geocoding_manila
+2026-10-14 21:05:46,020 | INFO | pipeline.main | Raw JSON saved for Manila: /tmp/pytest-of-aldwin/pytest-17/test_pipeline_main_uses_canoni0/manila.json
+2026-10-14 21:05:46,023 | INFO | pipeline.main | Weather data transformed for Manila
+2026-10-14 21:05:46,024 | INFO | pipeline.main | Parquet saved for Manila: /tmp/pytest-of-aldwin/pytest-17/test_pipeline_main_uses_canoni0/openweather_Manila.parquet
+2026-10-14 21:05:46,026 | INFO | pipeline.main | Loaded 1 row(s) for Manila into openweather_manila.
+2026-10-14 21:05:46,027 | INFO | pipeline.main | Checkpoint updated for Manila.
+2026-10-14 21:05:46,029 | INFO | pipeline.main | Pipeline summary | total=1 | loaded=1 | skipped=0 | failed=0
+2026-10-14 21:05:46,031 | INFO | pipeline.main | Successfully loaded cities: ['Manila']
+2026-10-14 21:05:46,032 | INFO | pipeline.main | Weather ingestion completed successfully.
+2026-10-14 21:05:46,038 | INFO | pipeline.main | Starting Weather Ingestion...
+2026-10-14 21:05:46,040 | INFO | pipeline.main | Processing city: Manila
+2026-10-14 21:05:46,041 | ERROR | pipeline.main | Failed to process city: Manila
+Traceback (most recent call last):
+  File "/mnt/c/Users/aldwin/project/weatherflow/pipeline/main.py", line 41, in main
+    weather_data = extract_openweather_data(
+        latitude, longitude, city
+    )
+  File "/mnt/c/Users/aldwin/project/weatherflow/tests/test_load_postgresql.py", line 205, in <lambda>
+    lambda *args, **kwargs: (_ for _ in ()).throw(RuntimeError("API failure")),
+                            ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/c/Users/aldwin/project/weatherflow/tests/test_load_postgresql.py", line 205, in <genexpr>
+    lambda *args, **kwargs: (_ for _ in ()).throw(RuntimeError("API failure")),
+RuntimeError: API failure
+2026-10-14 21:05:46,062 | INFO | pipeline.main | Pipeline summary | total=1 | loaded=0 | skipped=0 | failed=1
+2026-10-14 21:05:46,063 | ERROR | pipeline.main | Failed cities: ['Manila']
+2026-10-14 21:05:46,064 | ERROR | pipeline.main | Weather ingestion completed with failures.
+2026-10-15 01:45:15,808 | INFO | pipeline.main | Starting Weather Ingestion...
+2026-10-15 01:45:15,819 | INFO | pipeline.main | Processing city: Manila
+2026-10-15 01:45:17,409 | INFO | pipeline.main | Geocoding loaded for Manila into geocoding_manila
+2026-10-15 01:45:18,123 | INFO | pipeline.main | Raw JSON saved for Manila: /opt/weatherflow/data/raw/openweather/manila.json
+2026-10-15 01:45:18,158 | INFO | pipeline.main | Weather data transformed for Manila
+2026-10-15 01:45:18,903 | INFO | pipeline.main | Parquet saved for Manila: /opt/weatherflow/data/parquet/openweather/manila.parquet
+2026-10-15 01:45:18,964 | INFO | pipeline.main | Loaded 1 row(s) for Manila into openweather_manila.
+2026-10-15 01:45:19,122 | INFO | pipeline.main | Checkpoint updated for Manila.
+2026-10-15 01:45:19,132 | INFO | pipeline.main | Processing city: Quezon City
+2026-10-15 01:45:19,755 | INFO | pipeline.main | Geocoding loaded for Quezon City into geocoding_quezon_city
+2026-10-15 01:45:20,078 | INFO | pipeline.main | Raw JSON saved for Quezon City: /opt/weatherflow/data/raw/openweather/quezon_city.json
+2026-10-15 01:45:20,092 | INFO | pipeline.main | Weather data transformed for Quezon City
+2026-10-15 01:45:21,019 | INFO | pipeline.main | Parquet saved for Quezon City: /opt/weatherflow/data/parquet/openweather/quezon_city.parquet
+2026-10-15 01:45:21,105 | INFO | pipeline.main | Loaded 1 row(s) for Quezon City into openweather_quezon_city.
+2026-10-15 01:45:21,539 | INFO | pipeline.main | Checkpoint updated for Quezon City.
+2026-10-15 01:45:21,562 | INFO | pipeline.main | Processing city: Cebu City
+2026-10-15 01:45:22,377 | INFO | pipeline.main | Geocoding loaded for Cebu City into geocoding_cebu_city
+2026-10-15 01:45:23,416 | INFO | pipeline.main | Raw JSON saved for Cebu City: /opt/weatherflow/data/raw/openweather/cebu_city.json
+2026-10-15 01:45:23,453 | INFO | pipeline.main | Weather data transformed for Cebu City
+2026-10-15 01:45:24,989 | INFO | pipeline.main | Parquet saved for Cebu City: /opt/weatherflow/data/parquet/openweather/cebu_city.parquet
+2026-10-15 01:45:25,100 | INFO | pipeline.main | Loaded 1 row(s) for Cebu City into openweather_cebu_city.
+2026-10-15 01:45:25,860 | INFO | pipeline.main | Checkpoint updated for Cebu City.
+2026-10-15 01:45:25,959 | INFO | pipeline.main | Processing city: Davao City
+2026-10-15 01:45:27,046 | INFO | pipeline.main | Geocoding loaded for Davao City into geocoding_davao_city
+2026-10-15 01:45:27,812 | INFO | pipeline.main | Raw JSON saved for Davao City: /opt/weatherflow/data/raw/openweather/davao_city.json
+2026-10-15 01:45:27,841 | INFO | pipeline.main | Weather data transformed for Davao City
+2026-10-15 01:45:28,517 | INFO | pipeline.main | Parquet saved for Davao City: /opt/weatherflow/data/parquet/openweather/davao_city.parquet
+2026-10-15 01:45:28,594 | INFO | pipeline.main | Loaded 1 row(s) for Davao City into openweather_davao_city.
+2026-10-15 01:45:28,932 | INFO | pipeline.main | Checkpoint updated for Davao City.
+2026-10-15 01:45:28,948 | INFO | pipeline.main | Processing city: Baguio
+2026-10-15 01:45:29,427 | INFO | pipeline.main | Geocoding loaded for Baguio into geocoding_baguio
+2026-10-15 01:45:29,786 | INFO | pipeline.main | Raw JSON saved for Baguio: /opt/weatherflow/data/raw/openweather/baguio.json
+2026-10-15 01:45:29,822 | INFO | pipeline.main | Weather data transformed for Baguio
+2026-10-15 01:45:30,242 | INFO | pipeline.main | Parquet saved for Baguio: /opt/weatherflow/data/parquet/openweather/baguio.parquet
+2026-10-15 01:45:30,323 | INFO | pipeline.main | Loaded 1 row(s) for Baguio into openweather_baguio.
+2026-10-15 01:45:30,547 | INFO | pipeline.main | Checkpoint updated for Baguio.
+2026-10-15 01:45:30,555 | INFO | pipeline.main | Processing city: Iloilo City
+2026-10-15 01:45:30,900 | INFO | pipeline.main | Geocoding loaded for Iloilo City into geocoding_iloilo_city
+2026-10-15 01:45:31,086 | INFO | pipeline.main | Raw JSON saved for Iloilo City: /opt/weatherflow/data/raw/openweather/iloilo_city.json
+2026-10-15 01:45:31,098 | INFO | pipeline.main | Weather data transformed for Iloilo City
+2026-10-15 01:45:31,327 | INFO | pipeline.main | Parquet saved for Iloilo City: /opt/weatherflow/data/parquet/openweather/iloilo_city.parquet
+2026-10-15 01:45:31,390 | INFO | pipeline.main | Loaded 1 row(s) for Iloilo City into openweather_iloilo_city.
+2026-10-15 01:45:31,496 | INFO | pipeline.main | Checkpoint updated for Iloilo City.
+2026-10-15 01:45:31,502 | INFO | pipeline.main | Processing city: Cagayan de Oro
+2026-10-15 01:45:31,857 | INFO | pipeline.main | Geocoding loaded for Cagayan de Oro into geocoding_cagayan_de_oro
+2026-10-15 01:45:32,087 | INFO | pipeline.main | Raw JSON saved for Cagayan de Oro: /opt/weatherflow/data/raw/openweather/cagayan_de_oro.json
+2026-10-15 01:45:32,101 | INFO | pipeline.main | Weather data transformed for Cagayan de Oro
+2026-10-15 01:45:32,514 | INFO | pipeline.main | Parquet saved for Cagayan de Oro: /opt/weatherflow/data/parquet/openweather/cagayan_de_oro.parquet
+2026-10-15 01:45:32,605 | INFO | pipeline.main | Loaded 1 row(s) for Cagayan de Oro into openweather_cagayan_de_oro.
+2026-10-15 01:45:32,826 | INFO | pipeline.main | Checkpoint updated for Cagayan de Oro.
+2026-10-15 01:45:32,837 | INFO | pipeline.main | Processing city: Zamboanga City
+2026-10-15 01:45:33,176 | INFO | pipeline.main | Geocoding loaded for Zamboanga City into geocoding_zamboanga_city
+2026-10-15 01:45:33,310 | INFO | pipeline.main | Raw JSON saved for Zamboanga City: /opt/weatherflow/data/raw/openweather/zamboanga_city.json
+2026-10-15 01:45:33,321 | INFO | pipeline.main | Weather data transformed for Zamboanga City
+2026-10-15 01:45:33,506 | INFO | pipeline.main | Parquet saved for Zamboanga City: /opt/weatherflow/data/parquet/openweather/zamboanga_city.parquet
+2026-10-15 01:45:33,597 | INFO | pipeline.main | Loaded 1 row(s) for Zamboanga City into openweather_zamboanga_city.
+2026-10-15 01:45:33,692 | INFO | pipeline.main | Checkpoint updated for Zamboanga City.
+2026-10-15 01:45:33,698 | INFO | pipeline.main | Pipeline summary | total=8 | loaded=8 | skipped=0 | failed=0
+2026-10-15 01:45:33,705 | INFO | pipeline.main | Successfully loaded cities: ['Manila', 'Quezon City', 'Cebu City', 'Davao City', 'Baguio', 'Iloilo City', 'Cagayan de Oro', 'Zamboanga City']
+2026-10-15 01:45:33,712 | INFO | pipeline.main | Weather ingestion completed successfully.
+2026-10-15 02:00:09,495 | INFO | pipeline.main | Starting Weather Ingestion...
+2026-10-15 02:00:09,506 | INFO | pipeline.main | Processing city: Manila
+2026-10-15 02:00:10,118 | INFO | pipeline.main | Geocoding loaded for Manila into geocoding_manila
+2026-10-15 02:00:10,414 | INFO | pipeline.main | Raw JSON saved for Manila: /opt/weatherflow/data/raw/openweather/manila.json
+2026-10-15 02:00:10,421 | INFO | pipeline.main | Weather data transformed for Manila
+2026-10-15 02:00:10,599 | INFO | pipeline.main | Parquet saved for Manila: /opt/weatherflow/data/parquet/openweather/manila.parquet
+2026-10-15 02:00:10,644 | INFO | pipeline.main | Loaded 1 row(s) for Manila into openweather_manila.
+2026-10-15 02:00:10,676 | INFO | pipeline.main | Checkpoint updated for Manila.
+2026-10-15 02:00:10,677 | INFO | pipeline.main | Processing city: Quezon City
+2026-10-15 02:00:11,010 | INFO | pipeline.main | Geocoding loaded for Quezon City into geocoding_quezon_city
+2026-10-15 02:00:11,127 | INFO | pipeline.main | Raw JSON saved for Quezon City: /opt/weatherflow/data/raw/openweather/quezon_city.json
+2026-10-15 02:00:11,136 | INFO | pipeline.main | Weather data transformed for Quezon City
+2026-10-15 02:00:11,304 | INFO | pipeline.main | Parquet saved for Quezon City: /opt/weatherflow/data/parquet/openweather/quezon_city.parquet
+2026-10-15 02:00:11,363 | INFO | pipeline.main | Loaded 1 row(s) for Quezon City into openweather_quezon_city.
+2026-10-15 02:00:11,414 | INFO | pipeline.main | Checkpoint updated for Quezon City.
+2026-10-15 02:00:11,418 | INFO | pipeline.main | Processing city: Cebu City
+2026-10-15 02:00:11,682 | INFO | pipeline.main | Geocoding loaded for Cebu City into geocoding_cebu_city
+2026-10-15 02:00:11,775 | INFO | pipeline.main | Raw JSON saved for Cebu City: /opt/weatherflow/data/raw/openweather/cebu_city.json
+2026-10-15 02:00:11,778 | INFO | pipeline.main | Weather data transformed for Cebu City
+2026-10-15 02:00:11,907 | INFO | pipeline.main | Parquet saved for Cebu City: /opt/weatherflow/data/parquet/openweather/cebu_city.parquet
+2026-10-15 02:00:11,985 | INFO | pipeline.main | Loaded 1 row(s) for Cebu City into openweather_cebu_city.
+2026-10-15 02:00:12,028 | INFO | pipeline.main | Checkpoint updated for Cebu City.
+2026-10-15 02:00:12,032 | INFO | pipeline.main | Processing city: Davao City
+2026-10-15 02:00:12,374 | INFO | pipeline.main | Geocoding loaded for Davao City into geocoding_davao_city
+2026-10-15 02:00:12,510 | INFO | pipeline.main | Raw JSON saved for Davao City: /opt/weatherflow/data/raw/openweather/davao_city.json
+2026-10-15 02:00:12,517 | INFO | pipeline.main | Weather data transformed for Davao City
+2026-10-15 02:00:12,647 | INFO | pipeline.main | Parquet saved for Davao City: /opt/weatherflow/data/parquet/openweather/davao_city.parquet
+2026-10-15 02:00:12,702 | INFO | pipeline.main | Loaded 1 row(s) for Davao City into openweather_davao_city.
+2026-10-15 02:00:12,796 | INFO | pipeline.main | Checkpoint updated for Davao City.
+2026-10-15 02:00:12,806 | INFO | pipeline.main | Processing city: Baguio
+2026-10-15 02:00:13,202 | INFO | pipeline.main | Geocoding loaded for Baguio into geocoding_baguio
+2026-10-15 02:00:13,333 | INFO | pipeline.main | Raw JSON saved for Baguio: /opt/weatherflow/data/raw/openweather/baguio.json
+2026-10-15 02:00:13,343 | INFO | pipeline.main | Weather data transformed for Baguio
+2026-10-15 02:00:13,480 | INFO | pipeline.main | Parquet saved for Baguio: /opt/weatherflow/data/parquet/openweather/baguio.parquet
+2026-10-15 02:00:13,526 | INFO | pipeline.main | Loaded 1 row(s) for Baguio into openweather_baguio.
+2026-10-15 02:00:13,561 | INFO | pipeline.main | Checkpoint updated for Baguio.
+2026-10-15 02:00:13,565 | INFO | pipeline.main | Processing city: Iloilo City
+2026-10-15 02:00:13,919 | INFO | pipeline.main | Geocoding loaded for Iloilo City into geocoding_iloilo_city
+2026-10-15 02:00:14,216 | INFO | pipeline.main | Raw JSON saved for Iloilo City: /opt/weatherflow/data/raw/openweather/iloilo_city.json
+2026-10-15 02:00:14,233 | INFO | pipeline.main | Weather data transformed for Iloilo City
+2026-10-15 02:00:14,423 | INFO | pipeline.main | Parquet saved for Iloilo City: /opt/weatherflow/data/parquet/openweather/iloilo_city.parquet
+2026-10-15 02:00:14,461 | INFO | pipeline.main | Loaded 1 row(s) for Iloilo City into openweather_iloilo_city.
+2026-10-15 02:00:14,498 | INFO | pipeline.main | Checkpoint updated for Iloilo City.
+2026-10-15 02:00:14,503 | INFO | pipeline.main | Processing city: Cagayan de Oro
+2026-10-15 02:00:14,948 | INFO | pipeline.main | Geocoding loaded for Cagayan de Oro into geocoding_cagayan_de_oro
+2026-10-15 02:00:15,085 | INFO | pipeline.main | Raw JSON saved for Cagayan de Oro: /opt/weatherflow/data/raw/openweather/cagayan_de_oro.json
+2026-10-15 02:00:15,102 | INFO | pipeline.main | Weather data transformed for Cagayan de Oro
+2026-10-15 02:00:15,328 | INFO | pipeline.main | Parquet saved for Cagayan de Oro: /opt/weatherflow/data/parquet/openweather/cagayan_de_oro.parquet
+2026-10-15 02:00:15,393 | INFO | pipeline.main | Loaded 1 row(s) for Cagayan de Oro into openweather_cagayan_de_oro.
+2026-10-15 02:00:15,527 | INFO | pipeline.main | Checkpoint updated for Cagayan de Oro.
+2026-10-15 02:00:15,533 | INFO | pipeline.main | Processing city: Zamboanga City
+2026-10-15 02:00:15,889 | INFO | pipeline.main | Geocoding loaded for Zamboanga City into geocoding_zamboanga_city
+2026-10-15 02:00:16,137 | INFO | pipeline.main | Raw JSON saved for Zamboanga City: /opt/weatherflow/data/raw/openweather/zamboanga_city.json
+2026-10-15 02:00:16,143 | INFO | pipeline.main | Weather data transformed for Zamboanga City
+2026-10-15 02:00:16,438 | INFO | pipeline.main | Parquet saved for Zamboanga City: /opt/weatherflow/data/parquet/openweather/zamboanga_city.parquet
+2026-10-15 02:00:16,586 | INFO | pipeline.main | Loaded 1 row(s) for Zamboanga City into openweather_zamboanga_city.
+2026-10-15 02:00:16,708 | INFO | pipeline.main | Checkpoint updated for Zamboanga City.
+2026-10-15 02:00:16,713 | INFO | pipeline.main | Pipeline summary | total=8 | loaded=8 | skipped=0 | failed=0
+2026-10-15 02:00:16,719 | INFO | pipeline.main | Successfully loaded cities: ['Manila', 'Quezon City', 'Cebu City', 'Davao City', 'Baguio', 'Iloilo City', 'Cagayan de Oro', 'Zamboanga City']
+2026-10-15 02:00:16,723 | INFO | pipeline.main | Weather ingestion completed successfully.
+2026-10-15 02:05:06,427 | INFO | __main__ | Starting Weather Ingestion...
+2026-10-15 02:05:06,431 | INFO | __main__ | Processing city: Manila
+2026-10-15 02:05:06,878 | INFO | __main__ | Geocoding extracted for Manila
+2026-10-15 02:05:07,085 | ERROR | __main__ | Failed to process city: Manila
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.14/site-packages/sqlalchemy/engine/base.py", line 149, in __init__
+    self._dbapi_connection = engine.raw_connection()
+                             ~~~~~~~~~~~~~~~~~~~~~^^
+  File "/usr/local/lib/python3.14/site-packages/sqlalchemy/engine/base.py", line 3284, in raw_connection
+    return self.pool.connect()
+           ~~~~~~~~~~~~~~~~~^^
+  File "/usr/local/lib/python3.14/site-packages/sqlalchemy/pool/base.py", line 445, in connect
+    return _ConnectionFairy._checkout(self)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^
+  File "/usr/local/lib/python3.14/site-packages/sqlalchemy/pool/base.py", line 1303, in _checkout
+    fairy = _ConnectionRecord.checkout(pool)
+  File "/usr/local/lib/python3.14/site-packages/sqlalchemy/pool/base.py", line 709, in checkout
+    rec = pool._do_get()
+  File "/usr/local/lib/python3.14/site-packages/sqlalchemy/pool/impl.py", line 176, in _do_get
+    with util.safe_reraise():
+         ~~~~~~~~~~~~~~~~~^^
+  File "/usr/local/lib/python3.14/site-packages/sqlalchemy/util/langhelpers.py", line 166, in __exit__
+    raise exc_value.with_traceback(exc_tb)
+  File "/usr/local/lib/python3.14/site-packages/sqlalchemy/pool/impl.py", line 174, in _do_get
+    return self._create_connection()
+           ~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "/usr/local/lib/python3.14/site-packages/sqlalchemy/pool/base.py", line 386, in _create_connection
+    return _ConnectionRecord(self)
+  File "/usr/local/lib/python3.14/site-packages/sqlalchemy/pool/base.py", line 671, in __init__
+    self.__connect()
+    ~~~~~~~~~~~~~~^^
+  File "/usr/local/lib/python3.14/site-packages/sqlalchemy/pool/base.py", line 906, in __connect
+    with util.safe_reraise():
+         ~~~~~~~~~~~~~~~~~^^
+  File "/usr/local/lib/python3.14/site-packages/sqlalchemy/util/langhelpers.py", line 166, in __exit__
+    raise exc_value.with_traceback(exc_tb)
+  File "/usr/local/lib/python3.14/site-packages/sqlalchemy/pool/base.py", line 902, in __connect
+    self.dbapi_connection = connection = pool._invoke_creator(self)
+                                         ~~~~~~~~~~~~~~~~~~~~^^^^^^
+  File "/usr/local/lib/python3.14/site-packages/sqlalchemy/engine/create.py", line 645, in connect
+    return dialect.connect(*cargs_tup, **cparams)
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.14/site-packages/sqlalchemy/engine/default.py", line 869, in connect
+    return self.loaded_dbapi.connect(*cargs, **cparams)  # type: ignore[no-any-return]  # NOQA: E501
+           ~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.14/site-packages/psycopg2/__init__.py", line 122, in connect
+    conn = _connect(dsn, connection_factory=connection_factory, **kwasync)
+psycopg2.OperationalError: connection to server at "db" (172.18.0.4), port 5432 failed: FATAL:  password authentication failed for user "weatherflow"
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/app/pipeline/main.py", line 47, in main
+    load_postgresql(geocoding_df, geocoding_table, if_exists="replace")
+    ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/app/pipeline/loaded/load_postresql.py", line 867, in load_postgresql
+    return _load_legacy_table(df, table_name, if_exists=if_exists, engine=engine)
+  File "/app/pipeline/loaded/load_postresql.py", line 453, in _load_legacy_table
+    with engine.begin() as connection:
+         ~~~~~~~~~~~~^^
+  File "/usr/local/lib/python3.14/contextlib.py", line 141, in __enter__
+    return next(self.gen)
+  File "/usr/local/lib/python3.14/site-packages/sqlalchemy/engine/base.py", line 3224, in begin
+    with self.connect() as conn:
+         ~~~~~~~~~~~~^^
+  File "/usr/local/lib/python3.14/site-packages/sqlalchemy/engine/base.py", line 3260, in connect
+    return self._connection_cls(self)
+           ~~~~~~~~~~~~~~~~~~~~^^^^^^
+  File "/usr/local/lib/python3.14/site-packages/sqlalchemy/engine/base.py", line 151, in __init__
+    Connection._handle_dbapi_exception_noconnection(
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        err, dialect, engine
+        ^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/usr/local/lib/python3.14/site-packages/sqlalchemy/engine/base.py", line 2417, in _handle_dbapi_exception_noconnection
+    raise sqlalchemy_exception.with_traceback(exc_info[2]) from e
+  File "/usr/local/lib/python3.14/site-packages/sqlalchemy/engine/base.py", line 149, in __init__
+    self._dbapi_connection = engine.raw_connection()
+                             ~~~~~~~~~~~~~~~~~~~~~^^
+  File "/usr/local/lib/python3.14/site-packages/sqlalchemy/engine/base.py", line 3284, in raw_connection
+    return self.pool.connect()
+           ~~~~~~~~~~~~~~~~~^^
+  File "/usr/local/lib/python3.14/site-packages/sqlalchemy/pool/base.py", line 445, in connect
+    return _ConnectionFairy._checkout(self)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^
+  File "/usr/local/lib/python3.14/site-packages/sqlalchemy/pool/base.py", line 1303, in _checkout
+    fairy = _ConnectionRecord.checkout(pool)
+  File "/usr/local/lib/python3.14/site-packages/sqlalchemy/pool/base.py", line 709, in checkout
+    rec = pool._do_get()
+  File "/usr/local/lib/python3.14/site-packages/sqlalchemy/pool/impl.py", line 176, in _do_get
+    with util.safe_reraise():
+         ~~~~~~~~~~~~~~~~~^^
+  File "/usr/local/lib/python3.14/site-packages/sqlalchemy/util/langhelpers.py", line 166, in __exit__
+    raise exc_value.with_traceback(exc_tb)
+  File "/usr/local/lib/python3.14/site-packages/sqlalchemy/pool/impl.py", line 174, in _do_get
+    return self._create_connection()
+           ~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "/usr/local/lib/python3.14/site-packages/sqlalchemy/pool/base.py", line 386, in _create_connection
+    return _ConnectionRecord(self)
+  File "/usr/local/lib/python3.14/site-packages/sqlalchemy/pool/base.py", line 671, in __init__
+    self.__connect()
+    ~~~~~~~~~~~~~~^^
+  File "/usr/local/lib/python3.14/site-packages/sqlalchemy/pool/base.py", line 906, in __connect
+    with util.safe_reraise():
+         ~~~~~~~~~~~~~~~~~^^
+  File "/usr/local/lib/python3.14/site-packages/sqlalchemy/util/langhelpers.py", line 166, in __exit__
+    raise exc_value.with_traceback(exc_tb)
+  File "/usr/local/lib/python3.14/site-packages/sqlalchemy/pool/base.py", line 902, in __connect
+    self.dbapi_connection = connection = pool._invoke_creator(self)
+                                         ~~~~~~~~~~~~~~~~~~~~^^^^^^
+  File "/usr/local/lib/python3.14/site-packages/sqlalchemy/engine/create.py", line 645, in connect
+    return dialect.connect(*cargs_tup, **cparams)
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.14/site-packages/sqlalchemy/engine/default.py", line 869, in connect
+    return self.loaded_dbapi.connect(*cargs, **cparams)  # type: ignore[no-any-return]  # NOQA: E501
+           ~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.14/site-packages/psycopg2/__init__.py", line 122, in connect
+    conn = _connect(dsn, connection_factory=connection_factory, **kwasync)
+sqlalchemy.exc.OperationalError: (psycopg2.OperationalError) connection to server at "db" (172.18.0.4), port 5432 failed: FATAL:  password authentication failed for user "weatherflow"
+
+(Background on this error at: https://sqlalche.me/e/21/e3q8)
+2026-10-15 02:05:07,131 | INFO | __main__ | Processing city: Quezon City
+2026-10-15 02:05:07,528 | INFO | __main__ | Geocoding extracted for Quezon City
+2026-10-15 02:05:07,552 | ERROR | __main__ | Failed to process city: Quezon City
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.14/site-packages/sqlalchemy/engine/base.py", line 149, in __init__
+    self._dbapi_connection = engine.raw_connection()
+                             ~~~~~~~~~~~~~~~~~~~~~^^
+  File "/usr/local/lib/python3.14/site-packages/sqlalchemy/engine/base.py", line 3284, in raw_connection
+    return self.pool.connect()
+           ~~~~~~~~~~~~~~~~~^^
+  File "/usr/local/lib/python3.14/site-packages/sqlalchemy/pool/base.py", line 445, in connect
+    return _ConnectionFairy._checkout(self)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^
+  File "/usr/local/lib/python3.14/site-packages/sqlalchemy/pool/base.py", line 1303, in _checkout
+    fairy = _ConnectionRecord.checkout(pool)
+  File "/usr/local/lib/python3.14/site-packages/sqlalchemy/pool/base.py", line 709, in checkout
+    rec = pool._do_get()
+  File "/usr/local/lib/python3.14/site-packages/sqlalchemy/pool/impl.py", line 176, in _do_get
+    with util.safe_reraise():
+         ~~~~~~~~~~~~~~~~~^^
+  File "/usr/local/lib/python3.14/site-packages/sqlalchemy/util/langhelpers.py", line 166, in __exit__
+    raise exc_value.with_traceback(exc_tb)
+  File "/usr/local/lib/python3.14/site-packages/sqlalchemy/pool/impl.py", line 174, in _do_get
+    return self._create_connection()
+           ~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "/usr/local/lib/python3.14/site-packages/sqlalchemy/pool/base.py", line 386, in _create_connection
+    return _ConnectionRecord(self)
+  File "/usr/local/lib/python3.14/site-packages/sqlalchemy/pool/base.py", line 671, in __init__
+    self.__connect()
+    ~~~~~~~~~~~~~~^^
+  File "/usr/local/lib/python3.14/site-packages/sqlalchemy/pool/base.py", line 906, in __connect
+    with util.safe_reraise():
+         ~~~~~~~~~~~~~~~~~^^
+  File "/usr/local/lib/python3.14/site-packages/sqlalchemy/util/langhelpers.py", line 166, in __exit__
+    raise exc_value.with_traceback(exc_tb)
+  File "/usr/local/lib/python3.14/site-packages/sqlalchemy/pool/base.py", line 902, in __connect
+    self.dbapi_connection = connection = pool._invoke_creator(self)
+                                         ~~~~~~~~~~~~~~~~~~~~^^^^^^
+  File "/usr/local/lib/python3.14/site-packages/sqlalchemy/engine/create.py", line 645, in connect
+    return dialect.connect(*cargs_tup, **cparams)
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.14/site-packages/sqlalchemy/engine/default.py", line 869, in connect
+    return self.loaded_dbapi.connect(*cargs, **cparams)  # type: ignore[no-any-return]  # NOQA: E501
+           ~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.14/site-packages/psycopg2/__init__.py", line 122, in connect
+    conn = _connect(dsn, connection_factory=connection_factory, **kwasync)
+psycopg2.OperationalError: connection to server at "db" (172.18.0.4), port 5432 failed: FATAL:  password authentication failed for user "weatherflow"
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/app/pipeline/main.py", line 47, in main
+    load_postgresql(geocoding_df, geocoding_table, if_exists="replace")
+    ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/app/pipeline/loaded/load_postresql.py", line 867, in load_postgresql
+    return _load_legacy_table(df, table_name, if_exists=if_exists, engine=engine)
+  File "/app/pipeline/loaded/load_postresql.py", line 453, in _load_legacy_table
+    with engine.begin() as connection:
+         ~~~~~~~~~~~~^^
+  File "/usr/local/lib/python3.14/contextlib.py", line 141, in __enter__
+    return next(self.gen)
+  File "/usr/local/lib/python3.14/site-packages/sqlalchemy/engine/base.py", line 3224, in begin
+    with self.connect() as conn:
+         ~~~~~~~~~~~~^^
+  File "/usr/local/lib/python3.14/site-packages/sqlalchemy/engine/base.py", line 3260, in connect
+    return self._connection_cls(self)
+           ~~~~~~~~~~~~~~~~~~~~^^^^^^
+  File "/usr/local/lib/python3.14/site-packages/sqlalchemy/engine/base.py", line 151, in __init__
+    Connection._handle_dbapi_exception_noconnection(
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        err, dialect, engine
+        ^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/usr/local/lib/python3.14/site-packages/sqlalchemy/engine/base.py", line 2417, in _handle_dbapi_exception_noconnection
+    raise sqlalchemy_exception.with_traceback(exc_info[2]) from e
+  File "/usr/local/lib/python3.14/site-packages/sqlalchemy/engine/base.py", line 149, in __init__
+    self._dbapi_connection = engine.raw_connection()
+                             ~~~~~~~~~~~~~~~~~~~~~^^
+  File "/usr/local/lib/python3.14/site-packages/sqlalchemy/engine/base.py", line 3284, in raw_connection
+    return self.pool.connect()
+           ~~~~~~~~~~~~~~~~~^^
+  File "/usr/local/lib/python3.14/site-packages/sqlalchemy/pool/base.py", line 445, in connect
+    return _ConnectionFairy._checkout(self)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^
+  File "/usr/local/lib/python3.14/site-packages/sqlalchemy/pool/base.py", line 1303, in _checkout
+    fairy = _ConnectionRecord.checkout(pool)
+  File "/usr/local/lib/python3.14/site-packages/sqlalchemy/pool/base.py", line 709, in checkout
+    rec = pool._do_get()
+  File "/usr/local/lib/python3.14/site-packages/sqlalchemy/pool/impl.py", line 176, in _do_get
+    with util.safe_reraise():
+         ~~~~~~~~~~~~~~~~~^^
+  File "/usr/local/lib/python3.14/site-packages/sqlalchemy/util/langhelpers.py", line 166, in __exit__
+    raise exc_value.with_traceback(exc_tb)
+  File "/usr/local/lib/python3.14/site-packages/sqlalchemy/pool/impl.py", line 174, in _do_get
+    return self._create_connection()
+           ~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "/usr/local/lib/python3.14/site-packages/sqlalchemy/pool/base.py", line 386, in _create_connection
+    return _ConnectionRecord(self)
+  File "/usr/local/lib/python3.14/site-packages/sqlalchemy/pool/base.py", line 671, in __init__
+    self.__connect()
+    ~~~~~~~~~~~~~~^^
+  File "/usr/local/lib/python3.14/site-packages/sqlalchemy/pool/base.py", line 906, in __connect
+    with util.safe_reraise():
+         ~~~~~~~~~~~~~~~~~^^
+  File "/usr/local/lib/python3.14/site-packages/sqlalchemy/util/langhelpers.py", line 166, in __exit__
+    raise exc_value.with_traceback(exc_tb)
+  File "/usr/local/lib/python3.14/site-packages/sqlalchemy/pool/base.py", line 902, in __connect
+    self.dbapi_connection = connection = pool._invoke_creator(self)
+                                         ~~~~~~~~~~~~~~~~~~~~^^^^^^
+  File "/usr/local/lib/python3.14/site-packages/sqlalchemy/engine/create.py", line 645, in connect
+    return dialect.connect(*cargs_tup, **cparams)
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.14/site-packages/sqlalchemy/engine/default.py", line 869, in connect
+    return self.loaded_dbapi.connect(*cargs, **cparams)  # type: ignore[no-any-return]  # NOQA: E501
+           ~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.14/site-packages/psycopg2/__init__.py", line 122, in connect
+    conn = _connect(dsn, connection_factory=connection_factory, **kwasync)
+sqlalchemy.exc.OperationalError: (psycopg2.OperationalError) connection to server at "db" (172.18.0.4), port 5432 failed: FATAL:  password authentication failed for user "weatherflow"
+
+(Background on this error at: https://sqlalche.me/e/21/e3q8)
+2026-10-15 02:05:07,565 | INFO | __main__ | Processing city: Cebu City
+2026-10-15 02:05:07,836 | INFO | __main__ | Geocoding extracted for Cebu City
+2026-10-15 02:05:07,863 | ERROR | __main__ | Failed to process city: Cebu City
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.14/site-packages/sqlalchemy/engine/base.py", line 149, in __init__
+    self._dbapi_connection = engine.raw_connection()
+                             ~~~~~~~~~~~~~~~~~~~~~^^
+  File "/usr/local/lib/python3.14/site-packages/sqlalchemy/engine/base.py", line 3284, in raw_connection
+    return self.pool.connect()
+           ~~~~~~~~~~~~~~~~~^^
+  File "/usr/local/lib/python3.14/site-packages/sqlalchemy/pool/base.py", line 445, in connect
+    return _ConnectionFairy._checkout(self)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^
+  File "/usr/local/lib/python3.14/site-packages/sqlalchemy/pool/base.py", line 1303, in _checkout
+    fairy = _ConnectionRecord.checkout(pool)
+  File "/usr/local/lib/python3.14/site-packages/sqlalchemy/pool/base.py", line 709, in checkout
+    rec = pool._do_get()
+  File "/usr/local/lib/python3.14/site-packages/sqlalchemy/pool/impl.py", line 176, in _do_get
+    with util.safe_reraise():
+         ~~~~~~~~~~~~~~~~~^^
+  File "/usr/local/lib/python3.14/site-packages/sqlalchemy/util/langhelpers.py", line 166, in __exit__
+    raise exc_value.with_traceback(exc_tb)
+  File "/usr/local/lib/python3.14/site-packages/sqlalchemy/pool/impl.py", line 174, in _do_get
+    return self._create_connection()
+           ~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "/usr/local/lib/python3.14/site-packages/sqlalchemy/pool/base.py", line 386, in _create_connection
+    return _ConnectionRecord(self)
+  File "/usr/local/lib/python3.14/site-packages/sqlalchemy/pool/base.py", line 671, in __init__
+    self.__connect()
+    ~~~~~~~~~~~~~~^^
+  File "/usr/local/lib/python3.14/site-packages/sqlalchemy/pool/base.py", line 906, in __connect
+    with util.safe_reraise():
+         ~~~~~~~~~~~~~~~~~^^
+  File "/usr/local/lib/python3.14/site-packages/sqlalchemy/util/langhelpers.py", line 166, in __exit__
+    raise exc_value.with_traceback(exc_tb)
+  File "/usr/local/lib/python3.14/site-packages/sqlalchemy/pool/base.py", line 902, in __connect
+    self.dbapi_connection = connection = pool._invoke_creator(self)
+                                         ~~~~~~~~~~~~~~~~~~~~^^^^^^
+  File "/usr/local/lib/python3.14/site-packages/sqlalchemy/engine/create.py", line 645, in connect
+    return dialect.connect(*cargs_tup, **cparams)
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.14/site-packages/sqlalchemy/engine/default.py", line 869, in connect
+    return self.loaded_dbapi.connect(*cargs, **cparams)  # type: ignore[no-any-return]  # NOQA: E501
+           ~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.14/site-packages/psycopg2/__init__.py", line 122, in connect
+    conn = _connect(dsn, connection_factory=connection_factory, **kwasync)
+psycopg2.OperationalError: connection to server at "db" (172.18.0.4), port 5432 failed: FATAL:  password authentication failed for user "weatherflow"
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/app/pipeline/main.py", line 47, in main
+    load_postgresql(geocoding_df, geocoding_table, if_exists="replace")
+    ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/app/pipeline/loaded/load_postresql.py", line 867, in load_postgresql
+    return _load_legacy_table(df, table_name, if_exists=if_exists, engine=engine)
+  File "/app/pipeline/loaded/load_postresql.py", line 453, in _load_legacy_table
+    with engine.begin() as connection:
+         ~~~~~~~~~~~~^^
+  File "/usr/local/lib/python3.14/contextlib.py", line 141, in __enter__
+    return next(self.gen)
+  File "/usr/local/lib/python3.14/site-packages/sqlalchemy/engine/base.py", line 3224, in begin
+    with self.connect() as conn:
+         ~~~~~~~~~~~~^^
+  File "/usr/local/lib/python3.14/site-packages/sqlalchemy/engine/base.py", line 3260, in connect
+    return self._connection_cls(self)
+           ~~~~~~~~~~~~~~~~~~~~^^^^^^
+  File "/usr/local/lib/python3.14/site-packages/sqlalchemy/engine/base.py", line 151, in __init__
+    Connection._handle_dbapi_exception_noconnection(
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        err, dialect, engine
+        ^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/usr/local/lib/python3.14/site-packages/sqlalchemy/engine/base.py", line 2417, in _handle_dbapi_exception_noconnection
+    raise sqlalchemy_exception.with_traceback(exc_info[2]) from e
+  File "/usr/local/lib/python3.14/site-packages/sqlalchemy/engine/base.py", line 149, in __init__
+    self._dbapi_connection = engine.raw_connection()
+                             ~~~~~~~~~~~~~~~~~~~~~^^
+  File "/usr/local/lib/python3.14/site-packages/sqlalchemy/engine/base.py", line 3284, in raw_connection
+    return self.pool.connect()
+           ~~~~~~~~~~~~~~~~~^^
+  File "/usr/local/lib/python3.14/site-packages/sqlalchemy/pool/base.py", line 445, in connect
+    return _ConnectionFairy._checkout(self)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^
+  File "/usr/local/lib/python3.14/site-packages/sqlalchemy/pool/base.py", line 1303, in _checkout
+    fairy = _ConnectionRecord.checkout(pool)
+  File "/usr/local/lib/python3.14/site-packages/sqlalchemy/pool/base.py", line 709, in checkout
+    rec = pool._do_get()
+  File "/usr/local/lib/python3.14/site-packages/sqlalchemy/pool/impl.py", line 176, in _do_get
+    with util.safe_reraise():
+         ~~~~~~~~~~~~~~~~~^^
+  File "/usr/local/lib/python3.14/site-packages/sqlalchemy/util/langhelpers.py", line 166, in __exit__
+    raise exc_value.with_traceback(exc_tb)
+  File "/usr/local/lib/python3.14/site-packages/sqlalchemy/pool/impl.py", line 174, in _do_get
+    return self._create_connection()
+           ~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "/usr/local/lib/python3.14/site-packages/sqlalchemy/pool/base.py", line 386, in _create_connection
+    return _ConnectionRecord(self)
+  File "/usr/local/lib/python3.14/site-packages/sqlalchemy/pool/base.py", line 671, in __init__
+    self.__connect()
+    ~~~~~~~~~~~~~~^^
+  File "/usr/local/lib/python3.14/site-packages/sqlalchemy/pool/base.py", line 906, in __connect
+    with util.safe_reraise():
+         ~~~~~~~~~~~~~~~~~^^
+  File "/usr/local/lib/python3.14/site-packages/sqlalchemy/util/langhelpers.py", line 166, in __exit__
+    raise exc_value.with_traceback(exc_tb)
+  File "/usr/local/lib/python3.14/site-packages/sqlalchemy/pool/base.py", line 902, in __connect
+    self.dbapi_connection = connection = pool._invoke_creator(self)
+                                         ~~~~~~~~~~~~~~~~~~~~^^^^^^
+  File "/usr/local/lib/python3.14/site-packages/sqlalchemy/engine/create.py", line 645, in connect
+    return dialect.connect(*cargs_tup, **cparams)
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.14/site-packages/sqlalchemy/engine/default.py", line 869, in connect
+    return self.loaded_dbapi.connect(*cargs, **cparams)  # type: ignore[no-any-return]  # NOQA: E501
+           ~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.14/site-packages/psycopg2/__init__.py", line 122, in connect
+    conn = _connect(dsn, connection_factory=connection_factory, **kwasync)
+sqlalchemy.exc.OperationalError: (psycopg2.OperationalError) connection to server at "db" (172.18.0.4), port 5432 failed: FATAL:  password authentication failed for user "weatherflow"
+
+(Background on this error at: https://sqlalche.me/e/21/e3q8)
+2026-10-15 02:05:07,870 | INFO | __main__ | Processing city: Davao City
+2026-10-15 02:05:08,149 | INFO | __main__ | Geocoding extracted for Davao City
+2026-10-15 02:05:08,168 | ERROR | __main__ | Failed to process city: Davao City
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.14/site-packages/sqlalchemy/engine/base.py", line 149, in __init__
+    self._dbapi_connection = engine.raw_connection()
+                             ~~~~~~~~~~~~~~~~~~~~~^^
+  File "/usr/local/lib/python3.14/site-packages/sqlalchemy/engine/base.py", line 3284, in raw_connection
+    return self.pool.connect()
+           ~~~~~~~~~~~~~~~~~^^
+  File "/usr/local/lib/python3.14/site-packages/sqlalchemy/pool/base.py", line 445, in connect
+    return _ConnectionFairy._checkout(self)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^
+  File "/usr/local/lib/python3.14/site-packages/sqlalchemy/pool/base.py", line 1303, in _checkout
+    fairy = _ConnectionRecord.checkout(pool)
+  File "/usr/local/lib/python3.14/site-packages/sqlalchemy/pool/base.py", line 709, in checkout
+    rec = pool._do_get()
+  File "/usr/local/lib/python3.14/site-packages/sqlalchemy/pool/impl.py", line 176, in _do_get
+    with util.safe_reraise():
+         ~~~~~~~~~~~~~~~~~^^
+  File "/usr/local/lib/python3.14/site-packages/sqlalchemy/util/langhelpers.py", line 166, in __exit__
+    raise exc_value.with_traceback(exc_tb)
+  File "/usr/local/lib/python3.14/site-packages/sqlalchemy/pool/impl.py", line 174, in _do_get
+    return self._create_connection()
+           ~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "/usr/local/lib/python3.14/site-packages/sqlalchemy/pool/base.py", line 386, in _create_connection
+    return _ConnectionRecord(self)
+  File "/usr/local/lib/python3.14/site-packages/sqlalchemy/pool/base.py", line 671, in __init__
+    self.__connect()
+    ~~~~~~~~~~~~~~^^
+  File "/usr/local/lib/python3.14/site-packages/sqlalchemy/pool/base.py", line 906, in __connect
+    with util.safe_reraise():
+         ~~~~~~~~~~~~~~~~~^^
+  File "/usr/local/lib/python3.14/site-packages/sqlalchemy/util/langhelpers.py", line 166, in __exit__
+    raise exc_value.with_traceback(exc_tb)
+  File "/usr/local/lib/python3.14/site-packages/sqlalchemy/pool/base.py", line 902, in __connect
+    self.dbapi_connection = connection = pool._invoke_creator(self)
+                                         ~~~~~~~~~~~~~~~~~~~~^^^^^^
+  File "/usr/local/lib/python3.14/site-packages/sqlalchemy/engine/create.py", line 645, in connect
+    return dialect.connect(*cargs_tup, **cparams)
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.14/site-packages/sqlalchemy/engine/default.py", line 869, in connect
+    return self.loaded_dbapi.connect(*cargs, **cparams)  # type: ignore[no-any-return]  # NOQA: E501
+           ~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.14/site-packages/psycopg2/__init__.py", line 122, in connect
+    conn = _connect(dsn, connection_factory=connection_factory, **kwasync)
+psycopg2.OperationalError: connection to server at "db" (172.18.0.4), port 5432 failed: FATAL:  password authentication failed for user "weatherflow"
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/app/pipeline/main.py", line 47, in main
+    load_postgresql(geocoding_df, geocoding_table, if_exists="replace")
+    ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/app/pipeline/loaded/load_postresql.py", line 867, in load_postgresql
+    return _load_legacy_table(df, table_name, if_exists=if_exists, engine=engine)
+  File "/app/pipeline/loaded/load_postresql.py", line 453, in _load_legacy_table
+    with engine.begin() as connection:
+         ~~~~~~~~~~~~^^
+  File "/usr/local/lib/python3.14/contextlib.py", line 141, in __enter__
+    return next(self.gen)
+  File "/usr/local/lib/python3.14/site-packages/sqlalchemy/engine/base.py", line 3224, in begin
+    with self.connect() as conn:
+         ~~~~~~~~~~~~^^
+  File "/usr/local/lib/python3.14/site-packages/sqlalchemy/engine/base.py", line 3260, in connect
+    return self._connection_cls(self)
+           ~~~~~~~~~~~~~~~~~~~~^^^^^^
+  File "/usr/local/lib/python3.14/site-packages/sqlalchemy/engine/base.py", line 151, in __init__
+    Connection._handle_dbapi_exception_noconnection(
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        err, dialect, engine
+        ^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/usr/local/lib/python3.14/site-packages/sqlalchemy/engine/base.py", line 2417, in _handle_dbapi_exception_noconnection
+    raise sqlalchemy_exception.with_traceback(exc_info[2]) from e
+  File "/usr/local/lib/python3.14/site-packages/sqlalchemy/engine/base.py", line 149, in __init__
+    self._dbapi_connection = engine.raw_connection()
+                             ~~~~~~~~~~~~~~~~~~~~~^^
+  File "/usr/local/lib/python3.14/site-packages/sqlalchemy/engine/base.py", line 3284, in raw_connection
+    return self.pool.connect()
+           ~~~~~~~~~~~~~~~~~^^
+  File "/usr/local/lib/python3.14/site-packages/sqlalchemy/pool/base.py", line 445, in connect
+    return _ConnectionFairy._checkout(self)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^
+  File "/usr/local/lib/python3.14/site-packages/sqlalchemy/pool/base.py", line 1303, in _checkout
+    fairy = _ConnectionRecord.checkout(pool)
+  File "/usr/local/lib/python3.14/site-packages/sqlalchemy/pool/base.py", line 709, in checkout
+    rec = pool._do_get()
+  File "/usr/local/lib/python3.14/site-packages/sqlalchemy/pool/impl.py", line 176, in _do_get
+    with util.safe_reraise():
+         ~~~~~~~~~~~~~~~~~^^
+  File "/usr/local/lib/python3.14/site-packages/sqlalchemy/util/langhelpers.py", line 166, in __exit__
+    raise exc_value.with_traceback(exc_tb)
+  File "/usr/local/lib/python3.14/site-packages/sqlalchemy/pool/impl.py", line 174, in _do_get
+    return self._create_connection()
+           ~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "/usr/local/lib/python3.14/site-packages/sqlalchemy/pool/base.py", line 386, in _create_connection
+    return _ConnectionRecord(self)
+  File "/usr/local/lib/python3.14/site-packages/sqlalchemy/pool/base.py", line 671, in __init__
+    self.__connect()
+    ~~~~~~~~~~~~~~^^
+  File "/usr/local/lib/python3.14/site-packages/sqlalchemy/pool/base.py", line 906, in __connect
+    with util.safe_reraise():
+         ~~~~~~~~~~~~~~~~~^^
+  File "/usr/local/lib/python3.14/site-packages/sqlalchemy/util/langhelpers.py", line 166, in __exit__
+    raise exc_value.with_traceback(exc_tb)
+  File "/usr/local/lib/python3.14/site-packages/sqlalchemy/pool/base.py", line 902, in __connect
+    self.dbapi_connection = connection = pool._invoke_creator(self)
+                                         ~~~~~~~~~~~~~~~~~~~~^^^^^^
+  File "/usr/local/lib/python3.14/site-packages/sqlalchemy/engine/create.py", line 645, in connect
+    return dialect.connect(*cargs_tup, **cparams)
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.14/site-packages/sqlalchemy/engine/default.py", line 869, in connect
+    return self.loaded_dbapi.connect(*cargs, **cparams)  # type: ignore[no-any-return]  # NOQA: E501
+           ~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.14/site-packages/psycopg2/__init__.py", line 122, in connect
+    conn = _connect(dsn, connection_factory=connection_factory, **kwasync)
+sqlalchemy.exc.OperationalError: (psycopg2.OperationalError) connection to server at "db" (172.18.0.4), port 5432 failed: FATAL:  password authentication failed for user "weatherflow"
+
+(Background on this error at: https://sqlalche.me/e/21/e3q8)
+2026-10-15 02:05:08,179 | INFO | __main__ | Processing city: Baguio
+2026-10-15 02:05:08,380 | INFO | __main__ | Geocoding extracted for Baguio
+2026-10-15 02:05:08,391 | ERROR | __main__ | Failed to process city: Baguio
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.14/site-packages/sqlalchemy/engine/base.py", line 149, in __init__
+    self._dbapi_connection = engine.raw_connection()
+                             ~~~~~~~~~~~~~~~~~~~~~^^
+  File "/usr/local/lib/python3.14/site-packages/sqlalchemy/engine/base.py", line 3284, in raw_connection
+    return self.pool.connect()
+           ~~~~~~~~~~~~~~~~~^^
+  File "/usr/local/lib/python3.14/site-packages/sqlalchemy/pool/base.py", line 445, in connect
+    return _ConnectionFairy._checkout(self)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^
+  File "/usr/local/lib/python3.14/site-packages/sqlalchemy/pool/base.py", line 1303, in _checkout
+    fairy = _ConnectionRecord.checkout(pool)
+  File "/usr/local/lib/python3.14/site-packages/sqlalchemy/pool/base.py", line 709, in checkout
+    rec = pool._do_get()
+  File "/usr/local/lib/python3.14/site-packages/sqlalchemy/pool/impl.py", line 176, in _do_get
+    with util.safe_reraise():
+         ~~~~~~~~~~~~~~~~~^^
+  File "/usr/local/lib/python3.14/site-packages/sqlalchemy/util/langhelpers.py", line 166, in __exit__
+    raise exc_value.with_traceback(exc_tb)
+  File "/usr/local/lib/python3.14/site-packages/sqlalchemy/pool/impl.py", line 174, in _do_get
+    return self._create_connection()
+           ~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "/usr/local/lib/python3.14/site-packages/sqlalchemy/pool/base.py", line 386, in _create_connection
+    return _ConnectionRecord(self)
+  File "/usr/local/lib/python3.14/site-packages/sqlalchemy/pool/base.py", line 671, in __init__
+    self.__connect()
+    ~~~~~~~~~~~~~~^^
+  File "/usr/local/lib/python3.14/site-packages/sqlalchemy/pool/base.py", line 906, in __connect
+    with util.safe_reraise():
+         ~~~~~~~~~~~~~~~~~^^
+  File "/usr/local/lib/python3.14/site-packages/sqlalchemy/util/langhelpers.py", line 166, in __exit__
+    raise exc_value.with_traceback(exc_tb)
+  File "/usr/local/lib/python3.14/site-packages/sqlalchemy/pool/base.py", line 902, in __connect
+    self.dbapi_connection = connection = pool._invoke_creator(self)
+                                         ~~~~~~~~~~~~~~~~~~~~^^^^^^
+  File "/usr/local/lib/python3.14/site-packages/sqlalchemy/engine/create.py", line 645, in connect
+    return dialect.connect(*cargs_tup, **cparams)
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.14/site-packages/sqlalchemy/engine/default.py", line 869, in connect
+    return self.loaded_dbapi.connect(*cargs, **cparams)  # type: ignore[no-any-return]  # NOQA: E501
+           ~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.14/site-packages/psycopg2/__init__.py", line 122, in connect
+    conn = _connect(dsn, connection_factory=connection_factory, **kwasync)
+psycopg2.OperationalError: connection to server at "db" (172.18.0.4), port 5432 failed: FATAL:  password authentication failed for user "weatherflow"
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/app/pipeline/main.py", line 47, in main
+    load_postgresql(geocoding_df, geocoding_table, if_exists="replace")
+    ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/app/pipeline/loaded/load_postresql.py", line 867, in load_postgresql
+    return _load_legacy_table(df, table_name, if_exists=if_exists, engine=engine)
+  File "/app/pipeline/loaded/load_postresql.py", line 453, in _load_legacy_table
+    with engine.begin() as connection:
+         ~~~~~~~~~~~~^^
+  File "/usr/local/lib/python3.14/contextlib.py", line 141, in __enter__
+    return next(self.gen)
+  File "/usr/local/lib/python3.14/site-packages/sqlalchemy/engine/base.py", line 3224, in begin
+    with self.connect() as conn:
+         ~~~~~~~~~~~~^^
+  File "/usr/local/lib/python3.14/site-packages/sqlalchemy/engine/base.py", line 3260, in connect
+    return self._connection_cls(self)
+           ~~~~~~~~~~~~~~~~~~~~^^^^^^
+  File "/usr/local/lib/python3.14/site-packages/sqlalchemy/engine/base.py", line 151, in __init__
+    Connection._handle_dbapi_exception_noconnection(
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        err, dialect, engine
+        ^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/usr/local/lib/python3.14/site-packages/sqlalchemy/engine/base.py", line 2417, in _handle_dbapi_exception_noconnection
+    raise sqlalchemy_exception.with_traceback(exc_info[2]) from e
+  File "/usr/local/lib/python3.14/site-packages/sqlalchemy/engine/base.py", line 149, in __init__
+    self._dbapi_connection = engine.raw_connection()
+                             ~~~~~~~~~~~~~~~~~~~~~^^
+  File "/usr/local/lib/python3.14/site-packages/sqlalchemy/engine/base.py", line 3284, in raw_connection
+    return self.pool.connect()
+           ~~~~~~~~~~~~~~~~~^^
+  File "/usr/local/lib/python3.14/site-packages/sqlalchemy/pool/base.py", line 445, in connect
+    return _ConnectionFairy._checkout(self)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^
+  File "/usr/local/lib/python3.14/site-packages/sqlalchemy/pool/base.py", line 1303, in _checkout
+    fairy = _ConnectionRecord.checkout(pool)
+  File "/usr/local/lib/python3.14/site-packages/sqlalchemy/pool/base.py", line 709, in checkout
+    rec = pool._do_get()
+  File "/usr/local/lib/python3.14/site-packages/sqlalchemy/pool/impl.py", line 176, in _do_get
+    with util.safe_reraise():
+         ~~~~~~~~~~~~~~~~~^^
+  File "/usr/local/lib/python3.14/site-packages/sqlalchemy/util/langhelpers.py", line 166, in __exit__
+    raise exc_value.with_traceback(exc_tb)
+  File "/usr/local/lib/python3.14/site-packages/sqlalchemy/pool/impl.py", line 174, in _do_get
+    return self._create_connection()
+           ~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "/usr/local/lib/python3.14/site-packages/sqlalchemy/pool/base.py", line 386, in _create_connection
+    return _ConnectionRecord(self)
+  File "/usr/local/lib/python3.14/site-packages/sqlalchemy/pool/base.py", line 671, in __init__
+    self.__connect()
+    ~~~~~~~~~~~~~~^^
+  File "/usr/local/lib/python3.14/site-packages/sqlalchemy/pool/base.py", line 906, in __connect
+    with util.safe_reraise():
+         ~~~~~~~~~~~~~~~~~^^
+  File "/usr/local/lib/python3.14/site-packages/sqlalchemy/util/langhelpers.py", line 166, in __exit__
+    raise exc_value.with_traceback(exc_tb)
+  File "/usr/local/lib/python3.14/site-packages/sqlalchemy/pool/base.py", line 902, in __connect
+    self.dbapi_connection = connection = pool._invoke_creator(self)
+                                         ~~~~~~~~~~~~~~~~~~~~^^^^^^
+  File "/usr/local/lib/python3.14/site-packages/sqlalchemy/engine/create.py", line 645, in connect
+    return dialect.connect(*cargs_tup, **cparams)
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.14/site-packages/sqlalchemy/engine/default.py", line 869, in connect
+    return self.loaded_dbapi.connect(*cargs, **cparams)  # type: ignore[no-any-return]  # NOQA: E501
+           ~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.14/site-packages/psycopg2/__init__.py", line 122, in connect
+    conn = _connect(dsn, connection_factory=connection_factory, **kwasync)
+sqlalchemy.exc.OperationalError: (psycopg2.OperationalError) connection to server at "db" (172.18.0.4), port 5432 failed: FATAL:  password authentication failed for user "weatherflow"
+
+(Background on this error at: https://sqlalche.me/e/21/e3q8)
+2026-10-15 02:05:08,397 | INFO | __main__ | Processing city: Iloilo City
+2026-10-15 02:05:08,662 | INFO | __main__ | Geocoding extracted for Iloilo City
+2026-10-15 02:05:08,681 | ERROR | __main__ | Failed to process city: Iloilo City
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.14/site-packages/sqlalchemy/engine/base.py", line 149, in __init__
+    self._dbapi_connection = engine.raw_connection()
+                             ~~~~~~~~~~~~~~~~~~~~~^^
+  File "/usr/local/lib/python3.14/site-packages/sqlalchemy/engine/base.py", line 3284, in raw_connection
+    return self.pool.connect()
+           ~~~~~~~~~~~~~~~~~^^
+  File "/usr/local/lib/python3.14/site-packages/sqlalchemy/pool/base.py", line 445, in connect
+    return _ConnectionFairy._checkout(self)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^
+  File "/usr/local/lib/python3.14/site-packages/sqlalchemy/pool/base.py", line 1303, in _checkout
+    fairy = _ConnectionRecord.checkout(pool)
+  File "/usr/local/lib/python3.14/site-packages/sqlalchemy/pool/base.py", line 709, in checkout
+    rec = pool._do_get()
+  File "/usr/local/lib/python3.14/site-packages/sqlalchemy/pool/impl.py", line 176, in _do_get
+    with util.safe_reraise():
+         ~~~~~~~~~~~~~~~~~^^
+  File "/usr/local/lib/python3.14/site-packages/sqlalchemy/util/langhelpers.py", line 166, in __exit__
+    raise exc_value.with_traceback(exc_tb)
+  File "/usr/local/lib/python3.14/site-packages/sqlalchemy/pool/impl.py", line 174, in _do_get
+    return self._create_connection()
+           ~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "/usr/local/lib/python3.14/site-packages/sqlalchemy/pool/base.py", line 386, in _create_connection
+    return _ConnectionRecord(self)
+  File "/usr/local/lib/python3.14/site-packages/sqlalchemy/pool/base.py", line 671, in __init__
+    self.__connect()
+    ~~~~~~~~~~~~~~^^
+  File "/usr/local/lib/python3.14/site-packages/sqlalchemy/pool/base.py", line 906, in __connect
+    with util.safe_reraise():
+         ~~~~~~~~~~~~~~~~~^^
+  File "/usr/local/lib/python3.14/site-packages/sqlalchemy/util/langhelpers.py", line 166, in __exit__
+    raise exc_value.with_traceback(exc_tb)
+  File "/usr/local/lib/python3.14/site-packages/sqlalchemy/pool/base.py", line 902, in __connect
+    self.dbapi_connection = connection = pool._invoke_creator(self)
+                                         ~~~~~~~~~~~~~~~~~~~~^^^^^^
+  File "/usr/local/lib/python3.14/site-packages/sqlalchemy/engine/create.py", line 645, in connect
+    return dialect.connect(*cargs_tup, **cparams)
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.14/site-packages/sqlalchemy/engine/default.py", line 869, in connect
+    return self.loaded_dbapi.connect(*cargs, **cparams)  # type: ignore[no-any-return]  # NOQA: E501
+           ~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.14/site-packages/psycopg2/__init__.py", line 122, in connect
+    conn = _connect(dsn, connection_factory=connection_factory, **kwasync)
+psycopg2.OperationalError: connection to server at "db" (172.18.0.4), port 5432 failed: FATAL:  password authentication failed for user "weatherflow"
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/app/pipeline/main.py", line 47, in main
+    load_postgresql(geocoding_df, geocoding_table, if_exists="replace")
+    ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/app/pipeline/loaded/load_postresql.py", line 867, in load_postgresql
+    return _load_legacy_table(df, table_name, if_exists=if_exists, engine=engine)
+  File "/app/pipeline/loaded/load_postresql.py", line 453, in _load_legacy_table
+    with engine.begin() as connection:
+         ~~~~~~~~~~~~^^
+  File "/usr/local/lib/python3.14/contextlib.py", line 141, in __enter__
+    return next(self.gen)
+  File "/usr/local/lib/python3.14/site-packages/sqlalchemy/engine/base.py", line 3224, in begin
+    with self.connect() as conn:
+         ~~~~~~~~~~~~^^
+  File "/usr/local/lib/python3.14/site-packages/sqlalchemy/engine/base.py", line 3260, in connect
+    return self._connection_cls(self)
+           ~~~~~~~~~~~~~~~~~~~~^^^^^^
+  File "/usr/local/lib/python3.14/site-packages/sqlalchemy/engine/base.py", line 151, in __init__
+    Connection._handle_dbapi_exception_noconnection(
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        err, dialect, engine
+        ^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/usr/local/lib/python3.14/site-packages/sqlalchemy/engine/base.py", line 2417, in _handle_dbapi_exception_noconnection
+    raise sqlalchemy_exception.with_traceback(exc_info[2]) from e
+  File "/usr/local/lib/python3.14/site-packages/sqlalchemy/engine/base.py", line 149, in __init__
+    self._dbapi_connection = engine.raw_connection()
+                             ~~~~~~~~~~~~~~~~~~~~~^^
+  File "/usr/local/lib/python3.14/site-packages/sqlalchemy/engine/base.py", line 3284, in raw_connection
+    return self.pool.connect()
+           ~~~~~~~~~~~~~~~~~^^
+  File "/usr/local/lib/python3.14/site-packages/sqlalchemy/pool/base.py", line 445, in connect
+    return _ConnectionFairy._checkout(self)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^
+  File "/usr/local/lib/python3.14/site-packages/sqlalchemy/pool/base.py", line 1303, in _checkout
+    fairy = _ConnectionRecord.checkout(pool)
+  File "/usr/local/lib/python3.14/site-packages/sqlalchemy/pool/base.py", line 709, in checkout
+    rec = pool._do_get()
+  File "/usr/local/lib/python3.14/site-packages/sqlalchemy/pool/impl.py", line 176, in _do_get
+    with util.safe_reraise():
+         ~~~~~~~~~~~~~~~~~^^
+  File "/usr/local/lib/python3.14/site-packages/sqlalchemy/util/langhelpers.py", line 166, in __exit__
+    raise exc_value.with_traceback(exc_tb)
+  File "/usr/local/lib/python3.14/site-packages/sqlalchemy/pool/impl.py", line 174, in _do_get
+    return self._create_connection()
+           ~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "/usr/local/lib/python3.14/site-packages/sqlalchemy/pool/base.py", line 386, in _create_connection
+    return _ConnectionRecord(self)
+  File "/usr/local/lib/python3.14/site-packages/sqlalchemy/pool/base.py", line 671, in __init__
+    self.__connect()
+    ~~~~~~~~~~~~~~^^
+  File "/usr/local/lib/python3.14/site-packages/sqlalchemy/pool/base.py", line 906, in __connect
+    with util.safe_reraise():
+         ~~~~~~~~~~~~~~~~~^^
+  File "/usr/local/lib/python3.14/site-packages/sqlalchemy/util/langhelpers.py", line 166, in __exit__
+    raise exc_value.with_traceback(exc_tb)
+  File "/usr/local/lib/python3.14/site-packages/sqlalchemy/pool/base.py", line 902, in __connect
+    self.dbapi_connection = connection = pool._invoke_creator(self)
+                                         ~~~~~~~~~~~~~~~~~~~~^^^^^^
+  File "/usr/local/lib/python3.14/site-packages/sqlalchemy/engine/create.py", line 645, in connect
+    return dialect.connect(*cargs_tup, **cparams)
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.14/site-packages/sqlalchemy/engine/default.py", line 869, in connect
+    return self.loaded_dbapi.connect(*cargs, **cparams)  # type: ignore[no-any-return]  # NOQA: E501
+           ~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.14/site-packages/psycopg2/__init__.py", line 122, in connect
+    conn = _connect(dsn, connection_factory=connection_factory, **kwasync)
+sqlalchemy.exc.OperationalError: (psycopg2.OperationalError) connection to server at "db" (172.18.0.4), port 5432 failed: FATAL:  password authentication failed for user "weatherflow"
+
+(Background on this error at: https://sqlalche.me/e/21/e3q8)
+2026-10-15 02:05:08,690 | INFO | __main__ | Processing city: Cagayan de Oro
+2026-10-15 02:05:08,955 | INFO | __main__ | Geocoding extracted for Cagayan de Oro
+2026-10-15 02:05:08,966 | ERROR | __main__ | Failed to process city: Cagayan de Oro
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.14/site-packages/sqlalchemy/engine/base.py", line 149, in __init__
+    self._dbapi_connection = engine.raw_connection()
+                             ~~~~~~~~~~~~~~~~~~~~~^^
+  File "/usr/local/lib/python3.14/site-packages/sqlalchemy/engine/base.py", line 3284, in raw_connection
+    return self.pool.connect()
+           ~~~~~~~~~~~~~~~~~^^
+  File "/usr/local/lib/python3.14/site-packages/sqlalchemy/pool/base.py", line 445, in connect
+    return _ConnectionFairy._checkout(self)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^
+  File "/usr/local/lib/python3.14/site-packages/sqlalchemy/pool/base.py", line 1303, in _checkout
+    fairy = _ConnectionRecord.checkout(pool)
+  File "/usr/local/lib/python3.14/site-packages/sqlalchemy/pool/base.py", line 709, in checkout
+    rec = pool._do_get()
+  File "/usr/local/lib/python3.14/site-packages/sqlalchemy/pool/impl.py", line 176, in _do_get
+    with util.safe_reraise():
+         ~~~~~~~~~~~~~~~~~^^
+  File "/usr/local/lib/python3.14/site-packages/sqlalchemy/util/langhelpers.py", line 166, in __exit__
+    raise exc_value.with_traceback(exc_tb)
+  File "/usr/local/lib/python3.14/site-packages/sqlalchemy/pool/impl.py", line 174, in _do_get
+    return self._create_connection()
+           ~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "/usr/local/lib/python3.14/site-packages/sqlalchemy/pool/base.py", line 386, in _create_connection
+    return _ConnectionRecord(self)
+  File "/usr/local/lib/python3.14/site-packages/sqlalchemy/pool/base.py", line 671, in __init__
+    self.__connect()
+    ~~~~~~~~~~~~~~^^
+  File "/usr/local/lib/python3.14/site-packages/sqlalchemy/pool/base.py", line 906, in __connect
+    with util.safe_reraise():
+         ~~~~~~~~~~~~~~~~~^^
+  File "/usr/local/lib/python3.14/site-packages/sqlalchemy/util/langhelpers.py", line 166, in __exit__
+    raise exc_value.with_traceback(exc_tb)
+  File "/usr/local/lib/python3.14/site-packages/sqlalchemy/pool/base.py", line 902, in __connect
+    self.dbapi_connection = connection = pool._invoke_creator(self)
+                                         ~~~~~~~~~~~~~~~~~~~~^^^^^^
+  File "/usr/local/lib/python3.14/site-packages/sqlalchemy/engine/create.py", line 645, in connect
+    return dialect.connect(*cargs_tup, **cparams)
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.14/site-packages/sqlalchemy/engine/default.py", line 869, in connect
+    return self.loaded_dbapi.connect(*cargs, **cparams)  # type: ignore[no-any-return]  # NOQA: E501
+           ~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.14/site-packages/psycopg2/__init__.py", line 122, in connect
+    conn = _connect(dsn, connection_factory=connection_factory, **kwasync)
+psycopg2.OperationalError: connection to server at "db" (172.18.0.4), port 5432 failed: FATAL:  password authentication failed for user "weatherflow"
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/app/pipeline/main.py", line 47, in main
+    load_postgresql(geocoding_df, geocoding_table, if_exists="replace")
+    ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/app/pipeline/loaded/load_postresql.py", line 867, in load_postgresql
+    return _load_legacy_table(df, table_name, if_exists=if_exists, engine=engine)
+  File "/app/pipeline/loaded/load_postresql.py", line 453, in _load_legacy_table
+    with engine.begin() as connection:
+         ~~~~~~~~~~~~^^
+  File "/usr/local/lib/python3.14/contextlib.py", line 141, in __enter__
+    return next(self.gen)
+  File "/usr/local/lib/python3.14/site-packages/sqlalchemy/engine/base.py", line 3224, in begin
+    with self.connect() as conn:
+         ~~~~~~~~~~~~^^
+  File "/usr/local/lib/python3.14/site-packages/sqlalchemy/engine/base.py", line 3260, in connect
+    return self._connection_cls(self)
+           ~~~~~~~~~~~~~~~~~~~~^^^^^^
+  File "/usr/local/lib/python3.14/site-packages/sqlalchemy/engine/base.py", line 151, in __init__
+    Connection._handle_dbapi_exception_noconnection(
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        err, dialect, engine
+        ^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/usr/local/lib/python3.14/site-packages/sqlalchemy/engine/base.py", line 2417, in _handle_dbapi_exception_noconnection
+    raise sqlalchemy_exception.with_traceback(exc_info[2]) from e
+  File "/usr/local/lib/python3.14/site-packages/sqlalchemy/engine/base.py", line 149, in __init__
+    self._dbapi_connection = engine.raw_connection()
+                             ~~~~~~~~~~~~~~~~~~~~~^^
+  File "/usr/local/lib/python3.14/site-packages/sqlalchemy/engine/base.py", line 3284, in raw_connection
+    return self.pool.connect()
+           ~~~~~~~~~~~~~~~~~^^
+  File "/usr/local/lib/python3.14/site-packages/sqlalchemy/pool/base.py", line 445, in connect
+    return _ConnectionFairy._checkout(self)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^
+  File "/usr/local/lib/python3.14/site-packages/sqlalchemy/pool/base.py", line 1303, in _checkout
+    fairy = _ConnectionRecord.checkout(pool)
+  File "/usr/local/lib/python3.14/site-packages/sqlalchemy/pool/base.py", line 709, in checkout
+    rec = pool._do_get()
+  File "/usr/local/lib/python3.14/site-packages/sqlalchemy/pool/impl.py", line 176, in _do_get
+    with util.safe_reraise():
+         ~~~~~~~~~~~~~~~~~^^
+  File "/usr/local/lib/python3.14/site-packages/sqlalchemy/util/langhelpers.py", line 166, in __exit__
+    raise exc_value.with_traceback(exc_tb)
+  File "/usr/local/lib/python3.14/site-packages/sqlalchemy/pool/impl.py", line 174, in _do_get
+    return self._create_connection()
+           ~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "/usr/local/lib/python3.14/site-packages/sqlalchemy/pool/base.py", line 386, in _create_connection
+    return _ConnectionRecord(self)
+  File "/usr/local/lib/python3.14/site-packages/sqlalchemy/pool/base.py", line 671, in __init__
+    self.__connect()
+    ~~~~~~~~~~~~~~^^
+  File "/usr/local/lib/python3.14/site-packages/sqlalchemy/pool/base.py", line 906, in __connect
+    with util.safe_reraise():
+         ~~~~~~~~~~~~~~~~~^^
+  File "/usr/local/lib/python3.14/site-packages/sqlalchemy/util/langhelpers.py", line 166, in __exit__
+    raise exc_value.with_traceback(exc_tb)
+  File "/usr/local/lib/python3.14/site-packages/sqlalchemy/pool/base.py", line 902, in __connect
+    self.dbapi_connection = connection = pool._invoke_creator(self)
+                                         ~~~~~~~~~~~~~~~~~~~~^^^^^^
+  File "/usr/local/lib/python3.14/site-packages/sqlalchemy/engine/create.py", line 645, in connect
+    return dialect.connect(*cargs_tup, **cparams)
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.14/site-packages/sqlalchemy/engine/default.py", line 869, in connect
+    return self.loaded_dbapi.connect(*cargs, **cparams)  # type: ignore[no-any-return]  # NOQA: E501
+           ~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.14/site-packages/psycopg2/__init__.py", line 122, in connect
+    conn = _connect(dsn, connection_factory=connection_factory, **kwasync)
+sqlalchemy.exc.OperationalError: (psycopg2.OperationalError) connection to server at "db" (172.18.0.4), port 5432 failed: FATAL:  password authentication failed for user "weatherflow"
+
+(Background on this error at: https://sqlalche.me/e/21/e3q8)
+2026-10-15 02:05:08,973 | INFO | __main__ | Processing city: Zamboanga City
+2026-10-15 02:05:09,192 | INFO | __main__ | Geocoding extracted for Zamboanga City
+2026-10-15 02:05:09,205 | ERROR | __main__ | Failed to process city: Zamboanga City
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.14/site-packages/sqlalchemy/engine/base.py", line 149, in __init__
+    self._dbapi_connection = engine.raw_connection()
+                             ~~~~~~~~~~~~~~~~~~~~~^^
+  File "/usr/local/lib/python3.14/site-packages/sqlalchemy/engine/base.py", line 3284, in raw_connection
+    return self.pool.connect()
+           ~~~~~~~~~~~~~~~~~^^
+  File "/usr/local/lib/python3.14/site-packages/sqlalchemy/pool/base.py", line 445, in connect
+    return _ConnectionFairy._checkout(self)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^
+  File "/usr/local/lib/python3.14/site-packages/sqlalchemy/pool/base.py", line 1303, in _checkout
+    fairy = _ConnectionRecord.checkout(pool)
+  File "/usr/local/lib/python3.14/site-packages/sqlalchemy/pool/base.py", line 709, in checkout
+    rec = pool._do_get()
+  File "/usr/local/lib/python3.14/site-packages/sqlalchemy/pool/impl.py", line 176, in _do_get
+    with util.safe_reraise():
+         ~~~~~~~~~~~~~~~~~^^
+  File "/usr/local/lib/python3.14/site-packages/sqlalchemy/util/langhelpers.py", line 166, in __exit__
+    raise exc_value.with_traceback(exc_tb)
+  File "/usr/local/lib/python3.14/site-packages/sqlalchemy/pool/impl.py", line 174, in _do_get
+    return self._create_connection()
+           ~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "/usr/local/lib/python3.14/site-packages/sqlalchemy/pool/base.py", line 386, in _create_connection
+    return _ConnectionRecord(self)
+  File "/usr/local/lib/python3.14/site-packages/sqlalchemy/pool/base.py", line 671, in __init__
+    self.__connect()
+    ~~~~~~~~~~~~~~^^
+  File "/usr/local/lib/python3.14/site-packages/sqlalchemy/pool/base.py", line 906, in __connect
+    with util.safe_reraise():
+         ~~~~~~~~~~~~~~~~~^^
+  File "/usr/local/lib/python3.14/site-packages/sqlalchemy/util/langhelpers.py", line 166, in __exit__
+    raise exc_value.with_traceback(exc_tb)
+  File "/usr/local/lib/python3.14/site-packages/sqlalchemy/pool/base.py", line 902, in __connect
+    self.dbapi_connection = connection = pool._invoke_creator(self)
+                                         ~~~~~~~~~~~~~~~~~~~~^^^^^^
+  File "/usr/local/lib/python3.14/site-packages/sqlalchemy/engine/create.py", line 645, in connect
+    return dialect.connect(*cargs_tup, **cparams)
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.14/site-packages/sqlalchemy/engine/default.py", line 869, in connect
+    return self.loaded_dbapi.connect(*cargs, **cparams)  # type: ignore[no-any-return]  # NOQA: E501
+           ~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.14/site-packages/psycopg2/__init__.py", line 122, in connect
+    conn = _connect(dsn, connection_factory=connection_factory, **kwasync)
+psycopg2.OperationalError: connection to server at "db" (172.18.0.4), port 5432 failed: FATAL:  password authentication failed for user "weatherflow"
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/app/pipeline/main.py", line 47, in main
+    load_postgresql(geocoding_df, geocoding_table, if_exists="replace")
+    ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/app/pipeline/loaded/load_postresql.py", line 867, in load_postgresql
+    return _load_legacy_table(df, table_name, if_exists=if_exists, engine=engine)
+  File "/app/pipeline/loaded/load_postresql.py", line 453, in _load_legacy_table
+    with engine.begin() as connection:
+         ~~~~~~~~~~~~^^
+  File "/usr/local/lib/python3.14/contextlib.py", line 141, in __enter__
+    return next(self.gen)
+  File "/usr/local/lib/python3.14/site-packages/sqlalchemy/engine/base.py", line 3224, in begin
+    with self.connect() as conn:
+         ~~~~~~~~~~~~^^
+  File "/usr/local/lib/python3.14/site-packages/sqlalchemy/engine/base.py", line 3260, in connect
+    return self._connection_cls(self)
+           ~~~~~~~~~~~~~~~~~~~~^^^^^^
+  File "/usr/local/lib/python3.14/site-packages/sqlalchemy/engine/base.py", line 151, in __init__
+    Connection._handle_dbapi_exception_noconnection(
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        err, dialect, engine
+        ^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/usr/local/lib/python3.14/site-packages/sqlalchemy/engine/base.py", line 2417, in _handle_dbapi_exception_noconnection
+    raise sqlalchemy_exception.with_traceback(exc_info[2]) from e
+  File "/usr/local/lib/python3.14/site-packages/sqlalchemy/engine/base.py", line 149, in __init__
+    self._dbapi_connection = engine.raw_connection()
+                             ~~~~~~~~~~~~~~~~~~~~~^^
+  File "/usr/local/lib/python3.14/site-packages/sqlalchemy/engine/base.py", line 3284, in raw_connection
+    return self.pool.connect()
+           ~~~~~~~~~~~~~~~~~^^
+  File "/usr/local/lib/python3.14/site-packages/sqlalchemy/pool/base.py", line 445, in connect
+    return _ConnectionFairy._checkout(self)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^
+  File "/usr/local/lib/python3.14/site-packages/sqlalchemy/pool/base.py", line 1303, in _checkout
+    fairy = _ConnectionRecord.checkout(pool)
+  File "/usr/local/lib/python3.14/site-packages/sqlalchemy/pool/base.py", line 709, in checkout
+    rec = pool._do_get()
+  File "/usr/local/lib/python3.14/site-packages/sqlalchemy/pool/impl.py", line 176, in _do_get
+    with util.safe_reraise():
+         ~~~~~~~~~~~~~~~~~^^
+  File "/usr/local/lib/python3.14/site-packages/sqlalchemy/util/langhelpers.py", line 166, in __exit__
+    raise exc_value.with_traceback(exc_tb)
+  File "/usr/local/lib/python3.14/site-packages/sqlalchemy/pool/impl.py", line 174, in _do_get
+    return self._create_connection()
+           ~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "/usr/local/lib/python3.14/site-packages/sqlalchemy/pool/base.py", line 386, in _create_connection
+    return _ConnectionRecord(self)
+  File "/usr/local/lib/python3.14/site-packages/sqlalchemy/pool/base.py", line 671, in __init__
+    self.__connect()
+    ~~~~~~~~~~~~~~^^
+  File "/usr/local/lib/python3.14/site-packages/sqlalchemy/pool/base.py", line 906, in __connect
+    with util.safe_reraise():
+         ~~~~~~~~~~~~~~~~~^^
+  File "/usr/local/lib/python3.14/site-packages/sqlalchemy/util/langhelpers.py", line 166, in __exit__
+    raise exc_value.with_traceback(exc_tb)
+  File "/usr/local/lib/python3.14/site-packages/sqlalchemy/pool/base.py", line 902, in __connect
+    self.dbapi_connection = connection = pool._invoke_creator(self)
+                                         ~~~~~~~~~~~~~~~~~~~~^^^^^^
+  File "/usr/local/lib/python3.14/site-packages/sqlalchemy/engine/create.py", line 645, in connect
+    return dialect.connect(*cargs_tup, **cparams)
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.14/site-packages/sqlalchemy/engine/default.py", line 869, in connect
+    return self.loaded_dbapi.connect(*cargs, **cparams)  # type: ignore[no-any-return]  # NOQA: E501
+           ~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.14/site-packages/psycopg2/__init__.py", line 122, in connect
+    conn = _connect(dsn, connection_factory=connection_factory, **kwasync)
+sqlalchemy.exc.OperationalError: (psycopg2.OperationalError) connection to server at "db" (172.18.0.4), port 5432 failed: FATAL:  password authentication failed for user "weatherflow"
+
+(Background on this error at: https://sqlalche.me/e/21/e3q8)
+2026-10-15 02:05:09,212 | INFO | __main__ | Weather ingestion completed.
+2026-10-17 03:00:33,130 | INFO | pipeline.main | Starting Weather Ingestion...
+2026-10-17 03:00:33,159 | INFO | pipeline.main | Processing city: Manila
+2026-10-17 03:00:36,411 | INFO | pipeline.main | Geocoding loaded for Manila into geocoding_manila
+2026-10-17 03:00:38,013 | INFO | pipeline.main | Raw JSON saved for Manila: /opt/weatherflow/data/raw/openweather/manila.json
+2026-10-17 03:00:38,071 | INFO | pipeline.main | Weather data transformed for Manila
+2026-10-17 03:00:40,185 | INFO | pipeline.main | Parquet saved for Manila: /opt/weatherflow/data/parquet/openweather/manila.parquet
+2026-10-17 03:00:40,312 | INFO | pipeline.main | Loaded 1 row(s) for Manila into openweather_manila.
+2026-10-17 03:00:40,893 | INFO | pipeline.main | Checkpoint updated for Manila.
+2026-10-17 03:00:40,930 | INFO | pipeline.main | Processing city: Quezon City
+2026-10-17 03:00:41,631 | INFO | pipeline.main | Geocoding loaded for Quezon City into geocoding_quezon_city
+2026-10-17 03:00:42,760 | INFO | pipeline.main | Raw JSON saved for Quezon City: /opt/weatherflow/data/raw/openweather/quezon_city.json
+2026-10-17 03:00:42,810 | INFO | pipeline.main | Weather data transformed for Quezon City
+2026-10-17 03:00:43,791 | INFO | pipeline.main | Parquet saved for Quezon City: /opt/weatherflow/data/parquet/openweather/quezon_city.parquet
+2026-10-17 03:00:43,893 | INFO | pipeline.main | Loaded 1 row(s) for Quezon City into openweather_quezon_city.
+2026-10-17 03:00:44,260 | INFO | pipeline.main | Checkpoint updated for Quezon City.
+2026-10-17 03:00:44,276 | INFO | pipeline.main | Processing city: Cebu City
+2026-10-17 03:00:44,835 | INFO | pipeline.main | Geocoding loaded for Cebu City into geocoding_cebu_city
+2026-10-17 03:00:45,768 | INFO | pipeline.main | Raw JSON saved for Cebu City: /opt/weatherflow/data/raw/openweather/cebu_city.json
+2026-10-17 03:00:45,806 | INFO | pipeline.main | Weather data transformed for Cebu City
+2026-10-17 03:00:47,069 | INFO | pipeline.main | Parquet saved for Cebu City: /opt/weatherflow/data/parquet/openweather/cebu_city.parquet
+2026-10-17 03:00:47,278 | INFO | pipeline.main | Loaded 1 row(s) for Cebu City into openweather_cebu_city.
+2026-10-17 03:00:47,849 | INFO | pipeline.main | Checkpoint updated for Cebu City.
+2026-10-17 03:00:47,872 | INFO | pipeline.main | Processing city: Davao City
+2026-10-17 03:00:49,019 | INFO | pipeline.main | Geocoding loaded for Davao City into geocoding_davao_city
+2026-10-17 03:00:49,710 | INFO | pipeline.main | Raw JSON saved for Davao City: /opt/weatherflow/data/raw/openweather/davao_city.json
+2026-10-17 03:00:49,737 | INFO | pipeline.main | Weather data transformed for Davao City
+2026-10-17 03:00:50,737 | INFO | pipeline.main | Parquet saved for Davao City: /opt/weatherflow/data/parquet/openweather/davao_city.parquet
+2026-10-17 03:00:50,845 | INFO | pipeline.main | Loaded 1 row(s) for Davao City into openweather_davao_city.
+2026-10-17 03:00:51,402 | INFO | pipeline.main | Checkpoint updated for Davao City.
+2026-10-17 03:00:51,425 | INFO | pipeline.main | Processing city: Baguio
+2026-10-17 03:00:51,996 | INFO | pipeline.main | Geocoding loaded for Baguio into geocoding_baguio
+2026-10-17 03:00:52,588 | INFO | pipeline.main | Raw JSON saved for Baguio: /opt/weatherflow/data/raw/openweather/baguio.json
+2026-10-17 03:00:52,613 | INFO | pipeline.main | Weather data transformed for Baguio
+2026-10-17 03:00:53,242 | INFO | pipeline.main | Parquet saved for Baguio: /opt/weatherflow/data/parquet/openweather/baguio.parquet
+2026-10-17 03:00:53,320 | INFO | pipeline.main | Loaded 1 row(s) for Baguio into openweather_baguio.
+2026-10-17 03:00:53,550 | INFO | pipeline.main | Checkpoint updated for Baguio.
+2026-10-17 03:00:53,566 | INFO | pipeline.main | Processing city: Iloilo City
+2026-10-17 03:00:54,204 | INFO | pipeline.main | Geocoding loaded for Iloilo City into geocoding_iloilo_city
+2026-10-17 03:00:54,416 | INFO | pipeline.main | Raw JSON saved for Iloilo City: /opt/weatherflow/data/raw/openweather/iloilo_city.json
+2026-10-17 03:00:54,427 | INFO | pipeline.main | Weather data transformed for Iloilo City
+2026-10-17 03:00:54,727 | INFO | pipeline.main | Parquet saved for Iloilo City: /opt/weatherflow/data/parquet/openweather/iloilo_city.parquet
+2026-10-17 03:00:54,804 | INFO | pipeline.main | Loaded 1 row(s) for Iloilo City into openweather_iloilo_city.
+2026-10-17 03:00:55,031 | INFO | pipeline.main | Checkpoint updated for Iloilo City.
+2026-10-17 03:00:55,038 | INFO | pipeline.main | Processing city: Cagayan de Oro
+2026-10-17 03:00:55,518 | INFO | pipeline.main | Geocoding loaded for Cagayan de Oro into geocoding_cagayan_de_oro
+2026-10-17 03:00:55,921 | INFO | pipeline.main | Raw JSON saved for Cagayan de Oro: /opt/weatherflow/data/raw/openweather/cagayan_de_oro.json
+2026-10-17 03:00:55,945 | INFO | pipeline.main | Weather data transformed for Cagayan de Oro
+2026-10-17 03:00:56,791 | INFO | pipeline.main | Parquet saved for Cagayan de Oro: /opt/weatherflow/data/parquet/openweather/cagayan_de_oro.parquet
+2026-10-17 03:00:56,910 | INFO | pipeline.main | Loaded 1 row(s) for Cagayan de Oro into openweather_cagayan_de_oro.
+2026-10-17 03:00:57,119 | INFO | pipeline.main | Checkpoint updated for Cagayan de Oro.
+2026-10-17 03:00:57,140 | INFO | pipeline.main | Processing city: Zamboanga City
+2026-10-17 03:00:57,601 | INFO | pipeline.main | Geocoding loaded for Zamboanga City into geocoding_zamboanga_city
+2026-10-17 03:00:58,095 | INFO | pipeline.main | Raw JSON saved for Zamboanga City: /opt/weatherflow/data/raw/openweather/zamboanga_city.json
+2026-10-17 03:00:58,137 | INFO | pipeline.main | Weather data transformed for Zamboanga City
+2026-10-17 03:00:59,956 | INFO | pipeline.main | Parquet saved for Zamboanga City: /opt/weatherflow/data/parquet/openweather/zamboanga_city.parquet
+2026-10-17 03:01:00,110 | INFO | pipeline.main | Loaded 1 row(s) for Zamboanga City into openweather_zamboanga_city.
+2026-10-17 03:01:00,561 | INFO | pipeline.main | Checkpoint updated for Zamboanga City.
+2026-10-17 03:01:00,578 | INFO | pipeline.main | Pipeline summary | total=8 | loaded=8 | skipped=0 | failed=0
+2026-10-17 03:01:00,587 | INFO | pipeline.main | Successfully loaded cities: ['Manila', 'Quezon City', 'Cebu City', 'Davao City', 'Baguio', 'Iloilo City', 'Cagayan de Oro', 'Zamboanga City']
+2026-10-17 03:01:00,606 | INFO | pipeline.main | Weather ingestion completed successfully.
+2026-10-17 03:01:59,440 | INFO | pipeline.main | Starting Weather Ingestion...
+2026-10-17 03:01:59,448 | INFO | pipeline.main | Processing city: Manila
+2026-10-17 03:02:00,034 | INFO | pipeline.main | Geocoding loaded for Manila into geocoding_manila
+2026-10-17 03:02:00,218 | INFO | pipeline.main | No new weather data for Manila. Skipping.
+2026-10-17 03:02:00,238 | INFO | pipeline.main | Processing city: Quezon City
+2026-10-17 03:02:00,707 | INFO | pipeline.main | Geocoding loaded for Quezon City into geocoding_quezon_city
+2026-10-17 03:02:00,826 | INFO | pipeline.main | No new weather data for Quezon City. Skipping.
+2026-10-17 03:02:00,833 | INFO | pipeline.main | Processing city: Cebu City
+2026-10-17 03:02:01,260 | INFO | pipeline.main | Geocoding loaded for Cebu City into geocoding_cebu_city
+2026-10-17 03:02:01,464 | INFO | pipeline.main | No new weather data for Cebu City. Skipping.
+2026-10-17 03:02:01,478 | INFO | pipeline.main | Processing city: Davao City
+2026-10-17 03:02:01,905 | INFO | pipeline.main | Geocoding loaded for Davao City into geocoding_davao_city
+2026-10-17 03:02:02,020 | INFO | pipeline.main | No new weather data for Davao City. Skipping.
+2026-10-17 03:02:02,031 | INFO | pipeline.main | Processing city: Baguio
+2026-10-17 03:02:02,642 | INFO | pipeline.main | Geocoding loaded for Baguio into geocoding_baguio
+2026-10-17 03:02:03,127 | INFO | pipeline.main | Raw JSON saved for Baguio: /opt/weatherflow/data/raw/openweather/baguio.json
+2026-10-17 03:02:03,152 | INFO | pipeline.main | Weather data transformed for Baguio
+2026-10-17 03:02:04,014 | INFO | pipeline.main | Parquet saved for Baguio: /opt/weatherflow/data/parquet/openweather/baguio.parquet
+2026-10-17 03:02:04,114 | INFO | pipeline.main | Loaded 1 row(s) for Baguio into openweather_baguio.
+2026-10-17 03:02:04,442 | INFO | pipeline.main | Checkpoint updated for Baguio.
+2026-10-17 03:02:04,455 | INFO | pipeline.main | Processing city: Iloilo City
+2026-10-17 03:02:04,900 | INFO | pipeline.main | Geocoding loaded for Iloilo City into geocoding_iloilo_city
+2026-10-17 03:02:05,056 | INFO | pipeline.main | No new weather data for Iloilo City. Skipping.
+2026-10-17 03:02:05,070 | INFO | pipeline.main | Processing city: Cagayan de Oro
+2026-10-17 03:02:05,658 | INFO | pipeline.main | Geocoding loaded for Cagayan de Oro into geocoding_cagayan_de_oro
+2026-10-17 03:02:05,750 | INFO | pipeline.main | No new weather data for Cagayan de Oro. Skipping.
+2026-10-17 03:02:05,762 | INFO | pipeline.main | Processing city: Zamboanga City
+2026-10-17 03:02:06,286 | INFO | pipeline.main | Geocoding loaded for Zamboanga City into geocoding_zamboanga_city
+2026-10-17 03:02:06,367 | INFO | pipeline.main | No new weather data for Zamboanga City. Skipping.
+2026-10-17 03:02:06,382 | INFO | pipeline.main | Pipeline summary | total=8 | loaded=1 | skipped=7 | failed=0
+2026-10-17 03:02:06,400 | INFO | pipeline.main | Successfully loaded cities: ['Baguio']
+2026-10-17 03:02:06,411 | INFO | pipeline.main | Cities with no new data: ['Manila', 'Quezon City', 'Cebu City', 'Davao City', 'Iloilo City', 'Cagayan de Oro', 'Zamboanga City']
+2026-10-17 03:02:06,421 | INFO | pipeline.main | Weather ingestion completed successfully.

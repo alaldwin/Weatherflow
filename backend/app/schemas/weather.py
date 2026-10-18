@@ -1,7 +1,7 @@
 from datetime import date, datetime
-from typing import Any
+from typing import Literal
 
-from pydantic import BaseModel, ConfigDict
+from pydantic import BaseModel, ConfigDict, model_validator
 
 
 class WeatherBase(BaseModel):
@@ -35,6 +35,9 @@ class CurrentWeather(WeatherBase):
 
 class CurrentWeatherListResponse(BaseModel):
     count: int
+    limit: int
+    offset: int
+    has_more: bool
     data: list[CurrentWeather]
 
 
@@ -55,6 +58,17 @@ class DateFilters(BaseModel):
     city: str | None = None
     start_date: date | None = None
     end_date: date | None = None
+
+    @model_validator(mode="after")
+    def validate_date_range(self):
+        if (
+            self.start_date is not None
+            and self.end_date is not None
+            and self.start_date > self.end_date
+        ):
+            raise ValueError("start_date must be on or before end_date")
+
+        return self
 
 
 class DailyWeatherResponse(BaseModel):
@@ -95,8 +109,8 @@ class CityComparison(WeatherBase):
 
 
 class SortOptions(BaseModel):
-    sort_by: str
-    order: str
+    sort_by: Literal["temperature", "humidity", "wind_speed", "city"]
+    order: Literal["asc", "desc"]
 
 
 class CityComparisonResponse(BaseModel):
