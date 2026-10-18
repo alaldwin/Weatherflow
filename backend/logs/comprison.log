@@ -78,3 +78,29 @@
 {"timestamp": "2026-10-14T12:32:44.260648+00:00", "level": "INFO", "logger": "app.api.routes.city_comparison", "message": "City comparison query successful | rows_returned=12 | sort_by=temperature | order=desc"}
 {"timestamp": "2026-10-14T12:32:45.071253+00:00", "level": "INFO", "logger": "app.api.routes.city_comparison", "message": "City comprison request received | sort_bytemperature | order=desc"}
 {"timestamp": "2026-10-14T12:32:45.072436+00:00", "level": "INFO", "logger": "app.api.routes.city_comparison", "message": "City comparison query successful | rows_returned=1 | sort_by=temperature | order=desc"}
+{"timestamp": "2026-10-18T09:55:35.875287+00:00", "level": "INFO", "logger": "app.api.routes.city_comparison", "message": "City comprison request received | sort_bytemperature | order=desc"}
+{"timestamp": "2026-10-18T09:55:35.881490+00:00", "level": "INFO", "logger": "app.api.routes.city_comparison", "message": "City comparison query successful | rows_returned=12 | sort_by=temperature | order=desc"}
+{"timestamp": "2026-10-18T09:55:35.919928+00:00", "level": "INFO", "logger": "app.api.routes.city_comparison", "message": "City comprison request received | sort_bytemperature | order=desc"}
+{"timestamp": "2026-10-18T09:55:35.923128+00:00", "level": "INFO", "logger": "app.api.routes.city_comparison", "message": "City comparison query successful | rows_returned=12 | sort_by=temperature | order=desc"}
+{"timestamp": "2026-10-18T09:55:37.182042+00:00", "level": "INFO", "logger": "app.api.routes.city_comparison", "message": "City comprison request received | sort_bytemperature | order=desc"}
+{"timestamp": "2026-10-18T09:55:37.184220+00:00", "level": "INFO", "logger": "app.api.routes.city_comparison", "message": "City comparison query successful | rows_returned=1 | sort_by=temperature | order=desc"}
+{"timestamp": "2026-10-18T10:05:59.069881+00:00", "level": "INFO", "logger": "app.api.routes.city_comparison", "message": "City comprison request received | sort_bytemperature | order=desc"}
+{"timestamp": "2026-10-18T10:05:59.075579+00:00", "level": "INFO", "logger": "app.api.routes.city_comparison", "message": "City comparison query successful | rows_returned=12 | sort_by=temperature | order=desc"}
+{"timestamp": "2026-10-18T10:05:59.115114+00:00", "level": "INFO", "logger": "app.api.routes.city_comparison", "message": "City comprison request received | sort_bytemperature | order=desc"}
+{"timestamp": "2026-10-18T10:05:59.120042+00:00", "level": "INFO", "logger": "app.api.routes.city_comparison", "message": "City comparison query successful | rows_returned=12 | sort_by=temperature | order=desc"}
+{"timestamp": "2026-10-18T10:05:59.825761+00:00", "level": "INFO", "logger": "app.api.routes.city_comparison", "message": "City comprison request received | sort_bytemperature | order=desc"}
+{"timestamp": "2026-10-18T10:05:59.827644+00:00", "level": "INFO", "logger": "app.api.routes.city_comparison", "message": "City comparison query successful | rows_returned=1 | sort_by=temperature | order=desc"}
+{"timestamp": "2026-10-18T10:30:25.318098+00:00", "level": "INFO", "logger": "app.api.routes.city_comparison", "message": "City comprison request received | sort_bytemperature | order=desc"}
+{"timestamp": "2026-10-18T10:30:25.337890+00:00", "level": "INFO", "logger": "app.api.routes.city_comparison", "message": "City comparison query successful | rows_returned=12 | sort_by=temperature | order=desc"}
+{"timestamp": "2026-10-18T10:30:25.438186+00:00", "level": "INFO", "logger": "app.api.routes.city_comparison", "message": "City comprison request received | sort_bytemperature | order=desc"}
+{"timestamp": "2026-10-18T10:30:25.446090+00:00", "level": "INFO", "logger": "app.api.routes.city_comparison", "message": "City comparison query successful | rows_returned=12 | sort_by=temperature | order=desc"}
+{"timestamp": "2026-10-18T10:30:26.528867+00:00", "level": "INFO", "logger": "app.api.routes.city_comparison", "message": "City comprison request received | sort_bytemperature | order=desc"}
+{"timestamp": "2026-10-18T10:30:26.530601+00:00", "level": "INFO", "logger": "app.api.routes.city_comparison", "message": "City comparison query successful | rows_returned=1 | sort_by=temperature | order=desc"}
+{"timestamp": "2026-10-18T10:39:08.136019+00:00", "level": "INFO", "logger": "app.api.routes.city_comparison", "message": "City comprison request received | sort_bytemperature | order=desc"}
+{"timestamp": "2026-10-18T10:39:08.139593+00:00", "level": "INFO", "logger": "app.api.routes.city_comparison", "message": "City comparison query successful | rows_returned=12 | sort_by=temperature | order=desc"}
+{"timestamp": "2026-10-18T10:39:08.174760+00:00", "level": "INFO", "logger": "app.api.routes.city_comparison", "message": "City comprison request received | sort_bytemperature | order=desc"}
+{"timestamp": "2026-10-18T10:39:08.178249+00:00", "level": "INFO", "logger": "app.api.routes.city_comparison", "message": "City comparison query successful | rows_returned=12 | sort_by=temperature | order=desc"}
+{"timestamp": "2026-10-18T10:39:08.919062+00:00", "level": "INFO", "logger": "app.api.routes.city_comparison", "message": "City comprison request received | sort_bytemperature | order=desc"}
+{"timestamp": "2026-10-18T10:39:08.920274+00:00", "level": "INFO", "logger": "app.api.routes.city_comparison", "message": "City comparison query successful | rows_returned=1 | sort_by=temperature | order=desc"}
+{"timestamp": "2026-10-18T10:46:13.922592+00:00", "level": "INFO", "logger": "app.api.routes.city_comparison", "message": "City comprison request received | sort_bytemperature | order=desc"}
+{"timestamp": "2026-10-18T10:46:13.929912+00:00", "level": "INFO", "logger": "app.api.routes.city_comparison", "message": "City comparison query successful | rows_returned=12 | sort_by=temperature | order=desc"}

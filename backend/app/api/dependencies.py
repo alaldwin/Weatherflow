@@ -1,4 +1,3 @@
-
 from datetime import date
 from typing import Annotated
 
@@ -40,4 +39,3 @@ def get_pagination(
         limit=limit,
         offset=offset,
     )
-

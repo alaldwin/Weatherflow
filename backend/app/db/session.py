@@ -19,6 +19,7 @@ engine = create_engine(
     max_overflow=10,
 )
 
+
 def check_database_connection() -> bool:
     with engine.connect() as connection:
         connection.execute(text("SELECT 1"))

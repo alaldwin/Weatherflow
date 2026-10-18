@@ -1,4 +1,3 @@
-
 from fastapi import APIRouter, HTTPException, Query
 from sqlalchemy import text
 from sqlalchemy.exc import SQLAlchemyError
@@ -30,7 +29,7 @@ router = APIRouter(
     },
 )
 def get_current_weather(
-    limit: int = Query(default=20, ge=1, le=100), 
+    limit: int = Query(default=20, ge=1, le=100),
     offset: int = Query(default=0, ge=0),
 ):
 
@@ -77,7 +76,9 @@ def get_current_weather(
 
     try:
         with engine.connect() as connection:
-            result = connection.execute(query, {"fetch_limit": limit + 1, "offset": offset})
+            result = connection.execute(
+                query, {"fetch_limit": limit + 1, "offset": offset}
+            )
             rows = [dict(row) for row in result.mappings().all()]
 
         logger.debug(
@@ -99,8 +100,7 @@ def get_current_weather(
 
         if not rows:
             logger.warning(
-                "Current weather list returned no records | "
-                "limit=%d | offset=%d",
+                "Current weather list returned no records | limit=%d | offset=%d",
                 limit,
                 offset,
             )
@@ -115,8 +115,7 @@ def get_current_weather(
 
     except SQLAlchemyError:
         logger.exception(
-            "Failed to retrieve current weather list | "
-            "limit=%d | offset=%d",
+            "Failed to retrieve current weather list | limit=%d | offset=%d",
             limit,
             offset,
         )
@@ -147,8 +146,7 @@ def get_current_weather_by_city(city: str):
     )
 
     logger.debug(
-        "Preparing city weather query | "
-        "table=mrt_dev.mrt_current_weather | city=%s",
+        "Preparing city weather query | table=mrt_dev.mrt_current_weather | city=%s",
         city,
     )
 
@@ -182,7 +180,6 @@ def get_current_weather_by_city(city: str):
 
     try:
         with engine.connect() as connection:
-
             logger.debug(
                 "Executing city weather query | city=%s",
                 city,
@@ -213,7 +210,7 @@ def get_current_weather_by_city(city: str):
             "Returning current weather response | city=%s",
             city,
         )
-        
+
         return dict(row)
 
     except SQLAlchemyError:
