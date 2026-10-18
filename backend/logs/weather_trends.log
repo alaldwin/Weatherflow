@@ -1,0 +1,68 @@
+2026-10-14 18:51:35,229 | INFO | app.api.routes.trends | Weather trends request received | city=None | start_date=None | end_date=None | limit=20 | offset=0
+2026-10-14 18:51:35,237 | INFO | app.api.routes.trends | Weather trends retrieved successfully | count=20 | has_more=True | limit=20 | offset=0
+2026-10-14 18:51:35,557 | INFO | app.api.routes.trends | Weather trends request received | city=Manila | start_date=None | end_date=None | limit=20 | offset=0
+2026-10-14 18:51:35,559 | INFO | app.api.routes.trends | Weather trends retrieved successfully | count=1 | has_more=False | limit=20 | offset=0
+2026-10-14 18:58:04,439 | INFO | app.api.routes.trends | Weather trends request received | city=None | start_date=None | end_date=None | limit=20 | offset=0
+2026-10-14 18:58:04,446 | INFO | app.api.routes.trends | Weather trends retrieved successfully | count=20 | has_more=True | limit=20 | offset=0
+2026-10-14 18:58:04,677 | INFO | app.api.routes.trends | Weather trends request received | city=Manila | start_date=None | end_date=None | limit=20 | offset=0
+2026-10-14 18:58:04,678 | INFO | app.api.routes.trends | Weather trends retrieved successfully | count=1 | has_more=False | limit=20 | offset=0
+2026-10-14 19:25:32,147 | INFO | app.api.routes.trends | Weather trends request received | city=None | start_date=None | end_date=None | limit=20 | offset=0
+2026-10-14 19:25:32,154 | INFO | app.api.routes.trends | Weather trends retrieved successfully | count=20 | has_more=True | limit=20 | offset=0
+2026-10-14 19:25:32,444 | INFO | app.api.routes.trends | Weather trends request received | city=Manila | start_date=None | end_date=None | limit=20 | offset=0
+2026-10-14 19:25:32,447 | INFO | app.api.routes.trends | Weather trends retrieved successfully | count=1 | has_more=False | limit=20 | offset=0
+{"timestamp": "2026-10-14T11:33:45.068295+00:00", "level": "INFO", "logger": "app.api.routes.trends", "message": "Weather trends request received | city=None | start_date=None | end_date=None | limit=20 | offset=0"}
+{"timestamp": "2026-10-14T11:33:45.078808+00:00", "level": "INFO", "logger": "app.api.routes.trends", "message": "Weather trends retrieved successfully | count=20 | has_more=True | limit=20 | offset=0"}
+{"timestamp": "2026-10-14T11:33:45.521252+00:00", "level": "INFO", "logger": "app.api.routes.trends", "message": "Weather trends request received | city=Manila | start_date=None | end_date=None | limit=20 | offset=0"}
+{"timestamp": "2026-10-14T11:33:45.522897+00:00", "level": "INFO", "logger": "app.api.routes.trends", "message": "Weather trends retrieved successfully | count=1 | has_more=False | limit=20 | offset=0"}
+{"timestamp": "2026-10-14T11:36:54.330421+00:00", "level": "INFO", "logger": "app.api.routes.trends", "message": "Weather trends request received | city=None | start_date=None | end_date=None | limit=20 | offset=0"}
+{"timestamp": "2026-10-14T11:36:54.335348+00:00", "level": "INFO", "logger": "app.api.routes.trends", "message": "Weather trends retrieved successfully | count=20 | has_more=True | limit=20 | offset=0"}
+{"timestamp": "2026-10-14T11:36:55.141753+00:00", "level": "INFO", "logger": "app.api.routes.trends", "message": "Weather trends request received | city=Manila | start_date=None | end_date=None | limit=20 | offset=0"}
+{"timestamp": "2026-10-14T11:36:55.143736+00:00", "level": "INFO", "logger": "app.api.routes.trends", "message": "Weather trends retrieved successfully | count=1 | has_more=False | limit=20 | offset=0"}
+{"timestamp": "2026-10-14T11:39:31.115700+00:00", "level": "INFO", "logger": "app.api.routes.trends", "message": "Weather trends request received | city=None | start_date=None | end_date=None | limit=20 | offset=0"}
+{"timestamp": "2026-10-14T11:39:31.120953+00:00", "level": "INFO", "logger": "app.api.routes.trends", "message": "Weather trends retrieved successfully | count=20 | has_more=True | limit=20 | offset=0"}
+{"timestamp": "2026-10-14T11:39:32.299734+00:00", "level": "INFO", "logger": "app.api.routes.trends", "message": "Weather trends request received | city=Manila | start_date=None | end_date=None | limit=20 | offset=0"}
+{"timestamp": "2026-10-14T11:39:32.302634+00:00", "level": "INFO", "logger": "app.api.routes.trends", "message": "Weather trends retrieved successfully | count=1 | has_more=False | limit=20 | offset=0"}
+{"timestamp": "2026-10-14T11:43:31.085398+00:00", "level": "INFO", "logger": "app.api.routes.trends", "message": "Weather trends request received | city=None | start_date=None | end_date=None | limit=20 | offset=0"}
+{"timestamp": "2026-10-14T11:43:31.095255+00:00", "level": "INFO", "logger": "app.api.routes.trends", "message": "Weather trends retrieved successfully | count=20 | has_more=True | limit=20 | offset=0"}
+{"timestamp": "2026-10-14T11:43:32.022830+00:00", "level": "INFO", "logger": "app.api.routes.trends", "message": "Weather trends request received | city=Manila | start_date=None | end_date=None | limit=20 | offset=0"}
+{"timestamp": "2026-10-14T11:43:32.024573+00:00", "level": "INFO", "logger": "app.api.routes.trends", "message": "Weather trends retrieved successfully | count=1 | has_more=False | limit=20 | offset=0"}
+{"timestamp": "2026-10-14T12:00:03.557460+00:00", "level": "INFO", "logger": "app.api.routes.trends", "message": "Weather trends request received | city=None | start_date=None | end_date=None | limit=20 | offset=0"}
+{"timestamp": "2026-10-14T12:00:03.562461+00:00", "level": "INFO", "logger": "app.api.routes.trends", "message": "Weather trends retrieved successfully | count=20 | has_more=True | limit=20 | offset=0"}
+{"timestamp": "2026-10-14T12:00:04.365861+00:00", "level": "INFO", "logger": "app.api.routes.trends", "message": "Weather trends request received | city=Manila | start_date=None | end_date=None | limit=20 | offset=0"}
+{"timestamp": "2026-10-14T12:00:04.367758+00:00", "level": "INFO", "logger": "app.api.routes.trends", "message": "Weather trends retrieved successfully | count=1 | has_more=False | limit=20 | offset=0"}
+{"timestamp": "2026-10-14T12:12:09.636435+00:00", "level": "INFO", "logger": "app.api.routes.trends", "message": "Weather trends request received | city=None | start_date=None | end_date=None | limit=20 | offset=0"}
+{"timestamp": "2026-10-14T12:12:09.662626+00:00", "level": "INFO", "logger": "app.api.routes.trends", "message": "Weather trends retrieved successfully | count=20 | has_more=True | limit=20 | offset=0"}
+{"timestamp": "2026-10-14T12:12:10.736401+00:00", "level": "INFO", "logger": "app.api.routes.trends", "message": "Weather trends request received | city=Manila | start_date=None | end_date=None | limit=20 | offset=0"}
+{"timestamp": "2026-10-14T12:12:10.738279+00:00", "level": "INFO", "logger": "app.api.routes.trends", "message": "Weather trends retrieved successfully | count=1 | has_more=False | limit=20 | offset=0"}
+{"timestamp": "2026-10-14T12:18:08.890216+00:00", "level": "INFO", "logger": "app.api.routes.trends", "message": "Weather trends request received | city=None | start_date=None | end_date=None | limit=20 | offset=0"}
+{"timestamp": "2026-10-14T12:18:08.895208+00:00", "level": "INFO", "logger": "app.api.routes.trends", "message": "Weather trends retrieved successfully | count=20 | has_more=True | limit=20 | offset=0"}
+{"timestamp": "2026-10-14T12:18:09.958759+00:00", "level": "INFO", "logger": "app.api.routes.trends", "message": "Weather trends request received | city=Manila | start_date=None | end_date=None | limit=20 | offset=0"}
+{"timestamp": "2026-10-14T12:18:09.960338+00:00", "level": "INFO", "logger": "app.api.routes.trends", "message": "Weather trends retrieved successfully | count=1 | has_more=False | limit=20 | offset=0"}
+{"timestamp": "2026-10-14T12:18:59.777707+00:00", "level": "INFO", "logger": "app.api.routes.trends", "message": "Weather trends request received | city=None | start_date=None | end_date=None | limit=20 | offset=0"}
+{"timestamp": "2026-10-14T12:18:59.784198+00:00", "level": "INFO", "logger": "app.api.routes.trends", "message": "Weather trends retrieved successfully | count=20 | has_more=True | limit=20 | offset=0"}
+{"timestamp": "2026-10-14T12:26:25.211300+00:00", "level": "INFO", "logger": "app.api.routes.trends", "message": "Weather trends request received | city=None | start_date=None | end_date=None | limit=20 | offset=0"}
+{"timestamp": "2026-10-14T12:26:25.215392+00:00", "level": "INFO", "logger": "app.api.routes.trends", "message": "Weather trends retrieved successfully | count=20 | has_more=True | limit=20 | offset=0"}
+{"timestamp": "2026-10-14T12:26:26.213817+00:00", "level": "INFO", "logger": "app.api.routes.trends", "message": "Weather trends request received | city=Manila | start_date=None | end_date=None | limit=20 | offset=0"}
+{"timestamp": "2026-10-14T12:26:26.215216+00:00", "level": "INFO", "logger": "app.api.routes.trends", "message": "Weather trends retrieved successfully | count=1 | has_more=False | limit=20 | offset=0"}
+{"timestamp": "2026-10-14T12:32:44.119178+00:00", "level": "INFO", "logger": "app.api.routes.trends", "message": "Weather trends request received | city=None | start_date=None | end_date=None | limit=20 | offset=0"}
+{"timestamp": "2026-10-14T12:32:44.124304+00:00", "level": "INFO", "logger": "app.api.routes.trends", "message": "Weather trends retrieved successfully | count=20 | has_more=True | limit=20 | offset=0"}
+{"timestamp": "2026-10-14T12:32:45.055778+00:00", "level": "INFO", "logger": "app.api.routes.trends", "message": "Weather trends request received | city=Manila | start_date=None | end_date=None | limit=20 | offset=0"}
+{"timestamp": "2026-10-14T12:32:45.056903+00:00", "level": "INFO", "logger": "app.api.routes.trends", "message": "Weather trends retrieved successfully | count=1 | has_more=False | limit=20 | offset=0"}
+{"timestamp": "2026-10-18T09:55:35.803382+00:00", "level": "INFO", "logger": "app.api.routes.trends", "message": "Weather trends request received | city=None | start_date=None | end_date=None | limit=20 | offset=0"}
+{"timestamp": "2026-10-18T09:55:35.811954+00:00", "level": "INFO", "logger": "app.api.routes.trends", "message": "Weather trends retrieved successfully | count=20 | has_more=True | limit=20 | offset=0"}
+{"timestamp": "2026-10-18T09:55:37.159710+00:00", "level": "INFO", "logger": "app.api.routes.trends", "message": "Weather trends request received | city=Manila | start_date=None | end_date=None | limit=20 | offset=0"}
+{"timestamp": "2026-10-18T09:55:37.163212+00:00", "level": "INFO", "logger": "app.api.routes.trends", "message": "Weather trends retrieved successfully | count=1 | has_more=False | limit=20 | offset=0"}
+{"timestamp": "2026-10-18T10:05:59.018974+00:00", "level": "INFO", "logger": "app.api.routes.trends", "message": "Weather trends request received | city=None | start_date=None | end_date=None | limit=20 | offset=0"}
+{"timestamp": "2026-10-18T10:05:59.023513+00:00", "level": "INFO", "logger": "app.api.routes.trends", "message": "Weather trends retrieved successfully | count=20 | has_more=True | limit=20 | offset=0"}
+{"timestamp": "2026-10-18T10:05:59.808985+00:00", "level": "INFO", "logger": "app.api.routes.trends", "message": "Weather trends request received | city=Manila | start_date=None | end_date=None | limit=20 | offset=0"}
+{"timestamp": "2026-10-18T10:05:59.810401+00:00", "level": "INFO", "logger": "app.api.routes.trends", "message": "Weather trends retrieved successfully | count=1 | has_more=False | limit=20 | offset=0"}
+{"timestamp": "2026-10-18T10:30:25.166065+00:00", "level": "INFO", "logger": "app.api.routes.trends", "message": "Weather trends request received | city=None | start_date=None | end_date=None | limit=20 | offset=0"}
+{"timestamp": "2026-10-18T10:30:25.181084+00:00", "level": "INFO", "logger": "app.api.routes.trends", "message": "Weather trends retrieved successfully | count=20 | has_more=True | limit=20 | offset=0"}
+{"timestamp": "2026-10-18T10:30:26.508616+00:00", "level": "INFO", "logger": "app.api.routes.trends", "message": "Weather trends request received | city=Manila | start_date=None | end_date=None | limit=20 | offset=0"}
+{"timestamp": "2026-10-18T10:30:26.511434+00:00", "level": "INFO", "logger": "app.api.routes.trends", "message": "Weather trends retrieved successfully | count=1 | has_more=False | limit=20 | offset=0"}
+{"timestamp": "2026-10-18T10:39:08.089746+00:00", "level": "INFO", "logger": "app.api.routes.trends", "message": "Weather trends request received | city=None | start_date=None | end_date=None | limit=20 | offset=0"}
+{"timestamp": "2026-10-18T10:39:08.094778+00:00", "level": "INFO", "logger": "app.api.routes.trends", "message": "Weather trends retrieved successfully | count=20 | has_more=True | limit=20 | offset=0"}
+{"timestamp": "2026-10-18T10:39:08.904153+00:00", "level": "INFO", "logger": "app.api.routes.trends", "message": "Weather trends request received | city=Manila | start_date=None | end_date=None | limit=20 | offset=0"}
+{"timestamp": "2026-10-18T10:39:08.905226+00:00", "level": "INFO", "logger": "app.api.routes.trends", "message": "Weather trends retrieved successfully | count=1 | has_more=False | limit=20 | offset=0"}
+{"timestamp": "2026-10-18T10:46:06.596222+00:00", "level": "INFO", "logger": "app.api.routes.trends", "message": "Weather trends request received | city=None | start_date=None | end_date=None | limit=20 | offset=0"}
+{"timestamp": "2026-10-18T10:46:06.603533+00:00", "level": "INFO", "logger": "app.api.routes.trends", "message": "Weather trends retrieved successfully | count=20 | has_more=True | limit=20 | offset=0"}

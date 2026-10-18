@@ -5,16 +5,44 @@ from datetime import datetime, timedelta
 from airflow import DAG
 from airflow.operators.python import PythonOperator
 
+from common.logging import get_logger
+
+
+logger = get_logger(__name__, "airflow_dags.log")
+
 
 def run_weather_pipeline():
-    from pipeline.main import main
+    logger.info("Starting WeatherFlow pipeline task")
 
-    result = main()
+    try:
 
-    if result != 0:
-        raise RuntimeError(
-            f"Weather pipeline failed with exit code {result}"
-        )
+        logger.debug("Importing pipeline.main")
+
+        from pipeline.main import main
+
+        logger.debug("Successfully imported pipeline.main")
+        logger.info("Executing WeatherFlow ingestion and PostgreSQL pipeline")
+
+        result = main()
+
+        logger.debug("Weather pipeline returned exit code: %s", result)
+
+        if result != 0:
+            logger.warning(
+                "Weather pipeline returned a non-zero exit code: %s",
+                result,
+            )
+
+            raise RuntimeError(
+                f"Weather pipeline failed with exit code {result}"
+            )
+
+        logger.info("WeatherFlow pipeline completed successfully")
+        return result
+
+    except Exception:
+        logger.exception("WeatherFlow pipeline task failed")
+        raise  
 
 
 with DAG(
