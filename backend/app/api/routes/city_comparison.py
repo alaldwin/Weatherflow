@@ -1,4 +1,3 @@
-
 from fastapi import APIRouter, HTTPException, Query
 from sqlalchemy import text
 from sqlalchemy.exc import SQLAlchemyError
@@ -15,7 +14,6 @@ router = APIRouter(
 )
 
 
-
 @router.get(
     "/cities/compare",
     response_model=CityComparisonResponse,
@@ -26,7 +24,9 @@ router = APIRouter(
     ),
     responses={
         200: {"description": "City comparison data retrieved successfully."},
-        422: {"description": "An invalid sort field, sort order, or query parameter was supplied."},
+        422: {
+            "description": "An invalid sort field, sort order, or query parameter was supplied."
+        },
         503: {"description": "The database is unavailable."},
     },
 )
@@ -41,7 +41,9 @@ def compare_cities(
     ),
 ):
 
-    logger.info("City comprison request received | sort_by%s | order=%s", sort_by, order)
+    logger.info(
+        "City comprison request received | sort_by%s | order=%s", sort_by, order
+    )
 
     # Map accepted parameters to fixed SQL column names.
     sort_columns = {
@@ -80,8 +82,12 @@ def compare_cities(
             result = connection.execute(query)
             rows = result.mappings().all()
 
-
-        logger.info("City comparison query successful | rows_returned=%d | sort_by=%s | order=%s", len(rows), sort_by, order)
+        logger.info(
+            "City comparison query successful | rows_returned=%d | sort_by=%s | order=%s",
+            len(rows),
+            sort_by,
+            order,
+        )
 
         return {
             "count": len(rows),
@@ -94,8 +100,7 @@ def compare_cities(
 
     except SQLAlchemyError as exc:
         logger.exception(
-            "City comparison database query failed | "
-            "sort_by=%s | order=%s",
+            "City comparison database query failed | sort_by=%s | order=%s",
             sort_by,
             order,
         )

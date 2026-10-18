@@ -1,4 +1,3 @@
-
 from fastapi import APIRouter, HTTPException, Query
 
 from app.services.openweather import (
@@ -18,15 +17,14 @@ async def locations_search(
     limit: int = Query(default=5, ge=1, le=10),
 ):
     try:
-
         data = await search_locations(q, limit)
 
         return {
             "query": q,
-            "count": len(await search_locations(q, limit)),
-            "data": await search_locations(q, limit),
+            "count": len(data),
+            "data": data,
         }
-        
+
     except OpenWeatherError as exc:
         raise HTTPException(
             status_code=502,

@@ -1,4 +1,3 @@
-
 import httpx
 
 from app.core.config import settings
@@ -30,9 +29,7 @@ async def _get(path: str, params: dict) -> dict | list:
             f"OpenWeather returned HTTP {exc.response.status_code}."
         ) from exc
     except httpx.RequestError as exc:
-        raise OpenWeatherError(
-            "Could not connect to OpenWeather."
-        ) from exc
+        raise OpenWeatherError("Could not connect to OpenWeather.") from exc
 
 
 async def search_locations(
@@ -47,8 +44,6 @@ async def search_locations(
 
     if not isinstance(result, list):
         raise OpenWeatherError("Unexpected geocoding response.")
-
-        
 
     return [
         {

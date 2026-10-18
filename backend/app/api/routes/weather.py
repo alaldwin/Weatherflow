@@ -1,4 +1,3 @@
-
 from fastapi import APIRouter, HTTPException, Query
 
 from app.services.openweather import (
@@ -25,4 +24,3 @@ async def current_weather(
             status_code=502,
             detail=str(exc),
         ) from exc
-

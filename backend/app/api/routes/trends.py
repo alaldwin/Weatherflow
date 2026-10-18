@@ -1,4 +1,3 @@
-
 from typing import Annotated
 
 from fastapi import APIRouter, Depends, HTTPException
@@ -20,7 +19,6 @@ router = APIRouter(
     prefix="/api/v1/weather",
     tags=["Weather"],
 )
-
 
 
 @router.get(
@@ -91,12 +89,7 @@ def get_weather_trends(
             end_date,
         )
 
-
-    where_clause = (
-        "WHERE " + " AND ".join(conditions)
-        if conditions
-        else ""
-    )
+    where_clause = "WHERE " + " AND ".join(conditions) if conditions else ""
 
     logger.debug(
         "Weather trends SQL query prepared | filters_applied=%d",
@@ -179,4 +172,4 @@ def get_weather_trends(
                 "code": "SERVICE_UNAVAILABLE",
                 "message": "Unable to retrieve weather trends.",
             },
-        ) from exc 
+        ) from exc

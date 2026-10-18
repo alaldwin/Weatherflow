@@ -1,7 +1,7 @@
 from datetime import date, datetime
 from typing import Literal
 
-from pydantic import BaseModel, ConfigDict, model_validator
+from pydantic import BaseModel, ConfigDict, Field, model_validator
 
 
 class WeatherBase(BaseModel):
@@ -9,22 +9,26 @@ class WeatherBase(BaseModel):
 
     city: str
     country: str | None = None
+    latitude: float | None = Field(default=None, ge=-90, le=90)
+    longitude: float | None = Field(default=None, ge=-180, le=180)
+    humidity: int | None = Field(default=None, ge=0, le=100)
+    cloudiness: int | None = Field(default=None, ge=0, le=100)
 
 
 class CurrentWeather(WeatherBase):
-    latitude: float | None = None
-    longitude: float | None = None
+    latitude: float | None = Field(default=None, ge=-90, le=90)
+    longitude: float | None = Field(default=None, ge=-180, le=180)
     temperature: float | None = None
     feels_like: float | None = None
     temp_min: float | None = None
     temp_max: float | None = None
-    humidity: int | None = None
+    humidity: int | None = Field(default=None, ge=0, le=100)
     pressure: int | None = None
     visibility: int | None = None
     wind_speed: float | None = None
     wind_direction: int | None = None
     wind_gust: float | None = None
-    cloudiness: int | None = None
+    cloudiness: int | None = Field(default=None, ge=0, le=100)
     weather_main: str | None = None
     weather_description: str | None = None
     weather_icon: str | None = None
@@ -96,10 +100,10 @@ class WeatherTrendsResponse(BaseModel):
 class CityComparison(WeatherBase):
     temperature: float | None = None
     feels_like: float | None = None
-    humidity: int | None = None
+    humidity: int | None = Field(default=None, ge=0, le=100)
     pressure: int | None = None
     wind_speed: float | None = None
-    cloudiness: int | None = None
+    cloudiness: int | None = Field(default=None, ge=0, le=100)
     weather_main: str | None = None
     weather_description: str | None = None
     observation_time: datetime | None = None

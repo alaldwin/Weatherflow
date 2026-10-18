@@ -1,6 +1,8 @@
 from datetime import date, datetime
 
 import pytest
+from pydantic import ValidationError
+
 from app.schemas.weather import (
     CityComparison,
     CurrentWeather,
@@ -8,7 +10,6 @@ from app.schemas.weather import (
     DateFilters,
     SortOptions,
 )
-from pydantic import ValidationError
 
 
 def test_current_weather_schema_accepts_valid_data():
@@ -65,7 +66,6 @@ def test_date_filters_accept_optional_filters():
     assert filters.end_date == date(2026, 10, 13)
 
 
-
 def test_sort_options_accept_valid_values():
     options = SortOptions(sort_by="temperature", order="desc")
 
@@ -98,7 +98,6 @@ def test_sort_options_reject_invalid_values():
         SortOptions(sort_by="temperature", order="sideways")
 
 
-
 def test_date_filters_reject_start_date_after_end_date():
     with pytest.raises(ValidationError):
         DateFilters(
@@ -117,7 +116,6 @@ def test_date_filters_accept_same_start_and_end_date():
     assert filters.end_date == date(2026, 10, 13)
 
 
-
 @pytest.mark.parametrize(
     ("field", "value"),
     [
@@ -131,8 +129,6 @@ def test_date_filters_accept_same_start_and_end_date():
         ("cloudiness", -1),
     ],
 )
-
-
 def test_current_weather_rejects_out_of_range_values(field, value):
     with pytest.raises(ValidationError):
         CurrentWeather(city="Manila", **{field: value})
