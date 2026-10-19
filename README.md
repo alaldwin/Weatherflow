@@ -169,8 +169,9 @@ weatherflow/
 │   ├── pyproject.toml
 │   └── README.md
 ├── airflow/
-│   └── dags/
-│       └── weather_pipeline.py
+│   ├── dags/
+│   │   └── weather_pipeline.py
+│   └── Dockerfile
 ├── config/
 │   └── cities.py
 ├── data/
