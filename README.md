@@ -130,6 +130,44 @@ The following is a logical overview. Keep the names aligned with the actual file
 
 ```text
 weatherflow/
+├── Backend/
+│   ├── app/
+│   │   ├── api
+│   │   │   ├── routes/
+│   │   │   │   ├── city_comprison.py
+│   │   │   │   ├── current_weather.py
+│   │   │   │   ├── daily_weather.py
+│   │   │   │   ├── locations.py
+│   │   │   │   ├── trends.py
+│   │   │   │   ├── weather.py
+│   │   │   ├── dependencies.py
+│   │   ├── core
+│   │   │   ├── config.py
+│   │   │   ├── logging_config.py
+│   │   ├── db
+│   │   │   ├── session.py
+│   │   ├── schemas
+│   │   │   ├── weather.py
+│   │   ├── services
+│   │   │   ├── openweather.py
+│   │   └── main.py
+│   ├── logs/
+│   │   ├── city_comprison.log
+│   │   ├── current_weather.py
+│   │   ├── test.log
+│   │   ├── weather_trends.log
+│   │   └── backend_main.log
+│   ├── src/
+│   │   └── weather_transform.py
+│   ├── tests/
+│   │   ├── test_health.py
+│   │   ├── test_postgres_intergration.py
+│   │   ├── test_request_logging.py
+│   │   ├── test_weather.py
+│   │   └── test_weather_schemas.py
+│   ├── Dockerfile
+│   ├── pyproject.toml
+│   └── README.md
 ├── airflow/
 │   └── dags/
 │       └── weather_pipeline.py
