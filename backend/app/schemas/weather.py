@@ -107,7 +107,7 @@ class CityComparison(WeatherBase):
     weather_main: str | None = None
     weather_description: str | None = None
     observation_time: datetime | None = None
-    temperature_rank: int | None = None
+    temperature_rank: float | None = None
     average_city_temperature: float | None = None
     difference_from_average: float | None = None
 
@@ -119,5 +119,8 @@ class SortOptions(BaseModel):
 
 class CityComparisonResponse(BaseModel):
     count: int
+    limit: int
+    offset: int
+    has_more: bool
     sort: SortOptions
     data: list[CityComparison]

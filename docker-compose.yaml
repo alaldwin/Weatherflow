@@ -1,6 +1,5 @@
 # Weatherflow pipeline.
-#
-
+ 
 services:
 
   app:
@@ -36,6 +35,7 @@ services:
     command: ["python", "-m", "pipeline.main"]
 
 
+
   db:
 
     image: postgres:15
@@ -61,6 +61,7 @@ services:
       timeout: 5s
       retries: 10
       start_period: 5s
+
 
 
   airflow:

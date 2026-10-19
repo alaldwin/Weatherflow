@@ -3085,5 +3085,1028 @@
         "city": "Baguio",
         "source": "openweather",
         "observation_time": "2026-10-17T03:01:49+00:00"
+    },
+    {
+        "coord": {
+            "lon": 120.596,
+            "lat": 16.4023
+        },
+        "weather": [
+            {
+                "id": 802,
+                "main": "Clouds",
+                "description": "scattered clouds",
+                "icon": "03d"
+            }
+        ],
+        "base": "stations",
+        "main": {
+            "temp": 24.85,
+            "feels_like": 24.7,
+            "temp_min": 24.85,
+            "temp_max": 24.85,
+            "pressure": 1013,
+            "humidity": 50,
+            "sea_level": 1013,
+            "grnd_level": 918
+        },
+        "visibility": 10000,
+        "wind": {
+            "speed": 1.63,
+            "deg": 226,
+            "gust": 2.82
+        },
+        "clouds": {
+            "all": 33
+        },
+        "dt": 1792209465,
+        "sys": {
+            "country": "PH",
+            "sunrise": 1792187412,
+            "sunset": 1792229736
+        },
+        "timezone": 28800,
+        "id": 1728929,
+        "name": "Baguio City",
+        "cod": 200,
+        "city": "Baguio",
+        "source": "openweather",
+        "observation_time": "2026-10-17T03:57:45+00:00"
+    },
+    {
+        "coord": {
+            "lon": 120.596,
+            "lat": 16.4023
+        },
+        "weather": [
+            {
+                "id": 802,
+                "main": "Clouds",
+                "description": "scattered clouds",
+                "icon": "03d"
+            }
+        ],
+        "base": "stations",
+        "main": {
+            "temp": 24.67,
+            "feels_like": 24.84,
+            "temp_min": 24.67,
+            "temp_max": 24.67,
+            "pressure": 1012,
+            "humidity": 63,
+            "sea_level": 1012,
+            "grnd_level": 918
+        },
+        "visibility": 10000,
+        "wind": {
+            "speed": 1.63,
+            "deg": 226,
+            "gust": 2.82
+        },
+        "clouds": {
+            "all": 33
+        },
+        "dt": 1792210743,
+        "sys": {
+            "country": "PH",
+            "sunrise": 1792187412,
+            "sunset": 1792229736
+        },
+        "timezone": 28800,
+        "id": 1728929,
+        "name": "Baguio City",
+        "cod": 200,
+        "city": "Baguio",
+        "source": "openweather",
+        "observation_time": "2026-10-17T04:19:03+00:00"
+    },
+    {
+        "coord": {
+            "lon": 120.596,
+            "lat": 16.4023
+        },
+        "weather": [
+            {
+                "id": 802,
+                "main": "Clouds",
+                "description": "scattered clouds",
+                "icon": "03d"
+            }
+        ],
+        "base": "stations",
+        "main": {
+            "temp": 24.85,
+            "feels_like": 25.01,
+            "temp_min": 24.85,
+            "temp_max": 24.85,
+            "pressure": 1013,
+            "humidity": 62,
+            "sea_level": 1013,
+            "grnd_level": 917
+        },
+        "visibility": 10000,
+        "wind": {
+            "speed": 1.88,
+            "deg": 226,
+            "gust": 2.74
+        },
+        "clouds": {
+            "all": 38
+        },
+        "dt": 1792213213,
+        "sys": {
+            "country": "PH",
+            "sunrise": 1792187412,
+            "sunset": 1792229736
+        },
+        "timezone": 28800,
+        "id": 1728929,
+        "name": "Baguio City",
+        "cod": 200,
+        "city": "Baguio",
+        "source": "openweather",
+        "observation_time": "2026-10-17T05:00:13+00:00"
+    },
+    {
+        "coord": {
+            "lon": 120.596,
+            "lat": 16.4023
+        },
+        "weather": [
+            {
+                "id": 803,
+                "main": "Clouds",
+                "description": "broken clouds",
+                "icon": "04d"
+            }
+        ],
+        "base": "stations",
+        "main": {
+            "temp": 24.36,
+            "feels_like": 24.55,
+            "temp_min": 24.36,
+            "temp_max": 24.36,
+            "pressure": 1012,
+            "humidity": 65,
+            "sea_level": 1012,
+            "grnd_level": 916
+        },
+        "visibility": 10000,
+        "wind": {
+            "speed": 1.9,
+            "deg": 226,
+            "gust": 2.42
+        },
+        "clouds": {
+            "all": 56
+        },
+        "dt": 1792217431,
+        "sys": {
+            "country": "PH",
+            "sunrise": 1792187412,
+            "sunset": 1792229736
+        },
+        "timezone": 28800,
+        "id": 1728929,
+        "name": "Baguio City",
+        "cod": 200,
+        "city": "Baguio",
+        "source": "openweather",
+        "observation_time": "2026-10-17T06:10:31+00:00"
+    },
+    {
+        "coord": {
+            "lon": 120.596,
+            "lat": 16.4023
+        },
+        "weather": [
+            {
+                "id": 804,
+                "main": "Clouds",
+                "description": "overcast clouds",
+                "icon": "04d"
+            }
+        ],
+        "base": "stations",
+        "main": {
+            "temp": 23.03,
+            "feels_like": 23.14,
+            "temp_min": 23.03,
+            "temp_max": 23.03,
+            "pressure": 1012,
+            "humidity": 67,
+            "sea_level": 1012,
+            "grnd_level": 916
+        },
+        "visibility": 10000,
+        "wind": {
+            "speed": 1.76,
+            "deg": 222,
+            "gust": 1.9
+        },
+        "clouds": {
+            "all": 100
+        },
+        "dt": 1792220410,
+        "sys": {
+            "country": "PH",
+            "sunrise": 1792187412,
+            "sunset": 1792229736
+        },
+        "timezone": 28800,
+        "id": 1728930,
+        "name": "Baguio City",
+        "cod": 200,
+        "city": "Baguio",
+        "source": "openweather",
+        "observation_time": "2026-10-17T07:00:10+00:00"
+    },
+    {
+        "coord": {
+            "lon": 120.596,
+            "lat": 16.4023
+        },
+        "weather": [
+            {
+                "id": 804,
+                "main": "Clouds",
+                "description": "overcast clouds",
+                "icon": "04d"
+            }
+        ],
+        "base": "stations",
+        "main": {
+            "temp": 23.87,
+            "feels_like": 24.22,
+            "temp_min": 23.87,
+            "temp_max": 23.87,
+            "pressure": 1012,
+            "humidity": 73,
+            "sea_level": 1012,
+            "grnd_level": 917
+        },
+        "visibility": 10000,
+        "wind": {
+            "speed": 1.53,
+            "deg": 220,
+            "gust": 1.29
+        },
+        "clouds": {
+            "all": 98
+        },
+        "dt": 1792224011,
+        "sys": {
+            "country": "PH",
+            "sunrise": 1792187412,
+            "sunset": 1792229736
+        },
+        "timezone": 28800,
+        "id": 1728929,
+        "name": "Baguio City",
+        "cod": 200,
+        "city": "Baguio",
+        "source": "openweather",
+        "observation_time": "2026-10-17T08:00:11+00:00"
+    },
+    {
+        "coord": {
+            "lon": 120.5982,
+            "lat": 16.3964
+        },
+        "weather": [
+            {
+                "id": 802,
+                "main": "Clouds",
+                "description": "scattered clouds",
+                "icon": "03d"
+            }
+        ],
+        "base": "stations",
+        "main": {
+            "temp": 24.34,
+            "feels_like": 24.45,
+            "temp_min": 24.34,
+            "temp_max": 24.34,
+            "pressure": 1012,
+            "humidity": 62,
+            "sea_level": 1012,
+            "grnd_level": 918
+        },
+        "visibility": 10000,
+        "wind": {
+            "speed": 1.91,
+            "deg": 233,
+            "gust": 2.82
+        },
+        "clouds": {
+            "all": 48
+        },
+        "dt": 1792292560,
+        "sys": {
+            "country": "PH",
+            "sunrise": 1792273825,
+            "sunset": 1792316098
+        },
+        "timezone": 28800,
+        "id": 1728930,
+        "name": "Baguio City",
+        "cod": 200,
+        "city": "Baguio",
+        "source": "openweather",
+        "observation_time": "2026-10-18T03:02:40+00:00"
+    },
+    {
+        "coord": {
+            "lon": 120.596,
+            "lat": 16.4023
+        },
+        "weather": [
+            {
+                "id": 802,
+                "main": "Clouds",
+                "description": "scattered clouds",
+                "icon": "03d"
+            }
+        ],
+        "base": "stations",
+        "main": {
+            "temp": 24.02,
+            "feels_like": 23.97,
+            "temp_min": 24.02,
+            "temp_max": 24.02,
+            "pressure": 1012,
+            "humidity": 57,
+            "sea_level": 1012,
+            "grnd_level": 917
+        },
+        "visibility": 10000,
+        "wind": {
+            "speed": 2.01,
+            "deg": 230,
+            "gust": 2.89
+        },
+        "clouds": {
+            "all": 39
+        },
+        "dt": 1792296011,
+        "sys": {
+            "country": "PH",
+            "sunrise": 1792273826,
+            "sunset": 1792316098
+        },
+        "timezone": 28800,
+        "id": 1728929,
+        "name": "Baguio City",
+        "cod": 200,
+        "city": "Baguio",
+        "source": "openweather",
+        "observation_time": "2026-10-18T04:00:11+00:00"
+    },
+    {
+        "coord": {
+            "lon": 120.596,
+            "lat": 16.4023
+        },
+        "weather": [
+            {
+                "id": 500,
+                "main": "Rain",
+                "description": "light rain",
+                "icon": "10d"
+            }
+        ],
+        "base": "stations",
+        "main": {
+            "temp": 24.03,
+            "feels_like": 24.06,
+            "temp_min": 24.03,
+            "temp_max": 24.03,
+            "pressure": 1011,
+            "humidity": 60,
+            "sea_level": 1011,
+            "grnd_level": 916
+        },
+        "visibility": 10000,
+        "wind": {
+            "speed": 2,
+            "deg": 230,
+            "gust": 2.78
+        },
+        "rain": {
+            "1h": 0.14
+        },
+        "clouds": {
+            "all": 36
+        },
+        "dt": 1792299045,
+        "sys": {
+            "country": "PH",
+            "sunrise": 1792273826,
+            "sunset": 1792316098
+        },
+        "timezone": 28800,
+        "id": 1728930,
+        "name": "Baguio City",
+        "cod": 200,
+        "city": "Baguio",
+        "source": "openweather",
+        "observation_time": "2026-10-18T04:50:45+00:00"
+    },
+    {
+        "coord": {
+            "lon": 120.596,
+            "lat": 16.4023
+        },
+        "weather": [
+            {
+                "id": 500,
+                "main": "Rain",
+                "description": "light rain",
+                "icon": "10d"
+            }
+        ],
+        "base": "stations",
+        "main": {
+            "temp": 24.21,
+            "feels_like": 24.28,
+            "temp_min": 24.21,
+            "temp_max": 24.21,
+            "pressure": 1011,
+            "humidity": 61,
+            "sea_level": 1011,
+            "grnd_level": 916
+        },
+        "visibility": 10000,
+        "wind": {
+            "speed": 1.84,
+            "deg": 229,
+            "gust": 2.11
+        },
+        "rain": {
+            "1h": 0.63
+        },
+        "clouds": {
+            "all": 32
+        },
+        "dt": 1792302933,
+        "sys": {
+            "country": "PH",
+            "sunrise": 1792273826,
+            "sunset": 1792316098
+        },
+        "timezone": 28800,
+        "id": 1728929,
+        "name": "Baguio City",
+        "cod": 200,
+        "city": "Baguio",
+        "source": "openweather",
+        "observation_time": "2026-10-18T05:55:33+00:00"
+    },
+    {
+        "coord": {
+            "lon": 120.596,
+            "lat": 16.4023
+        },
+        "weather": [
+            {
+                "id": 500,
+                "main": "Rain",
+                "description": "light rain",
+                "icon": "10d"
+            }
+        ],
+        "base": "stations",
+        "main": {
+            "temp": 23.36,
+            "feels_like": 23.58,
+            "temp_min": 23.36,
+            "temp_max": 23.36,
+            "pressure": 1011,
+            "humidity": 70,
+            "sea_level": 1011,
+            "grnd_level": 916
+        },
+        "visibility": 10000,
+        "wind": {
+            "speed": 1.64,
+            "deg": 233,
+            "gust": 1.79
+        },
+        "rain": {
+            "1h": 0.87
+        },
+        "clouds": {
+            "all": 13
+        },
+        "dt": 1792306813,
+        "sys": {
+            "country": "PH",
+            "sunrise": 1792273826,
+            "sunset": 1792316098
+        },
+        "timezone": 28800,
+        "id": 1728929,
+        "name": "Baguio City",
+        "cod": 200,
+        "city": "Baguio",
+        "source": "openweather",
+        "observation_time": "2026-10-18T07:00:13+00:00"
+    },
+    {
+        "coord": {
+            "lon": 120.596,
+            "lat": 16.4023
+        },
+        "weather": [
+            {
+                "id": 500,
+                "main": "Rain",
+                "description": "light rain",
+                "icon": "10d"
+            }
+        ],
+        "base": "stations",
+        "main": {
+            "temp": 22.45,
+            "feels_like": 22.76,
+            "temp_min": 22.45,
+            "temp_max": 22.45,
+            "pressure": 1011,
+            "humidity": 77,
+            "sea_level": 1011,
+            "grnd_level": 915
+        },
+        "visibility": 10000,
+        "wind": {
+            "speed": 1.23,
+            "deg": 244,
+            "gust": 1.45
+        },
+        "rain": {
+            "1h": 0.48
+        },
+        "clouds": {
+            "all": 13
+        },
+        "dt": 1792310410,
+        "sys": {
+            "country": "PH",
+            "sunrise": 1792273826,
+            "sunset": 1792316098
+        },
+        "timezone": 28800,
+        "id": 1728929,
+        "name": "Baguio City",
+        "cod": 200,
+        "city": "Baguio",
+        "source": "openweather",
+        "observation_time": "2026-10-18T08:00:10+00:00"
+    },
+    {
+        "coord": {
+            "lon": 120.596,
+            "lat": 16.4023
+        },
+        "weather": [
+            {
+                "id": 500,
+                "main": "Rain",
+                "description": "light rain",
+                "icon": "10d"
+            }
+        ],
+        "base": "stations",
+        "main": {
+            "temp": 20.55,
+            "feels_like": 20.93,
+            "temp_min": 20.55,
+            "temp_max": 20.55,
+            "pressure": 1012,
+            "humidity": 87,
+            "sea_level": 1012,
+            "grnd_level": 916
+        },
+        "visibility": 10000,
+        "wind": {
+            "speed": 0.46,
+            "deg": 241,
+            "gust": 1.53
+        },
+        "rain": {
+            "1h": 0.13
+        },
+        "clouds": {
+            "all": 13
+        },
+        "dt": 1792313687,
+        "sys": {
+            "country": "PH",
+            "sunrise": 1792273826,
+            "sunset": 1792316098
+        },
+        "timezone": 28800,
+        "id": 1728929,
+        "name": "Baguio City",
+        "cod": 200,
+        "city": "Baguio",
+        "source": "openweather",
+        "observation_time": "2026-10-18T08:54:47+00:00"
+    },
+    {
+        "coord": {
+            "lon": 120.596,
+            "lat": 16.4023
+        },
+        "weather": [
+            {
+                "id": 500,
+                "main": "Rain",
+                "description": "light rain",
+                "icon": "10n"
+            }
+        ],
+        "base": "stations",
+        "main": {
+            "temp": 18.18,
+            "feels_like": 18.48,
+            "temp_min": 18.18,
+            "temp_max": 18.18,
+            "pressure": 1013,
+            "humidity": 93,
+            "sea_level": 1013,
+            "grnd_level": 916
+        },
+        "visibility": 10000,
+        "wind": {
+            "speed": 1.56,
+            "deg": 90,
+            "gust": 0.94
+        },
+        "rain": {
+            "1h": 0.19
+        },
+        "clouds": {
+            "all": 11
+        },
+        "dt": 1792317610,
+        "sys": {
+            "country": "PH",
+            "sunrise": 1792273826,
+            "sunset": 1792316098
+        },
+        "timezone": 28800,
+        "id": 1728929,
+        "name": "Baguio City",
+        "cod": 200,
+        "city": "Baguio",
+        "source": "openweather",
+        "observation_time": "2026-10-18T10:00:10+00:00"
+    },
+    {
+        "coord": {
+            "lon": 120.596,
+            "lat": 16.4023
+        },
+        "weather": [
+            {
+                "id": 500,
+                "main": "Rain",
+                "description": "light rain",
+                "icon": "10d"
+            }
+        ],
+        "base": "stations",
+        "main": {
+            "temp": 24.79,
+            "feels_like": 25.13,
+            "temp_min": 24.79,
+            "temp_max": 24.79,
+            "pressure": 1011,
+            "humidity": 69,
+            "sea_level": 1011,
+            "grnd_level": 914
+        },
+        "visibility": 10000,
+        "wind": {
+            "speed": 1.4,
+            "deg": 228,
+            "gust": 2.3
+        },
+        "rain": {
+            "1h": 0.1
+        },
+        "clouds": {
+            "all": 35
+        },
+        "dt": 1792391604,
+        "sys": {
+            "country": "PH",
+            "sunrise": 1792360241,
+            "sunset": 1792402460
+        },
+        "timezone": 28800,
+        "id": 1728929,
+        "name": "Baguio City",
+        "cod": 200,
+        "city": "Baguio",
+        "source": "openweather",
+        "observation_time": "2026-10-19T06:33:24+00:00"
+    },
+    {
+        "coord": {
+            "lon": 120.596,
+            "lat": 16.4023
+        },
+        "weather": [
+            {
+                "id": 500,
+                "main": "Rain",
+                "description": "light rain",
+                "icon": "10d"
+            }
+        ],
+        "base": "stations",
+        "main": {
+            "temp": 25.09,
+            "feels_like": 25.56,
+            "temp_min": 25.09,
+            "temp_max": 25.09,
+            "pressure": 1010,
+            "humidity": 73,
+            "sea_level": 1010,
+            "grnd_level": 914
+        },
+        "visibility": 10000,
+        "wind": {
+            "speed": 1.4,
+            "deg": 228,
+            "gust": 2.3
+        },
+        "rain": {
+            "1h": 0.1
+        },
+        "clouds": {
+            "all": 35
+        },
+        "dt": 1792392466,
+        "sys": {
+            "country": "PH",
+            "sunrise": 1792360241,
+            "sunset": 1792402460
+        },
+        "timezone": 28800,
+        "id": 1728929,
+        "name": "Baguio City",
+        "cod": 200,
+        "city": "Baguio",
+        "source": "openweather",
+        "observation_time": "2026-10-19T06:47:46+00:00"
+    },
+    {
+        "coord": {
+            "lon": 120.596,
+            "lat": 16.4023
+        },
+        "weather": [
+            {
+                "id": 500,
+                "main": "Rain",
+                "description": "light rain",
+                "icon": "10d"
+            }
+        ],
+        "base": "stations",
+        "main": {
+            "temp": 25.09,
+            "feels_like": 25.56,
+            "temp_min": 25.09,
+            "temp_max": 25.09,
+            "pressure": 1010,
+            "humidity": 73,
+            "sea_level": 1010,
+            "grnd_level": 914
+        },
+        "visibility": 10000,
+        "wind": {
+            "speed": 1.4,
+            "deg": 228,
+            "gust": 2.3
+        },
+        "rain": {
+            "1h": 0.1
+        },
+        "clouds": {
+            "all": 35
+        },
+        "dt": 1792392768,
+        "sys": {
+            "country": "PH",
+            "sunrise": 1792360241,
+            "sunset": 1792402460
+        },
+        "timezone": 28800,
+        "id": 1728930,
+        "name": "Baguio City",
+        "cod": 200,
+        "city": "Baguio",
+        "source": "openweather",
+        "observation_time": "2026-10-19T06:52:48+00:00"
+    },
+    {
+        "coord": {
+            "lon": 120.596,
+            "lat": 16.4023
+        },
+        "weather": [
+            {
+                "id": 500,
+                "main": "Rain",
+                "description": "light rain",
+                "icon": "10d"
+            }
+        ],
+        "base": "stations",
+        "main": {
+            "temp": 23.57,
+            "feels_like": 23.89,
+            "temp_min": 23.57,
+            "temp_max": 23.57,
+            "pressure": 1010,
+            "humidity": 73,
+            "sea_level": 1010,
+            "grnd_level": 915
+        },
+        "visibility": 10000,
+        "wind": {
+            "speed": 1.26,
+            "deg": 235,
+            "gust": 1.77
+        },
+        "rain": {
+            "1h": 0.2
+        },
+        "clouds": {
+            "all": 36
+        },
+        "dt": 1792396812,
+        "sys": {
+            "country": "PH",
+            "sunrise": 1792360241,
+            "sunset": 1792402460
+        },
+        "timezone": 28800,
+        "id": 1728929,
+        "name": "Baguio City",
+        "cod": 200,
+        "city": "Baguio",
+        "source": "openweather",
+        "observation_time": "2026-10-19T08:00:12+00:00"
+    },
+    {
+        "coord": {
+            "lon": 120.6,
+            "lat": 16.4
+        },
+        "weather": [
+            {
+                "id": 500,
+                "main": "Rain",
+                "description": "light rain",
+                "icon": "10d"
+            }
+        ],
+        "base": "stations",
+        "main": {
+            "temp": 21.68,
+            "feels_like": 22.1,
+            "temp_min": 21.68,
+            "temp_max": 21.68,
+            "pressure": 1011,
+            "humidity": 84,
+            "sea_level": 1011,
+            "grnd_level": 915
+        },
+        "visibility": 10000,
+        "wind": {
+            "speed": 0.84,
+            "deg": 231,
+            "gust": 1.28
+        },
+        "rain": {
+            "1h": 0.28
+        },
+        "clouds": {
+            "all": 32
+        },
+        "dt": 1792399882,
+        "sys": {
+            "country": "PH",
+            "sunrise": 1792360240,
+            "sunset": 1792402459
+        },
+        "timezone": 28800,
+        "id": 1728929,
+        "name": "Baguio City",
+        "cod": 200,
+        "city": "Baguio",
+        "source": "openweather",
+        "observation_time": "2026-10-19T08:51:22+00:00"
+    },
+    {
+        "coord": {
+            "lon": 120.596,
+            "lat": 16.4023
+        },
+        "weather": [
+            {
+                "id": 500,
+                "main": "Rain",
+                "description": "light rain",
+                "icon": "10n"
+            }
+        ],
+        "base": "stations",
+        "main": {
+            "temp": 20.23,
+            "feels_like": 20.66,
+            "temp_min": 20.23,
+            "temp_max": 20.23,
+            "pressure": 1012,
+            "humidity": 90,
+            "sea_level": 1012,
+            "grnd_level": 916
+        },
+        "visibility": 10000,
+        "wind": {
+            "speed": 0.66,
+            "deg": 97,
+            "gust": 0.58
+        },
+        "rain": {
+            "1h": 0.1
+        },
+        "clouds": {
+            "all": 28
+        },
+        "dt": 1792403926,
+        "sys": {
+            "country": "PH",
+            "sunrise": 1792360241,
+            "sunset": 1792402460
+        },
+        "timezone": 28800,
+        "id": 1728929,
+        "name": "Baguio City",
+        "cod": 200,
+        "city": "Baguio",
+        "source": "openweather",
+        "observation_time": "2026-10-19T09:58:46+00:00"
+    },
+    {
+        "coord": {
+            "lon": 120.6,
+            "lat": 16.4
+        },
+        "weather": [
+            {
+                "id": 802,
+                "main": "Clouds",
+                "description": "scattered clouds",
+                "icon": "03n"
+            }
+        ],
+        "base": "stations",
+        "main": {
+            "temp": 19.52,
+            "feels_like": 19.96,
+            "temp_min": 19.52,
+            "temp_max": 19.52,
+            "pressure": 1013,
+            "humidity": 93,
+            "sea_level": 1013,
+            "grnd_level": 917
+        },
+        "visibility": 10000,
+        "wind": {
+            "speed": 1.4,
+            "deg": 97,
+            "gust": 0.97
+        },
+        "clouds": {
+            "all": 25
+        },
+        "dt": 1792407509,
+        "sys": {
+            "country": "PH",
+            "sunrise": 1792360240,
+            "sunset": 1792402459
+        },
+        "timezone": 28800,
+        "id": 1728929,
+        "name": "Baguio City",
+        "cod": 200,
+        "city": "Baguio",
+        "source": "openweather",
+        "observation_time": "2026-10-19T10:58:29+00:00"
     }
 ]

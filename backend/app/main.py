@@ -6,7 +6,6 @@ from fastapi.exceptions import RequestValidationError
 from fastapi.responses import JSONResponse
 from sqlalchemy.exc import SQLAlchemyError
 
-from app.api.routes import locations, weather
 from app.api.routes.city_comparison import router as city_comparison_router
 from app.api.routes.current_weather import router as current_weather_router
 from app.api.routes.daily_weather import router as daily_weather_router
@@ -17,7 +16,7 @@ from app.core.logging_config import config_logging, get_logger
 from app.db.session import check_database_connection
 
 config_logging()
-logger = get_logger(__name__, "backend_name.log")
+logger = get_logger(__name__, "backend_main.log")
 
 
 app = FastAPI(
@@ -69,14 +68,13 @@ app = FastAPI(
 
 
 # Register API routers
+app.include_router(coordinate_weather_router)
 app.include_router(current_weather_router)
 app.include_router(daily_weather_router)
 app.include_router(trends_router)
-app.include_router(city_comparison_router)
-app.include_router(locations.router)
-app.include_router(weather.router)
+app.include_router(city_comparison_router) 
 app.include_router(locations_router)
-app.include_router(coordinate_weather_router)
+
 
 
 # HTTP request logging middleware

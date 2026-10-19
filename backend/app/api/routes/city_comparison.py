@@ -6,11 +6,11 @@ from app.core.logging_config import get_logger
 from app.db.session import engine
 from app.schemas.weather import CityComparisonResponse
 
-logger = get_logger(__name__, "comprison.log")
+logger = get_logger(__name__, "city_comparison.log")
 
 router = APIRouter(
     prefix="/api/v1/weather",
-    tags=["Weather"],
+    tags=["City Comparison"],
 )
 
 
@@ -30,6 +30,8 @@ router = APIRouter(
         503: {"description": "The database is unavailable."},
     },
 )
+
+
 def compare_cities(
     sort_by: str = Query(
         default="temperature",
@@ -39,6 +41,8 @@ def compare_cities(
         default="desc",
         pattern="^(asc|desc)$",
     ),
+    limit: int = Query(default=20, ge=1, le=100),
+    offset: int = Query(default=0, ge=0),
 ):
 
     logger.info(
@@ -74,35 +78,42 @@ def compare_cities(
         FROM mrt_dev.mrt_city_comparison
         ORDER BY {sort_column} {sort_direction} NULLS LAST,
                  city ASC
-        LIMIT 100;
+        LIMIT :fetch_limit OFFSET :offset
     """)
 
     try:
         with engine.connect() as connection:
-            result = connection.execute(query)
+            result = connection.execute(
+                query,
+                {
+                    "fetch_limit": limit + 1,
+                    "offset": offset,
+                },
+            )
             rows = result.mappings().all()
 
-        logger.info(
-            "City comparison query successful | rows_returned=%d | sort_by=%s | order=%s",
-            len(rows),
-            sort_by,
-            order,
-        )
+        has_more = len(rows) > limit
+        data = [dict(row) for row in rows[:limit]]
 
         return {
-            "count": len(rows),
+            "count": len(data),
+            "limit": limit,
+            "offset": offset,
+            "has_more": has_more,
             "sort": {
                 "sort_by": sort_by,
                 "order": order,
             },
-            "data": [dict(row) for row in rows],
+            "data": data,
         }
 
     except SQLAlchemyError as exc:
-        logger.exception(
-            "City comparison database query failed | sort_by=%s | order=%s",
+        logger.info(
+            "City comparison request received | sort_by=%s | order=%s | limit=%d | offset=%d",
             sort_by,
             order,
+            limit,
+            offset,
         )
         raise HTTPException(
             status_code=503,
