@@ -413,3 +413,35 @@ Runtime Error
 [0m11:30:12.069427 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7244751e7a80>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7244751eef90>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7244750099d0>]}
 [0m11:30:12.072710 [debug] [MainThread]: Flushing usage events
 [0m11:30:13.475955 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m16:45:59.222500 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x77295c54e120>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x77295e2b4f50>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x77295aed39d0>]}
+
+
+============================== 16:45:59.283742 | 812f85c0-3612-4be0-b0b4-5a33de9f6680 ==============================
+[0m16:45:59.283742 [info ] [MainThread]: Running with dbt=1.12.5
+[0m16:45:59.287498 [debug] [MainThread]: running dbt with arguments {'partial_parse': 'True', 'log_cache_events': 'False', 'fail_fast': 'False', 'indirect_selection': 'eager', 'debug': 'False', 'static_parser': 'True', 'send_anonymous_usage_stats': 'True', 'empty': 'None', 'invocation_command': 'dbt ls --select stg_weather_observations', 'log_path': 'logs', 'quiet': 'False', 'no_print': 'None', 'hints_enabled': 'True', 'cache_selected_only': 'False', 'introspect': 'True', 'printer_width': '80', 'write_json': 'True', 'target_path': 'None', 'use_colors': 'True', 'use_experimental_parser': 'False', 'version_check': 'True', 'warn_error': 'None', 'profiles_dir': '/home/aldwin/.dbt', 'maximum_seed_size_mib': '1', 'log_format': 'default', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])'}
+[0m16:45:59.290757 [error] [MainThread]: [[31mERROR[0m]: Encountered an error:
+Runtime Error
+  No dbt_project.yml found at expected path /mnt/c/Users/aldwin/project/weatherflow/dbt_project.yml
+  Verify that each entry within packages.yml (and their transitive dependencies) contains a file named dbt_project.yml
+  
+[0m16:45:59.316599 [debug] [MainThread]: Resource report: {"command_name": "list", "command_success": false, "command_wall_clock_time": 0.21650842, "process_in_blocks": "35890", "process_kernel_time": 2.793296, "process_mem_max_rss": "117616", "process_out_blocks": "0", "process_user_time": 3.466166}
+[0m16:45:59.319053 [debug] [MainThread]: Command `dbt ls` failed at 16:45:59.318863 after 0.22 seconds
+[0m16:45:59.320879 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x77295b0dba80>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x77295aeeaf90>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x77295acfdae0>]}
+[0m16:45:59.322600 [debug] [MainThread]: Flushing usage events
+[0m16:46:00.614261 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m16:48:04.047581 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7edf75d2e120>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7edf77ab0f50>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7edf746979d0>]}
+
+
+============================== 16:48:04.075801 | 0cffa35b-28f5-43ba-a819-28a2c35b6d75 ==============================
+[0m16:48:04.075801 [info ] [MainThread]: Running with dbt=1.12.5
+[0m16:48:04.077455 [debug] [MainThread]: running dbt with arguments {'partial_parse': 'True', 'hints_enabled': 'True', 'warn_error': 'None', 'introspect': 'True', 'fail_fast': 'False', 'log_path': 'logs', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'use_experimental_parser': 'False', 'write_json': 'True', 'log_format': 'default', 'empty': 'None', 'debug': 'False', 'quiet': 'False', 'static_parser': 'True', 'printer_width': '80', 'indirect_selection': 'eager', 'cache_selected_only': 'False', 'log_cache_events': 'False', 'use_colors': 'True', 'maximum_seed_size_mib': '1', 'invocation_command': 'dbt show --select stg_weather_observations --limit 10', 'target_path': 'None', 'no_print': 'None', 'profiles_dir': '/home/aldwin/.dbt', 'send_anonymous_usage_stats': 'True', 'version_check': 'True'}
+[0m16:48:04.080310 [error] [MainThread]: [[31mERROR[0m]: Encountered an error:
+Runtime Error
+  No dbt_project.yml found at expected path /mnt/c/Users/aldwin/project/weatherflow/dbt_project.yml
+  Verify that each entry within packages.yml (and their transitive dependencies) contains a file named dbt_project.yml
+  
+[0m16:48:04.088661 [debug] [MainThread]: Resource report: {"command_name": "show", "command_success": false, "command_wall_clock_time": 0.20019163, "process_in_blocks": "36309", "process_kernel_time": 2.420615, "process_mem_max_rss": "117964", "process_out_blocks": "0", "process_user_time": 3.368187}
+[0m16:48:04.090530 [debug] [MainThread]: Command `dbt show` failed at 16:48:04.090242 after 0.20 seconds
+[0m16:48:04.092305 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7edf746216e0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7edf7463ac30>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7edf746b3460>]}
+[0m16:48:04.094257 [debug] [MainThread]: Flushing usage events
+[0m16:48:05.335099 [debug] [MainThread]: An error was encountered while trying to flush usage events

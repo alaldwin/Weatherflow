@@ -119,5 +119,8 @@ class SortOptions(BaseModel):
 
 class CityComparisonResponse(BaseModel):
     count: int
+    limit: int
+    offset: int
+    has_more: bool
     sort: SortOptions
     data: list[CityComparison]

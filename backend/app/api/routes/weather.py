@@ -11,11 +11,12 @@ router = APIRouter(
 )
 
 
-@router.get("/current")
+@router.get("/coordinates/current")
 async def current_weather(
     lat: float = Query(ge=-90, le=90),
     lon: float = Query(ge=-180, le=180),
 ):
+
     try:
         return await get_current_weather(lat, lon)
 
@@ -23,4 +24,4 @@ async def current_weather(
         raise HTTPException(
             status_code=502,
             detail=str(exc),
-        ) from exc
+        ) from exc 

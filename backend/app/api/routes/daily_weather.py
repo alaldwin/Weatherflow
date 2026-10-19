@@ -18,7 +18,7 @@ logger = get_logger(__name__, "daily_weather.log")
 
 router = APIRouter(
     prefix="/api/v1/weather",
-    tags=["Weather"],
+    tags=["Daily Weather"],
 )
 
 

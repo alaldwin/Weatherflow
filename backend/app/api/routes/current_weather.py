@@ -125,6 +125,7 @@ def get_current_weather(
         )
 
 
+
 @router.get(
     "/current/{city}",
     response_model=CurrentWeather,
@@ -136,6 +137,7 @@ def get_current_weather(
         503: {"description": "The database is unavailable."},
     },
 )
+
 def get_current_weather_by_city(city: str):
 
     city = city.strip()
