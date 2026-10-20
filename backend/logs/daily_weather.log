@@ -239,3 +239,7 @@ LINE 15:         {where_clause}
 {"timestamp": "2026-10-19T11:37:45.425177+00:00", "level": "INFO", "logger": "app.api.routes.daily_weather", "message": "Daily weather query successful | count=5 | has_more=False | limit=20 | offset=0"}
 {"timestamp": "2026-10-19T11:37:46.465243+00:00", "level": "INFO", "logger": "app.api.routes.daily_weather", "message": "Daily weather request received | city=Manila | start_date=None | end_date=None | limit=20 | offset=0"}
 {"timestamp": "2026-10-19T11:37:46.469034+00:00", "level": "INFO", "logger": "app.api.routes.daily_weather", "message": "Daily weather query successful | count=1 | has_more=False | limit=20 | offset=0"}
+{"timestamp": "2026-10-20T10:33:09.261691+00:00", "level": "INFO", "logger": "app.api.routes.daily_weather", "message": "Daily weather request received | city=None | start_date=None | end_date=None | limit=20 | offset=0"}
+{"timestamp": "2026-10-20T10:33:09.700313+00:00", "level": "INFO", "logger": "app.api.routes.daily_weather", "message": "Daily weather query successful | count=20 | has_more=True | limit=20 | offset=0"}
+{"timestamp": "2026-10-20T11:53:26.080604+00:00", "level": "INFO", "logger": "app.api.routes.daily_weather", "message": "Daily weather request received | city=None | start_date=None | end_date=None | limit=20 | offset=0"}
+{"timestamp": "2026-10-20T11:53:26.554260+00:00", "level": "INFO", "logger": "app.api.routes.daily_weather", "message": "Daily weather query successful | count=20 | has_more=True | limit=20 | offset=0"}

@@ -30859,3 +30859,2199 @@ sqlalchemy.exc.OperationalError: (psycopg2.OperationalError) connection to serve
 2026-10-19 11:07:32,293 | INFO | pipeline.main | Pipeline summary | total=8 | loaded=8 | skipped=0 | failed=0
 2026-10-19 11:07:32,297 | INFO | pipeline.main | Successfully loaded cities: ['Manila', 'Quezon City', 'Cebu City', 'Davao City', 'Baguio', 'Iloilo City', 'Cagayan de Oro', 'Zamboanga City']
 2026-10-19 11:07:32,299 | INFO | pipeline.main | Weather ingestion completed successfully.
+2026-10-19 12:00:07,472 | INFO | pipeline.main | Starting Weather Ingestion...
+2026-10-19 12:00:07,476 | INFO | pipeline.main | Processing city: Manila
+2026-10-19 12:00:07,940 | INFO | pipeline.main | Geocoding loaded for Manila into geocoding_manila
+2026-10-19 12:00:08,052 | INFO | pipeline.main | Raw JSON saved for Manila: /opt/weatherflow/data/raw/openweather/manila.json
+2026-10-19 12:00:08,060 | INFO | pipeline.main | Weather data transformed for Manila
+2026-10-19 12:00:08,360 | INFO | pipeline.main | Parquet saved for Manila: /opt/weatherflow/data/parquet/openweather/manila.parquet
+2026-10-19 12:00:08,486 | INFO | pipeline.main | Loaded 1 row(s) for Manila into openweather_manila.
+2026-10-19 12:00:08,535 | INFO | pipeline.main | Checkpoint updated for Manila.
+2026-10-19 12:00:08,539 | INFO | pipeline.main | Processing city: Quezon City
+2026-10-19 12:00:08,949 | INFO | pipeline.main | Geocoding loaded for Quezon City into geocoding_quezon_city
+2026-10-19 12:00:09,040 | INFO | pipeline.main | Raw JSON saved for Quezon City: /opt/weatherflow/data/raw/openweather/quezon_city.json
+2026-10-19 12:00:09,051 | INFO | pipeline.main | Weather data transformed for Quezon City
+2026-10-19 12:00:09,161 | INFO | pipeline.main | Parquet saved for Quezon City: /opt/weatherflow/data/parquet/openweather/quezon_city.parquet
+2026-10-19 12:00:09,207 | INFO | pipeline.main | Loaded 1 row(s) for Quezon City into openweather_quezon_city.
+2026-10-19 12:00:09,260 | INFO | pipeline.main | Checkpoint updated for Quezon City.
+2026-10-19 12:00:09,263 | INFO | pipeline.main | Processing city: Cebu City
+2026-10-19 12:00:09,624 | INFO | pipeline.main | Geocoding loaded for Cebu City into geocoding_cebu_city
+2026-10-19 12:00:09,737 | INFO | pipeline.main | Raw JSON saved for Cebu City: /opt/weatherflow/data/raw/openweather/cebu_city.json
+2026-10-19 12:00:09,744 | INFO | pipeline.main | Weather data transformed for Cebu City
+2026-10-19 12:00:09,855 | INFO | pipeline.main | Parquet saved for Cebu City: /opt/weatherflow/data/parquet/openweather/cebu_city.parquet
+2026-10-19 12:00:09,904 | INFO | pipeline.main | Loaded 1 row(s) for Cebu City into openweather_cebu_city.
+2026-10-19 12:00:09,943 | INFO | pipeline.main | Checkpoint updated for Cebu City.
+2026-10-19 12:00:09,946 | INFO | pipeline.main | Processing city: Davao City
+2026-10-19 12:00:10,220 | INFO | pipeline.main | Geocoding loaded for Davao City into geocoding_davao_city
+2026-10-19 12:00:10,290 | INFO | pipeline.main | Raw JSON saved for Davao City: /opt/weatherflow/data/raw/openweather/davao_city.json
+2026-10-19 12:00:10,295 | INFO | pipeline.main | Weather data transformed for Davao City
+2026-10-19 12:00:10,389 | INFO | pipeline.main | Parquet saved for Davao City: /opt/weatherflow/data/parquet/openweather/davao_city.parquet
+2026-10-19 12:00:10,448 | INFO | pipeline.main | Loaded 1 row(s) for Davao City into openweather_davao_city.
+2026-10-19 12:00:10,474 | INFO | pipeline.main | Checkpoint updated for Davao City.
+2026-10-19 12:00:10,476 | INFO | pipeline.main | Processing city: Baguio
+2026-10-19 12:00:10,873 | INFO | pipeline.main | Geocoding loaded for Baguio into geocoding_baguio
+2026-10-19 12:00:10,931 | INFO | pipeline.main | Raw JSON saved for Baguio: /opt/weatherflow/data/raw/openweather/baguio.json
+2026-10-19 12:00:10,935 | INFO | pipeline.main | Weather data transformed for Baguio
+2026-10-19 12:00:11,026 | INFO | pipeline.main | Parquet saved for Baguio: /opt/weatherflow/data/parquet/openweather/baguio.parquet
+2026-10-19 12:00:11,076 | INFO | pipeline.main | Loaded 1 row(s) for Baguio into openweather_baguio.
+2026-10-19 12:00:11,127 | INFO | pipeline.main | Checkpoint updated for Baguio.
+2026-10-19 12:00:11,129 | INFO | pipeline.main | Processing city: Iloilo City
+2026-10-19 12:00:11,523 | INFO | pipeline.main | Geocoding loaded for Iloilo City into geocoding_iloilo_city
+2026-10-19 12:00:11,752 | INFO | pipeline.main | Raw JSON saved for Iloilo City: /opt/weatherflow/data/raw/openweather/iloilo_city.json
+2026-10-19 12:00:11,768 | INFO | pipeline.main | Weather data transformed for Iloilo City
+2026-10-19 12:00:11,916 | INFO | pipeline.main | Parquet saved for Iloilo City: /opt/weatherflow/data/parquet/openweather/iloilo_city.parquet
+2026-10-19 12:00:11,955 | INFO | pipeline.main | Loaded 1 row(s) for Iloilo City into openweather_iloilo_city.
+2026-10-19 12:00:11,994 | INFO | pipeline.main | Checkpoint updated for Iloilo City.
+2026-10-19 12:00:11,996 | INFO | pipeline.main | Processing city: Cagayan de Oro
+2026-10-19 12:00:12,294 | INFO | pipeline.main | Geocoding loaded for Cagayan de Oro into geocoding_cagayan_de_oro
+2026-10-19 12:00:12,352 | INFO | pipeline.main | Raw JSON saved for Cagayan de Oro: /opt/weatherflow/data/raw/openweather/cagayan_de_oro.json
+2026-10-19 12:00:12,359 | INFO | pipeline.main | Weather data transformed for Cagayan de Oro
+2026-10-19 12:00:12,536 | INFO | pipeline.main | Parquet saved for Cagayan de Oro: /opt/weatherflow/data/parquet/openweather/cagayan_de_oro.parquet
+2026-10-19 12:00:12,624 | INFO | pipeline.main | Loaded 1 row(s) for Cagayan de Oro into openweather_cagayan_de_oro.
+2026-10-19 12:00:12,682 | INFO | pipeline.main | Checkpoint updated for Cagayan de Oro.
+2026-10-19 12:00:12,685 | INFO | pipeline.main | Processing city: Zamboanga City
+2026-10-19 12:00:13,019 | INFO | pipeline.main | Geocoding loaded for Zamboanga City into geocoding_zamboanga_city
+2026-10-19 12:00:13,120 | INFO | pipeline.main | Raw JSON saved for Zamboanga City: /opt/weatherflow/data/raw/openweather/zamboanga_city.json
+2026-10-19 12:00:13,133 | INFO | pipeline.main | Weather data transformed for Zamboanga City
+2026-10-19 12:00:13,288 | INFO | pipeline.main | Parquet saved for Zamboanga City: /opt/weatherflow/data/parquet/openweather/zamboanga_city.parquet
+2026-10-19 12:00:13,340 | INFO | pipeline.main | Loaded 1 row(s) for Zamboanga City into openweather_zamboanga_city.
+2026-10-19 12:00:13,416 | INFO | pipeline.main | Checkpoint updated for Zamboanga City.
+2026-10-19 12:00:13,418 | INFO | pipeline.main | Pipeline summary | total=8 | loaded=8 | skipped=0 | failed=0
+2026-10-19 12:00:13,420 | INFO | pipeline.main | Successfully loaded cities: ['Manila', 'Quezon City', 'Cebu City', 'Davao City', 'Baguio', 'Iloilo City', 'Cagayan de Oro', 'Zamboanga City']
+2026-10-19 12:00:13,422 | INFO | pipeline.main | Weather ingestion completed successfully.
+2026-10-20 10:27:56,354 | INFO | __main__ | Starting Weather Ingestion...
+2026-10-20 10:27:56,358 | INFO | __main__ | Processing city: Manila
+2026-10-20 10:27:56,861 | INFO | __main__ | Geocoding extracted for Manila
+2026-10-20 10:27:56,903 | ERROR | __main__ | Failed to process city: Manila
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.14/site-packages/sqlalchemy/engine/base.py", line 149, in __init__
+    self._dbapi_connection = engine.raw_connection()
+                             ~~~~~~~~~~~~~~~~~~~~~^^
+  File "/usr/local/lib/python3.14/site-packages/sqlalchemy/engine/base.py", line 3284, in raw_connection
+    return self.pool.connect()
+           ~~~~~~~~~~~~~~~~~^^
+  File "/usr/local/lib/python3.14/site-packages/sqlalchemy/pool/base.py", line 445, in connect
+    return _ConnectionFairy._checkout(self)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^
+  File "/usr/local/lib/python3.14/site-packages/sqlalchemy/pool/base.py", line 1303, in _checkout
+    fairy = _ConnectionRecord.checkout(pool)
+  File "/usr/local/lib/python3.14/site-packages/sqlalchemy/pool/base.py", line 709, in checkout
+    rec = pool._do_get()
+  File "/usr/local/lib/python3.14/site-packages/sqlalchemy/pool/impl.py", line 176, in _do_get
+    with util.safe_reraise():
+         ~~~~~~~~~~~~~~~~~^^
+  File "/usr/local/lib/python3.14/site-packages/sqlalchemy/util/langhelpers.py", line 166, in __exit__
+    raise exc_value.with_traceback(exc_tb)
+  File "/usr/local/lib/python3.14/site-packages/sqlalchemy/pool/impl.py", line 174, in _do_get
+    return self._create_connection()
+           ~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "/usr/local/lib/python3.14/site-packages/sqlalchemy/pool/base.py", line 386, in _create_connection
+    return _ConnectionRecord(self)
+  File "/usr/local/lib/python3.14/site-packages/sqlalchemy/pool/base.py", line 671, in __init__
+    self.__connect()
+    ~~~~~~~~~~~~~~^^
+  File "/usr/local/lib/python3.14/site-packages/sqlalchemy/pool/base.py", line 906, in __connect
+    with util.safe_reraise():
+         ~~~~~~~~~~~~~~~~~^^
+  File "/usr/local/lib/python3.14/site-packages/sqlalchemy/util/langhelpers.py", line 166, in __exit__
+    raise exc_value.with_traceback(exc_tb)
+  File "/usr/local/lib/python3.14/site-packages/sqlalchemy/pool/base.py", line 902, in __connect
+    self.dbapi_connection = connection = pool._invoke_creator(self)
+                                         ~~~~~~~~~~~~~~~~~~~~^^^^^^
+  File "/usr/local/lib/python3.14/site-packages/sqlalchemy/engine/create.py", line 645, in connect
+    return dialect.connect(*cargs_tup, **cparams)
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.14/site-packages/sqlalchemy/engine/default.py", line 869, in connect
+    return self.loaded_dbapi.connect(*cargs, **cparams)  # type: ignore[no-any-return]  # NOQA: E501
+           ~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.14/site-packages/psycopg2/__init__.py", line 122, in connect
+    conn = _connect(dsn, connection_factory=connection_factory, **kwasync)
+psycopg2.OperationalError: connection to server at "db" (172.18.0.2), port 5432 failed: FATAL:  password authentication failed for user "weatherflow"
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/app/pipeline/main.py", line 47, in main
+    load_postgresql(geocoding_df, geocoding_table, if_exists="replace")
+    ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/app/pipeline/loaded/load_postresql.py", line 867, in load_postgresql
+    return _load_legacy_table(df, table_name, if_exists=if_exists, engine=engine)
+  File "/app/pipeline/loaded/load_postresql.py", line 453, in _load_legacy_table
+    with engine.begin() as connection:
+         ~~~~~~~~~~~~^^
+  File "/usr/local/lib/python3.14/contextlib.py", line 141, in __enter__
+    return next(self.gen)
+  File "/usr/local/lib/python3.14/site-packages/sqlalchemy/engine/base.py", line 3224, in begin
+    with self.connect() as conn:
+         ~~~~~~~~~~~~^^
+  File "/usr/local/lib/python3.14/site-packages/sqlalchemy/engine/base.py", line 3260, in connect
+    return self._connection_cls(self)
+           ~~~~~~~~~~~~~~~~~~~~^^^^^^
+  File "/usr/local/lib/python3.14/site-packages/sqlalchemy/engine/base.py", line 151, in __init__
+    Connection._handle_dbapi_exception_noconnection(
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        err, dialect, engine
+        ^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/usr/local/lib/python3.14/site-packages/sqlalchemy/engine/base.py", line 2417, in _handle_dbapi_exception_noconnection
+    raise sqlalchemy_exception.with_traceback(exc_info[2]) from e
+  File "/usr/local/lib/python3.14/site-packages/sqlalchemy/engine/base.py", line 149, in __init__
+    self._dbapi_connection = engine.raw_connection()
+                             ~~~~~~~~~~~~~~~~~~~~~^^
+  File "/usr/local/lib/python3.14/site-packages/sqlalchemy/engine/base.py", line 3284, in raw_connection
+    return self.pool.connect()
+           ~~~~~~~~~~~~~~~~~^^
+  File "/usr/local/lib/python3.14/site-packages/sqlalchemy/pool/base.py", line 445, in connect
+    return _ConnectionFairy._checkout(self)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^
+  File "/usr/local/lib/python3.14/site-packages/sqlalchemy/pool/base.py", line 1303, in _checkout
+    fairy = _ConnectionRecord.checkout(pool)
+  File "/usr/local/lib/python3.14/site-packages/sqlalchemy/pool/base.py", line 709, in checkout
+    rec = pool._do_get()
+  File "/usr/local/lib/python3.14/site-packages/sqlalchemy/pool/impl.py", line 176, in _do_get
+    with util.safe_reraise():
+         ~~~~~~~~~~~~~~~~~^^
+  File "/usr/local/lib/python3.14/site-packages/sqlalchemy/util/langhelpers.py", line 166, in __exit__
+    raise exc_value.with_traceback(exc_tb)
+  File "/usr/local/lib/python3.14/site-packages/sqlalchemy/pool/impl.py", line 174, in _do_get
+    return self._create_connection()
+           ~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "/usr/local/lib/python3.14/site-packages/sqlalchemy/pool/base.py", line 386, in _create_connection
+    return _ConnectionRecord(self)
+  File "/usr/local/lib/python3.14/site-packages/sqlalchemy/pool/base.py", line 671, in __init__
+    self.__connect()
+    ~~~~~~~~~~~~~~^^
+  File "/usr/local/lib/python3.14/site-packages/sqlalchemy/pool/base.py", line 906, in __connect
+    with util.safe_reraise():
+         ~~~~~~~~~~~~~~~~~^^
+  File "/usr/local/lib/python3.14/site-packages/sqlalchemy/util/langhelpers.py", line 166, in __exit__
+    raise exc_value.with_traceback(exc_tb)
+  File "/usr/local/lib/python3.14/site-packages/sqlalchemy/pool/base.py", line 902, in __connect
+    self.dbapi_connection = connection = pool._invoke_creator(self)
+                                         ~~~~~~~~~~~~~~~~~~~~^^^^^^
+  File "/usr/local/lib/python3.14/site-packages/sqlalchemy/engine/create.py", line 645, in connect
+    return dialect.connect(*cargs_tup, **cparams)
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.14/site-packages/sqlalchemy/engine/default.py", line 869, in connect
+    return self.loaded_dbapi.connect(*cargs, **cparams)  # type: ignore[no-any-return]  # NOQA: E501
+           ~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.14/site-packages/psycopg2/__init__.py", line 122, in connect
+    conn = _connect(dsn, connection_factory=connection_factory, **kwasync)
+sqlalchemy.exc.OperationalError: (psycopg2.OperationalError) connection to server at "db" (172.18.0.2), port 5432 failed: FATAL:  password authentication failed for user "weatherflow"
+
+(Background on this error at: https://sqlalche.me/e/21/e3q8)
+2026-10-20 10:27:56,922 | INFO | __main__ | Processing city: Quezon City
+2026-10-20 10:27:57,241 | INFO | __main__ | Geocoding extracted for Quezon City
+2026-10-20 10:27:57,260 | ERROR | __main__ | Failed to process city: Quezon City
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.14/site-packages/sqlalchemy/engine/base.py", line 149, in __init__
+    self._dbapi_connection = engine.raw_connection()
+                             ~~~~~~~~~~~~~~~~~~~~~^^
+  File "/usr/local/lib/python3.14/site-packages/sqlalchemy/engine/base.py", line 3284, in raw_connection
+    return self.pool.connect()
+           ~~~~~~~~~~~~~~~~~^^
+  File "/usr/local/lib/python3.14/site-packages/sqlalchemy/pool/base.py", line 445, in connect
+    return _ConnectionFairy._checkout(self)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^
+  File "/usr/local/lib/python3.14/site-packages/sqlalchemy/pool/base.py", line 1303, in _checkout
+    fairy = _ConnectionRecord.checkout(pool)
+  File "/usr/local/lib/python3.14/site-packages/sqlalchemy/pool/base.py", line 709, in checkout
+    rec = pool._do_get()
+  File "/usr/local/lib/python3.14/site-packages/sqlalchemy/pool/impl.py", line 176, in _do_get
+    with util.safe_reraise():
+         ~~~~~~~~~~~~~~~~~^^
+  File "/usr/local/lib/python3.14/site-packages/sqlalchemy/util/langhelpers.py", line 166, in __exit__
+    raise exc_value.with_traceback(exc_tb)
+  File "/usr/local/lib/python3.14/site-packages/sqlalchemy/pool/impl.py", line 174, in _do_get
+    return self._create_connection()
+           ~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "/usr/local/lib/python3.14/site-packages/sqlalchemy/pool/base.py", line 386, in _create_connection
+    return _ConnectionRecord(self)
+  File "/usr/local/lib/python3.14/site-packages/sqlalchemy/pool/base.py", line 671, in __init__
+    self.__connect()
+    ~~~~~~~~~~~~~~^^
+  File "/usr/local/lib/python3.14/site-packages/sqlalchemy/pool/base.py", line 906, in __connect
+    with util.safe_reraise():
+         ~~~~~~~~~~~~~~~~~^^
+  File "/usr/local/lib/python3.14/site-packages/sqlalchemy/util/langhelpers.py", line 166, in __exit__
+    raise exc_value.with_traceback(exc_tb)
+  File "/usr/local/lib/python3.14/site-packages/sqlalchemy/pool/base.py", line 902, in __connect
+    self.dbapi_connection = connection = pool._invoke_creator(self)
+                                         ~~~~~~~~~~~~~~~~~~~~^^^^^^
+  File "/usr/local/lib/python3.14/site-packages/sqlalchemy/engine/create.py", line 645, in connect
+    return dialect.connect(*cargs_tup, **cparams)
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.14/site-packages/sqlalchemy/engine/default.py", line 869, in connect
+    return self.loaded_dbapi.connect(*cargs, **cparams)  # type: ignore[no-any-return]  # NOQA: E501
+           ~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.14/site-packages/psycopg2/__init__.py", line 122, in connect
+    conn = _connect(dsn, connection_factory=connection_factory, **kwasync)
+psycopg2.OperationalError: connection to server at "db" (172.18.0.2), port 5432 failed: FATAL:  password authentication failed for user "weatherflow"
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/app/pipeline/main.py", line 47, in main
+    load_postgresql(geocoding_df, geocoding_table, if_exists="replace")
+    ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/app/pipeline/loaded/load_postresql.py", line 867, in load_postgresql
+    return _load_legacy_table(df, table_name, if_exists=if_exists, engine=engine)
+  File "/app/pipeline/loaded/load_postresql.py", line 453, in _load_legacy_table
+    with engine.begin() as connection:
+         ~~~~~~~~~~~~^^
+  File "/usr/local/lib/python3.14/contextlib.py", line 141, in __enter__
+    return next(self.gen)
+  File "/usr/local/lib/python3.14/site-packages/sqlalchemy/engine/base.py", line 3224, in begin
+    with self.connect() as conn:
+         ~~~~~~~~~~~~^^
+  File "/usr/local/lib/python3.14/site-packages/sqlalchemy/engine/base.py", line 3260, in connect
+    return self._connection_cls(self)
+           ~~~~~~~~~~~~~~~~~~~~^^^^^^
+  File "/usr/local/lib/python3.14/site-packages/sqlalchemy/engine/base.py", line 151, in __init__
+    Connection._handle_dbapi_exception_noconnection(
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        err, dialect, engine
+        ^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/usr/local/lib/python3.14/site-packages/sqlalchemy/engine/base.py", line 2417, in _handle_dbapi_exception_noconnection
+    raise sqlalchemy_exception.with_traceback(exc_info[2]) from e
+  File "/usr/local/lib/python3.14/site-packages/sqlalchemy/engine/base.py", line 149, in __init__
+    self._dbapi_connection = engine.raw_connection()
+                             ~~~~~~~~~~~~~~~~~~~~~^^
+  File "/usr/local/lib/python3.14/site-packages/sqlalchemy/engine/base.py", line 3284, in raw_connection
+    return self.pool.connect()
+           ~~~~~~~~~~~~~~~~~^^
+  File "/usr/local/lib/python3.14/site-packages/sqlalchemy/pool/base.py", line 445, in connect
+    return _ConnectionFairy._checkout(self)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^
+  File "/usr/local/lib/python3.14/site-packages/sqlalchemy/pool/base.py", line 1303, in _checkout
+    fairy = _ConnectionRecord.checkout(pool)
+  File "/usr/local/lib/python3.14/site-packages/sqlalchemy/pool/base.py", line 709, in checkout
+    rec = pool._do_get()
+  File "/usr/local/lib/python3.14/site-packages/sqlalchemy/pool/impl.py", line 176, in _do_get
+    with util.safe_reraise():
+         ~~~~~~~~~~~~~~~~~^^
+  File "/usr/local/lib/python3.14/site-packages/sqlalchemy/util/langhelpers.py", line 166, in __exit__
+    raise exc_value.with_traceback(exc_tb)
+  File "/usr/local/lib/python3.14/site-packages/sqlalchemy/pool/impl.py", line 174, in _do_get
+    return self._create_connection()
+           ~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "/usr/local/lib/python3.14/site-packages/sqlalchemy/pool/base.py", line 386, in _create_connection
+    return _ConnectionRecord(self)
+  File "/usr/local/lib/python3.14/site-packages/sqlalchemy/pool/base.py", line 671, in __init__
+    self.__connect()
+    ~~~~~~~~~~~~~~^^
+  File "/usr/local/lib/python3.14/site-packages/sqlalchemy/pool/base.py", line 906, in __connect
+    with util.safe_reraise():
+         ~~~~~~~~~~~~~~~~~^^
+  File "/usr/local/lib/python3.14/site-packages/sqlalchemy/util/langhelpers.py", line 166, in __exit__
+    raise exc_value.with_traceback(exc_tb)
+  File "/usr/local/lib/python3.14/site-packages/sqlalchemy/pool/base.py", line 902, in __connect
+    self.dbapi_connection = connection = pool._invoke_creator(self)
+                                         ~~~~~~~~~~~~~~~~~~~~^^^^^^
+  File "/usr/local/lib/python3.14/site-packages/sqlalchemy/engine/create.py", line 645, in connect
+    return dialect.connect(*cargs_tup, **cparams)
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.14/site-packages/sqlalchemy/engine/default.py", line 869, in connect
+    return self.loaded_dbapi.connect(*cargs, **cparams)  # type: ignore[no-any-return]  # NOQA: E501
+           ~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.14/site-packages/psycopg2/__init__.py", line 122, in connect
+    conn = _connect(dsn, connection_factory=connection_factory, **kwasync)
+sqlalchemy.exc.OperationalError: (psycopg2.OperationalError) connection to server at "db" (172.18.0.2), port 5432 failed: FATAL:  password authentication failed for user "weatherflow"
+
+(Background on this error at: https://sqlalche.me/e/21/e3q8)
+2026-10-20 10:27:57,272 | INFO | __main__ | Processing city: Cebu City
+2026-10-20 10:27:57,583 | INFO | __main__ | Geocoding extracted for Cebu City
+2026-10-20 10:27:57,597 | ERROR | __main__ | Failed to process city: Cebu City
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.14/site-packages/sqlalchemy/engine/base.py", line 149, in __init__
+    self._dbapi_connection = engine.raw_connection()
+                             ~~~~~~~~~~~~~~~~~~~~~^^
+  File "/usr/local/lib/python3.14/site-packages/sqlalchemy/engine/base.py", line 3284, in raw_connection
+    return self.pool.connect()
+           ~~~~~~~~~~~~~~~~~^^
+  File "/usr/local/lib/python3.14/site-packages/sqlalchemy/pool/base.py", line 445, in connect
+    return _ConnectionFairy._checkout(self)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^
+  File "/usr/local/lib/python3.14/site-packages/sqlalchemy/pool/base.py", line 1303, in _checkout
+    fairy = _ConnectionRecord.checkout(pool)
+  File "/usr/local/lib/python3.14/site-packages/sqlalchemy/pool/base.py", line 709, in checkout
+    rec = pool._do_get()
+  File "/usr/local/lib/python3.14/site-packages/sqlalchemy/pool/impl.py", line 176, in _do_get
+    with util.safe_reraise():
+         ~~~~~~~~~~~~~~~~~^^
+  File "/usr/local/lib/python3.14/site-packages/sqlalchemy/util/langhelpers.py", line 166, in __exit__
+    raise exc_value.with_traceback(exc_tb)
+  File "/usr/local/lib/python3.14/site-packages/sqlalchemy/pool/impl.py", line 174, in _do_get
+    return self._create_connection()
+           ~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "/usr/local/lib/python3.14/site-packages/sqlalchemy/pool/base.py", line 386, in _create_connection
+    return _ConnectionRecord(self)
+  File "/usr/local/lib/python3.14/site-packages/sqlalchemy/pool/base.py", line 671, in __init__
+    self.__connect()
+    ~~~~~~~~~~~~~~^^
+  File "/usr/local/lib/python3.14/site-packages/sqlalchemy/pool/base.py", line 906, in __connect
+    with util.safe_reraise():
+         ~~~~~~~~~~~~~~~~~^^
+  File "/usr/local/lib/python3.14/site-packages/sqlalchemy/util/langhelpers.py", line 166, in __exit__
+    raise exc_value.with_traceback(exc_tb)
+  File "/usr/local/lib/python3.14/site-packages/sqlalchemy/pool/base.py", line 902, in __connect
+    self.dbapi_connection = connection = pool._invoke_creator(self)
+                                         ~~~~~~~~~~~~~~~~~~~~^^^^^^
+  File "/usr/local/lib/python3.14/site-packages/sqlalchemy/engine/create.py", line 645, in connect
+    return dialect.connect(*cargs_tup, **cparams)
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.14/site-packages/sqlalchemy/engine/default.py", line 869, in connect
+    return self.loaded_dbapi.connect(*cargs, **cparams)  # type: ignore[no-any-return]  # NOQA: E501
+           ~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.14/site-packages/psycopg2/__init__.py", line 122, in connect
+    conn = _connect(dsn, connection_factory=connection_factory, **kwasync)
+psycopg2.OperationalError: connection to server at "db" (172.18.0.2), port 5432 failed: FATAL:  password authentication failed for user "weatherflow"
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/app/pipeline/main.py", line 47, in main
+    load_postgresql(geocoding_df, geocoding_table, if_exists="replace")
+    ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/app/pipeline/loaded/load_postresql.py", line 867, in load_postgresql
+    return _load_legacy_table(df, table_name, if_exists=if_exists, engine=engine)
+  File "/app/pipeline/loaded/load_postresql.py", line 453, in _load_legacy_table
+    with engine.begin() as connection:
+         ~~~~~~~~~~~~^^
+  File "/usr/local/lib/python3.14/contextlib.py", line 141, in __enter__
+    return next(self.gen)
+  File "/usr/local/lib/python3.14/site-packages/sqlalchemy/engine/base.py", line 3224, in begin
+    with self.connect() as conn:
+         ~~~~~~~~~~~~^^
+  File "/usr/local/lib/python3.14/site-packages/sqlalchemy/engine/base.py", line 3260, in connect
+    return self._connection_cls(self)
+           ~~~~~~~~~~~~~~~~~~~~^^^^^^
+  File "/usr/local/lib/python3.14/site-packages/sqlalchemy/engine/base.py", line 151, in __init__
+    Connection._handle_dbapi_exception_noconnection(
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        err, dialect, engine
+        ^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/usr/local/lib/python3.14/site-packages/sqlalchemy/engine/base.py", line 2417, in _handle_dbapi_exception_noconnection
+    raise sqlalchemy_exception.with_traceback(exc_info[2]) from e
+  File "/usr/local/lib/python3.14/site-packages/sqlalchemy/engine/base.py", line 149, in __init__
+    self._dbapi_connection = engine.raw_connection()
+                             ~~~~~~~~~~~~~~~~~~~~~^^
+  File "/usr/local/lib/python3.14/site-packages/sqlalchemy/engine/base.py", line 3284, in raw_connection
+    return self.pool.connect()
+           ~~~~~~~~~~~~~~~~~^^
+  File "/usr/local/lib/python3.14/site-packages/sqlalchemy/pool/base.py", line 445, in connect
+    return _ConnectionFairy._checkout(self)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^
+  File "/usr/local/lib/python3.14/site-packages/sqlalchemy/pool/base.py", line 1303, in _checkout
+    fairy = _ConnectionRecord.checkout(pool)
+  File "/usr/local/lib/python3.14/site-packages/sqlalchemy/pool/base.py", line 709, in checkout
+    rec = pool._do_get()
+  File "/usr/local/lib/python3.14/site-packages/sqlalchemy/pool/impl.py", line 176, in _do_get
+    with util.safe_reraise():
+         ~~~~~~~~~~~~~~~~~^^
+  File "/usr/local/lib/python3.14/site-packages/sqlalchemy/util/langhelpers.py", line 166, in __exit__
+    raise exc_value.with_traceback(exc_tb)
+  File "/usr/local/lib/python3.14/site-packages/sqlalchemy/pool/impl.py", line 174, in _do_get
+    return self._create_connection()
+           ~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "/usr/local/lib/python3.14/site-packages/sqlalchemy/pool/base.py", line 386, in _create_connection
+    return _ConnectionRecord(self)
+  File "/usr/local/lib/python3.14/site-packages/sqlalchemy/pool/base.py", line 671, in __init__
+    self.__connect()
+    ~~~~~~~~~~~~~~^^
+  File "/usr/local/lib/python3.14/site-packages/sqlalchemy/pool/base.py", line 906, in __connect
+    with util.safe_reraise():
+         ~~~~~~~~~~~~~~~~~^^
+  File "/usr/local/lib/python3.14/site-packages/sqlalchemy/util/langhelpers.py", line 166, in __exit__
+    raise exc_value.with_traceback(exc_tb)
+  File "/usr/local/lib/python3.14/site-packages/sqlalchemy/pool/base.py", line 902, in __connect
+    self.dbapi_connection = connection = pool._invoke_creator(self)
+                                         ~~~~~~~~~~~~~~~~~~~~^^^^^^
+  File "/usr/local/lib/python3.14/site-packages/sqlalchemy/engine/create.py", line 645, in connect
+    return dialect.connect(*cargs_tup, **cparams)
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.14/site-packages/sqlalchemy/engine/default.py", line 869, in connect
+    return self.loaded_dbapi.connect(*cargs, **cparams)  # type: ignore[no-any-return]  # NOQA: E501
+           ~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.14/site-packages/psycopg2/__init__.py", line 122, in connect
+    conn = _connect(dsn, connection_factory=connection_factory, **kwasync)
+sqlalchemy.exc.OperationalError: (psycopg2.OperationalError) connection to server at "db" (172.18.0.2), port 5432 failed: FATAL:  password authentication failed for user "weatherflow"
+
+(Background on this error at: https://sqlalche.me/e/21/e3q8)
+2026-10-20 10:27:57,606 | INFO | __main__ | Processing city: Davao City
+2026-10-20 10:27:57,850 | INFO | __main__ | Geocoding extracted for Davao City
+2026-10-20 10:27:57,862 | ERROR | __main__ | Failed to process city: Davao City
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.14/site-packages/sqlalchemy/engine/base.py", line 149, in __init__
+    self._dbapi_connection = engine.raw_connection()
+                             ~~~~~~~~~~~~~~~~~~~~~^^
+  File "/usr/local/lib/python3.14/site-packages/sqlalchemy/engine/base.py", line 3284, in raw_connection
+    return self.pool.connect()
+           ~~~~~~~~~~~~~~~~~^^
+  File "/usr/local/lib/python3.14/site-packages/sqlalchemy/pool/base.py", line 445, in connect
+    return _ConnectionFairy._checkout(self)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^
+  File "/usr/local/lib/python3.14/site-packages/sqlalchemy/pool/base.py", line 1303, in _checkout
+    fairy = _ConnectionRecord.checkout(pool)
+  File "/usr/local/lib/python3.14/site-packages/sqlalchemy/pool/base.py", line 709, in checkout
+    rec = pool._do_get()
+  File "/usr/local/lib/python3.14/site-packages/sqlalchemy/pool/impl.py", line 176, in _do_get
+    with util.safe_reraise():
+         ~~~~~~~~~~~~~~~~~^^
+  File "/usr/local/lib/python3.14/site-packages/sqlalchemy/util/langhelpers.py", line 166, in __exit__
+    raise exc_value.with_traceback(exc_tb)
+  File "/usr/local/lib/python3.14/site-packages/sqlalchemy/pool/impl.py", line 174, in _do_get
+    return self._create_connection()
+           ~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "/usr/local/lib/python3.14/site-packages/sqlalchemy/pool/base.py", line 386, in _create_connection
+    return _ConnectionRecord(self)
+  File "/usr/local/lib/python3.14/site-packages/sqlalchemy/pool/base.py", line 671, in __init__
+    self.__connect()
+    ~~~~~~~~~~~~~~^^
+  File "/usr/local/lib/python3.14/site-packages/sqlalchemy/pool/base.py", line 906, in __connect
+    with util.safe_reraise():
+         ~~~~~~~~~~~~~~~~~^^
+  File "/usr/local/lib/python3.14/site-packages/sqlalchemy/util/langhelpers.py", line 166, in __exit__
+    raise exc_value.with_traceback(exc_tb)
+  File "/usr/local/lib/python3.14/site-packages/sqlalchemy/pool/base.py", line 902, in __connect
+    self.dbapi_connection = connection = pool._invoke_creator(self)
+                                         ~~~~~~~~~~~~~~~~~~~~^^^^^^
+  File "/usr/local/lib/python3.14/site-packages/sqlalchemy/engine/create.py", line 645, in connect
+    return dialect.connect(*cargs_tup, **cparams)
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.14/site-packages/sqlalchemy/engine/default.py", line 869, in connect
+    return self.loaded_dbapi.connect(*cargs, **cparams)  # type: ignore[no-any-return]  # NOQA: E501
+           ~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.14/site-packages/psycopg2/__init__.py", line 122, in connect
+    conn = _connect(dsn, connection_factory=connection_factory, **kwasync)
+psycopg2.OperationalError: connection to server at "db" (172.18.0.2), port 5432 failed: FATAL:  password authentication failed for user "weatherflow"
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/app/pipeline/main.py", line 47, in main
+    load_postgresql(geocoding_df, geocoding_table, if_exists="replace")
+    ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/app/pipeline/loaded/load_postresql.py", line 867, in load_postgresql
+    return _load_legacy_table(df, table_name, if_exists=if_exists, engine=engine)
+  File "/app/pipeline/loaded/load_postresql.py", line 453, in _load_legacy_table
+    with engine.begin() as connection:
+         ~~~~~~~~~~~~^^
+  File "/usr/local/lib/python3.14/contextlib.py", line 141, in __enter__
+    return next(self.gen)
+  File "/usr/local/lib/python3.14/site-packages/sqlalchemy/engine/base.py", line 3224, in begin
+    with self.connect() as conn:
+         ~~~~~~~~~~~~^^
+  File "/usr/local/lib/python3.14/site-packages/sqlalchemy/engine/base.py", line 3260, in connect
+    return self._connection_cls(self)
+           ~~~~~~~~~~~~~~~~~~~~^^^^^^
+  File "/usr/local/lib/python3.14/site-packages/sqlalchemy/engine/base.py", line 151, in __init__
+    Connection._handle_dbapi_exception_noconnection(
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        err, dialect, engine
+        ^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/usr/local/lib/python3.14/site-packages/sqlalchemy/engine/base.py", line 2417, in _handle_dbapi_exception_noconnection
+    raise sqlalchemy_exception.with_traceback(exc_info[2]) from e
+  File "/usr/local/lib/python3.14/site-packages/sqlalchemy/engine/base.py", line 149, in __init__
+    self._dbapi_connection = engine.raw_connection()
+                             ~~~~~~~~~~~~~~~~~~~~~^^
+  File "/usr/local/lib/python3.14/site-packages/sqlalchemy/engine/base.py", line 3284, in raw_connection
+    return self.pool.connect()
+           ~~~~~~~~~~~~~~~~~^^
+  File "/usr/local/lib/python3.14/site-packages/sqlalchemy/pool/base.py", line 445, in connect
+    return _ConnectionFairy._checkout(self)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^
+  File "/usr/local/lib/python3.14/site-packages/sqlalchemy/pool/base.py", line 1303, in _checkout
+    fairy = _ConnectionRecord.checkout(pool)
+  File "/usr/local/lib/python3.14/site-packages/sqlalchemy/pool/base.py", line 709, in checkout
+    rec = pool._do_get()
+  File "/usr/local/lib/python3.14/site-packages/sqlalchemy/pool/impl.py", line 176, in _do_get
+    with util.safe_reraise():
+         ~~~~~~~~~~~~~~~~~^^
+  File "/usr/local/lib/python3.14/site-packages/sqlalchemy/util/langhelpers.py", line 166, in __exit__
+    raise exc_value.with_traceback(exc_tb)
+  File "/usr/local/lib/python3.14/site-packages/sqlalchemy/pool/impl.py", line 174, in _do_get
+    return self._create_connection()
+           ~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "/usr/local/lib/python3.14/site-packages/sqlalchemy/pool/base.py", line 386, in _create_connection
+    return _ConnectionRecord(self)
+  File "/usr/local/lib/python3.14/site-packages/sqlalchemy/pool/base.py", line 671, in __init__
+    self.__connect()
+    ~~~~~~~~~~~~~~^^
+  File "/usr/local/lib/python3.14/site-packages/sqlalchemy/pool/base.py", line 906, in __connect
+    with util.safe_reraise():
+         ~~~~~~~~~~~~~~~~~^^
+  File "/usr/local/lib/python3.14/site-packages/sqlalchemy/util/langhelpers.py", line 166, in __exit__
+    raise exc_value.with_traceback(exc_tb)
+  File "/usr/local/lib/python3.14/site-packages/sqlalchemy/pool/base.py", line 902, in __connect
+    self.dbapi_connection = connection = pool._invoke_creator(self)
+                                         ~~~~~~~~~~~~~~~~~~~~^^^^^^
+  File "/usr/local/lib/python3.14/site-packages/sqlalchemy/engine/create.py", line 645, in connect
+    return dialect.connect(*cargs_tup, **cparams)
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.14/site-packages/sqlalchemy/engine/default.py", line 869, in connect
+    return self.loaded_dbapi.connect(*cargs, **cparams)  # type: ignore[no-any-return]  # NOQA: E501
+           ~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.14/site-packages/psycopg2/__init__.py", line 122, in connect
+    conn = _connect(dsn, connection_factory=connection_factory, **kwasync)
+sqlalchemy.exc.OperationalError: (psycopg2.OperationalError) connection to server at "db" (172.18.0.2), port 5432 failed: FATAL:  password authentication failed for user "weatherflow"
+
+(Background on this error at: https://sqlalche.me/e/21/e3q8)
+2026-10-20 10:27:57,870 | INFO | __main__ | Processing city: Baguio
+2026-10-20 10:27:58,160 | INFO | __main__ | Geocoding extracted for Baguio
+2026-10-20 10:27:58,173 | ERROR | __main__ | Failed to process city: Baguio
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.14/site-packages/sqlalchemy/engine/base.py", line 149, in __init__
+    self._dbapi_connection = engine.raw_connection()
+                             ~~~~~~~~~~~~~~~~~~~~~^^
+  File "/usr/local/lib/python3.14/site-packages/sqlalchemy/engine/base.py", line 3284, in raw_connection
+    return self.pool.connect()
+           ~~~~~~~~~~~~~~~~~^^
+  File "/usr/local/lib/python3.14/site-packages/sqlalchemy/pool/base.py", line 445, in connect
+    return _ConnectionFairy._checkout(self)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^
+  File "/usr/local/lib/python3.14/site-packages/sqlalchemy/pool/base.py", line 1303, in _checkout
+    fairy = _ConnectionRecord.checkout(pool)
+  File "/usr/local/lib/python3.14/site-packages/sqlalchemy/pool/base.py", line 709, in checkout
+    rec = pool._do_get()
+  File "/usr/local/lib/python3.14/site-packages/sqlalchemy/pool/impl.py", line 176, in _do_get
+    with util.safe_reraise():
+         ~~~~~~~~~~~~~~~~~^^
+  File "/usr/local/lib/python3.14/site-packages/sqlalchemy/util/langhelpers.py", line 166, in __exit__
+    raise exc_value.with_traceback(exc_tb)
+  File "/usr/local/lib/python3.14/site-packages/sqlalchemy/pool/impl.py", line 174, in _do_get
+    return self._create_connection()
+           ~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "/usr/local/lib/python3.14/site-packages/sqlalchemy/pool/base.py", line 386, in _create_connection
+    return _ConnectionRecord(self)
+  File "/usr/local/lib/python3.14/site-packages/sqlalchemy/pool/base.py", line 671, in __init__
+    self.__connect()
+    ~~~~~~~~~~~~~~^^
+  File "/usr/local/lib/python3.14/site-packages/sqlalchemy/pool/base.py", line 906, in __connect
+    with util.safe_reraise():
+         ~~~~~~~~~~~~~~~~~^^
+  File "/usr/local/lib/python3.14/site-packages/sqlalchemy/util/langhelpers.py", line 166, in __exit__
+    raise exc_value.with_traceback(exc_tb)
+  File "/usr/local/lib/python3.14/site-packages/sqlalchemy/pool/base.py", line 902, in __connect
+    self.dbapi_connection = connection = pool._invoke_creator(self)
+                                         ~~~~~~~~~~~~~~~~~~~~^^^^^^
+  File "/usr/local/lib/python3.14/site-packages/sqlalchemy/engine/create.py", line 645, in connect
+    return dialect.connect(*cargs_tup, **cparams)
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.14/site-packages/sqlalchemy/engine/default.py", line 869, in connect
+    return self.loaded_dbapi.connect(*cargs, **cparams)  # type: ignore[no-any-return]  # NOQA: E501
+           ~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.14/site-packages/psycopg2/__init__.py", line 122, in connect
+    conn = _connect(dsn, connection_factory=connection_factory, **kwasync)
+psycopg2.OperationalError: connection to server at "db" (172.18.0.2), port 5432 failed: FATAL:  password authentication failed for user "weatherflow"
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/app/pipeline/main.py", line 47, in main
+    load_postgresql(geocoding_df, geocoding_table, if_exists="replace")
+    ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/app/pipeline/loaded/load_postresql.py", line 867, in load_postgresql
+    return _load_legacy_table(df, table_name, if_exists=if_exists, engine=engine)
+  File "/app/pipeline/loaded/load_postresql.py", line 453, in _load_legacy_table
+    with engine.begin() as connection:
+         ~~~~~~~~~~~~^^
+  File "/usr/local/lib/python3.14/contextlib.py", line 141, in __enter__
+    return next(self.gen)
+  File "/usr/local/lib/python3.14/site-packages/sqlalchemy/engine/base.py", line 3224, in begin
+    with self.connect() as conn:
+         ~~~~~~~~~~~~^^
+  File "/usr/local/lib/python3.14/site-packages/sqlalchemy/engine/base.py", line 3260, in connect
+    return self._connection_cls(self)
+           ~~~~~~~~~~~~~~~~~~~~^^^^^^
+  File "/usr/local/lib/python3.14/site-packages/sqlalchemy/engine/base.py", line 151, in __init__
+    Connection._handle_dbapi_exception_noconnection(
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        err, dialect, engine
+        ^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/usr/local/lib/python3.14/site-packages/sqlalchemy/engine/base.py", line 2417, in _handle_dbapi_exception_noconnection
+    raise sqlalchemy_exception.with_traceback(exc_info[2]) from e
+  File "/usr/local/lib/python3.14/site-packages/sqlalchemy/engine/base.py", line 149, in __init__
+    self._dbapi_connection = engine.raw_connection()
+                             ~~~~~~~~~~~~~~~~~~~~~^^
+  File "/usr/local/lib/python3.14/site-packages/sqlalchemy/engine/base.py", line 3284, in raw_connection
+    return self.pool.connect()
+           ~~~~~~~~~~~~~~~~~^^
+  File "/usr/local/lib/python3.14/site-packages/sqlalchemy/pool/base.py", line 445, in connect
+    return _ConnectionFairy._checkout(self)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^
+  File "/usr/local/lib/python3.14/site-packages/sqlalchemy/pool/base.py", line 1303, in _checkout
+    fairy = _ConnectionRecord.checkout(pool)
+  File "/usr/local/lib/python3.14/site-packages/sqlalchemy/pool/base.py", line 709, in checkout
+    rec = pool._do_get()
+  File "/usr/local/lib/python3.14/site-packages/sqlalchemy/pool/impl.py", line 176, in _do_get
+    with util.safe_reraise():
+         ~~~~~~~~~~~~~~~~~^^
+  File "/usr/local/lib/python3.14/site-packages/sqlalchemy/util/langhelpers.py", line 166, in __exit__
+    raise exc_value.with_traceback(exc_tb)
+  File "/usr/local/lib/python3.14/site-packages/sqlalchemy/pool/impl.py", line 174, in _do_get
+    return self._create_connection()
+           ~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "/usr/local/lib/python3.14/site-packages/sqlalchemy/pool/base.py", line 386, in _create_connection
+    return _ConnectionRecord(self)
+  File "/usr/local/lib/python3.14/site-packages/sqlalchemy/pool/base.py", line 671, in __init__
+    self.__connect()
+    ~~~~~~~~~~~~~~^^
+  File "/usr/local/lib/python3.14/site-packages/sqlalchemy/pool/base.py", line 906, in __connect
+    with util.safe_reraise():
+         ~~~~~~~~~~~~~~~~~^^
+  File "/usr/local/lib/python3.14/site-packages/sqlalchemy/util/langhelpers.py", line 166, in __exit__
+    raise exc_value.with_traceback(exc_tb)
+  File "/usr/local/lib/python3.14/site-packages/sqlalchemy/pool/base.py", line 902, in __connect
+    self.dbapi_connection = connection = pool._invoke_creator(self)
+                                         ~~~~~~~~~~~~~~~~~~~~^^^^^^
+  File "/usr/local/lib/python3.14/site-packages/sqlalchemy/engine/create.py", line 645, in connect
+    return dialect.connect(*cargs_tup, **cparams)
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.14/site-packages/sqlalchemy/engine/default.py", line 869, in connect
+    return self.loaded_dbapi.connect(*cargs, **cparams)  # type: ignore[no-any-return]  # NOQA: E501
+           ~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.14/site-packages/psycopg2/__init__.py", line 122, in connect
+    conn = _connect(dsn, connection_factory=connection_factory, **kwasync)
+sqlalchemy.exc.OperationalError: (psycopg2.OperationalError) connection to server at "db" (172.18.0.2), port 5432 failed: FATAL:  password authentication failed for user "weatherflow"
+
+(Background on this error at: https://sqlalche.me/e/21/e3q8)
+2026-10-20 10:27:58,182 | INFO | __main__ | Processing city: Iloilo City
+2026-10-20 10:27:58,429 | INFO | __main__ | Geocoding extracted for Iloilo City
+2026-10-20 10:27:58,442 | ERROR | __main__ | Failed to process city: Iloilo City
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.14/site-packages/sqlalchemy/engine/base.py", line 149, in __init__
+    self._dbapi_connection = engine.raw_connection()
+                             ~~~~~~~~~~~~~~~~~~~~~^^
+  File "/usr/local/lib/python3.14/site-packages/sqlalchemy/engine/base.py", line 3284, in raw_connection
+    return self.pool.connect()
+           ~~~~~~~~~~~~~~~~~^^
+  File "/usr/local/lib/python3.14/site-packages/sqlalchemy/pool/base.py", line 445, in connect
+    return _ConnectionFairy._checkout(self)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^
+  File "/usr/local/lib/python3.14/site-packages/sqlalchemy/pool/base.py", line 1303, in _checkout
+    fairy = _ConnectionRecord.checkout(pool)
+  File "/usr/local/lib/python3.14/site-packages/sqlalchemy/pool/base.py", line 709, in checkout
+    rec = pool._do_get()
+  File "/usr/local/lib/python3.14/site-packages/sqlalchemy/pool/impl.py", line 176, in _do_get
+    with util.safe_reraise():
+         ~~~~~~~~~~~~~~~~~^^
+  File "/usr/local/lib/python3.14/site-packages/sqlalchemy/util/langhelpers.py", line 166, in __exit__
+    raise exc_value.with_traceback(exc_tb)
+  File "/usr/local/lib/python3.14/site-packages/sqlalchemy/pool/impl.py", line 174, in _do_get
+    return self._create_connection()
+           ~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "/usr/local/lib/python3.14/site-packages/sqlalchemy/pool/base.py", line 386, in _create_connection
+    return _ConnectionRecord(self)
+  File "/usr/local/lib/python3.14/site-packages/sqlalchemy/pool/base.py", line 671, in __init__
+    self.__connect()
+    ~~~~~~~~~~~~~~^^
+  File "/usr/local/lib/python3.14/site-packages/sqlalchemy/pool/base.py", line 906, in __connect
+    with util.safe_reraise():
+         ~~~~~~~~~~~~~~~~~^^
+  File "/usr/local/lib/python3.14/site-packages/sqlalchemy/util/langhelpers.py", line 166, in __exit__
+    raise exc_value.with_traceback(exc_tb)
+  File "/usr/local/lib/python3.14/site-packages/sqlalchemy/pool/base.py", line 902, in __connect
+    self.dbapi_connection = connection = pool._invoke_creator(self)
+                                         ~~~~~~~~~~~~~~~~~~~~^^^^^^
+  File "/usr/local/lib/python3.14/site-packages/sqlalchemy/engine/create.py", line 645, in connect
+    return dialect.connect(*cargs_tup, **cparams)
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.14/site-packages/sqlalchemy/engine/default.py", line 869, in connect
+    return self.loaded_dbapi.connect(*cargs, **cparams)  # type: ignore[no-any-return]  # NOQA: E501
+           ~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.14/site-packages/psycopg2/__init__.py", line 122, in connect
+    conn = _connect(dsn, connection_factory=connection_factory, **kwasync)
+psycopg2.OperationalError: connection to server at "db" (172.18.0.2), port 5432 failed: FATAL:  password authentication failed for user "weatherflow"
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/app/pipeline/main.py", line 47, in main
+    load_postgresql(geocoding_df, geocoding_table, if_exists="replace")
+    ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/app/pipeline/loaded/load_postresql.py", line 867, in load_postgresql
+    return _load_legacy_table(df, table_name, if_exists=if_exists, engine=engine)
+  File "/app/pipeline/loaded/load_postresql.py", line 453, in _load_legacy_table
+    with engine.begin() as connection:
+         ~~~~~~~~~~~~^^
+  File "/usr/local/lib/python3.14/contextlib.py", line 141, in __enter__
+    return next(self.gen)
+  File "/usr/local/lib/python3.14/site-packages/sqlalchemy/engine/base.py", line 3224, in begin
+    with self.connect() as conn:
+         ~~~~~~~~~~~~^^
+  File "/usr/local/lib/python3.14/site-packages/sqlalchemy/engine/base.py", line 3260, in connect
+    return self._connection_cls(self)
+           ~~~~~~~~~~~~~~~~~~~~^^^^^^
+  File "/usr/local/lib/python3.14/site-packages/sqlalchemy/engine/base.py", line 151, in __init__
+    Connection._handle_dbapi_exception_noconnection(
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        err, dialect, engine
+        ^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/usr/local/lib/python3.14/site-packages/sqlalchemy/engine/base.py", line 2417, in _handle_dbapi_exception_noconnection
+    raise sqlalchemy_exception.with_traceback(exc_info[2]) from e
+  File "/usr/local/lib/python3.14/site-packages/sqlalchemy/engine/base.py", line 149, in __init__
+    self._dbapi_connection = engine.raw_connection()
+                             ~~~~~~~~~~~~~~~~~~~~~^^
+  File "/usr/local/lib/python3.14/site-packages/sqlalchemy/engine/base.py", line 3284, in raw_connection
+    return self.pool.connect()
+           ~~~~~~~~~~~~~~~~~^^
+  File "/usr/local/lib/python3.14/site-packages/sqlalchemy/pool/base.py", line 445, in connect
+    return _ConnectionFairy._checkout(self)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^
+  File "/usr/local/lib/python3.14/site-packages/sqlalchemy/pool/base.py", line 1303, in _checkout
+    fairy = _ConnectionRecord.checkout(pool)
+  File "/usr/local/lib/python3.14/site-packages/sqlalchemy/pool/base.py", line 709, in checkout
+    rec = pool._do_get()
+  File "/usr/local/lib/python3.14/site-packages/sqlalchemy/pool/impl.py", line 176, in _do_get
+    with util.safe_reraise():
+         ~~~~~~~~~~~~~~~~~^^
+  File "/usr/local/lib/python3.14/site-packages/sqlalchemy/util/langhelpers.py", line 166, in __exit__
+    raise exc_value.with_traceback(exc_tb)
+  File "/usr/local/lib/python3.14/site-packages/sqlalchemy/pool/impl.py", line 174, in _do_get
+    return self._create_connection()
+           ~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "/usr/local/lib/python3.14/site-packages/sqlalchemy/pool/base.py", line 386, in _create_connection
+    return _ConnectionRecord(self)
+  File "/usr/local/lib/python3.14/site-packages/sqlalchemy/pool/base.py", line 671, in __init__
+    self.__connect()
+    ~~~~~~~~~~~~~~^^
+  File "/usr/local/lib/python3.14/site-packages/sqlalchemy/pool/base.py", line 906, in __connect
+    with util.safe_reraise():
+         ~~~~~~~~~~~~~~~~~^^
+  File "/usr/local/lib/python3.14/site-packages/sqlalchemy/util/langhelpers.py", line 166, in __exit__
+    raise exc_value.with_traceback(exc_tb)
+  File "/usr/local/lib/python3.14/site-packages/sqlalchemy/pool/base.py", line 902, in __connect
+    self.dbapi_connection = connection = pool._invoke_creator(self)
+                                         ~~~~~~~~~~~~~~~~~~~~^^^^^^
+  File "/usr/local/lib/python3.14/site-packages/sqlalchemy/engine/create.py", line 645, in connect
+    return dialect.connect(*cargs_tup, **cparams)
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.14/site-packages/sqlalchemy/engine/default.py", line 869, in connect
+    return self.loaded_dbapi.connect(*cargs, **cparams)  # type: ignore[no-any-return]  # NOQA: E501
+           ~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.14/site-packages/psycopg2/__init__.py", line 122, in connect
+    conn = _connect(dsn, connection_factory=connection_factory, **kwasync)
+sqlalchemy.exc.OperationalError: (psycopg2.OperationalError) connection to server at "db" (172.18.0.2), port 5432 failed: FATAL:  password authentication failed for user "weatherflow"
+
+(Background on this error at: https://sqlalche.me/e/21/e3q8)
+2026-10-20 10:27:58,449 | INFO | __main__ | Processing city: Cagayan de Oro
+2026-10-20 10:27:58,698 | INFO | __main__ | Geocoding extracted for Cagayan de Oro
+2026-10-20 10:27:58,711 | ERROR | __main__ | Failed to process city: Cagayan de Oro
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.14/site-packages/sqlalchemy/engine/base.py", line 149, in __init__
+    self._dbapi_connection = engine.raw_connection()
+                             ~~~~~~~~~~~~~~~~~~~~~^^
+  File "/usr/local/lib/python3.14/site-packages/sqlalchemy/engine/base.py", line 3284, in raw_connection
+    return self.pool.connect()
+           ~~~~~~~~~~~~~~~~~^^
+  File "/usr/local/lib/python3.14/site-packages/sqlalchemy/pool/base.py", line 445, in connect
+    return _ConnectionFairy._checkout(self)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^
+  File "/usr/local/lib/python3.14/site-packages/sqlalchemy/pool/base.py", line 1303, in _checkout
+    fairy = _ConnectionRecord.checkout(pool)
+  File "/usr/local/lib/python3.14/site-packages/sqlalchemy/pool/base.py", line 709, in checkout
+    rec = pool._do_get()
+  File "/usr/local/lib/python3.14/site-packages/sqlalchemy/pool/impl.py", line 176, in _do_get
+    with util.safe_reraise():
+         ~~~~~~~~~~~~~~~~~^^
+  File "/usr/local/lib/python3.14/site-packages/sqlalchemy/util/langhelpers.py", line 166, in __exit__
+    raise exc_value.with_traceback(exc_tb)
+  File "/usr/local/lib/python3.14/site-packages/sqlalchemy/pool/impl.py", line 174, in _do_get
+    return self._create_connection()
+           ~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "/usr/local/lib/python3.14/site-packages/sqlalchemy/pool/base.py", line 386, in _create_connection
+    return _ConnectionRecord(self)
+  File "/usr/local/lib/python3.14/site-packages/sqlalchemy/pool/base.py", line 671, in __init__
+    self.__connect()
+    ~~~~~~~~~~~~~~^^
+  File "/usr/local/lib/python3.14/site-packages/sqlalchemy/pool/base.py", line 906, in __connect
+    with util.safe_reraise():
+         ~~~~~~~~~~~~~~~~~^^
+  File "/usr/local/lib/python3.14/site-packages/sqlalchemy/util/langhelpers.py", line 166, in __exit__
+    raise exc_value.with_traceback(exc_tb)
+  File "/usr/local/lib/python3.14/site-packages/sqlalchemy/pool/base.py", line 902, in __connect
+    self.dbapi_connection = connection = pool._invoke_creator(self)
+                                         ~~~~~~~~~~~~~~~~~~~~^^^^^^
+  File "/usr/local/lib/python3.14/site-packages/sqlalchemy/engine/create.py", line 645, in connect
+    return dialect.connect(*cargs_tup, **cparams)
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.14/site-packages/sqlalchemy/engine/default.py", line 869, in connect
+    return self.loaded_dbapi.connect(*cargs, **cparams)  # type: ignore[no-any-return]  # NOQA: E501
+           ~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.14/site-packages/psycopg2/__init__.py", line 122, in connect
+    conn = _connect(dsn, connection_factory=connection_factory, **kwasync)
+psycopg2.OperationalError: connection to server at "db" (172.18.0.2), port 5432 failed: FATAL:  password authentication failed for user "weatherflow"
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/app/pipeline/main.py", line 47, in main
+    load_postgresql(geocoding_df, geocoding_table, if_exists="replace")
+    ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/app/pipeline/loaded/load_postresql.py", line 867, in load_postgresql
+    return _load_legacy_table(df, table_name, if_exists=if_exists, engine=engine)
+  File "/app/pipeline/loaded/load_postresql.py", line 453, in _load_legacy_table
+    with engine.begin() as connection:
+         ~~~~~~~~~~~~^^
+  File "/usr/local/lib/python3.14/contextlib.py", line 141, in __enter__
+    return next(self.gen)
+  File "/usr/local/lib/python3.14/site-packages/sqlalchemy/engine/base.py", line 3224, in begin
+    with self.connect() as conn:
+         ~~~~~~~~~~~~^^
+  File "/usr/local/lib/python3.14/site-packages/sqlalchemy/engine/base.py", line 3260, in connect
+    return self._connection_cls(self)
+           ~~~~~~~~~~~~~~~~~~~~^^^^^^
+  File "/usr/local/lib/python3.14/site-packages/sqlalchemy/engine/base.py", line 151, in __init__
+    Connection._handle_dbapi_exception_noconnection(
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        err, dialect, engine
+        ^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/usr/local/lib/python3.14/site-packages/sqlalchemy/engine/base.py", line 2417, in _handle_dbapi_exception_noconnection
+    raise sqlalchemy_exception.with_traceback(exc_info[2]) from e
+  File "/usr/local/lib/python3.14/site-packages/sqlalchemy/engine/base.py", line 149, in __init__
+    self._dbapi_connection = engine.raw_connection()
+                             ~~~~~~~~~~~~~~~~~~~~~^^
+  File "/usr/local/lib/python3.14/site-packages/sqlalchemy/engine/base.py", line 3284, in raw_connection
+    return self.pool.connect()
+           ~~~~~~~~~~~~~~~~~^^
+  File "/usr/local/lib/python3.14/site-packages/sqlalchemy/pool/base.py", line 445, in connect
+    return _ConnectionFairy._checkout(self)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^
+  File "/usr/local/lib/python3.14/site-packages/sqlalchemy/pool/base.py", line 1303, in _checkout
+    fairy = _ConnectionRecord.checkout(pool)
+  File "/usr/local/lib/python3.14/site-packages/sqlalchemy/pool/base.py", line 709, in checkout
+    rec = pool._do_get()
+  File "/usr/local/lib/python3.14/site-packages/sqlalchemy/pool/impl.py", line 176, in _do_get
+    with util.safe_reraise():
+         ~~~~~~~~~~~~~~~~~^^
+  File "/usr/local/lib/python3.14/site-packages/sqlalchemy/util/langhelpers.py", line 166, in __exit__
+    raise exc_value.with_traceback(exc_tb)
+  File "/usr/local/lib/python3.14/site-packages/sqlalchemy/pool/impl.py", line 174, in _do_get
+    return self._create_connection()
+           ~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "/usr/local/lib/python3.14/site-packages/sqlalchemy/pool/base.py", line 386, in _create_connection
+    return _ConnectionRecord(self)
+  File "/usr/local/lib/python3.14/site-packages/sqlalchemy/pool/base.py", line 671, in __init__
+    self.__connect()
+    ~~~~~~~~~~~~~~^^
+  File "/usr/local/lib/python3.14/site-packages/sqlalchemy/pool/base.py", line 906, in __connect
+    with util.safe_reraise():
+         ~~~~~~~~~~~~~~~~~^^
+  File "/usr/local/lib/python3.14/site-packages/sqlalchemy/util/langhelpers.py", line 166, in __exit__
+    raise exc_value.with_traceback(exc_tb)
+  File "/usr/local/lib/python3.14/site-packages/sqlalchemy/pool/base.py", line 902, in __connect
+    self.dbapi_connection = connection = pool._invoke_creator(self)
+                                         ~~~~~~~~~~~~~~~~~~~~^^^^^^
+  File "/usr/local/lib/python3.14/site-packages/sqlalchemy/engine/create.py", line 645, in connect
+    return dialect.connect(*cargs_tup, **cparams)
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.14/site-packages/sqlalchemy/engine/default.py", line 869, in connect
+    return self.loaded_dbapi.connect(*cargs, **cparams)  # type: ignore[no-any-return]  # NOQA: E501
+           ~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.14/site-packages/psycopg2/__init__.py", line 122, in connect
+    conn = _connect(dsn, connection_factory=connection_factory, **kwasync)
+sqlalchemy.exc.OperationalError: (psycopg2.OperationalError) connection to server at "db" (172.18.0.2), port 5432 failed: FATAL:  password authentication failed for user "weatherflow"
+
+(Background on this error at: https://sqlalche.me/e/21/e3q8)
+2026-10-20 10:27:58,721 | INFO | __main__ | Processing city: Zamboanga City
+2026-10-20 10:27:58,953 | INFO | __main__ | Geocoding extracted for Zamboanga City
+2026-10-20 10:27:58,967 | ERROR | __main__ | Failed to process city: Zamboanga City
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.14/site-packages/sqlalchemy/engine/base.py", line 149, in __init__
+    self._dbapi_connection = engine.raw_connection()
+                             ~~~~~~~~~~~~~~~~~~~~~^^
+  File "/usr/local/lib/python3.14/site-packages/sqlalchemy/engine/base.py", line 3284, in raw_connection
+    return self.pool.connect()
+           ~~~~~~~~~~~~~~~~~^^
+  File "/usr/local/lib/python3.14/site-packages/sqlalchemy/pool/base.py", line 445, in connect
+    return _ConnectionFairy._checkout(self)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^
+  File "/usr/local/lib/python3.14/site-packages/sqlalchemy/pool/base.py", line 1303, in _checkout
+    fairy = _ConnectionRecord.checkout(pool)
+  File "/usr/local/lib/python3.14/site-packages/sqlalchemy/pool/base.py", line 709, in checkout
+    rec = pool._do_get()
+  File "/usr/local/lib/python3.14/site-packages/sqlalchemy/pool/impl.py", line 176, in _do_get
+    with util.safe_reraise():
+         ~~~~~~~~~~~~~~~~~^^
+  File "/usr/local/lib/python3.14/site-packages/sqlalchemy/util/langhelpers.py", line 166, in __exit__
+    raise exc_value.with_traceback(exc_tb)
+  File "/usr/local/lib/python3.14/site-packages/sqlalchemy/pool/impl.py", line 174, in _do_get
+    return self._create_connection()
+           ~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "/usr/local/lib/python3.14/site-packages/sqlalchemy/pool/base.py", line 386, in _create_connection
+    return _ConnectionRecord(self)
+  File "/usr/local/lib/python3.14/site-packages/sqlalchemy/pool/base.py", line 671, in __init__
+    self.__connect()
+    ~~~~~~~~~~~~~~^^
+  File "/usr/local/lib/python3.14/site-packages/sqlalchemy/pool/base.py", line 906, in __connect
+    with util.safe_reraise():
+         ~~~~~~~~~~~~~~~~~^^
+  File "/usr/local/lib/python3.14/site-packages/sqlalchemy/util/langhelpers.py", line 166, in __exit__
+    raise exc_value.with_traceback(exc_tb)
+  File "/usr/local/lib/python3.14/site-packages/sqlalchemy/pool/base.py", line 902, in __connect
+    self.dbapi_connection = connection = pool._invoke_creator(self)
+                                         ~~~~~~~~~~~~~~~~~~~~^^^^^^
+  File "/usr/local/lib/python3.14/site-packages/sqlalchemy/engine/create.py", line 645, in connect
+    return dialect.connect(*cargs_tup, **cparams)
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.14/site-packages/sqlalchemy/engine/default.py", line 869, in connect
+    return self.loaded_dbapi.connect(*cargs, **cparams)  # type: ignore[no-any-return]  # NOQA: E501
+           ~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.14/site-packages/psycopg2/__init__.py", line 122, in connect
+    conn = _connect(dsn, connection_factory=connection_factory, **kwasync)
+psycopg2.OperationalError: connection to server at "db" (172.18.0.2), port 5432 failed: FATAL:  password authentication failed for user "weatherflow"
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/app/pipeline/main.py", line 47, in main
+    load_postgresql(geocoding_df, geocoding_table, if_exists="replace")
+    ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/app/pipeline/loaded/load_postresql.py", line 867, in load_postgresql
+    return _load_legacy_table(df, table_name, if_exists=if_exists, engine=engine)
+  File "/app/pipeline/loaded/load_postresql.py", line 453, in _load_legacy_table
+    with engine.begin() as connection:
+         ~~~~~~~~~~~~^^
+  File "/usr/local/lib/python3.14/contextlib.py", line 141, in __enter__
+    return next(self.gen)
+  File "/usr/local/lib/python3.14/site-packages/sqlalchemy/engine/base.py", line 3224, in begin
+    with self.connect() as conn:
+         ~~~~~~~~~~~~^^
+  File "/usr/local/lib/python3.14/site-packages/sqlalchemy/engine/base.py", line 3260, in connect
+    return self._connection_cls(self)
+           ~~~~~~~~~~~~~~~~~~~~^^^^^^
+  File "/usr/local/lib/python3.14/site-packages/sqlalchemy/engine/base.py", line 151, in __init__
+    Connection._handle_dbapi_exception_noconnection(
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        err, dialect, engine
+        ^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/usr/local/lib/python3.14/site-packages/sqlalchemy/engine/base.py", line 2417, in _handle_dbapi_exception_noconnection
+    raise sqlalchemy_exception.with_traceback(exc_info[2]) from e
+  File "/usr/local/lib/python3.14/site-packages/sqlalchemy/engine/base.py", line 149, in __init__
+    self._dbapi_connection = engine.raw_connection()
+                             ~~~~~~~~~~~~~~~~~~~~~^^
+  File "/usr/local/lib/python3.14/site-packages/sqlalchemy/engine/base.py", line 3284, in raw_connection
+    return self.pool.connect()
+           ~~~~~~~~~~~~~~~~~^^
+  File "/usr/local/lib/python3.14/site-packages/sqlalchemy/pool/base.py", line 445, in connect
+    return _ConnectionFairy._checkout(self)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^
+  File "/usr/local/lib/python3.14/site-packages/sqlalchemy/pool/base.py", line 1303, in _checkout
+    fairy = _ConnectionRecord.checkout(pool)
+  File "/usr/local/lib/python3.14/site-packages/sqlalchemy/pool/base.py", line 709, in checkout
+    rec = pool._do_get()
+  File "/usr/local/lib/python3.14/site-packages/sqlalchemy/pool/impl.py", line 176, in _do_get
+    with util.safe_reraise():
+         ~~~~~~~~~~~~~~~~~^^
+  File "/usr/local/lib/python3.14/site-packages/sqlalchemy/util/langhelpers.py", line 166, in __exit__
+    raise exc_value.with_traceback(exc_tb)
+  File "/usr/local/lib/python3.14/site-packages/sqlalchemy/pool/impl.py", line 174, in _do_get
+    return self._create_connection()
+           ~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "/usr/local/lib/python3.14/site-packages/sqlalchemy/pool/base.py", line 386, in _create_connection
+    return _ConnectionRecord(self)
+  File "/usr/local/lib/python3.14/site-packages/sqlalchemy/pool/base.py", line 671, in __init__
+    self.__connect()
+    ~~~~~~~~~~~~~~^^
+  File "/usr/local/lib/python3.14/site-packages/sqlalchemy/pool/base.py", line 906, in __connect
+    with util.safe_reraise():
+         ~~~~~~~~~~~~~~~~~^^
+  File "/usr/local/lib/python3.14/site-packages/sqlalchemy/util/langhelpers.py", line 166, in __exit__
+    raise exc_value.with_traceback(exc_tb)
+  File "/usr/local/lib/python3.14/site-packages/sqlalchemy/pool/base.py", line 902, in __connect
+    self.dbapi_connection = connection = pool._invoke_creator(self)
+                                         ~~~~~~~~~~~~~~~~~~~~^^^^^^
+  File "/usr/local/lib/python3.14/site-packages/sqlalchemy/engine/create.py", line 645, in connect
+    return dialect.connect(*cargs_tup, **cparams)
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.14/site-packages/sqlalchemy/engine/default.py", line 869, in connect
+    return self.loaded_dbapi.connect(*cargs, **cparams)  # type: ignore[no-any-return]  # NOQA: E501
+           ~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.14/site-packages/psycopg2/__init__.py", line 122, in connect
+    conn = _connect(dsn, connection_factory=connection_factory, **kwasync)
+sqlalchemy.exc.OperationalError: (psycopg2.OperationalError) connection to server at "db" (172.18.0.2), port 5432 failed: FATAL:  password authentication failed for user "weatherflow"
+
+(Background on this error at: https://sqlalche.me/e/21/e3q8)
+2026-10-20 10:27:58,976 | INFO | __main__ | Weather ingestion completed.
+2026-10-20 10:28:21,656 | INFO | pipeline.main | Starting Weather Ingestion...
+2026-10-20 10:28:21,663 | INFO | pipeline.main | Processing city: Manila
+2026-10-20 10:28:22,188 | INFO | pipeline.main | Geocoding loaded for Manila into geocoding_manila
+2026-10-20 10:28:22,375 | INFO | pipeline.main | Raw JSON saved for Manila: /opt/weatherflow/data/raw/openweather/manila.json
+2026-10-20 10:28:22,389 | INFO | pipeline.main | Weather data transformed for Manila
+2026-10-20 10:28:22,599 | INFO | pipeline.main | Parquet saved for Manila: /opt/weatherflow/data/parquet/openweather/manila.parquet
+2026-10-20 10:28:22,654 | INFO | pipeline.main | Loaded 1 row(s) for Manila into openweather_manila.
+2026-10-20 10:28:22,709 | INFO | pipeline.main | Checkpoint updated for Manila.
+2026-10-20 10:28:22,712 | INFO | pipeline.main | Processing city: Quezon City
+2026-10-20 10:28:23,035 | INFO | pipeline.main | Geocoding loaded for Quezon City into geocoding_quezon_city
+2026-10-20 10:28:23,205 | INFO | pipeline.main | Raw JSON saved for Quezon City: /opt/weatherflow/data/raw/openweather/quezon_city.json
+2026-10-20 10:28:23,215 | INFO | pipeline.main | Weather data transformed for Quezon City
+2026-10-20 10:28:23,408 | INFO | pipeline.main | Parquet saved for Quezon City: /opt/weatherflow/data/parquet/openweather/quezon_city.parquet
+2026-10-20 10:28:23,461 | INFO | pipeline.main | Loaded 1 row(s) for Quezon City into openweather_quezon_city.
+2026-10-20 10:28:23,529 | INFO | pipeline.main | Checkpoint updated for Quezon City.
+2026-10-20 10:28:23,532 | INFO | pipeline.main | Processing city: Cebu City
+2026-10-20 10:28:23,864 | INFO | pipeline.main | Geocoding loaded for Cebu City into geocoding_cebu_city
+2026-10-20 10:28:24,059 | INFO | pipeline.main | Raw JSON saved for Cebu City: /opt/weatherflow/data/raw/openweather/cebu_city.json
+2026-10-20 10:28:24,069 | INFO | pipeline.main | Weather data transformed for Cebu City
+2026-10-20 10:28:24,283 | INFO | pipeline.main | Parquet saved for Cebu City: /opt/weatherflow/data/parquet/openweather/cebu_city.parquet
+2026-10-20 10:28:24,348 | INFO | pipeline.main | Loaded 1 row(s) for Cebu City into openweather_cebu_city.
+2026-10-20 10:28:24,410 | INFO | pipeline.main | Checkpoint updated for Cebu City.
+2026-10-20 10:28:24,412 | INFO | pipeline.main | Processing city: Davao City
+2026-10-20 10:28:24,769 | INFO | pipeline.main | Geocoding loaded for Davao City into geocoding_davao_city
+2026-10-20 10:28:24,917 | INFO | pipeline.main | Raw JSON saved for Davao City: /opt/weatherflow/data/raw/openweather/davao_city.json
+2026-10-20 10:28:24,923 | INFO | pipeline.main | Weather data transformed for Davao City
+2026-10-20 10:28:25,113 | INFO | pipeline.main | Parquet saved for Davao City: /opt/weatherflow/data/parquet/openweather/davao_city.parquet
+2026-10-20 10:28:25,184 | INFO | pipeline.main | Loaded 1 row(s) for Davao City into openweather_davao_city.
+2026-10-20 10:28:25,258 | INFO | pipeline.main | Checkpoint updated for Davao City.
+2026-10-20 10:28:25,261 | INFO | pipeline.main | Processing city: Baguio
+2026-10-20 10:28:25,569 | INFO | pipeline.main | Geocoding loaded for Baguio into geocoding_baguio
+2026-10-20 10:28:25,755 | INFO | pipeline.main | Raw JSON saved for Baguio: /opt/weatherflow/data/raw/openweather/baguio.json
+2026-10-20 10:28:25,763 | INFO | pipeline.main | Weather data transformed for Baguio
+2026-10-20 10:28:25,983 | INFO | pipeline.main | Parquet saved for Baguio: /opt/weatherflow/data/parquet/openweather/baguio.parquet
+2026-10-20 10:28:26,041 | INFO | pipeline.main | Loaded 1 row(s) for Baguio into openweather_baguio.
+2026-10-20 10:28:26,137 | INFO | pipeline.main | Checkpoint updated for Baguio.
+2026-10-20 10:28:26,140 | INFO | pipeline.main | Processing city: Iloilo City
+2026-10-20 10:28:26,464 | INFO | pipeline.main | Geocoding loaded for Iloilo City into geocoding_iloilo_city
+2026-10-20 10:28:26,642 | INFO | pipeline.main | Raw JSON saved for Iloilo City: /opt/weatherflow/data/raw/openweather/iloilo_city.json
+2026-10-20 10:28:26,651 | INFO | pipeline.main | Weather data transformed for Iloilo City
+2026-10-20 10:28:26,873 | INFO | pipeline.main | Parquet saved for Iloilo City: /opt/weatherflow/data/parquet/openweather/iloilo_city.parquet
+2026-10-20 10:28:26,917 | INFO | pipeline.main | Loaded 1 row(s) for Iloilo City into openweather_iloilo_city.
+2026-10-20 10:28:26,989 | INFO | pipeline.main | Checkpoint updated for Iloilo City.
+2026-10-20 10:28:26,992 | INFO | pipeline.main | Processing city: Cagayan de Oro
+2026-10-20 10:28:27,281 | INFO | pipeline.main | Geocoding loaded for Cagayan de Oro into geocoding_cagayan_de_oro
+2026-10-20 10:28:27,425 | INFO | pipeline.main | Raw JSON saved for Cagayan de Oro: /opt/weatherflow/data/raw/openweather/cagayan_de_oro.json
+2026-10-20 10:28:27,433 | INFO | pipeline.main | Weather data transformed for Cagayan de Oro
+2026-10-20 10:28:27,593 | INFO | pipeline.main | Parquet saved for Cagayan de Oro: /opt/weatherflow/data/parquet/openweather/cagayan_de_oro.parquet
+2026-10-20 10:28:27,651 | INFO | pipeline.main | Loaded 1 row(s) for Cagayan de Oro into openweather_cagayan_de_oro.
+2026-10-20 10:28:27,719 | INFO | pipeline.main | Checkpoint updated for Cagayan de Oro.
+2026-10-20 10:28:27,721 | INFO | pipeline.main | Processing city: Zamboanga City
+2026-10-20 10:28:28,125 | INFO | pipeline.main | Geocoding loaded for Zamboanga City into geocoding_zamboanga_city
+2026-10-20 10:28:28,295 | INFO | pipeline.main | Raw JSON saved for Zamboanga City: /opt/weatherflow/data/raw/openweather/zamboanga_city.json
+2026-10-20 10:28:28,305 | INFO | pipeline.main | Weather data transformed for Zamboanga City
+2026-10-20 10:28:28,526 | INFO | pipeline.main | Parquet saved for Zamboanga City: /opt/weatherflow/data/parquet/openweather/zamboanga_city.parquet
+2026-10-20 10:28:28,575 | INFO | pipeline.main | Loaded 1 row(s) for Zamboanga City into openweather_zamboanga_city.
+2026-10-20 10:28:28,649 | INFO | pipeline.main | Checkpoint updated for Zamboanga City.
+2026-10-20 10:28:28,652 | INFO | pipeline.main | Pipeline summary | total=8 | loaded=8 | skipped=0 | failed=0
+2026-10-20 10:28:28,654 | INFO | pipeline.main | Successfully loaded cities: ['Manila', 'Quezon City', 'Cebu City', 'Davao City', 'Baguio', 'Iloilo City', 'Cagayan de Oro', 'Zamboanga City']
+2026-10-20 10:28:28,657 | INFO | pipeline.main | Weather ingestion completed successfully.
+2026-10-20 10:53:32,889 | INFO | __main__ | Starting Weather Ingestion...
+2026-10-20 10:53:32,893 | INFO | __main__ | Processing city: Manila
+2026-10-20 10:53:33,208 | INFO | __main__ | Geocoding extracted for Manila
+2026-10-20 10:53:33,294 | ERROR | __main__ | Failed to process city: Manila
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.14/site-packages/sqlalchemy/engine/base.py", line 149, in __init__
+    self._dbapi_connection = engine.raw_connection()
+                             ~~~~~~~~~~~~~~~~~~~~~^^
+  File "/usr/local/lib/python3.14/site-packages/sqlalchemy/engine/base.py", line 3284, in raw_connection
+    return self.pool.connect()
+           ~~~~~~~~~~~~~~~~~^^
+  File "/usr/local/lib/python3.14/site-packages/sqlalchemy/pool/base.py", line 445, in connect
+    return _ConnectionFairy._checkout(self)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^
+  File "/usr/local/lib/python3.14/site-packages/sqlalchemy/pool/base.py", line 1303, in _checkout
+    fairy = _ConnectionRecord.checkout(pool)
+  File "/usr/local/lib/python3.14/site-packages/sqlalchemy/pool/base.py", line 709, in checkout
+    rec = pool._do_get()
+  File "/usr/local/lib/python3.14/site-packages/sqlalchemy/pool/impl.py", line 176, in _do_get
+    with util.safe_reraise():
+         ~~~~~~~~~~~~~~~~~^^
+  File "/usr/local/lib/python3.14/site-packages/sqlalchemy/util/langhelpers.py", line 166, in __exit__
+    raise exc_value.with_traceback(exc_tb)
+  File "/usr/local/lib/python3.14/site-packages/sqlalchemy/pool/impl.py", line 174, in _do_get
+    return self._create_connection()
+           ~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "/usr/local/lib/python3.14/site-packages/sqlalchemy/pool/base.py", line 386, in _create_connection
+    return _ConnectionRecord(self)
+  File "/usr/local/lib/python3.14/site-packages/sqlalchemy/pool/base.py", line 671, in __init__
+    self.__connect()
+    ~~~~~~~~~~~~~~^^
+  File "/usr/local/lib/python3.14/site-packages/sqlalchemy/pool/base.py", line 906, in __connect
+    with util.safe_reraise():
+         ~~~~~~~~~~~~~~~~~^^
+  File "/usr/local/lib/python3.14/site-packages/sqlalchemy/util/langhelpers.py", line 166, in __exit__
+    raise exc_value.with_traceback(exc_tb)
+  File "/usr/local/lib/python3.14/site-packages/sqlalchemy/pool/base.py", line 902, in __connect
+    self.dbapi_connection = connection = pool._invoke_creator(self)
+                                         ~~~~~~~~~~~~~~~~~~~~^^^^^^
+  File "/usr/local/lib/python3.14/site-packages/sqlalchemy/engine/create.py", line 645, in connect
+    return dialect.connect(*cargs_tup, **cparams)
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.14/site-packages/sqlalchemy/engine/default.py", line 869, in connect
+    return self.loaded_dbapi.connect(*cargs, **cparams)  # type: ignore[no-any-return]  # NOQA: E501
+           ~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.14/site-packages/psycopg2/__init__.py", line 122, in connect
+    conn = _connect(dsn, connection_factory=connection_factory, **kwasync)
+psycopg2.OperationalError: connection to server at "db" (172.18.0.2), port 5432 failed: FATAL:  password authentication failed for user "weatherflow"
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/app/pipeline/main.py", line 47, in main
+    load_postgresql(geocoding_df, geocoding_table, if_exists="replace")
+    ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/app/pipeline/loaded/load_postresql.py", line 867, in load_postgresql
+    return _load_legacy_table(df, table_name, if_exists=if_exists, engine=engine)
+  File "/app/pipeline/loaded/load_postresql.py", line 453, in _load_legacy_table
+    with engine.begin() as connection:
+         ~~~~~~~~~~~~^^
+  File "/usr/local/lib/python3.14/contextlib.py", line 141, in __enter__
+    return next(self.gen)
+  File "/usr/local/lib/python3.14/site-packages/sqlalchemy/engine/base.py", line 3224, in begin
+    with self.connect() as conn:
+         ~~~~~~~~~~~~^^
+  File "/usr/local/lib/python3.14/site-packages/sqlalchemy/engine/base.py", line 3260, in connect
+    return self._connection_cls(self)
+           ~~~~~~~~~~~~~~~~~~~~^^^^^^
+  File "/usr/local/lib/python3.14/site-packages/sqlalchemy/engine/base.py", line 151, in __init__
+    Connection._handle_dbapi_exception_noconnection(
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        err, dialect, engine
+        ^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/usr/local/lib/python3.14/site-packages/sqlalchemy/engine/base.py", line 2417, in _handle_dbapi_exception_noconnection
+    raise sqlalchemy_exception.with_traceback(exc_info[2]) from e
+  File "/usr/local/lib/python3.14/site-packages/sqlalchemy/engine/base.py", line 149, in __init__
+    self._dbapi_connection = engine.raw_connection()
+                             ~~~~~~~~~~~~~~~~~~~~~^^
+  File "/usr/local/lib/python3.14/site-packages/sqlalchemy/engine/base.py", line 3284, in raw_connection
+    return self.pool.connect()
+           ~~~~~~~~~~~~~~~~~^^
+  File "/usr/local/lib/python3.14/site-packages/sqlalchemy/pool/base.py", line 445, in connect
+    return _ConnectionFairy._checkout(self)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^
+  File "/usr/local/lib/python3.14/site-packages/sqlalchemy/pool/base.py", line 1303, in _checkout
+    fairy = _ConnectionRecord.checkout(pool)
+  File "/usr/local/lib/python3.14/site-packages/sqlalchemy/pool/base.py", line 709, in checkout
+    rec = pool._do_get()
+  File "/usr/local/lib/python3.14/site-packages/sqlalchemy/pool/impl.py", line 176, in _do_get
+    with util.safe_reraise():
+         ~~~~~~~~~~~~~~~~~^^
+  File "/usr/local/lib/python3.14/site-packages/sqlalchemy/util/langhelpers.py", line 166, in __exit__
+    raise exc_value.with_traceback(exc_tb)
+  File "/usr/local/lib/python3.14/site-packages/sqlalchemy/pool/impl.py", line 174, in _do_get
+    return self._create_connection()
+           ~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "/usr/local/lib/python3.14/site-packages/sqlalchemy/pool/base.py", line 386, in _create_connection
+    return _ConnectionRecord(self)
+  File "/usr/local/lib/python3.14/site-packages/sqlalchemy/pool/base.py", line 671, in __init__
+    self.__connect()
+    ~~~~~~~~~~~~~~^^
+  File "/usr/local/lib/python3.14/site-packages/sqlalchemy/pool/base.py", line 906, in __connect
+    with util.safe_reraise():
+         ~~~~~~~~~~~~~~~~~^^
+  File "/usr/local/lib/python3.14/site-packages/sqlalchemy/util/langhelpers.py", line 166, in __exit__
+    raise exc_value.with_traceback(exc_tb)
+  File "/usr/local/lib/python3.14/site-packages/sqlalchemy/pool/base.py", line 902, in __connect
+    self.dbapi_connection = connection = pool._invoke_creator(self)
+                                         ~~~~~~~~~~~~~~~~~~~~^^^^^^
+  File "/usr/local/lib/python3.14/site-packages/sqlalchemy/engine/create.py", line 645, in connect
+    return dialect.connect(*cargs_tup, **cparams)
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.14/site-packages/sqlalchemy/engine/default.py", line 869, in connect
+    return self.loaded_dbapi.connect(*cargs, **cparams)  # type: ignore[no-any-return]  # NOQA: E501
+           ~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.14/site-packages/psycopg2/__init__.py", line 122, in connect
+    conn = _connect(dsn, connection_factory=connection_factory, **kwasync)
+sqlalchemy.exc.OperationalError: (psycopg2.OperationalError) connection to server at "db" (172.18.0.2), port 5432 failed: FATAL:  password authentication failed for user "weatherflow"
+
+(Background on this error at: https://sqlalche.me/e/21/e3q8)
+2026-10-20 10:53:33,334 | INFO | __main__ | Processing city: Quezon City
+2026-10-20 10:53:33,599 | INFO | __main__ | Geocoding extracted for Quezon City
+2026-10-20 10:53:33,650 | ERROR | __main__ | Failed to process city: Quezon City
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.14/site-packages/sqlalchemy/engine/base.py", line 149, in __init__
+    self._dbapi_connection = engine.raw_connection()
+                             ~~~~~~~~~~~~~~~~~~~~~^^
+  File "/usr/local/lib/python3.14/site-packages/sqlalchemy/engine/base.py", line 3284, in raw_connection
+    return self.pool.connect()
+           ~~~~~~~~~~~~~~~~~^^
+  File "/usr/local/lib/python3.14/site-packages/sqlalchemy/pool/base.py", line 445, in connect
+    return _ConnectionFairy._checkout(self)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^
+  File "/usr/local/lib/python3.14/site-packages/sqlalchemy/pool/base.py", line 1303, in _checkout
+    fairy = _ConnectionRecord.checkout(pool)
+  File "/usr/local/lib/python3.14/site-packages/sqlalchemy/pool/base.py", line 709, in checkout
+    rec = pool._do_get()
+  File "/usr/local/lib/python3.14/site-packages/sqlalchemy/pool/impl.py", line 176, in _do_get
+    with util.safe_reraise():
+         ~~~~~~~~~~~~~~~~~^^
+  File "/usr/local/lib/python3.14/site-packages/sqlalchemy/util/langhelpers.py", line 166, in __exit__
+    raise exc_value.with_traceback(exc_tb)
+  File "/usr/local/lib/python3.14/site-packages/sqlalchemy/pool/impl.py", line 174, in _do_get
+    return self._create_connection()
+           ~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "/usr/local/lib/python3.14/site-packages/sqlalchemy/pool/base.py", line 386, in _create_connection
+    return _ConnectionRecord(self)
+  File "/usr/local/lib/python3.14/site-packages/sqlalchemy/pool/base.py", line 671, in __init__
+    self.__connect()
+    ~~~~~~~~~~~~~~^^
+  File "/usr/local/lib/python3.14/site-packages/sqlalchemy/pool/base.py", line 906, in __connect
+    with util.safe_reraise():
+         ~~~~~~~~~~~~~~~~~^^
+  File "/usr/local/lib/python3.14/site-packages/sqlalchemy/util/langhelpers.py", line 166, in __exit__
+    raise exc_value.with_traceback(exc_tb)
+  File "/usr/local/lib/python3.14/site-packages/sqlalchemy/pool/base.py", line 902, in __connect
+    self.dbapi_connection = connection = pool._invoke_creator(self)
+                                         ~~~~~~~~~~~~~~~~~~~~^^^^^^
+  File "/usr/local/lib/python3.14/site-packages/sqlalchemy/engine/create.py", line 645, in connect
+    return dialect.connect(*cargs_tup, **cparams)
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.14/site-packages/sqlalchemy/engine/default.py", line 869, in connect
+    return self.loaded_dbapi.connect(*cargs, **cparams)  # type: ignore[no-any-return]  # NOQA: E501
+           ~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.14/site-packages/psycopg2/__init__.py", line 122, in connect
+    conn = _connect(dsn, connection_factory=connection_factory, **kwasync)
+psycopg2.OperationalError: connection to server at "db" (172.18.0.2), port 5432 failed: FATAL:  password authentication failed for user "weatherflow"
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/app/pipeline/main.py", line 47, in main
+    load_postgresql(geocoding_df, geocoding_table, if_exists="replace")
+    ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/app/pipeline/loaded/load_postresql.py", line 867, in load_postgresql
+    return _load_legacy_table(df, table_name, if_exists=if_exists, engine=engine)
+  File "/app/pipeline/loaded/load_postresql.py", line 453, in _load_legacy_table
+    with engine.begin() as connection:
+         ~~~~~~~~~~~~^^
+  File "/usr/local/lib/python3.14/contextlib.py", line 141, in __enter__
+    return next(self.gen)
+  File "/usr/local/lib/python3.14/site-packages/sqlalchemy/engine/base.py", line 3224, in begin
+    with self.connect() as conn:
+         ~~~~~~~~~~~~^^
+  File "/usr/local/lib/python3.14/site-packages/sqlalchemy/engine/base.py", line 3260, in connect
+    return self._connection_cls(self)
+           ~~~~~~~~~~~~~~~~~~~~^^^^^^
+  File "/usr/local/lib/python3.14/site-packages/sqlalchemy/engine/base.py", line 151, in __init__
+    Connection._handle_dbapi_exception_noconnection(
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        err, dialect, engine
+        ^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/usr/local/lib/python3.14/site-packages/sqlalchemy/engine/base.py", line 2417, in _handle_dbapi_exception_noconnection
+    raise sqlalchemy_exception.with_traceback(exc_info[2]) from e
+  File "/usr/local/lib/python3.14/site-packages/sqlalchemy/engine/base.py", line 149, in __init__
+    self._dbapi_connection = engine.raw_connection()
+                             ~~~~~~~~~~~~~~~~~~~~~^^
+  File "/usr/local/lib/python3.14/site-packages/sqlalchemy/engine/base.py", line 3284, in raw_connection
+    return self.pool.connect()
+           ~~~~~~~~~~~~~~~~~^^
+  File "/usr/local/lib/python3.14/site-packages/sqlalchemy/pool/base.py", line 445, in connect
+    return _ConnectionFairy._checkout(self)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^
+  File "/usr/local/lib/python3.14/site-packages/sqlalchemy/pool/base.py", line 1303, in _checkout
+    fairy = _ConnectionRecord.checkout(pool)
+  File "/usr/local/lib/python3.14/site-packages/sqlalchemy/pool/base.py", line 709, in checkout
+    rec = pool._do_get()
+  File "/usr/local/lib/python3.14/site-packages/sqlalchemy/pool/impl.py", line 176, in _do_get
+    with util.safe_reraise():
+         ~~~~~~~~~~~~~~~~~^^
+  File "/usr/local/lib/python3.14/site-packages/sqlalchemy/util/langhelpers.py", line 166, in __exit__
+    raise exc_value.with_traceback(exc_tb)
+  File "/usr/local/lib/python3.14/site-packages/sqlalchemy/pool/impl.py", line 174, in _do_get
+    return self._create_connection()
+           ~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "/usr/local/lib/python3.14/site-packages/sqlalchemy/pool/base.py", line 386, in _create_connection
+    return _ConnectionRecord(self)
+  File "/usr/local/lib/python3.14/site-packages/sqlalchemy/pool/base.py", line 671, in __init__
+    self.__connect()
+    ~~~~~~~~~~~~~~^^
+  File "/usr/local/lib/python3.14/site-packages/sqlalchemy/pool/base.py", line 906, in __connect
+    with util.safe_reraise():
+         ~~~~~~~~~~~~~~~~~^^
+  File "/usr/local/lib/python3.14/site-packages/sqlalchemy/util/langhelpers.py", line 166, in __exit__
+    raise exc_value.with_traceback(exc_tb)
+  File "/usr/local/lib/python3.14/site-packages/sqlalchemy/pool/base.py", line 902, in __connect
+    self.dbapi_connection = connection = pool._invoke_creator(self)
+                                         ~~~~~~~~~~~~~~~~~~~~^^^^^^
+  File "/usr/local/lib/python3.14/site-packages/sqlalchemy/engine/create.py", line 645, in connect
+    return dialect.connect(*cargs_tup, **cparams)
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.14/site-packages/sqlalchemy/engine/default.py", line 869, in connect
+    return self.loaded_dbapi.connect(*cargs, **cparams)  # type: ignore[no-any-return]  # NOQA: E501
+           ~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.14/site-packages/psycopg2/__init__.py", line 122, in connect
+    conn = _connect(dsn, connection_factory=connection_factory, **kwasync)
+sqlalchemy.exc.OperationalError: (psycopg2.OperationalError) connection to server at "db" (172.18.0.2), port 5432 failed: FATAL:  password authentication failed for user "weatherflow"
+
+(Background on this error at: https://sqlalche.me/e/21/e3q8)
+2026-10-20 10:53:33,664 | INFO | __main__ | Processing city: Cebu City
+2026-10-20 10:53:33,905 | INFO | __main__ | Geocoding extracted for Cebu City
+2026-10-20 10:53:33,917 | ERROR | __main__ | Failed to process city: Cebu City
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.14/site-packages/sqlalchemy/engine/base.py", line 149, in __init__
+    self._dbapi_connection = engine.raw_connection()
+                             ~~~~~~~~~~~~~~~~~~~~~^^
+  File "/usr/local/lib/python3.14/site-packages/sqlalchemy/engine/base.py", line 3284, in raw_connection
+    return self.pool.connect()
+           ~~~~~~~~~~~~~~~~~^^
+  File "/usr/local/lib/python3.14/site-packages/sqlalchemy/pool/base.py", line 445, in connect
+    return _ConnectionFairy._checkout(self)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^
+  File "/usr/local/lib/python3.14/site-packages/sqlalchemy/pool/base.py", line 1303, in _checkout
+    fairy = _ConnectionRecord.checkout(pool)
+  File "/usr/local/lib/python3.14/site-packages/sqlalchemy/pool/base.py", line 709, in checkout
+    rec = pool._do_get()
+  File "/usr/local/lib/python3.14/site-packages/sqlalchemy/pool/impl.py", line 176, in _do_get
+    with util.safe_reraise():
+         ~~~~~~~~~~~~~~~~~^^
+  File "/usr/local/lib/python3.14/site-packages/sqlalchemy/util/langhelpers.py", line 166, in __exit__
+    raise exc_value.with_traceback(exc_tb)
+  File "/usr/local/lib/python3.14/site-packages/sqlalchemy/pool/impl.py", line 174, in _do_get
+    return self._create_connection()
+           ~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "/usr/local/lib/python3.14/site-packages/sqlalchemy/pool/base.py", line 386, in _create_connection
+    return _ConnectionRecord(self)
+  File "/usr/local/lib/python3.14/site-packages/sqlalchemy/pool/base.py", line 671, in __init__
+    self.__connect()
+    ~~~~~~~~~~~~~~^^
+  File "/usr/local/lib/python3.14/site-packages/sqlalchemy/pool/base.py", line 906, in __connect
+    with util.safe_reraise():
+         ~~~~~~~~~~~~~~~~~^^
+  File "/usr/local/lib/python3.14/site-packages/sqlalchemy/util/langhelpers.py", line 166, in __exit__
+    raise exc_value.with_traceback(exc_tb)
+  File "/usr/local/lib/python3.14/site-packages/sqlalchemy/pool/base.py", line 902, in __connect
+    self.dbapi_connection = connection = pool._invoke_creator(self)
+                                         ~~~~~~~~~~~~~~~~~~~~^^^^^^
+  File "/usr/local/lib/python3.14/site-packages/sqlalchemy/engine/create.py", line 645, in connect
+    return dialect.connect(*cargs_tup, **cparams)
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.14/site-packages/sqlalchemy/engine/default.py", line 869, in connect
+    return self.loaded_dbapi.connect(*cargs, **cparams)  # type: ignore[no-any-return]  # NOQA: E501
+           ~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.14/site-packages/psycopg2/__init__.py", line 122, in connect
+    conn = _connect(dsn, connection_factory=connection_factory, **kwasync)
+psycopg2.OperationalError: connection to server at "db" (172.18.0.2), port 5432 failed: FATAL:  password authentication failed for user "weatherflow"
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/app/pipeline/main.py", line 47, in main
+    load_postgresql(geocoding_df, geocoding_table, if_exists="replace")
+    ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/app/pipeline/loaded/load_postresql.py", line 867, in load_postgresql
+    return _load_legacy_table(df, table_name, if_exists=if_exists, engine=engine)
+  File "/app/pipeline/loaded/load_postresql.py", line 453, in _load_legacy_table
+    with engine.begin() as connection:
+         ~~~~~~~~~~~~^^
+  File "/usr/local/lib/python3.14/contextlib.py", line 141, in __enter__
+    return next(self.gen)
+  File "/usr/local/lib/python3.14/site-packages/sqlalchemy/engine/base.py", line 3224, in begin
+    with self.connect() as conn:
+         ~~~~~~~~~~~~^^
+  File "/usr/local/lib/python3.14/site-packages/sqlalchemy/engine/base.py", line 3260, in connect
+    return self._connection_cls(self)
+           ~~~~~~~~~~~~~~~~~~~~^^^^^^
+  File "/usr/local/lib/python3.14/site-packages/sqlalchemy/engine/base.py", line 151, in __init__
+    Connection._handle_dbapi_exception_noconnection(
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        err, dialect, engine
+        ^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/usr/local/lib/python3.14/site-packages/sqlalchemy/engine/base.py", line 2417, in _handle_dbapi_exception_noconnection
+    raise sqlalchemy_exception.with_traceback(exc_info[2]) from e
+  File "/usr/local/lib/python3.14/site-packages/sqlalchemy/engine/base.py", line 149, in __init__
+    self._dbapi_connection = engine.raw_connection()
+                             ~~~~~~~~~~~~~~~~~~~~~^^
+  File "/usr/local/lib/python3.14/site-packages/sqlalchemy/engine/base.py", line 3284, in raw_connection
+    return self.pool.connect()
+           ~~~~~~~~~~~~~~~~~^^
+  File "/usr/local/lib/python3.14/site-packages/sqlalchemy/pool/base.py", line 445, in connect
+    return _ConnectionFairy._checkout(self)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^
+  File "/usr/local/lib/python3.14/site-packages/sqlalchemy/pool/base.py", line 1303, in _checkout
+    fairy = _ConnectionRecord.checkout(pool)
+  File "/usr/local/lib/python3.14/site-packages/sqlalchemy/pool/base.py", line 709, in checkout
+    rec = pool._do_get()
+  File "/usr/local/lib/python3.14/site-packages/sqlalchemy/pool/impl.py", line 176, in _do_get
+    with util.safe_reraise():
+         ~~~~~~~~~~~~~~~~~^^
+  File "/usr/local/lib/python3.14/site-packages/sqlalchemy/util/langhelpers.py", line 166, in __exit__
+    raise exc_value.with_traceback(exc_tb)
+  File "/usr/local/lib/python3.14/site-packages/sqlalchemy/pool/impl.py", line 174, in _do_get
+    return self._create_connection()
+           ~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "/usr/local/lib/python3.14/site-packages/sqlalchemy/pool/base.py", line 386, in _create_connection
+    return _ConnectionRecord(self)
+  File "/usr/local/lib/python3.14/site-packages/sqlalchemy/pool/base.py", line 671, in __init__
+    self.__connect()
+    ~~~~~~~~~~~~~~^^
+  File "/usr/local/lib/python3.14/site-packages/sqlalchemy/pool/base.py", line 906, in __connect
+    with util.safe_reraise():
+         ~~~~~~~~~~~~~~~~~^^
+  File "/usr/local/lib/python3.14/site-packages/sqlalchemy/util/langhelpers.py", line 166, in __exit__
+    raise exc_value.with_traceback(exc_tb)
+  File "/usr/local/lib/python3.14/site-packages/sqlalchemy/pool/base.py", line 902, in __connect
+    self.dbapi_connection = connection = pool._invoke_creator(self)
+                                         ~~~~~~~~~~~~~~~~~~~~^^^^^^
+  File "/usr/local/lib/python3.14/site-packages/sqlalchemy/engine/create.py", line 645, in connect
+    return dialect.connect(*cargs_tup, **cparams)
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.14/site-packages/sqlalchemy/engine/default.py", line 869, in connect
+    return self.loaded_dbapi.connect(*cargs, **cparams)  # type: ignore[no-any-return]  # NOQA: E501
+           ~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.14/site-packages/psycopg2/__init__.py", line 122, in connect
+    conn = _connect(dsn, connection_factory=connection_factory, **kwasync)
+sqlalchemy.exc.OperationalError: (psycopg2.OperationalError) connection to server at "db" (172.18.0.2), port 5432 failed: FATAL:  password authentication failed for user "weatherflow"
+
+(Background on this error at: https://sqlalche.me/e/21/e3q8)
+2026-10-20 10:53:33,923 | INFO | __main__ | Processing city: Davao City
+2026-10-20 10:53:34,145 | INFO | __main__ | Geocoding extracted for Davao City
+2026-10-20 10:53:34,159 | ERROR | __main__ | Failed to process city: Davao City
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.14/site-packages/sqlalchemy/engine/base.py", line 149, in __init__
+    self._dbapi_connection = engine.raw_connection()
+                             ~~~~~~~~~~~~~~~~~~~~~^^
+  File "/usr/local/lib/python3.14/site-packages/sqlalchemy/engine/base.py", line 3284, in raw_connection
+    return self.pool.connect()
+           ~~~~~~~~~~~~~~~~~^^
+  File "/usr/local/lib/python3.14/site-packages/sqlalchemy/pool/base.py", line 445, in connect
+    return _ConnectionFairy._checkout(self)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^
+  File "/usr/local/lib/python3.14/site-packages/sqlalchemy/pool/base.py", line 1303, in _checkout
+    fairy = _ConnectionRecord.checkout(pool)
+  File "/usr/local/lib/python3.14/site-packages/sqlalchemy/pool/base.py", line 709, in checkout
+    rec = pool._do_get()
+  File "/usr/local/lib/python3.14/site-packages/sqlalchemy/pool/impl.py", line 176, in _do_get
+    with util.safe_reraise():
+         ~~~~~~~~~~~~~~~~~^^
+  File "/usr/local/lib/python3.14/site-packages/sqlalchemy/util/langhelpers.py", line 166, in __exit__
+    raise exc_value.with_traceback(exc_tb)
+  File "/usr/local/lib/python3.14/site-packages/sqlalchemy/pool/impl.py", line 174, in _do_get
+    return self._create_connection()
+           ~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "/usr/local/lib/python3.14/site-packages/sqlalchemy/pool/base.py", line 386, in _create_connection
+    return _ConnectionRecord(self)
+  File "/usr/local/lib/python3.14/site-packages/sqlalchemy/pool/base.py", line 671, in __init__
+    self.__connect()
+    ~~~~~~~~~~~~~~^^
+  File "/usr/local/lib/python3.14/site-packages/sqlalchemy/pool/base.py", line 906, in __connect
+    with util.safe_reraise():
+         ~~~~~~~~~~~~~~~~~^^
+  File "/usr/local/lib/python3.14/site-packages/sqlalchemy/util/langhelpers.py", line 166, in __exit__
+    raise exc_value.with_traceback(exc_tb)
+  File "/usr/local/lib/python3.14/site-packages/sqlalchemy/pool/base.py", line 902, in __connect
+    self.dbapi_connection = connection = pool._invoke_creator(self)
+                                         ~~~~~~~~~~~~~~~~~~~~^^^^^^
+  File "/usr/local/lib/python3.14/site-packages/sqlalchemy/engine/create.py", line 645, in connect
+    return dialect.connect(*cargs_tup, **cparams)
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.14/site-packages/sqlalchemy/engine/default.py", line 869, in connect
+    return self.loaded_dbapi.connect(*cargs, **cparams)  # type: ignore[no-any-return]  # NOQA: E501
+           ~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.14/site-packages/psycopg2/__init__.py", line 122, in connect
+    conn = _connect(dsn, connection_factory=connection_factory, **kwasync)
+psycopg2.OperationalError: connection to server at "db" (172.18.0.2), port 5432 failed: FATAL:  password authentication failed for user "weatherflow"
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/app/pipeline/main.py", line 47, in main
+    load_postgresql(geocoding_df, geocoding_table, if_exists="replace")
+    ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/app/pipeline/loaded/load_postresql.py", line 867, in load_postgresql
+    return _load_legacy_table(df, table_name, if_exists=if_exists, engine=engine)
+  File "/app/pipeline/loaded/load_postresql.py", line 453, in _load_legacy_table
+    with engine.begin() as connection:
+         ~~~~~~~~~~~~^^
+  File "/usr/local/lib/python3.14/contextlib.py", line 141, in __enter__
+    return next(self.gen)
+  File "/usr/local/lib/python3.14/site-packages/sqlalchemy/engine/base.py", line 3224, in begin
+    with self.connect() as conn:
+         ~~~~~~~~~~~~^^
+  File "/usr/local/lib/python3.14/site-packages/sqlalchemy/engine/base.py", line 3260, in connect
+    return self._connection_cls(self)
+           ~~~~~~~~~~~~~~~~~~~~^^^^^^
+  File "/usr/local/lib/python3.14/site-packages/sqlalchemy/engine/base.py", line 151, in __init__
+    Connection._handle_dbapi_exception_noconnection(
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        err, dialect, engine
+        ^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/usr/local/lib/python3.14/site-packages/sqlalchemy/engine/base.py", line 2417, in _handle_dbapi_exception_noconnection
+    raise sqlalchemy_exception.with_traceback(exc_info[2]) from e
+  File "/usr/local/lib/python3.14/site-packages/sqlalchemy/engine/base.py", line 149, in __init__
+    self._dbapi_connection = engine.raw_connection()
+                             ~~~~~~~~~~~~~~~~~~~~~^^
+  File "/usr/local/lib/python3.14/site-packages/sqlalchemy/engine/base.py", line 3284, in raw_connection
+    return self.pool.connect()
+           ~~~~~~~~~~~~~~~~~^^
+  File "/usr/local/lib/python3.14/site-packages/sqlalchemy/pool/base.py", line 445, in connect
+    return _ConnectionFairy._checkout(self)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^
+  File "/usr/local/lib/python3.14/site-packages/sqlalchemy/pool/base.py", line 1303, in _checkout
+    fairy = _ConnectionRecord.checkout(pool)
+  File "/usr/local/lib/python3.14/site-packages/sqlalchemy/pool/base.py", line 709, in checkout
+    rec = pool._do_get()
+  File "/usr/local/lib/python3.14/site-packages/sqlalchemy/pool/impl.py", line 176, in _do_get
+    with util.safe_reraise():
+         ~~~~~~~~~~~~~~~~~^^
+  File "/usr/local/lib/python3.14/site-packages/sqlalchemy/util/langhelpers.py", line 166, in __exit__
+    raise exc_value.with_traceback(exc_tb)
+  File "/usr/local/lib/python3.14/site-packages/sqlalchemy/pool/impl.py", line 174, in _do_get
+    return self._create_connection()
+           ~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "/usr/local/lib/python3.14/site-packages/sqlalchemy/pool/base.py", line 386, in _create_connection
+    return _ConnectionRecord(self)
+  File "/usr/local/lib/python3.14/site-packages/sqlalchemy/pool/base.py", line 671, in __init__
+    self.__connect()
+    ~~~~~~~~~~~~~~^^
+  File "/usr/local/lib/python3.14/site-packages/sqlalchemy/pool/base.py", line 906, in __connect
+    with util.safe_reraise():
+         ~~~~~~~~~~~~~~~~~^^
+  File "/usr/local/lib/python3.14/site-packages/sqlalchemy/util/langhelpers.py", line 166, in __exit__
+    raise exc_value.with_traceback(exc_tb)
+  File "/usr/local/lib/python3.14/site-packages/sqlalchemy/pool/base.py", line 902, in __connect
+    self.dbapi_connection = connection = pool._invoke_creator(self)
+                                         ~~~~~~~~~~~~~~~~~~~~^^^^^^
+  File "/usr/local/lib/python3.14/site-packages/sqlalchemy/engine/create.py", line 645, in connect
+    return dialect.connect(*cargs_tup, **cparams)
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.14/site-packages/sqlalchemy/engine/default.py", line 869, in connect
+    return self.loaded_dbapi.connect(*cargs, **cparams)  # type: ignore[no-any-return]  # NOQA: E501
+           ~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.14/site-packages/psycopg2/__init__.py", line 122, in connect
+    conn = _connect(dsn, connection_factory=connection_factory, **kwasync)
+sqlalchemy.exc.OperationalError: (psycopg2.OperationalError) connection to server at "db" (172.18.0.2), port 5432 failed: FATAL:  password authentication failed for user "weatherflow"
+
+(Background on this error at: https://sqlalche.me/e/21/e3q8)
+2026-10-20 10:53:34,164 | INFO | __main__ | Processing city: Baguio
+2026-10-20 10:53:34,418 | INFO | __main__ | Geocoding extracted for Baguio
+2026-10-20 10:53:34,429 | ERROR | __main__ | Failed to process city: Baguio
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.14/site-packages/sqlalchemy/engine/base.py", line 149, in __init__
+    self._dbapi_connection = engine.raw_connection()
+                             ~~~~~~~~~~~~~~~~~~~~~^^
+  File "/usr/local/lib/python3.14/site-packages/sqlalchemy/engine/base.py", line 3284, in raw_connection
+    return self.pool.connect()
+           ~~~~~~~~~~~~~~~~~^^
+  File "/usr/local/lib/python3.14/site-packages/sqlalchemy/pool/base.py", line 445, in connect
+    return _ConnectionFairy._checkout(self)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^
+  File "/usr/local/lib/python3.14/site-packages/sqlalchemy/pool/base.py", line 1303, in _checkout
+    fairy = _ConnectionRecord.checkout(pool)
+  File "/usr/local/lib/python3.14/site-packages/sqlalchemy/pool/base.py", line 709, in checkout
+    rec = pool._do_get()
+  File "/usr/local/lib/python3.14/site-packages/sqlalchemy/pool/impl.py", line 176, in _do_get
+    with util.safe_reraise():
+         ~~~~~~~~~~~~~~~~~^^
+  File "/usr/local/lib/python3.14/site-packages/sqlalchemy/util/langhelpers.py", line 166, in __exit__
+    raise exc_value.with_traceback(exc_tb)
+  File "/usr/local/lib/python3.14/site-packages/sqlalchemy/pool/impl.py", line 174, in _do_get
+    return self._create_connection()
+           ~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "/usr/local/lib/python3.14/site-packages/sqlalchemy/pool/base.py", line 386, in _create_connection
+    return _ConnectionRecord(self)
+  File "/usr/local/lib/python3.14/site-packages/sqlalchemy/pool/base.py", line 671, in __init__
+    self.__connect()
+    ~~~~~~~~~~~~~~^^
+  File "/usr/local/lib/python3.14/site-packages/sqlalchemy/pool/base.py", line 906, in __connect
+    with util.safe_reraise():
+         ~~~~~~~~~~~~~~~~~^^
+  File "/usr/local/lib/python3.14/site-packages/sqlalchemy/util/langhelpers.py", line 166, in __exit__
+    raise exc_value.with_traceback(exc_tb)
+  File "/usr/local/lib/python3.14/site-packages/sqlalchemy/pool/base.py", line 902, in __connect
+    self.dbapi_connection = connection = pool._invoke_creator(self)
+                                         ~~~~~~~~~~~~~~~~~~~~^^^^^^
+  File "/usr/local/lib/python3.14/site-packages/sqlalchemy/engine/create.py", line 645, in connect
+    return dialect.connect(*cargs_tup, **cparams)
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.14/site-packages/sqlalchemy/engine/default.py", line 869, in connect
+    return self.loaded_dbapi.connect(*cargs, **cparams)  # type: ignore[no-any-return]  # NOQA: E501
+           ~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.14/site-packages/psycopg2/__init__.py", line 122, in connect
+    conn = _connect(dsn, connection_factory=connection_factory, **kwasync)
+psycopg2.OperationalError: connection to server at "db" (172.18.0.2), port 5432 failed: FATAL:  password authentication failed for user "weatherflow"
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/app/pipeline/main.py", line 47, in main
+    load_postgresql(geocoding_df, geocoding_table, if_exists="replace")
+    ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/app/pipeline/loaded/load_postresql.py", line 867, in load_postgresql
+    return _load_legacy_table(df, table_name, if_exists=if_exists, engine=engine)
+  File "/app/pipeline/loaded/load_postresql.py", line 453, in _load_legacy_table
+    with engine.begin() as connection:
+         ~~~~~~~~~~~~^^
+  File "/usr/local/lib/python3.14/contextlib.py", line 141, in __enter__
+    return next(self.gen)
+  File "/usr/local/lib/python3.14/site-packages/sqlalchemy/engine/base.py", line 3224, in begin
+    with self.connect() as conn:
+         ~~~~~~~~~~~~^^
+  File "/usr/local/lib/python3.14/site-packages/sqlalchemy/engine/base.py", line 3260, in connect
+    return self._connection_cls(self)
+           ~~~~~~~~~~~~~~~~~~~~^^^^^^
+  File "/usr/local/lib/python3.14/site-packages/sqlalchemy/engine/base.py", line 151, in __init__
+    Connection._handle_dbapi_exception_noconnection(
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        err, dialect, engine
+        ^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/usr/local/lib/python3.14/site-packages/sqlalchemy/engine/base.py", line 2417, in _handle_dbapi_exception_noconnection
+    raise sqlalchemy_exception.with_traceback(exc_info[2]) from e
+  File "/usr/local/lib/python3.14/site-packages/sqlalchemy/engine/base.py", line 149, in __init__
+    self._dbapi_connection = engine.raw_connection()
+                             ~~~~~~~~~~~~~~~~~~~~~^^
+  File "/usr/local/lib/python3.14/site-packages/sqlalchemy/engine/base.py", line 3284, in raw_connection
+    return self.pool.connect()
+           ~~~~~~~~~~~~~~~~~^^
+  File "/usr/local/lib/python3.14/site-packages/sqlalchemy/pool/base.py", line 445, in connect
+    return _ConnectionFairy._checkout(self)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^
+  File "/usr/local/lib/python3.14/site-packages/sqlalchemy/pool/base.py", line 1303, in _checkout
+    fairy = _ConnectionRecord.checkout(pool)
+  File "/usr/local/lib/python3.14/site-packages/sqlalchemy/pool/base.py", line 709, in checkout
+    rec = pool._do_get()
+  File "/usr/local/lib/python3.14/site-packages/sqlalchemy/pool/impl.py", line 176, in _do_get
+    with util.safe_reraise():
+         ~~~~~~~~~~~~~~~~~^^
+  File "/usr/local/lib/python3.14/site-packages/sqlalchemy/util/langhelpers.py", line 166, in __exit__
+    raise exc_value.with_traceback(exc_tb)
+  File "/usr/local/lib/python3.14/site-packages/sqlalchemy/pool/impl.py", line 174, in _do_get
+    return self._create_connection()
+           ~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "/usr/local/lib/python3.14/site-packages/sqlalchemy/pool/base.py", line 386, in _create_connection
+    return _ConnectionRecord(self)
+  File "/usr/local/lib/python3.14/site-packages/sqlalchemy/pool/base.py", line 671, in __init__
+    self.__connect()
+    ~~~~~~~~~~~~~~^^
+  File "/usr/local/lib/python3.14/site-packages/sqlalchemy/pool/base.py", line 906, in __connect
+    with util.safe_reraise():
+         ~~~~~~~~~~~~~~~~~^^
+  File "/usr/local/lib/python3.14/site-packages/sqlalchemy/util/langhelpers.py", line 166, in __exit__
+    raise exc_value.with_traceback(exc_tb)
+  File "/usr/local/lib/python3.14/site-packages/sqlalchemy/pool/base.py", line 902, in __connect
+    self.dbapi_connection = connection = pool._invoke_creator(self)
+                                         ~~~~~~~~~~~~~~~~~~~~^^^^^^
+  File "/usr/local/lib/python3.14/site-packages/sqlalchemy/engine/create.py", line 645, in connect
+    return dialect.connect(*cargs_tup, **cparams)
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.14/site-packages/sqlalchemy/engine/default.py", line 869, in connect
+    return self.loaded_dbapi.connect(*cargs, **cparams)  # type: ignore[no-any-return]  # NOQA: E501
+           ~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.14/site-packages/psycopg2/__init__.py", line 122, in connect
+    conn = _connect(dsn, connection_factory=connection_factory, **kwasync)
+sqlalchemy.exc.OperationalError: (psycopg2.OperationalError) connection to server at "db" (172.18.0.2), port 5432 failed: FATAL:  password authentication failed for user "weatherflow"
+
+(Background on this error at: https://sqlalche.me/e/21/e3q8)
+2026-10-20 10:53:34,436 | INFO | __main__ | Processing city: Iloilo City
+2026-10-20 10:53:34,668 | INFO | __main__ | Geocoding extracted for Iloilo City
+2026-10-20 10:53:34,679 | ERROR | __main__ | Failed to process city: Iloilo City
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.14/site-packages/sqlalchemy/engine/base.py", line 149, in __init__
+    self._dbapi_connection = engine.raw_connection()
+                             ~~~~~~~~~~~~~~~~~~~~~^^
+  File "/usr/local/lib/python3.14/site-packages/sqlalchemy/engine/base.py", line 3284, in raw_connection
+    return self.pool.connect()
+           ~~~~~~~~~~~~~~~~~^^
+  File "/usr/local/lib/python3.14/site-packages/sqlalchemy/pool/base.py", line 445, in connect
+    return _ConnectionFairy._checkout(self)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^
+  File "/usr/local/lib/python3.14/site-packages/sqlalchemy/pool/base.py", line 1303, in _checkout
+    fairy = _ConnectionRecord.checkout(pool)
+  File "/usr/local/lib/python3.14/site-packages/sqlalchemy/pool/base.py", line 709, in checkout
+    rec = pool._do_get()
+  File "/usr/local/lib/python3.14/site-packages/sqlalchemy/pool/impl.py", line 176, in _do_get
+    with util.safe_reraise():
+         ~~~~~~~~~~~~~~~~~^^
+  File "/usr/local/lib/python3.14/site-packages/sqlalchemy/util/langhelpers.py", line 166, in __exit__
+    raise exc_value.with_traceback(exc_tb)
+  File "/usr/local/lib/python3.14/site-packages/sqlalchemy/pool/impl.py", line 174, in _do_get
+    return self._create_connection()
+           ~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "/usr/local/lib/python3.14/site-packages/sqlalchemy/pool/base.py", line 386, in _create_connection
+    return _ConnectionRecord(self)
+  File "/usr/local/lib/python3.14/site-packages/sqlalchemy/pool/base.py", line 671, in __init__
+    self.__connect()
+    ~~~~~~~~~~~~~~^^
+  File "/usr/local/lib/python3.14/site-packages/sqlalchemy/pool/base.py", line 906, in __connect
+    with util.safe_reraise():
+         ~~~~~~~~~~~~~~~~~^^
+  File "/usr/local/lib/python3.14/site-packages/sqlalchemy/util/langhelpers.py", line 166, in __exit__
+    raise exc_value.with_traceback(exc_tb)
+  File "/usr/local/lib/python3.14/site-packages/sqlalchemy/pool/base.py", line 902, in __connect
+    self.dbapi_connection = connection = pool._invoke_creator(self)
+                                         ~~~~~~~~~~~~~~~~~~~~^^^^^^
+  File "/usr/local/lib/python3.14/site-packages/sqlalchemy/engine/create.py", line 645, in connect
+    return dialect.connect(*cargs_tup, **cparams)
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.14/site-packages/sqlalchemy/engine/default.py", line 869, in connect
+    return self.loaded_dbapi.connect(*cargs, **cparams)  # type: ignore[no-any-return]  # NOQA: E501
+           ~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.14/site-packages/psycopg2/__init__.py", line 122, in connect
+    conn = _connect(dsn, connection_factory=connection_factory, **kwasync)
+psycopg2.OperationalError: connection to server at "db" (172.18.0.2), port 5432 failed: FATAL:  password authentication failed for user "weatherflow"
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/app/pipeline/main.py", line 47, in main
+    load_postgresql(geocoding_df, geocoding_table, if_exists="replace")
+    ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/app/pipeline/loaded/load_postresql.py", line 867, in load_postgresql
+    return _load_legacy_table(df, table_name, if_exists=if_exists, engine=engine)
+  File "/app/pipeline/loaded/load_postresql.py", line 453, in _load_legacy_table
+    with engine.begin() as connection:
+         ~~~~~~~~~~~~^^
+  File "/usr/local/lib/python3.14/contextlib.py", line 141, in __enter__
+    return next(self.gen)
+  File "/usr/local/lib/python3.14/site-packages/sqlalchemy/engine/base.py", line 3224, in begin
+    with self.connect() as conn:
+         ~~~~~~~~~~~~^^
+  File "/usr/local/lib/python3.14/site-packages/sqlalchemy/engine/base.py", line 3260, in connect
+    return self._connection_cls(self)
+           ~~~~~~~~~~~~~~~~~~~~^^^^^^
+  File "/usr/local/lib/python3.14/site-packages/sqlalchemy/engine/base.py", line 151, in __init__
+    Connection._handle_dbapi_exception_noconnection(
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        err, dialect, engine
+        ^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/usr/local/lib/python3.14/site-packages/sqlalchemy/engine/base.py", line 2417, in _handle_dbapi_exception_noconnection
+    raise sqlalchemy_exception.with_traceback(exc_info[2]) from e
+  File "/usr/local/lib/python3.14/site-packages/sqlalchemy/engine/base.py", line 149, in __init__
+    self._dbapi_connection = engine.raw_connection()
+                             ~~~~~~~~~~~~~~~~~~~~~^^
+  File "/usr/local/lib/python3.14/site-packages/sqlalchemy/engine/base.py", line 3284, in raw_connection
+    return self.pool.connect()
+           ~~~~~~~~~~~~~~~~~^^
+  File "/usr/local/lib/python3.14/site-packages/sqlalchemy/pool/base.py", line 445, in connect
+    return _ConnectionFairy._checkout(self)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^
+  File "/usr/local/lib/python3.14/site-packages/sqlalchemy/pool/base.py", line 1303, in _checkout
+    fairy = _ConnectionRecord.checkout(pool)
+  File "/usr/local/lib/python3.14/site-packages/sqlalchemy/pool/base.py", line 709, in checkout
+    rec = pool._do_get()
+  File "/usr/local/lib/python3.14/site-packages/sqlalchemy/pool/impl.py", line 176, in _do_get
+    with util.safe_reraise():
+         ~~~~~~~~~~~~~~~~~^^
+  File "/usr/local/lib/python3.14/site-packages/sqlalchemy/util/langhelpers.py", line 166, in __exit__
+    raise exc_value.with_traceback(exc_tb)
+  File "/usr/local/lib/python3.14/site-packages/sqlalchemy/pool/impl.py", line 174, in _do_get
+    return self._create_connection()
+           ~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "/usr/local/lib/python3.14/site-packages/sqlalchemy/pool/base.py", line 386, in _create_connection
+    return _ConnectionRecord(self)
+  File "/usr/local/lib/python3.14/site-packages/sqlalchemy/pool/base.py", line 671, in __init__
+    self.__connect()
+    ~~~~~~~~~~~~~~^^
+  File "/usr/local/lib/python3.14/site-packages/sqlalchemy/pool/base.py", line 906, in __connect
+    with util.safe_reraise():
+         ~~~~~~~~~~~~~~~~~^^
+  File "/usr/local/lib/python3.14/site-packages/sqlalchemy/util/langhelpers.py", line 166, in __exit__
+    raise exc_value.with_traceback(exc_tb)
+  File "/usr/local/lib/python3.14/site-packages/sqlalchemy/pool/base.py", line 902, in __connect
+    self.dbapi_connection = connection = pool._invoke_creator(self)
+                                         ~~~~~~~~~~~~~~~~~~~~^^^^^^
+  File "/usr/local/lib/python3.14/site-packages/sqlalchemy/engine/create.py", line 645, in connect
+    return dialect.connect(*cargs_tup, **cparams)
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.14/site-packages/sqlalchemy/engine/default.py", line 869, in connect
+    return self.loaded_dbapi.connect(*cargs, **cparams)  # type: ignore[no-any-return]  # NOQA: E501
+           ~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.14/site-packages/psycopg2/__init__.py", line 122, in connect
+    conn = _connect(dsn, connection_factory=connection_factory, **kwasync)
+sqlalchemy.exc.OperationalError: (psycopg2.OperationalError) connection to server at "db" (172.18.0.2), port 5432 failed: FATAL:  password authentication failed for user "weatherflow"
+
+(Background on this error at: https://sqlalche.me/e/21/e3q8)
+2026-10-20 10:53:34,683 | INFO | __main__ | Processing city: Cagayan de Oro
+2026-10-20 10:53:34,933 | INFO | __main__ | Geocoding extracted for Cagayan de Oro
+2026-10-20 10:53:34,947 | ERROR | __main__ | Failed to process city: Cagayan de Oro
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.14/site-packages/sqlalchemy/engine/base.py", line 149, in __init__
+    self._dbapi_connection = engine.raw_connection()
+                             ~~~~~~~~~~~~~~~~~~~~~^^
+  File "/usr/local/lib/python3.14/site-packages/sqlalchemy/engine/base.py", line 3284, in raw_connection
+    return self.pool.connect()
+           ~~~~~~~~~~~~~~~~~^^
+  File "/usr/local/lib/python3.14/site-packages/sqlalchemy/pool/base.py", line 445, in connect
+    return _ConnectionFairy._checkout(self)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^
+  File "/usr/local/lib/python3.14/site-packages/sqlalchemy/pool/base.py", line 1303, in _checkout
+    fairy = _ConnectionRecord.checkout(pool)
+  File "/usr/local/lib/python3.14/site-packages/sqlalchemy/pool/base.py", line 709, in checkout
+    rec = pool._do_get()
+  File "/usr/local/lib/python3.14/site-packages/sqlalchemy/pool/impl.py", line 176, in _do_get
+    with util.safe_reraise():
+         ~~~~~~~~~~~~~~~~~^^
+  File "/usr/local/lib/python3.14/site-packages/sqlalchemy/util/langhelpers.py", line 166, in __exit__
+    raise exc_value.with_traceback(exc_tb)
+  File "/usr/local/lib/python3.14/site-packages/sqlalchemy/pool/impl.py", line 174, in _do_get
+    return self._create_connection()
+           ~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "/usr/local/lib/python3.14/site-packages/sqlalchemy/pool/base.py", line 386, in _create_connection
+    return _ConnectionRecord(self)
+  File "/usr/local/lib/python3.14/site-packages/sqlalchemy/pool/base.py", line 671, in __init__
+    self.__connect()
+    ~~~~~~~~~~~~~~^^
+  File "/usr/local/lib/python3.14/site-packages/sqlalchemy/pool/base.py", line 906, in __connect
+    with util.safe_reraise():
+         ~~~~~~~~~~~~~~~~~^^
+  File "/usr/local/lib/python3.14/site-packages/sqlalchemy/util/langhelpers.py", line 166, in __exit__
+    raise exc_value.with_traceback(exc_tb)
+  File "/usr/local/lib/python3.14/site-packages/sqlalchemy/pool/base.py", line 902, in __connect
+    self.dbapi_connection = connection = pool._invoke_creator(self)
+                                         ~~~~~~~~~~~~~~~~~~~~^^^^^^
+  File "/usr/local/lib/python3.14/site-packages/sqlalchemy/engine/create.py", line 645, in connect
+    return dialect.connect(*cargs_tup, **cparams)
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.14/site-packages/sqlalchemy/engine/default.py", line 869, in connect
+    return self.loaded_dbapi.connect(*cargs, **cparams)  # type: ignore[no-any-return]  # NOQA: E501
+           ~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.14/site-packages/psycopg2/__init__.py", line 122, in connect
+    conn = _connect(dsn, connection_factory=connection_factory, **kwasync)
+psycopg2.OperationalError: connection to server at "db" (172.18.0.2), port 5432 failed: FATAL:  password authentication failed for user "weatherflow"
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/app/pipeline/main.py", line 47, in main
+    load_postgresql(geocoding_df, geocoding_table, if_exists="replace")
+    ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/app/pipeline/loaded/load_postresql.py", line 867, in load_postgresql
+    return _load_legacy_table(df, table_name, if_exists=if_exists, engine=engine)
+  File "/app/pipeline/loaded/load_postresql.py", line 453, in _load_legacy_table
+    with engine.begin() as connection:
+         ~~~~~~~~~~~~^^
+  File "/usr/local/lib/python3.14/contextlib.py", line 141, in __enter__
+    return next(self.gen)
+  File "/usr/local/lib/python3.14/site-packages/sqlalchemy/engine/base.py", line 3224, in begin
+    with self.connect() as conn:
+         ~~~~~~~~~~~~^^
+  File "/usr/local/lib/python3.14/site-packages/sqlalchemy/engine/base.py", line 3260, in connect
+    return self._connection_cls(self)
+           ~~~~~~~~~~~~~~~~~~~~^^^^^^
+  File "/usr/local/lib/python3.14/site-packages/sqlalchemy/engine/base.py", line 151, in __init__
+    Connection._handle_dbapi_exception_noconnection(
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        err, dialect, engine
+        ^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/usr/local/lib/python3.14/site-packages/sqlalchemy/engine/base.py", line 2417, in _handle_dbapi_exception_noconnection
+    raise sqlalchemy_exception.with_traceback(exc_info[2]) from e
+  File "/usr/local/lib/python3.14/site-packages/sqlalchemy/engine/base.py", line 149, in __init__
+    self._dbapi_connection = engine.raw_connection()
+                             ~~~~~~~~~~~~~~~~~~~~~^^
+  File "/usr/local/lib/python3.14/site-packages/sqlalchemy/engine/base.py", line 3284, in raw_connection
+    return self.pool.connect()
+           ~~~~~~~~~~~~~~~~~^^
+  File "/usr/local/lib/python3.14/site-packages/sqlalchemy/pool/base.py", line 445, in connect
+    return _ConnectionFairy._checkout(self)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^
+  File "/usr/local/lib/python3.14/site-packages/sqlalchemy/pool/base.py", line 1303, in _checkout
+    fairy = _ConnectionRecord.checkout(pool)
+  File "/usr/local/lib/python3.14/site-packages/sqlalchemy/pool/base.py", line 709, in checkout
+    rec = pool._do_get()
+  File "/usr/local/lib/python3.14/site-packages/sqlalchemy/pool/impl.py", line 176, in _do_get
+    with util.safe_reraise():
+         ~~~~~~~~~~~~~~~~~^^
+  File "/usr/local/lib/python3.14/site-packages/sqlalchemy/util/langhelpers.py", line 166, in __exit__
+    raise exc_value.with_traceback(exc_tb)
+  File "/usr/local/lib/python3.14/site-packages/sqlalchemy/pool/impl.py", line 174, in _do_get
+    return self._create_connection()
+           ~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "/usr/local/lib/python3.14/site-packages/sqlalchemy/pool/base.py", line 386, in _create_connection
+    return _ConnectionRecord(self)
+  File "/usr/local/lib/python3.14/site-packages/sqlalchemy/pool/base.py", line 671, in __init__
+    self.__connect()
+    ~~~~~~~~~~~~~~^^
+  File "/usr/local/lib/python3.14/site-packages/sqlalchemy/pool/base.py", line 906, in __connect
+    with util.safe_reraise():
+         ~~~~~~~~~~~~~~~~~^^
+  File "/usr/local/lib/python3.14/site-packages/sqlalchemy/util/langhelpers.py", line 166, in __exit__
+    raise exc_value.with_traceback(exc_tb)
+  File "/usr/local/lib/python3.14/site-packages/sqlalchemy/pool/base.py", line 902, in __connect
+    self.dbapi_connection = connection = pool._invoke_creator(self)
+                                         ~~~~~~~~~~~~~~~~~~~~^^^^^^
+  File "/usr/local/lib/python3.14/site-packages/sqlalchemy/engine/create.py", line 645, in connect
+    return dialect.connect(*cargs_tup, **cparams)
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.14/site-packages/sqlalchemy/engine/default.py", line 869, in connect
+    return self.loaded_dbapi.connect(*cargs, **cparams)  # type: ignore[no-any-return]  # NOQA: E501
+           ~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.14/site-packages/psycopg2/__init__.py", line 122, in connect
+    conn = _connect(dsn, connection_factory=connection_factory, **kwasync)
+sqlalchemy.exc.OperationalError: (psycopg2.OperationalError) connection to server at "db" (172.18.0.2), port 5432 failed: FATAL:  password authentication failed for user "weatherflow"
+
+(Background on this error at: https://sqlalche.me/e/21/e3q8)
+2026-10-20 10:53:34,954 | INFO | __main__ | Processing city: Zamboanga City
+2026-10-20 10:53:35,171 | INFO | __main__ | Geocoding extracted for Zamboanga City
+2026-10-20 10:53:35,187 | ERROR | __main__ | Failed to process city: Zamboanga City
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.14/site-packages/sqlalchemy/engine/base.py", line 149, in __init__
+    self._dbapi_connection = engine.raw_connection()
+                             ~~~~~~~~~~~~~~~~~~~~~^^
+  File "/usr/local/lib/python3.14/site-packages/sqlalchemy/engine/base.py", line 3284, in raw_connection
+    return self.pool.connect()
+           ~~~~~~~~~~~~~~~~~^^
+  File "/usr/local/lib/python3.14/site-packages/sqlalchemy/pool/base.py", line 445, in connect
+    return _ConnectionFairy._checkout(self)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^
+  File "/usr/local/lib/python3.14/site-packages/sqlalchemy/pool/base.py", line 1303, in _checkout
+    fairy = _ConnectionRecord.checkout(pool)
+  File "/usr/local/lib/python3.14/site-packages/sqlalchemy/pool/base.py", line 709, in checkout
+    rec = pool._do_get()
+  File "/usr/local/lib/python3.14/site-packages/sqlalchemy/pool/impl.py", line 176, in _do_get
+    with util.safe_reraise():
+         ~~~~~~~~~~~~~~~~~^^
+  File "/usr/local/lib/python3.14/site-packages/sqlalchemy/util/langhelpers.py", line 166, in __exit__
+    raise exc_value.with_traceback(exc_tb)
+  File "/usr/local/lib/python3.14/site-packages/sqlalchemy/pool/impl.py", line 174, in _do_get
+    return self._create_connection()
+           ~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "/usr/local/lib/python3.14/site-packages/sqlalchemy/pool/base.py", line 386, in _create_connection
+    return _ConnectionRecord(self)
+  File "/usr/local/lib/python3.14/site-packages/sqlalchemy/pool/base.py", line 671, in __init__
+    self.__connect()
+    ~~~~~~~~~~~~~~^^
+  File "/usr/local/lib/python3.14/site-packages/sqlalchemy/pool/base.py", line 906, in __connect
+    with util.safe_reraise():
+         ~~~~~~~~~~~~~~~~~^^
+  File "/usr/local/lib/python3.14/site-packages/sqlalchemy/util/langhelpers.py", line 166, in __exit__
+    raise exc_value.with_traceback(exc_tb)
+  File "/usr/local/lib/python3.14/site-packages/sqlalchemy/pool/base.py", line 902, in __connect
+    self.dbapi_connection = connection = pool._invoke_creator(self)
+                                         ~~~~~~~~~~~~~~~~~~~~^^^^^^
+  File "/usr/local/lib/python3.14/site-packages/sqlalchemy/engine/create.py", line 645, in connect
+    return dialect.connect(*cargs_tup, **cparams)
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.14/site-packages/sqlalchemy/engine/default.py", line 869, in connect
+    return self.loaded_dbapi.connect(*cargs, **cparams)  # type: ignore[no-any-return]  # NOQA: E501
+           ~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.14/site-packages/psycopg2/__init__.py", line 122, in connect
+    conn = _connect(dsn, connection_factory=connection_factory, **kwasync)
+psycopg2.OperationalError: connection to server at "db" (172.18.0.2), port 5432 failed: FATAL:  password authentication failed for user "weatherflow"
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/app/pipeline/main.py", line 47, in main
+    load_postgresql(geocoding_df, geocoding_table, if_exists="replace")
+    ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/app/pipeline/loaded/load_postresql.py", line 867, in load_postgresql
+    return _load_legacy_table(df, table_name, if_exists=if_exists, engine=engine)
+  File "/app/pipeline/loaded/load_postresql.py", line 453, in _load_legacy_table
+    with engine.begin() as connection:
+         ~~~~~~~~~~~~^^
+  File "/usr/local/lib/python3.14/contextlib.py", line 141, in __enter__
+    return next(self.gen)
+  File "/usr/local/lib/python3.14/site-packages/sqlalchemy/engine/base.py", line 3224, in begin
+    with self.connect() as conn:
+         ~~~~~~~~~~~~^^
+  File "/usr/local/lib/python3.14/site-packages/sqlalchemy/engine/base.py", line 3260, in connect
+    return self._connection_cls(self)
+           ~~~~~~~~~~~~~~~~~~~~^^^^^^
+  File "/usr/local/lib/python3.14/site-packages/sqlalchemy/engine/base.py", line 151, in __init__
+    Connection._handle_dbapi_exception_noconnection(
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        err, dialect, engine
+        ^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/usr/local/lib/python3.14/site-packages/sqlalchemy/engine/base.py", line 2417, in _handle_dbapi_exception_noconnection
+    raise sqlalchemy_exception.with_traceback(exc_info[2]) from e
+  File "/usr/local/lib/python3.14/site-packages/sqlalchemy/engine/base.py", line 149, in __init__
+    self._dbapi_connection = engine.raw_connection()
+                             ~~~~~~~~~~~~~~~~~~~~~^^
+  File "/usr/local/lib/python3.14/site-packages/sqlalchemy/engine/base.py", line 3284, in raw_connection
+    return self.pool.connect()
+           ~~~~~~~~~~~~~~~~~^^
+  File "/usr/local/lib/python3.14/site-packages/sqlalchemy/pool/base.py", line 445, in connect
+    return _ConnectionFairy._checkout(self)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^
+  File "/usr/local/lib/python3.14/site-packages/sqlalchemy/pool/base.py", line 1303, in _checkout
+    fairy = _ConnectionRecord.checkout(pool)
+  File "/usr/local/lib/python3.14/site-packages/sqlalchemy/pool/base.py", line 709, in checkout
+    rec = pool._do_get()
+  File "/usr/local/lib/python3.14/site-packages/sqlalchemy/pool/impl.py", line 176, in _do_get
+    with util.safe_reraise():
+         ~~~~~~~~~~~~~~~~~^^
+  File "/usr/local/lib/python3.14/site-packages/sqlalchemy/util/langhelpers.py", line 166, in __exit__
+    raise exc_value.with_traceback(exc_tb)
+  File "/usr/local/lib/python3.14/site-packages/sqlalchemy/pool/impl.py", line 174, in _do_get
+    return self._create_connection()
+           ~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "/usr/local/lib/python3.14/site-packages/sqlalchemy/pool/base.py", line 386, in _create_connection
+    return _ConnectionRecord(self)
+  File "/usr/local/lib/python3.14/site-packages/sqlalchemy/pool/base.py", line 671, in __init__
+    self.__connect()
+    ~~~~~~~~~~~~~~^^
+  File "/usr/local/lib/python3.14/site-packages/sqlalchemy/pool/base.py", line 906, in __connect
+    with util.safe_reraise():
+         ~~~~~~~~~~~~~~~~~^^
+  File "/usr/local/lib/python3.14/site-packages/sqlalchemy/util/langhelpers.py", line 166, in __exit__
+    raise exc_value.with_traceback(exc_tb)
+  File "/usr/local/lib/python3.14/site-packages/sqlalchemy/pool/base.py", line 902, in __connect
+    self.dbapi_connection = connection = pool._invoke_creator(self)
+                                         ~~~~~~~~~~~~~~~~~~~~^^^^^^
+  File "/usr/local/lib/python3.14/site-packages/sqlalchemy/engine/create.py", line 645, in connect
+    return dialect.connect(*cargs_tup, **cparams)
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.14/site-packages/sqlalchemy/engine/default.py", line 869, in connect
+    return self.loaded_dbapi.connect(*cargs, **cparams)  # type: ignore[no-any-return]  # NOQA: E501
+           ~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.14/site-packages/psycopg2/__init__.py", line 122, in connect
+    conn = _connect(dsn, connection_factory=connection_factory, **kwasync)
+sqlalchemy.exc.OperationalError: (psycopg2.OperationalError) connection to server at "db" (172.18.0.2), port 5432 failed: FATAL:  password authentication failed for user "weatherflow"
+
+(Background on this error at: https://sqlalche.me/e/21/e3q8)
+2026-10-20 10:53:35,193 | INFO | __main__ | Weather ingestion completed.
+2026-10-20 11:00:07,776 | INFO | pipeline.main | Starting Weather Ingestion...
+2026-10-20 11:00:07,792 | INFO | pipeline.main | Processing city: Manila
+2026-10-20 11:00:08,403 | INFO | pipeline.main | Geocoding loaded for Manila into geocoding_manila
+2026-10-20 11:00:08,566 | INFO | pipeline.main | Raw JSON saved for Manila: /opt/weatherflow/data/raw/openweather/manila.json
+2026-10-20 11:00:08,583 | INFO | pipeline.main | Weather data transformed for Manila
+2026-10-20 11:00:08,781 | INFO | pipeline.main | Parquet saved for Manila: /opt/weatherflow/data/parquet/openweather/manila.parquet
+2026-10-20 11:00:08,865 | INFO | pipeline.main | Loaded 1 row(s) for Manila into openweather_manila.
+2026-10-20 11:00:08,919 | INFO | pipeline.main | Checkpoint updated for Manila.
+2026-10-20 11:00:08,922 | INFO | pipeline.main | Processing city: Quezon City
+2026-10-20 11:00:09,248 | INFO | pipeline.main | Geocoding loaded for Quezon City into geocoding_quezon_city
+2026-10-20 11:00:09,338 | INFO | pipeline.main | Raw JSON saved for Quezon City: /opt/weatherflow/data/raw/openweather/quezon_city.json
+2026-10-20 11:00:09,345 | INFO | pipeline.main | Weather data transformed for Quezon City
+2026-10-20 11:00:09,490 | INFO | pipeline.main | Parquet saved for Quezon City: /opt/weatherflow/data/parquet/openweather/quezon_city.parquet
+2026-10-20 11:00:09,575 | INFO | pipeline.main | Loaded 1 row(s) for Quezon City into openweather_quezon_city.
+2026-10-20 11:00:09,651 | INFO | pipeline.main | Checkpoint updated for Quezon City.
+2026-10-20 11:00:09,654 | INFO | pipeline.main | Processing city: Cebu City
+2026-10-20 11:00:10,000 | INFO | pipeline.main | Geocoding loaded for Cebu City into geocoding_cebu_city
+2026-10-20 11:00:10,142 | INFO | pipeline.main | Raw JSON saved for Cebu City: /opt/weatherflow/data/raw/openweather/cebu_city.json
+2026-10-20 11:00:10,149 | INFO | pipeline.main | Weather data transformed for Cebu City
+2026-10-20 11:00:10,288 | INFO | pipeline.main | Parquet saved for Cebu City: /opt/weatherflow/data/parquet/openweather/cebu_city.parquet
+2026-10-20 11:00:10,334 | INFO | pipeline.main | Loaded 1 row(s) for Cebu City into openweather_cebu_city.
+2026-10-20 11:00:10,380 | INFO | pipeline.main | Checkpoint updated for Cebu City.
+2026-10-20 11:00:10,383 | INFO | pipeline.main | Processing city: Davao City
+2026-10-20 11:00:10,655 | INFO | pipeline.main | Geocoding loaded for Davao City into geocoding_davao_city
+2026-10-20 11:00:10,822 | INFO | pipeline.main | Raw JSON saved for Davao City: /opt/weatherflow/data/raw/openweather/davao_city.json
+2026-10-20 11:00:10,829 | INFO | pipeline.main | Weather data transformed for Davao City
+2026-10-20 11:00:11,008 | INFO | pipeline.main | Parquet saved for Davao City: /opt/weatherflow/data/parquet/openweather/davao_city.parquet
+2026-10-20 11:00:11,043 | INFO | pipeline.main | Loaded 1 row(s) for Davao City into openweather_davao_city.
+2026-10-20 11:00:11,107 | INFO | pipeline.main | Checkpoint updated for Davao City.
+2026-10-20 11:00:11,110 | INFO | pipeline.main | Processing city: Baguio
+2026-10-20 11:00:11,389 | INFO | pipeline.main | Geocoding loaded for Baguio into geocoding_baguio
+2026-10-20 11:00:11,494 | INFO | pipeline.main | Raw JSON saved for Baguio: /opt/weatherflow/data/raw/openweather/baguio.json
+2026-10-20 11:00:11,505 | INFO | pipeline.main | Weather data transformed for Baguio
+2026-10-20 11:00:11,662 | INFO | pipeline.main | Parquet saved for Baguio: /opt/weatherflow/data/parquet/openweather/baguio.parquet
+2026-10-20 11:00:11,722 | INFO | pipeline.main | Loaded 1 row(s) for Baguio into openweather_baguio.
+2026-10-20 11:00:11,787 | INFO | pipeline.main | Checkpoint updated for Baguio.
+2026-10-20 11:00:11,791 | INFO | pipeline.main | Processing city: Iloilo City
+2026-10-20 11:00:12,096 | INFO | pipeline.main | Geocoding loaded for Iloilo City into geocoding_iloilo_city
+2026-10-20 11:00:12,199 | INFO | pipeline.main | Raw JSON saved for Iloilo City: /opt/weatherflow/data/raw/openweather/iloilo_city.json
+2026-10-20 11:00:12,206 | INFO | pipeline.main | Weather data transformed for Iloilo City
+2026-10-20 11:00:12,393 | INFO | pipeline.main | Parquet saved for Iloilo City: /opt/weatherflow/data/parquet/openweather/iloilo_city.parquet
+2026-10-20 11:00:12,432 | INFO | pipeline.main | Loaded 1 row(s) for Iloilo City into openweather_iloilo_city.
+2026-10-20 11:00:12,490 | INFO | pipeline.main | Checkpoint updated for Iloilo City.
+2026-10-20 11:00:12,494 | INFO | pipeline.main | Processing city: Cagayan de Oro
+2026-10-20 11:00:12,729 | INFO | pipeline.main | Geocoding loaded for Cagayan de Oro into geocoding_cagayan_de_oro
+2026-10-20 11:00:12,864 | INFO | pipeline.main | Raw JSON saved for Cagayan de Oro: /opt/weatherflow/data/raw/openweather/cagayan_de_oro.json
+2026-10-20 11:00:12,872 | INFO | pipeline.main | Weather data transformed for Cagayan de Oro
+2026-10-20 11:00:13,021 | INFO | pipeline.main | Parquet saved for Cagayan de Oro: /opt/weatherflow/data/parquet/openweather/cagayan_de_oro.parquet
+2026-10-20 11:00:13,065 | INFO | pipeline.main | Loaded 1 row(s) for Cagayan de Oro into openweather_cagayan_de_oro.
+2026-10-20 11:00:13,096 | INFO | pipeline.main | Checkpoint updated for Cagayan de Oro.
+2026-10-20 11:00:13,098 | INFO | pipeline.main | Processing city: Zamboanga City
+2026-10-20 11:00:13,377 | INFO | pipeline.main | Geocoding loaded for Zamboanga City into geocoding_zamboanga_city
+2026-10-20 11:00:13,490 | INFO | pipeline.main | Raw JSON saved for Zamboanga City: /opt/weatherflow/data/raw/openweather/zamboanga_city.json
+2026-10-20 11:00:13,502 | INFO | pipeline.main | Weather data transformed for Zamboanga City
+2026-10-20 11:00:13,704 | INFO | pipeline.main | Parquet saved for Zamboanga City: /opt/weatherflow/data/parquet/openweather/zamboanga_city.parquet
+2026-10-20 11:00:13,748 | INFO | pipeline.main | Loaded 1 row(s) for Zamboanga City into openweather_zamboanga_city.
+2026-10-20 11:00:13,811 | INFO | pipeline.main | Checkpoint updated for Zamboanga City.
+2026-10-20 11:00:13,817 | INFO | pipeline.main | Pipeline summary | total=8 | loaded=8 | skipped=0 | failed=0
+2026-10-20 11:00:13,820 | INFO | pipeline.main | Successfully loaded cities: ['Manila', 'Quezon City', 'Cebu City', 'Davao City', 'Baguio', 'Iloilo City', 'Cagayan de Oro', 'Zamboanga City']
+2026-10-20 11:00:13,823 | INFO | pipeline.main | Weather ingestion completed successfully.
+2026-10-20 12:00:09,836 | INFO | pipeline.main | Starting Weather Ingestion...
+2026-10-20 12:00:09,841 | INFO | pipeline.main | Processing city: Manila
+2026-10-20 12:00:10,488 | INFO | pipeline.main | Geocoding loaded for Manila into geocoding_manila
+2026-10-20 12:00:10,629 | INFO | pipeline.main | Raw JSON saved for Manila: /opt/weatherflow/data/raw/openweather/manila.json
+2026-10-20 12:00:10,641 | INFO | pipeline.main | Weather data transformed for Manila
+2026-10-20 12:00:11,112 | INFO | pipeline.main | Parquet saved for Manila: /opt/weatherflow/data/parquet/openweather/manila.parquet
+2026-10-20 12:00:11,201 | INFO | pipeline.main | Loaded 1 row(s) for Manila into openweather_manila.
+2026-10-20 12:00:11,277 | INFO | pipeline.main | Checkpoint updated for Manila.
+2026-10-20 12:00:11,281 | INFO | pipeline.main | Processing city: Quezon City
+2026-10-20 12:00:11,703 | INFO | pipeline.main | Geocoding loaded for Quezon City into geocoding_quezon_city
+2026-10-20 12:00:11,805 | INFO | pipeline.main | Raw JSON saved for Quezon City: /opt/weatherflow/data/raw/openweather/quezon_city.json
+2026-10-20 12:00:11,818 | INFO | pipeline.main | Weather data transformed for Quezon City
+2026-10-20 12:00:11,971 | INFO | pipeline.main | Parquet saved for Quezon City: /opt/weatherflow/data/parquet/openweather/quezon_city.parquet
+2026-10-20 12:00:12,029 | INFO | pipeline.main | Loaded 1 row(s) for Quezon City into openweather_quezon_city.
+2026-10-20 12:00:12,094 | INFO | pipeline.main | Checkpoint updated for Quezon City.
+2026-10-20 12:00:12,098 | INFO | pipeline.main | Processing city: Cebu City
+2026-10-20 12:00:12,454 | INFO | pipeline.main | Geocoding loaded for Cebu City into geocoding_cebu_city
+2026-10-20 12:00:12,603 | INFO | pipeline.main | Raw JSON saved for Cebu City: /opt/weatherflow/data/raw/openweather/cebu_city.json
+2026-10-20 12:00:12,609 | INFO | pipeline.main | Weather data transformed for Cebu City
+2026-10-20 12:00:12,766 | INFO | pipeline.main | Parquet saved for Cebu City: /opt/weatherflow/data/parquet/openweather/cebu_city.parquet
+2026-10-20 12:00:12,817 | INFO | pipeline.main | Loaded 1 row(s) for Cebu City into openweather_cebu_city.
+2026-10-20 12:00:12,873 | INFO | pipeline.main | Checkpoint updated for Cebu City.
+2026-10-20 12:00:12,876 | INFO | pipeline.main | Processing city: Davao City
+2026-10-20 12:00:13,329 | INFO | pipeline.main | Geocoding loaded for Davao City into geocoding_davao_city
+2026-10-20 12:00:13,446 | INFO | pipeline.main | Raw JSON saved for Davao City: /opt/weatherflow/data/raw/openweather/davao_city.json
+2026-10-20 12:00:13,455 | INFO | pipeline.main | Weather data transformed for Davao City
+2026-10-20 12:00:13,641 | INFO | pipeline.main | Parquet saved for Davao City: /opt/weatherflow/data/parquet/openweather/davao_city.parquet
+2026-10-20 12:00:13,718 | INFO | pipeline.main | Loaded 1 row(s) for Davao City into openweather_davao_city.
+2026-10-20 12:00:13,760 | INFO | pipeline.main | Checkpoint updated for Davao City.
+2026-10-20 12:00:13,763 | INFO | pipeline.main | Processing city: Baguio
+2026-10-20 12:00:14,057 | INFO | pipeline.main | Geocoding loaded for Baguio into geocoding_baguio
+2026-10-20 12:00:14,155 | INFO | pipeline.main | Raw JSON saved for Baguio: /opt/weatherflow/data/raw/openweather/baguio.json
+2026-10-20 12:00:14,166 | INFO | pipeline.main | Weather data transformed for Baguio
+2026-10-20 12:00:14,316 | INFO | pipeline.main | Parquet saved for Baguio: /opt/weatherflow/data/parquet/openweather/baguio.parquet
+2026-10-20 12:00:14,375 | INFO | pipeline.main | Loaded 1 row(s) for Baguio into openweather_baguio.
+2026-10-20 12:00:14,419 | INFO | pipeline.main | Checkpoint updated for Baguio.
+2026-10-20 12:00:14,422 | INFO | pipeline.main | Processing city: Iloilo City
+2026-10-20 12:00:14,856 | INFO | pipeline.main | Geocoding loaded for Iloilo City into geocoding_iloilo_city
+2026-10-20 12:00:14,944 | INFO | pipeline.main | Raw JSON saved for Iloilo City: /opt/weatherflow/data/raw/openweather/iloilo_city.json
+2026-10-20 12:00:14,949 | INFO | pipeline.main | Weather data transformed for Iloilo City
+2026-10-20 12:00:15,109 | INFO | pipeline.main | Parquet saved for Iloilo City: /opt/weatherflow/data/parquet/openweather/iloilo_city.parquet
+2026-10-20 12:00:15,183 | INFO | pipeline.main | Loaded 1 row(s) for Iloilo City into openweather_iloilo_city.
+2026-10-20 12:00:15,239 | INFO | pipeline.main | Checkpoint updated for Iloilo City.
+2026-10-20 12:00:15,241 | INFO | pipeline.main | Processing city: Cagayan de Oro
+2026-10-20 12:00:15,571 | INFO | pipeline.main | Geocoding loaded for Cagayan de Oro into geocoding_cagayan_de_oro
+2026-10-20 12:00:15,682 | INFO | pipeline.main | Raw JSON saved for Cagayan de Oro: /opt/weatherflow/data/raw/openweather/cagayan_de_oro.json
+2026-10-20 12:00:15,693 | INFO | pipeline.main | Weather data transformed for Cagayan de Oro
+2026-10-20 12:00:15,895 | INFO | pipeline.main | Parquet saved for Cagayan de Oro: /opt/weatherflow/data/parquet/openweather/cagayan_de_oro.parquet
+2026-10-20 12:00:15,944 | INFO | pipeline.main | Loaded 1 row(s) for Cagayan de Oro into openweather_cagayan_de_oro.
+2026-10-20 12:00:16,004 | INFO | pipeline.main | Checkpoint updated for Cagayan de Oro.
+2026-10-20 12:00:16,006 | INFO | pipeline.main | Processing city: Zamboanga City
+2026-10-20 12:00:16,340 | INFO | pipeline.main | Geocoding loaded for Zamboanga City into geocoding_zamboanga_city
+2026-10-20 12:00:16,468 | INFO | pipeline.main | Raw JSON saved for Zamboanga City: /opt/weatherflow/data/raw/openweather/zamboanga_city.json
+2026-10-20 12:00:16,484 | INFO | pipeline.main | Weather data transformed for Zamboanga City
+2026-10-20 12:00:16,671 | INFO | pipeline.main | Parquet saved for Zamboanga City: /opt/weatherflow/data/parquet/openweather/zamboanga_city.parquet
+2026-10-20 12:00:16,735 | INFO | pipeline.main | Loaded 1 row(s) for Zamboanga City into openweather_zamboanga_city.
+2026-10-20 12:00:16,823 | INFO | pipeline.main | Checkpoint updated for Zamboanga City.
+2026-10-20 12:00:16,826 | INFO | pipeline.main | Pipeline summary | total=8 | loaded=8 | skipped=0 | failed=0
+2026-10-20 12:00:16,828 | INFO | pipeline.main | Successfully loaded cities: ['Manila', 'Quezon City', 'Cebu City', 'Davao City', 'Baguio', 'Iloilo City', 'Cagayan de Oro', 'Zamboanga City']
+2026-10-20 12:00:16,830 | INFO | pipeline.main | Weather ingestion completed successfully.

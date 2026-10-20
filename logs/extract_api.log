@@ -2735,3 +2735,99 @@
 2026-10-19 11:07:31,353 | INFO | pipeline.ingestion.extract_api | Successfully extracted geocoding data from OpenWeather API.
 2026-10-19 11:07:31,855 | INFO | pipeline.ingestion.extract_api | Successfully extracted data from OpenWeather API.
 2026-10-19 11:07:31,938 | INFO | pipeline.ingestion.extract_api | Successfully extracted geocoding data from OpenWeather API.
+2026-10-19 12:00:07,739 | INFO | pipeline.ingestion.extract_api | Successfully extracted weather data for Manila.
+2026-10-19 12:00:07,840 | INFO | pipeline.ingestion.extract_api | Successfully extracted geocoding data from OpenWeather API.
+2026-10-19 12:00:08,756 | INFO | pipeline.ingestion.extract_api | Successfully extracted weather data for Quezon City.
+2026-10-19 12:00:08,900 | INFO | pipeline.ingestion.extract_api | Successfully extracted geocoding data from OpenWeather API.
+2026-10-19 12:00:09,430 | INFO | pipeline.ingestion.extract_api | Successfully extracted weather data for Cebu City.
+2026-10-19 12:00:09,554 | INFO | pipeline.ingestion.extract_api | Successfully extracted geocoding data from OpenWeather API.
+2026-10-19 12:00:10,072 | INFO | pipeline.ingestion.extract_api | Successfully extracted weather data for Davao City.
+2026-10-19 12:00:10,158 | INFO | pipeline.ingestion.extract_api | Successfully extracted geocoding data from OpenWeather API.
+2026-10-19 12:00:10,666 | INFO | pipeline.ingestion.extract_api | Successfully extracted weather data for Baguio.
+2026-10-19 12:00:10,833 | INFO | pipeline.ingestion.extract_api | Successfully extracted geocoding data from OpenWeather API.
+2026-10-19 12:00:11,339 | INFO | pipeline.ingestion.extract_api | Successfully extracted weather data for Iloilo City.
+2026-10-19 12:00:11,442 | INFO | pipeline.ingestion.extract_api | Successfully extracted geocoding data from OpenWeather API.
+2026-10-19 12:00:12,149 | INFO | pipeline.ingestion.extract_api | Successfully extracted weather data for Cagayan de Oro.
+2026-10-19 12:00:12,252 | INFO | pipeline.ingestion.extract_api | Successfully extracted geocoding data from OpenWeather API.
+2026-10-19 12:00:12,852 | INFO | pipeline.ingestion.extract_api | Successfully extracted weather data for Zamboanga City.
+2026-10-19 12:00:12,973 | INFO | pipeline.ingestion.extract_api | Successfully extracted geocoding data from OpenWeather API.
+2026-10-20 10:27:56,770 | INFO | pipeline.ingestion.extract_api | Successfully extracted data from OpenWeather API.
+2026-10-20 10:27:56,862 | INFO | pipeline.ingestion.extract_api | Successfully extracted geocoding data from OpenWeather API.
+2026-10-20 10:27:57,092 | INFO | pipeline.ingestion.extract_api | Successfully extracted data from OpenWeather API.
+2026-10-20 10:27:57,236 | INFO | pipeline.ingestion.extract_api | Successfully extracted geocoding data from OpenWeather API.
+2026-10-20 10:27:57,434 | INFO | pipeline.ingestion.extract_api | Successfully extracted data from OpenWeather API.
+2026-10-20 10:27:57,579 | INFO | pipeline.ingestion.extract_api | Successfully extracted geocoding data from OpenWeather API.
+2026-10-20 10:27:57,768 | INFO | pipeline.ingestion.extract_api | Successfully extracted data from OpenWeather API.
+2026-10-20 10:27:57,848 | INFO | pipeline.ingestion.extract_api | Successfully extracted geocoding data from OpenWeather API.
+2026-10-20 10:27:58,055 | INFO | pipeline.ingestion.extract_api | Successfully extracted data from OpenWeather API.
+2026-10-20 10:27:58,158 | INFO | pipeline.ingestion.extract_api | Successfully extracted geocoding data from OpenWeather API.
+2026-10-20 10:27:58,344 | INFO | pipeline.ingestion.extract_api | Successfully extracted data from OpenWeather API.
+2026-10-20 10:27:58,427 | INFO | pipeline.ingestion.extract_api | Successfully extracted geocoding data from OpenWeather API.
+2026-10-20 10:27:58,580 | INFO | pipeline.ingestion.extract_api | Successfully extracted data from OpenWeather API.
+2026-10-20 10:27:58,696 | INFO | pipeline.ingestion.extract_api | Successfully extracted geocoding data from OpenWeather API.
+2026-10-20 10:27:58,843 | INFO | pipeline.ingestion.extract_api | Successfully extracted data from OpenWeather API.
+2026-10-20 10:27:58,951 | INFO | pipeline.ingestion.extract_api | Successfully extracted geocoding data from OpenWeather API.
+2026-10-20 10:28:21,929 | INFO | pipeline.ingestion.extract_api | Successfully extracted weather data for Manila.
+2026-10-20 10:28:22,048 | INFO | pipeline.ingestion.extract_api | Successfully extracted geocoding data from OpenWeather API.
+2026-10-20 10:28:22,871 | INFO | pipeline.ingestion.extract_api | Successfully extracted weather data for Quezon City.
+2026-10-20 10:28:22,973 | INFO | pipeline.ingestion.extract_api | Successfully extracted geocoding data from OpenWeather API.
+2026-10-20 10:28:23,697 | INFO | pipeline.ingestion.extract_api | Successfully extracted weather data for Cebu City.
+2026-10-20 10:28:23,805 | INFO | pipeline.ingestion.extract_api | Successfully extracted geocoding data from OpenWeather API.
+2026-10-20 10:28:24,608 | INFO | pipeline.ingestion.extract_api | Successfully extracted weather data for Davao City.
+2026-10-20 10:28:24,722 | INFO | pipeline.ingestion.extract_api | Successfully extracted geocoding data from OpenWeather API.
+2026-10-20 10:28:25,382 | INFO | pipeline.ingestion.extract_api | Successfully extracted weather data for Baguio.
+2026-10-20 10:28:25,509 | INFO | pipeline.ingestion.extract_api | Successfully extracted geocoding data from OpenWeather API.
+2026-10-20 10:28:26,324 | INFO | pipeline.ingestion.extract_api | Successfully extracted weather data for Iloilo City.
+2026-10-20 10:28:26,411 | INFO | pipeline.ingestion.extract_api | Successfully extracted geocoding data from OpenWeather API.
+2026-10-20 10:28:27,110 | INFO | pipeline.ingestion.extract_api | Successfully extracted weather data for Cagayan de Oro.
+2026-10-20 10:28:27,213 | INFO | pipeline.ingestion.extract_api | Successfully extracted geocoding data from OpenWeather API.
+2026-10-20 10:28:27,932 | INFO | pipeline.ingestion.extract_api | Successfully extracted weather data for Zamboanga City.
+2026-10-20 10:28:28,072 | INFO | pipeline.ingestion.extract_api | Successfully extracted geocoding data from OpenWeather API.
+2026-10-20 10:53:33,092 | INFO | pipeline.ingestion.extract_api | Successfully extracted data from OpenWeather API.
+2026-10-20 10:53:33,201 | INFO | pipeline.ingestion.extract_api | Successfully extracted geocoding data from OpenWeather API.
+2026-10-20 10:53:33,504 | INFO | pipeline.ingestion.extract_api | Successfully extracted data from OpenWeather API.
+2026-10-20 10:53:33,593 | INFO | pipeline.ingestion.extract_api | Successfully extracted geocoding data from OpenWeather API.
+2026-10-20 10:53:33,822 | INFO | pipeline.ingestion.extract_api | Successfully extracted data from OpenWeather API.
+2026-10-20 10:53:33,902 | INFO | pipeline.ingestion.extract_api | Successfully extracted geocoding data from OpenWeather API.
+2026-10-20 10:53:34,045 | INFO | pipeline.ingestion.extract_api | Successfully extracted data from OpenWeather API.
+2026-10-20 10:53:34,144 | INFO | pipeline.ingestion.extract_api | Successfully extracted geocoding data from OpenWeather API.
+2026-10-20 10:53:34,317 | INFO | pipeline.ingestion.extract_api | Successfully extracted data from OpenWeather API.
+2026-10-20 10:53:34,416 | INFO | pipeline.ingestion.extract_api | Successfully extracted geocoding data from OpenWeather API.
+2026-10-20 10:53:34,566 | INFO | pipeline.ingestion.extract_api | Successfully extracted data from OpenWeather API.
+2026-10-20 10:53:34,667 | INFO | pipeline.ingestion.extract_api | Successfully extracted geocoding data from OpenWeather API.
+2026-10-20 10:53:34,839 | INFO | pipeline.ingestion.extract_api | Successfully extracted data from OpenWeather API.
+2026-10-20 10:53:34,931 | INFO | pipeline.ingestion.extract_api | Successfully extracted geocoding data from OpenWeather API.
+2026-10-20 10:53:35,086 | INFO | pipeline.ingestion.extract_api | Successfully extracted data from OpenWeather API.
+2026-10-20 10:53:35,169 | INFO | pipeline.ingestion.extract_api | Successfully extracted geocoding data from OpenWeather API.
+2026-10-20 11:00:08,060 | INFO | pipeline.ingestion.extract_api | Successfully extracted weather data for Manila.
+2026-10-20 11:00:08,203 | INFO | pipeline.ingestion.extract_api | Successfully extracted geocoding data from OpenWeather API.
+2026-10-20 11:00:09,080 | INFO | pipeline.ingestion.extract_api | Successfully extracted weather data for Quezon City.
+2026-10-20 11:00:09,187 | INFO | pipeline.ingestion.extract_api | Successfully extracted geocoding data from OpenWeather API.
+2026-10-20 11:00:09,775 | INFO | pipeline.ingestion.extract_api | Successfully extracted weather data for Cebu City.
+2026-10-20 11:00:09,910 | INFO | pipeline.ingestion.extract_api | Successfully extracted geocoding data from OpenWeather API.
+2026-10-20 11:00:10,536 | INFO | pipeline.ingestion.extract_api | Successfully extracted weather data for Davao City.
+2026-10-20 11:00:10,615 | INFO | pipeline.ingestion.extract_api | Successfully extracted geocoding data from OpenWeather API.
+2026-10-20 11:00:11,259 | INFO | pipeline.ingestion.extract_api | Successfully extracted weather data for Baguio.
+2026-10-20 11:00:11,347 | INFO | pipeline.ingestion.extract_api | Successfully extracted geocoding data from OpenWeather API.
+2026-10-20 11:00:11,951 | INFO | pipeline.ingestion.extract_api | Successfully extracted weather data for Iloilo City.
+2026-10-20 11:00:12,057 | INFO | pipeline.ingestion.extract_api | Successfully extracted geocoding data from OpenWeather API.
+2026-10-20 11:00:12,612 | INFO | pipeline.ingestion.extract_api | Successfully extracted weather data for Cagayan de Oro.
+2026-10-20 11:00:12,690 | INFO | pipeline.ingestion.extract_api | Successfully extracted geocoding data from OpenWeather API.
+2026-10-20 11:00:13,245 | INFO | pipeline.ingestion.extract_api | Successfully extracted weather data for Zamboanga City.
+2026-10-20 11:00:13,321 | INFO | pipeline.ingestion.extract_api | Successfully extracted geocoding data from OpenWeather API.
+2026-10-20 12:00:10,219 | INFO | pipeline.ingestion.extract_api | Successfully extracted weather data for Manila.
+2026-10-20 12:00:10,318 | INFO | pipeline.ingestion.extract_api | Successfully extracted geocoding data from OpenWeather API.
+2026-10-20 12:00:11,517 | INFO | pipeline.ingestion.extract_api | Successfully extracted weather data for Quezon City.
+2026-10-20 12:00:11,641 | INFO | pipeline.ingestion.extract_api | Successfully extracted geocoding data from OpenWeather API.
+2026-10-20 12:00:12,270 | INFO | pipeline.ingestion.extract_api | Successfully extracted weather data for Cebu City.
+2026-10-20 12:00:12,375 | INFO | pipeline.ingestion.extract_api | Successfully extracted geocoding data from OpenWeather API.
+2026-10-20 12:00:13,147 | INFO | pipeline.ingestion.extract_api | Successfully extracted weather data for Davao City.
+2026-10-20 12:00:13,275 | INFO | pipeline.ingestion.extract_api | Successfully extracted geocoding data from OpenWeather API.
+2026-10-20 12:00:13,878 | INFO | pipeline.ingestion.extract_api | Successfully extracted weather data for Baguio.
+2026-10-20 12:00:13,987 | INFO | pipeline.ingestion.extract_api | Successfully extracted geocoding data from OpenWeather API.
+2026-10-20 12:00:14,644 | INFO | pipeline.ingestion.extract_api | Successfully extracted weather data for Iloilo City.
+2026-10-20 12:00:14,788 | INFO | pipeline.ingestion.extract_api | Successfully extracted geocoding data from OpenWeather API.
+2026-10-20 12:00:15,411 | INFO | pipeline.ingestion.extract_api | Successfully extracted weather data for Cagayan de Oro.
+2026-10-20 12:00:15,516 | INFO | pipeline.ingestion.extract_api | Successfully extracted geocoding data from OpenWeather API.
+2026-10-20 12:00:16,148 | INFO | pipeline.ingestion.extract_api | Successfully extracted weather data for Zamboanga City.
+2026-10-20 12:00:16,287 | INFO | pipeline.ingestion.extract_api | Successfully extracted geocoding data from OpenWeather API.

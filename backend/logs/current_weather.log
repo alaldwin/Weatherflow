@@ -314,3 +314,7 @@ sqlalchemy.exc.SQLAlchemyError: Simulated database failure
 {"timestamp": "2026-10-19T11:43:06.859426+00:00", "level": "INFO", "logger": "app.api.routes.current_weather", "message": "Current weather list retrieved successfully | count=12 | limit=100 | offset=0 | has_more=False"}
 {"timestamp": "2026-10-19T11:43:21.371100+00:00", "level": "INFO", "logger": "app.api.routes.current_weather", "message": "Current weather by city request received | city=Manila"}
 {"timestamp": "2026-10-19T11:43:21.382365+00:00", "level": "INFO", "logger": "app.api.routes.current_weather", "message": "Current weather retrieved successfully | city=Manila"}
+{"timestamp": "2026-10-20T11:53:34.368526+00:00", "level": "INFO", "logger": "app.api.routes.current_weather", "message": "Current weather by city request received | city=Manila"}
+{"timestamp": "2026-10-20T11:53:34.399632+00:00", "level": "INFO", "logger": "app.api.routes.current_weather", "message": "Current weather retrieved successfully | city=Manila"}
+{"timestamp": "2026-10-20T11:53:49.184410+00:00", "level": "INFO", "logger": "app.api.routes.current_weather", "message": "Current weather list request received | limit=20 | offset=0"}
+{"timestamp": "2026-10-20T11:53:49.191715+00:00", "level": "INFO", "logger": "app.api.routes.current_weather", "message": "Current weather list retrieved successfully | count=12 | limit=20 | offset=0 | has_more=False"}
