@@ -2,8 +2,8 @@ import re
 
 from common.logging import get_logger
 from config.cities import CITIES
-
 from pipeline.ingestion.extract_api import (
+    WeatherAPIUnavailable,
     extract_geocoding_data,
     extract_openweather_data,
 )
@@ -48,9 +48,18 @@ def main() -> int:
                 )
 
             # 2. Extract and load geocoding data
-            geocoding_data = extract_geocoding_data(
-                latitude, longitude, city
-            )
+            try:
+                geocoding_data = extract_geocoding_data(
+                    latitude, longitude, city
+                )
+            except WeatherAPIUnavailable:
+                logger.warning(
+                    "Geocoding API is temporarily unavailable for %s. "
+                    "Continuing with weather ingestion.",
+                    city,
+                    exc_info=True,
+                )
+                geocoding_data = None
 
             if geocoding_data:
                 geocoding_df = WeatherTransform(
@@ -177,9 +186,23 @@ def main() -> int:
             logger.info("Checkpoint updated for %s.", city)
             successful_cities.append(city)
 
+        except WeatherAPIUnavailable:
+            logger.warning(
+                "Weather API is temporarily unavailable while processing %s. "
+                "Stopping ingestion to preserve existing data.",
+                city,
+                exc_info=True,
+            )
+            logger.warning(
+                "Weather ingestion paused because of an external API outage. "
+                "Existing PostgreSQL records and checkpoints are preserved."
+            )
+            return 2
+
         except Exception:
             logger.exception("Failed to process city: %s", city)
             failed_cities.append(city)
+
 
     # 9. Report the final result
     logger.info(

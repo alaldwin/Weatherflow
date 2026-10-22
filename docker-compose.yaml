@@ -39,6 +39,7 @@ services:
   db:
 
     image: postgres:15
+
     container_name: wf-postgres
 
     environment:
@@ -68,7 +69,9 @@ services:
     build:
       context: .
       dockerfile: airflow/Dockerfile
+
     container_name: wf-airflow
+    
     restart: unless-stopped
 
     env_file:
@@ -83,6 +86,9 @@ services:
       PYTHONPATH: /opt/weatherflow
       POSTGRES_HOST: db
       POSTGRES_PORT: "5432"
+      POSTGRES_DB: ${POSTGRES_DB:-weatherflow}
+      POSTGRES_USER: ${POSTGRES_USER:-weatherflow}
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD:-weatherflow}
 
     command: standalone
 
@@ -99,6 +105,64 @@ services:
     depends_on:
       db:
         condition: service_healthy
+
+
+  dbt:
+    image: dbt:local
+
+    build:
+      context: .
+      dockerfile: dbt_weatherflow/Dockerfile.dbt
+
+    working_dir: /usr/app/dbt
+
+    environment:
+      POSTGRES_HOST: db
+      POSTGRES_PORT: "5432"
+      POSTGRES_DB: ${POSTGRES_DB:-weatherflow}
+      POSTGRES_USER: ${POSTGRES_USER:-weatherflow}
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD}
+
+    networks:
+      - weatherflow_net
+
+    profiles:
+      - tools
+
+
+
+  backend:
+    build:
+      context: .
+
+      dockerfile: backend/Dockerfile
+
+    image: weatherflow-backend:local
+
+    container_name: wf-backend
+
+    restart: unless-stopped
+
+    env_file:
+      - .env
+
+    environment:
+      POSTGRES_HOST: db
+      POSTGRES_PORT: "5432"
+      POSTGRES_DB: ${POSTGRES_DB:-weatherflow}
+      POSTGRES_USER: ${POSTGRES_USER:-weatherflow}
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD:-weatherflow}
+
+    ports:
+      - "8000:8000"
+
+    networks:
+      - weatherflow_net
+
+    depends_on:
+      db:
+        condition: service_healthy
+
 
 
 networks:

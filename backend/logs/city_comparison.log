@@ -9,3 +9,6 @@
 {"timestamp": "2026-10-19T11:38:12.397086+00:00", "level": "INFO", "logger": "app.api.routes.city_comparison", "message": "City comprison request received | sort_bytemperature | order=desc"}
 {"timestamp": "2026-10-20T10:33:18.390869+00:00", "level": "INFO", "logger": "app.api.routes.city_comparison", "message": "City comprison request received | sort_bytemperature | order=desc"}
 {"timestamp": "2026-10-20T11:53:31.907574+00:00", "level": "INFO", "logger": "app.api.routes.city_comparison", "message": "City comprison request received | sort_bytemperature | order=desc"}
+{"timestamp": "2026-10-22T02:42:45.599748+00:00", "level": "INFO", "logger": "app.api.routes.city_comparison", "message": "City comprison request received | sort_bytemperature | order=desc"}
+{"timestamp": "2026-10-22T02:43:16.319848+00:00", "level": "INFO", "logger": "app.api.routes.city_comparison", "message": "City comprison request received | sort_bytemperature | order=desc"}
+{"timestamp": "2026-10-22T08:26:47.826175+00:00", "level": "INFO", "logger": "app.api.routes.city_comparison", "message": "City comprison request received | sort_bytemperature | order=desc"}

@@ -96,3 +96,9 @@
 {"timestamp": "2026-10-20T10:33:14.584220+00:00", "level": "INFO", "logger": "app.api.routes.trends", "message": "Weather trends retrieved successfully | count=20 | has_more=True | limit=20 | offset=0"}
 {"timestamp": "2026-10-20T11:53:29.259233+00:00", "level": "INFO", "logger": "app.api.routes.trends", "message": "Weather trends request received | city=None | start_date=None | end_date=None | limit=20 | offset=0"}
 {"timestamp": "2026-10-20T11:53:29.273311+00:00", "level": "INFO", "logger": "app.api.routes.trends", "message": "Weather trends retrieved successfully | count=20 | has_more=True | limit=20 | offset=0"}
+{"timestamp": "2026-10-21T06:18:19.045721+00:00", "level": "INFO", "logger": "app.api.routes.trends", "message": "Weather trends request received | city=None | start_date=None | end_date=None | limit=20 | offset=0"}
+{"timestamp": "2026-10-21T06:18:19.067449+00:00", "level": "INFO", "logger": "app.api.routes.trends", "message": "Weather trends retrieved successfully | count=20 | has_more=True | limit=20 | offset=0"}
+{"timestamp": "2026-10-22T02:42:48.875174+00:00", "level": "INFO", "logger": "app.api.routes.trends", "message": "Weather trends request received | city=None | start_date=None | end_date=None | limit=20 | offset=0"}
+{"timestamp": "2026-10-22T02:42:48.881910+00:00", "level": "INFO", "logger": "app.api.routes.trends", "message": "Weather trends retrieved successfully | count=20 | has_more=True | limit=20 | offset=0"}
+{"timestamp": "2026-10-22T08:26:47.738546+00:00", "level": "INFO", "logger": "app.api.routes.trends", "message": "Weather trends request received | city=None | start_date=None | end_date=None | limit=2 | offset=0"}
+{"timestamp": "2026-10-22T08:26:47.746406+00:00", "level": "INFO", "logger": "app.api.routes.trends", "message": "Weather trends retrieved successfully | count=2 | has_more=True | limit=2 | offset=0"}
