@@ -6,6 +6,10 @@ from dotenv import load_dotenv
 
 from common.logging import get_logger
 
+
+class WeatherAPIUnavailable(Exception):
+    """Raised when the weather API is temporarily unreachable."""
+
 load_dotenv()
 
 logger = get_logger(__name__, "extract_api.log")
@@ -31,7 +35,8 @@ def extract_openweather_data(latitude, longitude, city=None):
     }
 
     try:
-        response = requests.get(url, params=params, timeout=10)
+        response = requests.get(url, params=params, timeout=(5, 10))
+
         response.raise_for_status()
 
         data = response.json()
@@ -50,33 +55,42 @@ def extract_openweather_data(latitude, longitude, city=None):
         return data
 
     except requests.exceptions.Timeout as exc:
-        logger.error(f"Timeout error extracting data from OpenWeather API: {exc}")
-
-        return None
-
-    except requests.exceptions.HTTPError as exc:
-        logger.error(f"HTTP error extracting data from OpenWeather API: {exc}")
-
-        return None
+        logger.warning("OpenWeather API timed out: %s", exc)
+        raise WeatherAPIUnavailable("OpenWeather API timed out") from exc
 
     except requests.exceptions.ConnectionError as exc:
-        logger.error(f"Connection error extracting data from OpenWeather API: {exc}")
+        logger.warning("OpenWeather API connection failed: %s", exc)
+        raise WeatherAPIUnavailable(
+            "OpenWeather API is unreachable"
+        ) from exc
 
+    except requests.exceptions.HTTPError as exc:
+        status_code = (
+            exc.response.status_code
+            if exc.response is not None
+            else None
+        )
+
+        if status_code in (408, 429) or (
+            status_code is not None and status_code >= 500
+        ):
+            logger.warning(
+                "Temporary OpenWeather API HTTP error: %s",
+                status_code,
+            )
+            raise WeatherAPIUnavailable(
+                f"Temporary OpenWeather API HTTP error: {status_code}"
+            ) from exc
+
+        logger.error("Non-retryable OpenWeather API HTTP error: %s", exc)
         return None
 
     except requests.exceptions.RequestException as exc:
-        logger.error(f"Error extracting data from OpenWeather API: {exc}")
-
+        logger.error("OpenWeather request failed: %s", exc)
         return None
 
-    except json.JSONDecodeError as exc:
-        logger.error(f"JSON decode error extracting data from OpenWeather API: {exc}")
-
-        return None
-
-    except Exception as exc:
-        logger.error(f"Unexpected error extracting data from OpenWeather API: {exc}")
-
+    except (ValueError, json.JSONDecodeError) as exc:
+        logger.error("Invalid OpenWeather response: %s", exc)
         return None
 
 
@@ -118,31 +132,33 @@ def extract_geocoding_data(latitude, longitude, city=None):
         return data[0]
 
     except requests.exceptions.Timeout as exc:
-        logger.error(f"Timeout error extracting geocoding data: {exc}")
-
-        return None
-
-    except requests.exceptions.HTTPError as exc:
-        logger.error(f"HTTP error extracting geocoding data: {exc}")
-
-        return None
+        logger.warning("Geocoding API timed out: %s", exc)
+        raise WeatherAPIUnavailable("Geocoding API timed out") from exc
 
     except requests.exceptions.ConnectionError as exc:
-        logger.error(f"Connection error extracting geocoding data: {exc}")
+        logger.warning("Geocoding API connection failed: %s", exc)
+        raise WeatherAPIUnavailable(
+            "Geocoding API is unreachable"
+        ) from exc
 
+    except requests.exceptions.HTTPError as exc:
+        status_code = (
+            exc.response.status_code
+            if exc.response is not None
+            else None
+        )
+
+        if status_code in (408, 429) or (
+            status_code is not None and status_code >= 500
+        ):
+            logger.warning(
+                "Temporary geocoding API HTTP error: %s",
+                status_code,
+            )
+            raise WeatherAPIUnavailable(
+                f"Temporary geocoding API HTTP error: {status_code}"
+            ) from exc
+
+        logger.error("Non-retryable geocoding HTTP error: %s", exc)
         return None
 
-    except requests.exceptions.RequestException as exc:
-        logger.error(f"Error extracting geocoding data: {exc}")
-
-        return None
-
-    except json.JSONDecodeError as exc:
-        logger.error(f"JSON decode error extracting geocoding data: {exc}")
-
-        return None
-
-    except Exception as exc:
-        logger.error(f"Unexpected error extracting geocoding data: {exc}")
-        
-        return None

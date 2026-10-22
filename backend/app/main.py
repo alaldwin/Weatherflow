@@ -5,6 +5,7 @@ from fastapi import FastAPI, HTTPException, Request
 from fastapi.exceptions import RequestValidationError
 from fastapi.responses import JSONResponse
 from sqlalchemy.exc import SQLAlchemyError
+from fastapi.middleware.cors import CORSMiddleware
 
 from app.api.routes.city_comparison import router as city_comparison_router
 from app.api.routes.current_weather import router as current_weather_router
@@ -12,7 +13,9 @@ from app.api.routes.daily_weather import router as daily_weather_router
 from app.api.routes.locations import router as locations_router
 from app.api.routes.trends import router as trends_router
 from app.api.routes.weather import router as coordinate_weather_router
+
 from app.core.logging_config import config_logging, get_logger
+
 from app.db.session import check_database_connection
 
 config_logging()
@@ -66,6 +69,18 @@ app = FastAPI(
     ],
 )
 
+app.add_middleware(
+    CORSMiddleware,
+    allow_origins=[
+        "http://localhost:8081",
+        "http://127.0.0.1:8081",
+        "http://localhost:19006",
+        "http://127.0.0.1:19006",
+    ],
+    allow_credentials=False,
+    allow_methods=["*"],
+    allow_headers=["*"],
+)
 
 # Register API routers
 app.include_router(coordinate_weather_router)

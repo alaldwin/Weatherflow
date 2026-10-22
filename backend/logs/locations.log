@@ -4,3 +4,9 @@
 {"timestamp": "2026-10-19T11:13:56.645572+00:00", "level": "INFO", "logger": "app.api.routes.locations", "message": "Location search completed successfully"}
 {"timestamp": "2026-10-19T11:43:35.934357+00:00", "level": "INFO", "logger": "app.api.routes.locations", "message": "Location search request received"}
 {"timestamp": "2026-10-19T11:43:38.069371+00:00", "level": "INFO", "logger": "app.api.routes.locations", "message": "Location search completed successfully"}
+{"timestamp": "2026-10-20T11:53:38.232320+00:00", "level": "INFO", "logger": "app.api.routes.locations", "message": "Location search request received"}
+{"timestamp": "2026-10-20T11:53:45.243426+00:00", "level": "INFO", "logger": "app.api.routes.locations", "message": "Location search completed successfully"}
+{"timestamp": "2026-10-22T02:43:10.929762+00:00", "level": "INFO", "logger": "app.api.routes.locations", "message": "Location search request received"}
+{"timestamp": "2026-10-22T02:43:11.431048+00:00", "level": "INFO", "logger": "app.api.routes.locations", "message": "Location search completed successfully"}
+{"timestamp": "2026-10-22T08:26:47.890180+00:00", "level": "INFO", "logger": "app.api.routes.locations", "message": "Location search request received"}
+{"timestamp": "2026-10-22T08:26:52.091805+00:00", "level": "INFO", "logger": "app.api.routes.locations", "message": "Location search completed successfully"}
