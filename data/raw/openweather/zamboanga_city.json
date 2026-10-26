@@ -4278,5 +4278,2542 @@
         "city": "Zamboanga City",
         "source": "openweather",
         "observation_time": "2026-10-20T12:00:15+00:00"
+    },
+    {
+        "coord": {
+            "lon": 122.0794,
+            "lat": 6.9157
+        },
+        "weather": [
+            {
+                "id": 500,
+                "main": "Rain",
+                "description": "light rain",
+                "icon": "10d"
+            }
+        ],
+        "base": "stations",
+        "main": {
+            "temp": 31.86,
+            "feels_like": 38.86,
+            "temp_min": 31.86,
+            "temp_max": 31.86,
+            "pressure": 1010,
+            "humidity": 68,
+            "sea_level": 1010,
+            "grnd_level": 989
+        },
+        "visibility": 10000,
+        "wind": {
+            "speed": 4.63,
+            "deg": 261,
+            "gust": 5.59
+        },
+        "rain": {
+            "1h": 0.37
+        },
+        "clouds": {
+            "all": 93
+        },
+        "dt": 1792563098,
+        "sys": {
+            "country": "PH",
+            "sunrise": 1792532280,
+            "sunset": 1792575267
+        },
+        "timezone": 28800,
+        "id": 1679432,
+        "name": "Zamboanga City",
+        "cod": 200,
+        "city": "Zamboanga City",
+        "source": "openweather",
+        "observation_time": "2026-10-21T06:11:38+00:00"
+    },
+    {
+        "coord": {
+            "lon": 122.079,
+            "lat": 6.9214
+        },
+        "weather": [
+            {
+                "id": 500,
+                "main": "Rain",
+                "description": "light rain",
+                "icon": "10d"
+            }
+        ],
+        "base": "stations",
+        "main": {
+            "temp": 31.92,
+            "feels_like": 38.79,
+            "temp_min": 31.92,
+            "temp_max": 31.92,
+            "pressure": 1009,
+            "humidity": 66,
+            "sea_level": 1009,
+            "grnd_level": 989
+        },
+        "visibility": 10000,
+        "wind": {
+            "speed": 4.63,
+            "deg": 261,
+            "gust": 5.59
+        },
+        "rain": {
+            "1h": 0.37
+        },
+        "clouds": {
+            "all": 93
+        },
+        "dt": 1792563983,
+        "sys": {
+            "country": "PH",
+            "sunrise": 1792532280,
+            "sunset": 1792575267
+        },
+        "timezone": 28800,
+        "id": 1679432,
+        "name": "Zamboanga City",
+        "cod": 200,
+        "city": "Zamboanga City",
+        "source": "openweather",
+        "observation_time": "2026-10-21T06:26:23+00:00"
+    },
+    {
+        "coord": {
+            "lon": 122.079,
+            "lat": 6.9214
+        },
+        "weather": [
+            {
+                "id": 804,
+                "main": "Clouds",
+                "description": "overcast clouds",
+                "icon": "04d"
+            }
+        ],
+        "base": "stations",
+        "main": {
+            "temp": 32.34,
+            "feels_like": 39.34,
+            "temp_min": 32.34,
+            "temp_max": 32.34,
+            "pressure": 1009,
+            "humidity": 65,
+            "sea_level": 1009,
+            "grnd_level": 988
+        },
+        "visibility": 10000,
+        "wind": {
+            "speed": 4.79,
+            "deg": 265,
+            "gust": 5.51
+        },
+        "clouds": {
+            "all": 100
+        },
+        "dt": 1792565726,
+        "sys": {
+            "country": "PH",
+            "sunrise": 1792532280,
+            "sunset": 1792575267
+        },
+        "timezone": 28800,
+        "id": 1679432,
+        "name": "Zamboanga City",
+        "cod": 200,
+        "city": "Zamboanga City",
+        "source": "openweather",
+        "observation_time": "2026-10-21T06:55:26+00:00"
+    },
+    {
+        "coord": {
+            "lon": 122.0759,
+            "lat": 6.9182
+        },
+        "weather": [
+            {
+                "id": 804,
+                "main": "Clouds",
+                "description": "overcast clouds",
+                "icon": "04d"
+            }
+        ],
+        "base": "stations",
+        "main": {
+            "temp": 31.58,
+            "feels_like": 37.89,
+            "temp_min": 31.58,
+            "temp_max": 31.58,
+            "pressure": 1010,
+            "humidity": 66,
+            "sea_level": 1010,
+            "grnd_level": 986
+        },
+        "visibility": 10000,
+        "wind": {
+            "speed": 3.87,
+            "deg": 267,
+            "gust": 4.65
+        },
+        "clouds": {
+            "all": 100
+        },
+        "dt": 1792569059,
+        "sys": {
+            "country": "PH",
+            "sunrise": 1792532281,
+            "sunset": 1792575268
+        },
+        "timezone": 28800,
+        "id": 1679432,
+        "name": "Zamboanga City",
+        "cod": 200,
+        "city": "Zamboanga City",
+        "source": "openweather",
+        "observation_time": "2026-10-21T07:50:59+00:00"
+    },
+    {
+        "coord": {
+            "lon": 122.079,
+            "lat": 6.9214
+        },
+        "weather": [
+            {
+                "id": 804,
+                "main": "Clouds",
+                "description": "overcast clouds",
+                "icon": "04d"
+            }
+        ],
+        "base": "stations",
+        "main": {
+            "temp": 30.13,
+            "feels_like": 35.61,
+            "temp_min": 30.13,
+            "temp_max": 30.13,
+            "pressure": 1010,
+            "humidity": 71,
+            "sea_level": 1010,
+            "grnd_level": 989
+        },
+        "visibility": 10000,
+        "wind": {
+            "speed": 3.3,
+            "deg": 268,
+            "gust": 4.21
+        },
+        "clouds": {
+            "all": 100
+        },
+        "dt": 1792573201,
+        "sys": {
+            "country": "PH",
+            "sunrise": 1792532280,
+            "sunset": 1792575267
+        },
+        "timezone": 28800,
+        "id": 1679432,
+        "name": "Zamboanga City",
+        "cod": 200,
+        "city": "Zamboanga City",
+        "source": "openweather",
+        "observation_time": "2026-10-21T09:00:01+00:00"
+    },
+    {
+        "coord": {
+            "lon": 122.079,
+            "lat": 6.9214
+        },
+        "weather": [
+            {
+                "id": 804,
+                "main": "Clouds",
+                "description": "overcast clouds",
+                "icon": "04n"
+            }
+        ],
+        "base": "stations",
+        "main": {
+            "temp": 28.96,
+            "feels_like": 33.6,
+            "temp_min": 28.96,
+            "temp_max": 28.96,
+            "pressure": 1010,
+            "humidity": 75,
+            "sea_level": 1010,
+            "grnd_level": 990
+        },
+        "visibility": 10000,
+        "wind": {
+            "speed": 2.28,
+            "deg": 278,
+            "gust": 3.09
+        },
+        "clouds": {
+            "all": 100
+        },
+        "dt": 1792577031,
+        "sys": {
+            "country": "PH",
+            "sunrise": 1792532280,
+            "sunset": 1792575267
+        },
+        "timezone": 28800,
+        "id": 1679432,
+        "name": "Zamboanga City",
+        "cod": 200,
+        "city": "Zamboanga City",
+        "source": "openweather",
+        "observation_time": "2026-10-21T10:03:51+00:00"
+    },
+    {
+        "coord": {
+            "lon": 122.079,
+            "lat": 6.9214
+        },
+        "weather": [
+            {
+                "id": 804,
+                "main": "Clouds",
+                "description": "overcast clouds",
+                "icon": "04n"
+            }
+        ],
+        "base": "stations",
+        "main": {
+            "temp": 28.8,
+            "feels_like": 34.19,
+            "temp_min": 28.8,
+            "temp_max": 28.8,
+            "pressure": 1011,
+            "humidity": 80,
+            "sea_level": 1011,
+            "grnd_level": 990
+        },
+        "visibility": 10000,
+        "wind": {
+            "speed": 1.8,
+            "deg": 268,
+            "gust": 2.7
+        },
+        "clouds": {
+            "all": 100
+        },
+        "dt": 1792580415,
+        "sys": {
+            "country": "PH",
+            "sunrise": 1792532280,
+            "sunset": 1792575267
+        },
+        "timezone": 28800,
+        "id": 1679432,
+        "name": "Zamboanga City",
+        "cod": 200,
+        "city": "Zamboanga City",
+        "source": "openweather",
+        "observation_time": "2026-10-21T11:00:15+00:00"
+    },
+    {
+        "coord": {
+            "lon": 122.079,
+            "lat": 6.9214
+        },
+        "weather": [
+            {
+                "id": 803,
+                "main": "Clouds",
+                "description": "broken clouds",
+                "icon": "04d"
+            }
+        ],
+        "base": "stations",
+        "main": {
+            "temp": 30.62,
+            "feels_like": 37.45,
+            "temp_min": 30.62,
+            "temp_max": 30.62,
+            "pressure": 1013,
+            "humidity": 73,
+            "sea_level": 1013,
+            "grnd_level": 991
+        },
+        "visibility": 10000,
+        "wind": {
+            "speed": 2.22,
+            "deg": 220,
+            "gust": 3.45
+        },
+        "clouds": {
+            "all": 71
+        },
+        "dt": 1792636081,
+        "sys": {
+            "country": "PH",
+            "sunrise": 1792618682,
+            "sunset": 1792661647
+        },
+        "timezone": 28800,
+        "id": 1679432,
+        "name": "Zamboanga City",
+        "cod": 200,
+        "city": "Zamboanga City",
+        "source": "openweather",
+        "observation_time": "2026-10-22T02:28:01+00:00"
+    },
+    {
+        "coord": {
+            "lon": 122.079,
+            "lat": 6.9214
+        },
+        "weather": [
+            {
+                "id": 803,
+                "main": "Clouds",
+                "description": "broken clouds",
+                "icon": "04d"
+            }
+        ],
+        "base": "stations",
+        "main": {
+            "temp": 31.19,
+            "feels_like": 37.5,
+            "temp_min": 31.19,
+            "temp_max": 31.19,
+            "pressure": 1012,
+            "humidity": 68,
+            "sea_level": 1012,
+            "grnd_level": 990
+        },
+        "visibility": 10000,
+        "wind": {
+            "speed": 2.74,
+            "deg": 229,
+            "gust": 3.93
+        },
+        "clouds": {
+            "all": 53
+        },
+        "dt": 1792636777,
+        "sys": {
+            "country": "PH",
+            "sunrise": 1792618682,
+            "sunset": 1792661647
+        },
+        "timezone": 28800,
+        "id": 1679432,
+        "name": "Zamboanga City",
+        "cod": 200,
+        "city": "Zamboanga City",
+        "source": "openweather",
+        "observation_time": "2026-10-22T02:39:37+00:00"
+    },
+    {
+        "coord": {
+            "lon": 122.079,
+            "lat": 6.9214
+        },
+        "weather": [
+            {
+                "id": 803,
+                "main": "Clouds",
+                "description": "broken clouds",
+                "icon": "04d"
+            }
+        ],
+        "base": "stations",
+        "main": {
+            "temp": 31.19,
+            "feels_like": 37.5,
+            "temp_min": 31.19,
+            "temp_max": 31.19,
+            "pressure": 1012,
+            "humidity": 68,
+            "sea_level": 1012,
+            "grnd_level": 990
+        },
+        "visibility": 10000,
+        "wind": {
+            "speed": 2.74,
+            "deg": 229,
+            "gust": 3.93
+        },
+        "clouds": {
+            "all": 53
+        },
+        "dt": 1792638017,
+        "sys": {
+            "country": "PH",
+            "sunrise": 1792618682,
+            "sunset": 1792661647
+        },
+        "timezone": 28800,
+        "id": 1679432,
+        "name": "Zamboanga City",
+        "cod": 200,
+        "city": "Zamboanga City",
+        "source": "openweather",
+        "observation_time": "2026-10-22T03:00:17+00:00"
+    },
+    {
+        "coord": {
+            "lon": 122.079,
+            "lat": 6.9214
+        },
+        "weather": [
+            {
+                "id": 803,
+                "main": "Clouds",
+                "description": "broken clouds",
+                "icon": "04d"
+            }
+        ],
+        "base": "stations",
+        "main": {
+            "temp": 31.14,
+            "feels_like": 38.14,
+            "temp_min": 31.14,
+            "temp_max": 31.14,
+            "pressure": 1012,
+            "humidity": 73,
+            "sea_level": 1012,
+            "grnd_level": 990
+        },
+        "visibility": 10000,
+        "wind": {
+            "speed": 3.38,
+            "deg": 234,
+            "gust": 4.52
+        },
+        "clouds": {
+            "all": 51
+        },
+        "dt": 1792641616,
+        "sys": {
+            "country": "PH",
+            "sunrise": 1792618682,
+            "sunset": 1792661647
+        },
+        "timezone": 28800,
+        "id": 1679430,
+        "name": "Zamboanga City",
+        "cod": 200,
+        "city": "Zamboanga City",
+        "source": "openweather",
+        "observation_time": "2026-10-22T04:00:16+00:00"
+    },
+    {
+        "coord": {
+            "lon": 122.079,
+            "lat": 6.9214
+        },
+        "weather": [
+            {
+                "id": 500,
+                "main": "Rain",
+                "description": "light rain",
+                "icon": "10d"
+            }
+        ],
+        "base": "stations",
+        "main": {
+            "temp": 31.06,
+            "feels_like": 38.06,
+            "temp_min": 31.06,
+            "temp_max": 31.06,
+            "pressure": 1011,
+            "humidity": 77,
+            "sea_level": 1011,
+            "grnd_level": 989
+        },
+        "visibility": 10000,
+        "wind": {
+            "speed": 3.72,
+            "deg": 237,
+            "gust": 4.86
+        },
+        "rain": {
+            "1h": 0.71
+        },
+        "clouds": {
+            "all": 44
+        },
+        "dt": 1792645082,
+        "sys": {
+            "country": "PH",
+            "sunrise": 1792618682,
+            "sunset": 1792661647
+        },
+        "timezone": 28800,
+        "id": 1679430,
+        "name": "Zamboanga City",
+        "cod": 200,
+        "city": "Zamboanga City",
+        "source": "openweather",
+        "observation_time": "2026-10-22T04:58:02+00:00"
+    },
+    {
+        "coord": {
+            "lon": 122.079,
+            "lat": 6.9214
+        },
+        "weather": [
+            {
+                "id": 500,
+                "main": "Rain",
+                "description": "light rain",
+                "icon": "10d"
+            }
+        ],
+        "base": "stations",
+        "main": {
+            "temp": 30.96,
+            "feels_like": 37.79,
+            "temp_min": 30.96,
+            "temp_max": 30.96,
+            "pressure": 1011,
+            "humidity": 71,
+            "sea_level": 1011,
+            "grnd_level": 989
+        },
+        "visibility": 10000,
+        "wind": {
+            "speed": 3.91,
+            "deg": 234,
+            "gust": 5.09
+        },
+        "rain": {
+            "1h": 0.12
+        },
+        "clouds": {
+            "all": 33
+        },
+        "dt": 1792648813,
+        "sys": {
+            "country": "PH",
+            "sunrise": 1792618682,
+            "sunset": 1792661647
+        },
+        "timezone": 28800,
+        "id": 1679432,
+        "name": "Zamboanga City",
+        "cod": 200,
+        "city": "Zamboanga City",
+        "source": "openweather",
+        "observation_time": "2026-10-22T06:00:13+00:00"
+    },
+    {
+        "coord": {
+            "lon": 122.079,
+            "lat": 6.9214
+        },
+        "weather": [
+            {
+                "id": 500,
+                "main": "Rain",
+                "description": "light rain",
+                "icon": "10d"
+            }
+        ],
+        "base": "stations",
+        "main": {
+            "temp": 30.5,
+            "feels_like": 36.84,
+            "temp_min": 30.5,
+            "temp_max": 30.5,
+            "pressure": 1010,
+            "humidity": 72,
+            "sea_level": 1010,
+            "grnd_level": 989
+        },
+        "visibility": 10000,
+        "wind": {
+            "speed": 3.54,
+            "deg": 232,
+            "gust": 4.77
+        },
+        "rain": {
+            "1h": 0.17
+        },
+        "clouds": {
+            "all": 23
+        },
+        "dt": 1792651805,
+        "sys": {
+            "country": "PH",
+            "sunrise": 1792618682,
+            "sunset": 1792661647
+        },
+        "timezone": 28800,
+        "id": 1679432,
+        "name": "Zamboanga City",
+        "cod": 200,
+        "city": "Zamboanga City",
+        "source": "openweather",
+        "observation_time": "2026-10-22T06:50:05+00:00"
+    },
+    {
+        "coord": {
+            "lon": 122.079,
+            "lat": 6.9214
+        },
+        "weather": [
+            {
+                "id": 500,
+                "main": "Rain",
+                "description": "light rain",
+                "icon": "10d"
+            }
+        ],
+        "base": "stations",
+        "main": {
+            "temp": 30.5,
+            "feels_like": 36.84,
+            "temp_min": 30.5,
+            "temp_max": 30.5,
+            "pressure": 1010,
+            "humidity": 72,
+            "sea_level": 1010,
+            "grnd_level": 989
+        },
+        "visibility": 10000,
+        "wind": {
+            "speed": 3.54,
+            "deg": 232,
+            "gust": 4.77
+        },
+        "rain": {
+            "1h": 0.17
+        },
+        "clouds": {
+            "all": 23
+        },
+        "dt": 1792652282,
+        "sys": {
+            "country": "PH",
+            "sunrise": 1792618682,
+            "sunset": 1792661647
+        },
+        "timezone": 28800,
+        "id": 1679432,
+        "name": "Zamboanga City",
+        "cod": 200,
+        "city": "Zamboanga City",
+        "source": "openweather",
+        "observation_time": "2026-10-22T06:58:02+00:00"
+    },
+    {
+        "coord": {
+            "lon": 122.079,
+            "lat": 6.9214
+        },
+        "weather": [
+            {
+                "id": 500,
+                "main": "Rain",
+                "description": "light rain",
+                "icon": "10d"
+            }
+        ],
+        "base": "stations",
+        "main": {
+            "temp": 30.37,
+            "feels_like": 37.37,
+            "temp_min": 30.37,
+            "temp_max": 30.37,
+            "pressure": 1010,
+            "humidity": 83,
+            "sea_level": 1010,
+            "grnd_level": 989
+        },
+        "visibility": 10000,
+        "wind": {
+            "speed": 3.54,
+            "deg": 232,
+            "gust": 4.77
+        },
+        "rain": {
+            "1h": 0.17
+        },
+        "clouds": {
+            "all": 23
+        },
+        "dt": 1792654080,
+        "sys": {
+            "country": "PH",
+            "sunrise": 1792618682,
+            "sunset": 1792661647
+        },
+        "timezone": 28800,
+        "id": 1679432,
+        "name": "Zamboanga City",
+        "cod": 200,
+        "city": "Zamboanga City",
+        "source": "openweather",
+        "observation_time": "2026-10-22T07:28:00+00:00"
+    },
+    {
+        "coord": {
+            "lon": 122.0798,
+            "lat": 6.9154
+        },
+        "weather": [
+            {
+                "id": 802,
+                "main": "Clouds",
+                "description": "scattered clouds",
+                "icon": "03d"
+            }
+        ],
+        "base": "stations",
+        "main": {
+            "temp": 29.93,
+            "feels_like": 33.73,
+            "temp_min": 29.93,
+            "temp_max": 29.93,
+            "pressure": 1010,
+            "humidity": 65,
+            "sea_level": 1010,
+            "grnd_level": 989
+        },
+        "visibility": 10000,
+        "wind": {
+            "speed": 3.3,
+            "deg": 227,
+            "gust": 4.04
+        },
+        "clouds": {
+            "all": 26
+        },
+        "dt": 1792657134,
+        "sys": {
+            "country": "PH",
+            "sunrise": 1792618681,
+            "sunset": 1792661648
+        },
+        "timezone": 28800,
+        "id": 1679430,
+        "name": "Zamboanga City",
+        "cod": 200,
+        "city": "Zamboanga City",
+        "source": "openweather",
+        "observation_time": "2026-10-22T08:18:54+00:00"
+    },
+    {
+        "coord": {
+            "lon": 122.079,
+            "lat": 6.9214
+        },
+        "weather": [
+            {
+                "id": 802,
+                "main": "Clouds",
+                "description": "scattered clouds",
+                "icon": "03d"
+            }
+        ],
+        "base": "stations",
+        "main": {
+            "temp": 28.81,
+            "feels_like": 33.42,
+            "temp_min": 28.81,
+            "temp_max": 28.81,
+            "pressure": 1010,
+            "humidity": 76,
+            "sea_level": 1010,
+            "grnd_level": 989
+        },
+        "visibility": 10000,
+        "wind": {
+            "speed": 3.08,
+            "deg": 217,
+            "gust": 4.24
+        },
+        "clouds": {
+            "all": 28
+        },
+        "dt": 1792659123,
+        "sys": {
+            "country": "PH",
+            "sunrise": 1792618682,
+            "sunset": 1792661647
+        },
+        "timezone": 28800,
+        "id": 1679432,
+        "name": "Zamboanga City",
+        "cod": 200,
+        "city": "Zamboanga City",
+        "source": "openweather",
+        "observation_time": "2026-10-22T08:52:03+00:00"
+    },
+    {
+        "coord": {
+            "lon": 122.079,
+            "lat": 6.9214
+        },
+        "weather": [
+            {
+                "id": 802,
+                "main": "Clouds",
+                "description": "scattered clouds",
+                "icon": "03n"
+            }
+        ],
+        "base": "stations",
+        "main": {
+            "temp": 27.3,
+            "feels_like": 31.23,
+            "temp_min": 27.3,
+            "temp_max": 27.3,
+            "pressure": 1011,
+            "humidity": 87,
+            "sea_level": 1011,
+            "grnd_level": 989
+        },
+        "visibility": 10000,
+        "wind": {
+            "speed": 2.21,
+            "deg": 219,
+            "gust": 3.14
+        },
+        "clouds": {
+            "all": 26
+        },
+        "dt": 1792662254,
+        "sys": {
+            "country": "PH",
+            "sunrise": 1792618682,
+            "sunset": 1792661647
+        },
+        "timezone": 28800,
+        "id": 1679432,
+        "name": "Zamboanga City",
+        "cod": 200,
+        "city": "Zamboanga City",
+        "source": "openweather",
+        "observation_time": "2026-10-22T09:44:14+00:00"
+    },
+    {
+        "coord": {
+            "lon": 122.079,
+            "lat": 6.9214
+        },
+        "weather": [
+            {
+                "id": 802,
+                "main": "Clouds",
+                "description": "scattered clouds",
+                "icon": "03n"
+            }
+        ],
+        "base": "stations",
+        "main": {
+            "temp": 27.3,
+            "feels_like": 31.23,
+            "temp_min": 27.3,
+            "temp_max": 27.3,
+            "pressure": 1011,
+            "humidity": 87,
+            "sea_level": 1011,
+            "grnd_level": 989
+        },
+        "visibility": 10000,
+        "wind": {
+            "speed": 2.21,
+            "deg": 219,
+            "gust": 3.14
+        },
+        "clouds": {
+            "all": 26
+        },
+        "dt": 1792663081,
+        "sys": {
+            "country": "PH",
+            "sunrise": 1792618682,
+            "sunset": 1792661647
+        },
+        "timezone": 28800,
+        "id": 1679432,
+        "name": "Zamboanga City",
+        "cod": 200,
+        "city": "Zamboanga City",
+        "source": "openweather",
+        "observation_time": "2026-10-22T09:58:01+00:00"
+    },
+    {
+        "coord": {
+            "lon": 122.079,
+            "lat": 6.9214
+        },
+        "weather": [
+            {
+                "id": 802,
+                "main": "Clouds",
+                "description": "scattered clouds",
+                "icon": "03n"
+            }
+        ],
+        "base": "stations",
+        "main": {
+            "temp": 27.21,
+            "feels_like": 32.47,
+            "temp_min": 27.21,
+            "temp_max": 27.21,
+            "pressure": 1010,
+            "humidity": 99,
+            "sea_level": 1010,
+            "grnd_level": 989
+        },
+        "visibility": 10000,
+        "wind": {
+            "speed": 2.21,
+            "deg": 219,
+            "gust": 3.14
+        },
+        "clouds": {
+            "all": 26
+        },
+        "dt": 1792664328,
+        "sys": {
+            "country": "PH",
+            "sunrise": 1792618682,
+            "sunset": 1792661647
+        },
+        "timezone": 28800,
+        "id": 1679432,
+        "name": "Zamboanga City",
+        "cod": 200,
+        "city": "Zamboanga City",
+        "source": "openweather",
+        "observation_time": "2026-10-22T10:18:48+00:00"
+    },
+    {
+        "coord": {
+            "lon": 122.079,
+            "lat": 6.9214
+        },
+        "weather": [
+            {
+                "id": 500,
+                "main": "Rain",
+                "description": "light rain",
+                "icon": "10n"
+            }
+        ],
+        "base": "stations",
+        "main": {
+            "temp": 26.79,
+            "feels_like": 30.33,
+            "temp_min": 26.79,
+            "temp_max": 26.79,
+            "pressure": 1011,
+            "humidity": 92,
+            "sea_level": 1011,
+            "grnd_level": 990
+        },
+        "visibility": 10000,
+        "wind": {
+            "speed": 1.8,
+            "deg": 213,
+            "gust": 2.84
+        },
+        "rain": {
+            "1h": 0.32
+        },
+        "clouds": {
+            "all": 25
+        },
+        "dt": 1792666815,
+        "sys": {
+            "country": "PH",
+            "sunrise": 1792618682,
+            "sunset": 1792661647
+        },
+        "timezone": 28800,
+        "id": 1679432,
+        "name": "Zamboanga City",
+        "cod": 200,
+        "city": "Zamboanga City",
+        "source": "openweather",
+        "observation_time": "2026-10-22T11:00:15+00:00"
+    },
+    {
+        "coord": {
+            "lon": 122.079,
+            "lat": 6.9214
+        },
+        "weather": [
+            {
+                "id": 802,
+                "main": "Clouds",
+                "description": "scattered clouds",
+                "icon": "03n"
+            }
+        ],
+        "base": "stations",
+        "main": {
+            "temp": 26.67,
+            "feels_like": 30.06,
+            "temp_min": 26.67,
+            "temp_max": 26.67,
+            "pressure": 1012,
+            "humidity": 93,
+            "sea_level": 1012,
+            "grnd_level": 990
+        },
+        "visibility": 10000,
+        "wind": {
+            "speed": 1.43,
+            "deg": 187,
+            "gust": 2.39
+        },
+        "clouds": {
+            "all": 28
+        },
+        "dt": 1792670341,
+        "sys": {
+            "country": "PH",
+            "sunrise": 1792618682,
+            "sunset": 1792661647
+        },
+        "timezone": 28800,
+        "id": 1679432,
+        "name": "Zamboanga City",
+        "cod": 200,
+        "city": "Zamboanga City",
+        "source": "openweather",
+        "observation_time": "2026-10-22T11:59:01+00:00"
+    },
+    {
+        "coord": {
+            "lon": 122.079,
+            "lat": 6.9214
+        },
+        "weather": [
+            {
+                "id": 500,
+                "main": "Rain",
+                "description": "light rain",
+                "icon": "10d"
+            }
+        ],
+        "base": "stations",
+        "main": {
+            "temp": 30.45,
+            "feels_like": 36.43,
+            "temp_min": 30.45,
+            "temp_max": 30.45,
+            "pressure": 1011,
+            "humidity": 71,
+            "sea_level": 1011,
+            "grnd_level": 990
+        },
+        "visibility": 10000,
+        "wind": {
+            "speed": 2.46,
+            "deg": 136,
+            "gust": 2.92
+        },
+        "rain": {
+            "1h": 0.51
+        },
+        "clouds": {
+            "all": 100
+        },
+        "dt": 1792720816,
+        "sys": {
+            "country": "PH",
+            "sunrise": 1792705083,
+            "sunset": 1792748028
+        },
+        "timezone": 28800,
+        "id": 1679430,
+        "name": "Zamboanga City",
+        "cod": 200,
+        "city": "Zamboanga City",
+        "source": "openweather",
+        "observation_time": "2026-10-23T02:00:16+00:00"
+    },
+    {
+        "coord": {
+            "lon": 122.079,
+            "lat": 6.9214
+        },
+        "weather": [
+            {
+                "id": 500,
+                "main": "Rain",
+                "description": "light rain",
+                "icon": "10d"
+            }
+        ],
+        "base": "stations",
+        "main": {
+            "temp": 31,
+            "feels_like": 36.72,
+            "temp_min": 31,
+            "temp_max": 31,
+            "pressure": 1011,
+            "humidity": 67,
+            "sea_level": 1011,
+            "grnd_level": 989
+        },
+        "visibility": 10000,
+        "wind": {
+            "speed": 2.55,
+            "deg": 133,
+            "gust": 2.92
+        },
+        "rain": {
+            "1h": 0.44
+        },
+        "clouds": {
+            "all": 100
+        },
+        "dt": 1792724414,
+        "sys": {
+            "country": "PH",
+            "sunrise": 1792705083,
+            "sunset": 1792748028
+        },
+        "timezone": 28800,
+        "id": 1679432,
+        "name": "Zamboanga City",
+        "cod": 200,
+        "city": "Zamboanga City",
+        "source": "openweather",
+        "observation_time": "2026-10-23T03:00:14+00:00"
+    },
+    {
+        "coord": {
+            "lon": 122.0757,
+            "lat": 6.9181
+        },
+        "weather": [
+            {
+                "id": 500,
+                "main": "Rain",
+                "description": "light rain",
+                "icon": "10d"
+            }
+        ],
+        "base": "stations",
+        "main": {
+            "temp": 30.98,
+            "feels_like": 37.55,
+            "temp_min": 30.98,
+            "temp_max": 30.98,
+            "pressure": 1010,
+            "humidity": 70,
+            "sea_level": 1010,
+            "grnd_level": 985
+        },
+        "visibility": 10000,
+        "wind": {
+            "speed": 2.37,
+            "deg": 125,
+            "gust": 2.9
+        },
+        "rain": {
+            "1h": 0.6
+        },
+        "clouds": {
+            "all": 100
+        },
+        "dt": 1792727882,
+        "sys": {
+            "country": "PH",
+            "sunrise": 1792705084,
+            "sunset": 1792748029
+        },
+        "timezone": 28800,
+        "id": 1679432,
+        "name": "Zamboanga City",
+        "cod": 200,
+        "city": "Zamboanga City",
+        "source": "openweather",
+        "observation_time": "2026-10-23T03:58:02+00:00"
+    },
+    {
+        "coord": {
+            "lon": 122.079,
+            "lat": 6.9214
+        },
+        "weather": [
+            {
+                "id": 804,
+                "main": "Clouds",
+                "description": "overcast clouds",
+                "icon": "04d"
+            }
+        ],
+        "base": "stations",
+        "main": {
+            "temp": 31.12,
+            "feels_like": 38.12,
+            "temp_min": 31.12,
+            "temp_max": 31.12,
+            "pressure": 1009,
+            "humidity": 72,
+            "sea_level": 1009,
+            "grnd_level": 987
+        },
+        "visibility": 10000,
+        "wind": {
+            "speed": 2.8,
+            "deg": 116,
+            "gust": 3.26
+        },
+        "clouds": {
+            "all": 100
+        },
+        "dt": 1792731617,
+        "sys": {
+            "country": "PH",
+            "sunrise": 1792705083,
+            "sunset": 1792748028
+        },
+        "timezone": 28800,
+        "id": 1679432,
+        "name": "Zamboanga City",
+        "cod": 200,
+        "city": "Zamboanga City",
+        "source": "openweather",
+        "observation_time": "2026-10-23T05:00:17+00:00"
+    },
+    {
+        "coord": {
+            "lon": 122.079,
+            "lat": 6.9214
+        },
+        "weather": [
+            {
+                "id": 804,
+                "main": "Clouds",
+                "description": "overcast clouds",
+                "icon": "04d"
+            }
+        ],
+        "base": "stations",
+        "main": {
+            "temp": 30.59,
+            "feels_like": 37.59,
+            "temp_min": 30.59,
+            "temp_max": 30.59,
+            "pressure": 1008,
+            "humidity": 76,
+            "sea_level": 1008,
+            "grnd_level": 987
+        },
+        "visibility": 8973,
+        "wind": {
+            "speed": 1.06,
+            "deg": 133,
+            "gust": 2.47
+        },
+        "clouds": {
+            "all": 100
+        },
+        "dt": 1792735141,
+        "sys": {
+            "country": "PH",
+            "sunrise": 1792705083,
+            "sunset": 1792748028
+        },
+        "timezone": 28800,
+        "id": 1679432,
+        "name": "Zamboanga City",
+        "cod": 200,
+        "city": "Zamboanga City",
+        "source": "openweather",
+        "observation_time": "2026-10-23T05:59:01+00:00"
+    },
+    {
+        "coord": {
+            "lon": 122.0761,
+            "lat": 6.9161
+        },
+        "weather": [
+            {
+                "id": 500,
+                "main": "Rain",
+                "description": "light rain",
+                "icon": "10d"
+            }
+        ],
+        "base": "stations",
+        "main": {
+            "temp": 29.47,
+            "feels_like": 34.43,
+            "temp_min": 29.47,
+            "temp_max": 29.47,
+            "pressure": 1008,
+            "humidity": 73,
+            "sea_level": 1008,
+            "grnd_level": 987
+        },
+        "visibility": 10000,
+        "wind": {
+            "speed": 0.43,
+            "deg": 129,
+            "gust": 1.72
+        },
+        "rain": {
+            "1h": 0.13
+        },
+        "clouds": {
+            "all": 100
+        },
+        "dt": 1792738771,
+        "sys": {
+            "country": "PH",
+            "sunrise": 1792705084,
+            "sunset": 1792748029
+        },
+        "timezone": 28800,
+        "id": 1679432,
+        "name": "Zamboanga City",
+        "cod": 200,
+        "city": "Zamboanga City",
+        "source": "openweather",
+        "observation_time": "2026-10-23T06:59:31+00:00"
+    },
+    {
+        "coord": {
+            "lon": 122.0781,
+            "lat": 6.9152
+        },
+        "weather": [
+            {
+                "id": 500,
+                "main": "Rain",
+                "description": "light rain",
+                "icon": "10d"
+            }
+        ],
+        "base": "stations",
+        "main": {
+            "temp": 28.89,
+            "feels_like": 33.42,
+            "temp_min": 28.89,
+            "temp_max": 28.89,
+            "pressure": 1009,
+            "humidity": 75,
+            "sea_level": 1009,
+            "grnd_level": 987
+        },
+        "visibility": 10000,
+        "wind": {
+            "speed": 0.81,
+            "deg": 139,
+            "gust": 1.51
+        },
+        "rain": {
+            "1h": 0.78
+        },
+        "clouds": {
+            "all": 100
+        },
+        "dt": 1792742405,
+        "sys": {
+            "country": "PH",
+            "sunrise": 1792705083,
+            "sunset": 1792748029
+        },
+        "timezone": 28800,
+        "id": 1679432,
+        "name": "Zamboanga City",
+        "cod": 200,
+        "city": "Zamboanga City",
+        "source": "openweather",
+        "observation_time": "2026-10-23T08:00:05+00:00"
+    },
+    {
+        "coord": {
+            "lon": 122.079,
+            "lat": 6.9214
+        },
+        "weather": [
+            {
+                "id": 500,
+                "main": "Rain",
+                "description": "light rain",
+                "icon": "10d"
+            }
+        ],
+        "base": "stations",
+        "main": {
+            "temp": 28.17,
+            "feels_like": 32.36,
+            "temp_min": 28.17,
+            "temp_max": 28.17,
+            "pressure": 1009,
+            "humidity": 79,
+            "sea_level": 1009,
+            "grnd_level": 988
+        },
+        "visibility": 10000,
+        "wind": {
+            "speed": 0.58,
+            "deg": 178,
+            "gust": 1.3
+        },
+        "rain": {
+            "1h": 0.37
+        },
+        "clouds": {
+            "all": 100
+        },
+        "dt": 1792745943,
+        "sys": {
+            "country": "PH",
+            "sunrise": 1792705083,
+            "sunset": 1792748028
+        },
+        "timezone": 28800,
+        "id": 1679432,
+        "name": "Zamboanga City",
+        "cod": 200,
+        "city": "Zamboanga City",
+        "source": "openweather",
+        "observation_time": "2026-10-23T08:59:03+00:00"
+    },
+    {
+        "coord": {
+            "lon": 122.079,
+            "lat": 6.9214
+        },
+        "weather": [
+            {
+                "id": 804,
+                "main": "Clouds",
+                "description": "overcast clouds",
+                "icon": "04n"
+            }
+        ],
+        "base": "stations",
+        "main": {
+            "temp": 27.42,
+            "feels_like": 30.35,
+            "temp_min": 27.42,
+            "temp_max": 27.42,
+            "pressure": 1009,
+            "humidity": 77,
+            "sea_level": 1009,
+            "grnd_level": 988
+        },
+        "visibility": 10000,
+        "wind": {
+            "speed": 1.29,
+            "deg": 235,
+            "gust": 1.9
+        },
+        "clouds": {
+            "all": 100
+        },
+        "dt": 1792749608,
+        "sys": {
+            "country": "PH",
+            "sunrise": 1792705083,
+            "sunset": 1792748028
+        },
+        "timezone": 28800,
+        "id": 1679432,
+        "name": "Zamboanga City",
+        "cod": 200,
+        "city": "Zamboanga City",
+        "source": "openweather",
+        "observation_time": "2026-10-23T10:00:08+00:00"
+    },
+    {
+        "coord": {
+            "lon": 122.079,
+            "lat": 6.9214
+        },
+        "weather": [
+            {
+                "id": 804,
+                "main": "Clouds",
+                "description": "overcast clouds",
+                "icon": "04n"
+            }
+        ],
+        "base": "stations",
+        "main": {
+            "temp": 27.01,
+            "feels_like": 30.15,
+            "temp_min": 27.01,
+            "temp_max": 27.01,
+            "pressure": 1010,
+            "humidity": 84,
+            "sea_level": 1010,
+            "grnd_level": 989
+        },
+        "visibility": 10000,
+        "wind": {
+            "speed": 1.34,
+            "deg": 248,
+            "gust": 2.31
+        },
+        "clouds": {
+            "all": 100
+        },
+        "dt": 1792753217,
+        "sys": {
+            "country": "PH",
+            "sunrise": 1792705083,
+            "sunset": 1792748028
+        },
+        "timezone": 28800,
+        "id": 1679432,
+        "name": "Zamboanga City",
+        "cod": 200,
+        "city": "Zamboanga City",
+        "source": "openweather",
+        "observation_time": "2026-10-23T11:00:17+00:00"
+    },
+    {
+        "coord": {
+            "lon": 122.079,
+            "lat": 6.9214
+        },
+        "weather": [
+            {
+                "id": 500,
+                "main": "Rain",
+                "description": "light rain",
+                "icon": "10n"
+            }
+        ],
+        "base": "stations",
+        "main": {
+            "temp": 26.83,
+            "feels_like": 29.71,
+            "temp_min": 26.83,
+            "temp_max": 26.83,
+            "pressure": 1011,
+            "humidity": 84,
+            "sea_level": 1011,
+            "grnd_level": 989
+        },
+        "visibility": 10000,
+        "wind": {
+            "speed": 1.13,
+            "deg": 264,
+            "gust": 1.89
+        },
+        "rain": {
+            "1h": 0.18
+        },
+        "clouds": {
+            "all": 100
+        },
+        "dt": 1792756817,
+        "sys": {
+            "country": "PH",
+            "sunrise": 1792705083,
+            "sunset": 1792748028
+        },
+        "timezone": 28800,
+        "id": 1679430,
+        "name": "Zamboanga City",
+        "cod": 200,
+        "city": "Zamboanga City",
+        "source": "openweather",
+        "observation_time": "2026-10-23T12:00:17+00:00"
+    },
+    {
+        "coord": {
+            "lon": 122.079,
+            "lat": 6.9214
+        },
+        "weather": [
+            {
+                "id": 804,
+                "main": "Clouds",
+                "description": "overcast clouds",
+                "icon": "04n"
+            }
+        ],
+        "base": "stations",
+        "main": {
+            "temp": 26.85,
+            "feels_like": 30.12,
+            "temp_min": 26.85,
+            "temp_max": 26.85,
+            "pressure": 1011,
+            "humidity": 88,
+            "sea_level": 1011,
+            "grnd_level": 990
+        },
+        "visibility": 10000,
+        "wind": {
+            "speed": 1.67,
+            "deg": 291,
+            "gust": 1.81
+        },
+        "clouds": {
+            "all": 100
+        },
+        "dt": 1792760415,
+        "sys": {
+            "country": "PH",
+            "sunrise": 1792705083,
+            "sunset": 1792748028
+        },
+        "timezone": 28800,
+        "id": 1679432,
+        "name": "Zamboanga City",
+        "cod": 200,
+        "city": "Zamboanga City",
+        "source": "openweather",
+        "observation_time": "2026-10-23T13:00:15+00:00"
+    },
+    {
+        "coord": {
+            "lon": 122.079,
+            "lat": 6.9214
+        },
+        "weather": [
+            {
+                "id": 500,
+                "main": "Rain",
+                "description": "light rain",
+                "icon": "10d"
+            }
+        ],
+        "base": "stations",
+        "main": {
+            "temp": 25.95,
+            "feels_like": 25.95,
+            "temp_min": 25.95,
+            "temp_max": 25.95,
+            "pressure": 1010,
+            "humidity": 84,
+            "sea_level": 1010,
+            "grnd_level": 988
+        },
+        "visibility": 10000,
+        "wind": {
+            "speed": 1.07,
+            "deg": 44,
+            "gust": 1.7
+        },
+        "rain": {
+            "1h": 0.5
+        },
+        "clouds": {
+            "all": 100
+        },
+        "dt": 1792793822,
+        "sys": {
+            "country": "PH",
+            "sunrise": 1792791486,
+            "sunset": 1792834410
+        },
+        "timezone": 28800,
+        "id": 1679432,
+        "name": "Zamboanga City",
+        "cod": 200,
+        "city": "Zamboanga City",
+        "source": "openweather",
+        "observation_time": "2026-10-23T22:17:02+00:00"
+    },
+    {
+        "coord": {
+            "lon": 122.079,
+            "lat": 6.9214
+        },
+        "weather": [
+            {
+                "id": 500,
+                "main": "Rain",
+                "description": "light rain",
+                "icon": "10d"
+            }
+        ],
+        "base": "stations",
+        "main": {
+            "temp": 26.78,
+            "feels_like": 29.34,
+            "temp_min": 26.78,
+            "temp_max": 26.78,
+            "pressure": 1011,
+            "humidity": 81,
+            "sea_level": 1011,
+            "grnd_level": 989
+        },
+        "visibility": 10000,
+        "wind": {
+            "speed": 1.7,
+            "deg": 70,
+            "gust": 2.56
+        },
+        "rain": {
+            "1h": 0.38
+        },
+        "clouds": {
+            "all": 100
+        },
+        "dt": 1792794671,
+        "sys": {
+            "country": "PH",
+            "sunrise": 1792791486,
+            "sunset": 1792834410
+        },
+        "timezone": 28800,
+        "id": 1679432,
+        "name": "Zamboanga City",
+        "cod": 200,
+        "city": "Zamboanga City",
+        "source": "openweather",
+        "observation_time": "2026-10-23T22:31:11+00:00"
+    },
+    {
+        "coord": {
+            "lon": 122.079,
+            "lat": 6.9214
+        },
+        "weather": [
+            {
+                "id": 500,
+                "main": "Rain",
+                "description": "light rain",
+                "icon": "10d"
+            }
+        ],
+        "base": "stations",
+        "main": {
+            "temp": 26.67,
+            "feels_like": 29.73,
+            "temp_min": 26.67,
+            "temp_max": 26.67,
+            "pressure": 1010,
+            "humidity": 89,
+            "sea_level": 1010,
+            "grnd_level": 989
+        },
+        "visibility": 10000,
+        "wind": {
+            "speed": 1.7,
+            "deg": 70,
+            "gust": 2.56
+        },
+        "rain": {
+            "1h": 0.38
+        },
+        "clouds": {
+            "all": 100
+        },
+        "dt": 1792796341,
+        "sys": {
+            "country": "PH",
+            "sunrise": 1792791486,
+            "sunset": 1792834410
+        },
+        "timezone": 28800,
+        "id": 1679432,
+        "name": "Zamboanga City",
+        "cod": 200,
+        "city": "Zamboanga City",
+        "source": "openweather",
+        "observation_time": "2026-10-23T22:59:01+00:00"
+    },
+    {
+        "coord": {
+            "lon": 122.079,
+            "lat": 6.9214
+        },
+        "weather": [
+            {
+                "id": 500,
+                "main": "Rain",
+                "description": "light rain",
+                "icon": "10d"
+            }
+        ],
+        "base": "stations",
+        "main": {
+            "temp": 26.8,
+            "feels_like": 29.55,
+            "temp_min": 26.8,
+            "temp_max": 26.8,
+            "pressure": 1010,
+            "humidity": 83,
+            "sea_level": 1010,
+            "grnd_level": 989
+        },
+        "visibility": 10000,
+        "wind": {
+            "speed": 1.7,
+            "deg": 70,
+            "gust": 2.56
+        },
+        "rain": {
+            "1h": 0.38
+        },
+        "clouds": {
+            "all": 100
+        },
+        "dt": 1792797743,
+        "sys": {
+            "country": "PH",
+            "sunrise": 1792791486,
+            "sunset": 1792834410
+        },
+        "timezone": 28800,
+        "id": 1679432,
+        "name": "Zamboanga City",
+        "cod": 200,
+        "city": "Zamboanga City",
+        "source": "openweather",
+        "observation_time": "2026-10-23T23:22:23+00:00"
+    },
+    {
+        "coord": {
+            "lon": 122.079,
+            "lat": 6.9214
+        },
+        "weather": [
+            {
+                "id": 500,
+                "main": "Rain",
+                "description": "light rain",
+                "icon": "10d"
+            }
+        ],
+        "base": "stations",
+        "main": {
+            "temp": 27.91,
+            "feels_like": 32.02,
+            "temp_min": 27.91,
+            "temp_max": 27.91,
+            "pressure": 1010,
+            "humidity": 81,
+            "sea_level": 1010,
+            "grnd_level": 990
+        },
+        "visibility": 10000,
+        "wind": {
+            "speed": 1.91,
+            "deg": 84,
+            "gust": 2.75
+        },
+        "rain": {
+            "1h": 0.42
+        },
+        "clouds": {
+            "all": 100
+        },
+        "dt": 1792800603,
+        "sys": {
+            "country": "PH",
+            "sunrise": 1792791486,
+            "sunset": 1792834410
+        },
+        "timezone": 28800,
+        "id": 1679432,
+        "name": "Zamboanga City",
+        "cod": 200,
+        "city": "Zamboanga City",
+        "source": "openweather",
+        "observation_time": "2026-10-24T00:10:03+00:00"
+    },
+    {
+        "coord": {
+            "lon": 122.0794,
+            "lat": 6.9152
+        },
+        "weather": [
+            {
+                "id": 500,
+                "main": "Rain",
+                "description": "light rain",
+                "icon": "10d"
+            }
+        ],
+        "base": "stations",
+        "main": {
+            "temp": 31.98,
+            "feels_like": 38.28,
+            "temp_min": 31.98,
+            "temp_max": 31.98,
+            "pressure": 1014,
+            "humidity": 64,
+            "sea_level": 1014,
+            "grnd_level": 993
+        },
+        "visibility": 10000,
+        "wind": {
+            "speed": 0.46,
+            "deg": 191,
+            "gust": 1.19
+        },
+        "rain": {
+            "1h": 0.3
+        },
+        "clouds": {
+            "all": 21
+        },
+        "dt": 1792978775,
+        "sys": {
+            "country": "PH",
+            "sunrise": 1792964292,
+            "sunset": 1793007176
+        },
+        "timezone": 28800,
+        "id": 1679432,
+        "name": "Zamboanga City",
+        "cod": 200,
+        "city": "Zamboanga City",
+        "source": "openweather",
+        "observation_time": "2026-10-26T01:39:35+00:00"
+    },
+    {
+        "coord": {
+            "lon": 122.079,
+            "lat": 6.9214
+        },
+        "weather": [
+            {
+                "id": 500,
+                "main": "Rain",
+                "description": "light rain",
+                "icon": "10d"
+            }
+        ],
+        "base": "stations",
+        "main": {
+            "temp": 31.98,
+            "feels_like": 38.28,
+            "temp_min": 31.98,
+            "temp_max": 31.98,
+            "pressure": 1014,
+            "humidity": 64,
+            "sea_level": 1014,
+            "grnd_level": 993
+        },
+        "visibility": 10000,
+        "wind": {
+            "speed": 0.46,
+            "deg": 191,
+            "gust": 1.19
+        },
+        "rain": {
+            "1h": 0.3
+        },
+        "clouds": {
+            "all": 21
+        },
+        "dt": 1792979379,
+        "sys": {
+            "country": "PH",
+            "sunrise": 1792964293,
+            "sunset": 1793007176
+        },
+        "timezone": 28800,
+        "id": 1679432,
+        "name": "Zamboanga City",
+        "cod": 200,
+        "city": "Zamboanga City",
+        "source": "openweather",
+        "observation_time": "2026-10-26T01:49:39+00:00"
+    },
+    {
+        "coord": {
+            "lon": 122.079,
+            "lat": 6.9214
+        },
+        "weather": [
+            {
+                "id": 500,
+                "main": "Rain",
+                "description": "light rain",
+                "icon": "10d"
+            }
+        ],
+        "base": "stations",
+        "main": {
+            "temp": 31.98,
+            "feels_like": 38.28,
+            "temp_min": 31.98,
+            "temp_max": 31.98,
+            "pressure": 1014,
+            "humidity": 64,
+            "sea_level": 1014,
+            "grnd_level": 993
+        },
+        "visibility": 10000,
+        "wind": {
+            "speed": 0.46,
+            "deg": 191,
+            "gust": 1.19
+        },
+        "rain": {
+            "1h": 0.3
+        },
+        "clouds": {
+            "all": 21
+        },
+        "dt": 1792980015,
+        "sys": {
+            "country": "PH",
+            "sunrise": 1792964293,
+            "sunset": 1793007176
+        },
+        "timezone": 28800,
+        "id": 1679432,
+        "name": "Zamboanga City",
+        "cod": 200,
+        "city": "Zamboanga City",
+        "source": "openweather",
+        "observation_time": "2026-10-26T02:00:15+00:00"
+    },
+    {
+        "coord": {
+            "lon": 122.079,
+            "lat": 6.9214
+        },
+        "weather": [
+            {
+                "id": 500,
+                "main": "Rain",
+                "description": "light rain",
+                "icon": "10d"
+            }
+        ],
+        "base": "stations",
+        "main": {
+            "temp": 31.95,
+            "feels_like": 38.95,
+            "temp_min": 31.95,
+            "temp_max": 31.95,
+            "pressure": 1014,
+            "humidity": 68,
+            "sea_level": 1014,
+            "grnd_level": 992
+        },
+        "visibility": 10000,
+        "wind": {
+            "speed": 0.47,
+            "deg": 215,
+            "gust": 0.9
+        },
+        "rain": {
+            "1h": 0.55
+        },
+        "clouds": {
+            "all": 40
+        },
+        "dt": 1792983540,
+        "sys": {
+            "country": "PH",
+            "sunrise": 1792964293,
+            "sunset": 1793007176
+        },
+        "timezone": 28800,
+        "id": 1679432,
+        "name": "Zamboanga City",
+        "cod": 200,
+        "city": "Zamboanga City",
+        "source": "openweather",
+        "observation_time": "2026-10-26T02:59:00+00:00"
+    },
+    {
+        "coord": {
+            "lon": 122.079,
+            "lat": 6.9214
+        },
+        "weather": [
+            {
+                "id": 500,
+                "main": "Rain",
+                "description": "light rain",
+                "icon": "10d"
+            }
+        ],
+        "base": "stations",
+        "main": {
+            "temp": 30.33,
+            "feels_like": 34.14,
+            "temp_min": 30.33,
+            "temp_max": 30.33,
+            "pressure": 1013,
+            "humidity": 63,
+            "sea_level": 1013,
+            "grnd_level": 991
+        },
+        "visibility": 10000,
+        "wind": {
+            "speed": 0.36,
+            "deg": 252,
+            "gust": 1.04
+        },
+        "rain": {
+            "1h": 0.83
+        },
+        "clouds": {
+            "all": 53
+        },
+        "dt": 1792986783,
+        "sys": {
+            "country": "PH",
+            "sunrise": 1792964293,
+            "sunset": 1793007176
+        },
+        "timezone": 28800,
+        "id": 1679432,
+        "name": "Zamboanga City",
+        "cod": 200,
+        "city": "Zamboanga City",
+        "source": "openweather",
+        "observation_time": "2026-10-26T03:53:03+00:00"
+    },
+    {
+        "coord": {
+            "lon": 122.079,
+            "lat": 6.9214
+        },
+        "weather": [
+            {
+                "id": 500,
+                "main": "Rain",
+                "description": "light rain",
+                "icon": "10d"
+            }
+        ],
+        "base": "stations",
+        "main": {
+            "temp": 32.98,
+            "feels_like": 39.98,
+            "temp_min": 32.98,
+            "temp_max": 32.98,
+            "pressure": 1011,
+            "humidity": 70,
+            "sea_level": 1011,
+            "grnd_level": 990
+        },
+        "visibility": 10000,
+        "wind": {
+            "speed": 0.76,
+            "deg": 281,
+            "gust": 1.18
+        },
+        "rain": {
+            "1h": 0.62
+        },
+        "clouds": {
+            "all": 61
+        },
+        "dt": 1792991823,
+        "sys": {
+            "country": "PH",
+            "sunrise": 1792964293,
+            "sunset": 1793007176
+        },
+        "timezone": 28800,
+        "id": 1679430,
+        "name": "Zamboanga City",
+        "cod": 200,
+        "city": "Zamboanga City",
+        "source": "openweather",
+        "observation_time": "2026-10-26T05:17:03+00:00"
+    },
+    {
+        "coord": {
+            "lon": 122.079,
+            "lat": 6.9214
+        },
+        "weather": [
+            {
+                "id": 500,
+                "main": "Rain",
+                "description": "light rain",
+                "icon": "10d"
+            }
+        ],
+        "base": "stations",
+        "main": {
+            "temp": 32.34,
+            "feels_like": 39.34,
+            "temp_min": 32.34,
+            "temp_max": 32.34,
+            "pressure": 1011,
+            "humidity": 71,
+            "sea_level": 1011,
+            "grnd_level": 989
+        },
+        "visibility": 10000,
+        "wind": {
+            "speed": 0.98,
+            "deg": 287,
+            "gust": 1.26
+        },
+        "rain": {
+            "1h": 0.55
+        },
+        "clouds": {
+            "all": 67
+        },
+        "dt": 1792994414,
+        "sys": {
+            "country": "PH",
+            "sunrise": 1792964293,
+            "sunset": 1793007176
+        },
+        "timezone": 28800,
+        "id": 1679432,
+        "name": "Zamboanga City",
+        "cod": 200,
+        "city": "Zamboanga City",
+        "source": "openweather",
+        "observation_time": "2026-10-26T06:00:14+00:00"
+    },
+    {
+        "coord": {
+            "lon": 122.079,
+            "lat": 6.9214
+        },
+        "weather": [
+            {
+                "id": 500,
+                "main": "Rain",
+                "description": "light rain",
+                "icon": "10d"
+            }
+        ],
+        "base": "stations",
+        "main": {
+            "temp": 32.09,
+            "feels_like": 39.09,
+            "temp_min": 32.09,
+            "temp_max": 32.09,
+            "pressure": 1011,
+            "humidity": 77,
+            "sea_level": 1011,
+            "grnd_level": 989
+        },
+        "visibility": 10000,
+        "wind": {
+            "speed": 0.92,
+            "deg": 292,
+            "gust": 1.28
+        },
+        "rain": {
+            "1h": 0.66
+        },
+        "clouds": {
+            "all": 100
+        },
+        "dt": 1792996512,
+        "sys": {
+            "country": "PH",
+            "sunrise": 1792964293,
+            "sunset": 1793007176
+        },
+        "timezone": 28800,
+        "id": 1679430,
+        "name": "Zamboanga City",
+        "cod": 200,
+        "city": "Zamboanga City",
+        "source": "openweather",
+        "observation_time": "2026-10-26T06:35:12+00:00"
+    },
+    {
+        "coord": {
+            "lon": 122.079,
+            "lat": 6.9214
+        },
+        "weather": [
+            {
+                "id": 500,
+                "main": "Rain",
+                "description": "light rain",
+                "icon": "10d"
+            }
+        ],
+        "base": "stations",
+        "main": {
+            "temp": 32.09,
+            "feels_like": 39.09,
+            "temp_min": 32.09,
+            "temp_max": 32.09,
+            "pressure": 1011,
+            "humidity": 77,
+            "sea_level": 1011,
+            "grnd_level": 989
+        },
+        "visibility": 10000,
+        "wind": {
+            "speed": 0.92,
+            "deg": 292,
+            "gust": 1.28
+        },
+        "rain": {
+            "1h": 0.66
+        },
+        "clouds": {
+            "all": 100
+        },
+        "dt": 1792997584,
+        "sys": {
+            "country": "PH",
+            "sunrise": 1792964293,
+            "sunset": 1793007176
+        },
+        "timezone": 28800,
+        "id": 1679430,
+        "name": "Zamboanga City",
+        "cod": 200,
+        "city": "Zamboanga City",
+        "source": "openweather",
+        "observation_time": "2026-10-26T06:53:04+00:00"
+    },
+    {
+        "coord": {
+            "lon": 122.079,
+            "lat": 6.9214
+        },
+        "weather": [
+            {
+                "id": 500,
+                "main": "Rain",
+                "description": "light rain",
+                "icon": "10d"
+            }
+        ],
+        "base": "stations",
+        "main": {
+            "temp": 33.78,
+            "feels_like": 40.78,
+            "temp_min": 33.78,
+            "temp_max": 33.78,
+            "pressure": 1010,
+            "humidity": 69,
+            "sea_level": 1010,
+            "grnd_level": 989
+        },
+        "visibility": 10000,
+        "wind": {
+            "speed": 1.46,
+            "deg": 262,
+            "gust": 1.53
+        },
+        "rain": {
+            "1h": 0.12
+        },
+        "clouds": {
+            "all": 92
+        },
+        "dt": 1793002217,
+        "sys": {
+            "country": "PH",
+            "sunrise": 1792964293,
+            "sunset": 1793007176
+        },
+        "timezone": 28800,
+        "id": 1679432,
+        "name": "Zamboanga City",
+        "cod": 200,
+        "city": "Zamboanga City",
+        "source": "openweather",
+        "observation_time": "2026-10-26T08:10:17+00:00"
+    },
+    {
+        "coord": {
+            "lon": 122.079,
+            "lat": 6.9214
+        },
+        "weather": [
+            {
+                "id": 500,
+                "main": "Rain",
+                "description": "light rain",
+                "icon": "10d"
+            }
+        ],
+        "base": "stations",
+        "main": {
+            "temp": 33.78,
+            "feels_like": 40.78,
+            "temp_min": 33.78,
+            "temp_max": 33.78,
+            "pressure": 1010,
+            "humidity": 69,
+            "sea_level": 1010,
+            "grnd_level": 989
+        },
+        "visibility": 10000,
+        "wind": {
+            "speed": 1.46,
+            "deg": 262,
+            "gust": 1.53
+        },
+        "rain": {
+            "1h": 0.12
+        },
+        "clouds": {
+            "all": 92
+        },
+        "dt": 1793002623,
+        "sys": {
+            "country": "PH",
+            "sunrise": 1792964293,
+            "sunset": 1793007176
+        },
+        "timezone": 28800,
+        "id": 1679430,
+        "name": "Zamboanga City",
+        "cod": 200,
+        "city": "Zamboanga City",
+        "source": "openweather",
+        "observation_time": "2026-10-26T08:17:03+00:00"
+    },
+    {
+        "coord": {
+            "lon": 122.079,
+            "lat": 6.9214
+        },
+        "weather": [
+            {
+                "id": 804,
+                "main": "Clouds",
+                "description": "overcast clouds",
+                "icon": "04d"
+            }
+        ],
+        "base": "stations",
+        "main": {
+            "temp": 30.05,
+            "feels_like": 36.17,
+            "temp_min": 30.05,
+            "temp_max": 30.05,
+            "pressure": 1011,
+            "humidity": 74,
+            "sea_level": 1011,
+            "grnd_level": 990
+        },
+        "visibility": 10000,
+        "wind": {
+            "speed": 1.96,
+            "deg": 261,
+            "gust": 2.53
+        },
+        "clouds": {
+            "all": 87
+        },
+        "dt": 1793004421,
+        "sys": {
+            "country": "PH",
+            "sunrise": 1792964293,
+            "sunset": 1793007176
+        },
+        "timezone": 28800,
+        "id": 1679432,
+        "name": "Zamboanga City",
+        "cod": 200,
+        "city": "Zamboanga City",
+        "source": "openweather",
+        "observation_time": "2026-10-26T08:47:01+00:00"
     }
 ]
