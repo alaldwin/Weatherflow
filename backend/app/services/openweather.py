@@ -121,3 +121,132 @@ async def get_current_weather(
         "units": "metric",
         "source": "OpenWeather",
     }
+
+
+
+async def get_forecast(
+    lat: float,
+    lon: float,
+    days: int = 5,
+) -> dict:
+    """Fetch and normalize hourly and daily weather forecasts."""
+
+    result = await _get(
+        "/data/2.5/forecast",
+        {
+            "lat": lat,
+            "lon": lon,
+            "units": "metric",
+        },
+    )
+
+    if not isinstance(result, dict):
+        raise OpenWeatherError("Unexpected forecast response.")
+
+    city = result.get("city")
+    entries = result.get("list")
+
+    if not isinstance(city, dict) or not isinstance(entries, list):
+        raise OpenWeatherError("Unexpected forecast response.")
+
+    hourly = []
+
+    for item in entries:
+        if not isinstance(item, dict):
+            continue
+
+        main = item.get("main")
+        weather_items = item.get("weather")
+        wind = item.get("wind", {})
+
+        if not isinstance(main, dict):
+            continue
+
+        if not isinstance(weather_items, list) or not weather_items:
+            continue
+
+        weather = weather_items[0]
+        if not isinstance(weather, dict):
+            continue
+
+        hourly.append(
+            {
+                "datetime": item.get("dt_txt"),
+                "timestamp": item.get("dt"),
+                "temperature": main.get("temp"),
+                "feels_like": main.get("feels_like"),
+                "humidity": main.get("humidity"),
+                "wind_speed": wind.get("speed")
+                if isinstance(wind, dict)
+                else None,
+                "weather_main": weather.get("main"),
+                "weather_description": weather.get("description"),
+                "weather_icon": weather.get("icon"),
+                "precipitation_probability": item.get("pop"),
+            }
+        )
+
+    daily_by_date = {}
+
+    for item in hourly:
+        timestamp = item.get("timestamp")
+        if timestamp is None:
+            continue
+
+        from datetime import datetime, timezone
+
+        date = datetime.fromtimestamp(
+            timestamp, tz=timezone.utc
+        ).date().isoformat()
+
+        daily = daily_by_date.setdefault(
+            date,
+            {
+                "date": date,
+                "temperatures": [],
+                "conditions": [],
+            },
+        )
+
+        temperature = item.get("temperature")
+        if isinstance(temperature, (int, float)):
+            daily["temperatures"].append(temperature)
+
+        if item.get("weather_main"):
+            daily["conditions"].append(item["weather_main"])
+
+    daily = []
+
+    for date, item in sorted(daily_by_date.items()):
+        temperatures = item["temperatures"]
+        conditions = item["conditions"]
+
+        daily.append(
+            {
+                "date": date,
+                "temp_min": min(temperatures) if temperatures else None,
+                "temp_max": max(temperatures) if temperatures else None,
+                "weather_main": (
+                    max(set(conditions), key=conditions.count)
+                    if conditions
+                    else None
+                ),
+            }
+        )
+
+    return {
+        "location": {
+            "name": city.get("name"),
+            "country": city.get("country"),
+            "lat": city.get("coord", {}).get("lat")
+            if isinstance(city.get("coord"), dict)
+            else lat,
+            "lon": city.get("coord", {}).get("lon")
+            if isinstance(city.get("coord"), dict)
+            else lon,
+        },
+        "hourly": hourly[: days * 8],
+        "daily": daily[:days],
+        "units": "metric",
+        "source": "OpenWeather",
+    }

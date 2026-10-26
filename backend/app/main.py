@@ -13,6 +13,7 @@ from app.api.routes.daily_weather import router as daily_weather_router
 from app.api.routes.locations import router as locations_router
 from app.api.routes.trends import router as trends_router
 from app.api.routes.weather import router as coordinate_weather_router
+from app.api.routes.forecast import router as forecast_router
 
 from app.core.logging_config import config_logging, get_logger
 
@@ -89,6 +90,7 @@ app.include_router(daily_weather_router)
 app.include_router(trends_router)
 app.include_router(city_comparison_router) 
 app.include_router(locations_router)
+app.include_router(forecast_router)
 
 
 

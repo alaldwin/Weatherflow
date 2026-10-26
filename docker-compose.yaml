@@ -133,8 +133,7 @@ services:
 
   backend:
     build:
-      context: .
-
+      context: . 
       dockerfile: backend/Dockerfile
 
     image: weatherflow-backend:local
