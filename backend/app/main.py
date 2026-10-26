@@ -1,4 +1,3 @@
-
 import time
 import uuid
 
@@ -6,21 +5,26 @@ from fastapi import FastAPI, HTTPException, Request
 from fastapi.exceptions import RequestValidationError
 from fastapi.responses import JSONResponse
 from sqlalchemy.exc import SQLAlchemyError
+from fastapi.middleware.cors import CORSMiddleware
 
 from app.api.routes.city_comparison import router as city_comparison_router
 from app.api.routes.current_weather import router as current_weather_router
 from app.api.routes.daily_weather import router as daily_weather_router
+from app.api.routes.locations import router as locations_router
 from app.api.routes.trends import router as trends_router
+from app.api.routes.weather import router as coordinate_weather_router
+from app.api.routes.forecast import router as forecast_router
+
 from app.core.logging_config import config_logging, get_logger
+
 from app.db.session import check_database_connection
 
 config_logging()
-logger = get_logger(__name__, "backend_name.log")
-
+logger = get_logger(__name__, "backend_main.log")
 
 
 app = FastAPI(
-    title="Weatherflow API",
+    title="WeatherFlow API",
     description="""
     # Weatherflow Weather Intelligence API
 
@@ -36,7 +40,7 @@ app = FastAPI(
 
     ## Data flow
 
-    OpenWeather APIs → Python ingestion → PostgreSQL → dbt → FastAPI
+    OpenWeather APIs → Python ingestion → PostgreSQL → dbt → FastAPI → Weatherflow Mobile App
     """,
     version="1.0.0",
     contact={
@@ -66,12 +70,28 @@ app = FastAPI(
     ],
 )
 
+app.add_middleware(
+    CORSMiddleware,
+    allow_origins=[
+        "http://localhost:8081",
+        "http://127.0.0.1:8081",
+        "http://localhost:19006",
+        "http://127.0.0.1:19006",
+    ],
+    allow_credentials=False,
+    allow_methods=["*"],
+    allow_headers=["*"],
+)
 
 # Register API routers
+app.include_router(coordinate_weather_router)
 app.include_router(current_weather_router)
 app.include_router(daily_weather_router)
 app.include_router(trends_router)
-app.include_router(city_comparison_router)
+app.include_router(city_comparison_router) 
+app.include_router(locations_router)
+app.include_router(forecast_router)
+
 
 
 # HTTP request logging middleware
@@ -162,14 +182,12 @@ async def log_requests(request: Request, call_next):
         logger.info(log_message, *log_args)
 
     logger.debug(
-        "HTTP response generated | request_id=%s | "
-        "response_headers=%s",
+        "HTTP response generated | request_id=%s | response_headers=%s",
         request_id,
         response.headers,
     )
 
     return response
-
 
 
 # Standardized HTTP exception handler
@@ -218,7 +236,6 @@ async def http_exception_handler(
     )
 
 
-
 # Standardized request validation handler
 @app.exception_handler(RequestValidationError)
 async def validation_exception_handler(
@@ -258,7 +275,6 @@ async def validation_exception_handler(
             "request_id": request_id,
         },
     )
-
 
 
 # Standardized unexpected exception handler
@@ -304,7 +320,7 @@ async def unexpected_error_handler(
         },
     )
 
- 
+
 # Root endpoint
 @app.get("/", tags=["General"])
 def root():
@@ -318,7 +334,6 @@ def root():
         "status": "running",
         "docs": "/docs",
     }
-
 
 
 # Application health check
@@ -337,7 +352,6 @@ def health_check():
     return {
         "status": "healthy",
     }
-
 
 
 # Database health check
@@ -371,4 +385,3 @@ def database_health_check():
                 "message": "The database is currently unavailable.",
             },
         )
-

@@ -1,4 +1,3 @@
-
 import json
 import logging
 import uuid
@@ -6,9 +5,10 @@ from logging.handlers import RotatingFileHandler
 from unittest.mock import Mock
 
 import pytest
+from fastapi.testclient import TestClient
+
 from app.core.logging_config import StructuredFormatter
 from app.main import app
-from fastapi.testclient import TestClient
 
 
 @pytest.fixture
@@ -123,16 +123,12 @@ def test_unexpected_exception_returns_safe_response_with_request_id(
         body = response.json()
 
         assert body["error"]["code"] == "INTERNAL_SERVER_ERROR"
-        assert body["error"]["message"] == (
-            "An unexpected server error occurred."
-        )
+        assert body["error"]["message"] == ("An unexpected server error occurred.")
         assert "sensitive internal detail" not in response.text
 
     finally:
         app.router.routes[:] = [
-            route
-            for route in app.router.routes
-            if getattr(route, "path", None) != path
+            route for route in app.router.routes if getattr(route, "path", None) != path
         ]
 
 
@@ -182,11 +178,8 @@ def test_unexpected_error_log_matches_response_request_id(
 
     finally:
         app.router.routes[:] = [
-            route
-            for route in app.router.routes
-            if getattr(route, "path", None) != path
+            route for route in app.router.routes if getattr(route, "path", None) != path
         ]
-
 
 
 def test_rotating_file_handler_creates_backup_logs(tmp_path):
@@ -200,9 +193,7 @@ def test_rotating_file_handler_creates_backup_logs(tmp_path):
     )
     handler.setFormatter(StructuredFormatter())
 
-    test_logger = logging.getLogger(
-        f"weatherflow.rotation.test.{id(handler)}"
-    )
+    test_logger = logging.getLogger(f"weatherflow.rotation.test.{id(handler)}")
     test_logger.setLevel(logging.INFO)
     test_logger.propagate = False
     test_logger.addHandler(handler)

@@ -1,4 +1,3 @@
-
 from typing import Annotated
 
 from fastapi import APIRouter, Depends, HTTPException
@@ -18,9 +17,8 @@ logger = get_logger(__name__, "weather_trends.log")
 
 router = APIRouter(
     prefix="/api/v1/weather",
-    tags=["Weather"],
+    tags=["Weather Trends"],
 )
-
 
 
 @router.get(
@@ -91,19 +89,14 @@ def get_weather_trends(
             end_date,
         )
 
-
-    where_clause = (
-        "WHERE " + " AND ".join(conditions)
-        if conditions
-        else ""
-    )
+    where_clause = "WHERE " + " AND ".join(conditions) if conditions else ""
 
     logger.debug(
         "Weather trends SQL query prepared | filters_applied=%d",
         len(conditions),
     )
 
-    query = text(f"""
+    query = text("""
         SELECT
             city,
             observation_date,
@@ -114,9 +107,9 @@ def get_weather_trends(
             previous_avg_humidity,
             humidity_change
         FROM mrt_dev.mrt_weather_trends
-        {where_clause}
+        """ + (where_clause + "\n" if where_clause else "") + """
         ORDER BY observation_date DESC, city
-        LIMIT 1000
+        LIMIT :fetch_limit OFFSET :offset
     """)
 
     try:
@@ -125,11 +118,6 @@ def get_weather_trends(
 
             result = connection.execute(query, params)
             rows = result.mappings().all()
-
-        logger.debug(
-            "Weather trends query executed | fetched_rows=%d",
-            len(rows),
-        )
 
         has_more = len(rows) > limit
         data = [dict(row) for row in rows[:limit]]
@@ -153,13 +141,13 @@ def get_weather_trends(
             )
 
         return {
-            "count": len(rows),
+            "count": len(data),
             "filters": {
                 "city": city,
                 "start_date": start_date,
                 "end_date": end_date,
             },
-            "data": [dict(row) for row in rows],
+            "data": data,
         }
 
     except SQLAlchemyError as exc:
@@ -179,4 +167,4 @@ def get_weather_trends(
                 "code": "SERVICE_UNAVAILABLE",
                 "message": "Unable to retrieve weather trends.",
             },
-        ) from exc 
+        ) from exc

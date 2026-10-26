@@ -1066,3 +1066,399 @@ This error occurred with the following context stack:
 2026-10-17 03:00:59,949 | INFO | pipeline.loaded.save_parquet | Saved 64 record(s) to Parquet for Zamboanga City (openweather).
 2026-10-17 03:02:03,258 | INFO | pipeline.loaded.save_parquet | Appending to existing Parquet file for Baguio (openweather).
 2026-10-17 03:02:03,994 | INFO | pipeline.loaded.save_parquet | Saved 63 record(s) to Parquet for Baguio (openweather).
+2026-10-17 04:00:07,937 | INFO | pipeline.loaded.save_parquet | Appending to existing Parquet file for Manila (openweather).
+2026-10-17 04:00:08,128 | INFO | pipeline.loaded.save_parquet | Saved 58 record(s) to Parquet for Manila (openweather).
+2026-10-17 04:00:08,656 | INFO | pipeline.loaded.save_parquet | Appending to existing Parquet file for Quezon City (openweather).
+2026-10-17 04:00:08,763 | INFO | pipeline.loaded.save_parquet | Saved 63 record(s) to Parquet for Quezon City (openweather).
+2026-10-17 04:00:09,285 | INFO | pipeline.loaded.save_parquet | Appending to existing Parquet file for Cebu City (openweather).
+2026-10-17 04:00:09,399 | INFO | pipeline.loaded.save_parquet | Saved 64 record(s) to Parquet for Cebu City (openweather).
+2026-10-17 04:00:09,863 | INFO | pipeline.loaded.save_parquet | Appending to existing Parquet file for Davao City (openweather).
+2026-10-17 04:00:09,985 | INFO | pipeline.loaded.save_parquet | Saved 64 record(s) to Parquet for Davao City (openweather).
+2026-10-17 04:00:10,546 | INFO | pipeline.loaded.save_parquet | Appending to existing Parquet file for Baguio (openweather).
+2026-10-17 04:00:10,668 | INFO | pipeline.loaded.save_parquet | Saved 64 record(s) to Parquet for Baguio (openweather).
+2026-10-17 04:00:11,225 | INFO | pipeline.loaded.save_parquet | Appending to existing Parquet file for Iloilo City (openweather).
+2026-10-17 04:00:11,315 | INFO | pipeline.loaded.save_parquet | Saved 61 record(s) to Parquet for Iloilo City (openweather).
+2026-10-17 04:00:11,877 | INFO | pipeline.loaded.save_parquet | Appending to existing Parquet file for Cagayan de Oro (openweather).
+2026-10-17 04:00:12,021 | INFO | pipeline.loaded.save_parquet | Saved 62 record(s) to Parquet for Cagayan de Oro (openweather).
+2026-10-17 04:00:12,606 | INFO | pipeline.loaded.save_parquet | Appending to existing Parquet file for Zamboanga City (openweather).
+2026-10-17 04:00:12,714 | INFO | pipeline.loaded.save_parquet | Saved 65 record(s) to Parquet for Zamboanga City (openweather).
+2026-10-17 04:06:10,064 | INFO | pipeline.loaded.save_parquet | Appending to existing Parquet file for Manila (openweather).
+2026-10-17 04:06:10,137 | INFO | pipeline.loaded.save_parquet | Saved 59 record(s) to Parquet for Manila (openweather).
+2026-10-17 04:19:00,363 | INFO | pipeline.loaded.save_parquet | Appending to existing Parquet file for Manila (openweather).
+2026-10-17 04:19:00,446 | INFO | pipeline.loaded.save_parquet | Saved 60 record(s) to Parquet for Manila (openweather).
+2026-10-17 04:19:00,999 | INFO | pipeline.loaded.save_parquet | Appending to existing Parquet file for Quezon City (openweather).
+2026-10-17 04:19:01,090 | INFO | pipeline.loaded.save_parquet | Saved 64 record(s) to Parquet for Quezon City (openweather).
+2026-10-17 04:19:01,656 | INFO | pipeline.loaded.save_parquet | Appending to existing Parquet file for Cebu City (openweather).
+2026-10-17 04:19:01,800 | INFO | pipeline.loaded.save_parquet | Saved 65 record(s) to Parquet for Cebu City (openweather).
+2026-10-17 04:19:02,411 | INFO | pipeline.loaded.save_parquet | Appending to existing Parquet file for Davao City (openweather).
+2026-10-17 04:19:02,565 | INFO | pipeline.loaded.save_parquet | Saved 65 record(s) to Parquet for Davao City (openweather).
+2026-10-17 04:19:03,194 | INFO | pipeline.loaded.save_parquet | Appending to existing Parquet file for Baguio (openweather).
+2026-10-17 04:19:03,282 | INFO | pipeline.loaded.save_parquet | Saved 65 record(s) to Parquet for Baguio (openweather).
+2026-10-17 04:19:03,854 | INFO | pipeline.loaded.save_parquet | Appending to existing Parquet file for Iloilo City (openweather).
+2026-10-17 04:19:03,999 | INFO | pipeline.loaded.save_parquet | Saved 62 record(s) to Parquet for Iloilo City (openweather).
+2026-10-17 04:19:04,660 | INFO | pipeline.loaded.save_parquet | Appending to existing Parquet file for Cagayan de Oro (openweather).
+2026-10-17 04:19:04,735 | INFO | pipeline.loaded.save_parquet | Saved 63 record(s) to Parquet for Cagayan de Oro (openweather).
+2026-10-17 04:19:05,225 | INFO | pipeline.loaded.save_parquet | Appending to existing Parquet file for Zamboanga City (openweather).
+2026-10-17 04:19:05,349 | INFO | pipeline.loaded.save_parquet | Saved 66 record(s) to Parquet for Zamboanga City (openweather).
+2026-10-17 05:00:10,922 | INFO | pipeline.loaded.save_parquet | Appending to existing Parquet file for Manila (openweather).
+2026-10-17 05:00:11,104 | INFO | pipeline.loaded.save_parquet | Saved 61 record(s) to Parquet for Manila (openweather).
+2026-10-17 05:00:11,644 | INFO | pipeline.loaded.save_parquet | Appending to existing Parquet file for Quezon City (openweather).
+2026-10-17 05:00:11,739 | INFO | pipeline.loaded.save_parquet | Saved 65 record(s) to Parquet for Quezon City (openweather).
+2026-10-17 05:00:12,471 | INFO | pipeline.loaded.save_parquet | Appending to existing Parquet file for Cebu City (openweather).
+2026-10-17 05:00:12,597 | INFO | pipeline.loaded.save_parquet | Saved 66 record(s) to Parquet for Cebu City (openweather).
+2026-10-17 05:00:13,089 | INFO | pipeline.loaded.save_parquet | Appending to existing Parquet file for Davao City (openweather).
+2026-10-17 05:00:13,373 | INFO | pipeline.loaded.save_parquet | Saved 66 record(s) to Parquet for Davao City (openweather).
+2026-10-17 05:00:14,128 | INFO | pipeline.loaded.save_parquet | Appending to existing Parquet file for Baguio (openweather).
+2026-10-17 05:00:14,260 | INFO | pipeline.loaded.save_parquet | Saved 66 record(s) to Parquet for Baguio (openweather).
+2026-10-17 05:00:14,917 | INFO | pipeline.loaded.save_parquet | Appending to existing Parquet file for Iloilo City (openweather).
+2026-10-17 05:00:15,068 | INFO | pipeline.loaded.save_parquet | Saved 63 record(s) to Parquet for Iloilo City (openweather).
+2026-10-17 05:00:15,783 | INFO | pipeline.loaded.save_parquet | Appending to existing Parquet file for Cagayan de Oro (openweather).
+2026-10-17 05:00:15,874 | INFO | pipeline.loaded.save_parquet | Saved 64 record(s) to Parquet for Cagayan de Oro (openweather).
+2026-10-17 05:00:16,605 | INFO | pipeline.loaded.save_parquet | Appending to existing Parquet file for Zamboanga City (openweather).
+2026-10-17 05:00:16,834 | INFO | pipeline.loaded.save_parquet | Saved 67 record(s) to Parquet for Zamboanga City (openweather).
+2026-10-17 06:10:30,220 | INFO | pipeline.loaded.save_parquet | Appending to existing Parquet file for Manila (openweather).
+2026-10-17 06:10:30,302 | INFO | pipeline.loaded.save_parquet | Saved 62 record(s) to Parquet for Manila (openweather).
+2026-10-17 06:10:30,741 | INFO | pipeline.loaded.save_parquet | Appending to existing Parquet file for Quezon City (openweather).
+2026-10-17 06:10:30,804 | INFO | pipeline.loaded.save_parquet | Saved 66 record(s) to Parquet for Quezon City (openweather).
+2026-10-17 06:10:31,206 | INFO | pipeline.loaded.save_parquet | Appending to existing Parquet file for Cebu City (openweather).
+2026-10-17 06:10:31,249 | INFO | pipeline.loaded.save_parquet | Saved 67 record(s) to Parquet for Cebu City (openweather).
+2026-10-17 06:10:31,753 | INFO | pipeline.loaded.save_parquet | Appending to existing Parquet file for Davao City (openweather).
+2026-10-17 06:10:31,813 | INFO | pipeline.loaded.save_parquet | Saved 67 record(s) to Parquet for Davao City (openweather).
+2026-10-17 06:10:32,257 | INFO | pipeline.loaded.save_parquet | Appending to existing Parquet file for Baguio (openweather).
+2026-10-17 06:10:32,320 | INFO | pipeline.loaded.save_parquet | Saved 67 record(s) to Parquet for Baguio (openweather).
+2026-10-17 06:10:32,982 | INFO | pipeline.loaded.save_parquet | Appending to existing Parquet file for Iloilo City (openweather).
+2026-10-17 06:10:33,026 | INFO | pipeline.loaded.save_parquet | Saved 64 record(s) to Parquet for Iloilo City (openweather).
+2026-10-17 06:10:33,690 | INFO | pipeline.loaded.save_parquet | Appending to existing Parquet file for Cagayan de Oro (openweather).
+2026-10-17 06:10:33,738 | INFO | pipeline.loaded.save_parquet | Saved 65 record(s) to Parquet for Cagayan de Oro (openweather).
+2026-10-17 06:10:34,223 | INFO | pipeline.loaded.save_parquet | Appending to existing Parquet file for Zamboanga City (openweather).
+2026-10-17 06:10:34,272 | INFO | pipeline.loaded.save_parquet | Saved 68 record(s) to Parquet for Zamboanga City (openweather).
+2026-10-17 07:00:08,114 | INFO | pipeline.loaded.save_parquet | Appending to existing Parquet file for Manila (openweather).
+2026-10-17 07:00:08,305 | INFO | pipeline.loaded.save_parquet | Saved 63 record(s) to Parquet for Manila (openweather).
+2026-10-17 07:00:08,889 | INFO | pipeline.loaded.save_parquet | Appending to existing Parquet file for Quezon City (openweather).
+2026-10-17 07:00:08,985 | INFO | pipeline.loaded.save_parquet | Saved 67 record(s) to Parquet for Quezon City (openweather).
+2026-10-17 07:00:09,629 | INFO | pipeline.loaded.save_parquet | Appending to existing Parquet file for Cebu City (openweather).
+2026-10-17 07:00:09,727 | INFO | pipeline.loaded.save_parquet | Saved 68 record(s) to Parquet for Cebu City (openweather).
+2026-10-17 07:00:10,444 | INFO | pipeline.loaded.save_parquet | Appending to existing Parquet file for Davao City (openweather).
+2026-10-17 07:00:10,575 | INFO | pipeline.loaded.save_parquet | Saved 68 record(s) to Parquet for Davao City (openweather).
+2026-10-17 07:00:11,211 | INFO | pipeline.loaded.save_parquet | Appending to existing Parquet file for Baguio (openweather).
+2026-10-17 07:00:11,364 | INFO | pipeline.loaded.save_parquet | Saved 68 record(s) to Parquet for Baguio (openweather).
+2026-10-17 07:00:11,964 | INFO | pipeline.loaded.save_parquet | Appending to existing Parquet file for Iloilo City (openweather).
+2026-10-17 07:00:12,111 | INFO | pipeline.loaded.save_parquet | Saved 65 record(s) to Parquet for Iloilo City (openweather).
+2026-10-17 07:00:12,759 | INFO | pipeline.loaded.save_parquet | Appending to existing Parquet file for Cagayan de Oro (openweather).
+2026-10-17 07:00:12,910 | INFO | pipeline.loaded.save_parquet | Saved 66 record(s) to Parquet for Cagayan de Oro (openweather).
+2026-10-17 07:00:13,498 | INFO | pipeline.loaded.save_parquet | Appending to existing Parquet file for Zamboanga City (openweather).
+2026-10-17 07:00:13,693 | INFO | pipeline.loaded.save_parquet | Saved 69 record(s) to Parquet for Zamboanga City (openweather).
+2026-10-17 08:00:08,988 | INFO | pipeline.loaded.save_parquet | Appending to existing Parquet file for Manila (openweather).
+2026-10-17 08:00:09,180 | INFO | pipeline.loaded.save_parquet | Saved 64 record(s) to Parquet for Manila (openweather).
+2026-10-17 08:00:09,870 | INFO | pipeline.loaded.save_parquet | Appending to existing Parquet file for Quezon City (openweather).
+2026-10-17 08:00:10,055 | INFO | pipeline.loaded.save_parquet | Saved 68 record(s) to Parquet for Quezon City (openweather).
+2026-10-17 08:00:10,687 | INFO | pipeline.loaded.save_parquet | Appending to existing Parquet file for Cebu City (openweather).
+2026-10-17 08:00:10,780 | INFO | pipeline.loaded.save_parquet | Saved 69 record(s) to Parquet for Cebu City (openweather).
+2026-10-17 08:00:11,401 | INFO | pipeline.loaded.save_parquet | Appending to existing Parquet file for Davao City (openweather).
+2026-10-17 08:00:11,496 | INFO | pipeline.loaded.save_parquet | Saved 69 record(s) to Parquet for Davao City (openweather).
+2026-10-17 08:00:12,158 | INFO | pipeline.loaded.save_parquet | Appending to existing Parquet file for Baguio (openweather).
+2026-10-17 08:00:12,229 | INFO | pipeline.loaded.save_parquet | Saved 69 record(s) to Parquet for Baguio (openweather).
+2026-10-17 08:00:12,930 | INFO | pipeline.loaded.save_parquet | Appending to existing Parquet file for Iloilo City (openweather).
+2026-10-17 08:00:13,117 | INFO | pipeline.loaded.save_parquet | Saved 66 record(s) to Parquet for Iloilo City (openweather).
+2026-10-17 08:00:13,950 | INFO | pipeline.loaded.save_parquet | Appending to existing Parquet file for Cagayan de Oro (openweather).
+2026-10-17 08:00:14,127 | INFO | pipeline.loaded.save_parquet | Saved 67 record(s) to Parquet for Cagayan de Oro (openweather).
+2026-10-17 08:00:14,954 | INFO | pipeline.loaded.save_parquet | Appending to existing Parquet file for Zamboanga City (openweather).
+2026-10-17 08:00:15,064 | INFO | pipeline.loaded.save_parquet | Saved 70 record(s) to Parquet for Zamboanga City (openweather).
+2026-10-17 09:08:25,220 | INFO | pipeline.loaded.save_parquet | Appending to existing Parquet file for Manila (openweather).
+2026-10-17 09:08:25,326 | INFO | pipeline.loaded.save_parquet | Saved 65 record(s) to Parquet for Manila (openweather).
+2026-10-18 03:07:01,907 | INFO | pipeline.loaded.save_parquet | Appending to existing Parquet file for Quezon City (openweather).
+2026-10-18 03:07:06,840 | INFO | pipeline.loaded.save_parquet | Saved 69 record(s) to Parquet for Quezon City (openweather).
+2026-10-18 03:07:14,255 | INFO | pipeline.loaded.save_parquet | Appending to existing Parquet file for Cebu City (openweather).
+2026-10-18 03:07:14,612 | INFO | pipeline.loaded.save_parquet | Saved 70 record(s) to Parquet for Cebu City (openweather).
+2026-10-18 03:07:16,527 | INFO | pipeline.loaded.save_parquet | Appending to existing Parquet file for Davao City (openweather).
+2026-10-18 03:07:16,963 | INFO | pipeline.loaded.save_parquet | Saved 70 record(s) to Parquet for Davao City (openweather).
+2026-10-18 03:07:19,069 | INFO | pipeline.loaded.save_parquet | Appending to existing Parquet file for Baguio (openweather).
+2026-10-18 03:07:19,968 | INFO | pipeline.loaded.save_parquet | Saved 70 record(s) to Parquet for Baguio (openweather).
+2026-10-18 03:07:24,037 | INFO | pipeline.loaded.save_parquet | Appending to existing Parquet file for Iloilo City (openweather).
+2026-10-18 03:07:25,861 | INFO | pipeline.loaded.save_parquet | Saved 67 record(s) to Parquet for Iloilo City (openweather).
+2026-10-18 03:07:30,522 | INFO | pipeline.loaded.save_parquet | Appending to existing Parquet file for Cagayan de Oro (openweather).
+2026-10-18 03:07:31,135 | INFO | pipeline.loaded.save_parquet | Saved 68 record(s) to Parquet for Cagayan de Oro (openweather).
+2026-10-18 03:07:33,164 | INFO | pipeline.loaded.save_parquet | Appending to existing Parquet file for Zamboanga City (openweather).
+2026-10-18 03:07:33,512 | INFO | pipeline.loaded.save_parquet | Saved 71 record(s) to Parquet for Zamboanga City (openweather).
+2026-10-18 03:07:50,455 | INFO | pipeline.loaded.save_parquet | Appending to existing Parquet file for Manila (openweather).
+2026-10-18 03:07:50,715 | INFO | pipeline.loaded.save_parquet | Saved 66 record(s) to Parquet for Manila (openweather).
+2026-10-18 03:07:51,495 | INFO | pipeline.loaded.save_parquet | Appending to existing Parquet file for Quezon City (openweather).
+2026-10-18 03:07:51,731 | INFO | pipeline.loaded.save_parquet | Saved 70 record(s) to Parquet for Quezon City (openweather).
+2026-10-18 03:07:52,765 | INFO | pipeline.loaded.save_parquet | Appending to existing Parquet file for Cebu City (openweather).
+2026-10-18 03:07:53,118 | INFO | pipeline.loaded.save_parquet | Saved 71 record(s) to Parquet for Cebu City (openweather).
+2026-10-18 04:00:08,572 | INFO | pipeline.loaded.save_parquet | Appending to existing Parquet file for Manila (openweather).
+2026-10-18 04:00:08,823 | INFO | pipeline.loaded.save_parquet | Saved 67 record(s) to Parquet for Manila (openweather).
+2026-10-18 04:00:09,309 | INFO | pipeline.loaded.save_parquet | Appending to existing Parquet file for Quezon City (openweather).
+2026-10-18 04:00:09,421 | INFO | pipeline.loaded.save_parquet | Saved 71 record(s) to Parquet for Quezon City (openweather).
+2026-10-18 04:00:10,064 | INFO | pipeline.loaded.save_parquet | Appending to existing Parquet file for Cebu City (openweather).
+2026-10-18 04:00:10,233 | INFO | pipeline.loaded.save_parquet | Saved 72 record(s) to Parquet for Cebu City (openweather).
+2026-10-18 04:00:11,024 | INFO | pipeline.loaded.save_parquet | Appending to existing Parquet file for Davao City (openweather).
+2026-10-18 04:00:11,167 | INFO | pipeline.loaded.save_parquet | Saved 71 record(s) to Parquet for Davao City (openweather).
+2026-10-18 04:00:12,275 | INFO | pipeline.loaded.save_parquet | Appending to existing Parquet file for Baguio (openweather).
+2026-10-18 04:00:12,525 | INFO | pipeline.loaded.save_parquet | Saved 71 record(s) to Parquet for Baguio (openweather).
+2026-10-18 04:00:13,917 | INFO | pipeline.loaded.save_parquet | Appending to existing Parquet file for Iloilo City (openweather).
+2026-10-18 04:00:14,100 | INFO | pipeline.loaded.save_parquet | Saved 68 record(s) to Parquet for Iloilo City (openweather).
+2026-10-18 04:00:14,911 | INFO | pipeline.loaded.save_parquet | Appending to existing Parquet file for Cagayan de Oro (openweather).
+2026-10-18 04:00:15,019 | INFO | pipeline.loaded.save_parquet | Saved 69 record(s) to Parquet for Cagayan de Oro (openweather).
+2026-10-18 04:00:15,818 | INFO | pipeline.loaded.save_parquet | Appending to existing Parquet file for Zamboanga City (openweather).
+2026-10-18 04:00:15,920 | INFO | pipeline.loaded.save_parquet | Saved 72 record(s) to Parquet for Zamboanga City (openweather).
+2026-10-18 05:00:08,976 | INFO | pipeline.loaded.save_parquet | Appending to existing Parquet file for Manila (openweather).
+2026-10-18 05:00:09,178 | INFO | pipeline.loaded.save_parquet | Saved 68 record(s) to Parquet for Manila (openweather).
+2026-10-18 05:00:09,971 | INFO | pipeline.loaded.save_parquet | Appending to existing Parquet file for Quezon City (openweather).
+2026-10-18 05:00:10,096 | INFO | pipeline.loaded.save_parquet | Saved 72 record(s) to Parquet for Quezon City (openweather).
+2026-10-18 05:00:10,855 | INFO | pipeline.loaded.save_parquet | Appending to existing Parquet file for Cebu City (openweather).
+2026-10-18 05:00:11,007 | INFO | pipeline.loaded.save_parquet | Saved 73 record(s) to Parquet for Cebu City (openweather).
+2026-10-18 05:00:11,783 | INFO | pipeline.loaded.save_parquet | Appending to existing Parquet file for Davao City (openweather).
+2026-10-18 05:00:12,031 | INFO | pipeline.loaded.save_parquet | Saved 72 record(s) to Parquet for Davao City (openweather).
+2026-10-18 05:00:12,949 | INFO | pipeline.loaded.save_parquet | Appending to existing Parquet file for Baguio (openweather).
+2026-10-18 05:00:13,129 | INFO | pipeline.loaded.save_parquet | Saved 72 record(s) to Parquet for Baguio (openweather).
+2026-10-18 05:00:13,965 | INFO | pipeline.loaded.save_parquet | Appending to existing Parquet file for Iloilo City (openweather).
+2026-10-18 05:00:14,115 | INFO | pipeline.loaded.save_parquet | Saved 69 record(s) to Parquet for Iloilo City (openweather).
+2026-10-18 05:00:14,822 | INFO | pipeline.loaded.save_parquet | Appending to existing Parquet file for Cagayan de Oro (openweather).
+2026-10-18 05:00:14,960 | INFO | pipeline.loaded.save_parquet | Saved 70 record(s) to Parquet for Cagayan de Oro (openweather).
+2026-10-18 05:00:15,712 | INFO | pipeline.loaded.save_parquet | Appending to existing Parquet file for Zamboanga City (openweather).
+2026-10-18 05:00:15,897 | INFO | pipeline.loaded.save_parquet | Saved 73 record(s) to Parquet for Zamboanga City (openweather).
+2026-10-18 06:00:09,899 | INFO | pipeline.loaded.save_parquet | Appending to existing Parquet file for Manila (openweather).
+2026-10-18 06:00:10,097 | INFO | pipeline.loaded.save_parquet | Saved 69 record(s) to Parquet for Manila (openweather).
+2026-10-18 06:00:10,893 | INFO | pipeline.loaded.save_parquet | Appending to existing Parquet file for Quezon City (openweather).
+2026-10-18 06:00:11,027 | INFO | pipeline.loaded.save_parquet | Saved 73 record(s) to Parquet for Quezon City (openweather).
+2026-10-18 06:00:11,911 | INFO | pipeline.loaded.save_parquet | Appending to existing Parquet file for Cebu City (openweather).
+2026-10-18 06:00:12,115 | INFO | pipeline.loaded.save_parquet | Saved 74 record(s) to Parquet for Cebu City (openweather).
+2026-10-18 06:00:12,830 | INFO | pipeline.loaded.save_parquet | Appending to existing Parquet file for Davao City (openweather).
+2026-10-18 06:00:13,048 | INFO | pipeline.loaded.save_parquet | Saved 73 record(s) to Parquet for Davao City (openweather).
+2026-10-18 06:00:13,719 | INFO | pipeline.loaded.save_parquet | Appending to existing Parquet file for Baguio (openweather).
+2026-10-18 06:00:13,893 | INFO | pipeline.loaded.save_parquet | Saved 73 record(s) to Parquet for Baguio (openweather).
+2026-10-18 06:00:14,883 | INFO | pipeline.loaded.save_parquet | Appending to existing Parquet file for Iloilo City (openweather).
+2026-10-18 06:00:15,050 | INFO | pipeline.loaded.save_parquet | Saved 70 record(s) to Parquet for Iloilo City (openweather).
+2026-10-18 06:00:15,723 | INFO | pipeline.loaded.save_parquet | Appending to existing Parquet file for Cagayan de Oro (openweather).
+2026-10-18 06:00:15,891 | INFO | pipeline.loaded.save_parquet | Saved 71 record(s) to Parquet for Cagayan de Oro (openweather).
+2026-10-18 06:00:16,613 | INFO | pipeline.loaded.save_parquet | Appending to existing Parquet file for Zamboanga City (openweather).
+2026-10-18 06:00:16,714 | INFO | pipeline.loaded.save_parquet | Saved 74 record(s) to Parquet for Zamboanga City (openweather).
+2026-10-18 07:00:10,637 | INFO | pipeline.loaded.save_parquet | Appending to existing Parquet file for Manila (openweather).
+2026-10-18 07:00:10,886 | INFO | pipeline.loaded.save_parquet | Saved 70 record(s) to Parquet for Manila (openweather).
+2026-10-18 07:00:11,550 | INFO | pipeline.loaded.save_parquet | Appending to existing Parquet file for Quezon City (openweather).
+2026-10-18 07:00:11,696 | INFO | pipeline.loaded.save_parquet | Saved 74 record(s) to Parquet for Quezon City (openweather).
+2026-10-18 07:00:12,291 | INFO | pipeline.loaded.save_parquet | Appending to existing Parquet file for Cebu City (openweather).
+2026-10-18 07:00:12,526 | INFO | pipeline.loaded.save_parquet | Saved 75 record(s) to Parquet for Cebu City (openweather).
+2026-10-18 07:00:13,355 | INFO | pipeline.loaded.save_parquet | Appending to existing Parquet file for Davao City (openweather).
+2026-10-18 07:00:13,666 | INFO | pipeline.loaded.save_parquet | Saved 74 record(s) to Parquet for Davao City (openweather).
+2026-10-18 07:00:14,539 | INFO | pipeline.loaded.save_parquet | Appending to existing Parquet file for Baguio (openweather).
+2026-10-18 07:00:14,677 | INFO | pipeline.loaded.save_parquet | Saved 74 record(s) to Parquet for Baguio (openweather).
+2026-10-18 07:00:15,437 | INFO | pipeline.loaded.save_parquet | Appending to existing Parquet file for Iloilo City (openweather).
+2026-10-18 07:00:15,734 | INFO | pipeline.loaded.save_parquet | Saved 71 record(s) to Parquet for Iloilo City (openweather).
+2026-10-18 07:00:16,493 | INFO | pipeline.loaded.save_parquet | Appending to existing Parquet file for Cagayan de Oro (openweather).
+2026-10-18 07:00:16,589 | INFO | pipeline.loaded.save_parquet | Saved 72 record(s) to Parquet for Cagayan de Oro (openweather).
+2026-10-18 07:00:17,155 | INFO | pipeline.loaded.save_parquet | Appending to existing Parquet file for Zamboanga City (openweather).
+2026-10-18 07:00:17,265 | INFO | pipeline.loaded.save_parquet | Saved 75 record(s) to Parquet for Zamboanga City (openweather).
+2026-10-18 08:00:07,593 | INFO | pipeline.loaded.save_parquet | Appending to existing Parquet file for Manila (openweather).
+2026-10-18 08:00:07,734 | INFO | pipeline.loaded.save_parquet | Saved 71 record(s) to Parquet for Manila (openweather).
+2026-10-18 08:00:08,259 | INFO | pipeline.loaded.save_parquet | Appending to existing Parquet file for Quezon City (openweather).
+2026-10-18 08:00:08,378 | INFO | pipeline.loaded.save_parquet | Saved 75 record(s) to Parquet for Quezon City (openweather).
+2026-10-18 08:00:08,989 | INFO | pipeline.loaded.save_parquet | Appending to existing Parquet file for Cebu City (openweather).
+2026-10-18 08:00:09,113 | INFO | pipeline.loaded.save_parquet | Saved 76 record(s) to Parquet for Cebu City (openweather).
+2026-10-18 08:00:09,616 | INFO | pipeline.loaded.save_parquet | Appending to existing Parquet file for Davao City (openweather).
+2026-10-18 08:00:09,735 | INFO | pipeline.loaded.save_parquet | Saved 75 record(s) to Parquet for Davao City (openweather).
+2026-10-18 08:00:10,262 | INFO | pipeline.loaded.save_parquet | Appending to existing Parquet file for Baguio (openweather).
+2026-10-18 08:00:10,361 | INFO | pipeline.loaded.save_parquet | Saved 75 record(s) to Parquet for Baguio (openweather).
+2026-10-18 08:00:10,827 | INFO | pipeline.loaded.save_parquet | Appending to existing Parquet file for Iloilo City (openweather).
+2026-10-18 08:00:10,922 | INFO | pipeline.loaded.save_parquet | Saved 72 record(s) to Parquet for Iloilo City (openweather).
+2026-10-18 08:00:11,467 | INFO | pipeline.loaded.save_parquet | Appending to existing Parquet file for Cagayan de Oro (openweather).
+2026-10-18 08:00:11,542 | INFO | pipeline.loaded.save_parquet | Saved 73 record(s) to Parquet for Cagayan de Oro (openweather).
+2026-10-18 08:00:12,089 | INFO | pipeline.loaded.save_parquet | Appending to existing Parquet file for Zamboanga City (openweather).
+2026-10-18 08:00:12,172 | INFO | pipeline.loaded.save_parquet | Saved 76 record(s) to Parquet for Zamboanga City (openweather).
+2026-10-18 09:00:08,005 | INFO | pipeline.loaded.save_parquet | Appending to existing Parquet file for Manila (openweather).
+2026-10-18 09:00:08,118 | INFO | pipeline.loaded.save_parquet | Saved 72 record(s) to Parquet for Manila (openweather).
+2026-10-18 09:00:08,607 | INFO | pipeline.loaded.save_parquet | Appending to existing Parquet file for Quezon City (openweather).
+2026-10-18 09:00:08,700 | INFO | pipeline.loaded.save_parquet | Saved 76 record(s) to Parquet for Quezon City (openweather).
+2026-10-18 09:00:09,185 | INFO | pipeline.loaded.save_parquet | Appending to existing Parquet file for Cebu City (openweather).
+2026-10-18 09:00:09,270 | INFO | pipeline.loaded.save_parquet | Saved 77 record(s) to Parquet for Cebu City (openweather).
+2026-10-18 09:00:10,005 | INFO | pipeline.loaded.save_parquet | Appending to existing Parquet file for Davao City (openweather).
+2026-10-18 09:00:10,073 | INFO | pipeline.loaded.save_parquet | Saved 76 record(s) to Parquet for Davao City (openweather).
+2026-10-18 09:00:10,743 | INFO | pipeline.loaded.save_parquet | Appending to existing Parquet file for Baguio (openweather).
+2026-10-18 09:00:10,834 | INFO | pipeline.loaded.save_parquet | Saved 76 record(s) to Parquet for Baguio (openweather).
+2026-10-18 09:00:11,664 | INFO | pipeline.loaded.save_parquet | Appending to existing Parquet file for Iloilo City (openweather).
+2026-10-18 09:00:11,763 | INFO | pipeline.loaded.save_parquet | Saved 73 record(s) to Parquet for Iloilo City (openweather).
+2026-10-18 09:00:12,276 | INFO | pipeline.loaded.save_parquet | Appending to existing Parquet file for Cagayan de Oro (openweather).
+2026-10-18 09:00:12,433 | INFO | pipeline.loaded.save_parquet | Saved 74 record(s) to Parquet for Cagayan de Oro (openweather).
+2026-10-18 09:00:13,037 | INFO | pipeline.loaded.save_parquet | Appending to existing Parquet file for Zamboanga City (openweather).
+2026-10-18 09:00:13,136 | INFO | pipeline.loaded.save_parquet | Saved 77 record(s) to Parquet for Zamboanga City (openweather).
+2026-10-18 10:00:07,179 | INFO | pipeline.loaded.save_parquet | Appending to existing Parquet file for Manila (openweather).
+2026-10-18 10:00:07,265 | INFO | pipeline.loaded.save_parquet | Saved 73 record(s) to Parquet for Manila (openweather).
+2026-10-18 10:00:07,710 | INFO | pipeline.loaded.save_parquet | Appending to existing Parquet file for Quezon City (openweather).
+2026-10-18 10:00:07,814 | INFO | pipeline.loaded.save_parquet | Saved 77 record(s) to Parquet for Quezon City (openweather).
+2026-10-18 10:00:08,329 | INFO | pipeline.loaded.save_parquet | Appending to existing Parquet file for Cebu City (openweather).
+2026-10-18 10:00:08,439 | INFO | pipeline.loaded.save_parquet | Saved 78 record(s) to Parquet for Cebu City (openweather).
+2026-10-18 10:00:08,924 | INFO | pipeline.loaded.save_parquet | Appending to existing Parquet file for Davao City (openweather).
+2026-10-18 10:00:09,003 | INFO | pipeline.loaded.save_parquet | Saved 77 record(s) to Parquet for Davao City (openweather).
+2026-10-18 10:00:09,789 | INFO | pipeline.loaded.save_parquet | Appending to existing Parquet file for Baguio (openweather).
+2026-10-18 10:00:09,884 | INFO | pipeline.loaded.save_parquet | Saved 77 record(s) to Parquet for Baguio (openweather).
+2026-10-18 10:00:10,547 | INFO | pipeline.loaded.save_parquet | Appending to existing Parquet file for Iloilo City (openweather).
+2026-10-18 10:00:10,659 | INFO | pipeline.loaded.save_parquet | Saved 74 record(s) to Parquet for Iloilo City (openweather).
+2026-10-18 10:00:11,279 | INFO | pipeline.loaded.save_parquet | Appending to existing Parquet file for Cagayan de Oro (openweather).
+2026-10-18 10:00:11,402 | INFO | pipeline.loaded.save_parquet | Saved 75 record(s) to Parquet for Cagayan de Oro (openweather).
+2026-10-18 10:00:12,015 | INFO | pipeline.loaded.save_parquet | Appending to existing Parquet file for Zamboanga City (openweather).
+2026-10-18 10:00:12,097 | INFO | pipeline.loaded.save_parquet | Saved 78 record(s) to Parquet for Zamboanga City (openweather).
+2026-10-19 06:42:45,561 | INFO | pipeline.loaded.save_parquet | Appending to existing Parquet file for Manila (openweather).
+2026-10-19 06:42:45,859 | INFO | pipeline.loaded.save_parquet | Saved 74 record(s) to Parquet for Manila (openweather).
+2026-10-19 06:42:46,661 | INFO | pipeline.loaded.save_parquet | Appending to existing Parquet file for Quezon City (openweather).
+2026-10-19 06:42:46,837 | INFO | pipeline.loaded.save_parquet | Saved 78 record(s) to Parquet for Quezon City (openweather).
+2026-10-19 06:42:47,848 | INFO | pipeline.loaded.save_parquet | Appending to existing Parquet file for Cebu City (openweather).
+2026-10-19 06:42:48,048 | INFO | pipeline.loaded.save_parquet | Saved 79 record(s) to Parquet for Cebu City (openweather).
+2026-10-19 06:42:48,687 | INFO | pipeline.loaded.save_parquet | Appending to existing Parquet file for Davao City (openweather).
+2026-10-19 06:42:48,932 | INFO | pipeline.loaded.save_parquet | Saved 78 record(s) to Parquet for Davao City (openweather).
+2026-10-19 06:42:50,044 | INFO | pipeline.loaded.save_parquet | Appending to existing Parquet file for Baguio (openweather).
+2026-10-19 06:42:50,260 | INFO | pipeline.loaded.save_parquet | Saved 78 record(s) to Parquet for Baguio (openweather).
+2026-10-19 06:42:51,107 | INFO | pipeline.loaded.save_parquet | Appending to existing Parquet file for Iloilo City (openweather).
+2026-10-19 06:42:51,375 | INFO | pipeline.loaded.save_parquet | Saved 75 record(s) to Parquet for Iloilo City (openweather).
+2026-10-19 06:42:52,165 | INFO | pipeline.loaded.save_parquet | Appending to existing Parquet file for Cagayan de Oro (openweather).
+2026-10-19 06:42:52,450 | INFO | pipeline.loaded.save_parquet | Saved 76 record(s) to Parquet for Cagayan de Oro (openweather).
+2026-10-19 06:42:53,242 | INFO | pipeline.loaded.save_parquet | Appending to existing Parquet file for Zamboanga City (openweather).
+2026-10-19 06:42:53,512 | INFO | pipeline.loaded.save_parquet | Saved 79 record(s) to Parquet for Zamboanga City (openweather).
+2026-10-19 06:47:44,583 | INFO | pipeline.loaded.save_parquet | Appending to existing Parquet file for Manila (openweather).
+2026-10-19 06:47:44,706 | INFO | pipeline.loaded.save_parquet | Saved 75 record(s) to Parquet for Manila (openweather).
+2026-10-19 06:47:46,493 | INFO | pipeline.loaded.save_parquet | Appending to existing Parquet file for Baguio (openweather).
+2026-10-19 06:47:46,582 | INFO | pipeline.loaded.save_parquet | Saved 79 record(s) to Parquet for Baguio (openweather).
+2026-10-19 07:00:06,839 | INFO | pipeline.loaded.save_parquet | Appending to existing Parquet file for Manila (openweather).
+2026-10-19 07:00:07,010 | INFO | pipeline.loaded.save_parquet | Saved 76 record(s) to Parquet for Manila (openweather).
+2026-10-19 07:00:07,532 | INFO | pipeline.loaded.save_parquet | Appending to existing Parquet file for Quezon City (openweather).
+2026-10-19 07:00:07,623 | INFO | pipeline.loaded.save_parquet | Saved 79 record(s) to Parquet for Quezon City (openweather).
+2026-10-19 07:00:08,290 | INFO | pipeline.loaded.save_parquet | Appending to existing Parquet file for Cebu City (openweather).
+2026-10-19 07:00:08,383 | INFO | pipeline.loaded.save_parquet | Saved 80 record(s) to Parquet for Cebu City (openweather).
+2026-10-19 07:00:09,026 | INFO | pipeline.loaded.save_parquet | Appending to existing Parquet file for Davao City (openweather).
+2026-10-19 07:00:09,109 | INFO | pipeline.loaded.save_parquet | Saved 79 record(s) to Parquet for Davao City (openweather).
+2026-10-19 07:00:09,698 | INFO | pipeline.loaded.save_parquet | Appending to existing Parquet file for Baguio (openweather).
+2026-10-19 07:00:09,810 | INFO | pipeline.loaded.save_parquet | Saved 80 record(s) to Parquet for Baguio (openweather).
+2026-10-19 07:00:10,556 | INFO | pipeline.loaded.save_parquet | Appending to existing Parquet file for Iloilo City (openweather).
+2026-10-19 07:00:10,739 | INFO | pipeline.loaded.save_parquet | Saved 76 record(s) to Parquet for Iloilo City (openweather).
+2026-10-19 07:00:11,522 | INFO | pipeline.loaded.save_parquet | Appending to existing Parquet file for Cagayan de Oro (openweather).
+2026-10-19 07:00:11,606 | INFO | pipeline.loaded.save_parquet | Saved 77 record(s) to Parquet for Cagayan de Oro (openweather).
+2026-10-19 07:00:12,367 | INFO | pipeline.loaded.save_parquet | Appending to existing Parquet file for Zamboanga City (openweather).
+2026-10-19 07:00:12,491 | INFO | pipeline.loaded.save_parquet | Saved 80 record(s) to Parquet for Zamboanga City (openweather).
+2026-10-19 08:07:38,634 | INFO | pipeline.loaded.save_parquet | Appending to existing Parquet file for Manila (openweather).
+2026-10-19 08:07:40,017 | INFO | pipeline.loaded.save_parquet | Saved 77 record(s) to Parquet for Manila (openweather).
+2026-10-19 08:07:41,270 | INFO | pipeline.loaded.save_parquet | Appending to existing Parquet file for Quezon City (openweather).
+2026-10-19 08:07:41,557 | INFO | pipeline.loaded.save_parquet | Saved 80 record(s) to Parquet for Quezon City (openweather).
+2026-10-19 08:07:42,074 | INFO | pipeline.loaded.save_parquet | Appending to existing Parquet file for Cebu City (openweather).
+2026-10-19 08:07:42,236 | INFO | pipeline.loaded.save_parquet | Saved 81 record(s) to Parquet for Cebu City (openweather).
+2026-10-19 08:07:42,855 | INFO | pipeline.loaded.save_parquet | Appending to existing Parquet file for Davao City (openweather).
+2026-10-19 08:07:42,942 | INFO | pipeline.loaded.save_parquet | Saved 80 record(s) to Parquet for Davao City (openweather).
+2026-10-19 08:07:43,334 | INFO | pipeline.loaded.save_parquet | Appending to existing Parquet file for Baguio (openweather).
+2026-10-19 08:07:43,402 | INFO | pipeline.loaded.save_parquet | Saved 81 record(s) to Parquet for Baguio (openweather).
+2026-10-19 08:07:44,127 | INFO | pipeline.loaded.save_parquet | Appending to existing Parquet file for Iloilo City (openweather).
+2026-10-19 08:07:44,246 | INFO | pipeline.loaded.save_parquet | Saved 77 record(s) to Parquet for Iloilo City (openweather).
+2026-10-19 08:07:44,838 | INFO | pipeline.loaded.save_parquet | Appending to existing Parquet file for Cagayan de Oro (openweather).
+2026-10-19 08:07:44,937 | INFO | pipeline.loaded.save_parquet | Saved 78 record(s) to Parquet for Cagayan de Oro (openweather).
+2026-10-19 08:07:46,222 | INFO | pipeline.loaded.save_parquet | Appending to existing Parquet file for Zamboanga City (openweather).
+2026-10-19 08:07:46,445 | INFO | pipeline.loaded.save_parquet | Saved 81 record(s) to Parquet for Zamboanga City (openweather).
+2026-10-19 09:00:09,417 | INFO | pipeline.loaded.save_parquet | Appending to existing Parquet file for Manila (openweather).
+2026-10-19 09:00:09,567 | INFO | pipeline.loaded.save_parquet | Saved 78 record(s) to Parquet for Manila (openweather).
+2026-10-19 09:00:10,197 | INFO | pipeline.loaded.save_parquet | Appending to existing Parquet file for Quezon City (openweather).
+2026-10-19 09:00:10,382 | INFO | pipeline.loaded.save_parquet | Saved 81 record(s) to Parquet for Quezon City (openweather).
+2026-10-19 09:00:11,126 | INFO | pipeline.loaded.save_parquet | Appending to existing Parquet file for Cebu City (openweather).
+2026-10-19 09:00:11,234 | INFO | pipeline.loaded.save_parquet | Saved 82 record(s) to Parquet for Cebu City (openweather).
+2026-10-19 09:00:11,877 | INFO | pipeline.loaded.save_parquet | Appending to existing Parquet file for Davao City (openweather).
+2026-10-19 09:00:11,971 | INFO | pipeline.loaded.save_parquet | Saved 81 record(s) to Parquet for Davao City (openweather).
+2026-10-19 09:00:12,718 | INFO | pipeline.loaded.save_parquet | Appending to existing Parquet file for Baguio (openweather).
+2026-10-19 09:00:12,812 | INFO | pipeline.loaded.save_parquet | Saved 82 record(s) to Parquet for Baguio (openweather).
+2026-10-19 09:00:13,699 | INFO | pipeline.loaded.save_parquet | Appending to existing Parquet file for Iloilo City (openweather).
+2026-10-19 09:00:13,804 | INFO | pipeline.loaded.save_parquet | Saved 78 record(s) to Parquet for Iloilo City (openweather).
+2026-10-19 09:00:14,573 | INFO | pipeline.loaded.save_parquet | Appending to existing Parquet file for Cagayan de Oro (openweather).
+2026-10-19 09:00:14,668 | INFO | pipeline.loaded.save_parquet | Saved 79 record(s) to Parquet for Cagayan de Oro (openweather).
+2026-10-19 09:00:15,496 | INFO | pipeline.loaded.save_parquet | Appending to existing Parquet file for Zamboanga City (openweather).
+2026-10-19 09:00:15,580 | INFO | pipeline.loaded.save_parquet | Saved 82 record(s) to Parquet for Zamboanga City (openweather).
+2026-10-19 10:00:09,093 | INFO | pipeline.loaded.save_parquet | Appending to existing Parquet file for Manila (openweather).
+2026-10-19 10:00:09,498 | INFO | pipeline.loaded.save_parquet | Saved 79 record(s) to Parquet for Manila (openweather).
+2026-10-19 10:00:10,409 | INFO | pipeline.loaded.save_parquet | Appending to existing Parquet file for Quezon City (openweather).
+2026-10-19 10:00:10,617 | INFO | pipeline.loaded.save_parquet | Saved 82 record(s) to Parquet for Quezon City (openweather).
+2026-10-19 10:00:11,408 | INFO | pipeline.loaded.save_parquet | Appending to existing Parquet file for Cebu City (openweather).
+2026-10-19 10:00:11,512 | INFO | pipeline.loaded.save_parquet | Saved 83 record(s) to Parquet for Cebu City (openweather).
+2026-10-19 10:00:12,302 | INFO | pipeline.loaded.save_parquet | Appending to existing Parquet file for Davao City (openweather).
+2026-10-19 10:00:12,590 | INFO | pipeline.loaded.save_parquet | Saved 82 record(s) to Parquet for Davao City (openweather).
+2026-10-19 10:00:13,323 | INFO | pipeline.loaded.save_parquet | Appending to existing Parquet file for Baguio (openweather).
+2026-10-19 10:00:13,432 | INFO | pipeline.loaded.save_parquet | Saved 83 record(s) to Parquet for Baguio (openweather).
+2026-10-19 10:00:14,205 | INFO | pipeline.loaded.save_parquet | Appending to existing Parquet file for Iloilo City (openweather).
+2026-10-19 10:00:14,286 | INFO | pipeline.loaded.save_parquet | Saved 79 record(s) to Parquet for Iloilo City (openweather).
+2026-10-19 10:00:15,059 | INFO | pipeline.loaded.save_parquet | Appending to existing Parquet file for Cagayan de Oro (openweather).
+2026-10-19 10:00:15,345 | INFO | pipeline.loaded.save_parquet | Saved 80 record(s) to Parquet for Cagayan de Oro (openweather).
+2026-10-19 10:00:16,108 | INFO | pipeline.loaded.save_parquet | Appending to existing Parquet file for Zamboanga City (openweather).
+2026-10-19 10:00:16,241 | INFO | pipeline.loaded.save_parquet | Saved 83 record(s) to Parquet for Zamboanga City (openweather).
+2026-10-19 11:07:27,421 | INFO | pipeline.loaded.save_parquet | Appending to existing Parquet file for Manila (openweather).
+2026-10-19 11:07:27,676 | INFO | pipeline.loaded.save_parquet | Saved 80 record(s) to Parquet for Manila (openweather).
+2026-10-19 11:07:28,293 | INFO | pipeline.loaded.save_parquet | Appending to existing Parquet file for Quezon City (openweather).
+2026-10-19 11:07:28,393 | INFO | pipeline.loaded.save_parquet | Saved 83 record(s) to Parquet for Quezon City (openweather).
+2026-10-19 11:07:28,918 | INFO | pipeline.loaded.save_parquet | Appending to existing Parquet file for Cebu City (openweather).
+2026-10-19 11:07:29,023 | INFO | pipeline.loaded.save_parquet | Saved 84 record(s) to Parquet for Cebu City (openweather).
+2026-10-19 11:07:29,638 | INFO | pipeline.loaded.save_parquet | Appending to existing Parquet file for Davao City (openweather).
+2026-10-19 11:07:29,745 | INFO | pipeline.loaded.save_parquet | Saved 83 record(s) to Parquet for Davao City (openweather).
+2026-10-19 11:07:30,265 | INFO | pipeline.loaded.save_parquet | Appending to existing Parquet file for Baguio (openweather).
+2026-10-19 11:07:30,383 | INFO | pipeline.loaded.save_parquet | Saved 84 record(s) to Parquet for Baguio (openweather).
+2026-10-19 11:07:30,937 | INFO | pipeline.loaded.save_parquet | Appending to existing Parquet file for Iloilo City (openweather).
+2026-10-19 11:07:31,044 | INFO | pipeline.loaded.save_parquet | Saved 80 record(s) to Parquet for Iloilo City (openweather).
+2026-10-19 11:07:31,515 | INFO | pipeline.loaded.save_parquet | Appending to existing Parquet file for Cagayan de Oro (openweather).
+2026-10-19 11:07:31,587 | INFO | pipeline.loaded.save_parquet | Saved 81 record(s) to Parquet for Cagayan de Oro (openweather).
+2026-10-19 11:07:32,108 | INFO | pipeline.loaded.save_parquet | Appending to existing Parquet file for Zamboanga City (openweather).
+2026-10-19 11:07:32,206 | INFO | pipeline.loaded.save_parquet | Saved 84 record(s) to Parquet for Zamboanga City (openweather).
+2026-10-19 12:00:08,103 | INFO | pipeline.loaded.save_parquet | Appending to existing Parquet file for Manila (openweather).
+2026-10-19 12:00:08,351 | INFO | pipeline.loaded.save_parquet | Saved 81 record(s) to Parquet for Manila (openweather).
+2026-10-19 12:00:09,070 | INFO | pipeline.loaded.save_parquet | Appending to existing Parquet file for Quezon City (openweather).
+2026-10-19 12:00:09,159 | INFO | pipeline.loaded.save_parquet | Saved 84 record(s) to Parquet for Quezon City (openweather).
+2026-10-19 12:00:09,763 | INFO | pipeline.loaded.save_parquet | Appending to existing Parquet file for Cebu City (openweather).
+2026-10-19 12:00:09,852 | INFO | pipeline.loaded.save_parquet | Saved 85 record(s) to Parquet for Cebu City (openweather).
+2026-10-19 12:00:10,308 | INFO | pipeline.loaded.save_parquet | Appending to existing Parquet file for Davao City (openweather).
+2026-10-19 12:00:10,386 | INFO | pipeline.loaded.save_parquet | Saved 84 record(s) to Parquet for Davao City (openweather).
+2026-10-19 12:00:10,948 | INFO | pipeline.loaded.save_parquet | Appending to existing Parquet file for Baguio (openweather).
+2026-10-19 12:00:11,023 | INFO | pipeline.loaded.save_parquet | Saved 85 record(s) to Parquet for Baguio (openweather).
+2026-10-19 12:00:11,802 | INFO | pipeline.loaded.save_parquet | Appending to existing Parquet file for Iloilo City (openweather).
+2026-10-19 12:00:11,914 | INFO | pipeline.loaded.save_parquet | Saved 81 record(s) to Parquet for Iloilo City (openweather).
+2026-10-19 12:00:12,382 | INFO | pipeline.loaded.save_parquet | Appending to existing Parquet file for Cagayan de Oro (openweather).
+2026-10-19 12:00:12,533 | INFO | pipeline.loaded.save_parquet | Saved 82 record(s) to Parquet for Cagayan de Oro (openweather).
+2026-10-19 12:00:13,176 | INFO | pipeline.loaded.save_parquet | Appending to existing Parquet file for Zamboanga City (openweather).
+2026-10-19 12:00:13,284 | INFO | pipeline.loaded.save_parquet | Saved 85 record(s) to Parquet for Zamboanga City (openweather).
+2026-10-20 10:28:22,433 | INFO | pipeline.loaded.save_parquet | Appending to existing Parquet file for Manila (openweather).
+2026-10-20 10:28:22,595 | INFO | pipeline.loaded.save_parquet | Saved 82 record(s) to Parquet for Manila (openweather).
+2026-10-20 10:28:23,243 | INFO | pipeline.loaded.save_parquet | Appending to existing Parquet file for Quezon City (openweather).
+2026-10-20 10:28:23,405 | INFO | pipeline.loaded.save_parquet | Saved 85 record(s) to Parquet for Quezon City (openweather).
+2026-10-20 10:28:24,101 | INFO | pipeline.loaded.save_parquet | Appending to existing Parquet file for Cebu City (openweather).
+2026-10-20 10:28:24,278 | INFO | pipeline.loaded.save_parquet | Saved 86 record(s) to Parquet for Cebu City (openweather).
+2026-10-20 10:28:24,945 | INFO | pipeline.loaded.save_parquet | Appending to existing Parquet file for Davao City (openweather).
+2026-10-20 10:28:25,106 | INFO | pipeline.loaded.save_parquet | Saved 85 record(s) to Parquet for Davao City (openweather).
+2026-10-20 10:28:25,789 | INFO | pipeline.loaded.save_parquet | Appending to existing Parquet file for Baguio (openweather).
+2026-10-20 10:28:25,978 | INFO | pipeline.loaded.save_parquet | Saved 86 record(s) to Parquet for Baguio (openweather).
+2026-10-20 10:28:26,686 | INFO | pipeline.loaded.save_parquet | Appending to existing Parquet file for Iloilo City (openweather).
+2026-10-20 10:28:26,868 | INFO | pipeline.loaded.save_parquet | Saved 82 record(s) to Parquet for Iloilo City (openweather).
+2026-10-20 10:28:27,455 | INFO | pipeline.loaded.save_parquet | Appending to existing Parquet file for Cagayan de Oro (openweather).
+2026-10-20 10:28:27,589 | INFO | pipeline.loaded.save_parquet | Saved 83 record(s) to Parquet for Cagayan de Oro (openweather).
+2026-10-20 10:28:28,336 | INFO | pipeline.loaded.save_parquet | Appending to existing Parquet file for Zamboanga City (openweather).
+2026-10-20 10:28:28,521 | INFO | pipeline.loaded.save_parquet | Saved 86 record(s) to Parquet for Zamboanga City (openweather).
+2026-10-20 11:00:08,613 | INFO | pipeline.loaded.save_parquet | Appending to existing Parquet file for Manila (openweather).
+2026-10-20 11:00:08,779 | INFO | pipeline.loaded.save_parquet | Saved 83 record(s) to Parquet for Manila (openweather).
+2026-10-20 11:00:09,362 | INFO | pipeline.loaded.save_parquet | Appending to existing Parquet file for Quezon City (openweather).
+2026-10-20 11:00:09,488 | INFO | pipeline.loaded.save_parquet | Saved 86 record(s) to Parquet for Quezon City (openweather).
+2026-10-20 11:00:10,168 | INFO | pipeline.loaded.save_parquet | Appending to existing Parquet file for Cebu City (openweather).
+2026-10-20 11:00:10,286 | INFO | pipeline.loaded.save_parquet | Saved 87 record(s) to Parquet for Cebu City (openweather).
+2026-10-20 11:00:10,871 | INFO | pipeline.loaded.save_parquet | Appending to existing Parquet file for Davao City (openweather).
+2026-10-20 11:00:11,006 | INFO | pipeline.loaded.save_parquet | Saved 86 record(s) to Parquet for Davao City (openweather).
+2026-10-20 11:00:11,526 | INFO | pipeline.loaded.save_parquet | Appending to existing Parquet file for Baguio (openweather).
+2026-10-20 11:00:11,659 | INFO | pipeline.loaded.save_parquet | Saved 87 record(s) to Parquet for Baguio (openweather).
+2026-10-20 11:00:12,228 | INFO | pipeline.loaded.save_parquet | Appending to existing Parquet file for Iloilo City (openweather).
+2026-10-20 11:00:12,391 | INFO | pipeline.loaded.save_parquet | Saved 83 record(s) to Parquet for Iloilo City (openweather).
+2026-10-20 11:00:12,893 | INFO | pipeline.loaded.save_parquet | Appending to existing Parquet file for Cagayan de Oro (openweather).
+2026-10-20 11:00:13,016 | INFO | pipeline.loaded.save_parquet | Saved 84 record(s) to Parquet for Cagayan de Oro (openweather).
+2026-10-20 11:00:13,534 | INFO | pipeline.loaded.save_parquet | Appending to existing Parquet file for Zamboanga City (openweather).
+2026-10-20 11:00:13,700 | INFO | pipeline.loaded.save_parquet | Saved 87 record(s) to Parquet for Zamboanga City (openweather).
+2026-10-20 12:00:10,756 | INFO | pipeline.loaded.save_parquet | Appending to existing Parquet file for Manila (openweather).
+2026-10-20 12:00:11,108 | INFO | pipeline.loaded.save_parquet | Saved 84 record(s) to Parquet for Manila (openweather).
+2026-10-20 12:00:11,842 | INFO | pipeline.loaded.save_parquet | Appending to existing Parquet file for Quezon City (openweather).
+2026-10-20 12:00:11,967 | INFO | pipeline.loaded.save_parquet | Saved 87 record(s) to Parquet for Quezon City (openweather).
+2026-10-20 12:00:12,632 | INFO | pipeline.loaded.save_parquet | Appending to existing Parquet file for Cebu City (openweather).
+2026-10-20 12:00:12,763 | INFO | pipeline.loaded.save_parquet | Saved 88 record(s) to Parquet for Cebu City (openweather).
+2026-10-20 12:00:13,476 | INFO | pipeline.loaded.save_parquet | Appending to existing Parquet file for Davao City (openweather).
+2026-10-20 12:00:13,634 | INFO | pipeline.loaded.save_parquet | Saved 87 record(s) to Parquet for Davao City (openweather).
+2026-10-20 12:00:14,204 | INFO | pipeline.loaded.save_parquet | Appending to existing Parquet file for Baguio (openweather).
+2026-10-20 12:00:14,307 | INFO | pipeline.loaded.save_parquet | Saved 88 record(s) to Parquet for Baguio (openweather).
+2026-10-20 12:00:14,969 | INFO | pipeline.loaded.save_parquet | Appending to existing Parquet file for Iloilo City (openweather).
+2026-10-20 12:00:15,106 | INFO | pipeline.loaded.save_parquet | Saved 84 record(s) to Parquet for Iloilo City (openweather).
+2026-10-20 12:00:15,728 | INFO | pipeline.loaded.save_parquet | Appending to existing Parquet file for Cagayan de Oro (openweather).
+2026-10-20 12:00:15,892 | INFO | pipeline.loaded.save_parquet | Saved 85 record(s) to Parquet for Cagayan de Oro (openweather).
+2026-10-20 12:00:16,510 | INFO | pipeline.loaded.save_parquet | Appending to existing Parquet file for Zamboanga City (openweather).
+2026-10-20 12:00:16,666 | INFO | pipeline.loaded.save_parquet | Saved 88 record(s) to Parquet for Zamboanga City (openweather).

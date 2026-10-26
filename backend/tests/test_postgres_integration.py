@@ -1,11 +1,10 @@
-
-
 import pytest
-from app.db.session import engine
-from app.main import app
 from fastapi.testclient import TestClient
 from sqlalchemy import text
 from sqlalchemy.exc import SQLAlchemyError
+
+from app.db.session import engine
+from app.main import app
 
 client = TestClient(app)
 
@@ -18,8 +17,7 @@ def verify_postgres_connection():
             connection.execute(text("SELECT 1"))
     except SQLAlchemyError as exc:
         pytest.fail(
-            "PostgreSQL integration tests require a working database "
-            f"connection: {exc}"
+            f"PostgreSQL integration tests require a working database connection: {exc}"
         )
 
 
@@ -47,8 +45,7 @@ def test_mart_endpoint_returns_valid_response(endpoint):
     response = client.get(endpoint)
 
     assert response.status_code == 200, (
-        f"{endpoint} failed with HTTP {response.status_code}: "
-        f"{response.text}"
+        f"{endpoint} failed with HTTP {response.status_code}: {response.text}"
     )
 
     body = response.json()
@@ -100,4 +97,3 @@ def test_invalid_city_comparison_sort_is_rejected():
     )
 
     assert response.status_code == 422
-

@@ -1,4 +1,3 @@
-
 from typing import Annotated
 
 from fastapi import APIRouter, Depends, HTTPException
@@ -19,7 +18,7 @@ logger = get_logger(__name__, "daily_weather.log")
 
 router = APIRouter(
     prefix="/api/v1/weather",
-    tags=["Weather"],
+    tags=["Daily Weather"],
 )
 
 
@@ -33,13 +32,12 @@ router = APIRouter(
     ),
     responses={
         200: {"description": "Daily weather summaries retrieved successfully."},
-        422: {"description": "Query parameters are invalid, including an invalid date range."},
+        422: {
+            "description": "Query parameters are invalid, including an invalid date range."
+        },
         503: {"description": "The database is unavailable."},
     },
 )
-
-
-
 def get_daily_weather(
     filters: Annotated[DateFilters, Depends(get_date_filters)],
     pagination: Annotated[PaginationQuery, Depends(get_pagination)],
@@ -83,11 +81,7 @@ def get_daily_weather(
             filters.end_date,
         )
 
-    where_clause = (
-        "WHERE " + " AND ".join(conditions)
-        if conditions
-        else ""
-    )
+    where_clause = "WHERE " + " AND ".join(conditions) if conditions else ""
 
     logger.debug(
         "Daily weather SQL query prepared | filters_applied=%d",
@@ -153,7 +147,7 @@ def get_daily_weather(
                 "start_date": filters.start_date,
                 "end_date": filters.end_date,
             },
-            "data": data
+            "data": data,
         }
 
     except SQLAlchemyError:
@@ -167,7 +161,7 @@ def get_daily_weather(
             limit,
             offset,
         )
-         
+
         raise HTTPException(
             status_code=503,
             detail={
@@ -175,4 +169,3 @@ def get_daily_weather(
                 "message": "Unable to retrieve daily weather data.",
             },
         )
-

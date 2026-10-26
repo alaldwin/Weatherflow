@@ -1047,3 +1047,399 @@
 2026-10-17 03:01:00,545 | INFO | pipeline.ingestion.state_manager | Successfully saved state to /opt/weatherflow/data/state/extraction_state.json
 2026-10-17 03:02:02,739 | INFO | pipeline.ingestion.state_manager | New observation for openweather / Baguio: 2026-10-17 03:01:49+00:00 > 2026-10-17 02:51:24+00:00
 2026-10-17 03:02:04,428 | INFO | pipeline.ingestion.state_manager | Successfully saved state to /opt/weatherflow/data/state/extraction_state.json
+2026-10-17 04:00:07,723 | INFO | pipeline.ingestion.state_manager | New observation for openweather / Manila: 2026-10-17 03:52:05+00:00 > 2026-10-17 02:53:45+00:00
+2026-10-17 04:00:08,231 | INFO | pipeline.ingestion.state_manager | Successfully saved state to /opt/weatherflow/data/state/extraction_state.json
+2026-10-17 04:00:08,535 | INFO | pipeline.ingestion.state_manager | New observation for openweather / Quezon City: 2026-10-17 03:58:52+00:00 > 2026-10-17 02:55:53+00:00
+2026-10-17 04:00:08,871 | INFO | pipeline.ingestion.state_manager | Successfully saved state to /opt/weatherflow/data/state/extraction_state.json
+2026-10-17 04:00:09,189 | INFO | pipeline.ingestion.state_manager | New observation for openweather / Cebu City: 2026-10-17 03:54:30+00:00 > 2026-10-17 03:00:19+00:00
+2026-10-17 04:00:09,486 | INFO | pipeline.ingestion.state_manager | Successfully saved state to /opt/weatherflow/data/state/extraction_state.json
+2026-10-17 04:00:09,735 | INFO | pipeline.ingestion.state_manager | New observation for openweather / Davao City: 2026-10-17 03:58:53+00:00 > 2026-10-17 02:56:46+00:00
+2026-10-17 04:00:10,147 | INFO | pipeline.ingestion.state_manager | Successfully saved state to /opt/weatherflow/data/state/extraction_state.json
+2026-10-17 04:00:10,425 | INFO | pipeline.ingestion.state_manager | New observation for openweather / Baguio: 2026-10-17 03:57:45+00:00 > 2026-10-17 03:01:49+00:00
+2026-10-17 04:00:10,776 | INFO | pipeline.ingestion.state_manager | Successfully saved state to /opt/weatherflow/data/state/extraction_state.json
+2026-10-17 04:00:11,110 | INFO | pipeline.ingestion.state_manager | New observation for openweather / Iloilo City: 2026-10-17 03:58:54+00:00 > 2026-10-17 03:00:55+00:00
+2026-10-17 04:00:11,403 | INFO | pipeline.ingestion.state_manager | Successfully saved state to /opt/weatherflow/data/state/extraction_state.json
+2026-10-17 04:00:11,715 | INFO | pipeline.ingestion.state_manager | New observation for openweather / Cagayan de Oro: 2026-10-17 03:58:54+00:00 > 2026-10-17 02:56:46+00:00
+2026-10-17 04:00:12,136 | INFO | pipeline.ingestion.state_manager | Successfully saved state to /opt/weatherflow/data/state/extraction_state.json
+2026-10-17 04:00:12,485 | INFO | pipeline.ingestion.state_manager | New observation for openweather / Zamboanga City: 2026-10-17 03:58:55+00:00 > 2026-10-17 03:00:18+00:00
+2026-10-17 04:00:12,834 | INFO | pipeline.ingestion.state_manager | Successfully saved state to /opt/weatherflow/data/state/extraction_state.json
+2026-10-17 04:06:09,999 | INFO | pipeline.ingestion.state_manager | New observation for openweather / Manila: 2026-10-17 04:05:34+00:00 > 2026-10-17 03:52:05+00:00
+2026-10-17 04:06:10,215 | INFO | pipeline.ingestion.state_manager | Successfully saved state to /opt/weatherflow/data/state/extraction_state.json
+2026-10-17 04:19:00,277 | INFO | pipeline.ingestion.state_manager | New observation for openweather / Manila: 2026-10-17 04:19:00+00:00 > 2026-10-17 04:05:34+00:00
+2026-10-17 04:19:00,533 | INFO | pipeline.ingestion.state_manager | Successfully saved state to /opt/weatherflow/data/state/extraction_state.json
+2026-10-17 04:19:00,866 | INFO | pipeline.ingestion.state_manager | New observation for openweather / Quezon City: 2026-10-17 04:19:00+00:00 > 2026-10-17 03:58:52+00:00
+2026-10-17 04:19:01,174 | INFO | pipeline.ingestion.state_manager | Successfully saved state to /opt/weatherflow/data/state/extraction_state.json
+2026-10-17 04:19:01,542 | INFO | pipeline.ingestion.state_manager | New observation for openweather / Cebu City: 2026-10-17 04:19:01+00:00 > 2026-10-17 03:54:30+00:00
+2026-10-17 04:19:01,968 | INFO | pipeline.ingestion.state_manager | Successfully saved state to /opt/weatherflow/data/state/extraction_state.json
+2026-10-17 04:19:02,327 | INFO | pipeline.ingestion.state_manager | New observation for openweather / Davao City: 2026-10-17 04:19:02+00:00 > 2026-10-17 03:58:53+00:00
+2026-10-17 04:19:02,745 | INFO | pipeline.ingestion.state_manager | Successfully saved state to /opt/weatherflow/data/state/extraction_state.json
+2026-10-17 04:19:03,114 | INFO | pipeline.ingestion.state_manager | New observation for openweather / Baguio: 2026-10-17 04:19:03+00:00 > 2026-10-17 03:57:45+00:00
+2026-10-17 04:19:03,420 | INFO | pipeline.ingestion.state_manager | Successfully saved state to /opt/weatherflow/data/state/extraction_state.json
+2026-10-17 04:19:03,787 | INFO | pipeline.ingestion.state_manager | New observation for openweather / Iloilo City: 2026-10-17 04:19:03+00:00 > 2026-10-17 03:58:54+00:00
+2026-10-17 04:19:04,101 | INFO | pipeline.ingestion.state_manager | Successfully saved state to /opt/weatherflow/data/state/extraction_state.json
+2026-10-17 04:19:04,546 | INFO | pipeline.ingestion.state_manager | New observation for openweather / Cagayan de Oro: 2026-10-17 04:19:04+00:00 > 2026-10-17 03:58:54+00:00
+2026-10-17 04:19:04,801 | INFO | pipeline.ingestion.state_manager | Successfully saved state to /opt/weatherflow/data/state/extraction_state.json
+2026-10-17 04:19:05,086 | INFO | pipeline.ingestion.state_manager | New observation for openweather / Zamboanga City: 2026-10-17 04:19:05+00:00 > 2026-10-17 03:58:55+00:00
+2026-10-17 04:19:05,432 | INFO | pipeline.ingestion.state_manager | Successfully saved state to /opt/weatherflow/data/state/extraction_state.json
+2026-10-17 05:00:10,772 | INFO | pipeline.ingestion.state_manager | New observation for openweather / Manila: 2026-10-17 04:59:18+00:00 > 2026-10-17 04:19:00+00:00
+2026-10-17 05:00:11,203 | INFO | pipeline.ingestion.state_manager | Successfully saved state to /opt/weatherflow/data/state/extraction_state.json
+2026-10-17 05:00:11,508 | INFO | pipeline.ingestion.state_manager | New observation for openweather / Quezon City: 2026-10-17 05:00:11+00:00 > 2026-10-17 04:19:00+00:00
+2026-10-17 05:00:11,937 | INFO | pipeline.ingestion.state_manager | Successfully saved state to /opt/weatherflow/data/state/extraction_state.json
+2026-10-17 05:00:12,365 | INFO | pipeline.ingestion.state_manager | New observation for openweather / Cebu City: 2026-10-17 04:55:38+00:00 > 2026-10-17 04:19:01+00:00
+2026-10-17 05:00:12,726 | INFO | pipeline.ingestion.state_manager | Successfully saved state to /opt/weatherflow/data/state/extraction_state.json
+2026-10-17 05:00:13,051 | INFO | pipeline.ingestion.state_manager | New observation for openweather / Davao City: 2026-10-17 05:00:12+00:00 > 2026-10-17 04:19:02+00:00
+2026-10-17 05:00:13,576 | INFO | pipeline.ingestion.state_manager | Successfully saved state to /opt/weatherflow/data/state/extraction_state.json
+2026-10-17 05:00:13,964 | INFO | pipeline.ingestion.state_manager | New observation for openweather / Baguio: 2026-10-17 05:00:13+00:00 > 2026-10-17 04:19:03+00:00
+2026-10-17 05:00:14,360 | INFO | pipeline.ingestion.state_manager | Successfully saved state to /opt/weatherflow/data/state/extraction_state.json
+2026-10-17 05:00:14,733 | INFO | pipeline.ingestion.state_manager | New observation for openweather / Iloilo City: 2026-10-17 05:00:14+00:00 > 2026-10-17 04:19:03+00:00
+2026-10-17 05:00:15,181 | INFO | pipeline.ingestion.state_manager | Successfully saved state to /opt/weatherflow/data/state/extraction_state.json
+2026-10-17 05:00:15,579 | INFO | pipeline.ingestion.state_manager | New observation for openweather / Cagayan de Oro: 2026-10-17 05:00:15+00:00 > 2026-10-17 04:19:04+00:00
+2026-10-17 05:00:16,015 | INFO | pipeline.ingestion.state_manager | Successfully saved state to /opt/weatherflow/data/state/extraction_state.json
+2026-10-17 05:00:16,449 | INFO | pipeline.ingestion.state_manager | New observation for openweather / Zamboanga City: 2026-10-17 05:00:16+00:00 > 2026-10-17 04:19:05+00:00
+2026-10-17 05:00:16,908 | INFO | pipeline.ingestion.state_manager | Successfully saved state to /opt/weatherflow/data/state/extraction_state.json
+2026-10-17 06:10:30,162 | INFO | pipeline.ingestion.state_manager | New observation for openweather / Manila: 2026-10-17 06:10:01+00:00 > 2026-10-17 04:59:18+00:00
+2026-10-17 06:10:30,359 | INFO | pipeline.ingestion.state_manager | Successfully saved state to /opt/weatherflow/data/state/extraction_state.json
+2026-10-17 06:10:30,697 | INFO | pipeline.ingestion.state_manager | New observation for openweather / Quezon City: 2026-10-17 06:07:17+00:00 > 2026-10-17 05:00:11+00:00
+2026-10-17 06:10:30,877 | INFO | pipeline.ingestion.state_manager | Successfully saved state to /opt/weatherflow/data/state/extraction_state.json
+2026-10-17 06:10:31,171 | INFO | pipeline.ingestion.state_manager | New observation for openweather / Cebu City: 2026-10-17 06:10:30+00:00 > 2026-10-17 04:55:38+00:00
+2026-10-17 06:10:31,299 | INFO | pipeline.ingestion.state_manager | Successfully saved state to /opt/weatherflow/data/state/extraction_state.json
+2026-10-17 06:10:31,645 | INFO | pipeline.ingestion.state_manager | New observation for openweather / Davao City: 2026-10-17 06:10:31+00:00 > 2026-10-17 05:00:12+00:00
+2026-10-17 06:10:31,891 | INFO | pipeline.ingestion.state_manager | Successfully saved state to /opt/weatherflow/data/state/extraction_state.json
+2026-10-17 06:10:32,197 | INFO | pipeline.ingestion.state_manager | New observation for openweather / Baguio: 2026-10-17 06:10:31+00:00 > 2026-10-17 05:00:13+00:00
+2026-10-17 06:10:32,384 | INFO | pipeline.ingestion.state_manager | Successfully saved state to /opt/weatherflow/data/state/extraction_state.json
+2026-10-17 06:10:32,940 | INFO | pipeline.ingestion.state_manager | New observation for openweather / Iloilo City: 2026-10-17 06:10:32+00:00 > 2026-10-17 05:00:14+00:00
+2026-10-17 06:10:33,076 | INFO | pipeline.ingestion.state_manager | Successfully saved state to /opt/weatherflow/data/state/extraction_state.json
+2026-10-17 06:10:33,546 | INFO | pipeline.ingestion.state_manager | New observation for openweather / Cagayan de Oro: 2026-10-17 06:10:33+00:00 > 2026-10-17 05:00:15+00:00
+2026-10-17 06:10:33,800 | INFO | pipeline.ingestion.state_manager | Successfully saved state to /opt/weatherflow/data/state/extraction_state.json
+2026-10-17 06:10:34,167 | INFO | pipeline.ingestion.state_manager | New observation for openweather / Zamboanga City: 2026-10-17 06:10:33+00:00 > 2026-10-17 05:00:16+00:00
+2026-10-17 06:10:34,327 | INFO | pipeline.ingestion.state_manager | Successfully saved state to /opt/weatherflow/data/state/extraction_state.json
+2026-10-17 07:00:07,867 | INFO | pipeline.ingestion.state_manager | New observation for openweather / Manila: 2026-10-17 06:56:19+00:00 > 2026-10-17 06:10:01+00:00
+2026-10-17 07:00:08,430 | INFO | pipeline.ingestion.state_manager | Successfully saved state to /opt/weatherflow/data/state/extraction_state.json
+2026-10-17 07:00:08,824 | INFO | pipeline.ingestion.state_manager | New observation for openweather / Quezon City: 2026-10-17 06:55:53+00:00 > 2026-10-17 06:07:17+00:00
+2026-10-17 07:00:09,072 | INFO | pipeline.ingestion.state_manager | Successfully saved state to /opt/weatherflow/data/state/extraction_state.json
+2026-10-17 07:00:09,426 | INFO | pipeline.ingestion.state_manager | New observation for openweather / Cebu City: 2026-10-17 07:00:08+00:00 > 2026-10-17 06:10:30+00:00
+2026-10-17 07:00:09,856 | INFO | pipeline.ingestion.state_manager | Successfully saved state to /opt/weatherflow/data/state/extraction_state.json
+2026-10-17 07:00:10,273 | INFO | pipeline.ingestion.state_manager | New observation for openweather / Davao City: 2026-10-17 07:00:09+00:00 > 2026-10-17 06:10:31+00:00
+2026-10-17 07:00:10,703 | INFO | pipeline.ingestion.state_manager | Successfully saved state to /opt/weatherflow/data/state/extraction_state.json
+2026-10-17 07:00:11,034 | INFO | pipeline.ingestion.state_manager | New observation for openweather / Baguio: 2026-10-17 07:00:10+00:00 > 2026-10-17 06:10:31+00:00
+2026-10-17 07:00:11,534 | INFO | pipeline.ingestion.state_manager | Successfully saved state to /opt/weatherflow/data/state/extraction_state.json
+2026-10-17 07:00:11,873 | INFO | pipeline.ingestion.state_manager | New observation for openweather / Iloilo City: 2026-10-17 07:00:11+00:00 > 2026-10-17 06:10:32+00:00
+2026-10-17 07:00:12,219 | INFO | pipeline.ingestion.state_manager | Successfully saved state to /opt/weatherflow/data/state/extraction_state.json
+2026-10-17 07:00:12,626 | INFO | pipeline.ingestion.state_manager | New observation for openweather / Cagayan de Oro: 2026-10-17 07:00:12+00:00 > 2026-10-17 06:10:33+00:00
+2026-10-17 07:00:13,138 | INFO | pipeline.ingestion.state_manager | Successfully saved state to /opt/weatherflow/data/state/extraction_state.json
+2026-10-17 07:00:13,421 | INFO | pipeline.ingestion.state_manager | New observation for openweather / Zamboanga City: 2026-10-17 07:00:13+00:00 > 2026-10-17 06:10:33+00:00
+2026-10-17 07:00:13,841 | INFO | pipeline.ingestion.state_manager | Successfully saved state to /opt/weatherflow/data/state/extraction_state.json
+2026-10-17 08:00:08,889 | INFO | pipeline.ingestion.state_manager | New observation for openweather / Manila: 2026-10-17 07:57:39+00:00 > 2026-10-17 06:56:19+00:00
+2026-10-17 08:00:09,288 | INFO | pipeline.ingestion.state_manager | Successfully saved state to /opt/weatherflow/data/state/extraction_state.json
+2026-10-17 08:00:09,766 | INFO | pipeline.ingestion.state_manager | New observation for openweather / Quezon City: 2026-10-17 07:55:26+00:00 > 2026-10-17 06:55:53+00:00
+2026-10-17 08:00:10,150 | INFO | pipeline.ingestion.state_manager | Successfully saved state to /opt/weatherflow/data/state/extraction_state.json
+2026-10-17 08:00:10,538 | INFO | pipeline.ingestion.state_manager | New observation for openweather / Cebu City: 2026-10-17 07:50:04+00:00 > 2026-10-17 07:00:08+00:00
+2026-10-17 08:00:10,858 | INFO | pipeline.ingestion.state_manager | Successfully saved state to /opt/weatherflow/data/state/extraction_state.json
+2026-10-17 08:00:11,250 | INFO | pipeline.ingestion.state_manager | New observation for openweather / Davao City: 2026-10-17 08:00:10+00:00 > 2026-10-17 07:00:09+00:00
+2026-10-17 08:00:11,582 | INFO | pipeline.ingestion.state_manager | Successfully saved state to /opt/weatherflow/data/state/extraction_state.json
+2026-10-17 08:00:12,009 | INFO | pipeline.ingestion.state_manager | New observation for openweather / Baguio: 2026-10-17 08:00:11+00:00 > 2026-10-17 07:00:10+00:00
+2026-10-17 08:00:12,302 | INFO | pipeline.ingestion.state_manager | Successfully saved state to /opt/weatherflow/data/state/extraction_state.json
+2026-10-17 08:00:12,737 | INFO | pipeline.ingestion.state_manager | New observation for openweather / Iloilo City: 2026-10-17 07:51:40+00:00 > 2026-10-17 07:00:11+00:00
+2026-10-17 08:00:13,279 | INFO | pipeline.ingestion.state_manager | Successfully saved state to /opt/weatherflow/data/state/extraction_state.json
+2026-10-17 08:00:13,779 | INFO | pipeline.ingestion.state_manager | New observation for openweather / Cagayan de Oro: 2026-10-17 08:00:13+00:00 > 2026-10-17 07:00:12+00:00
+2026-10-17 08:00:14,307 | INFO | pipeline.ingestion.state_manager | Successfully saved state to /opt/weatherflow/data/state/extraction_state.json
+2026-10-17 08:00:14,723 | INFO | pipeline.ingestion.state_manager | New observation for openweather / Zamboanga City: 2026-10-17 08:00:14+00:00 > 2026-10-17 07:00:13+00:00
+2026-10-17 08:00:15,183 | INFO | pipeline.ingestion.state_manager | Successfully saved state to /opt/weatherflow/data/state/extraction_state.json
+2026-10-17 09:08:25,133 | INFO | pipeline.ingestion.state_manager | New observation for openweather / Manila: 2026-10-17 09:04:44+00:00 > 2026-10-17 07:57:39+00:00
+2026-10-17 09:08:25,393 | INFO | pipeline.ingestion.state_manager | Successfully saved state to /opt/weatherflow/data/state/extraction_state.json
+2026-10-17 09:08:25,774 | INFO | pipeline.ingestion.state_manager | New observation for openweather / Quezon City: 2026-10-17 09:08:24+00:00 > 2026-10-17 07:55:26+00:00
+2026-10-18 03:07:09,805 | INFO | pipeline.ingestion.state_manager | Successfully saved state to /opt/weatherflow/data/state/extraction_state.json
+2026-10-18 03:07:13,751 | INFO | pipeline.ingestion.state_manager | New observation for openweather / Cebu City: 2026-10-18 02:56:45+00:00 > 2026-10-17 07:50:04+00:00
+2026-10-18 03:07:15,213 | INFO | pipeline.ingestion.state_manager | Successfully saved state to /opt/weatherflow/data/state/extraction_state.json
+2026-10-18 03:07:16,094 | INFO | pipeline.ingestion.state_manager | New observation for openweather / Davao City: 2026-10-18 02:58:04+00:00 > 2026-10-17 08:00:10+00:00
+2026-10-18 03:07:17,335 | INFO | pipeline.ingestion.state_manager | Successfully saved state to /opt/weatherflow/data/state/extraction_state.json
+2026-10-18 03:07:18,586 | INFO | pipeline.ingestion.state_manager | New observation for openweather / Baguio: 2026-10-18 03:02:40+00:00 > 2026-10-17 08:00:11+00:00
+2026-10-18 03:07:20,295 | INFO | pipeline.ingestion.state_manager | Successfully saved state to /opt/weatherflow/data/state/extraction_state.json
+2026-10-18 03:07:21,642 | INFO | pipeline.ingestion.state_manager | New observation for openweather / Iloilo City: 2026-10-18 03:07:20+00:00 > 2026-10-17 07:51:40+00:00
+2026-10-18 03:07:26,358 | INFO | pipeline.ingestion.state_manager | Successfully saved state to /opt/weatherflow/data/state/extraction_state.json
+2026-10-18 03:07:29,614 | INFO | pipeline.ingestion.state_manager | New observation for openweather / Cagayan de Oro: 2026-10-18 02:58:02+00:00 > 2026-10-17 08:00:13+00:00
+2026-10-18 03:07:31,802 | INFO | pipeline.ingestion.state_manager | Successfully saved state to /opt/weatherflow/data/state/extraction_state.json
+2026-10-18 03:07:32,902 | INFO | pipeline.ingestion.state_manager | New observation for openweather / Zamboanga City: 2026-10-18 03:00:22+00:00 > 2026-10-17 08:00:14+00:00
+2026-10-18 03:07:34,097 | INFO | pipeline.ingestion.state_manager | Successfully saved state to /opt/weatherflow/data/state/extraction_state.json
+2026-10-18 03:07:50,181 | INFO | pipeline.ingestion.state_manager | New observation for openweather / Manila: 2026-10-18 02:58:07+00:00 > 2026-10-17 09:04:44+00:00
+2026-10-18 03:07:50,925 | INFO | pipeline.ingestion.state_manager | Successfully saved state to /opt/weatherflow/data/state/extraction_state.json
+2026-10-18 03:07:51,320 | INFO | pipeline.ingestion.state_manager | New observation for openweather / Quezon City: 2026-10-18 03:02:12+00:00 > 2026-10-17 09:08:24+00:00
+2026-10-18 03:07:51,887 | INFO | pipeline.ingestion.state_manager | Successfully saved state to /opt/weatherflow/data/state/extraction_state.json
+2026-10-18 03:07:52,231 | INFO | pipeline.ingestion.state_manager | New observation for openweather / Cebu City: 2026-10-18 03:07:18+00:00 > 2026-10-18 02:56:45+00:00
+2026-10-18 03:07:53,318 | INFO | pipeline.ingestion.state_manager | Successfully saved state to /opt/weatherflow/data/state/extraction_state.json
+2026-10-18 04:00:08,335 | INFO | pipeline.ingestion.state_manager | New observation for openweather / Manila: 2026-10-18 03:59:51+00:00 > 2026-10-18 02:58:07+00:00
+2026-10-18 04:00:08,897 | INFO | pipeline.ingestion.state_manager | Successfully saved state to /opt/weatherflow/data/state/extraction_state.json
+2026-10-18 04:00:09,184 | INFO | pipeline.ingestion.state_manager | New observation for openweather / Quezon City: 2026-10-18 03:55:55+00:00 > 2026-10-18 03:02:12+00:00
+2026-10-18 04:00:09,511 | INFO | pipeline.ingestion.state_manager | Successfully saved state to /opt/weatherflow/data/state/extraction_state.json
+2026-10-18 04:00:09,835 | INFO | pipeline.ingestion.state_manager | New observation for openweather / Cebu City: 2026-10-18 04:00:09+00:00 > 2026-10-18 03:07:18+00:00
+2026-10-18 04:00:10,326 | INFO | pipeline.ingestion.state_manager | Successfully saved state to /opt/weatherflow/data/state/extraction_state.json
+2026-10-18 04:00:10,828 | INFO | pipeline.ingestion.state_manager | New observation for openweather / Davao City: 2026-10-18 04:00:10+00:00 > 2026-10-18 02:58:04+00:00
+2026-10-18 04:00:11,259 | INFO | pipeline.ingestion.state_manager | Successfully saved state to /opt/weatherflow/data/state/extraction_state.json
+2026-10-18 04:00:12,079 | INFO | pipeline.ingestion.state_manager | New observation for openweather / Baguio: 2026-10-18 04:00:11+00:00 > 2026-10-18 03:02:40+00:00
+2026-10-18 04:00:12,701 | INFO | pipeline.ingestion.state_manager | Successfully saved state to /opt/weatherflow/data/state/extraction_state.json
+2026-10-18 04:00:13,727 | INFO | pipeline.ingestion.state_manager | New observation for openweather / Iloilo City: 2026-10-18 04:00:13+00:00 > 2026-10-18 03:07:20+00:00
+2026-10-18 04:00:14,241 | INFO | pipeline.ingestion.state_manager | Successfully saved state to /opt/weatherflow/data/state/extraction_state.json
+2026-10-18 04:00:14,615 | INFO | pipeline.ingestion.state_manager | New observation for openweather / Cagayan de Oro: 2026-10-18 04:00:14+00:00 > 2026-10-18 02:58:02+00:00
+2026-10-18 04:00:15,198 | INFO | pipeline.ingestion.state_manager | Successfully saved state to /opt/weatherflow/data/state/extraction_state.json
+2026-10-18 04:00:15,678 | INFO | pipeline.ingestion.state_manager | New observation for openweather / Zamboanga City: 2026-10-18 04:00:15+00:00 > 2026-10-18 03:00:22+00:00
+2026-10-18 04:00:16,012 | INFO | pipeline.ingestion.state_manager | Successfully saved state to /opt/weatherflow/data/state/extraction_state.json
+2026-10-18 05:00:08,763 | INFO | pipeline.ingestion.state_manager | New observation for openweather / Manila: 2026-10-18 04:50:10+00:00 > 2026-10-18 03:59:51+00:00
+2026-10-18 05:00:09,364 | INFO | pipeline.ingestion.state_manager | Successfully saved state to /opt/weatherflow/data/state/extraction_state.json
+2026-10-18 05:00:09,830 | INFO | pipeline.ingestion.state_manager | New observation for openweather / Quezon City: 2026-10-18 04:51:22+00:00 > 2026-10-18 03:55:55+00:00
+2026-10-18 05:00:10,303 | INFO | pipeline.ingestion.state_manager | Successfully saved state to /opt/weatherflow/data/state/extraction_state.json
+2026-10-18 05:00:10,689 | INFO | pipeline.ingestion.state_manager | New observation for openweather / Cebu City: 2026-10-18 04:47:56+00:00 > 2026-10-18 04:00:09+00:00
+2026-10-18 05:00:11,274 | INFO | pipeline.ingestion.state_manager | Successfully saved state to /opt/weatherflow/data/state/extraction_state.json
+2026-10-18 05:00:11,609 | INFO | pipeline.ingestion.state_manager | New observation for openweather / Davao City: 2026-10-18 04:50:45+00:00 > 2026-10-18 04:00:10+00:00
+2026-10-18 05:00:12,308 | INFO | pipeline.ingestion.state_manager | Successfully saved state to /opt/weatherflow/data/state/extraction_state.json
+2026-10-18 05:00:12,690 | INFO | pipeline.ingestion.state_manager | New observation for openweather / Baguio: 2026-10-18 04:50:45+00:00 > 2026-10-18 04:00:11+00:00
+2026-10-18 05:00:13,251 | INFO | pipeline.ingestion.state_manager | Successfully saved state to /opt/weatherflow/data/state/extraction_state.json
+2026-10-18 05:00:13,755 | INFO | pipeline.ingestion.state_manager | New observation for openweather / Iloilo City: 2026-10-18 04:50:45+00:00 > 2026-10-18 04:00:13+00:00
+2026-10-18 05:00:14,207 | INFO | pipeline.ingestion.state_manager | Successfully saved state to /opt/weatherflow/data/state/extraction_state.json
+2026-10-18 05:00:14,646 | INFO | pipeline.ingestion.state_manager | New observation for openweather / Cagayan de Oro: 2026-10-18 04:50:45+00:00 > 2026-10-18 04:00:14+00:00
+2026-10-18 05:00:15,118 | INFO | pipeline.ingestion.state_manager | Successfully saved state to /opt/weatherflow/data/state/extraction_state.json
+2026-10-18 05:00:15,521 | INFO | pipeline.ingestion.state_manager | New observation for openweather / Zamboanga City: 2026-10-18 05:00:15+00:00 > 2026-10-18 04:00:15+00:00
+2026-10-18 05:00:16,069 | INFO | pipeline.ingestion.state_manager | Successfully saved state to /opt/weatherflow/data/state/extraction_state.json
+2026-10-18 06:00:09,701 | INFO | pipeline.ingestion.state_manager | New observation for openweather / Manila: 2026-10-18 05:55:48+00:00 > 2026-10-18 04:50:10+00:00
+2026-10-18 06:00:10,301 | INFO | pipeline.ingestion.state_manager | Successfully saved state to /opt/weatherflow/data/state/extraction_state.json
+2026-10-18 06:00:10,749 | INFO | pipeline.ingestion.state_manager | New observation for openweather / Quezon City: 2026-10-18 06:00:10+00:00 > 2026-10-18 04:51:22+00:00
+2026-10-18 06:00:11,191 | INFO | pipeline.ingestion.state_manager | Successfully saved state to /opt/weatherflow/data/state/extraction_state.json
+2026-10-18 06:00:11,722 | INFO | pipeline.ingestion.state_manager | New observation for openweather / Cebu City: 2026-10-18 05:57:20+00:00 > 2026-10-18 04:47:56+00:00
+2026-10-18 06:00:12,290 | INFO | pipeline.ingestion.state_manager | Successfully saved state to /opt/weatherflow/data/state/extraction_state.json
+2026-10-18 06:00:12,686 | INFO | pipeline.ingestion.state_manager | New observation for openweather / Davao City: 2026-10-18 06:00:12+00:00 > 2026-10-18 04:50:45+00:00
+2026-10-18 06:00:13,146 | INFO | pipeline.ingestion.state_manager | Successfully saved state to /opt/weatherflow/data/state/extraction_state.json
+2026-10-18 06:00:13,487 | INFO | pipeline.ingestion.state_manager | New observation for openweather / Baguio: 2026-10-18 05:55:33+00:00 > 2026-10-18 04:50:45+00:00
+2026-10-18 06:00:14,019 | INFO | pipeline.ingestion.state_manager | Successfully saved state to /opt/weatherflow/data/state/extraction_state.json
+2026-10-18 06:00:14,614 | INFO | pipeline.ingestion.state_manager | New observation for openweather / Iloilo City: 2026-10-18 06:00:14+00:00 > 2026-10-18 04:50:45+00:00
+2026-10-18 06:00:15,213 | INFO | pipeline.ingestion.state_manager | Successfully saved state to /opt/weatherflow/data/state/extraction_state.json
+2026-10-18 06:00:15,554 | INFO | pipeline.ingestion.state_manager | New observation for openweather / Cagayan de Oro: 2026-10-18 06:00:15+00:00 > 2026-10-18 04:50:45+00:00
+2026-10-18 06:00:16,060 | INFO | pipeline.ingestion.state_manager | Successfully saved state to /opt/weatherflow/data/state/extraction_state.json
+2026-10-18 06:00:16,423 | INFO | pipeline.ingestion.state_manager | New observation for openweather / Zamboanga City: 2026-10-18 06:00:16+00:00 > 2026-10-18 05:00:15+00:00
+2026-10-18 06:00:16,850 | INFO | pipeline.ingestion.state_manager | Successfully saved state to /opt/weatherflow/data/state/extraction_state.json
+2026-10-18 07:00:10,456 | INFO | pipeline.ingestion.state_manager | New observation for openweather / Manila: 2026-10-18 06:55:45+00:00 > 2026-10-18 05:55:48+00:00
+2026-10-18 07:00:10,990 | INFO | pipeline.ingestion.state_manager | Successfully saved state to /opt/weatherflow/data/state/extraction_state.json
+2026-10-18 07:00:11,406 | INFO | pipeline.ingestion.state_manager | New observation for openweather / Quezon City: 2026-10-18 06:55:48+00:00 > 2026-10-18 06:00:10+00:00
+2026-10-18 07:00:11,782 | INFO | pipeline.ingestion.state_manager | Successfully saved state to /opt/weatherflow/data/state/extraction_state.json
+2026-10-18 07:00:12,127 | INFO | pipeline.ingestion.state_manager | New observation for openweather / Cebu City: 2026-10-18 07:00:03+00:00 > 2026-10-18 05:57:20+00:00
+2026-10-18 07:00:12,758 | INFO | pipeline.ingestion.state_manager | Successfully saved state to /opt/weatherflow/data/state/extraction_state.json
+2026-10-18 07:00:13,151 | INFO | pipeline.ingestion.state_manager | New observation for openweather / Davao City: 2026-10-18 07:00:12+00:00 > 2026-10-18 06:00:12+00:00
+2026-10-18 07:00:13,889 | INFO | pipeline.ingestion.state_manager | Successfully saved state to /opt/weatherflow/data/state/extraction_state.json
+2026-10-18 07:00:14,256 | INFO | pipeline.ingestion.state_manager | New observation for openweather / Baguio: 2026-10-18 07:00:13+00:00 > 2026-10-18 05:55:33+00:00
+2026-10-18 07:00:14,766 | INFO | pipeline.ingestion.state_manager | Successfully saved state to /opt/weatherflow/data/state/extraction_state.json
+2026-10-18 07:00:15,261 | INFO | pipeline.ingestion.state_manager | New observation for openweather / Iloilo City: 2026-10-18 07:00:14+00:00 > 2026-10-18 06:00:14+00:00
+2026-10-18 07:00:15,943 | INFO | pipeline.ingestion.state_manager | Successfully saved state to /opt/weatherflow/data/state/extraction_state.json
+2026-10-18 07:00:16,374 | INFO | pipeline.ingestion.state_manager | New observation for openweather / Cagayan de Oro: 2026-10-18 07:00:15+00:00 > 2026-10-18 06:00:15+00:00
+2026-10-18 07:00:16,667 | INFO | pipeline.ingestion.state_manager | Successfully saved state to /opt/weatherflow/data/state/extraction_state.json
+2026-10-18 07:00:17,021 | INFO | pipeline.ingestion.state_manager | New observation for openweather / Zamboanga City: 2026-10-18 07:00:16+00:00 > 2026-10-18 06:00:16+00:00
+2026-10-18 07:00:17,381 | INFO | pipeline.ingestion.state_manager | Successfully saved state to /opt/weatherflow/data/state/extraction_state.json
+2026-10-18 08:00:07,491 | INFO | pipeline.ingestion.state_manager | New observation for openweather / Manila: 2026-10-18 07:59:30+00:00 > 2026-10-18 06:55:45+00:00
+2026-10-18 08:00:07,821 | INFO | pipeline.ingestion.state_manager | Successfully saved state to /opt/weatherflow/data/state/extraction_state.json
+2026-10-18 08:00:08,146 | INFO | pipeline.ingestion.state_manager | New observation for openweather / Quezon City: 2026-10-18 07:55:56+00:00 > 2026-10-18 06:55:48+00:00
+2026-10-18 08:00:08,503 | INFO | pipeline.ingestion.state_manager | Successfully saved state to /opt/weatherflow/data/state/extraction_state.json
+2026-10-18 08:00:08,894 | INFO | pipeline.ingestion.state_manager | New observation for openweather / Cebu City: 2026-10-18 08:00:08+00:00 > 2026-10-18 07:00:03+00:00
+2026-10-18 08:00:09,213 | INFO | pipeline.ingestion.state_manager | Successfully saved state to /opt/weatherflow/data/state/extraction_state.json
+2026-10-18 08:00:09,513 | INFO | pipeline.ingestion.state_manager | New observation for openweather / Davao City: 2026-10-18 08:00:09+00:00 > 2026-10-18 07:00:12+00:00
+2026-10-18 08:00:09,827 | INFO | pipeline.ingestion.state_manager | Successfully saved state to /opt/weatherflow/data/state/extraction_state.json
+2026-10-18 08:00:10,168 | INFO | pipeline.ingestion.state_manager | New observation for openweather / Baguio: 2026-10-18 08:00:10+00:00 > 2026-10-18 07:00:13+00:00
+2026-10-18 08:00:10,454 | INFO | pipeline.ingestion.state_manager | Successfully saved state to /opt/weatherflow/data/state/extraction_state.json
+2026-10-18 08:00:10,729 | INFO | pipeline.ingestion.state_manager | New observation for openweather / Iloilo City: 2026-10-18 08:00:10+00:00 > 2026-10-18 07:00:14+00:00
+2026-10-18 08:00:11,020 | INFO | pipeline.ingestion.state_manager | Successfully saved state to /opt/weatherflow/data/state/extraction_state.json
+2026-10-18 08:00:11,400 | INFO | pipeline.ingestion.state_manager | New observation for openweather / Cagayan de Oro: 2026-10-18 08:00:11+00:00 > 2026-10-18 07:00:15+00:00
+2026-10-18 08:00:11,618 | INFO | pipeline.ingestion.state_manager | Successfully saved state to /opt/weatherflow/data/state/extraction_state.json
+2026-10-18 08:00:11,996 | INFO | pipeline.ingestion.state_manager | New observation for openweather / Zamboanga City: 2026-10-18 08:00:11+00:00 > 2026-10-18 07:00:16+00:00
+2026-10-18 08:00:12,263 | INFO | pipeline.ingestion.state_manager | Successfully saved state to /opt/weatherflow/data/state/extraction_state.json
+2026-10-18 09:00:07,930 | INFO | pipeline.ingestion.state_manager | New observation for openweather / Manila: 2026-10-18 08:48:17+00:00 > 2026-10-18 07:59:30+00:00
+2026-10-18 09:00:08,195 | INFO | pipeline.ingestion.state_manager | Successfully saved state to /opt/weatherflow/data/state/extraction_state.json
+2026-10-18 09:00:08,512 | INFO | pipeline.ingestion.state_manager | New observation for openweather / Quezon City: 2026-10-18 08:55:55+00:00 > 2026-10-18 07:55:56+00:00
+2026-10-18 09:00:08,786 | INFO | pipeline.ingestion.state_manager | Successfully saved state to /opt/weatherflow/data/state/extraction_state.json
+2026-10-18 09:00:09,097 | INFO | pipeline.ingestion.state_manager | New observation for openweather / Cebu City: 2026-10-18 08:56:47+00:00 > 2026-10-18 08:00:08+00:00
+2026-10-18 09:00:09,462 | INFO | pipeline.ingestion.state_manager | Successfully saved state to /opt/weatherflow/data/state/extraction_state.json
+2026-10-18 09:00:09,912 | INFO | pipeline.ingestion.state_manager | New observation for openweather / Davao City: 2026-10-18 08:54:47+00:00 > 2026-10-18 08:00:09+00:00
+2026-10-18 09:00:10,140 | INFO | pipeline.ingestion.state_manager | Successfully saved state to /opt/weatherflow/data/state/extraction_state.json
+2026-10-18 09:00:10,584 | INFO | pipeline.ingestion.state_manager | New observation for openweather / Baguio: 2026-10-18 08:54:47+00:00 > 2026-10-18 08:00:10+00:00
+2026-10-18 09:00:10,969 | INFO | pipeline.ingestion.state_manager | Successfully saved state to /opt/weatherflow/data/state/extraction_state.json
+2026-10-18 09:00:11,398 | INFO | pipeline.ingestion.state_manager | New observation for openweather / Iloilo City: 2026-10-18 08:54:47+00:00 > 2026-10-18 08:00:10+00:00
+2026-10-18 09:00:11,861 | INFO | pipeline.ingestion.state_manager | Successfully saved state to /opt/weatherflow/data/state/extraction_state.json
+2026-10-18 09:00:12,173 | INFO | pipeline.ingestion.state_manager | New observation for openweather / Cagayan de Oro: 2026-10-18 08:54:47+00:00 > 2026-10-18 08:00:11+00:00
+2026-10-18 09:00:12,563 | INFO | pipeline.ingestion.state_manager | Successfully saved state to /opt/weatherflow/data/state/extraction_state.json
+2026-10-18 09:00:12,886 | INFO | pipeline.ingestion.state_manager | New observation for openweather / Zamboanga City: 2026-10-18 09:00:12+00:00 > 2026-10-18 08:00:11+00:00
+2026-10-18 09:00:13,222 | INFO | pipeline.ingestion.state_manager | Successfully saved state to /opt/weatherflow/data/state/extraction_state.json
+2026-10-18 10:00:07,105 | INFO | pipeline.ingestion.state_manager | New observation for openweather / Manila: 2026-10-18 09:53:26+00:00 > 2026-10-18 08:48:17+00:00
+2026-10-18 10:00:07,339 | INFO | pipeline.ingestion.state_manager | Successfully saved state to /opt/weatherflow/data/state/extraction_state.json
+2026-10-18 10:00:07,613 | INFO | pipeline.ingestion.state_manager | New observation for openweather / Quezon City: 2026-10-18 09:55:52+00:00 > 2026-10-18 08:55:55+00:00
+2026-10-18 10:00:07,946 | INFO | pipeline.ingestion.state_manager | Successfully saved state to /opt/weatherflow/data/state/extraction_state.json
+2026-10-18 10:00:08,248 | INFO | pipeline.ingestion.state_manager | New observation for openweather / Cebu City: 2026-10-18 10:00:09+00:00 > 2026-10-18 08:56:47+00:00
+2026-10-18 10:00:08,518 | INFO | pipeline.ingestion.state_manager | Successfully saved state to /opt/weatherflow/data/state/extraction_state.json
+2026-10-18 10:00:08,858 | INFO | pipeline.ingestion.state_manager | New observation for openweather / Davao City: 2026-10-18 10:00:09+00:00 > 2026-10-18 08:54:47+00:00
+2026-10-18 10:00:09,193 | INFO | pipeline.ingestion.state_manager | Successfully saved state to /opt/weatherflow/data/state/extraction_state.json
+2026-10-18 10:00:09,578 | INFO | pipeline.ingestion.state_manager | New observation for openweather / Baguio: 2026-10-18 10:00:10+00:00 > 2026-10-18 08:54:47+00:00
+2026-10-18 10:00:09,995 | INFO | pipeline.ingestion.state_manager | Successfully saved state to /opt/weatherflow/data/state/extraction_state.json
+2026-10-18 10:00:10,371 | INFO | pipeline.ingestion.state_manager | New observation for openweather / Iloilo City: 2026-10-18 10:00:11+00:00 > 2026-10-18 08:54:47+00:00
+2026-10-18 10:00:10,759 | INFO | pipeline.ingestion.state_manager | Successfully saved state to /opt/weatherflow/data/state/extraction_state.json
+2026-10-18 10:00:11,169 | INFO | pipeline.ingestion.state_manager | New observation for openweather / Cagayan de Oro: 2026-10-18 10:00:11+00:00 > 2026-10-18 08:54:47+00:00
+2026-10-18 10:00:11,591 | INFO | pipeline.ingestion.state_manager | Successfully saved state to /opt/weatherflow/data/state/extraction_state.json
+2026-10-18 10:00:11,959 | INFO | pipeline.ingestion.state_manager | New observation for openweather / Zamboanga City: 2026-10-18 10:00:12+00:00 > 2026-10-18 09:00:12+00:00
+2026-10-18 10:00:12,191 | INFO | pipeline.ingestion.state_manager | Successfully saved state to /opt/weatherflow/data/state/extraction_state.json
+2026-10-19 06:42:45,242 | INFO | pipeline.ingestion.state_manager | New observation for openweather / Manila: 2026-10-19 06:36:11+00:00 > 2026-10-18 09:53:26+00:00
+2026-10-19 06:42:46,119 | INFO | pipeline.ingestion.state_manager | Successfully saved state to /opt/weatherflow/data/state/extraction_state.json
+2026-10-19 06:42:46,495 | INFO | pipeline.ingestion.state_manager | New observation for openweather / Quezon City: 2026-10-19 06:42:26+00:00 > 2026-10-18 09:55:52+00:00
+2026-10-19 06:42:47,059 | INFO | pipeline.ingestion.state_manager | Successfully saved state to /opt/weatherflow/data/state/extraction_state.json
+2026-10-19 06:42:47,645 | INFO | pipeline.ingestion.state_manager | New observation for openweather / Cebu City: 2026-10-19 06:41:40+00:00 > 2026-10-18 10:00:09+00:00
+2026-10-19 06:42:48,117 | INFO | pipeline.ingestion.state_manager | Successfully saved state to /opt/weatherflow/data/state/extraction_state.json
+2026-10-19 06:42:48,588 | INFO | pipeline.ingestion.state_manager | New observation for openweather / Davao City: 2026-10-19 06:42:27+00:00 > 2026-10-18 10:00:09+00:00
+2026-10-19 06:42:49,066 | INFO | pipeline.ingestion.state_manager | Successfully saved state to /opt/weatherflow/data/state/extraction_state.json
+2026-10-19 06:42:49,753 | INFO | pipeline.ingestion.state_manager | New observation for openweather / Baguio: 2026-10-19 06:33:24+00:00 > 2026-10-18 10:00:10+00:00
+2026-10-19 06:42:50,439 | INFO | pipeline.ingestion.state_manager | Successfully saved state to /opt/weatherflow/data/state/extraction_state.json
+2026-10-19 06:42:50,827 | INFO | pipeline.ingestion.state_manager | New observation for openweather / Iloilo City: 2026-10-19 06:42:28+00:00 > 2026-10-18 10:00:11+00:00
+2026-10-19 06:42:51,510 | INFO | pipeline.ingestion.state_manager | Successfully saved state to /opt/weatherflow/data/state/extraction_state.json
+2026-10-19 06:42:51,913 | INFO | pipeline.ingestion.state_manager | New observation for openweather / Cagayan de Oro: 2026-10-19 06:42:28+00:00 > 2026-10-18 10:00:11+00:00
+2026-10-19 06:42:52,631 | INFO | pipeline.ingestion.state_manager | Successfully saved state to /opt/weatherflow/data/state/extraction_state.json
+2026-10-19 06:42:52,998 | INFO | pipeline.ingestion.state_manager | New observation for openweather / Zamboanga City: 2026-10-19 06:42:28+00:00 > 2026-10-18 10:00:12+00:00
+2026-10-19 06:42:53,697 | INFO | pipeline.ingestion.state_manager | Successfully saved state to /opt/weatherflow/data/state/extraction_state.json
+2026-10-19 06:47:44,480 | INFO | pipeline.ingestion.state_manager | New observation for openweather / Manila: 2026-10-19 06:42:06+00:00 > 2026-10-19 06:36:11+00:00
+2026-10-19 06:47:44,841 | INFO | pipeline.ingestion.state_manager | Successfully saved state to /opt/weatherflow/data/state/extraction_state.json
+2026-10-19 06:47:46,354 | INFO | pipeline.ingestion.state_manager | New observation for openweather / Baguio: 2026-10-19 06:47:46+00:00 > 2026-10-19 06:33:24+00:00
+2026-10-19 06:47:46,673 | INFO | pipeline.ingestion.state_manager | Successfully saved state to /opt/weatherflow/data/state/extraction_state.json
+2026-10-19 07:00:06,646 | INFO | pipeline.ingestion.state_manager | New observation for openweather / Manila: 2026-10-19 07:00:06+00:00 > 2026-10-19 06:42:06+00:00
+2026-10-19 07:00:07,109 | INFO | pipeline.ingestion.state_manager | Successfully saved state to /opt/weatherflow/data/state/extraction_state.json
+2026-10-19 07:00:07,449 | INFO | pipeline.ingestion.state_manager | New observation for openweather / Quezon City: 2026-10-19 06:55:22+00:00 > 2026-10-19 06:42:26+00:00
+2026-10-19 07:00:07,717 | INFO | pipeline.ingestion.state_manager | Successfully saved state to /opt/weatherflow/data/state/extraction_state.json
+2026-10-19 07:00:08,114 | INFO | pipeline.ingestion.state_manager | New observation for openweather / Cebu City: 2026-10-19 06:55:08+00:00 > 2026-10-19 06:41:40+00:00
+2026-10-19 07:00:08,560 | INFO | pipeline.ingestion.state_manager | Successfully saved state to /opt/weatherflow/data/state/extraction_state.json
+2026-10-19 07:00:08,956 | INFO | pipeline.ingestion.state_manager | New observation for openweather / Davao City: 2026-10-19 07:00:09+00:00 > 2026-10-19 06:42:27+00:00
+2026-10-19 07:00:09,224 | INFO | pipeline.ingestion.state_manager | Successfully saved state to /opt/weatherflow/data/state/extraction_state.json
+2026-10-19 07:00:09,555 | INFO | pipeline.ingestion.state_manager | New observation for openweather / Baguio: 2026-10-19 06:52:48+00:00 > 2026-10-19 06:47:46+00:00
+2026-10-19 07:00:09,979 | INFO | pipeline.ingestion.state_manager | Successfully saved state to /opt/weatherflow/data/state/extraction_state.json
+2026-10-19 07:00:10,361 | INFO | pipeline.ingestion.state_manager | New observation for openweather / Iloilo City: 2026-10-19 06:56:47+00:00 > 2026-10-19 06:42:28+00:00
+2026-10-19 07:00:10,996 | INFO | pipeline.ingestion.state_manager | Successfully saved state to /opt/weatherflow/data/state/extraction_state.json
+2026-10-19 07:00:11,373 | INFO | pipeline.ingestion.state_manager | New observation for openweather / Cagayan de Oro: 2026-10-19 06:56:47+00:00 > 2026-10-19 06:42:28+00:00
+2026-10-19 07:00:11,728 | INFO | pipeline.ingestion.state_manager | Successfully saved state to /opt/weatherflow/data/state/extraction_state.json
+2026-10-19 07:00:12,154 | INFO | pipeline.ingestion.state_manager | New observation for openweather / Zamboanga City: 2026-10-19 07:00:12+00:00 > 2026-10-19 06:42:28+00:00
+2026-10-19 07:00:12,719 | INFO | pipeline.ingestion.state_manager | Successfully saved state to /opt/weatherflow/data/state/extraction_state.json
+2026-10-19 08:07:35,836 | INFO | pipeline.ingestion.state_manager | New observation for openweather / Manila: 2026-10-19 07:59:38+00:00 > 2026-10-19 07:00:06+00:00
+2026-10-19 08:07:40,485 | INFO | pipeline.ingestion.state_manager | Successfully saved state to /opt/weatherflow/data/state/extraction_state.json
+2026-10-19 08:07:41,067 | INFO | pipeline.ingestion.state_manager | New observation for openweather / Quezon City: 2026-10-19 08:00:22+00:00 > 2026-10-19 06:55:22+00:00
+2026-10-19 08:07:41,643 | INFO | pipeline.ingestion.state_manager | Successfully saved state to /opt/weatherflow/data/state/extraction_state.json
+2026-10-19 08:07:41,967 | INFO | pipeline.ingestion.state_manager | New observation for openweather / Cebu City: 2026-10-19 08:00:02+00:00 > 2026-10-19 06:55:08+00:00
+2026-10-19 08:07:42,364 | INFO | pipeline.ingestion.state_manager | Successfully saved state to /opt/weatherflow/data/state/extraction_state.json
+2026-10-19 08:07:42,728 | INFO | pipeline.ingestion.state_manager | New observation for openweather / Davao City: 2026-10-19 08:07:43+00:00 > 2026-10-19 07:00:09+00:00
+2026-10-19 08:07:43,023 | INFO | pipeline.ingestion.state_manager | Successfully saved state to /opt/weatherflow/data/state/extraction_state.json
+2026-10-19 08:07:43,286 | INFO | pipeline.ingestion.state_manager | New observation for openweather / Baguio: 2026-10-19 08:00:12+00:00 > 2026-10-19 06:52:48+00:00
+2026-10-19 08:07:43,465 | INFO | pipeline.ingestion.state_manager | Successfully saved state to /opt/weatherflow/data/state/extraction_state.json
+2026-10-19 08:07:43,974 | INFO | pipeline.ingestion.state_manager | New observation for openweather / Iloilo City: 2026-10-19 08:00:12+00:00 > 2026-10-19 06:56:47+00:00
+2026-10-19 08:07:44,344 | INFO | pipeline.ingestion.state_manager | Successfully saved state to /opt/weatherflow/data/state/extraction_state.json
+2026-10-19 08:07:44,683 | INFO | pipeline.ingestion.state_manager | New observation for openweather / Cagayan de Oro: 2026-10-19 08:07:45+00:00 > 2026-10-19 06:56:47+00:00
+2026-10-19 08:07:45,037 | INFO | pipeline.ingestion.state_manager | Successfully saved state to /opt/weatherflow/data/state/extraction_state.json
+2026-10-19 08:07:45,903 | INFO | pipeline.ingestion.state_manager | New observation for openweather / Zamboanga City: 2026-10-19 08:07:45+00:00 > 2026-10-19 07:00:12+00:00
+2026-10-19 08:07:46,526 | INFO | pipeline.ingestion.state_manager | Successfully saved state to /opt/weatherflow/data/state/extraction_state.json
+2026-10-19 09:00:09,277 | INFO | pipeline.ingestion.state_manager | New observation for openweather / Manila: 2026-10-19 08:56:04+00:00 > 2026-10-19 07:59:38+00:00
+2026-10-19 09:00:09,688 | INFO | pipeline.ingestion.state_manager | Successfully saved state to /opt/weatherflow/data/state/extraction_state.json
+2026-10-19 09:00:09,999 | INFO | pipeline.ingestion.state_manager | New observation for openweather / Quezon City: 2026-10-19 08:55:21+00:00 > 2026-10-19 08:00:22+00:00
+2026-10-19 09:00:10,578 | INFO | pipeline.ingestion.state_manager | Successfully saved state to /opt/weatherflow/data/state/extraction_state.json
+2026-10-19 09:00:10,957 | INFO | pipeline.ingestion.state_manager | New observation for openweather / Cebu City: 2026-10-19 09:00:02+00:00 > 2026-10-19 08:00:02+00:00
+2026-10-19 09:00:11,441 | INFO | pipeline.ingestion.state_manager | Successfully saved state to /opt/weatherflow/data/state/extraction_state.json
+2026-10-19 09:00:11,801 | INFO | pipeline.ingestion.state_manager | New observation for openweather / Davao City: 2026-10-19 08:51:34+00:00 > 2026-10-19 08:07:43+00:00
+2026-10-19 09:00:12,068 | INFO | pipeline.ingestion.state_manager | Successfully saved state to /opt/weatherflow/data/state/extraction_state.json
+2026-10-19 09:00:12,516 | INFO | pipeline.ingestion.state_manager | New observation for openweather / Baguio: 2026-10-19 08:51:22+00:00 > 2026-10-19 08:00:12+00:00
+2026-10-19 09:00:13,032 | INFO | pipeline.ingestion.state_manager | Successfully saved state to /opt/weatherflow/data/state/extraction_state.json
+2026-10-19 09:00:13,609 | INFO | pipeline.ingestion.state_manager | New observation for openweather / Iloilo City: 2026-10-19 08:56:42+00:00 > 2026-10-19 08:00:12+00:00
+2026-10-19 09:00:14,027 | INFO | pipeline.ingestion.state_manager | Successfully saved state to /opt/weatherflow/data/state/extraction_state.json
+2026-10-19 09:00:14,410 | INFO | pipeline.ingestion.state_manager | New observation for openweather / Cagayan de Oro: 2026-10-19 09:00:14+00:00 > 2026-10-19 08:07:45+00:00
+2026-10-19 09:00:14,820 | INFO | pipeline.ingestion.state_manager | Successfully saved state to /opt/weatherflow/data/state/extraction_state.json
+2026-10-19 09:00:15,317 | INFO | pipeline.ingestion.state_manager | New observation for openweather / Zamboanga City: 2026-10-19 08:56:49+00:00 > 2026-10-19 08:07:45+00:00
+2026-10-19 09:00:15,771 | INFO | pipeline.ingestion.state_manager | Successfully saved state to /opt/weatherflow/data/state/extraction_state.json
+2026-10-19 10:00:08,909 | INFO | pipeline.ingestion.state_manager | New observation for openweather / Manila: 2026-10-19 09:51:59+00:00 > 2026-10-19 08:56:04+00:00
+2026-10-19 10:00:09,642 | INFO | pipeline.ingestion.state_manager | Successfully saved state to /opt/weatherflow/data/state/extraction_state.json
+2026-10-19 10:00:10,153 | INFO | pipeline.ingestion.state_manager | New observation for openweather / Quezon City: 2026-10-19 10:00:10+00:00 > 2026-10-19 08:55:21+00:00
+2026-10-19 10:00:10,824 | INFO | pipeline.ingestion.state_manager | Successfully saved state to /opt/weatherflow/data/state/extraction_state.json
+2026-10-19 10:00:11,274 | INFO | pipeline.ingestion.state_manager | New observation for openweather / Cebu City: 2026-10-19 09:51:37+00:00 > 2026-10-19 09:00:02+00:00
+2026-10-19 10:00:11,615 | INFO | pipeline.ingestion.state_manager | Successfully saved state to /opt/weatherflow/data/state/extraction_state.json
+2026-10-19 10:00:12,022 | INFO | pipeline.ingestion.state_manager | New observation for openweather / Davao City: 2026-10-19 09:56:33+00:00 > 2026-10-19 08:51:34+00:00
+2026-10-19 10:00:12,705 | INFO | pipeline.ingestion.state_manager | Successfully saved state to /opt/weatherflow/data/state/extraction_state.json
+2026-10-19 10:00:13,132 | INFO | pipeline.ingestion.state_manager | New observation for openweather / Baguio: 2026-10-19 09:58:46+00:00 > 2026-10-19 08:51:22+00:00
+2026-10-19 10:00:13,617 | INFO | pipeline.ingestion.state_manager | Successfully saved state to /opt/weatherflow/data/state/extraction_state.json
+2026-10-19 10:00:14,094 | INFO | pipeline.ingestion.state_manager | New observation for openweather / Iloilo City: 2026-10-19 10:00:14+00:00 > 2026-10-19 08:56:42+00:00
+2026-10-19 10:00:14,359 | INFO | pipeline.ingestion.state_manager | Successfully saved state to /opt/weatherflow/data/state/extraction_state.json
+2026-10-19 10:00:14,779 | INFO | pipeline.ingestion.state_manager | New observation for openweather / Cagayan de Oro: 2026-10-19 10:00:14+00:00 > 2026-10-19 09:00:14+00:00
+2026-10-19 10:00:15,531 | INFO | pipeline.ingestion.state_manager | Successfully saved state to /opt/weatherflow/data/state/extraction_state.json
+2026-10-19 10:00:16,007 | INFO | pipeline.ingestion.state_manager | New observation for openweather / Zamboanga City: 2026-10-19 09:59:28+00:00 > 2026-10-19 08:56:49+00:00
+2026-10-19 10:00:16,377 | INFO | pipeline.ingestion.state_manager | Successfully saved state to /opt/weatherflow/data/state/extraction_state.json
+2026-10-19 11:07:27,135 | INFO | pipeline.ingestion.state_manager | New observation for openweather / Manila: 2026-10-19 11:04:47+00:00 > 2026-10-19 09:51:59+00:00
+2026-10-19 11:07:27,847 | INFO | pipeline.ingestion.state_manager | Successfully saved state to /opt/weatherflow/data/state/extraction_state.json
+2026-10-19 11:07:28,192 | INFO | pipeline.ingestion.state_manager | New observation for openweather / Quezon City: 2026-10-19 11:00:22+00:00 > 2026-10-19 10:00:10+00:00
+2026-10-19 11:07:28,492 | INFO | pipeline.ingestion.state_manager | Successfully saved state to /opt/weatherflow/data/state/extraction_state.json
+2026-10-19 11:07:28,835 | INFO | pipeline.ingestion.state_manager | New observation for openweather / Cebu City: 2026-10-19 11:01:57+00:00 > 2026-10-19 09:51:37+00:00
+2026-10-19 11:07:29,190 | INFO | pipeline.ingestion.state_manager | Successfully saved state to /opt/weatherflow/data/state/extraction_state.json
+2026-10-19 11:07:29,517 | INFO | pipeline.ingestion.state_manager | New observation for openweather / Davao City: 2026-10-19 11:00:21+00:00 > 2026-10-19 09:56:33+00:00
+2026-10-19 11:07:29,842 | INFO | pipeline.ingestion.state_manager | Successfully saved state to /opt/weatherflow/data/state/extraction_state.json
+2026-10-19 11:07:30,144 | INFO | pipeline.ingestion.state_manager | New observation for openweather / Baguio: 2026-10-19 10:58:29+00:00 > 2026-10-19 09:58:46+00:00
+2026-10-19 11:07:30,492 | INFO | pipeline.ingestion.state_manager | Successfully saved state to /opt/weatherflow/data/state/extraction_state.json
+2026-10-19 11:07:30,809 | INFO | pipeline.ingestion.state_manager | New observation for openweather / Iloilo City: 2026-10-19 11:00:30+00:00 > 2026-10-19 10:00:14+00:00
+2026-10-19 11:07:31,119 | INFO | pipeline.ingestion.state_manager | Successfully saved state to /opt/weatherflow/data/state/extraction_state.json
+2026-10-19 11:07:31,420 | INFO | pipeline.ingestion.state_manager | New observation for openweather / Cagayan de Oro: 2026-10-19 11:07:32+00:00 > 2026-10-19 10:00:14+00:00
+2026-10-19 11:07:31,671 | INFO | pipeline.ingestion.state_manager | Successfully saved state to /opt/weatherflow/data/state/extraction_state.json
+2026-10-19 11:07:32,005 | INFO | pipeline.ingestion.state_manager | New observation for openweather / Zamboanga City: 2026-10-19 11:01:10+00:00 > 2026-10-19 09:59:28+00:00
+2026-10-19 11:07:32,288 | INFO | pipeline.ingestion.state_manager | Successfully saved state to /opt/weatherflow/data/state/extraction_state.json
+2026-10-19 12:00:07,956 | INFO | pipeline.ingestion.state_manager | New observation for openweather / Manila: 2026-10-19 11:59:46+00:00 > 2026-10-19 11:04:47+00:00
+2026-10-19 12:00:08,532 | INFO | pipeline.ingestion.state_manager | Successfully saved state to /opt/weatherflow/data/state/extraction_state.json
+2026-10-19 12:00:08,964 | INFO | pipeline.ingestion.state_manager | New observation for openweather / Quezon City: 2026-10-19 11:58:32+00:00 > 2026-10-19 11:00:22+00:00
+2026-10-19 12:00:09,255 | INFO | pipeline.ingestion.state_manager | Successfully saved state to /opt/weatherflow/data/state/extraction_state.json
+2026-10-19 12:00:09,636 | INFO | pipeline.ingestion.state_manager | New observation for openweather / Cebu City: 2026-10-19 11:53:47+00:00 > 2026-10-19 11:01:57+00:00
+2026-10-19 12:00:09,941 | INFO | pipeline.ingestion.state_manager | Successfully saved state to /opt/weatherflow/data/state/extraction_state.json
+2026-10-19 12:00:10,233 | INFO | pipeline.ingestion.state_manager | New observation for openweather / Davao City: 2026-10-19 11:56:47+00:00 > 2026-10-19 11:00:21+00:00
+2026-10-19 12:00:10,473 | INFO | pipeline.ingestion.state_manager | Successfully saved state to /opt/weatherflow/data/state/extraction_state.json
+2026-10-19 12:00:10,884 | INFO | pipeline.ingestion.state_manager | New observation for openweather / Baguio: 2026-10-19 11:56:47+00:00 > 2026-10-19 10:58:29+00:00
+2026-10-19 12:00:11,123 | INFO | pipeline.ingestion.state_manager | Successfully saved state to /opt/weatherflow/data/state/extraction_state.json
+2026-10-19 12:00:11,548 | INFO | pipeline.ingestion.state_manager | New observation for openweather / Iloilo City: 2026-10-19 11:56:47+00:00 > 2026-10-19 11:00:30+00:00
+2026-10-19 12:00:11,992 | INFO | pipeline.ingestion.state_manager | Successfully saved state to /opt/weatherflow/data/state/extraction_state.json
+2026-10-19 12:00:12,304 | INFO | pipeline.ingestion.state_manager | New observation for openweather / Cagayan de Oro: 2026-10-19 11:56:47+00:00 > 2026-10-19 11:07:32+00:00
+2026-10-19 12:00:12,679 | INFO | pipeline.ingestion.state_manager | Successfully saved state to /opt/weatherflow/data/state/extraction_state.json
+2026-10-19 12:00:13,038 | INFO | pipeline.ingestion.state_manager | New observation for openweather / Zamboanga City: 2026-10-19 11:55:25+00:00 > 2026-10-19 11:01:10+00:00
+2026-10-19 12:00:13,413 | INFO | pipeline.ingestion.state_manager | Successfully saved state to /opt/weatherflow/data/state/extraction_state.json
+2026-10-20 10:28:22,214 | INFO | pipeline.ingestion.state_manager | New observation for openweather / Manila: 2026-10-20 10:23:46+00:00 > 2026-10-19 11:59:46+00:00
+2026-10-20 10:28:22,706 | INFO | pipeline.ingestion.state_manager | Successfully saved state to /opt/weatherflow/data/state/extraction_state.json
+2026-10-20 10:28:23,058 | INFO | pipeline.ingestion.state_manager | New observation for openweather / Quezon City: 2026-10-20 10:20:03+00:00 > 2026-10-19 11:58:32+00:00
+2026-10-20 10:28:23,525 | INFO | pipeline.ingestion.state_manager | Successfully saved state to /opt/weatherflow/data/state/extraction_state.json
+2026-10-20 10:28:23,904 | INFO | pipeline.ingestion.state_manager | New observation for openweather / Cebu City: 2026-10-20 10:27:55+00:00 > 2026-10-19 11:53:47+00:00
+2026-10-20 10:28:24,407 | INFO | pipeline.ingestion.state_manager | Successfully saved state to /opt/weatherflow/data/state/extraction_state.json
+2026-10-20 10:28:24,784 | INFO | pipeline.ingestion.state_manager | New observation for openweather / Davao City: 2026-10-20 10:28:25+00:00 > 2026-10-19 11:56:47+00:00
+2026-10-20 10:28:25,253 | INFO | pipeline.ingestion.state_manager | Successfully saved state to /opt/weatherflow/data/state/extraction_state.json
+2026-10-20 10:28:25,613 | INFO | pipeline.ingestion.state_manager | New observation for openweather / Baguio: 2026-10-20 10:27:59+00:00 > 2026-10-19 11:56:47+00:00
+2026-10-20 10:28:26,133 | INFO | pipeline.ingestion.state_manager | Successfully saved state to /opt/weatherflow/data/state/extraction_state.json
+2026-10-20 10:28:26,489 | INFO | pipeline.ingestion.state_manager | New observation for openweather / Iloilo City: 2026-10-20 10:25:35+00:00 > 2026-10-19 11:56:47+00:00
+2026-10-20 10:28:26,984 | INFO | pipeline.ingestion.state_manager | Successfully saved state to /opt/weatherflow/data/state/extraction_state.json
+2026-10-20 10:28:27,302 | INFO | pipeline.ingestion.state_manager | New observation for openweather / Cagayan de Oro: 2026-10-20 10:27:59+00:00 > 2026-10-19 11:56:47+00:00
+2026-10-20 10:28:27,716 | INFO | pipeline.ingestion.state_manager | Successfully saved state to /opt/weatherflow/data/state/extraction_state.json
+2026-10-20 10:28:28,148 | INFO | pipeline.ingestion.state_manager | New observation for openweather / Zamboanga City: 2026-10-20 10:20:06+00:00 > 2026-10-19 11:55:25+00:00
+2026-10-20 10:28:28,646 | INFO | pipeline.ingestion.state_manager | Successfully saved state to /opt/weatherflow/data/state/extraction_state.json
+2026-10-20 11:00:08,444 | INFO | pipeline.ingestion.state_manager | New observation for openweather / Manila: 2026-10-20 10:55:36+00:00 > 2026-10-20 10:23:46+00:00
+2026-10-20 11:00:08,916 | INFO | pipeline.ingestion.state_manager | Successfully saved state to /opt/weatherflow/data/state/extraction_state.json
+2026-10-20 11:00:09,263 | INFO | pipeline.ingestion.state_manager | New observation for openweather / Quezon City: 2026-10-20 10:53:34+00:00 > 2026-10-20 10:20:03+00:00
+2026-10-20 11:00:09,645 | INFO | pipeline.ingestion.state_manager | Successfully saved state to /opt/weatherflow/data/state/extraction_state.json
+2026-10-20 11:00:10,016 | INFO | pipeline.ingestion.state_manager | New observation for openweather / Cebu City: 2026-10-20 10:50:02+00:00 > 2026-10-20 10:27:55+00:00
+2026-10-20 11:00:10,375 | INFO | pipeline.ingestion.state_manager | Successfully saved state to /opt/weatherflow/data/state/extraction_state.json
+2026-10-20 11:00:10,679 | INFO | pipeline.ingestion.state_manager | New observation for openweather / Davao City: 2026-10-20 10:53:35+00:00 > 2026-10-20 10:28:25+00:00
+2026-10-20 11:00:11,103 | INFO | pipeline.ingestion.state_manager | Successfully saved state to /opt/weatherflow/data/state/extraction_state.json
+2026-10-20 11:00:11,404 | INFO | pipeline.ingestion.state_manager | New observation for openweather / Baguio: 2026-10-20 10:50:01+00:00 > 2026-10-20 10:27:59+00:00
+2026-10-20 11:00:11,781 | INFO | pipeline.ingestion.state_manager | Successfully saved state to /opt/weatherflow/data/state/extraction_state.json
+2026-10-20 11:00:12,107 | INFO | pipeline.ingestion.state_manager | New observation for openweather / Iloilo City: 2026-10-20 10:53:35+00:00 > 2026-10-20 10:25:35+00:00
+2026-10-20 11:00:12,486 | INFO | pipeline.ingestion.state_manager | Successfully saved state to /opt/weatherflow/data/state/extraction_state.json
+2026-10-20 11:00:12,746 | INFO | pipeline.ingestion.state_manager | New observation for openweather / Cagayan de Oro: 2026-10-20 10:51:46+00:00 > 2026-10-20 10:27:59+00:00
+2026-10-20 11:00:13,092 | INFO | pipeline.ingestion.state_manager | Successfully saved state to /opt/weatherflow/data/state/extraction_state.json
+2026-10-20 11:00:13,388 | INFO | pipeline.ingestion.state_manager | New observation for openweather / Zamboanga City: 2026-10-20 10:50:05+00:00 > 2026-10-20 10:20:06+00:00
+2026-10-20 11:00:13,809 | INFO | pipeline.ingestion.state_manager | Successfully saved state to /opt/weatherflow/data/state/extraction_state.json
+2026-10-20 12:00:10,513 | INFO | pipeline.ingestion.state_manager | New observation for openweather / Manila: 2026-10-20 11:57:18+00:00 > 2026-10-20 10:55:36+00:00
+2026-10-20 12:00:11,273 | INFO | pipeline.ingestion.state_manager | Successfully saved state to /opt/weatherflow/data/state/extraction_state.json
+2026-10-20 12:00:11,718 | INFO | pipeline.ingestion.state_manager | New observation for openweather / Quezon City: 2026-10-20 12:00:11+00:00 > 2026-10-20 10:53:34+00:00
+2026-10-20 12:00:12,092 | INFO | pipeline.ingestion.state_manager | Successfully saved state to /opt/weatherflow/data/state/extraction_state.json
+2026-10-20 12:00:12,487 | INFO | pipeline.ingestion.state_manager | New observation for openweather / Cebu City: 2026-10-20 11:56:17+00:00 > 2026-10-20 10:50:02+00:00
+2026-10-20 12:00:12,870 | INFO | pipeline.ingestion.state_manager | Successfully saved state to /opt/weatherflow/data/state/extraction_state.json
+2026-10-20 12:00:13,353 | INFO | pipeline.ingestion.state_manager | New observation for openweather / Davao City: 2026-10-20 12:00:14+00:00 > 2026-10-20 10:53:35+00:00
+2026-10-20 12:00:13,758 | INFO | pipeline.ingestion.state_manager | Successfully saved state to /opt/weatherflow/data/state/extraction_state.json
+2026-10-20 12:00:14,070 | INFO | pipeline.ingestion.state_manager | New observation for openweather / Baguio: 2026-10-20 12:00:10+00:00 > 2026-10-20 10:50:01+00:00
+2026-10-20 12:00:14,417 | INFO | pipeline.ingestion.state_manager | Successfully saved state to /opt/weatherflow/data/state/extraction_state.json
+2026-10-20 12:00:14,868 | INFO | pipeline.ingestion.state_manager | New observation for openweather / Iloilo City: 2026-10-20 12:00:13+00:00 > 2026-10-20 10:53:35+00:00
+2026-10-20 12:00:15,236 | INFO | pipeline.ingestion.state_manager | Successfully saved state to /opt/weatherflow/data/state/extraction_state.json
+2026-10-20 12:00:15,586 | INFO | pipeline.ingestion.state_manager | New observation for openweather / Cagayan de Oro: 2026-10-20 12:00:15+00:00 > 2026-10-20 10:51:46+00:00
+2026-10-20 12:00:16,001 | INFO | pipeline.ingestion.state_manager | Successfully saved state to /opt/weatherflow/data/state/extraction_state.json
+2026-10-20 12:00:16,358 | INFO | pipeline.ingestion.state_manager | New observation for openweather / Zamboanga City: 2026-10-20 12:00:15+00:00 > 2026-10-20 10:50:05+00:00
+2026-10-20 12:00:16,820 | INFO | pipeline.ingestion.state_manager | Successfully saved state to /opt/weatherflow/data/state/extraction_state.json

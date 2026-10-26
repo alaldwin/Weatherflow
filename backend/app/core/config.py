@@ -1,5 +1,3 @@
-
-
 from pathlib import Path
 
 from pydantic_settings import BaseSettings, SettingsConfigDict
@@ -20,6 +18,9 @@ class Settings(BaseSettings):
         env_file_encoding="utf-8",
         extra="ignore",
     )
+
+    # OpenWeather Configuration
+    openweather_api_key: str = ""
 
 
 settings = Settings()

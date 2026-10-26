@@ -2,37 +2,36 @@
 
 from datetime import datetime, timedelta
 
-from airflow import DAG
+from airflow.operators.bash import BashOperator
+from airflow.utils.trigger_rule import TriggerRule
+
 from airflow.operators.python import PythonOperator
 
-from common.logging import get_logger
+from airflow import DAG 
+from common.logging import get_logger 
 
-
-logger = get_logger(__name__, "airflow_dags.log")
+logger = get_logger(__name__, "airflow_dags.log") 
 
 
 def run_weather_pipeline():
     logger.info("Starting WeatherFlow pipeline task")
 
-    try:
-
-        logger.debug("Importing pipeline.main")
-
+    try: 
         from pipeline.main import main
 
-        logger.debug("Successfully imported pipeline.main")
-        logger.info("Executing WeatherFlow ingestion and PostgreSQL pipeline")
-
+        logger.info("Executing WeatherFlow ingestion and PostgreSQL pipeline") 
         result = main()
 
-        logger.debug("Weather pipeline returned exit code: %s", result)
+        logger.info("Weather pipeline returned exit code: %s", result)
+
+        if result == 2:
+            logger.error(
+                "Weather API outage detected. "
+                "Marking ingestion as failed; dbt will use existing records."
+            )
+            raise RuntimeError("Weather API outage: ingestion failed")
 
         if result != 0:
-            logger.warning(
-                "Weather pipeline returned a non-zero exit code: %s",
-                result,
-            )
-
             raise RuntimeError(
                 f"Weather pipeline failed with exit code {result}"
             )
@@ -42,7 +41,16 @@ def run_weather_pipeline():
 
     except Exception:
         logger.exception("WeatherFlow pipeline task failed")
-        raise  
+        raise
+
+
+
+default_args = {
+    "owner": "weatherflow",
+    "retries": 2,
+    "retry_delay": timedelta(minutes=2),
+}
+
 
 
 with DAG(
@@ -63,3 +71,18 @@ with DAG(
         task_id="run_weather_pipeline",
         python_callable=run_weather_pipeline,
     )
+
+    run_dbt_build = BashOperator(
+        task_id="run_dbt_build",
+        bash_command=(
+            "/home/airflow/dbt-venv/bin/dbt build "
+            "--project-dir /opt/weatherflow/dbt_weatherflow "
+            "--profiles-dir /opt/weatherflow/dbt_weatherflow "
+            "--target dev"
+        ),
+        retries=2,
+        retry_delay=timedelta(minutes=2),
+        trigger_rule=TriggerRule.ALL_DONE,
+    )
+
+    run_pipeline >> run_dbt_build

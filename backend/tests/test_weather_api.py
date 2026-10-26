@@ -2,6 +2,9 @@ from contextlib import contextmanager
 from datetime import date, datetime
 
 import pytest
+from fastapi.testclient import TestClient
+from sqlalchemy.exc import SQLAlchemyError
+
 from app.api.routes import (
     city_comparison,
     current_weather,
@@ -9,8 +12,6 @@ from app.api.routes import (
     trends,
 )
 from app.main import app
-from fastapi.testclient import TestClient
-from sqlalchemy.exc import SQLAlchemyError
 
 client = TestClient(app)
 
@@ -145,9 +146,7 @@ def test_daily_weather(monkeypatch, weather_row):
         FakeEngine([weather_row]),
     )
 
-    response = client.get(
-        "/api/v1/weather/daily?city=Manila"
-    )
+    response = client.get("/api/v1/weather/daily?city=Manila")
 
     assert response.status_code == 200
     assert response.json()["count"] == 1
@@ -156,8 +155,7 @@ def test_daily_weather(monkeypatch, weather_row):
 
 def test_daily_weather_rejects_reversed_dates():
     response = client.get(
-        "/api/v1/weather/daily"
-        "?start_date=2026-10-13&end_date=2026-10-01"
+        "/api/v1/weather/daily?start_date=2026-10-13&end_date=2026-10-01"
     )
 
     assert response.status_code == 422
@@ -170,9 +168,7 @@ def test_weather_trends(monkeypatch, weather_row):
         FakeEngine([weather_row]),
     )
 
-    response = client.get(
-        "/api/v1/weather/trends?city=Manila"
-    )
+    response = client.get("/api/v1/weather/trends?city=Manila")
 
     assert response.status_code == 200
     assert response.json()["count"] == 1
@@ -186,8 +182,7 @@ def test_city_comparison(monkeypatch, weather_row):
     )
 
     response = client.get(
-        "/api/v1/weather/cities/compare"
-        "?sort_by=temperature&order=desc"
+        "/api/v1/weather/cities/compare?sort_by=temperature&order=desc"
     )
 
     assert response.status_code == 200
@@ -199,9 +194,7 @@ def test_city_comparison(monkeypatch, weather_row):
 
 
 def test_city_comparison_rejects_invalid_sort():
-    response = client.get(
-        "/api/v1/weather/cities/compare?sort_by=password"
-    )
+    response = client.get("/api/v1/weather/cities/compare?sort_by=password")
 
     assert response.status_code == 422
 
