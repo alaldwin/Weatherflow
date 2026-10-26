@@ -1,0 +1,31 @@
+{
+  "expo": {
+    "name": "mobile",
+    "slug": "mobile",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "light",
+    "scheme": "weatherflow",
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": { 
+      "predictiveBackGestureEnabled": false
+    },
+    "web": {
+      "bundler": "metro"
+    },
+    "experiments": { "typedRoutes": false },
+    "plugins": [
+      "expo-font",
+      "expo-status-bar",
+      "expo-router",
+      [
+        "expo-location",
+        {
+          "locationWhenInUsePermission": "Allow Weatherflow to use your location to show local weather."
+        }
+      ]
+    ]
+  }
+}
