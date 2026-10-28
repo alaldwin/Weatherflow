@@ -179,6 +179,11 @@ async def get_forecast(
                 "wind_speed": wind.get("speed")
                 if isinstance(wind, dict)
                 else None,
+                "cloudiness": (
+                    item.get("clouds", {}).get("all")
+                    if isinstance(item.get("clouds"), dict)
+                    else None
+                ),
                 "weather_main": weather.get("main"),
                 "weather_description": weather.get("description"),
                 "weather_icon": weather.get("icon"),
@@ -205,12 +210,27 @@ async def get_forecast(
                 "date": date,
                 "temperatures": [],
                 "conditions": [],
+                "humidities": [],
+                "wind_speeds": [],
+                "cloud_coverages": [],
             },
         )
 
         temperature = item.get("temperature")
         if isinstance(temperature, (int, float)):
             daily["temperatures"].append(temperature)
+
+        humidity = item.get("humidity")
+        if isinstance(humidity, (int, float)):
+            daily["humidities"].append(humidity)
+
+        wind_speed = item.get("wind_speed")
+        if isinstance(wind_speed, (int, float)):
+            daily["wind_speeds"].append(wind_speed)
+
+        cloudiness = item.get("cloudiness")
+        if isinstance(cloudiness, (int, float)):
+            daily["cloud_coverages"].append(cloudiness)
 
         if item.get("weather_main"):
             daily["conditions"].append(item["weather_main"])
@@ -220,6 +240,9 @@ async def get_forecast(
     for date, item in sorted(daily_by_date.items()):
         temperatures = item["temperatures"]
         conditions = item["conditions"]
+        humidities = item["humidities"]
+        wind_speeds = item["wind_speeds"]
+        cloud_coverages = item["cloud_coverages"]
 
         daily.append(
             {
@@ -229,6 +252,21 @@ async def get_forecast(
                 "weather_main": (
                     max(set(conditions), key=conditions.count)
                     if conditions
+                    else None
+                ),
+                "humidity": (
+                    round(sum(humidities) / len(humidities), 1)
+                    if humidities
+                    else None
+                ),
+                "wind_speed": (
+                    round(sum(wind_speeds) / len(wind_speeds), 1)
+                    if wind_speeds
+                    else None
+                ),
+                "cloudiness": (
+                    round(sum(cloud_coverages) / len(cloud_coverages), 1)
+                    if cloud_coverages
                     else None
                 ),
             }
