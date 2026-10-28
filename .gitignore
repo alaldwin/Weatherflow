@@ -11,6 +11,7 @@ __pycache__/
 !.env.example
 
 # Generated pipeline data
+data/forecast_cache
 data/raw/
 data/parquet/
 data/state/
@@ -34,3 +35,5 @@ mobile/web-build/
 .DS_Store
 Thumbs.db
 .vscode/
+
+uv.lock
