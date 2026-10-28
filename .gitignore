@@ -1,23 +1,39 @@
-# IDE
-.vscode/
-
-# Python-generated files
+# Python
 __pycache__/
+*.py[cod]
+.venv/
 .pytest_cache/
-*.py[oc]
-*.pyc
+.ruff_cache/
+
+# Environment secrets
+.env
+.env.*
+!.env.example
+
+# Generated pipeline data
+data/forecast_cache
+data/raw/
+data/parquet/
+data/state/
+
+# Application and Airflow logs
+logs/
+*.log
+
+# Python build artifacts
 build/
 dist/
-wheels/
-*.egg-info
+*.egg-info/
 
+# Mobile dependencies and build artifacts
+mobile/node_modules/
+mobile/.expo/
+mobile/dist/
+mobile/web-build/
 
-.env
-.venv/
+# OS/editor files
+.DS_Store
+Thumbs.db
+.vscode/
+
 uv.lock
-
-
-.github/
-
-data/
-logs/

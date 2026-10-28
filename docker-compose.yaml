@@ -155,6 +155,9 @@ services:
     ports:
       - "8000:8000"
 
+    volumes:
+      - ./data/forecast_cache:/app/data/forecast_cache
+
     networks:
       - weatherflow_net
 
