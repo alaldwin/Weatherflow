@@ -1,17 +1,32 @@
+
 from fastapi import APIRouter, HTTPException, Query
 
 from app.core.logging_config import get_logger
-from app.services.openweather import (
-    OpenWeatherError,
-    search_locations,
-)
+from app.services.openweather import OpenWeatherError, search_locations
+from app.services.city_catalog import CITIES
 
 logger = get_logger(__name__, "locations.log")
+router = APIRouter(prefix="/api/v1/locations", tags=["Locations"])
 
-router = APIRouter(
-    prefix="/api/v1/locations",
-    tags=["Locations"],
-)
+
+def search_local_locations(query: str, limit: int = 5) -> list[dict]:
+    """Search the bundled city catalog without requiring internet access."""
+    normalized_query = query.strip().casefold()
+    matches = []
+
+    for name, coordinates in CITIES.items():
+        if normalized_query in name.casefold():
+            matches.append(
+                {
+                    "name": name,
+                    "state": None,
+                    "country": "PH",
+                    "lat": coordinates["latitude"],
+                    "lon": coordinates["longitude"],
+                }
+            )
+
+    return matches[:limit]
 
 
 @router.get("/search")
@@ -19,62 +34,55 @@ async def locations_search(
     q: str = Query(min_length=2, max_length=100),
     limit: int = Query(default=5, ge=1, le=10),
 ):
-    logger.info(
-        "Location search request received",
-        extra={
-            "query": q,
-            "limit": limit,
-        },
-    )
+    query = q.strip()
 
-    try:
-        logger.debug(
-            "Calling OpenWeather geocoding service",
-            extra={
-                "query": q,
-                "limit": limit,
-            },
-        )
+    # Local search always works, even without internet.
+    local_results = search_local_locations(query, limit)
 
-        data = await search_locations(q, limit)
-
+    if local_results:
         logger.info(
-            "Location search completed successfully",
-            extra={
-                "query": q,
-                "result_count": len(data),
-            },
+            "Location search completed using local catalog",
+            extra={"query": query, "result_count": len(local_results)},
         )
+        return {
+            "query": query,
+            "count": len(local_results),
+            "data": local_results,
+            "source": "local",
+        }
 
-        if not data:
-            logger.warning(
-                "Location search returned no results",
-                extra={"query": q},
-            )
+    # Try online geocoding when the local catalog has no match.
+    try:
+        online_results = await search_locations(query, limit)
 
         return {
-            "query": q,
-            "count": len(data),
-            "data": data,
+            "query": query,
+            "count": len(online_results),
+            "data": online_results,
+            "source": "openweather",
         }
 
     except OpenWeatherError as exc:
-        logger.error(
-            "OpenWeather location search failed",
-            extra={
-                "query": q,
-                "error": str(exc),
-            },
+        logger.warning(
+            "Online geocoding unavailable; returning no local matches",
+            extra={"query": query, "error": str(exc)},
         )
 
-        raise HTTPException(
-            status_code=502,
-            detail="Location search service is temporarily unavailable.",
-        ) from exc
+        # Offline searches should not fail with HTTP 502.
+        return {
+            "query": query,
+            "count": 0,
+            "data": [],
+            "source": "local",
+        }
 
-    except Exception:
+    except Exception as exc:
         logger.exception(
-            "Unexpected error during location search",
-            extra={"query": q},
+            "Unexpected location search error",
+            extra={"query": query},
         )
-        raise
+        raise HTTPException(
+            status_code=500,
+            detail="Location search failed unexpectedly.",
+        ) from exc
+ 

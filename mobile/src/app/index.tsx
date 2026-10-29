@@ -20,6 +20,7 @@ import {
   getCurrentWeatherList,
   getCurrentWeatherByCoordinates,
   getForecast,
+  isRequestCancelledError,
   searchLocations,
   type CurrentWeather,
   type LocationResult,
@@ -124,14 +125,13 @@ export default function Index() {
 
           setForecast(result);
         } catch (err) {
-          setForecast(null);
-          setForecastError(
-            err instanceof Error
-              ? err.message
-              : "Unable to load the forecast."
-          );
+          setForecast(null); 
         }
       } catch (err) {
+        if (isRequestCancelledError(err)) {
+          return;
+        }
+
         setError(
           err instanceof Error
             ? err.message
@@ -173,6 +173,10 @@ export default function Index() {
       setLocationError("No matching locations found.");
     }
   } catch (err) {
+    if (isRequestCancelledError(err)) {
+      return;
+    }
+
     setLocationResults([]);
     setLocationError(
       err instanceof Error
@@ -217,6 +221,10 @@ const handleSelectLocation = async (location: LocationResult) => {
       const result = await getForecast(latitude, longitude, 5);
       setForecast(result);
     } catch (err) {
+      if (isRequestCancelledError(err)) {
+        return;
+      }
+
       setForecastError(
         err instanceof Error
           ? err.message
@@ -224,6 +232,14 @@ const handleSelectLocation = async (location: LocationResult) => {
       );
     }
   } catch (err) {
+    if (isRequestCancelledError(err)) {
+      return;
+    }
+
+    if (isRequestCancelledError(err)) {
+      return;
+    }
+
     setLocationError(
       err instanceof Error
         ? err.message
@@ -242,6 +258,15 @@ const handleUseMyLocation = async () => {
   setForecastError(null);
 
   try {
+    const servicesEnabled = await Location.hasServicesEnabledAsync();
+
+    if (!servicesEnabled) {
+      setLocationMessage(
+        "Location services are disabled on this device/emulator. Search for a city or enable GPS and try again."
+      );
+      return;
+    }
+
     const permission = await Location.requestForegroundPermissionsAsync();
 
     if (permission.status !== "granted") {
@@ -251,9 +276,28 @@ const handleUseMyLocation = async () => {
       return;
     }
 
-    const position = await Location.getCurrentPositionAsync({
-      accuracy: Location.Accuracy.Balanced,
+    console.log("[GPS] Services enabled:", servicesEnabled);
+    console.log("[GPS] Permission:", permission.status);
+    console.log("[GPS] Permission details:", permission); 
+
+    let position = await Location.getLastKnownPositionAsync({
+      maxAge: 5 * 60 * 1000,
+      requiredAccuracy: 1000,
     });
+
+    console.log("[GPS] Last known position:", position);
+
+    if (!position) {
+
+      console.log("[GPS] No cached position; requesting current location...");
+
+      position = await Location.getCurrentPositionAsync({
+        accuracy: Location.Accuracy.Balanced,
+        timeInterval: 1000,
+      });
+    }
+
+    console.log("[GPS] Current position:", position);
 
     const { latitude, longitude } = position.coords;
 
@@ -278,10 +322,22 @@ const handleUseMyLocation = async () => {
       );
     }
   } catch (err) {
-    setLocationMessage(
+    console.error("[GPS] Failed to get current location:", err);
+
+    const message =
       err instanceof Error
         ? err.message
-        : "Unable to determine your current location."
+        : "Unable to determine your current location.";
+
+    if (/current location is unavailable|location services are enabled|location services are disabled|timeout/i.test(message)) {
+      setLocationMessage(
+        "GPS is unavailable on this emulator/device right now. You can search for a city manually instead."
+      );
+      return;
+    }
+
+    setLocationMessage(
+      `Location error: ${message}`
     );
   } finally {
     setLocating(false);
