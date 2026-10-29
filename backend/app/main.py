@@ -75,8 +75,13 @@ app.add_middleware(
     allow_origins=[
         "http://localhost:8081",
         "http://127.0.0.1:8081",
+        "http://10.0.2.2:8081",
         "http://localhost:19006",
         "http://127.0.0.1:19006",
+        "http://10.0.2.2:19006",
+        "http://localhost:8000",
+        "http://127.0.0.1:8000",
+        "http://10.0.2.2:8000",
     ],
     allow_credentials=False,
     allow_methods=["*"],
@@ -385,3 +390,9 @@ def database_health_check():
                 "message": "The database is currently unavailable.",
             },
         )
+
+
+if __name__ == "__main__":
+    import uvicorn
+
+    uvicorn.run("app.main:app", host="0.0.0.0", port=8000, reload=True)

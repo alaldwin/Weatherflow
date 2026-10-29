@@ -91,38 +91,48 @@ export type WeatherForecast = {
 };
 
 
+
+export function isRequestCancelledError(error: unknown): boolean {
+  return (
+    error instanceof Error &&
+    (error.name === "AbortError" ||
+      /canceled|cancelled|aborted/i.test(error.message))
+  );
+}
+
 async function request<T>(
   path: string,
-  timeoutMs = 15000
+  timeoutMs = 60000
 ): Promise<T> {
   const controller = new AbortController();
   const timeout = setTimeout(() => controller.abort(), timeoutMs);
+  const url = `${env.API_BASE_URL}${path}`;
 
   try {
-    const response = await fetch(
-      `${env.API_BASE_URL}${path}`,
-      {
-        method: "GET",
-        headers: {
-          Accept: "application/json",
-        },
-        signal: controller.signal,
-      }
-    );
+    console.log("[Weather API] GET", url);
+
+    const response = await fetch(url, {
+      method: "GET",
+      headers: {
+        Accept: "application/json",
+      },
+    });
+
+    console.log("[Weather API] Response", response.status, url);
 
     if (!response.ok) {
       const body = await response.text();
       throw new Error(
-        `Weather API error ${response.status}: ${
-          body || response.statusText
-        }`
+        `Weather API error ${response.status}: ${body || response.statusText}`
       );
     }
 
     return (await response.json()) as T;
   } catch (error) {
-    if (error instanceof Error && error.name === "AbortError") {
-      throw new Error("Weather request timed out. Please try again.");
+    console.error("[Weather API] Request failed", url, error);
+
+    if (isRequestCancelledError(error)) {
+      throw new Error("Weather request was canceled. Please try again.");
     }
 
     throw error;
@@ -130,6 +140,7 @@ async function request<T>(
     clearTimeout(timeout);
   }
 }
+
 
 function queryString(
   params: Record<string, string | number | undefined>
@@ -253,6 +264,9 @@ export async function searchLocations(
         `/api/v1/locations/search${queryString({ q, limit })}`
     );
 
+    console.log("[Location Search] Query:", q);
+    console.log("[Location Search] Raw response:", JSON.stringify(response));
+
     // Accommodate common response envelopes until the exact
     // location-search response schema is confirmed.
     if (Array.isArray(response)) {
@@ -260,14 +274,15 @@ export async function searchLocations(
     }
 
     if (response && typeof response === "object") {
-        const data = response as Record<string, unknown>;
+      const data = response as Record<string, unknown>;
+      const results = data.data ?? data.results ?? data.locations;
 
-        for (const key of ["data", "results", "locations"]) {
-        if (Array.isArray(data[key])) {
-            return data[key] as LocationResult[];
-        }
-        }
+      if (Array.isArray(results)) {
+        console.log("[Location Search] Parsed results:", results.length);
+        return results as LocationResult[];
+      }
     }
 
+    console.warn("[Location Search] Unexpected response format");
     return [];
-    }
+  }
