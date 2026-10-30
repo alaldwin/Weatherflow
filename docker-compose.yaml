@@ -6,7 +6,7 @@ services:
     build:
       context: .
       dockerfile: pipeline/Dockerfile
-    image: weatherflow:local
+    image: pipeline:local
 
     env_file:
       - .env
@@ -69,6 +69,8 @@ services:
     build:
       context: .
       dockerfile: airflow/Dockerfile
+
+    image: airflow:local
 
     container_name: wf-airflow
     
@@ -136,7 +138,7 @@ services:
       context: . 
       dockerfile: backend/Dockerfile
 
-    image: weatherflow-backend:local
+    image: backend:local
 
     container_name: wf-backend
 

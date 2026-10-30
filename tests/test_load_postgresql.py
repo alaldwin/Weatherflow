@@ -268,7 +268,21 @@ def test_append_mode_adds_missing_columns(sqlite_engine):
     assert humidity == 70
 
 
-def test_weather_table_append_adds_new_schema_columns(sqlite_engine):
+def test_canonical_weather_table_is_rejected(sqlite_engine):
+    df = pl.DataFrame(
+        {
+            "city": ["Manila"],
+            "observation_time": [datetime.now(timezone.utc)],
+            "source": ["openweather"],
+            "temperature": [32.21],
+        }
+    )
+
+    with pytest.raises(ValueError, match="deprecated"):
+        load_postgresql(df, WEATHER_TABLE, engine=sqlite_engine, if_exists="append")
+
+
+def test_city_scoped_weather_table_append_adds_new_schema_columns(sqlite_engine):
     first = pl.DataFrame(
         {
             "city": ["Manila"],
@@ -286,14 +300,15 @@ def test_weather_table_append_adds_new_schema_columns(sqlite_engine):
             "new_metric": [7.5],
         }
     )
+    table_name = "openweather_manila"
 
-    load_postgresql(first, WEATHER_TABLE, engine=sqlite_engine, if_exists="append")
-    load_postgresql(second, WEATHER_TABLE, engine=sqlite_engine, if_exists="append")
+    load_postgresql(first, table_name, engine=sqlite_engine, if_exists="append")
+    load_postgresql(second, table_name, engine=sqlite_engine, if_exists="append")
 
     with sqlite_engine.connect() as connection:
-        columns = {column["name"] for column in inspect(connection).get_columns(WEATHER_TABLE)}
+        columns = {column["name"] for column in inspect(connection).get_columns(table_name)}
         new_metric = connection.execute(
-            text(f'SELECT "new_metric" FROM "{WEATHER_TABLE}" WHERE "new_metric" IS NOT NULL')
+            text(f'SELECT "new_metric" FROM "{table_name}" WHERE "new_metric" IS NOT NULL')
         ).scalar_one()
 
     assert "new_metric" in columns
