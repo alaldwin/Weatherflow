@@ -3,7 +3,7 @@ FROM apache/airflow:slim-2.10.5-python3.12
 
 USER airflow
 
-COPY requirements.txt /tmp/requirements.txt
+COPY airflow/requirements.txt /tmp/requirements.txt
 
 # Install the existing Weatherflow pipeline dependencies.
 RUN pip install --no-cache-dir \

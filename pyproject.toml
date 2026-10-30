@@ -8,7 +8,7 @@ dependencies = [
     "dbt-postgres>=1.11.0",
     "httpx2>=2.13.1",
     "polars>=1.44.2",
-    "psycopg2-binary>=2.9.13",
+    "psycopg2-binary==2.9.10",
     "psycopg[binary]>=3.3.6",
     "pytest>=9.1.1",
     "python-dotenv>=1.2.3",

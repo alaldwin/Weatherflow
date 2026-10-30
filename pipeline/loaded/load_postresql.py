@@ -50,18 +50,9 @@ VALID_IF_EXISTS = ("replace", "append", "fail",)
 # Fresh runs should replace stale rows; append is still supported for explicit schema-evolution loads.
 DEFAULT_IF_EXISTS = "append"
 
-"""
- Canonical PostgreSQL table names.
-
- IMPORTANT:
- Do not create:
-   openweather_manila
-   openweather_cebu_city
-   geocoding_manila
-
- Use these two tables instead.
-"""
-
+# The project currently uses per-city source tables (for example, openweather_manila).
+# The canonical shared tables below are kept only as deprecated compatibility aliases,
+# but they are not part of the active pipeline flow.
 LOCATIONS_TABLE = "locations"
 WEATHER_TABLE = "weather_observations"
 
@@ -852,22 +843,14 @@ def load_postgresql(
         raise ValueError(f"Unsupported if_exists value: {if_exists!r}")
 
     legacy_prefixes = ("openweather_", "geocoding_", "weather_")
-    if table_name.startswith(legacy_prefixes) or table_name not in {LOCATIONS_TABLE, WEATHER_TABLE}:
-        return _load_legacy_table(df, table_name, if_exists=if_exists, engine=engine)
 
-    # Canonical table routing
-    if table_name == LOCATIONS_TABLE:
-        return load_locations(_coerce_data_frame(df), engine=engine)
+    if table_name in {LOCATIONS_TABLE, WEATHER_TABLE}:
+        raise ValueError(
+            f"Canonical table '{table_name}' is deprecated for this project. "
+            "Use the city-scoped source tables instead, such as 'openweather_manila' or 'geocoding_manila'."
+        )
 
-    if table_name == WEATHER_TABLE:
-        return load_weather_observations(_coerce_data_frame(df), engine=engine)
-
-    raise ValueError(
-        f"Unsupported PostgreSQL table "
-        f"'{table_name}'. "
-        f"Use '{LOCATIONS_TABLE}' or "
-        f"'{WEATHER_TABLE}'."
-    )
+    return _load_legacy_table(df, table_name, if_exists=if_exists, engine=engine)
 
 
 
@@ -893,7 +876,7 @@ def load_parquet_to_postgresql(
 
 def load_all_parquet_to_postgresql(
     parquet_dir: str | os.PathLike[str],
-    table_name: str = WEATHER_TABLE,
+    table_name: str = "openweather_all",
     if_exists: str | None = None,
     engine: Engine | None = None,
     schema: str | None = None,
