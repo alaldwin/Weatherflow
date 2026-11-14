@@ -4,21 +4,6 @@ An end-to-end data engineering project that collects current weather data for ei
 
 The project uses Docker to containerize services, Apache Airflow to orchestrate scheduled ingestion, and dbt to transform source tables into staging, intermediate, and mart models.
 
-## Table of Contents
-
-- [Project Overview](#project-overview)
-- [Architecture](#architecture)
-- [Technology Stack](#technology-stack)
-- [Data Sources](#data-sources)
-- [Project Structure](#project-structure)
-- [Database Design](#database-design)
-- [How to Run the Project](#how-to-run-the-project)
-- [How to Run dbt](#how-to-run-dbt)
-- [Querying PostgreSQL](#querying-postgresql)
-- [Scheduling with Airflow](#scheduling-with-airflow)
-- [Known Issues and Improvements](#known-issues-and-improvements)
-- [Troubleshooting](#troubleshooting)
-- [Future Improvements](#future-improvements)
 
 ## Project Overview
 
@@ -37,6 +22,7 @@ The pipeline performs the following operations:
 9. Uses dbt to build staging, intermediate, and analytics mart models.
 
 **Project goal:** Build a practical, containerized data pipeline that demonstrates API ingestion, data validation, incremental processing, database loading, workflow orchestration, and analytics modeling.
+
 
 ## Architecture
 
@@ -93,16 +79,17 @@ Apache Airflow orchestrates the Python ingestion pipeline on a schedule. Docker 
 
 ## Technology Stack
 
-- **Python** — API ingestion and pipeline logic
-- **OpenWeather API** — current weather and geocoding data
-- **Polars** — DataFrame transformations
-- **JSON** — raw API response storage
-- **Parquet** — processed columnar data storage
-- **PostgreSQL** — persistent relational database
-- **Apache Airflow** — scheduling, task execution, retries, and monitoring
-- **dbt** — SQL-based data transformations and analytics models
-- **Docker and Docker Compose** — containerized services
-- **uv** — Python dependency and environment management for local development
+- **Python**
+- **OpenWeather API**
+- **Polars**
+- **JSON**
+- **Parquet**
+- **PostgreSQL**
+- **Apache Airflow**
+- **dbt**
+- **React Native**
+- **Docker and Docker Compose**
+- **uv**
 
 ## Data Sources
 
@@ -210,6 +197,8 @@ weatherflow/
 ```
 
 Some directories may differ depending on your latest implementation. For example, your PostgreSQL loader currently uses the filename `load_postresql.py`; rename it only if you also update every import that references it.
+
+
 
 ## Database Design
 
@@ -348,17 +337,7 @@ UNION ALL
 SELECT 'Quezon City', COUNT(*) FROM public.openweather_quezon_city
 UNION ALL
 SELECT 'Cebu City', COUNT(*) FROM public.openweather_cebu_city
-UNION ALL
-SELECT 'Davao City', COUNT(*) FROM public.openweather_davao_city
-UNION ALL
-SELECT 'Baguio', COUNT(*) FROM public.openweather_baguio
-UNION ALL
-SELECT 'Iloilo City', COUNT(*) FROM public.openweather_iloilo_city
-UNION ALL
-SELECT 'Cagayan de Oro', COUNT(*) FROM public.openweather_cagayan_de_oro
-UNION ALL
-SELECT 'Zamboanga City', COUNT(*) FROM public.openweather_zamboanga_city;
-"
+....
 ```
 
 The counts should increase when genuinely new observations are loaded. A successful pipeline run does not guarantee that every table receives a new row, because unchanged observations may be skipped.
@@ -513,6 +492,8 @@ Airflow retries a failed task according to the DAG settings. For safe retries, d
 
 **Recommended fix:** Add tests for API response handling, missing fields, invalid timestamps, duplicate observations, PostgreSQL upserts, and state updates. Add dbt tests for non-null columns, accepted values, and uniqueness where appropriate.
 
+
+
 ## Troubleshooting
 
 | Problem | What to check |
@@ -529,20 +510,4 @@ Airflow retries a failed task according to the DAG settings. For safe retries, d
 
 **Important:** Avoid `docker compose down -v` unless you intentionally want to delete named volumes. It can erase the containerized database and its loaded records.
 
-## Future Improvements
-
-- Implement idempotent PostgreSQL upserts for weather observations and geocoding records.
-- Add data quality checks and dbt tests.
-- Monitor pipeline freshness, success rates, and API failures.
-- Add structured logs and alerting for failed Airflow runs.
-- Containerize dbt separately from Airflow.
-- Build a FastAPI backend to serve analytics from the dbt marts.
-- Build a React Native mobile application for current weather, daily summaries, and city comparisons.
-- Add CI checks for Python tests, SQL models, and Docker image builds.
-
-## Project Status
-
-WeatherFlow has a working Python ingestion path for the configured cities, with JSON and Parquet storage, PostgreSQL loading, an Airflow DAG, and dbt models under development.
-
-The next reliability priorities are **idempotent database writes, duplicate-safe geocoding, and verification of scheduled Airflow task runs**.
 
